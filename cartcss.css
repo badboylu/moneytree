@@ -1,0 +1,188 @@
+.plugproducts{
+    margin-top: 20px;
+}
+.plugcontainer{
+    max-width: 760px;
+    justify-content: space-around;
+    margin: 0 auto;
+    float: initial;
+}
+.plugheader{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+}
+.plugfooter{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+}
+.plugtitleproduct{
+    width: 40%;
+    padding-left: 10%;
+}
+.plugtitleprice{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.plugtitlequantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.plugtitletotal{
+    width: 0%;
+    display: flex;
+    align-items: center;
+}
+.DPcontainer{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainer > li {
+    display: inline-block;
+
+}
+.DPcontainer1{
+    width: 100px;
+}
+.DPcontainer2{
+    padding-left: 5%;
+}
+.DPcontainer3{
+    padding-left: 20%;
+}
+.quantitygrams{
+    padding-left: 80%;
+}
+.totalcart{
+    padding-left: 100%;
+}
+.Rands{
+    float: right;
+    padding-left: 170px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+    
+.centre{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
+.DPcontainerCC{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainerCC > li {
+    display: inline-block;
+
+}
+.DPcontainer1CC{
+    width: 100px;
+}
+.DPcontainer2CC{
+    padding-left: 5%;
+}
+.DPcontainer3CC{
+    padding-left: 100%;
+}
+.quantitygramsCC{
+    padding-left: 150%;
+}
+.totalcartCC{
+    padding-left: 100%;
+}
+.RandsCC{
+    float: right;
+    padding-left: 233px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+    
+.centreCC{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
+.DPcontainerOC{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainerOC > li {
+    display: inline-block;
+
+}
+.DPcontainer1OC{
+    width: 100px;
+}
+.DPcontainer2OC{
+    padding-left: 5%;
+}
+.DPcontainer3OC{
+    padding-left: 20%;
+}
+.quantitygramsOC{
+    padding-right: 0%;
+}
+.totalcartOC{
+    padding-left: 100%;
+}
+.RandsOC{
+    float: right;
+    padding-left: 160px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+    
+.centreOC{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
