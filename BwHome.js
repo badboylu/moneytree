@@ -1,5 +1,5 @@
 const cartshomeBW = document.querySelectorAll('.BluntWrapHome');
-var priceHomeBW = 70;
+var priceHomeBW = 60;
 
 cartshomeBW.forEach(BluntWrapHome =>{
     BluntWrapHome.addEventListener('click', () => {
