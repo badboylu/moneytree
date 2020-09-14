@@ -36,9 +36,9 @@ function addGramsNumbersHomeBW() {
         let gramsNumberaddHomeBW = localStorage.getItem('PacksBW'); 
         gramsNumberaddHomeBW = parseInt(gramsNumberaddHomeBW);
                if(gramsNumberaddHomeBW) {
-                localStorage.setItem('PacksBW', gramsNumberaddHomeBW + 5);
+                localStorage.setItem('PacksBW', gramsNumberaddHomeBW + 1);
                }else{
-                localStorage.setItem('PacksBW', 5);
+                localStorage.setItem('PacksBW', 1);
                }
 }
 
