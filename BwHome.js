@@ -5,7 +5,6 @@ cartshomeBW.forEach(BluntWrapHome =>{
     BluntWrapHome.addEventListener('click', () => {
                 cartNumbersBW();
                 addGramsNumbersHomeBW();
-                reloadHomeBW();
                 totalCostHomeBW(priceHome);  
                 displaytotalpriceHomeBW();
                 
