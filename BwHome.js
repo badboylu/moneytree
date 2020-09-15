@@ -5,7 +5,7 @@ cartshomeBW.forEach(BluntWrapHome =>{
     BluntWrapHome.addEventListener('click', () => {
                 cartNumbersBW();
                 addGramsNumbersHomeBW();
-                totalCostHomeBW(priceHome);  
+                totalCostHomeBW(priceHomeBW);  
                 displaytotalpriceHomeBW();
                 
 
@@ -13,12 +13,7 @@ cartshomeBW.forEach(BluntWrapHome =>{
 }
 )
 
-function onloadCartNumbersHomeBW (){
-        let productNumbersHomeBW = localStorage.getItem('cartNumberBW');
-        if(productNumbersHomeBW in localStorage){
-                document.querySelector('.basel-cart-number').textContent = parseInt(productNumbersHomeBW);
-        };  
-}
+
 function cartNumbersBW() {
         
         let productNumbersHomeBW = localStorage.getItem('cartNumberBW'); 
@@ -74,7 +69,6 @@ setInterval(function hideDpButtonHomecartBW(){
     },1000)
 
 
-hideDpButtonHomeBW();
-onloadCartNumbersHomeBW ();
+
 hideDpButtonHomeBW();
 hideDpButtonHomecartBW();
