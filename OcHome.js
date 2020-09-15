@@ -5,7 +5,6 @@ cartshomeOC.forEach(OrangeCaliHome =>{
     OrangeCaliHome.addEventListener('click', () => {
                 cartNumbersOC();
                 addGramsNumbersHomeOC();
-                reloadHomeOC();
                 totalCostHomeOC(priceHomeOC);  
                 displaytotalpriceHomeOC();
                 
@@ -35,11 +34,6 @@ function addGramsNumbersHomeOC() {
                }else{
                 localStorage.setItem('GramsOC', 5);
                }
-}
-
-
-function reloadHomeOC(){
-    location.reload();
 }
 
 function totalCostHomeOC(priceHomeOC) {
