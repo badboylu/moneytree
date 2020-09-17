@@ -5,7 +5,6 @@ cartshome.forEach(DurbanPoisonHome =>{
         DurbanPoisonHome.addEventListener('click', () => {
                 cartNumbers();
                 addGramsNumbersHome();
-                reloadHome();
                 totalCostHome(priceHome);  
                 displaytotalpriceHome();
                 
@@ -41,11 +40,6 @@ function addGramsNumbersHome() {
                }else{
                 localStorage.setItem('GramsDP', 5);
                }
-}
-
-
-function reloadHome(){
-    location.reload();
 }
 
 function totalCostHome(priceHome) {
