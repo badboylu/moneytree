@@ -7,6 +7,7 @@ cartshomeOC.forEach(OrangeCaliHome =>{
                 addGramsNumbersHomeOC();
                 totalCostHomeOC(priceHomeOC);  
                 displaytotalpriceHomeOC();
+                reloadHomeOC();
                 
 
 })
@@ -48,6 +49,10 @@ function displaytotalpriceHomeOC() {
         pricetotalHomeOC = parseInt(pricetotalHomeOC);
         let totalAmountHomeOC = pricetotalHomeOC * gramsnumberHomeOC;
         localStorage.setItem('totalAmountOC', totalAmountHomeOC);
+}
+
+function reloadHomeOC(){
+    location.reload
 }
 
 setInterval (function hideDpButtonHomeOC(){
