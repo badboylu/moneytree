@@ -7,7 +7,6 @@ cartshomeOC.forEach(OrangeCaliHome =>{
                 addGramsNumbersHomeOC();
                 totalCostHomeOC(priceHomeOC);  
                 displaytotalpriceHomeOC();
-                reloadHomeOC();
                 
 
 })
@@ -51,14 +50,8 @@ function displaytotalpriceHomeOC() {
         localStorage.setItem('totalAmountOC', totalAmountHomeOC);
 }
 
-function reloadHomeOC(){
-    location.reload
-}
-
 setInterval (function hideDpButtonHomeOC(){
-        let reloadOC = localStorage.getItem('GramsOC'); 
-        reloadOC = parseInt(reloadOC);
-    if (reloadOC){
+    if ("GramsOC" in localStorage){
     document.getElementById("OcHome").style.display = "none";
 }else{
     document.getElementById("OcHome").style.display = "block";
@@ -66,9 +59,7 @@ setInterval (function hideDpButtonHomeOC(){
 },1000)
 
 setInterval (function hideDpButtonHomecartOC(){
-     let reloadOC1 = localStorage.getItem('GramsOC'); 
-        reloadOC1 = parseInt(reloadOC1);
-        if (reloadOC1){
+        if ("GramsOC" in localStorage){
         document.getElementById("OcHomecart").style.display = "block";
     }else{
         document.getElementById("OcHomecart").style.display = "none";
@@ -77,4 +68,6 @@ setInterval (function hideDpButtonHomecartOC(){
 
 
 hideDpButtonHomeOC();
+hideDpButtonHomeOC();
+hideDpButtonHomecartOC();
 hideDpButtonHomecartOC();
