@@ -5,7 +5,6 @@ cartshomeCC.forEach(cannacapsHome =>{
         cannacapsHome.addEventListener('click', () => {
                 cartNumbersCC();
                 addGramsNumbersHomeCC();
-                reloadHomeCC();
                 totalCostHomeCC(priceHomeCC);  
                 displaytotalpriceHomeCC();
                 
@@ -14,12 +13,7 @@ cartshomeCC.forEach(cannacapsHome =>{
 }
 )
 
-function onloadCartNumbersHomeCC (){
-        let productNumbersHomeCC = localStorage.getItem('cartNumberCC');
-        if(productNumbersHomeCC in localStorage){
-                document.querySelector('.basel-cart-numberCC').textContent = parseInt(productNumbersHomeCC);
-        };  
-}
+
 function cartNumbersCC() {
         
         let productNumbersHomeCC = localStorage.getItem('cartNumberCC'); 
@@ -44,10 +38,6 @@ function addGramsNumbersHomeCC() {
 }
 
 
-function reloadHomeCC(){
-    location.reload();
-}
-
 function totalCostHomeCC(priceHomeCC) {
         console.log('The product price is', priceHome);
         localStorage.setItem('totalCostCC', priceHomeCC);
@@ -64,24 +54,23 @@ function displaytotalpriceHomeCC() {
         localStorage.setItem('totalAmountCC', totalAmountHomeCC);
 }
 
-function hideDpButtonHomeCC(){
+setInterval (function hideDpButtonHomeCC(){
     if ("BatchCC" in localStorage){
     document.getElementById("CcHome").style.display = "none";
 }else{
     document.getElementById("CcHome").style.display = "block";
 }
-}
+},1000)
 
-function hideCcButtonHomecart(){
+setInterval (function hideCcButtonHomecart(){
         if ("BatchCC" in localStorage){
         document.getElementById("CcHomecart").style.display = "block";
     }else{
         document.getElementById("CcHomecart").style.display = "none";
     }
-    }
+    },1000)
 
 
-hideDpButtonHomeCC();
-onloadCartNumbersHomeCC();
+
 hideDpButtonHomeCC();
 hideCcButtonHomecart();
