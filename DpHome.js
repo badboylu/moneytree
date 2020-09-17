@@ -7,6 +7,7 @@ cartshome.forEach(DurbanPoisonHome =>{
                 addGramsNumbersHome();
                 totalCostHome(priceHome);  
                 displaytotalpriceHome();
+                reloadHomeDP();
                 
 
 })
@@ -55,6 +56,10 @@ function displaytotalpriceHome() {
         pricetotalHome = parseInt(pricetotalHome);
         let totalAmountHome = pricetotalHome * gramsnumberHome;
         localStorage.setItem('totalAmountDP', totalAmountHome);
+}
+
+function reloadHomeDP(){
+    location.reload();
 }
 
 setInterval(function hideDpButtonHome(){
