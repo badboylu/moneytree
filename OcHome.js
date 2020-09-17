@@ -51,7 +51,9 @@ function displaytotalpriceHomeOC() {
 }
 
 setInterval (function hideDpButtonHomeOC(){
-    if ("GramsOC" in localStorage){
+        let reloadOC = localStorage.getItem('GramsOC'); 
+        reloadOC = parseInt(reloadOC);
+    if (reloadOC){
     document.getElementById("OcHome").style.display = "none";
 }else{
     document.getElementById("OcHome").style.display = "block";
@@ -59,7 +61,9 @@ setInterval (function hideDpButtonHomeOC(){
 },1000)
 
 setInterval (function hideDpButtonHomecartOC(){
-        if ("GramsOC" in localStorage){
+     let reloadOC1 = localStorage.getItem('GramsOC'); 
+        reloadOC1 = parseInt(reloadOC1);
+        if (reloadOC1){
         document.getElementById("OcHomecart").style.display = "block";
     }else{
         document.getElementById("OcHomecart").style.display = "none";
