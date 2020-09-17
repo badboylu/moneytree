@@ -7,19 +7,14 @@ cartshome.forEach(DurbanPoisonHome =>{
                 addGramsNumbersHome();
                 totalCostHome(priceHome);  
                 displaytotalpriceHome();
-                reloadHomeDP();
+                
                 
 
 })
 }
 )
 
-function onloadCartNumbersHome (){
-        let productNumbersHome = localStorage.getItem('cartNumberDP');
-        if(productNumbersHome in localStorage){
-                document.querySelector('.basel-cart-number').textContent = parseInt(productNumbersHome);
-        };  
-}
+
 function cartNumbers() {
         
         let productNumbersHome = localStorage.getItem('cartNumberDP'); 
@@ -79,7 +74,6 @@ setInterval(function hideDpButtonHomecart(){
     },1000)
 
 
-hideDpButtonHome();
-onloadCartNumbersHome ();
+
 hideDpButtonHome();
 hideDpButtonHomecart();
