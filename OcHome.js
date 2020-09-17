@@ -50,21 +50,21 @@ function displaytotalpriceHomeOC() {
         localStorage.setItem('totalAmountOC', totalAmountHomeOC);
 }
 
-function hideDpButtonHomeOC(){
+setInterval (function hideDpButtonHomeOC(){
     if ("GramsOC" in localStorage){
     document.getElementById("OcHome").style.display = "none";
 }else{
     document.getElementById("OcHome").style.display = "block";
 }
-}
+},1000)
 
-function hideDpButtonHomecartOC(){
+setInterval (function hideDpButtonHomecartOC(){
         if ("GramsOC" in localStorage){
         document.getElementById("OcHomecart").style.display = "block";
     }else{
         document.getElementById("OcHomecart").style.display = "none";
     }
-    }
+    },1000)
 
 
 hideDpButtonHomeOC();
