@@ -129,7 +129,7 @@ setInterval (function displaytotalpriceBW() {
         let pricetotalBW = localStorage.getItem('totalCostBW');
         pricetotalBW = parseInt(pricetotalBW);
         let totalAmountBW = pricetotalBW * gramsnumberBW;
-        localStorage.setItem('totalAmountDP', totalAmountBW);}
+        localStorage.setItem('totalAmountBW', totalAmountBW);}
 }, 1000);
 
 setInterval  (function checkBW(){
