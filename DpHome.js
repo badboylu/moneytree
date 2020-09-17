@@ -53,10 +53,6 @@ function displaytotalpriceHome() {
         localStorage.setItem('totalAmountDP', totalAmountHome);
 }
 
-function reloadHomeDP(){
-    location.reload();
-}
-
 setInterval(function hideDpButtonHome(){
     if ("GramsDP" in localStorage){
     document.getElementById("DpHome").style.display = "none";
