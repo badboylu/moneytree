@@ -25,7 +25,16 @@ setInterval (function emptycartOC(){
     }
 }, 1000);
 
-function clearDP(){
+setInterval (function emptycartBW(){
+    let cartcheck = localStorage.getItem('cartNumberBW')
+        if (cartcheck === null){
+		document.getElementById("BWempty").style.display = "none";
+	}else{
+        document.getElementById("BWempty").style.display = "block";
+    }
+}, 1000);
+
+setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
         if (cartcheck = 0){
@@ -34,7 +43,7 @@ function clearDP(){
         localStorage.removeItem('totalCostDP');
         localStorage.removeItem('totalAmountDP');
 	}
-}
+},1000);
 
 setInterval (function clearCC(){
     let cartcheck = localStorage.getItem('BatchCC')
@@ -56,9 +65,21 @@ setInterval (function clearOC(){
 	}
 }, 1000);
 
+setInterval (function clearBW(){
+    let cartcheck = localStorage.getItem('PacksBW')
+        if (cartcheck = 0){
+        localStorage.removeItem('cartNumberBW');
+        localStorage.removeItem('PacksBW');
+        localStorage.removeItem('totalCostBW');
+        localStorage.removeItem('totalAmountBW');
+	}
+}, 1000);
+
 emptycartDP();
 emptycartOC();
 emptycartCC();
+emptycartBW();
 clearDP();
 clearCC();
 clearOC();
+clearBW();
