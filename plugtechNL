@@ -116,54 +116,51 @@ function minusGramsNumbersNL() {
 setInterval (function onloaddisplaytotalpriceNL (){
         let displayedtotalNL = localStorage.getItem('totalAmountNL');
         if(displayedtotalNL){
-                document.querySelector('.totalcart').textContent = displayedtotal;
+                document.querySelector('.totalcartNL').textContent = displayedtotalNL;
         }; 
 }, 1000);
 
-setInterval (function displaytotalprice() {
-        let checkDP1 = localStorage.getItem('GramsDP')
-        checkDP1 = parseInt(checkDP1);
-        if (checkDP1){
-        let gramsnumber = localStorage.getItem('GramsDP');
-        gramsnumber = parseInt(gramsnumber);
-        let pricetotal = localStorage.getItem('totalCostDP');
-        pricetotal = parseInt(pricetotal);
-        let totalAmount = pricetotal * gramsnumber;
-        localStorage.setItem('totalAmountDP', totalAmount);}
+setInterval (function displaytotalpriceNL() {
+        let checkNL1 = localStorage.getItem('GramsNL')
+        checkNL1 = parseInt(checkNL1);
+        if (checkNL1){
+        let gramsnumberNL = localStorage.getItem('GramsNL');
+        gramsnumberNL = parseInt(gramsnumberNL);
+        let pricetotalNL = localStorage.getItem('totalCostNL');
+        pricetotalNL = parseInt(pricetotalNL);
+        let totalAmountNL = pricetotalNL * gramsnumberNL;
+        localStorage.setItem('totalAmountNL', totalAmountNL);}
 }, 1000);
 
-setInterval  (function check(){
-        let checkDP = localStorage.getItem('GramsDP')
-        checkDP = parseInt(checkDP);
-        if (checkDP){
-                displaytotalprice();
+setInterval  (function checkNL(){
+        let checkNL = localStorage.getItem('GramsNL')
+        checkNL = parseInt(checkNL);
+        if (checkNL){
+                displaytotalpriceNL();
         }else{
-                localStorage.removeItem("totalAmountDP");
+                localStorage.removeItem("totalAmountNL");
         }
 }, 1000);
 
-function reload(){
-        location.reload();
-}
 
-setInterval (function reset(){
-        let checkgrams = localStorage.getItem("GramsDP");
-        checkgrams = parseInt(checkgrams);
-        if(checkgrams < 1){
-                localStorage.removeItem("GramsDP");
-                localStorage.removeItem("totalAmountDP");
-                localStorage.removeItem("totalCostDP");
-                localStorage.removeItem("cartNumberDP");
+setInterval (function resetNL(){
+        let checkgramsNL = localStorage.getItem("GramsNL");
+        checkgramsNL = parseInt(checkgramsNL);
+        if(checkgramsNL < 1){
+                localStorage.removeItem("GramsNL");
+                localStorage.removeItem("totalAmountNL");
+                localStorage.removeItem("totalCostNL");
+                localStorage.removeItem("cartNumberNL");
         }
 
 }, 1000);
 
-onloadgrams ();
-check();
-onloaddisplaytotalprice ();
-onclick();
-onclickgrams();
-reset();
+onloadgramsNL ();
+checkNL();
+onloaddisplaytotalpriceNL ();
+onclickNL();
+onclickgramsNL();
+resetNL();
 
 
 
