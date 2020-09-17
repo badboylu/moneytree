@@ -1,14 +1,14 @@
-const carts = document.querySelectorAll('.DurbanPoison');
-const moreGrams = document.querySelectorAll('.moreGramsDurbanPoison');
-const lessGrams = document.querySelectorAll('.lessGramsDurbanPoison');
-var price = 70;
+const cartsNL = document.querySelectorAll('.NorthernLights');
+const moreGramsNL = document.querySelectorAll('.moreGramsNorthernLights');
+const lessGramsNL = document.querySelectorAll('.lessGramsNorthernLights');
+var priceNL = 45;
 
-carts.forEach(DurbanPoison =>{
-        DurbanPoison.addEventListener('click', () => {
-                cartNumbers();
-                totalCost(price);
-                addGramsNumbers();
-                displaytotalprice();
+cartsNL.forEach(NorthernLights =>{
+        NorthernLights.addEventListener('click', () => {
+                cartNumbersNL();
+                totalCostNL(priceNL);
+                addGramsNumbersNL();
+                displaytotalpriceNL();
                
 
 })
@@ -16,21 +16,21 @@ carts.forEach(DurbanPoison =>{
 )
 
 
-moreGrams.forEach(moreGramsDurbanPoison =>{
-        moreGramsDurbanPoison.addEventListener('click', () => {
+moreGramsNL.forEach(moreGramsNorthernLights =>{
+        moreGramsNorthernLights.addEventListener('click', () => {
                 
-                totalCost(price);
-                addGramsNumbers();
+                totalCostNL(priceNL);
+                addGramsNumbersNL();
 })
 }
 )
 
-lessGrams.forEach(lessGramsDurbanPoison =>{
-        lessGramsDurbanPoison.addEventListener('click', () => {
-                minusGramsNumbers();
-                totalCost(price);
+lessGramsNL.forEach(lessGramsNorthernLights =>{
+        lessGramsNorthernLights.addEventListener('click', () => {
+                minusGramsNumbersNL();
+                totalCostNL(priceNL);
                 
-                reset();
+                resetNL();
                
                 
 
@@ -39,83 +39,83 @@ lessGrams.forEach(lessGramsDurbanPoison =>{
 )
 
 
-setInterval (function onclick(){
-        if ("cartNumberDP" in localStorage){
-		document.getElementById("DP").style.display = "none";
+setInterval (function onclickNL(){
+        if ("cartNumberNL" in localStorage){
+		document.getElementById("NL").style.display = "none";
 	}else{
-		document.getElementById("DP").style.display = "block";
+		document.getElementById("NL").style.display = "block";
 	}
 }, 1000);
 
 
-setInterval (function onclickgrams(){
-        if ("cartNumberDP" in localStorage){
-		document.getElementById("DPgrams").style.display = "block";
+setInterval (function onclickgramsNL(){
+        if ("cartNumberNL" in localStorage){
+		document.getElementById("NLgrams").style.display = "block";
 	}else{
-		document.getElementById("DPgrams").style.display = "none";
+		document.getElementById("NLgrams").style.display = "none";
 	}
 }, 1000);
 
 
-function cartNumbers() {
+function cartNumbersNL() {
         
-        let productNumbers = localStorage.getItem('cartNumberDP'); 
-               productNumbers = parseInt(productNumbers);
-                localStorage.setItem('cartNumberDP', 1);
+        let productNumbersNL = localStorage.getItem('cartNumberNL'); 
+               productNumbersNL = parseInt(productNumbersNL);
+                localStorage.setItem('cartNumberNL', 1);
                 
 }
 
-function totalCost(price) {
-        localStorage.setItem('totalCostDP', price);
-        var cartCost= localStorage.getItem('totalCostDP', price);
-        cartCost = parseInt(cartCost);
-        if(cartCost) {
-                localStorage.setItem('totalCostDP', cartCost);
+function totalCostNL(priceNL) {
+        localStorage.setItem('totalCostNL', priceNL);
+        var cartCostNL= localStorage.getItem('totalCostNL', priceNL);
+        cartCostNL = parseInt(cartCostNL);
+        if(cartCostNL) {
+                localStorage.setItem('totalCostNL', cartCostNL);
         }else{
-                localStorage.setItem('totalCostDP', parseInt(cartCost));
+                localStorage.setItem('totalCostNL', parseInt(cartCostNL));
         }
         
        
 }
 
-setInterval (function onloadgrams (){
-        let gramsNumberadd = localStorage.getItem('GramsDP'); 
-        if(gramsNumberadd){
-                document.querySelector('.gramsamountDP').textContent = gramsNumberadd;
+setInterval (function onloadgramsNL (){
+        let gramsNumberaddNL = localStorage.getItem('GramsNL'); 
+        if(gramsNumberaddNL){
+                document.querySelector('.gramsamountNL').textContent = gramsNumberaddNL;
         };  
 }, 1000);
 
-function addGramsNumbers() {
-        let ifavailable = localStorage.getItem('GramsDP')
-        ifavailable = parseInt(ifavailable);
-               if(ifavailable) {
-                localStorage.setItem('GramsDP',(ifavailable) + 5);
-                let gramsNumberadd = localStorage.getItem('GramsDP'); 
-                gramsNumberadd = parseInt(gramsNumberadd);
-                document.querySelector('.gramsamountDP').textContent =parseInt(gramsNumberadd);
+function addGramsNumbersNL() {
+        let ifavailableNL = localStorage.getItem('GramsNL')
+        ifavailableNL = parseInt(ifavailableNL);
+               if(ifavailableNL) {
+                localStorage.setItem('GramsNL',(ifavailableNL) + 5);
+                let gramsNumberaddNL = localStorage.getItem('GramsNL'); 
+                gramsNumberaddNL = parseInt(gramsNumberaddNL);
+                document.querySelector('.gramsamountNL').textContent =parseInt(gramsNumberaddNL);
                }else{
-                localStorage.setItem('GramsDP', 5 );       
-                document.querySelector('.gramsamountDP').textContent = parseInt(gramsNumberadd);
+                localStorage.setItem('GramsNL', 5 );       
+                document.querySelector('.gramsamountNL').textContent = parseInt(gramsNumberaddNL);
                }
 }
 
 
 
 
-function minusGramsNumbers() {
-        let gramsNumbersminus = localStorage.getItem('GramsDP'); 
-        gramsNumbersminus = parseInt(gramsNumbersminus);
-               if(gramsNumbersminus) {
-                localStorage.setItem('GramsDP', gramsNumbersminus = (gramsNumbersminus - 5));
-                document.querySelector('.gramsamountDP').textContent = parseInt(gramsNumbersminus) -5;
+function minusGramsNumbersNL() {
+        let gramsNumbersminusNL = localStorage.getItem('GramsNL'); 
+        gramsNumbersminusNL = parseInt(gramsNumbersminusNL);
+               if(gramsNumbersminusNL) {
+                localStorage.setItem('GramsNL', gramsNumbersminusNL = (gramsNumbersminusNL - 5));
+                document.querySelector('.gramsamountNL').textContent = parseInt(gramsNumbersminusNL) -5;
                }else{
-                document.querySelector('.gramsamountDP').textContent = 0;   
+                document.querySelector('.gramsamountNL').textContent = 0;   
 }
 }
 
-setInterval (function onloaddisplaytotalprice (){
-        let displayedtotal = localStorage.getItem('totalAmountDP');
-        if(displayedtotal){
+setInterval (function onloaddisplaytotalpriceNL (){
+        let displayedtotalNL = localStorage.getItem('totalAmountNL');
+        if(displayedtotalNL){
                 document.querySelector('.totalcart').textContent = displayedtotal;
         }; 
 }, 1000);
