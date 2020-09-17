@@ -68,4 +68,6 @@ function hideDpButtonHomecartOC(){
 
 
 hideDpButtonHomeOC();
+hideDpButtonHomeOC();
+hideDpButtonHomecartOC();
 hideDpButtonHomecartOC();
