@@ -1,8 +1,8 @@
-const cartshomeCCES = document.querySelectorAll('.DurbanPoisonHome');
-var priceHomeCCES = 70;
+const cartshomeCCES = document.querySelectorAll('.CannacapsESHome');
+var priceHomeCCES = 450;
 
-cartshomeCCES.forEach(DurbanPoisonHome =>{
-        DurbanPoisonHome.addEventListener('click', () => {
+cartshomeCCES.forEach(CannacapsESHome =>{
+        CannacapsESHome.addEventListener('click', () => {
                 cartNumbersCCES();
                 addGramsNumbersHomeCCES();
                 totalCostHomeCCES(priceHomeCCES);  
@@ -30,39 +30,38 @@ function cartNumbersCCES() {
 
 function addGramsNumbersHomeCCES() {
         let gramsNumberaddHomeCCES = localStorage.getItem('GramsCCES'); 
-        gramsNumberaddHome = parseInt(gramsNumberaddHome);
-               if(gramsNumberaddHome) {
-                localStorage.setItem('GramsDP', gramsNumberaddHome + 5);
+        gramsNumberaddHomeCCES = parseInt(gramsNumberaddHomeCCES);
+               if(gramsNumberaddHomeCCES) {
+                localStorage.setItem('GramsCCES', gramsNumberaddHomeCCES + 5);
                }else{
-                localStorage.setItem('GramsDP', 5);
+                localStorage.setItem('GramsCCES', 5);
                }
 }
 
-function totalCostHome(priceHome) {
-        console.log('The product price is', priceHome);
-        localStorage.setItem('totalCostDP', priceHome);
+function totalCostHomeCCES(priceHomeCCES) {
+        localStorage.setItem('totalCostCCES', priceHomeCCES);
        
 }
 
-function displaytotalpriceHome() {
-        let gramsnumberHome = localStorage.getItem('GramsDP');
-        gramsnumberHome = parseInt(gramsnumberHome);
-        let pricetotalHome = localStorage.getItem('totalCostDP');
-        pricetotalHome = parseInt(pricetotalHome);
-        let totalAmountHome = pricetotalHome * gramsnumberHome;
-        localStorage.setItem('totalAmountDP', totalAmountHome);
+function displaytotalpriceHomeCCES() {
+        let gramsnumberHomeCCES = localStorage.getItem('GramsCCES');
+        gramsnumberHomeCCES = parseInt(gramsnumberHomeCCES);
+        let pricetotalHomeCCES = localStorage.getItem('totalCostCCES');
+        pricetotalHomeCCES = parseInt(pricetotalHomeCCES);
+        let totalAmountHomeCCES = pricetotalHomeCCES * gramsnumberHomeCCES;
+        localStorage.setItem('totalAmountCCES', totalAmountHomeCCES);
 }
 
-setInterval(function hideDpButtonHome(){
-    if ("GramsDP" in localStorage){
-    document.getElementById("DpHome").style.display = "none";
+setInterval(function hideDpButtonHomeCCES(){
+    if ("GramsCCES" in localStorage){
+    document.getElementById("CCesHome").style.display = "none";
 }else{
-    document.getElementById("DpHome").style.display = "block";
+    document.getElementById("CCesHome").style.display = "block";
 }
 },1000)
 
-setInterval(function hideDpButtonHomecart(){
-        if ("GramsDP" in localStorage){
+setInterval(function hideDpButtonHomecartCCES(){
+        if ("GramsCCES" in localStorage){
         document.getElementById("DpHomecart").style.display = "block";
     }else{
         document.getElementById("DpHomecart").style.display = "none";
@@ -71,5 +70,5 @@ setInterval(function hideDpButtonHomecart(){
 
 
 
-hideDpButtonHome();
-hideDpButtonHomecart();
+hideDpButtonHomeCCES();
+hideDpButtonHomecartCCES();
