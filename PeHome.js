@@ -1,12 +1,12 @@
-const cartshome = document.querySelectorAll('.DurbanPoisonHome');
-var priceHome = 70;
+const cartshomePE = document.querySelectorAll('.PineappleExpressHome');
+var priceHomePE = 110;
 
-cartshome.forEach(DurbanPoisonHome =>{
-        DurbanPoisonHome.addEventListener('click', () => {
-                cartNumbers();
-                addGramsNumbersHome();
-                totalCostHome(priceHome);  
-                displaytotalpriceHome();
+cartshomePE.forEach(PineappleExpressHome =>{
+        PineappleExpressHome.addEventListener('click', () => {
+                cartNumbersPE();
+                addGramsNumbersHomePE();
+                totalCostHomePE(priceHomePE);  
+                displaytotalpriceHomePE();
                 
                 
 
@@ -15,61 +15,60 @@ cartshome.forEach(DurbanPoisonHome =>{
 )
 
 
-function cartNumbers() {
+function cartNumbersPE() {
         
-        let productNumbersHome = localStorage.getItem('cartNumberDP'); 
-               productNumbersHome = parseInt(productNumbersHome);
-               if(productNumbersHome in localStorage) {
-                localStorage.setItem('cartNumberDP', parseInt(productNumbersHome)  + 1);
+        let productNumbersHomePE = localStorage.getItem('cartNumberPE'); 
+               productNumbersHomePE = parseInt(productNumbersHomePE);
+               if(productNumbersHomePE in localStorage) {
+                localStorage.setItem('cartNumberPE', parseInt(productNumbersHomePE)  + 1);
                }else{
-                localStorage.setItem('cartNumberDP', 1);
+                localStorage.setItem('cartNumberPE', 1);
                
                 
 }
 }
 
-function addGramsNumbersHome() {
-        let gramsNumberaddHome = localStorage.getItem('GramsDP'); 
-        gramsNumberaddHome = parseInt(gramsNumberaddHome);
-               if(gramsNumberaddHome) {
-                localStorage.setItem('GramsDP', gramsNumberaddHome + 5);
+function addGramsNumbersHomePE() {
+        let gramsNumberaddHomePE = localStorage.getItem('GramsPE'); 
+        gramsNumberaddHomePE = parseInt(gramsNumberaddHomePE);
+               if(gramsNumberaddHomePE) {
+                localStorage.setItem('GramsPE', gramsNumberaddHomePE + 5);
                }else{
-                localStorage.setItem('GramsDP', 5);
+                localStorage.setItem('GramsPE', 5);
                }
 }
 
-function totalCostHome(priceHome) {
-        console.log('The product price is', priceHome);
-        localStorage.setItem('totalCostDP', priceHome);
+function totalCostHomePE(priceHomePE) {
+        localStorage.setItem('totalCostPE', priceHomePE);
        
 }
 
-function displaytotalpriceHome() {
-        let gramsnumberHome = localStorage.getItem('GramsDP');
-        gramsnumberHome = parseInt(gramsnumberHome);
-        let pricetotalHome = localStorage.getItem('totalCostDP');
-        pricetotalHome = parseInt(pricetotalHome);
-        let totalAmountHome = pricetotalHome * gramsnumberHome;
-        localStorage.setItem('totalAmountDP', totalAmountHome);
+function displaytotalpriceHomePE() {
+        let gramsnumberHomePE = localStorage.getItem('GramsPE');
+        gramsnumberHomePE = parseInt(gramsnumberHomePE);
+        let pricetotalHomePE = localStorage.getItem('totalCostPE');
+        pricetotalHomePE = parseInt(pricetotalHomePE);
+        let totalAmountHomePE = pricetotalHomePE * gramsnumberHomePE;
+        localStorage.setItem('totalAmountPE', totalAmountHomePE);
 }
 
-setInterval(function hideDpButtonHome(){
-    if ("GramsDP" in localStorage){
-    document.getElementById("DpHome").style.display = "none";
+setInterval(function hideDpButtonHomePE(){
+    if ("GramsPE" in localStorage){
+    document.getElementById("PeHome").style.display = "none";
 }else{
-    document.getElementById("DpHome").style.display = "block";
+    document.getElementById("PeHome").style.display = "block";
 }
 },1000)
 
-setInterval(function hideDpButtonHomecart(){
-        if ("GramsDP" in localStorage){
-        document.getElementById("DpHomecart").style.display = "block";
+setInterval(function hideDpButtonHomecartPE(){
+        if ("GramsPE" in localStorage){
+        document.getElementById("PeHomecart").style.display = "block";
     }else{
-        document.getElementById("DpHomecart").style.display = "none";
+        document.getElementById("PeHomecart").style.display = "none";
     }
     },1000)
 
 
 
-hideDpButtonHome();
-hideDpButtonHomecart();
+hideDpButtonHomePE();
+hideDpButtonHomecartPE();
