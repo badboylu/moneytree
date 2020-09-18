@@ -1,12 +1,12 @@
-const cartshome = document.querySelectorAll('.DurbanPoisonHome');
-var priceHome = 70;
+const cartshomePR = document.querySelectorAll('.PreRollsHome');
+var priceHomePR = 20;
 
-cartshome.forEach(DurbanPoisonHome =>{
-        DurbanPoisonHome.addEventListener('click', () => {
-                cartNumbers();
-                addGramsNumbersHome();
-                totalCostHome(priceHome);  
-                displaytotalpriceHome();
+cartshomePR.forEach(PreRollsHome =>{
+        PreRollsHome.addEventListener('click', () => {
+                cartNumbersPR();
+                addGramsNumbersHomePR();
+                totalCostHomePR(priceHomePR);  
+                displaytotalpriceHomePR();
                 
                 
 
@@ -15,61 +15,60 @@ cartshome.forEach(DurbanPoisonHome =>{
 )
 
 
-function cartNumbers() {
+function cartNumbersPR() {
         
-        let productNumbersHome = localStorage.getItem('cartNumberDP'); 
-               productNumbersHome = parseInt(productNumbersHome);
-               if(productNumbersHome in localStorage) {
-                localStorage.setItem('cartNumberDP', parseInt(productNumbersHome)  + 1);
+        let productNumbersHomePR = localStorage.getItem('cartNumberPR'); 
+               productNumbersHomePR = parseInt(productNumbersHomePR);
+               if(productNumbersHomePR in localStorage) {
+                localStorage.setItem('cartNumberPR', parseInt(productNumbersHomePR)  + 1);
                }else{
-                localStorage.setItem('cartNumberDP', 1);
+                localStorage.setItem('cartNumberPR', 1);
                
                 
 }
 }
 
-function addGramsNumbersHome() {
-        let gramsNumberaddHome = localStorage.getItem('GramsDP'); 
-        gramsNumberaddHome = parseInt(gramsNumberaddHome);
-               if(gramsNumberaddHome) {
-                localStorage.setItem('GramsDP', gramsNumberaddHome + 5);
+function addGramsNumbersHomePR() {
+        let gramsNumberaddHomePR = localStorage.getItem('GramsPR'); 
+        gramsNumberaddHomePR = parseInt(gramsNumberaddHomePR);
+               if(gramsNumberaddHomePR) {
+                localStorage.setItem('GramsPR', gramsNumberaddHomePR + 5);
                }else{
-                localStorage.setItem('GramsDP', 5);
+                localStorage.setItem('GramsPR', 5);
                }
 }
 
-function totalCostHome(priceHome) {
-        console.log('The product price is', priceHome);
-        localStorage.setItem('totalCostDP', priceHome);
+function totalCostHome(priceHomePR) {
+        localStorage.setItem('totalCostPR', priceHomePR);
        
 }
 
-function displaytotalpriceHome() {
-        let gramsnumberHome = localStorage.getItem('GramsDP');
-        gramsnumberHome = parseInt(gramsnumberHome);
-        let pricetotalHome = localStorage.getItem('totalCostDP');
-        pricetotalHome = parseInt(pricetotalHome);
-        let totalAmountHome = pricetotalHome * gramsnumberHome;
-        localStorage.setItem('totalAmountDP', totalAmountHome);
+function displaytotalpriceHomePR() {
+        let gramsnumberHomePR = localStorage.getItem('GramsPR');
+        gramsnumberHomePR = parseInt(gramsnumberHomePR);
+        let pricetotalHomePR = localStorage.getItem('totalCostPR');
+        pricetotalHomePR = parseInt(pricetotalHomePR);
+        let totalAmountHomePR = pricetotalHomePR * gramsnumberHomePR;
+        localStorage.setItem('totalAmountPR', totalAmountHomePR);
 }
 
-setInterval(function hideDpButtonHome(){
-    if ("GramsDP" in localStorage){
-    document.getElementById("DpHome").style.display = "none";
+setInterval(function hideDpButtonHomePR(){
+    if ("GramsPR" in localStorage){
+    document.getElementById("PrHome").style.display = "none";
 }else{
-    document.getElementById("DpHome").style.display = "block";
+    document.getElementById("PrHome").style.display = "block";
 }
 },1000)
 
-setInterval(function hideDpButtonHomecart(){
-        if ("GramsDP" in localStorage){
-        document.getElementById("DpHomecart").style.display = "block";
+setInterval(function hideDpButtonHomecartPR(){
+        if ("GramsPR" in localStorage){
+        document.getElementById("PrHomecart").style.display = "block";
     }else{
-        document.getElementById("DpHomecart").style.display = "none";
+        document.getElementById("PrHomecart").style.display = "none";
     }
     },1000)
 
 
 
-hideDpButtonHome();
-hideDpButtonHomecart();
+hideDpButtonHomePR();
+hideDpButtonHomecartPR();
