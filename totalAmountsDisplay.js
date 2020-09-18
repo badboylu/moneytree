@@ -32,8 +32,8 @@ if(BwCart1){
 if(PrCart1){
         let PrCart = localStorage.getItem('cartNumberPR');
         PrCart = parseInt(PrCart);
-        localStorage.setItem('totalCartNumber', PrCart);
-        document.querySelector('.basel-cart-numberCart').textContent = PrCart;
+        localStorage.setItem('totalCartNumber', 1);
+        document.querySelector('.basel-cart-numberCart').textContent = 1;
 }
 if(PrCart1 && DpCart1){
         let PrCart = localStorage.getItem('cartNumberPR');
