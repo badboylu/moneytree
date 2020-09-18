@@ -195,6 +195,7 @@ setInterval(function totalAmountsDisplay(){
         let CcAmount1 = localStorage.getItem('totalAmountCC');
         let OcAmount1 = localStorage.getItem('totalAmountOC');
         let BwAmount1 = localStorage.getItem('totalAmountBW');
+        let PrAmount1 = localStorage.getItem('totalAmountPR');
 
 
 if(DpAmount1){
@@ -220,6 +221,12 @@ if(BwAmount1){
         BwAmount = parseInt(BwAmount);
         localStorage.setItem('totalAmountNumber', BwAmount);
         document.querySelector('.basel-cart-subtotalCart').textContent = BwAmount;
+}
+if(PrAmount1){
+        let PrAmount = localStorage.getItem('totalAmountPR');
+        PrAmount = parseInt(PrAmount);
+        localStorage.setItem('totalAmountNumber', PrAmount);
+        document.querySelector('.basel-cart-subtotalCart').textContent = PrAmount;
 }
 if(OcAmount1 && BwAmount1){
         let BwAmount = localStorage.getItem('totalAmountBW');
