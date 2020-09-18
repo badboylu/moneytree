@@ -62,9 +62,9 @@ setInterval(function hideDpButtonHomeCCES(){
 
 setInterval(function hideDpButtonHomecartCCES(){
         if ("GramsCCES" in localStorage){
-        document.getElementById("DpHomecart").style.display = "block";
+        document.getElementById("CCesHomecart").style.display = "block";
     }else{
-        document.getElementById("DpHomecart").style.display = "none";
+        document.getElementById("CCesHomecart").style.display = "none";
     }
     },1000)
 
