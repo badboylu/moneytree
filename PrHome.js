@@ -38,7 +38,7 @@ function addGramsNumbersHomePR() {
                }
 }
 
-function totalCostHome(priceHomePR) {
+function totalCostHomePR(priceHomePR) {
         localStorage.setItem('totalCostPR', priceHomePR);
        
 }
