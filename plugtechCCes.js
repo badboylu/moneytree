@@ -67,7 +67,7 @@ function cartNumbersCCes() {
 function totalCostCCes(priceCCes) {
         localStorage.setItem('totalCostCCes', priceCCes);
         var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
-        cartCostCCes = parseInt(cartCostCCed);
+        cartCostCCes = parseInt(cartCostCCes);
         if(cartCostCCes) {
                 localStorage.setItem('totalCostCCes', cartCostCCes);
         }else{
