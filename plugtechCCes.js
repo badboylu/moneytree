@@ -1,14 +1,14 @@
-const cartsPR = document.querySelectorAll('.PreRolls');
-const moreGramsPR = document.querySelectorAll('.moreGramsPreRolls');
-const lessGramsPR = document.querySelectorAll('.lessGramsPreRolls');
-var pricePR = 20;
+const cartsCCes = document.querySelectorAll('.CannacapsES');
+const moreGramsCCes = document.querySelectorAll('.moreGramsCannacapsES');
+const lessGramsCCes = document.querySelectorAll('.lessGramsCannacapsES');
+var priceCCes = 450;
 
-cartsPR.forEach(PreRolls =>{
-        PreRolls.addEventListener('click', () => {
-                cartNumbersPR();
-                totalCostPR(pricePR);
-                addGramsNumbersPR();
-                displaytotalpricePR();
+cartsPCCes.forEach(CannacapsES =>{
+        CannacapsES.addEventListener('click', () => {
+                cartNumbersCCes();
+                totalCostCCes(priceCCes);
+                addGramsNumbersCCes();
+                displaytotalpriceCCes();
                
 
 })
@@ -16,19 +16,19 @@ cartsPR.forEach(PreRolls =>{
 )
 
 
-moreGramsPR.forEach(moreGramsPreRolls =>{
-        moreGramsPreRolls.addEventListener('click', () => {
+moreGramsCCes.forEach(moreGramsCannacapsES =>{
+        moreGramsCannacapsES.addEventListener('click', () => {
                 
-                totalCostPR(pricePR);
-                addGramsNumbersPR();
+                totalCostCCes(priceCCes);
+                addGramsNumbersCCes();
 })
 }
 )
 
-lessGramsPR.forEach(lessGramsPreRolls =>{
-        lessGramsPreRolls.addEventListener('click', () => {
-                minusGramsNumbersPR();
-                totalCostPR(pricePR);
+lessGramsCCes.forEach(lessGramsCannacapsES =>{
+        lessGramsCannacapsES.addEventListener('click', () => {
+                minusGramsNumbersCCes();
+                totalCostCCes(priceCCes);
                 resetPR();
                
                 
@@ -38,40 +38,40 @@ lessGramsPR.forEach(lessGramsPreRolls =>{
 )
 
 
-setInterval (function onclickPR(){
-        if ("cartNumberPR" in localStorage){
-		document.getElementById("PR").style.display = "none";
+setInterval (function onclickCCes(){
+        if ("cartNumberCCes" in localStorage){
+		document.getElementById("CCes").style.display = "none";
 	}else{
-		document.getElementById("PR").style.display = "block";
+		document.getElementById("CCes").style.display = "block";
 	}
 }, 1000);
 
 
-setInterval (function onclickgramsPR(){
-        if ("cartNumberPR" in localStorage){
-		document.getElementById("PRgrams").style.display = "block";
+setInterval (function onclickgramsCCes(){
+        if ("cartNumberCCes" in localStorage){
+		document.getElementById("CCesgrams").style.display = "block";
 	}else{
-		document.getElementById("PRgrams").style.display = "none";
+		document.getElementById("CCesgrams").style.display = "none";
 	}
 }, 1000);
 
 
-function cartNumbersPR() {
+function cartNumbersCCes() {
         
-        let productNumbersPR = localStorage.getItem('cartNumberPR'); 
-               productNumbersPR = parseInt(productNumbersPR);
-                localStorage.setItem('cartNumberPR', 1);
+        let productNumbersCCes = localStorage.getItem('cartNumberCCes'); 
+               productNumbersCCes = parseInt(productNumbersCCes);
+                localStorage.setItem('cartNumberCCes', 1);
                 
 }
 
-function totalCostPR(pricePR) {
-        localStorage.setItem('totalCostPR', pricePR);
-        var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
-        cartCostPR = parseInt(cartCostPR);
-        if(cartCostPR) {
-                localStorage.setItem('totalCostPR', cartCostPR);
+function totalCostCCes(priceCCes) {
+        localStorage.setItem('totalCostCCes', priceCCes);
+        var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
+        cartCostCCes = parseInt(cartCostCCed);
+        if(cartCostCCes) {
+                localStorage.setItem('totalCostCCes', cartCostCCes);
         }else{
-                localStorage.setItem('totalCostPR', parseInt(cartCostPR));
+                localStorage.setItem('totalCostCCes', parseInt(cartCostCCes));
         }
         
        
