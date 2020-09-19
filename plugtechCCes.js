@@ -77,88 +77,88 @@ function totalCostCCes(priceCCes) {
        
 }
 
-setInterval (function onloadgramsPR (){
-        let gramsNumberaddPR = localStorage.getItem('GramsPR'); 
-        if(gramsNumberaddPR){
-                document.querySelector('.gramsamountPR').textContent = gramsNumberaddPR;
+setInterval (function onloadgramsCCes(){
+        let gramsNumberaddCCes = localStorage.getItem('GramsCCes'); 
+        if(gramsNumberaddCCes){
+                document.querySelector('.gramsamountCCes').textContent = gramsNumberaddCCes;
         };  
 }, 1000);
 
-function addGramsNumbersPR() {
-        let ifavailablePR = localStorage.getItem('GramsPR')
-        ifavailablePR = parseInt(ifavailablePR);
-               if(ifavailablePR) {
-                localStorage.setItem('GramsPR',(ifavailablePR) + 5);
-                let gramsNumberaddPR = localStorage.getItem('GramsPR'); 
-                gramsNumberaddPR = parseInt(gramsNumberaddPR);
-                document.querySelector('.gramsamountPR').textContent =parseInt(gramsNumberaddPR);
+function addGramsNumbersCCes() {
+        let ifavailableCCes = localStorage.getItem('GramsCCes')
+        ifavailableCCes = parseInt(ifavailableCCes);
+               if(ifavailableCCes) {
+                localStorage.setItem('GramsCCes',(ifavailableCCes) + 5);
+                let gramsNumberaddCCes = localStorage.getItem('GramsCCes'); 
+                gramsNumberaddCCes = parseInt(gramsNumberaddCCes);
+                document.querySelector('.gramsamountCCes').textContent =parseInt(gramsNumberaddCCes);
                }else{
-                localStorage.setItem('GramsPR', 5 );       
-                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumberaddPR);
+                localStorage.setItem('GramsCCes', 5 );       
+                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumberaddCCes);
                }
 }
 
 
 
 
-function minusGramsNumbersPR() {
-        let gramsNumbersminusPR = localStorage.getItem('GramsPR'); 
-        gramsNumbersminusPR = parseInt(gramsNumbersminusPR);
-               if(gramsNumbersminusPR) {
-                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 5));
-                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -5;
+function minusGramsNumbersCCes() {
+        let gramsNumbersminusCCes = localStorage.getItem('GramsCCes'); 
+        gramsNumbersminusCCes = parseInt(gramsNumbersminusCCes);
+               if(gramsNumbersminusCCes) {
+                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 5));
+                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -5;
                }else{
-                document.querySelector('.gramsamountPR').textContent = 0;   
+                document.querySelector('.gramsamountCCes').textContent = 0;   
 }
 }
 
-setInterval (function onloaddisplaytotalpricePR (){
-        let displayedtotalPR = localStorage.getItem('totalAmountPR');
-        if(displayedtotalPR){
-                document.querySelector('.totalcartPR').textContent = displayedtotalPR;
+setInterval (function onloaddisplaytotalpriceCCes(){
+        let displayedtotalCCes = localStorage.getItem('totalAmountCCes');
+        if(displayedtotalCCes){
+                document.querySelector('.totalcartCCes').textContent = displayedtotalCCes;
         }; 
 }, 1000);
 
-setInterval (function displaytotalpricePR() {
-        let checkPR1 = localStorage.getItem('GramsPR')
-        checkPR1 = parseInt(checkPR1);
-        if (checkPR1){
-        let gramsnumberPR = localStorage.getItem('GramsPR');
-        gramsnumberPR = parseInt(gramsnumberPR);
-        let pricetotalPR = localStorage.getItem('totalCostPR');
-        pricetotalPR = parseInt(pricetotalPR);
-        let totalAmountPR = pricetotalPR * gramsnumberPR;
-        localStorage.setItem('totalAmountPR', totalAmountPR);}
+setInterval (function displaytotalpriceCCes() {
+        let checkCCes1 = localStorage.getItem('GramsCCes')
+        checkCCes1 = parseInt(checkCCes1);
+        if (checkCCes1){
+        let gramsnumberCCes = localStorage.getItem('GramsCCes');
+        gramsnumberCCes = parseInt(gramsnumberCCes);
+        let pricetotalCCes = localStorage.getItem('totalCostCCes');
+        pricetotalCCes = parseInt(pricetotalCCes);
+        let totalAmountCCes = pricetotalCCes * gramsnumberCCes;
+        localStorage.setItem('totalAmountCCes', totalAmountCCes);}
 }, 1000);
 
-setInterval  (function checkPR(){
-        let checkPR = localStorage.getItem('GramsPR')
-        checkPR = parseInt(checkPR);
-        if (checkPR){
-                displaytotalpricePR();
+setInterval  (function checkCCes(){
+        let checkCCes = localStorage.getItem('GramsCCes')
+        checkCCes = parseInt(checkCCes);
+        if (checkCCes){
+                displaytotalpriceCCes();
         }else{
-                localStorage.removeItem("totalAmountPR");
+                localStorage.removeItem("totalAmountCCes");
         }
 }, 1000);
 
-setInterval (function resetPR(){
-        let checkgramsPR = localStorage.getItem("GramsPR");
-        checkgramsPR = parseInt(checkgramsPR);
-        if(checkgramsPR < 1){
-                localStorage.removeItem("GramsPR");
-                localStorage.removeItem("totalAmountPR");
-                localStorage.removeItem("totalCostPR");
-                localStorage.removeItem("cartNumberPR");
+setInterval (function resetCCes(){
+        let checkgramsCCes = localStorage.getItem("GramsCCes");
+        checkgramsCCes = parseInt(checkgramsCCes);
+        if(checkgramsCCes < 1){
+                localStorage.removeItem("GramsCCes");
+                localStorage.removeItem("totalAmountCCes");
+                localStorage.removeItem("totalCostCCes");
+                localStorage.removeItem("cartNumberCCes");
         }
 
 }, 1000);
 
-onloadgramsPR ();
-checkPR();
-onloaddisplaytotalpricePR ();
-onclickPR();
-onclickgramsPR();
-resetPR();
+onloadgramsCCes ();
+checkCCes();
+onloaddisplaytotalpriceCCes ();
+onclickCCes();
+onclickgramsCCes();
+resetCCes();
 
 
 
