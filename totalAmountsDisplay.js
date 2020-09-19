@@ -63,8 +63,8 @@ if(BwCart1 && PrCart1){
         document.querySelector('.basel-cart-numberCart').textContent = totalcart15;
 }
 if(PrCart1 && OcCart1){
-        let BwCart = localStorage.getItem('cartNumberBW');
-        BwCart = parseInt(BwCart);
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
         let PrCart = localStorage.getItem('cartNumberPR');
         PrCart = parseInt(PrCart);
         let totalcart16 = OcCart + PrCart;
