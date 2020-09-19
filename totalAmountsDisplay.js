@@ -154,7 +154,7 @@ if(PrCart1 && CcCart1 && OcCart1){
         CcCart = parseInt(CcCart);
         let OcCart = localStorage.getItem('cartNumberOC');
         OcCart = parseInt(OcCart);
-        let totalcart19 = DpCart + CcCart + OcCart ;
+        let totalcart19 = PrCart + CcCart + OcCart ;
         localStorage.setItem('totalCartNumber', totalcart19);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart19;
 }
