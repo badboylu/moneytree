@@ -1,7 +1,7 @@
 const cartsPR = document.querySelectorAll('.PreRolls');
 const moreGramsPR = document.querySelectorAll('.moreGramsPreRolls');
 const lessGramsPR = document.querySelectorAll('.lessGramsPreRolls');
-var pricePR = 45;
+var pricePR = 20;
 
 cartsPR.forEach(PreRolls =>{
         PreRolls.addEventListener('click', () => {
