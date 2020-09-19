@@ -88,12 +88,12 @@ function addGramsNumbersCCes() {
         let ifavailableCCes = localStorage.getItem('GramsCCes')
         ifavailableCCes = parseInt(ifavailableCCes);
                if(ifavailableCCes) {
-                localStorage.setItem('GramsCCes',(ifavailableCCes) + 5);
+                localStorage.setItem('GramsCCes',(ifavailableCCes) + 1);
                 let gramsNumberaddCCes = localStorage.getItem('GramsCCes'); 
                 gramsNumberaddCCes = parseInt(gramsNumberaddCCes);
                 document.querySelector('.gramsamountCCes').textContent =parseInt(gramsNumberaddCCes);
                }else{
-                localStorage.setItem('GramsCCes', 5 );       
+                localStorage.setItem('GramsCCes', 1 );       
                 document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumberaddCCes);
                }
 }
@@ -105,8 +105,8 @@ function minusGramsNumbersCCes() {
         let gramsNumbersminusCCes = localStorage.getItem('GramsCCes'); 
         gramsNumbersminusCCes = parseInt(gramsNumbersminusCCes);
                if(gramsNumbersminusCCes) {
-                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 5));
-                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -5;
+                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 1));
+                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -1;
                }else{
                 document.querySelector('.gramsamountCCes').textContent = 0;   
 }
