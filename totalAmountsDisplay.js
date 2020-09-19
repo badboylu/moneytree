@@ -139,9 +139,9 @@ if(DpCart1 && CcCart1 && PrCart1){
 if(DpCart1 && PrCart1 && OcCart1){
         let DpCart = localStorage.getItem('cartNumberDP');
         DpCart = parseInt(DpCart);
-        let CcCart = localStorage.getItem('cartNumberCC');
         let PrCart = localStorage.getItem('cartNumberPR');
         PrCart = parseInt(PrCart);
+        let OcCart = localStorage.getItem('cartNumberOC');
         OcCart = parseInt(OcCart);
         let totalcart18 = DpCart + PrCart + OcCart ;
         localStorage.setItem('totalCartNumber', totalcart18);
