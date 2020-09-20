@@ -1116,8 +1116,8 @@ if(NlAmount1 && CcAmount1 && BwAmount1){
         let BwAmount = localStorage.getItem('totalAmountBW');
         BwAmount = parseInt(BwAmount);
         let totalAmount37 = NlAmount + CcAmount + BwAmount;
-        localStorage.setItem('totalAmountNumber', totalAmount36);
-        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount36;
+        localStorage.setItem('totalAmountNumber', totalAmount37);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount37;
 }
 if(NlAmount1 && CcAmount1 && PrAmount1){
         let NlAmount = localStorage.getItem('totalAmountNL');
@@ -1126,20 +1126,20 @@ if(NlAmount1 && CcAmount1 && PrAmount1){
         CcAmount = parseInt(CcAmount);
         let PrAmount = localStorage.getItem('totalAmountPR');
         PrAmount = parseInt(PrAmount);
-        let totalAmount37 = NlAmount + CcAmount + PrAmount;
-        localStorage.setItem('totalAmountNumber', totalAmount37);
-        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount37;
+        let totalAmount38 = NlAmount + CcAmount + PrAmount;
+        localStorage.setItem('totalAmountNumber', totalAmount38);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount38;
 }
 if(NlAmount1 && PrAmount1 && BwAmount1){
         let NlAmount = localStorage.getItem('totalAmountNL');
         NlAmount = parseInt(NlAmount);
-        let CcAmount = localStorage.getItem('totalAmountCC');
-        CcAmount = parseInt(CcAmount);
+        let PrAmount = localStorage.getItem('totalAmountPR');
+        PrAmount = parseInt(PrAmount);
         let BwAmount = localStorage.getItem('totalAmountBW');
         BwAmount = parseInt(BwAmount);
-        let totalAmount38 = NlAmount + PrAmount + BwAmount;
-        localStorage.setItem('totalAmountNumber', totalAmount38);
-        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount38;
+        let totalAmount39 = NlAmount + PrAmount + BwAmount;
+        localStorage.setItem('totalAmountNumber', totalAmount39);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount39;
 }
 },1000)
 
