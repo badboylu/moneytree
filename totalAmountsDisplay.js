@@ -1160,8 +1160,8 @@ if(NlAmount1 && PrAmount1 && BwAmount1){
         let BwAmount = localStorage.getItem('totalAmountBW');
         BwAmount = parseInt(BwAmount);
         let totalAmount41 = NlAmount + PrAmount + BwAmount;
-        localStorage.setItem('totalAmountNumber', totalAmount39);
-        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount39;
+        localStorage.setItem('totalAmountNumber', totalAmount41);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount41;
 }
 },1000)
 
