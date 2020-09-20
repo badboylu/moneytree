@@ -1049,7 +1049,7 @@ if(NlAmount1 && PrAmount1){
         NlAmount = parseInt(NlAmount);
         let PrAmount = localStorage.getItem('totalAmountPR');
         PrAmount = parseInt(PrAmount);
-        let totalAmount31 = NlAmount + BwAmount;
+        let totalAmount31 = NlAmount + PrAmount;
         localStorage.setItem('totalAmountNumber', totalAmount31);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount31;
 }
