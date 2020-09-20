@@ -1224,7 +1224,7 @@ if(NlAmount1 && CcAmount1 && OcAmount1 && PrAmount1){
         OcAmount = parseInt(OcAmount);
         let PrAmount = localStorage.getItem('totalAmountPR');
         PrAmount = parseInt(PrAmount);
-        let totalAmount46 = NlAmount + CcAmount + OcAmount + BwAmount;
+        let totalAmount46 = NlAmount + CcAmount + OcAmount + PrAmount;
         localStorage.setItem('totalAmountNumber', totalAmount46);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount46;
 }
