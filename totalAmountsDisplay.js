@@ -218,7 +218,7 @@ if(DpCart1 && CcCart1 && BwCart1){
 if(DpCart1 && BwCart1 && OcCart1){
         let DpCart = localStorage.getItem('cartNumberDP');
         DpCart = parseInt(DpCart);
-        let BwCart = localStorage.getItem('cartNumberBw');
+        let BwCart = localStorage.getItem('cartNumberBW');
         BwCart = parseInt(BwCart);
         let OcCart = localStorage.getItem('cartNumberOC');
         OcCart = parseInt(OcCart);
