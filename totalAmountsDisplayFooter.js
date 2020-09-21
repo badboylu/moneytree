@@ -1822,7 +1822,7 @@ setInterval (function emptycartAmounts(){
         }
     },1000);
 
-setInterval (function Randssymbol(){
+setInterval (function randssymbol(){
         let cartcheck3 = localStorage.getItem('totalAmountNumber')
             if (cartcheck3){
                     document.getElementById("randplug").style.display = "block";
@@ -1834,4 +1834,4 @@ setInterval (function Randssymbol(){
 totalCartAmountsDisplay();
 totalAmountsDisplay();
 emptycartAmounts();
-Randssymbol();
+randssymbol();
