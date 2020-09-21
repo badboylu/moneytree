@@ -1822,6 +1822,16 @@ setInterval (function emptycartAmounts(){
         }
     },1000);
 
+setInterval (function Randssymbol(){
+        let cartcheck3 = localStorage.getItem('totalAmountNumber')
+            if (cartcheck3){
+                    document.getElementById("randplug").style.display = "block";
+            }else{
+            document.getElementById("randplug").style.display = "none";
+        }
+    },1000);
+
 totalCartAmountsDisplay();
 totalAmountsDisplay();
 emptycartAmounts();
+Randssymbol();
