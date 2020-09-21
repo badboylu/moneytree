@@ -735,6 +735,83 @@ if(NlCart1 && CCesCart1){
         localStorage.setItem('totalCartNumber', totalcart61);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart61;
 }
+if(CCesCart1 && DpCart1 && CcCart1){
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart62 = DpCart + CCesCart + CcCart ;
+        localStorage.setItem('totalCartNumber', totalcart62);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart62;
+}
+if(CCesCart1 && DpCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart63 = DpCart + CCesCart + OcCart ;
+        localStorage.setItem('totalCartNumber', totalcart63);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart63;
+}
+if(CCesCart1 && DpCart1 && BwCart1){
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart64 = DpCart + CCesCart + BwCart ;
+        localStorage.setItem('totalCartNumber', totalcart64);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart64;
+}
+if(CCesCart1 && DpCart1 && PrCart1){
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart65 = DpCart + CCesCart + PrCart ;
+        localStorage.setItem('totalCartNumber', totalcart65);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart65;
+}
+if(CCesCart1 && DpCart1 && NlCart1){
+        let NlCart = localStorage.getItem('cartNumberNL');
+        NlCart = parseInt(NlCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart66 = DpCart + CCesCart + NlCart ;
+        localStorage.setItem('totalCartNumber', totalcart66);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart66;
+}
+if(CCesCart1 && CcCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart67 = CcCart + CCesCart + OcCart ;
+        localStorage.setItem('totalCartNumber', totalcart67);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart67;
+}
+if(CCesCart1 && CcCart1 && BwCart1){
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart68 = CcCart + CCesCart + BwCart ;
+        localStorage.setItem('totalCartNumber', totalcart68);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart68;
+}
 if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null && CCesCart1 === null){
         localStorage.removeItem('totalCartNumber');
         localStorage.removeItem('totalAmountNumber');
