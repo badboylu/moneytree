@@ -735,7 +735,7 @@ if(NlCart1 && CCesCart1){
         localStorage.setItem('totalCartNumber', totalcart61);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart61;
 }
-if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null){
+if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null && CCesCart1 === null){
         localStorage.removeItem('totalCartNumber');
         localStorage.removeItem('totalAmountNumber');
         document.querySelector('.basel-cart-numberCart').textContent = 0;
