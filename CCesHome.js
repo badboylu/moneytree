@@ -32,9 +32,9 @@ function addGramsNumbersHomeCCES() {
         let gramsNumberaddHomeCCES = localStorage.getItem('GramsCCES'); 
         gramsNumberaddHomeCCES = parseInt(gramsNumberaddHomeCCES);
                if(gramsNumberaddHomeCCES) {
-                localStorage.setItem('GramsCCES', gramsNumberaddHomeCCES + 5);
+                localStorage.setItem('GramsCCES', gramsNumberaddHomeCCES + 1);
                }else{
-                localStorage.setItem('GramsCCES', 5);
+                localStorage.setItem('GramsCCES', 1);
                }
 }
 
