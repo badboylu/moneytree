@@ -58,7 +58,7 @@ setInterval (function onclickgramsCCes(){
 
 function cartNumbersCCes() {
         
-        let productNumbersCCes = localStorage.getItem('cartNumberCCes'); 
+        let productNumbersCCes = localStorage.getItem('cartNumberCCES'); 
                productNumbersCCes = parseInt(productNumbersCCes);
                 localStorage.setItem('cartNumberCCES', 1);
                 
@@ -113,7 +113,7 @@ function minusGramsNumbersCCes() {
 }
 
 setInterval (function onloaddisplaytotalpriceCCes(){
-        let displayedtotalCCes = localStorage.getItem('totalAmountCCes');
+        let displayedtotalCCes = localStorage.getItem('totalAmountCCES');
         if(displayedtotalCCes){
                 document.querySelector('.totalcartCCes').textContent = displayedtotalCCes;
         }; 
