@@ -5,7 +5,7 @@ setInterval(function totalCartAmountsDisplay(){
         let BwCart1 = localStorage.getItem('cartNumberBW');
         let PrCart1 = localStorage.getItem('cartNumberPR');
         let NlCart1 = localStorage.getItem('cartNumberNL');
-        let CCesCart1 = localStorage.getItem('cartNumberCCes'); 
+        let CCesCart1 = localStorage.getItem('cartNumberCCES'); 
 
 if(DpCart1){
         let DpCart = localStorage.getItem('cartNumberDP');
