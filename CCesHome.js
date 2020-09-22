@@ -44,9 +44,9 @@ function totalCostHomeCCES(priceHomeCCES) {
 }
 
 function displaytotalpriceHomeCCES() {
-        let gramsnumberHomeCCES = localStorage.getItem('GramsCCES');
+        let gramsnumberHomeCCES = localStorage.getItem('GramsCCes');
         gramsnumberHomeCCES = parseInt(gramsnumberHomeCCES);
-        let pricetotalHomeCCES = localStorage.getItem('totalCostCCES');
+        let pricetotalHomeCCES = localStorage.getItem('totalCostCCes');
         pricetotalHomeCCES = parseInt(pricetotalHomeCCES);
         let totalAmountHomeCCES = pricetotalHomeCCES * gramsnumberHomeCCES;
         localStorage.setItem('totalAmountCCES', totalAmountHomeCCES);
