@@ -29,6 +29,21 @@ if(CCesCart1 && CcCart1 && OcCart1 && BwCart1 && NlCart1){
         localStorage.setItem('totalCartNumber', totalcart102);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart102;
 }
+if(CCesCart1 && OcCart1 && BwCart1 && PrCart1 && CcCart1){
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let totalcart105 = BwCart + CCesCart + PrCart + OcCart + CcCart;
+        localStorage.setItem('totalCartNumber', totalcart105);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart105;
+}
 
 Not working amountNumbers:
 if(CCesAmount1 && BwAmount1 && PrAmount1 && OcAmount1){
