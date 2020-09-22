@@ -1147,6 +1147,19 @@ if(CCesCart1 && DpCart1 && PrCart1 && OcCart1){
         localStorage.setItem('totalCartNumber', totalcart95);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart95;
 }
+if(CCesCart1 && DpCart1 && OcCart1 && NlCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let NlCart = localStorage.getItem('cartNumberNL');
+        NlCart = parseInt(NlCart);
+        let totalcart96 = DpCart + CCesCart + OcCart + NlCart;
+        localStorage.setItem('totalCartNumber', totalcart96);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart96;
+}
 if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null && CCesCart1 === null){
         localStorage.removeItem('totalCartNumber');
         localStorage.removeItem('totalAmountNumber');
@@ -2304,6 +2317,19 @@ if(CCesAmount1 && PrAmount1 && OcAmount1 && DpAmount1){
         let totalAmount95 = CCesAmount + OcAmount + PrAmount + DpAmount ;
         localStorage.setItem('totalAmountNumber', totalAmount95);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount95;
+}
+if(CCesAmount1 && NlAmount1 && OcAmount1 && DpAmount1){
+        let NlAmount = localStorage.getItem('totalAmountNL');
+        NlAmount = parseInt(NlAmount);
+        let OcAmount = localStorage.getItem('totalAmountOC');
+        OcAmount = parseInt(OcAmount);
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let CCesAmount = localStorage.getItem('totalAmountCCES');
+        CCesAmount = parseInt(CCesAmount);
+        let totalAmount96 = CCesAmount + OcAmount + NlAmount + DpAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount96);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount96;
 }
 },1000)
 
