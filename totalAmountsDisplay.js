@@ -1169,7 +1169,7 @@ if(CCesCart1 && BwCart1 && NlCart1 && CcCart1){
         CCesCart = parseInt(CCesCart);
         let NlCart = localStorage.getItem('cartNumberNL');
         NlCart = parseInt(NlCart);
-        let totalcart97 = NlCart + CCesCart + CCCart + NlCart;
+        let totalcart97 = BwCart + CCesCart + CCCart + NlCart;
         localStorage.setItem('totalCartNumber', totalcart97);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart97;
 }
@@ -2297,8 +2297,8 @@ if(CCesAmount1 && PrAmount1 && NlAmount1 && CcAmount1){
         PrAmount = parseInt(PrAmount);
         let NlAmount = localStorage.getItem('totalAmountNL');
         NlAmount = parseInt(NlAmount);
-        let CcAmount = localStorage.getItem('totalAmountDP');
-        DpAmount = parseInt(DpAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        CcAmount = parseInt(CcAmount);
         let CCesAmount = localStorage.getItem('totalAmountCCES');
         CCesAmount = parseInt(CCesAmount);
         let totalAmount93 = CCesAmount + NlAmount + PrAmount + CcAmount ;
@@ -2349,8 +2349,8 @@ if(CCesAmount1 && BwAmount1 && NlAmount1 && CcAmount1){
         BwAmount = parseInt(BwAmount);
         let NlAmount = localStorage.getItem('totalAmountNL');
         NlAmount = parseInt(NlAmount);
-        let CcAmount = localStorage.getItem('totalAmountDP');
-        DpAmount = parseInt(DpAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        CcAmount = parseInt(CcAmount);
         let CCesAmount = localStorage.getItem('totalAmountCCES');
         CCesAmount = parseInt(CCesAmount);
         let totalAmount97 = CCesAmount + NlAmount + BwAmount + CcAmount ;
