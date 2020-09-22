@@ -49,7 +49,7 @@ function displaytotalpriceHomeCCES() {
         let pricetotalHomeCCES = localStorage.getItem('totalCostCCES');
         pricetotalHomeCCES = parseInt(pricetotalHomeCCES);
         let totalAmountHomeCCES = pricetotalHomeCCES * gramsnumberHomeCCES;
-        localStorage.setItem('totalAmountCCes', totalAmountHomeCCES);
+        localStorage.setItem('totalAmountCCES', totalAmountHomeCCES);
 }
 
 setInterval(function hideDpButtonHomeCCES(){
