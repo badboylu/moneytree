@@ -39,7 +39,7 @@ lessGramsCCes.forEach(lessGramsCannacapsES =>{
 
 
 setInterval (function onclickCCes(){
-        if ("cartNumberCCes" in localStorage){
+        if ("cartNumberCCES" in localStorage){
 		document.getElementById("CCes").style.display = "none";
 	}else{
 		document.getElementById("CCes").style.display = "block";
@@ -48,7 +48,7 @@ setInterval (function onclickCCes(){
 
 
 setInterval (function onclickgramsCCes(){
-        if ("cartNumberCCes" in localStorage){
+        if ("cartNumberCCES" in localStorage){
 		document.getElementById("CCesgrams").style.display = "block";
 	}else{
 		document.getElementById("CCesgrams").style.display = "none";
@@ -60,7 +60,7 @@ function cartNumbersCCes() {
         
         let productNumbersCCes = localStorage.getItem('cartNumberCCes'); 
                productNumbersCCes = parseInt(productNumbersCCes);
-                localStorage.setItem('cartNumberCCes', 1);
+                localStorage.setItem('cartNumberCCES', 1);
                 
 }
 
@@ -128,7 +128,7 @@ setInterval (function displaytotalpriceCCes() {
         let pricetotalCCes = localStorage.getItem('totalCostCCes');
         pricetotalCCes = parseInt(pricetotalCCes);
         let totalAmountCCes = pricetotalCCes * gramsnumberCCes;
-        localStorage.setItem('totalAmountCCes', totalAmountCCes);}
+        localStorage.setItem('totalAmountCCES', totalAmountCCes);}
 }, 1000);
 
 setInterval  (function checkCCes(){
@@ -137,7 +137,7 @@ setInterval  (function checkCCes(){
         if (checkCCes){
                 displaytotalpriceCCes();
         }else{
-                localStorage.removeItem("totalAmountCCes");
+                localStorage.removeItem("totalAmountCCES");
         }
 }, 1000);
 
@@ -146,9 +146,9 @@ setInterval (function resetCCes(){
         checkgramsCCes = parseInt(checkgramsCCes);
         if(checkgramsCCes < 1){
                 localStorage.removeItem("GramsCCes");
-                localStorage.removeItem("totalAmountCCes");
+                localStorage.removeItem("totalAmountCCES");
                 localStorage.removeItem("totalCostCCes");
-                localStorage.removeItem("cartNumberCCes");
+                localStorage.removeItem("cartNumberCCES");
         }
 
 }, 1000);
