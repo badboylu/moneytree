@@ -889,7 +889,17 @@ if(CCesCart1 && BwCart1 && NlCart1){
         localStorage.setItem('totalCartNumber', totalcart75);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart75;
 }
-
+if(CCesCart1 && PrCart1 && NlCart1){
+        let NlCart = localStorage.getItem('cartNumberNL');
+        NlCart = parseInt(NlCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let totalcart76 = PrCart + CCesCart + NlCart ;
+        localStorage.setItem('totalCartNumber', totalcart76);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart76;
+}
 if(CCesCart1 && OcCart1 && BwCart1 && PrCart1 && CcCart1 ){
         let BwCart = localStorage.getItem('cartNumberBW');
         BwCart = parseInt(BwCart);
