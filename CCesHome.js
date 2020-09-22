@@ -20,9 +20,9 @@ function cartNumbersCCES() {
         let productNumbersHomeCCES = localStorage.getItem('cartNumberCCES'); 
                productNumbersHomeCCES = parseInt(productNumbersHomeCCES);
                if(productNumbersHomeCCES in localStorage) {
-                localStorage.setItem('cartNumberCCes', parseInt(productNumbersHomeCCES)  + 1);
+                localStorage.setItem('cartNumberCCES', parseInt(productNumbersHomeCCES)  + 1);
                }else{
-                localStorage.setItem('cartNumberCCes', 1);
+                localStorage.setItem('cartNumberCCES', 1);
                
                 
 }
