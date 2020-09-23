@@ -2678,6 +2678,21 @@ if(CCesAmount1 && BwAmount1 && CcAmount1 && NlAmount1 && DpAmount1 ){
         localStorage.setItem('totalAmountNumber', totalAmount109);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount109;
 }
+if(CCesAmount1 && PrAmount1 && CcAmount1 && NlAmount1 && DpAmount1 ){
+        let PrAmount = localStorage.getItem('totalAmountPR');
+        PrAmount = parseInt(PrAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        CcAmount = parseInt(CcAmount);
+        let NlAmount = localStorage.getItem('totalAmountNL');
+        NlAmount = parseInt(NlAmount);
+        let CCesAmount = localStorage.getItem('totalAmountCCES');
+        CCesAmount = parseInt(CCesAmount);
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let totalAmount109 = CCesAmount + BwAmount + CcAmount + NlAmount + DpAmount;
+        localStorage.setItem('totalAmountNumber', totalAmount109);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount109;
+}
 },1000)
 
 setInterval (function emptycartAmounts(){
