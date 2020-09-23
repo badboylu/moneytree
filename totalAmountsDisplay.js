@@ -3534,7 +3534,7 @@ if(PeAmount1 && CCesAmount1 && CcAmount1){
         CCesAmount = parseInt(CCesAmount);
         let PeAmount = localStorage.getItem('totalAmountPE');
         PeAmount = parseInt(PeAmount);
-        let totalAmount142 = PeAmount + CCesAmount + DpAmount ;
+        let totalAmount142 = PeAmount + CCesAmount + CcAmount ;
         localStorage.setItem('totalAmountNumber', totalAmount142);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount142;
 }
@@ -3545,7 +3545,7 @@ if(PeAmount1 && CCesAmount1 && OcAmount1){
         CCesAmount = parseInt(CCesAmount);
         let PeAmount = localStorage.getItem('totalAmountPE');
         PeAmount = parseInt(PeAmount);
-        let totalAmount143 = PeAmount + CCesAmount + DpAmount ;
+        let totalAmount143 = PeAmount + CCesAmount + OcAmount ;
         localStorage.setItem('totalAmountNumber', totalAmount143);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount143;
 }
