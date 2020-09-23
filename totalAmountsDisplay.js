@@ -1535,6 +1535,83 @@ if(CCesCart1 && PeCart1){
         localStorage.setItem('totalCartNumber', totalcart124);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart124;
 }
+if(PeCart1 && DpCart1 && CcCart1){
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart62 = DpCart + PeCart + CcCart ;
+        localStorage.setItem('totalCartNumber', totalcart62);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart62;
+}
+if(PeCart1 && DpCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart63 = DpCart + PeCart + OcCart ;
+        localStorage.setItem('totalCartNumber', totalcart63);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart63;
+}
+if(PeCart1 && DpCart1 && BwCart1){
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart64 = DpCart + PeCart + BwCart ;
+        localStorage.setItem('totalCartNumber', totalcart64);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart64;
+}
+if(PeCart1 && DpCart1 && PrCart1){
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart65 = DpCart + PeCart + PrCart ;
+        localStorage.setItem('totalCartNumber', totalcart65);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart65;
+}
+if(PeCart1 && DpCart1 && NlCart1){
+        let NlCart = localStorage.getItem('cartNumberNL');
+        NlCart = parseInt(NlCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart66 = DpCart + PeCart + NlCart ;
+        localStorage.setItem('totalCartNumber', totalcart66);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart66;
+}
+if(PeCart1 && CcCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart67 = CcCart + PeCart + OcCart ;
+        localStorage.setItem('totalCartNumber', totalcart67);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart67;
+}
+if(PeCart1 && CcCart1 && BwCart1){
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart68 = CcCart + PeCart + BwCart ;
+        localStorage.setItem('totalCartNumber', totalcart68);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart68;
+}
 if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null && CCesCart1 === null && PeCart1 === null){
         localStorage.removeItem('totalCartNumber');
         localStorage.removeItem('totalAmountNumber');
