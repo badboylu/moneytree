@@ -2089,6 +2089,71 @@ if(PeCart1 && CCesCart1 && NlCart1 && DpCart1){
         localStorage.setItem('totalCartNumber', totalcart170);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
 }
+if(PeCart1 && CCesCart1 && PrCart1 && BwCart1){
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart170 = CCesCart + PrCart + PeCart + BwCart;
+        localStorage.setItem('totalCartNumber', totalcart170);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
+}
+if(PeCart1 && CCesCart1 && PrCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart170 = CCesCart + PrCart + PeCart + OcCart;
+        localStorage.setItem('totalCartNumber', totalcart170);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
+}
+if(PeCart1 && CCesCart1 && PrCart1 && CcCart1){
+        let CcCart = localStorage.getItem('cartNumberCC');
+        CcCart = parseInt(CcCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart170 = CCesCart + PrCart + PeCart + CcCart;
+        localStorage.setItem('totalCartNumber', totalcart170);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
+}
+if(PeCart1 && CCesCart1 && PrCart1 && DpCart1){
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart170 = CCesCart + PrCart + PeCart + DpCart;
+        localStorage.setItem('totalCartNumber', totalcart170);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
+}
+if(PeCart1 && CCesCart1 && BwCart1 && OcCart1){
+        let OcCart = localStorage.getItem('cartNumberOC');
+        OcCart = parseInt(OcCart);
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let CCesCart = localStorage.getItem('cartNumberCCES');
+        CCesCart = parseInt(CCesCart);
+        let PeCart = localStorage.getItem('cartNumberPE');
+        PeCart = parseInt(PeCart);
+        let totalcart170 = CCesCart + PrCart + PeCart + CcCart;
+        localStorage.setItem('totalCartNumber', totalcart170);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart170;
+}
 
 if(DpCart1 === null && CcCart1 === null && OcCart1 === null && BwCart1 === null && PrCart1 === null && NlCart1 === null && CCesCart1 === null && PeCart1 === null){
         localStorage.removeItem('totalCartNumber');
