@@ -5266,7 +5266,7 @@ if(PeAmount1 && CCesAmount1 && DpAmount1 && PrAmount1 && NlAmount1){
         PeAmount = parseInt(PeAmount);
         let CCesAmount = localStorage.getItem('totalAmountCCES');
         CCesAmount = parseInt(CCesAmount);
-        let totalAmount209 = PeAmount + NlAmount + PrAmount + CcAmount + CCesAmount;
+        let totalAmount209 = PeAmount + NlAmount + PrAmount + DpAmount + CCesAmount;
         localStorage.setItem('totalAmountNumber', totalAmount209);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount209;
 }
