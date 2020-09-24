@@ -4112,7 +4112,7 @@ if(PeAmount1 && CcAmount1 && OcAmount1 && PrAmount1){
         OcAmount = parseInt(OcAmount);
         let PeAmount = localStorage.getItem('totalAmountPE');
         PeAmount = parseInt(PeAmount);
-        let totalAmount152 = CCesAmount + OcAmount + CcAmount + PrAmount ;
+        let totalAmount152 = PeAmount1 + OcAmount + CcAmount + PrAmount ;
         localStorage.setItem('totalAmountNumber', totalAmount152);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount152;
 }
