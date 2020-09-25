@@ -1,5 +1,6 @@
 function totalAmountsDisplay()
 {
+let PeAmount1 = localStorage.getItem('totalAmountPE');
 if(PeAmount1){
         let PeAmount = localStorage.getItem('totalAmountPE');
         PeAmount = parseInt(PeAmount);
