@@ -3297,7 +3297,7 @@ if(PeAmount1){
         localStorage.setItem('totalAmountNumber', PeAmount);
         document.querySelector('.basel-cart-subtotalCart').textContent = PeAmount;
 }
-if(PeAmount1 && CCesCart1 && OcAmount1 && BwAmount1 && PrAmount1 && NlAmount1){
+if(PeAmount1 && CCesAmount1 && OcAmount1 && BwAmount1 && PrAmount1 && NlAmount1){
         let CCesAmount = localStorage.getItem('totalAmountCCES');
         CCesAmount = parseInt(CCesAmount);
         let OcAmount = localStorage.getItem('totalAmountOC');
