@@ -3126,6 +3126,72 @@ if(CCesAmount1 && PeAmount1){
         localStorage.setItem('totalAmountNumber', totalAmount125);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount125;
 }
+if(PeAmount1 && DpAmount1 && CcAmount1){
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        CcAmount = parseInt(CcAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount126 = PeAmount + DpAmount + CcAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount126);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount126;
+}
+if(PeAmount1 && DpAmount1 && OcAmount1){
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let OcAmount = localStorage.getItem('totalAmountOC');
+        OcAmount = parseInt(OcAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount127 = PeAmount + DpAmount + OcAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount127);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount127;
+}
+if(PeAmount1 && DpAmount1 && BwAmount1){
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let BwAmount = localStorage.getItem('totalAmountBW');
+        BwAmount = parseInt(BwAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount128 = PeAmount + DpAmount + BwAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount128);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount128;
+}
+if(PeAmount1 && DpAmount1 && PrAmount1){
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let PrAmount = localStorage.getItem('totalAmountPR');
+        PrAmount = parseInt(PrAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount129 = PeAmount + DpAmount + PrAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount129);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount129;
+}
+if(PeAmount1 && DpAmount1 && NlAmount1){
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let NlAmount = localStorage.getItem('totalAmountNL');
+        NlAmount = parseInt(NlAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount130 = PeAmount + DpAmount + NlAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount130);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount130;
+}
+if(PeAmount1 && CcAmount1 && OcAmount1){
+        let OcAmount = localStorage.getItem('totalAmountOC');
+        OcAmount = parseInt(OcAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        CcAmount = parseInt(CcAmount);
+        let PeAmount = localStorage.getItem('totalAmountPE');
+        PeAmount = parseInt(PeAmount);
+        let totalAmount131 = PeAmount + CcAmount + OcAmount ;
+        localStorage.setItem('totalAmountNumber', totalAmount131);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount131;
+}
 if(PeAmount1 && CCesAmount1 && OcAmount1 && BwAmount1 && PrAmount1 && NlAmount1){
         let CCesAmount = localStorage.getItem('totalAmountCCES');
         CCesAmount = parseInt(CCesAmount);
