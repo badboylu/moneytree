@@ -5849,7 +5849,7 @@ if(PeAmount1 && DpAmount1 && CcAmount1 && BwAmount1 && PrAmount1 && NlAmount1){
         localStorage.setItem('totalAmountNumber', totalAmount218);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount218;
 }
-if(PeAmount && DpAmount1 && CcAmount1 && OcAmount1 && PrAmount1 && NlAmount1){
+if(PeAmount1 && DpAmount1 && CcAmount1 && OcAmount1 && PrAmount1 && NlAmount1){
         let NlAmount = localStorage.getItem('totalAmountNL');
         NlAmount = parseInt(NlAmount);
         let DpAmount = localStorage.getItem('totalAmountDP');
