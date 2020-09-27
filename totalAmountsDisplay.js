@@ -584,6 +584,19 @@ if(NlCart1 && DpCart1 && OcCart1 && PrCart1){
         localStorage.setItem('totalCartNumber', totalcart49);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart49;
 }
+if(NlCart1 && DpCart1 && BwCart1 && PrCart1){
+        let NlCart = localStorage.getItem('cartNumberNL');
+        NlCart = parseInt(NlCart);
+        let DpCart = localStorage.getItem('cartNumberDP');
+        DpCart = parseInt(DpCart);
+        let BwCart = localStorage.getItem('cartNumberBW');
+        BwCart = parseInt(BwCart);
+        let PrCart = localStorage.getItem('cartNumberPR');
+        PrCart = parseInt(PrCart);
+        let totalcart400 = NlCart + DpCart + BwCart + PrCart;
+        localStorage.setItem('totalCartNumber', totalcart400);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart400;
+}
 if(NlCart1 && CcCart1 && OcCart1 && BwCart1 && PrCart1){
         let NlCart = localStorage.getItem('cartNumberNL');
         NlCart = parseInt(NlCart);
@@ -3698,6 +3711,19 @@ if(NlAmount1 && OcAmount1 && PrAmount1 && DpAmount1){
         let totalAmount49 = NlAmount + OcAmount + PrAmount + DpAmount;
         localStorage.setItem('totalAmountNumber', totalAmount49);
         document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount49;
+}
+if(NlAmount1 && BwAmount1 && PrAmount1 && DpAmount1){
+        let NlAmount = localStorage.getItem('totalAmountNL');
+        NlAmount = parseInt(NlAmount);
+        let BwAmount = localStorage.getItem('totalAmountBW');
+        BwAmount = parseInt(BwAmount);
+        let PrAmount = localStorage.getItem('totalAmountPR');
+        PrAmount = parseInt(PrAmount);
+        let DpAmount = localStorage.getItem('totalAmountDP');
+        DpAmount = parseInt(DpAmount);
+        let totalAmount400 = NlAmount + OcAmount + PrAmount + DpAmount;
+        localStorage.setItem('totalAmountNumber', totalAmount400);
+        document.querySelector('.basel-cart-subtotalCart').textContent = totalAmount400;
 }
 if(NlAmount1 && DpAmount1 && CcAmount1 && OcAmount1 && BwAmount1){
         let DpAmount = localStorage.getItem('totalAmountDP');
