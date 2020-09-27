@@ -3043,7 +3043,7 @@ if(PeCart1 && CCesCart1 && CcCart1 && OcCart1 && BwCart1 && PrCart1 && NlCart1){
         BwCart = parseInt(BwCart);
         let PrCart = localStorage.getItem('cartNumberPR');
         PrCart = parseInt(PrCart);
-        let totalcart234 = NlCart + PeCart + CCesCart + CcCart1 + OcCart + BwCart + PrCart;
+        let totalcart234 = NlCart + PeCart + CCesCart + CcCart + OcCart + BwCart + PrCart;
         localStorage.setItem('totalCartNumber', totalcart234);
         document.querySelector('.basel-cart-numberCart').textContent = totalcart234;
 }
