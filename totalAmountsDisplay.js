@@ -1367,9 +1367,9 @@ if(PeCart1 && BwCart1 && PrCart1 && CcCart1 && DpCart1 ){
         PeCart = parseInt(PeCart);
         let CcCart = localStorage.getItem('cartNumberCC');
         CcCart = parseInt(CcCart);
-        let totalcart403 = PeCart + PrCart + DpCart + BwCart + CcCart;
-        localStorage.setItem('totalCartNumber', totalcart403);
-        document.querySelector('.basel-cart-numberCart').textContent = totalcart403;
+        let totalcart408 = PeCart + PrCart + DpCart + BwCart + CcCart;
+        localStorage.setItem('totalCartNumber', totalcart408);
+        document.querySelector('.basel-cart-numberCart').textContent = totalcart408;
 }
 if(CCesCart1 && DpCart1 && CcCart1 && OcCart1 && BwCart1 && PrCart1){
         let CcCart = localStorage.getItem('cartNumberCC');
