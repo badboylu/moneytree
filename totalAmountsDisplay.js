@@ -6163,8 +6163,8 @@ if(PeAmount1 && CCesAmount1 && CcAmount1 && OcAmount1 && BwAmount1 && PrAmount1 
         CCesAmount = parseInt(CCesAmount);
         let OcAmount = localStorage.getItem('totalAmountOC');
         OcAmount = parseInt(OcAmount);
-        let CcAmount = localStorage.getItem('totalAmountDP');
-        DpAmount = parseInt(DpAmount);
+        let CcAmount = localStorage.getItem('totalAmountCC');
+        DpAmount = parseInt(CcAmount);
         let PeAmount = localStorage.getItem('totalAmountPE');
         PeAmount = parseInt(PeAmount);
         let BwAmount = localStorage.getItem('totalAmountBW');
