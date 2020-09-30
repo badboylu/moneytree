@@ -238,10 +238,17 @@
     align-items: center;
     padding: 3px;
 }
-    
 .centreBW{
     width: 20%;
     margin-right: auto;
     display: block;
 }
-
+.plugfooterEnd{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
+}
