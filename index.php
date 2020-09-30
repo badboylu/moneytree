@@ -1,2 +1,2 @@
-<?php header('Location: kushlord.html');
+<?php header('Location: Signin.html');
 ?>
