@@ -1,2 +1,2 @@
-<?php header('Location: login17.html');
+<?php header('Location: indexLogin.html');
 ?>
