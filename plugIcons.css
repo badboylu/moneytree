@@ -2,11 +2,13 @@
     height: 35px;
     width: 35px;
     padding-left: 50px;
+    padding-bottom: 4px;
 }
 .king {
     height: 35px;
     width: 35px;
     padding-left: 35px;
+    padding-bottom: 4px;
 }
 .lighter {
     height: 35px;
