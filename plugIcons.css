@@ -6,5 +6,8 @@
 .king {
     height: 35px;
     width: 35px;
-    padding-left: 30px;
+    padding-left: 35px;
+}
+.lighter {
+    padding-bottom: 4px;
 }
