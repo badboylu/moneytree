@@ -9,5 +9,8 @@
     padding-left: 35px;
 }
 .lighter {
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
     padding-bottom: 4px;
 }
