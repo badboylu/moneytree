@@ -259,7 +259,7 @@
     float: right;
 }
 .totalOrder{
-    float: right;
+    padding-left: 100%;
 }
 .totalOrderR{
     position: relative;
