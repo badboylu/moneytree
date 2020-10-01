@@ -3,5 +3,9 @@
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
    <input type="hidden" name="amount" value="100.00">
    <input type="hidden" name="item_name" value="Test Product">
+   <input type="hidden" name="return_url" value="https://www.example.com/success">
+   <input type="hidden" name="cancel_url" value="https://www.example.com/cancel">
+   <input type="hidden" name="notify_url" value="https://www.example.com/notify">
+ 
    <input type="submit">
 </form> 
