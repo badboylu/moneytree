@@ -258,10 +258,6 @@
 .totalDelivery{
     float: right;
 }
-.totalOrder{
-    float: right;
-    display: inline-block;
-}
 .totalOrderR{
     float: left;
     padding-left: 78.1%;
