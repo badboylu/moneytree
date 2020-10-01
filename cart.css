@@ -260,14 +260,17 @@
 }
 .totalOrder{
     float: right;
+    display: inline-block;
 }
 .totalOrderR{
     float: left;
     padding-left: 78.1%;
+    display: inline-block;
 }
 .totalCart{
     float: left;
     padding-left: 0px;
+    display: inline-block;
 }
 .itemsRow{
     white-space: nowrap;
