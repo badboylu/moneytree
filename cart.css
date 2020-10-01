@@ -262,5 +262,6 @@
     float: right;
 }
 .totalOrderR{
-    padding-right: 100%px;
+    float: left;
+    padding-left: 50px;
 }
