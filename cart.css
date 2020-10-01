@@ -255,17 +255,10 @@
 .cartpayment{
     float: right;
 }
-.totaldelivery{
+.totalDelivery{
     float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 .totalOrder{
     float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
-.totalCart{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
