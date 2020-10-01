@@ -12,5 +12,22 @@ if(empty($username)||empty($email)||empty($password)||empty($passwordrepeat)||){
      exit();
 }                  
 
+else if(!FILTER_VAR($email, FILTER_VALIDATE_EMAIL)&&!preg_match("/^[a-zA-Z0-9]*$/",$username)){        
+   header("Location:signup.php?error=invalidemail&uid);
+     exit();
+}
+
+else if(!FILTER_VAR($email, FILTER_VALIDATE_EMAIL)){        
+   header("Location:signup.php?error=invalidemail&uid=".$username);
+     exit();
+}
+
+
+
+
+
+
+
+
 
 }
