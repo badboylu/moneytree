@@ -269,3 +269,9 @@
     float: left;
     padding-left: 0px;
 }
+.itemsRow{
+    white-space: nowrap;
+}
+.totalsRow{
+    white-space: nowrap;
+}
