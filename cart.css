@@ -259,10 +259,8 @@
     float: right;
 }
 .totalOrder{
-    padding-left: 100%;
+    float: right;
 }
 .totalOrderR{
-    position: relative;
-    float: right;
-    padding-left: 30px;
+    padding-left: 100%px;
 }
