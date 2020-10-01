@@ -262,6 +262,7 @@
     float: right;
 }
 .totalOrderR{
+    position: relative;
     float: right;
     padding-left: 30px;
 }
