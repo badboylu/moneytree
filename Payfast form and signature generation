@@ -9,5 +9,6 @@
    <input type="hidden" name="return_url" value="https://www.example.com/success">
    <input type="hidden" name="cancel_url" value="https://www.example.com/cancel">
    <input type="hidden" name="notify_url" value="https://www.example.com/notify">
+   <input type="hidden" name="payment_method" value="eft"> 
    <input type="submit">
 </form> 
