@@ -22,9 +22,15 @@ else if(!FILTER_VAR($email, FILTER_VALIDATE_EMAIL)){
      exit();
 }
 
+else if(!preg_match("/^[a-zA-Z0-9]*$/",$username)){        
+   header("Location:signup.php?error=invaliduid&email=".$email);
+     exit();
+}
 
-
-
+else if($password !== $passwordrepeat){
+   header("Location:signup.php?error=passwordcheck&uid=".$username.".&email=".$email);
+     exit();
+}
 
 
 
