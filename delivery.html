@@ -9,10 +9,6 @@ href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
 <title>Delivery</title>
-<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="iofrm-style.css">
-    <link rel="stylesheet" type="text/css" href="iofrm-theme17.css">
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -227,44 +223,21 @@ Cart
 </div>
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
-<div class="form-body without-side">
-        <div class="website-logo">
-            <a href="index.html">
-                <div class="logo">
-                    <img class="logo-size" src="logo-light.svg" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="LoginBackground.jpg" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Welcome! <br> Login to <a href="index.html">Kush Lord</a></h3>
-                        <p>Cannibus Health Store</p>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required>
-                            <div class="form-button">
-                                <button type="submit" class="ibtn" >Login</button> 
-                               <a href="FGT.html">Forgot password?</a>
-                            </div>
-                        </form>
-                      
-                        <div class="page-links">
-                            <br>
-                            <a href="register.html">Register new account</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<form action="delivery.html" method="get">
+  <p>Country : <input class="Form-control" type="text" name="merchant_id" value="10000100"></p>
+  <p>Province : <input class="form-control" type="text" name="merchant_key" value="46f0cd694581a"></p>
+   <input class="form-control" type="text" name="amount" value="100.00">
+   <input class="form-control" type="text" name="item_name" value="Test Product">
+   <input type="hidden" name="item_description" value="A test product">
+   <input type="hidden" name="email_confirmation" value="1">
+   <input type="hidden" name="confirmation_address" value="john@doe.com">
+   <input type="hidden" name="return_url" value="https://www.example.com/success">
+   <input type="hidden" name="cancel_url" value="https://www.example.com/cancel">
+   <input type="hidden" name="notify_url" value="https://www.example.com/notify">
+   <input type="hidden" name="payment_method" value="eft"> 
+   <input type="hidden" name="signature" value="f103e22c0418655fb03991538c51bfd5"> 
+   <input type="submit">
+</form> 
 <footer class="footer-container color-scheme-light">
 <div class="container main-footer">
 </div>
