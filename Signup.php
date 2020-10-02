@@ -50,7 +50,20 @@ else{
        header("Location:signup.html?error=usernametaken&email=".$email");
        exit();
 }
+  else{ 
+    $sql="INSERT INTO users (uidUsers, mailUsers, pwdUsers) VALUES(?,?,?)";
+    $stmt=mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+     header("Location:signup.html?error=usernametaken&email=".$email");
+       exit();
 }
-
+    else{
+     $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
+     mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
+     mysqli_stmt_execute($stmt);
+     mysqli_stmt_store_result($stmt);
+     header("Location:signup.html?signup=successful);
+       exit();
+  }
  }
 }
