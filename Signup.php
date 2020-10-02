@@ -1,3 +1,5 @@
+<?php
+
 if(isset($_POST['signup-submit'])){
 
 Require 'dbh.php';
