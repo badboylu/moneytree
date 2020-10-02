@@ -9,7 +9,7 @@ $email=$_POST['email'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 
-if(empty($username)||empty($email)||empty($password)||empty($passwordrepeat)||){
+if(empty($username)||empty($email)||empty($password)||empty($passwordrepeat)){
    header("Location:signup.php?error=emptyfields&uid=".$username.".&email=".$email);
      exit();
 }                  
