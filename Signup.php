@@ -64,6 +64,7 @@ else{
      mysqli_stmt_store_result($stmt);
      header("Location:signup.html?signup=successful);
        exit();
+   }
   }
  }
 }
