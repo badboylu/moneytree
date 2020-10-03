@@ -1,7 +1,5 @@
 <?php
 
-if(isset($_POST['signup'])){
-
 Require 'dbh.php';
 
 $username=$_POST['uid'];
@@ -70,8 +68,4 @@ else{
 }
 mysqli_stmt_close($stmt);
 mysqli_close($conn);
-}
-else{
-header("Location:register.html?error=signupPOST");
-       exit();
-}
+
