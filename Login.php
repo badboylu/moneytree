@@ -29,8 +29,16 @@ if(isset($_POST['login'])){
        $pwdcheck=password_verify($password, $row['pwdUsers']);
        exit();
    }
+      else if($pwdcheck == true){
+       SESSION_START();
+       $_SESSION['userId']=$row['idUsers'];
+       $_SESSION['userUid']=$row['uidUsers'];
+        header("Location:signing.html?login=successful");
+        exit();
+   }
       else{
-       
+        header("Location:signing.html?error=wrongpassword");
+        exit();
    }
   }
  }
