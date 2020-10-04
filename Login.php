@@ -1,4 +1,4 @@
-<?PHP
+<?php
 
 if(isset($_POST['login'])){
 
@@ -26,6 +26,10 @@ if(isset($_POST['login'])){
      $result=mysqli_stmt_get_result($stmt);
       
       if($row=mysqli_fetch_assoc($result)){
+       $pwdcheck=password_verify($password, $row['pwdUsers']);
+       exit();
+   }
+      else{
        
    }
   }
