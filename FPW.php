@@ -36,9 +36,12 @@ if(isset($_POST["request"])){
 
    mysqli_stmt_close($stmt);
    mysqli_close();
-
- 
    
+   $to=$userEmail;
+   $subject='Reset Kush Lord password';
+   $message='<p> We have received a request for a password reset. Please follow the link below to reset your password.</p>
+   $message='<p> Reset link: <br> ;
+   $message='<a href="'.$url.'">'.$url.'</a></p>;
 }
 
    
