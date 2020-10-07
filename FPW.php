@@ -7,8 +7,8 @@ if(isset($_POST["request"])){
    $expires=date("U")+1800;
    require 'dbh.php';
    $userEmail=$_POST["email"];
-   $stmt=mysqli_stmt_init($conn);
    $sql="DELETE FROM pwdReset WHERE pwdResetEmail=?";
+   $stmt=mysqli_stmt_init($conn);
 
  if(!mysqli_stmt_prepare($stmt, $sql)){
     header("Location:FPW.html?error=sqlerror");
@@ -23,8 +23,22 @@ if(isset($_POST["request"])){
     $sql="INSERT INTO pwdRest(pwdResetEmail,pwdResetSelector,pwdResetToken,pwdResetExpires) VALUES (?,?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
+ if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:FPW.html?error=sqlerror");
+    exit();
+ }
 
+ else{
+ $hashedToken=password_hash($token, PASSWORD_DEFAULT);
+ mysqli_stmt_bind_param($stmt,"ssss",$userEmail,$selector,$hashedToken,$expires);
+ mysqli_stmt_execute($stmt);
+ }
 
+   mysqli_stmt_close($stmt);
+   mysqli_close();
+
+ 
+   
 }
 
    
