@@ -42,6 +42,14 @@ if(isset($_POST["request"])){
    $message='<p> We have received a request for a password reset. Please follow the link below to reset your password.</p>';
    $message='<p> Reset link: <br>' ;
    $message='<a href="'.$url.'">'.$url.'</a></p>;
+   $headers="From:Kush Lord<admin@kushlord.co.za>\r\n";
+   $headers="Content-type:text/html\r\n";
+   mail($to,$subject,$message,$headers);
+   header("Location:FPW.html?reset=success");
+}
+else{
+ header("Location:FPW.html?error=posterror");
+ exit();
 }
 
    
