@@ -34,3 +34,17 @@ function generateSignature($data, $passPhrase = null) {
     }
     $signature= "return md5( $getString )";
 } 
+
+$signature = generateSignature($data);
+$data['signature'] = $signature;
+
+// If in testing mode make use of either sandbox.payfast.co.za or www.payfast.co.za
+$testingMode = true;
+$pfHost = $testingMode ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
+$htmlForm = '<form action="https://'.$pfHost.'/eng/process" method="post">';
+foreach($data as $name=> $value)
+{
+    $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
+}
+$htmlForm .= '<input type="submit" value="Pay Now" /></form>';
+echo $htmlForm; 
