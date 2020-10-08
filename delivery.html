@@ -235,6 +235,10 @@ Delivery details
 </nav>
 </div>
 </div>
+<script>
+var outputValue= <span class="totalOrderDelivery"></span> ;
+document.getElementById("amount").value=outputValue;
+</script>
 <form action="https://sandbox.payfast.co.za​/eng/process" method="post">
    <span>Country:</span><input type="text" name="merchant_id" value="10000100">
    <span>Province:</span><input type="text" name="merchant_id" value="10000100">
@@ -243,7 +247,7 @@ Delivery details
    <span>Street:</span><input type="text" name="merchant_id" value="10000100">
    <span>House/Unit number:</span><input type="text" name="merchant_id" value="10000100">
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
-   <input type="hidden" name="amount" value="">
+   <input type="hidden" name="amount" id="amount" value="">
    <input type="hidden" name="item_name" value="Cannibus Health Store Items">
    <input type="hidden" name="item_description" value="Flowers">
    <input type="hidden" name="email_confirmation" value="1">
