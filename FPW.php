@@ -35,7 +35,7 @@ if(isset($_POST["request"])){
  }
 
    mysqli_stmt_close($stmt);
-   mysqli_close();
+   mysqli_close($conn);
    
    $to=$userEmail;
    $subject='Reset Kush Lord password';
