@@ -19,7 +19,8 @@ if(isset($_POST['reset-submit'])){
 
    $currentDate=date("U");
    require 'dbh.php';
-   $sql="SELECT * FROM pwdReset WHERE pwdResetSelector=? AND pwdResetExpires>=?";
+   $sql="SELECT * FROM pwdReset WHERE pwdResetSelector=? AND pwdResetExpires>=?;
+";
    $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
      echo "sqlError";
@@ -41,7 +42,16 @@ if(isset($_POST['reset-submit'])){
          exit();
         }
         elseif($tokenCheck===true){
-         
+         $tokenEmail=$row['pwdResetEmail'];
+         $sql="SELECT * FROM users WHERE emailUsers=?;";
+         $stmt=mysqli_stmt_init($conn);
+          if(!mysqli_stmt_prepare($stmt, $sql)){
+           echo "sqlError";
+           exit();
+          }
+          else{
+           
+          }
         }
       }
     }
