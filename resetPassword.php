@@ -75,7 +75,9 @@ if(isset($_POST['reset-submit'])){
                  exit();
                 }
                 else{
-      
+                 mysqli_stmt_bind_param($stmt,"s",$tokenEmail);
+                 mysqli_stmt_execute($stmt);
+                 header("Location:create-new-password.html?Reset=successfull");
                 }
               }
             }
