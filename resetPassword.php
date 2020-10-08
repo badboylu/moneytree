@@ -26,6 +26,23 @@ if(isset($_POST['reset-submit'])){
      exit();
     }
     else{
-
+     mysqli_stmt_bind_param($stmt,"s",$selector);
+     mysqli_stmt_execute($stmt);
+     $result=mysqli_stmt_get_result($stmt);
+      if(!$row=mysqli_fetch_assoc($result)){
+       echo "Please re-submit request";
+       exit();
+      }
+      else{
+       $tokenBin=hex2bin($validation);
+       $tokenCheck=password_verify($tokenBin,$row["pwdResetToken"]);
+        if($tokenCheck === false){
+         echo "Please re-submit request";
+         exit();
+        }
+        elseif($tokenCheck===true){
+         
+        }
+      }
     }
 }
