@@ -17,4 +17,15 @@ if(isset($_POST['reset-submit'])){
    exit();
   }
 
+   $currentDate=date("U");
+   require 'dbh.php';
+   $sql="SELECT * FROM pwdReset WHERE pwdResetSelector=? AND pwdResetExpires>=?";
+   $stmt=mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+     echo "sqlError";
+     exit();
+    }
+    else{
+
+    }
 }
