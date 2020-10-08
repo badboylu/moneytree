@@ -1,4 +1,4 @@
-function deliveryPriceDisplay(){
+function deliveryPriceDisplay1(){
 let deliveryCost = localStorage.getItem('totalAmountNumber');
 let deliveryFee = 40;
 deliveryCost1 = parseInt(deliveryCost) + deliveryFee;
