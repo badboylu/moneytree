@@ -58,7 +58,26 @@ if(isset($_POST['reset-submit'])){
              exit();
             }
             else{
-
+             $sql="UPDATE users SET pwdUsers=? WHERE email used=?;";
+             $stmt=mysqli_stmt_init($conn);
+              if(!mysqli_stmt_prepare($stmt, $sql)){
+               echo "sqlError";
+               exit();
+              }
+              else{
+               $newPwdHashed=password_hash($password, PASSWORD_DEFAULT);
+               mysqli_stmt_bind_param($stmt,"ss",$newPwdHashed,$tokenEmail);
+               mysqli_stmt_execute($stmt);
+               $sql="DELETE FROM pwdRest WHERE pwdResetEmail=?;";
+               $stmt=mysqli_stmt_init($conn);
+                if(!mysqli_stmt_prepare($stmt, $sql)){
+                 echo "sqlError";
+                 exit();
+                }
+                else{
+      
+                }
+              }
             }
           }
         }
