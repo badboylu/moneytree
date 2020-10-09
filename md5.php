@@ -1,6 +1,6 @@
 <?php
 
-$cartTotal = 10.00;// This amount needs to be sourced from your application
+$cartTotal=$_POST['pwdrepeat'];
 
 $data = array(
     // Merchant details
@@ -39,12 +39,10 @@ $signature = generateSignature($data);
 $data['signature'] = $signature;
 
 // If in testing mode make use of either sandbox.payfast.co.za or www.payfast.co.za
-$testingMode = true;
-$pfHost = $testingMode ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
-$htmlForm = '<form action="https://'.$pfHost.'/eng/process" method="post">';
+$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
 foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" value="Pay Now" /></form>';
+$htmlForm .= '<input type="submit" value="Pay" /></form>';
 echo $htmlForm; 
