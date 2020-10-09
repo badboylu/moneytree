@@ -41,16 +41,14 @@ $signature = generateSignature($data);
 $data['signature'] = $signature;
 
 // If in testing mode make use of either sandbox.payfast.co.za or www.payfast.co.za
-$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
+$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" name="plug" method="post">';
 foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" id="Paysubmit" value="Paynow" /></form>'; 
+$htmlForm .= '<input type="submit" value="Paynow" /></form>'; 
 ?>
-<script type="text/javascript">
-    document.getElementById('Paysubmit').submit(); 
-</script>
+<script language="JavaScript">document.plug.submit();</script>
 <?php
 }
 ?>
