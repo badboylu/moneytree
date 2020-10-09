@@ -1,8 +1,8 @@
 <?php
 
-if(isset($_POST["request"])){
+if(isset($_POST["Pay"])){
 
-$cartTotal=$_POST['pwdrepeat'];
+$cartTotal=$_POST['amount'];
 
 $data = array(
     // Merchant details
