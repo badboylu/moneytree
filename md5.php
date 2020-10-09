@@ -46,6 +46,9 @@ foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" value="Paynow" /></form>';
-echo $htmlForm; 
+$htmlForm .= '<input type="submit" id="Paysubmit" value="Paynow" /></form>'; 
 }
+?>
+<script type="text/javascript">
+    document.getElementById('Paysubmit').submit(); 
+</script>
