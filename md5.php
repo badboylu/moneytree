@@ -1,5 +1,7 @@
 <?php
 
+if(isset($_POST["request"])){
+
 $cartTotal=$_POST['pwdrepeat'];
 
 $data = array(
@@ -44,5 +46,6 @@ foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" value="Pay" /></form>';
+$htmlForm .= '<input type="submit" value="Paynow" /></form>';
 echo $htmlForm; 
+}
