@@ -39,7 +39,6 @@ function addGramsNumbersHomeCC() {
 
 
 function totalCostHomeCC(priceHomeCC) {
-        console.log('The product price is', priceHome);
         localStorage.setItem('totalCostCC', priceHomeCC);
        
 }
@@ -49,7 +48,6 @@ function displaytotalpriceHomeCC() {
         gramsnumberHomeCC = parseInt(gramsnumberHomeCC);
         let pricetotalHomeCC = localStorage.getItem('totalCostCC');
         pricetotalHomeCC = parseInt(pricetotalHomeCC);
-        console.log(typeof pricetotalHome);
         let totalAmountHomeCC = pricetotalHomeCC * gramsnumberHomeCC;
         localStorage.setItem('totalAmountCC', totalAmountHomeCC);
 }
