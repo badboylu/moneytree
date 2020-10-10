@@ -1,0 +1,4 @@
+.cartpayment{
+    padding-above: 10px;
+    float: right;
+}
