@@ -16,7 +16,7 @@ data-minify="1" />
 href="plugIcons.css" />
 <style> 
 input[type=submit]{
-  margin-left: 90%;
+  margin-left: 80%;
   margin-top: 20px;
 }
 </style>
@@ -220,7 +220,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Delivery details
+Payment method
 </strong>
 <span class="title-separator">
 <span>
@@ -236,31 +236,15 @@ Delivery details
 <a href="index.html">
 Shop
 </a><span class="breadcrumb-last"> 
-Delivery details
+Payment method
 </span>
 </nav>
 </div>
 </div>
+<?php
+require 'md5.php';
+?>
 
-<form action="md5.php" method="post">
-   <span>Country:</span><input type="text" name="merchant_id" value="South Africa" readonly>
-   <span>Province:</span><input type="text" name="merchant_id" value="Gauteng" readonly>
-   <span>City:</span><input type="text" name="merchant_id" value="Tshwane/Pretoria" readonly>
-   <span>Suburb:</span><input type="text" name="merchant_id" placeholder="Enter Suburb name" required>
-   <span>Street:</span><input type="text" name="merchant_id" placeholder="Enter Street name" required>
-   <span>House/Unit number:</span><input type="text" name="merchant_id" placeholder="Enter House/Unit number" required>
-   <input type="hidden" name="merchant_key" value="46f0cd694581a">
-   <input type="hidden" name="amount" id="amount" value="">
-   <input type="hidden" name="item_name" value="Cannibus Health Store Items">
-   <input type="hidden" name="item_description" value="Flowers">
-   <input type="hidden" name="email_confirmation" value="1">
-   <input type="hidden" name="confirmation_address" value="john@doe.com">
-   <input type="hidden" name="return_url" value="https://www.kushlord.herokuapp.com/delivery.html">
-   <input type="hidden" name="cancel_url" value="https://www.kushlord.herokuapp.com/delivery.html">
-   <input type="hidden" name="notify_url" value="https://www.kushlord.herokuapp.com/delivery.html">
-   <input type="hidden" name="signature" value="f103e22c0418655fb03991538c51bfd5">
-   <input type="submit" name="Pay">
-</form> 
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
