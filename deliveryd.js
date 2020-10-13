@@ -1,6 +1,6 @@
 function delivery d(){
 
-   if(document.frmAddEditUser.listCompany.value=='None'){
+   if(document.moneytree.listCompany.value=='None'){
       //do something
    }
  }
