@@ -1,6 +1,6 @@
 function delivery d(){
 
-   if(document.moneytree.listCompany.value=='None'){
-      //do something
+   if(document.moneytree.City.value=='Tshwane/Pretoria'){
+     
    }
  }
