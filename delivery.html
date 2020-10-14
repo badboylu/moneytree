@@ -243,6 +243,17 @@ Delivery details
 </nav>
 </div>
 </div>
+<script>
+var City = $("#City").val();
+
+if (City == "Tshwane/Pretoria") {
+   $("#hideJHBtown").fadeOut(); 
+   $("#hidePTAtown").fadeIn(); 
+}else {
+   $("#hidePTAtown").fadeOut(); 
+   $("#hideJHBtown").fadeIn();
+}
+</script>
 <?php
 require 'md5.php';
 ?>
