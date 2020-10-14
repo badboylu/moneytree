@@ -1,4 +1,5 @@
 setInterval (function hideJHB(){
+   var City = document.getElementById('').value;
         if (){
 		document.getElementById("BW").style.display = "none";
 	}else{
