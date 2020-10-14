@@ -17,11 +17,11 @@ setInterval (function hidePTA(){
 }, 1000);
 
 setInterval (function showPTAeast(){
-   var Town = document.getElementById('hidePTAeastsuburb').value;
+   var Town = document.getElementById('TownsPTA').value;
         if (Town=='Pretoria East'){
-		document.getElementById("suburbsPTAeast").style.display = "block";
+		document.getElementById("hidePTAeastsuburb").style.display = "block";
 	}else{
-		document.getElementById("suburbsPTAeast").style.display = "none";
+		document.getElementById("hidePTAeastsuburb").style.display = "none";
 	}
 }, 1000);
 
