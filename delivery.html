@@ -256,6 +256,7 @@ require 'md5.php';
   <option value="Johannesburg">Johannesburg</option>
 </select>
 <label>Town:</label>
+<div id="hidePTAtown" style="display:none">
 <select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug">
   <option value="" disabled selected>Select Town</option>
   <option value="Pretoria East">Pretoria East</option>
@@ -264,6 +265,8 @@ require 'md5.php';
   <option value="Pretoria North">Pretoria North</option>
   <option value="Centurion">Centurion</option>
 </select>
+</div>
+<div id="hideJHBtown" style="display:none">
 <select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug">
   <option value="" disabled selected>Select Town</option>
   <option value="Santon">Santon</option>
@@ -271,7 +274,9 @@ require 'md5.php';
   <option value="Roodepoort">Roodepoort</option>
   <option value="Randburg">Randburg</option>
 </select>
+</div>
    <label>Suburb:</label>
+<div id="hidePTAsuburb" style="display:none">
 <select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug">
   <option value="" disabled selected>Select Suburb</option>
   <option value="AlphenPark"> Alphen Park </option>
@@ -336,6 +341,7 @@ require 'md5.php';
   <option value=" Woodlands "> Woodlands </option>
   <option value=" Zwavelpoort "> Zwavelpoort </option>
 </select>
+</div>
    <label>Street:</label><input type="text" name="Street" placeholder="Enter Street name" required>
    <label>House/Unit number:</label><input type="text" name="House/Unit-number" placeholder="Enter House/Unit number" required>
    <input type="hidden" name="merchant_id" value=" 10000100 ">
