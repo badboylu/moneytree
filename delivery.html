@@ -414,7 +414,7 @@ Scroll To Top
 src="jquery-3.5.1.min.js">
 </script>
 <script>
-$(document).ready(function(){
+setInterval($(document).ready(function(){
 var City = $(".city").val();
 function deliveryfade(){
 if (City == "Tshwane/Pretoria") {
@@ -423,8 +423,8 @@ if (City == "Tshwane/Pretoria") {
    $(".hideJHBtown").fadeIn();
 }
 }
-setInterval(deliveryfade,1000);
-}
+},1000);
+
 </script>
 <script src="159ee3662dfb9514a247e01325dcd82e.js" data-minify="1" defer>
 </script>
