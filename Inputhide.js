@@ -17,8 +17,9 @@ setInterval (function hidePTA(){
 }, 1000);
 
 setInterval (function showPTAeast(){
+   var City = document.getElementById('city').value;
    var Town = document.getElementById('townsPTA').value;
-        if (Town=='PretoriaEast'){
+        if (Town=='PretoriaEast' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTAeastsuburb").style.display = "block";
 	}else{
 		document.getElementById("hidePTAeastsuburb").style.display = "none";
