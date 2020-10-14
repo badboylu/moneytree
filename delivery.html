@@ -257,7 +257,7 @@ require 'md5.php';
   <option value="Johannesburg">Johannesburg</option>
 </select>
 
-<div class="hidePTAtown" style="display:none">
+<div id="hidePTAtown" style="display:none">
 <label>Town:</label>
 <select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug">
   <option value="" disabled selected>Select Town</option>
@@ -268,7 +268,7 @@ require 'md5.php';
   <option value="Centurion">Centurion</option>
 </select>
 </div>
-<div class="hideJHBtown" style="display:none">
+<div id="hideJHBtown" style="display:none">
 <label>Town:</label>
 <select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug">
   <option value="" disabled selected>Select Town</option>
@@ -279,7 +279,7 @@ require 'md5.php';
 </select>
 </div>
    
-<div class="hidePTAsuburb" style="display:none">
+<div id="hidePTAsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug">
   <option value="" disabled selected>Select Suburb</option>
@@ -346,10 +346,10 @@ require 'md5.php';
   <option value=" Zwavelpoort "> Zwavelpoort </option>
 </select>
 </div>
-<div class="hideStreet" style="display:none">
+<div id="hideStreet" style="display:none">
    <label>Street:</label><input type="text" name="Street" placeholder="Enter Street name" required>
 </div>
-<div class="hideNumber" style="display:none">
+<div id="hideNumber" style="display:none">
    <label>House/Unit number:</label><input type="text" name="House/Unit-number" placeholder="Enter House/Unit number" required>
 </div>
    <input type="hidden" name="merchant_id" value=" 10000100 ">
@@ -410,22 +410,7 @@ Scroll To Top
 </div> 
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button><div class="pswp__caption"><div class="pswp__caption__center">
 </div></div></div></div></div> 
-<script 
-src="jquery-3.5.1.min.js">
-</script>
-<script>
-$(document).ready(setInterval(function(){
-var City = $(".city").val();
-function(){
-if (City == "Tshwane/Pretoria") {
-   $(".hidePTAtown").fadeIn(); 
-}else {
-   $(".hideJHBtown").fadeIn();
-}
-}
-},1000);
-);
-</script>
+
 <script src="159ee3662dfb9514a247e01325dcd82e.js" data-minify="1" defer>
 </script>
 <script 
