@@ -16,14 +16,16 @@ setInterval (function hidePTA(){
 	}
 }, 1000);
 
-setInterval (function showPTAeast(){
-   var City = document.getElementById('city').value;
-        if (City=='Johannesburg'){
-		document.getElementById("hideJHBtown").style.display = "block";
+setInterval (function showPTAeast()
+{
+   var Town = document.getElementById('townsPTA').value;
+        if (Town=='PretoriaEast'){
+		document.getElementById("suburbsPTAeast").style.display = "none";
 	}else{
-		document.getElementById("hideJHBtown").style.display = "none";
+		document.getElementById("suburbsPTAeast").style.display = "block";
 	}
 }, 1000);
 
 hideJHB();
 hidePTA();
+showPTAeast();
