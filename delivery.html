@@ -347,11 +347,51 @@ require 'md5.php';
   <option value=" Zwavelpoort "> Zwavelpoort </option>
 </select>
 </div>
+<div id="hidecribtype" style="display:none">
+<label>Town:</label>
+<select class="cribtype" name="Crib" id="Cribtype" form="plug">
+  <option value="" disabled selected>Select Structure Type</option>
+  <option value="House">House</option>
+  <option value="Estate">Residential Estate</option>
+  <option value="Complex">Residential Complex</option>
+  <option value="Flat">Residential Flat Building</option>
+  <option value="Office">Office Complex</option>
+  <option value="Mall">Mall</option>
+  <option value="Shop">Shopping Complex</option>
+</select>
+</div>
+<div id="hideEstate" style="display:none">
+   <label>Estate name:</label><input type="text" name="Estate" placeholder="Enter Estate Name" required>
+</div>
+<div id="hideComplex" style="display:none">
+   <label>Complex name:</label><input type="text" name="Complex" placeholder="Enter Complex Name" required>
+</div>
+<div id="hideBuilding" style="display:none">
+   <label>Building name:</label><input type="text" name="Building" placeholder="Enter Building Name" required>
+</div>
+<div id="hideOffice" style="display:none">
+   <label>Office complex name:</label><input type="text" name="Office" placeholder="Enter Office Name" required>
+</div>
+<div id="hideMall" style="display:none">
+   <label>Mall name:</label><input type="text" name="Mall" placeholder="Enter Mall Name" required>
+</div>
+<div id="hideShop" style="display:none">
+   <label>Shopping complex name:</label><input type="text" name="Shop" placeholder="Enter Shop Name" required>
+</div>
 <div id="hideStreet" style="display:none">
-   <label>Street:</label><input type="text" name="Street" placeholder="Enter Street name" required>
+   <label>Street:</label><input type="text" name="Street" placeholder="Enter Street Name" required>
 </div>
 <div id="hideNumber" style="display:none">
-   <label>House/Unit number:</label><input type="text" name="House/Unit-number" placeholder="Enter House/Unit number" required>
+   <label>Unit number:</label><input type="text" name="Unit-number" placeholder="Enter Unit Number" required>
+</div>
+<div id="hideHouseNumber" style="display:none">
+   <label>House number:</label><input type="text" name="House-number" placeholder="Enter House Number" required>
+</div>
+<div id="hideContactNumber" style="display:none">
+   <label>Recipient contact number:</label><input type="text" name="Contact-number" placeholder="Enter Contact Number" required>
+</div>
+<div id="hideName" style="display:none">
+   <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
    <input type="hidden" name="merchant_id" value=" 10000100 ">
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
