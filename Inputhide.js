@@ -38,6 +38,8 @@ setInterval (function showEstate(){
    var Estate = document.getElementById('Cribtype').value;
         if (Estate==Estate){
 		document.getElementById("hideEstate").style.display = "block";
+	}else{
+		document.getElementById("hidePTAtown").style.display = "none";
 	}
 }, 1000);
 
