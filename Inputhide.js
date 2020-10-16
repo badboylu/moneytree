@@ -26,6 +26,15 @@ setInterval (function showPTAeast(){
 	}
 }, 1000);
 
+setInterval (function showStructuretype(){
+   var City = document.getElementById('city').value;
+   var Town = document.getElementById('townsPTA').value;
+        if (Town && City){
+		document.getElementById("Cribtype").style.display = "block";
+	}
+}, 1000);
+
 hideJHB();
 hidePTA();
 showPTAeast();
+showStructuretype();
