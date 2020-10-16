@@ -34,7 +34,15 @@ setInterval (function showStructuretype(){
 	}
 }, 1000);
 
+setInterval (function showEstate(){
+   var Estate = document.getElementById('Cribtype').value;
+        if (Estate==Estate){
+		document.getElementById("hideEstate").style.display = "block";
+	}
+}, 1000);
+
 hideJHB();
 hidePTA();
 showPTAeast();
 showStructuretype();
+showEstate();
