@@ -39,7 +39,7 @@ setInterval (function showEstate(){
         if (Estate==Estate){
 		document.getElementById("hideEstate").style.display = "block";
 	}else{
-		document.getElementById("hidePTAtown").style.display = "none";
+		document.getElementById("hideEstate").style.display = "none";
 	}
 }, 1000);
 
