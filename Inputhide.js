@@ -36,7 +36,7 @@ setInterval (function showStructuretype(){
 
 setInterval (function showEstate(){
    var Estate = document.getElementById('Cribtype').value;
-        if (Estate==Estate){
+        if (Estate=='Estate'){
 		document.getElementById("hideEstate").style.display = "block";
 	}else{
 		document.getElementById("hideEstate").style.display = "none";
