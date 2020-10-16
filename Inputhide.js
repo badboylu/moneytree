@@ -30,7 +30,7 @@ setInterval (function showStructuretype(){
    var City = document.getElementById('city').value;
    var Town = document.getElementById('townsPTA').value;
         if (Town && City){
-		document.getElementById("Cribtype").style.display = "block";
+		document.getElementById("hidecribtype").style.display = "block";
 	}
 }, 1000);
 
