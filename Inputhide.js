@@ -27,8 +27,8 @@ setInterval (function showPTAeast(){
 }, 1000);
 
 setInterval (function showStructuretype(){
-   var Town = document.getElementById('townsPTA').value;
-        if (Town){
+   var Suburb = document.getElementById('suburbsPTAeast').value;
+        if (Suburb){
 		document.getElementById("hidecribtype").style.display = "block";
 	}
 }, 1000);
