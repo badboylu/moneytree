@@ -36,6 +36,16 @@ setInterval (function showPTAnorthEast(){
 	}
 }, 1000);
 
+setInterval (function showPTAnorthWest(){
+   var City = document.getElementById('city').value;
+   var Town = document.getElementById('townsPTA').value;
+        if (Town=='PretoriaNorthWest' && City=='Tshwane/Pretoria'){
+		document.getElementById("hidePTANorthWestsuburb").style.display = "block";
+	}else{
+		document.getElementById("hidePTANorthWestsuburb").style.display = "none";
+	}
+}, 1000);
+
 setInterval (function showStructuretype(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
         if (Suburb){
@@ -98,3 +108,4 @@ showNumber();
 showContactNumber();
 showContactName();
 showPTAnorthEast();
+showPTAnorthWest();
