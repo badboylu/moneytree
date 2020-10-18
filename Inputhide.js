@@ -139,11 +139,19 @@ setInterval (function showStreet(){
 
 setInterval (function showNumber(){
    var Estate = document.getElementById('Cribtype').value;
-   var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House'){
+        if (Estate=='Estate'){
 		document.getElementById("hideNumber").style.display = "block";
 	}else{
-		document.getElementById("hideStreet").style.display = "none";
+		document.getElementById("hideNumber").style.display = "none";
+	}
+}, 1000);
+
+setInterval (function showHouseNumber(){
+   var House = document.getElementById('Cribtype').value;
+        if (House=='House'){
+		document.getElementById("hideHouseNumber").style.display = "block";
+	}else{
+		document.getElementById("hideHouseNumber").style.display = "none";
 	}
 }, 1000);
 
