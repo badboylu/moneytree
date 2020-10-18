@@ -9,11 +9,13 @@ Fill.forEach(Blanks =>{
 )
 
 function Fillblanks(){
-   var Mall = document.getElementById('city').value;
-   var Estate = document.getElementById('city').value;
-   var Company = document.getElementById('city').value;
-   var Shop = document.getElementById('city').value;
-   var Complex = document.getElementById('city').value;
-   var Building = document.getElementById('city').value;
-   var Street = document.getElementById('city').value;     
+   var Mall = document.getElementById('Mall1').value;
+   var Estate = document.getElementById('Estate1').value;
+   var Company = document.getElementById('Company1').value;
+   var Shop = document.getElementById('Shop1').value;
+   var Complex = document.getElementById('Complex1').value;
+   var Building = document.getElementById('Building1').value;
+   var Street = document.getElementById('Street1').value;
+   var House = document.getElementById('House1').value; 
+   var Unit = document.getElementById('Unit1').value;    
 }
