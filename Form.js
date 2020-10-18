@@ -17,5 +17,9 @@ function Fillblanks(){
    var Building = document.getElementById('Building1').value;
    var Street = document.getElementById('Street1').value;
    var House = document.getElementById('House1').value; 
-   var Unit = document.getElementById('Unit1').value;    
+   var Unit = document.getElementById('Unit1').value;
+
+ if(){
+
+ }    
 }
