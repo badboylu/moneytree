@@ -127,10 +127,20 @@ setInterval (function showEstate(){
 	}
 }, 1000);
 
+setInterval (function showComplex(){
+   var Complex = document.getElementById('Cribtype').value;
+        if (Complex=='Complex'){
+		document.getElementById("hideComplex").style.display = "block";
+	}else{
+		document.getElementById("hideComplex").style.display = "none";
+	}
+}, 1000);
+
 setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House'){
+   var Complex = document.getElementById('Cribtype').value;
+        if (Estate=='Estate' || House=='House' || Complex=='Complex' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
@@ -139,7 +149,7 @@ setInterval (function showStreet(){
 
 setInterval (function showNumber(){
    var Estate = document.getElementById('Cribtype').value;
-        if (Estate=='Estate'){
+        if (Estate=='Estate' || Estate=='Complex' ){
 		document.getElementById("hideNumber").style.display = "block";
 	}else{
 		document.getElementById("hideNumber").style.display = "none";
@@ -158,7 +168,7 @@ setInterval (function showHouseNumber(){
 setInterval (function showContactNumber(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House'){
+        if (Estate=='Estate' || House=='House' || House=='Complex' ){
 		document.getElementById("hideContactNumber").style.display = "block";
 	}else{
 		document.getElementById("hideContactNumber").style.display = "none";
@@ -168,7 +178,7 @@ setInterval (function showContactNumber(){
 setInterval (function showContactName(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House'){
+        if (Estate=='Estate' || House=='House' || House=='Complex' ){
 		document.getElementById("hideName").style.display = "block";
 	}else{
 		document.getElementById("hideName").style.display = "none";
