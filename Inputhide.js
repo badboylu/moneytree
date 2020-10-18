@@ -163,6 +163,15 @@ setInterval (function showMall(){
 	}
 }, 1000);
 
+setInterval (function showShop(){
+   var Complex = document.getElementById('Cribtype').value;
+        if (Complex=='Mall'){
+		document.getElementById("hideShop").style.display = "block";
+	}else{
+		document.getElementById("hideShop").style.display = "none";
+	}
+}, 1000);
+
 setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
@@ -235,3 +244,4 @@ showComplex();
 showBuilding();
 showOffice();
 showMall();
+showShop();
