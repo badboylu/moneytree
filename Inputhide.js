@@ -165,7 +165,7 @@ setInterval (function showMall(){
 
 setInterval (function showShop(){
    var Complex = document.getElementById('Cribtype').value;
-        if (Complex=='Mall'){
+        if (Complex=='Mall' || Complex=='Shop' ){
 		document.getElementById("hideShop").style.display = "block";
 	}else{
 		document.getElementById("hideShop").style.display = "none";
@@ -176,7 +176,7 @@ setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
    var Complex = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Mall' ){
+        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Mall' || Complex=='Shop' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
@@ -204,7 +204,7 @@ setInterval (function showHouseNumber(){
 setInterval (function showContactNumber(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' ){
+        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' || House=='Shop' ){
 		document.getElementById("hideContactNumber").style.display = "block";
 	}else{
 		document.getElementById("hideContactNumber").style.display = "none";
@@ -214,7 +214,7 @@ setInterval (function showContactNumber(){
 setInterval (function showContactName(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' ){
+        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' || House=='Shop' ){
 		document.getElementById("hideName").style.display = "block";
 	}else{
 		document.getElementById("hideName").style.display = "none";
