@@ -76,8 +76,15 @@ setInterval (function showCenturion(){
 	}
 }, 1000);
 
-setInterval (function showStructuretype(){
+setInterval (function showStructuretypeEast(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
+setInterval (function showStructuretypeNorthEast(){
+   var Suburb = document.getElementById('suburbsPTANorthEast').value;
         if (Suburb){
 		document.getElementById("hidecribtype").style.display = "block";
 	}
@@ -131,7 +138,7 @@ setInterval (function showContactName(){
 hideJHB();
 hidePTA();
 showPTAeast();
-showStructuretype();
+showStructuretypeEast();
 showEstate();
 showStreet();
 showNumber();
@@ -142,3 +149,4 @@ showPTAnorthWest();
 showPTACentral();
 showPTACentralWest();
 showCenturion();
+showStructuretypeNorthEast();
