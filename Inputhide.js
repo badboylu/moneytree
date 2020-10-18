@@ -50,9 +50,9 @@ setInterval (function showPTACentral(){
    var City = document.getElementById('city').value;
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaCentral' && City=='Tshwane/Pretoria'){
-		document.getElementById("hidePTANorthWestsuburb").style.display = "block";
+		document.getElementById("hidePTACentralsuburb").style.display = "block";
 	}else{
-		document.getElementById("hidePTANorthWestsuburb").style.display = "none";
+		document.getElementById("hidePTACentralsuburb").style.display = "none";
 	}
 }, 1000);
 
