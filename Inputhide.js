@@ -130,7 +130,7 @@ setInterval (function showEstate(){
 setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' && House=='House'){
+        if (Estate=='Estate' || House=='House'){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
@@ -140,7 +140,7 @@ setInterval (function showStreet(){
 setInterval (function showNumber(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' && House=='House'){
+        if (Estate=='Estate' || House=='House'){
 		document.getElementById("hideNumber").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
@@ -150,7 +150,7 @@ setInterval (function showNumber(){
 setInterval (function showContactNumber(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' && House=='House'){
+        if (Estate=='Estate' || House=='House'){
 		document.getElementById("hideContactNumber").style.display = "block";
 	}else{
 		document.getElementById("hideContactNumber").style.display = "none";
@@ -160,7 +160,7 @@ setInterval (function showContactNumber(){
 setInterval (function showContactName(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' && House=='House'){
+        if (Estate=='Estate' || House=='House'){
 		document.getElementById("hideName").style.display = "block";
 	}else{
 		document.getElementById("hideName").style.display = "none";
