@@ -154,11 +154,20 @@ setInterval (function showOffice(){
 	}
 }, 1000);
 
+setInterval (function showMall(){
+   var Complex = document.getElementById('Cribtype').value;
+        if (Complex=='Mall'){
+		document.getElementById("hideMall").style.display = "block";
+	}else{
+		document.getElementById("hideMall").style.display = "none";
+	}
+}, 1000);
+
 setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
    var Complex = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' ){
+        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Mall' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
@@ -186,7 +195,7 @@ setInterval (function showHouseNumber(){
 setInterval (function showContactNumber(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' ){
+        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' ){
 		document.getElementById("hideContactNumber").style.display = "block";
 	}else{
 		document.getElementById("hideContactNumber").style.display = "none";
@@ -196,7 +205,7 @@ setInterval (function showContactNumber(){
 setInterval (function showContactName(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' ){
+        if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' ){
 		document.getElementById("hideName").style.display = "block";
 	}else{
 		document.getElementById("hideName").style.display = "none";
@@ -224,4 +233,5 @@ showStructuretypeCentralWest();
 showStructuretypeCenturion();
 showComplex();
 showBuilding();
-showBuilding();
+showOffice();
+showMall();
