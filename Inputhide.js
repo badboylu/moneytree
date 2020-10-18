@@ -90,6 +90,34 @@ setInterval (function showStructuretypeNorthEast(){
 	}
 }, 1000);
 
+setInterval (function showStructuretypeNorthWest(){
+   var Suburb = document.getElementById('suburbsPTANorthWest').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
+setInterval (function showStructuretypeCentral(){
+   var Suburb = document.getElementById('suburbsPTACentral').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
+setInterval (function showStructuretypeCentralWest(){
+   var Suburb = document.getElementById('suburbsPTACentralWest').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
+setInterval (function showStructuretypeCenturion(){
+   var Suburb = document.getElementById('suburbsPTACenturion').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
 setInterval (function showEstate(){
    var Estate = document.getElementById('Cribtype').value;
         if (Estate=='Estate'){
@@ -150,3 +178,7 @@ showPTACentral();
 showPTACentralWest();
 showCenturion();
 showStructuretypeNorthEast();
+showStructuretypeNorthWest();
+showStructuretypeCentral();
+showStructuretypeCentralWest();
+showStructuretypeCenturion();
