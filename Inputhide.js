@@ -176,7 +176,7 @@ setInterval (function showStreet(){
    var Estate = document.getElementById('Cribtype').value;
    var House = document.getElementById('Cribtype').value;
    var Complex = document.getElementById('Cribtype').value;
-        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Mall' || Complex=='Shop' ){
+        if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Shop' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
 		document.getElementById("hideStreet").style.display = "none";
