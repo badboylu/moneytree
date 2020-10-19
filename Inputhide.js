@@ -155,7 +155,7 @@ setInterval (function showEstate(){
         if (Estate=='Estate'){
 		document.getElementById("hideEstate").style.display = "block";
 	}else{
-		document.getElementById("hideEstate").style.display = "none";
+		document.getElementById("hideEstate").style.display = "block";
 	}
 }, 1000);
 
@@ -164,7 +164,7 @@ setInterval (function showComplex(){
         if (Complex=='Complex'){
 		document.getElementById("hideComplex").style.display = "block";
 	}else{
-		document.getElementById("hideComplex").style.display = "none";
+		document.getElementById("hideComplex").style.display = "block";
 	}
 }, 1000);
 
@@ -173,7 +173,7 @@ setInterval (function showBuilding(){
         if (Complex=='Flat'){
 		document.getElementById("hideBuilding").style.display = "block";
 	}else{
-		document.getElementById("hideBuilding").style.display = "none";
+		document.getElementById("hideBuilding").style.display = "block";
 	}
 }, 1000);
 
@@ -182,7 +182,7 @@ setInterval (function showOffice(){
         if (Complex=='Office'){
 		document.getElementById("hideOffice").style.display = "block";
 	}else{
-		document.getElementById("hideOffice").style.display = "none";
+		document.getElementById("hideOffice").style.display = "block";
 	}
 }, 1000);
 
@@ -191,7 +191,7 @@ setInterval (function showMall(){
         if (Complex=='Mall'){
 		document.getElementById("hideMall").style.display = "block";
 	}else{
-		document.getElementById("hideMall").style.display = "none";
+		document.getElementById("hideMall").style.display = "block";
 	}
 }, 1000);
 
@@ -200,7 +200,7 @@ setInterval (function showShop(){
         if (Complex=='Mall' || Complex=='Shop' ){
 		document.getElementById("hideShop").style.display = "block";
 	}else{
-		document.getElementById("hideShop").style.display = "none";
+		document.getElementById("hideShop").style.display = "block";
 	}
 }, 1000);
 
@@ -211,7 +211,7 @@ setInterval (function showStreet(){
         if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Shop' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
-		document.getElementById("hideStreet").style.display = "none";
+		document.getElementById("hideStreet").style.display = "block";
 	}
 }, 1000);
 
@@ -220,7 +220,7 @@ setInterval (function showNumber(){
         if (Estate=='Estate' || Estate=='Complex' || Estate=='Flat' ){
 		document.getElementById("hideNumber").style.display = "block";
 	}else{
-		document.getElementById("hideNumber").style.display = "none";
+		document.getElementById("hideNumber").style.display = "block";
 	}
 }, 1000);
 
@@ -229,7 +229,7 @@ setInterval (function showHouseNumber(){
         if (House=='House'){
 		document.getElementById("hideHouseNumber").style.display = "block";
 	}else{
-		document.getElementById("hideHouseNumber").style.display = "none";
+		document.getElementById("hideHouseNumber").style.display = "block";
 	}
 }, 1000);
 
