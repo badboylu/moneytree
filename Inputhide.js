@@ -4,7 +4,7 @@ setInterval (function hideJHB(){
 		document.getElementById("hidePTAtown").style.display = "block";
                 document.getElementById("townsJHB").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTAtown").style.display = "block";
+		document.getElementById("hidePTAtown").style.display = "none";
 	}
 }, 1000);
 
@@ -14,7 +14,7 @@ setInterval (function hidePTA(){
 		document.getElementById("hideJHBtown").style.display = "block";
                 document.getElementById("townsPTA").removeAttribute("required");
 	}else{
-		document.getElementById("hideJHBtown").style.display = "block";
+		document.getElementById("hideJHBtown").style.display = "none";
 	}
 }, 1000);
 
@@ -29,7 +29,7 @@ setInterval (function showPTAeast(){
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTAeastsuburb").style.display = "block";
+		document.getElementById("hidePTAeastsuburb").style.display = "none";
 	}
 }, 1000);
 
@@ -44,7 +44,7 @@ setInterval (function showPTAnorthEast(){
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTANorthEastsuburb").style.display = "block";
+		document.getElementById("hidePTANorthEastsuburb").style.display = "none";
 	}
 }, 1000);
 
@@ -59,7 +59,7 @@ setInterval (function showPTAnorthWest(){
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTANorthWestsuburb").style.display = "block";
+		document.getElementById("hidePTANorthWestsuburb").style.display = "none";
 	}
 }, 1000);
 
@@ -74,7 +74,7 @@ setInterval (function showPTACentral(){
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTACentralsuburb").style.display = "block";
+		document.getElementById("hidePTACentralsuburb").style.display = "none";
 	}
 }, 1000);
 
@@ -89,7 +89,7 @@ setInterval (function showPTACentralWest(){
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hidePTACentralWestsuburb").style.display = "block";
+		document.getElementById("hidePTACentralWestsuburb").style.display = "none";
 	}
 }, 1000);
 
@@ -104,7 +104,7 @@ setInterval (function showCenturion(){
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
 	}else{
-		document.getElementById("hideCenturionsuburb").style.display = "block";
+		document.getElementById("hideCenturionsuburb").style.display = "none";
 	}
 }, 1000);
 
