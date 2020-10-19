@@ -34,22 +34,5 @@ function Fillblanks(){
  if( TownSellectJHB == '1' ){
      document.getElementById("townsPTA").selectedIndex = "7";
  }   
- if( TownSellectPTAe == '1' ){
-     TownSellectPTAe == 'Null'; 
- }
- if( TownSellectPTAne == '1' ){
-     TownSellectPTAne == 'Null'; 
- }
- if( TownSellectPTAnw == '1' ){
-     TownSellectPTAnw == 'Null'; 
- }
- if( TownSellectPTAc == '1' ){
-     TownSellectPTAc == 'Null'; 
- }
- if( TownSellectPTAcw == '1' ){
-     TownSellectPTAcw == 'Null'; 
- }
- if( TownSellectPTAcen == '1' ){
-     TownSellectPTAcen == 'Null'; 
- }
+ 
 }
