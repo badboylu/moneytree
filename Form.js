@@ -28,7 +28,7 @@ function Fillblanks(){
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
  if( TownSellectPTA == '' ){
-     TownSellectPTA = 'Null'; 
+     document.getElementById("townsPTA").selectedIndex = "2"; 
  } 
  if( TownSellectJHB == '' ){
      TownSellectJHB = 'Null'; 
