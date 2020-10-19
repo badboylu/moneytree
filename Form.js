@@ -27,7 +27,28 @@ function Fillblanks(){
    var SuburbSellectPTAcw = document.getElementById("suburbsPTACentralWest").value;
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
 
- if(optionsLength == 0){
-
- }    
+ if( TownSellectPTA == '' ){
+     TownSellectPTA == 'Null'; 
+ } 
+ if( TownSellectJHB == '' ){
+     TownSellectJHB == 'Null'; 
+ }   
+ if( TownSellectPTAe == '' ){
+     TownSellectPTAe == 'Null'; 
+ }
+ if( TownSellectPTAne == '' ){
+     TownSellectPTAne == 'Null'; 
+ }
+ if( TownSellectPTAnw == '' ){
+     TownSellectPTAnw == 'Null'; 
+ }
+ if( TownSellectPTAc == '' ){
+     TownSellectPTAc == 'Null'; 
+ }
+ if( TownSellectPTAcw == '' ){
+     TownSellectPTAcw == 'Null'; 
+ }
+ if( TownSellectPTAcen == '' ){
+     TownSellectPTAcen == 'Null'; 
+ }
 }
