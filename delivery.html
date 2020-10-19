@@ -257,7 +257,7 @@ require 'md5.php';
   <option value="Johannesburg">Johannesburg</option>
 </select>
 
-<div id="hidePTAtown" style="display:block">
+<div id="hidePTAtown" style="display:none">
 <label>Town:</label>
 <select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
@@ -270,7 +270,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hideJHBtown" style="display:block">
+<div id="hideJHBtown" style="display:none">
 <label>Town:</label>
 <select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug" required>
   <option value="" disabled selected>Select Town</option>
@@ -282,7 +282,7 @@ require 'md5.php';
 </select>
 </div>
    
-<div id="hidePTAeastsuburb" style="display:block">
+<div id="hidePTAeastsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -348,7 +348,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hidePTANorthEastsuburb" style="display:block">
+<div id="hidePTANorthEastsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTANorthEastsuburb" name="suburbsPTANorthEast" id="suburbsPTANorthEast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -387,7 +387,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hidePTANorthWestsuburb" style="display:block">
+<div id="hidePTANorthWestsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTANorthWestsuburb" name="suburbsPTANorthWest" id="suburbsPTANorthWest" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -419,7 +419,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hidePTACentralsuburb" style="display:block">
+<div id="hidePTACentralsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTACentralsuburb" name="suburbsPTACentral" id="suburbsPTACentral" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -427,7 +427,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hidePTACentralWestsuburb" style="display:block">
+<div id="hidePTACentralWestsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="PTACentralWestsuburb" name="suburbsPTACentralWest" id="suburbsPTACentralWest" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -451,7 +451,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hideCenturionsuburb" style="display:block">
+<div id="hideCenturionsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="Centurionsuburb" name="suburbsCenturion" id="suburbsPTACenturion" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
@@ -475,7 +475,7 @@ require 'md5.php';
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
-<div id="hidecribtype" style="display:block">
+<div id="hidecribtype" style="display:none">
 <label>Structure Type:</label>
 <select class="cribtype" name="Crib" id="Cribtype" form="plug" required>
   <option value="" disabled selected>Select Structure Type</option>
@@ -488,31 +488,31 @@ require 'md5.php';
   <option value="Shop">Shopping Complex</option>
 </select>
 </div>
-<div id="hideEstate" style="display:none">
+<div id="hideEstate" style="display:block">
    <label>Estate name:</label><input type="text" name="Estate" placeholder="Enter Estate Name" id="Estate1" required>
 </div>
-<div id="hideComplex" style="display:none">
+<div id="hideComplex" style="display:block">
    <label>Complex name:</label><input type="text" name="Complex" placeholder="Enter Complex Name" id="Complex1"  required>
 </div>
-<div id="hideBuilding" style="display:none">
+<div id="hideBuilding" style="display:block">
    <label>Building name:</label><input type="text" name="Building" placeholder="Enter Building Name" id="Building1"  required>
 </div>
-<div id="hideMall" style="display:none">
+<div id="hideMall" style="display:block">
    <label>Mall name:</label><input type="text" name="Mall" placeholder="Enter Mall Name" id="Mall1"  required>
 </div>
-<div id="hideOffice" style="display:none">
+<div id="hideOffice" style="display:block">
    <label>Company name:</label><input type="text" name="Shop" placeholder="Enter Company Name" id="Company1" required>
 </div>
-<div id="hideShop" style="display:none">
+<div id="hideShop" style="display:block">
    <label>Shop name:</label><input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
 </div>
-<div id="hideStreet" style="display:none">
+<div id="hideStreet" style="display:block">
    <label>Street:</label><input type="text" name="Street" placeholder="Enter Street Name" id="Street1" required>
 </div>
-<div id="hideNumber" style="display:none">
+<div id="hideNumber" style="display:block">
    <label>Unit number:</label><input type="text" name="Unit-number" placeholder="Enter Unit Number" id="Unit1" required>
 </div>
-<div id="hideHouseNumber" style="display:none">
+<div id="hideHouseNumber" style="display:block">
    <label>House number:</label><input type="text" name="House-number" placeholder="Enter House Number"  id="House1" required>
 </div>
 <div id="hideContactNumber" style="display:none">
