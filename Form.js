@@ -28,10 +28,10 @@ function Fillblanks(){
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
  if( TownSellectPTA == '' ){
-     TownSellectPTA == 'Null'; 
+     TownSellectPTA = 'Null'; 
  } 
  if( TownSellectJHB == '' ){
-     TownSellectJHB == 'Null'; 
+     TownSellectJHB = 'Null'; 
  }   
  if( TownSellectPTAe == '' ){
      TownSellectPTAe == 'Null'; 
