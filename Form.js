@@ -18,6 +18,7 @@ function Fillblanks(){
    var Street = document.getElementById('Street1').value;
    var House = document.getElementById('House1').value; 
    var Unit = document.getElementById('Unit1').value;
+   var CitySellect = document.getElementById('city').value;
    var TownSellectPTA = document.getElementById('townsPTA').value;
    var TownSellectJHB = document.getElementById('townsJHB').value;  
    var SuburbSellectPTAe = document.getElementById("suburbsPTAeast").value;
@@ -27,7 +28,7 @@ function Fillblanks(){
    var SuburbSellectPTAcw = document.getElementById("suburbsPTACentralWest").value;
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
- if( TownSellectPTA){
+ if( CitySellect == 'Tshwane/Pretoria'){
       document.getElementById("townsJHB").disable; 
  } 
  if( TownSellectJHB == '1' ){
