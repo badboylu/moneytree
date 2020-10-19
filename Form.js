@@ -29,7 +29,7 @@ function Fillblanks(){
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
  if( CitySellect == 'Tshwane/Pretoria'){
-      document.getElementById("townsJHB").required = false; 
+      document.getElementById("townsJHB").removeAttribute("required"); 
  } 
  
 }
