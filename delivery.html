@@ -251,7 +251,7 @@ require 'md5.php';
    <label for="Country">Country:</label><input type="text" name="Country" value="South Africa" readonly>
    <label>Province:</label><input type="text" name="Province" value="Gauteng" readonly>
    <label>City:</label>
-<select name="City" id="city" form="plug">
+<select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Tshwane/Pretoria">Tshwane/Pretoria</option>
   <option value="Johannesburg">Johannesburg</option>
@@ -259,7 +259,7 @@ require 'md5.php';
 
 <div id="hidePTAtown" style="display:none">
 <label>Town:</label>
-<select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug">
+<select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="PretoriaEast">Pretoria East</option>
   <option value="PretoriaNorthEast">Pretoria North East</option>
@@ -272,7 +272,7 @@ require 'md5.php';
 </div>
 <div id="hideJHBtown" style="display:none">
 <label>Town:</label>
-<select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug">
+<select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="Santon">Santon</option>
   <option value="Midrand">Midrand</option>
@@ -283,7 +283,7 @@ require 'md5.php';
    
 <div id="hidePTAeastsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug">
+<select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="AlphenPark"> Alphen Park </option>
   <option value=" Arcadia "> Arcadia </option>
@@ -348,7 +348,7 @@ require 'md5.php';
 </div>
 <div id="hidePTANorthEastsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTANorthEastsuburb" name="suburbsPTANorthEast" id="suburbsPTANorthEast" form="plug">
+<select class="PTANorthEastsuburb" name="suburbsPTANorthEast" id="suburbsPTANorthEast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Annlin"> Annlin </option>
   <option value=" Bellevue "> Bellevue </option>
@@ -386,7 +386,7 @@ require 'md5.php';
 </div>
 <div id="hidePTANorthWestsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTANorthWestsuburb" name="suburbsPTANorthWest" id="suburbsPTANorthWest" form="plug">
+<select class="PTANorthWestsuburb" name="suburbsPTANorthWest" id="suburbsPTANorthWest" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Amandasig"> Amandasig </option>
   <option value=" Booysens "> Booysens </option>
@@ -417,14 +417,14 @@ require 'md5.php';
 </div>
 <div id="hidePTACentralsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTACentralsuburb" name="suburbsPTACentral" id="suburbsPTACentral" form="plug">
+<select class="PTACentralsuburb" name="suburbsPTACentral" id="suburbsPTACentral" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="PretoriaCBD"> Pretoria CBD </option>
 </select>
 </div>
 <div id="hidePTACentralWestsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTACentralWestsuburb" name="suburbsPTACentralWest" id="suburbsPTACentralWest" form="plug">
+<select class="PTACentralWestsuburb" name="suburbsPTACentralWest" id="suburbsPTACentralWest" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Atteridgeville"> Atteridgeville </option>
   <option value=" LotusGardens "> Lotus Gardens </option>
@@ -447,7 +447,7 @@ require 'md5.php';
 </div>
 <div id="hideCenturionsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="Centurionsuburb" name="suburbsCenturion" id="suburbsPTACenturion" form="plug">
+<select class="Centurionsuburb" name="suburbsCenturion" id="suburbsPTACenturion" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Clubview"> Clubview </option>
   <option value=" CornwallHill "> Cornwall Hill </option>
@@ -470,7 +470,7 @@ require 'md5.php';
 </div>
 <div id="hidecribtype" style="display:none">
 <label>Structure Type:</label>
-<select class="cribtype" name="Crib" id="Cribtype" form="plug">
+<select class="cribtype" name="Crib" id="Cribtype" form="plug" required>
   <option value="" disabled selected>Select Structure Type</option>
   <option value="House">House</option>
   <option value="Estate">Residential Estate</option>
