@@ -31,8 +31,5 @@ function Fillblanks(){
  if( CitySellect == 'Tshwane/Pretoria'){
       document.getElementById("townsJHB").required = false; 
  } 
- if( TownSellectJHB == '1' ){
-     document.getElementById("townsPTA").selectedIndex = "7";
- }   
  
 }
