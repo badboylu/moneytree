@@ -27,7 +27,7 @@ function Fillblanks(){
    var SuburbSellectPTAcw = document.getElementById("suburbsPTACentralWest").value;
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
- if( TownSellectPTA == '' ){
+ if( TownSellectPTA == '1' ){
      document.getElementById("townsPTA").selectedIndex = "2"; 
  } 
  if( TownSellectJHB == '' ){
