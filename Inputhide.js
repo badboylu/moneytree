@@ -154,6 +154,11 @@ setInterval (function showEstate(){
    var Estate = document.getElementById('Cribtype').value;
         if (Estate=='Estate'){
 		document.getElementById("hideEstate").style.display = "block";
+                document.getElementById("Complex1").removeAttribute("required");
+                document.getElementById("Mall1").removeAttribute("required");
+                document.getElementById("Shop1").removeAttribute("required");
+                document.getElementById("Building1").removeAttribute("required");
+                document.getElementById("Company1").removeAttribute("required");
 	}else{
 		document.getElementById("hideEstate").style.display = "block";
 	}
@@ -163,6 +168,11 @@ setInterval (function showComplex(){
    var Complex = document.getElementById('Cribtype').value;
         if (Complex=='Complex'){
 		document.getElementById("hideComplex").style.display = "block";
+                document.getElementById("Estate1").removeAttribute("required");
+                document.getElementById("Mall1").removeAttribute("required");
+                document.getElementById("Shop1").removeAttribute("required");
+                document.getElementById("Building1").removeAttribute("required");
+                document.getElementById("Company1").removeAttribute("required");
 	}else{
 		document.getElementById("hideComplex").style.display = "block";
 	}
@@ -172,6 +182,11 @@ setInterval (function showBuilding(){
    var Complex = document.getElementById('Cribtype').value;
         if (Complex=='Flat'){
 		document.getElementById("hideBuilding").style.display = "block";
+                document.getElementById("Complex1").removeAttribute("required");
+                document.getElementById("Mall1").removeAttribute("required");
+                document.getElementById("Shop1").removeAttribute("required");
+                document.getElementById("Estate1").removeAttribute("required");
+                document.getElementById("Company1").removeAttribute("required");
 	}else{
 		document.getElementById("hideBuilding").style.display = "block";
 	}
@@ -181,6 +196,11 @@ setInterval (function showOffice(){
    var Complex = document.getElementById('Cribtype').value;
         if (Complex=='Office'){
 		document.getElementById("hideOffice").style.display = "block";
+                document.getElementById("Complex1").removeAttribute("required");
+                document.getElementById("Mall1").removeAttribute("required");
+                document.getElementById("Shop1").removeAttribute("required");
+                document.getElementById("Building1").removeAttribute("required");
+                document.getElementById("Estate1").removeAttribute("required");
 	}else{
 		document.getElementById("hideOffice").style.display = "block";
 	}
@@ -190,6 +210,12 @@ setInterval (function showMall(){
    var Complex = document.getElementById('Cribtype').value;
         if (Complex=='Mall'){
 		document.getElementById("hideMall").style.display = "block";
+                document.getElementById("Complex1").removeAttribute("required");
+                document.getElementById("Estate1").removeAttribute("required");
+                document.getElementById("Shop1").removeAttribute("required");
+                document.getElementById("Building1").removeAttribute("required");
+                document.getElementById("Company1").removeAttribute("required");
+                document.getElementById("Street1").removeAttribute("required");
 	}else{
 		document.getElementById("hideMall").style.display = "block";
 	}
@@ -199,6 +225,11 @@ setInterval (function showShop(){
    var Complex = document.getElementById('Cribtype').value;
         if (Complex=='Mall' || Complex=='Shop' ){
 		document.getElementById("hideShop").style.display = "block";
+                document.getElementById("Complex1").removeAttribute("required");
+                document.getElementById("Mall1").removeAttribute("required");
+                document.getElementById("Estate1").removeAttribute("required");
+                document.getElementById("Building1").removeAttribute("required");
+                document.getElementById("Company1").removeAttribute("required");
 	}else{
 		document.getElementById("hideShop").style.display = "block";
 	}
@@ -219,6 +250,7 @@ setInterval (function showNumber(){
    var Estate = document.getElementById('Cribtype').value;
         if (Estate=='Estate' || Estate=='Complex' || Estate=='Flat' ){
 		document.getElementById("hideNumber").style.display = "block";
+                document.getElementById("House1").removeAttribute("required");
 	}else{
 		document.getElementById("hideNumber").style.display = "block";
 	}
@@ -228,6 +260,7 @@ setInterval (function showHouseNumber(){
    var House = document.getElementById('Cribtype').value;
         if (House=='House'){
 		document.getElementById("hideHouseNumber").style.display = "block";
+                document.getElementById("Unit1").removeAttribute("required");
 	}else{
 		document.getElementById("hideHouseNumber").style.display = "block";
 	}
