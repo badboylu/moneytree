@@ -12,6 +12,7 @@ setInterval (function hidePTA(){
    var City = document.getElementById('city').value;
         if (City=='Johannesburg'){
 		document.getElementById("hideJHBtown").style.display = "block";
+                document.getElementById("townsPTA").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBtown").style.display = "block";
 	}
@@ -22,6 +23,11 @@ setInterval (function showPTAeast(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaEast' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTAeastsuburb").style.display = "block";
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTAeastsuburb").style.display = "block";
 	}
@@ -32,6 +38,11 @@ setInterval (function showPTAnorthEast(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaNorthEast' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTANorthEastsuburb").style.display = "block";
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTANorthEastsuburb").style.display = "block";
 	}
@@ -42,6 +53,11 @@ setInterval (function showPTAnorthWest(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaNorthWest' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTANorthWestsuburb").style.display = "block";
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTANorthWestsuburb").style.display = "block";
 	}
@@ -52,6 +68,11 @@ setInterval (function showPTACentral(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaCentral' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTACentralsuburb").style.display = "block";
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTACentralsuburb").style.display = "block";
 	}
@@ -62,6 +83,11 @@ setInterval (function showPTACentralWest(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='PretoriaCentralWest' && City=='Tshwane/Pretoria'){
 		document.getElementById("hidePTACentralWestsuburb").style.display = "block";
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTACentralWestsuburb").style.display = "block";
 	}
@@ -72,6 +98,11 @@ setInterval (function showCenturion(){
    var Town = document.getElementById('townsPTA').value;
         if (Town=='Centurion' && City=='Tshwane/Pretoria'){
 		document.getElementById("hideCenturionsuburb").style.display = "block";
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
 	}else{
 		document.getElementById("hideCenturionsuburb").style.display = "block";
 	}
