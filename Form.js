@@ -28,27 +28,27 @@ function Fillblanks(){
    var SuburbSellectPTAcen = document.getElementById("Centurion").value;
  
  if( TownSellectPTA == '1' ){
-     document.getElementById("townsPTA").selectedIndex = "2"; 
+      TownSellectPTA = 'Null'; 
  } 
- if( TownSellectJHB == '' ){
-     TownSellectJHB = 'Null'; 
+ if( TownSellectJHB == '1' ){
+     document.getElementById("townsPTA").selectedIndex = "7";
  }   
- if( TownSellectPTAe == '' ){
+ if( TownSellectPTAe == '1' ){
      TownSellectPTAe == 'Null'; 
  }
- if( TownSellectPTAne == '' ){
+ if( TownSellectPTAne == '1' ){
      TownSellectPTAne == 'Null'; 
  }
- if( TownSellectPTAnw == '' ){
+ if( TownSellectPTAnw == '1' ){
      TownSellectPTAnw == 'Null'; 
  }
- if( TownSellectPTAc == '' ){
+ if( TownSellectPTAc == '1' ){
      TownSellectPTAc == 'Null'; 
  }
- if( TownSellectPTAcw == '' ){
+ if( TownSellectPTAcw == '1' ){
      TownSellectPTAcw == 'Null'; 
  }
- if( TownSellectPTAcen == '' ){
+ if( TownSellectPTAcen == '1' ){
      TownSellectPTAcen == 'Null'; 
  }
 }
