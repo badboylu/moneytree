@@ -161,7 +161,7 @@ setInterval (function showEstate(){
                 document.getElementById("Company1").removeAttribute("required");
                 document.getElementById("House1").removeAttribute("required");
 	}else{
-		document.getElementById("hideEstate").style.display = "block";
+		document.getElementById("hideEstate").style.display = "none";
 	}
 }, 1000);
 
@@ -176,7 +176,7 @@ setInterval (function showComplex(){
                 document.getElementById("Company1").removeAttribute("required");
                 document.getElementById("House1").removeAttribute("required");
 	}else{
-		document.getElementById("hideComplex").style.display = "block";
+		document.getElementById("hideComplex").style.display = "none";
 	}
 }, 1000);
 
@@ -191,7 +191,7 @@ setInterval (function showBuilding(){
                 document.getElementById("Company1").removeAttribute("required");
                 document.getElementById("House1").removeAttribute("required");
 	}else{
-		document.getElementById("hideBuilding").style.display = "block";
+		document.getElementById("hideBuilding").style.display = "none";
 	}
 }, 1000);
 
@@ -207,7 +207,7 @@ setInterval (function showOffice(){
                 document.getElementById("House1").removeAttribute("required");
                 document.getElementById("Unit1").removeAttribute("required");
 	}else{
-		document.getElementById("hideOffice").style.display = "block";
+		document.getElementById("hideOffice").style.display = "none";
 	}
 }, 1000);
 
@@ -224,7 +224,7 @@ setInterval (function showMall(){
                 document.getElementById("House1").removeAttribute("required");
                 document.getElementById("Unit1").removeAttribute("required");
 	}else{
-		document.getElementById("hideMall").style.display = "block";
+		document.getElementById("hideMall").style.display = "none";
 	}
 }, 1000);
 
@@ -240,7 +240,7 @@ setInterval (function showShop(){
                 document.getElementById("House1").removeAttribute("required");
                 document.getElementById("Unit1").removeAttribute("required");
 	}else{
-		document.getElementById("hideShop").style.display = "block";
+		document.getElementById("hideShop").style.display = "none";
 	}
 }, 1000);
 
@@ -251,7 +251,7 @@ setInterval (function showStreet(){
         if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Shop' ){
 		document.getElementById("hideStreet").style.display = "block";
 	}else{
-		document.getElementById("hideStreet").style.display = "block";
+		document.getElementById("hideStreet").style.display = "none";
 	}
 }, 1000);
 
@@ -261,7 +261,7 @@ setInterval (function showNumber(){
 		document.getElementById("hideNumber").style.display = "block";
                 document.getElementById("House1").removeAttribute("required");
 	}else{
-		document.getElementById("hideNumber").style.display = "block";
+		document.getElementById("hideNumber").style.display = "none";
 	}
 }, 1000);
 
@@ -271,7 +271,7 @@ setInterval (function showHouseNumber(){
 		document.getElementById("hideHouseNumber").style.display = "block";
                 document.getElementById("Unit1").removeAttribute("required");
 	}else{
-		document.getElementById("hideHouseNumber").style.display = "block";
+		document.getElementById("hideHouseNumber").style.display = "none";
 	}
 }, 1000);
 
