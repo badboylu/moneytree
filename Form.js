@@ -18,8 +18,16 @@ function Fillblanks(){
    var Street = document.getElementById('Street1').value;
    var House = document.getElementById('House1').value; 
    var Unit = document.getElementById('Unit1').value;
+   var TownSellectPTA = document.getElementById("townsPTA").value;
+   var TownSellectJHB = document.getElementById("townsJHB").value;  
+   var SuburbSellectPTAe = document.getElementById("suburbsPTAeast").value;
+   var SuburbSellectPTAne = document.getElementById("suburbsPTANorthEast").value;
+   var SuburbSellectPTAnw = document.getElementById("suburbsPTANorthWest").value;
+   var SuburbSellectPTAc = document.getElementById("suburbsPTACentral").value;
+   var SuburbSellectPTAcw = document.getElementById("suburbsPTACentralWest").value;
+   var SuburbSellectPTAcen = document.getElementById("Centurion").value;
 
- if(){
+ if(optionsLength == 0){
 
  }    
 }
