@@ -28,6 +28,12 @@ setInterval (function showPTAeast(){
                 document.getElementById("suburbsPTACentral").removeAttribute("required");
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTAeastsuburb").style.display = "none";
 	}
@@ -43,6 +49,12 @@ setInterval (function showPTAnorthEast(){
                 document.getElementById("suburbsPTACentral").removeAttribute("required");
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTANorthEastsuburb").style.display = "none";
 	}
@@ -58,6 +70,12 @@ setInterval (function showPTAnorthWest(){
                 document.getElementById("suburbsPTACentral").removeAttribute("required");
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTANorthWestsuburb").style.display = "none";
 	}
@@ -73,6 +91,12 @@ setInterval (function showPTACentral(){
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTACentralsuburb").style.display = "none";
 	}
@@ -88,6 +112,12 @@ setInterval (function showPTACentralWest(){
                 document.getElementById("suburbsPTACentral").removeAttribute("required");
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hidePTACentralWestsuburb").style.display = "none";
 	}
@@ -103,6 +133,12 @@ setInterval (function showCenturion(){
                 document.getElementById("suburbsPTACentral").removeAttribute("required");
                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
 		document.getElementById("hideCenturionsuburb").style.display = "none";
 	}
@@ -118,6 +154,12 @@ setInterval (function showJHBNorth(){
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBNorthsuburb").style.display = "none";
 	}
@@ -133,6 +175,12 @@ setInterval (function showJHBEast(){
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBEastsuburb").style.display = "none";
 	}
@@ -148,6 +196,12 @@ setInterval (function showJHBCentral(){
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBCentral").style.display = "none";
 	}
@@ -163,6 +217,12 @@ setInterval (function showJHBNorthWest(){
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBNorthWestsuburb").style.display = "none";
 	}
@@ -178,6 +238,12 @@ setInterval (function showJHBSouth(){
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBSouth").style.display = "none";
 	}
@@ -193,6 +259,12 @@ setInterval (function showJHBSouthWest(){
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                document.getElementById("suburbsPTACentral").removeAttribute("required");
+                document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                document.getElementById("suburbsPTAeast").removeAttribute("required");
+                document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
 		document.getElementById("hideJHBSouthWest").style.display = "none";
 	}
