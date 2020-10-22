@@ -157,14 +157,14 @@ setInterval (function showJHBNorthWest(){
    var City = document.getElementById('city').value;
    var Town = document.getElementById('townsJHB').value;
         if (Town=='JHBNorthWest' && City=='Johannesburg'){
-		document.getElementById("hideJHBNorthWest").style.display = "block";
+		document.getElementById("hideJHBNorthWestsuburb").style.display = "block";
                 document.getElementById("suburbsJHBNorth").removeAttribute("required");
                 document.getElementById("suburbsJHBSouth").removeAttribute("required");
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
 	}else{
-		document.getElementById("hideJHBNorthWest").style.display = "none";
+		document.getElementById("hideJHBNorthWestsuburb").style.display = "none";
 	}
 }, 1000);
 
