@@ -148,7 +148,7 @@ setInterval (function showJHBNorth(){
    var City = document.getElementById('city').value;
    var Town = document.getElementById('townsJHB').value;
         if (Town=='Randburg' && City=='Johannesburg'){
-		document.getElementById("hideJHBRandburg").style.display = "block";
+		document.getElementById("hideJHBRandburgsuburb").style.display = "block";
                 document.getElementById("suburbsJHBEast").removeAttribute("required");
                 document.getElementById("suburbsJHBSouth").removeAttribute("required");
                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
@@ -161,7 +161,7 @@ setInterval (function showJHBNorth(){
                 document.getElementById("suburbsPTAeast").removeAttribute("required");
                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 	}else{
-		document.getElementById("hideJHBRandburg").style.display = "none";
+		document.getElementById("hideJHBRandburgsuburb").style.display = "none";
 	}
 }, 1000);
 
