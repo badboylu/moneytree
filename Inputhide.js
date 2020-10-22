@@ -153,6 +153,51 @@ setInterval (function showJHBCentral(){
 	}
 }, 1000);
 
+setInterval (function showJHBNorthWest(){
+   var City = document.getElementById('city').value;
+   var Town = document.getElementById('townsJHB').value;
+        if (Town=='JHBNorthWest' && City=='Johannesburg'){
+		document.getElementById("hideJHBNorthWest").style.display = "block";
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+	}else{
+		document.getElementById("hideJHBNorthWest").style.display = "none";
+	}
+}, 1000);
+
+setInterval (function showJHBSouth(){
+   var City = document.getElementById('city').value;
+   var Town = document.getElementById('townsJHB').value;
+        if (Town=='JHBSouth' && City=='Johannesburg'){
+		document.getElementById("hideJHBSouth").style.display = "block";
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+	}else{
+		document.getElementById("hideJHBSouth").style.display = "none";
+	}
+}, 1000);
+
+setInterval (function showJHBSouthWest(){
+   var City = document.getElementById('city').value;
+   var Town = document.getElementById('townsJHB').value;
+        if (Town=='JHBSouthWest' && City=='Johannesburg'){
+		document.getElementById("hideJHBSouthWest").style.display = "block";
+                document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                document.getElementById("suburbsJHBEast").removeAttribute("required");
+                document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                document.getElementById("suburbsJHBSouth").removeAttribute("required");
+	}else{
+		document.getElementById("hideJHBSouthWest").style.display = "none";
+	}
+}, 1000);
+
 setInterval (function showStructuretypeEast(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
         if (Suburb){
@@ -367,3 +412,6 @@ showShop();
 showJHBNorth();
 showJHBEast();
 showJHBCentral();
+showJHBNorthWest();
+showJHBSouth();
+showJHBSouthWest();
