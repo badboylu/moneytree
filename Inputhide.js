@@ -334,3 +334,4 @@ showBuilding();
 showOffice();
 showMall();
 showShop();
+showJHBNorth();
