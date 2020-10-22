@@ -202,8 +202,12 @@ setInterval (function showStructuretypeEast(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
    var SuburbJHBNorth = document.getElementById('suburbsJHBNorth').value;
    var SuburbJHBEast = document.getElementById('suburbsJHBEast').value;
+   var SuburbJHBCentral = document.getElementById('suburbsJHBCentral').value;
+   var SuburbJHBNorthWest = document.getElementById('suburbsJHBNorthWest').value;
+   var SuburbJHBSouthWest = document.getElementById('suburbsJHBSouthWest').value;
+   var SuburbJHBSouth = document.getElementById('suburbsJHBSouth').value;
 
-        if (Suburb || SuburbJHBNorth || SuburbJHBEast){
+        if (Suburb || SuburbJHBNorth || SuburbJHBSouthWest || SuburbJHBNorthWest || SuburbJHBSouth || SuburbJHBCentral || SuburbJHBEast){
 		document.getElementById("hidecribtype").style.display = "block";
 	}
 }, 1000);
