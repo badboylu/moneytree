@@ -200,7 +200,10 @@ setInterval (function showJHBSouthWest(){
 
 setInterval (function showStructuretypeEast(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
-        if (Suburb){
+   var SuburbJHBNorth = document.getElementById('suburbsJHBNorth').value;
+   var SuburbJHBEast = document.getElementById('suburbsJHBEast').value;
+
+        if (Suburb || SuburbJHBNorth || SuburbJHBEast){
 		document.getElementById("hidecribtype").style.display = "block";
 	}
 }, 1000);
