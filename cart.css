@@ -484,12 +484,12 @@
 @media all screen  and (min-width : 1224px) {
 .totalOrderR{
     float: left;
-    padding-left: 74.5%;
+    padding-left: 0%;
     display: inline-block;
 }
 .totalOrderR1{
     float: left;
-    padding-left: 56.5%;
+    padding-left: 0%;
     display: inline-block;
 }
 }
@@ -498,12 +498,12 @@
 @media all screen  and (min-width : 1824px) {
 .totalOrderR{
     float: left;
-    padding-left: 54.5%;
+    padding-left: 0%;
     display: inline-block;
 }
 .totalOrderR1{
     float: left;
-    padding-left: 76.5%;
+    padding-left: 0%;
     display: inline-block;
 }
 }
