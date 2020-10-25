@@ -243,6 +243,55 @@
     margin-right: auto;
     display: block;
 }
+
+.DPcontainerPR{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainerPR > li {
+    display: inline-block;
+
+}
+.DPcontainer1PR{
+    width: 100px;
+}
+.DPcontainer2PR{
+    padding-left: 5%;
+}
+.DPcontainer3PR{
+    padding-left: 120%;
+}
+.quantitygramsPR{
+    padding-left: 180%;
+}
+.totalcartPR{
+    padding-left: 100%;
+}
+.RandsPR{
+    float: right;
+    padding-left: 260px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.centrePR{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
+
 .plugfooterEnd{
     width: 100%;
     max-width: 750px;
