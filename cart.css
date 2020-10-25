@@ -292,6 +292,102 @@
     display: block;
 }
 
+.DPcontainerNL{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainerNL > li {
+    display: inline-block;
+
+}
+.DPcontainer1NL{
+    width: 100px;
+}
+.DPcontainer2NL{
+    padding-left: 5%;
+}
+.DPcontainer3NL{
+    padding-left: 120%;
+}
+.quantitygramsNL{
+    padding-left: 180%;
+}
+.totalcartPR{
+    padding-left: 100%;
+}
+.RandsNL{
+    float: right;
+    padding-left: 260px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.centreNL{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
+
+.DPcontainerCCES{
+    list-style: none;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    
+    overflow-y: hidden;
+}
+.DPcontainerNL > li {
+    display: inline-block;
+
+}
+.DPcontainer1CCES{
+    width: 100px;
+}
+.DPcontainer2CCES{
+    padding-left: 5%;
+}
+.DPcontainer3CCES{
+    padding-left: 120%;
+}
+.quantitygramsCCES{
+    padding-left: 180%;
+}
+.totalcartCCES{
+    padding-left: 100%;
+}
+.RandsCCES{
+    float: right;
+    padding-left: 260px;
+}
+.upbutton{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.centreCCES{
+    width: 20%;
+    margin-right: auto;
+    display: block;
+}
+
 .plugfooterEnd{
     width: 100%;
     max-width: 750px;
