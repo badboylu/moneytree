@@ -482,22 +482,28 @@
 }
 
 @media all screen  and (min-width : 1224px) {
-.plugfooterEnd{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 2px solid black;
-    margin-top: 20 px;
-    margin-bottom: 20 px;
+.totalOrderR{
+    float: left;
+    padding-left: 74.5%;
+    display: inline-block;
+}
+.totalOrderR1{
+    float: left;
+    padding-left: 56.5%;
+    display: inline-block;
+}
 }
 
 
 @media all screen  and (min-width : 1824px) {
-.plugfooterEnd{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 2px solid black;
-    margin-top: 20 px;
-    margin-bottom: 20 px;
+.totalOrderR{
+    float: left;
+    padding-left: 54.5%;
+    display: inline-block;
+}
+.totalOrderR1{
+    float: left;
+    padding-left: 76.5%;
+    display: inline-block;
+}
 }
