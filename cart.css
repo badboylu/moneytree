@@ -483,7 +483,7 @@
     white-space: nowrap;
 }
 
-@media only screen  and (min-width : 1224px) {
+@media all screen  and (min-width : 1224px) {
 .plugfooterEnd{
     width: 100%;
     display: flex;
@@ -494,7 +494,7 @@
 }
 
 
-@media only screen  and (min-width : 1824px) {
+@media all screen  and (min-width : 1824px) {
 .plugfooterEnd{
     width: 100%;
     display: flex;
