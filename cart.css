@@ -438,7 +438,6 @@
 
 .plugfooterEnd{
     width: 100%;
-    max-width: 750px;
     display: flex;
     justify-content: flex-start;
     border-bottom: 2px solid black;
