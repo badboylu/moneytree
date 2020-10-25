@@ -482,3 +482,24 @@
 .totalsRow{
     white-space: nowrap;
 }
+
+@media only screen  and (min-width : 1224px) {
+.plugfooterEnd{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
+}
+
+
+@media only screen  and (min-width : 1824px) {
+.plugfooterEnd{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
+}
