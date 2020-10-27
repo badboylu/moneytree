@@ -1,6 +1,5 @@
 .plugproductsDP{
     margin-top: 20px;
-    margin-bottom: 0px;
 }
 .plugproductsCC{
     margin-top: 20px;
@@ -68,9 +67,6 @@
     list-style: none;
     width: 100%;
     height: 90px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding: 0;
     white-space: nowrap;
     
     overflow-y: hidden;
