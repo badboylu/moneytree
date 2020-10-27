@@ -59,10 +59,7 @@
     
     overflow-y: hidden;
 }
-.DPcontainer > li {
-    display: inline-block;
 
-}
 .DPcontainer1{
     width: 100px;
 }
@@ -109,10 +106,7 @@
     
     overflow-y: hidden;
 }
-.DPcontainerCC > li {
-    display: inline-block;
 
-}
 .DPcontainer1CC{
     width: 100px;
 }
