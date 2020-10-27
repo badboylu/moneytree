@@ -380,14 +380,14 @@
     padding-left: 0%;
 }
 .quantitygramsCCES{
-    padding-left: 10%;
+    padding-left: 0%;
 }
 .totalcartCCES{
-    padding-left: 10%;
+    padding-left: 0%;
 }
 .RandsCCES{
     float: right;
-    padding-left: 160px;
+    padding-left: 10px;
 }
 .upbutton{
     background-color: white;
