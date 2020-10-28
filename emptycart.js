@@ -43,6 +43,15 @@ setInterval (function emptycartPR(){
     }
 }, 1000);
 
+setInterval (function emptycartNL(){
+    let cartcheck = localStorage.getItem('cartNumberNL')
+        if (cartcheck === null){
+		document.getElementById("NLempty").style.display = "none";
+	}else{
+        document.getElementById("NLempty").style.display = "block";
+    }
+}, 1000);
+
 setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
@@ -94,13 +103,25 @@ setInterval (function clearBW(){
 	}
 }, 1000);
 
+setInterval (function clearNL(){
+    let cartcheck = localStorage.getItem('PacksNL')
+        if (cartcheck = 0){
+        localStorage.removeItem('cartNumberNL');
+        localStorage.removeItem('GramsNL');
+        localStorage.removeItem('totalCostNL');
+        localStorage.removeItem('totalAmountNL');
+	}
+}, 1000);
+
 emptycartDP();
 emptycartOC();
 emptycartCC();
 emptycartBW();
 emptycartPR();
+emptycartNL();
 clearDP();
 clearCC();
 clearOC();
 clearBW();
 clearPR();
+clearNL();
