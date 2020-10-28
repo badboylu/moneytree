@@ -34,6 +34,15 @@ setInterval (function emptycartBW(){
     }
 }, 1000);
 
+setInterval (function emptycartPR(){
+    let cartcheck = localStorage.getItem('cartNumberPR')
+        if (cartcheck === null){
+		document.getElementById("PRempty").style.display = "none";
+	}else{
+        document.getElementById("PRempty").style.display = "block";
+    }
+}, 1000);
+
 setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
@@ -65,6 +74,16 @@ setInterval (function clearOC(){
 	}
 }, 1000);
 
+setInterval (function clearPR(){
+    let cartcheck = localStorage.getItem('GramsPR')
+        if (cartcheck = 0){
+        localStorage.removeItem('cartNumberPR');
+        localStorage.removeItem('GramsPR');
+        localStorage.removeItem('totalCostPR');
+        localStorage.removeItem('totalAmountPR');
+	}
+}, 1000);
+
 setInterval (function clearBW(){
     let cartcheck = localStorage.getItem('PacksBW')
         if (cartcheck = 0){
@@ -79,7 +98,9 @@ emptycartDP();
 emptycartOC();
 emptycartCC();
 emptycartBW();
+emptycartPR();
 clearDP();
 clearCC();
 clearOC();
 clearBW();
+clearPR();
