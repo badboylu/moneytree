@@ -52,6 +52,15 @@ setInterval (function emptycartNL(){
     }
 }, 1000);
 
+setInterval (function emptycartPE(){
+    let cartcheck = localStorage.getItem('cartNumberPE')
+        if (cartcheck === null){
+		document.getElementById("PEempty").style.display = "none";
+	}else{
+        document.getElementById("PEempty").style.display = "block";
+    }
+}, 1000);
+
 setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
@@ -104,12 +113,22 @@ setInterval (function clearBW(){
 }, 1000);
 
 setInterval (function clearNL(){
-    let cartcheck = localStorage.getItem('PacksNL')
+    let cartcheck = localStorage.getItem('GramsNL')
         if (cartcheck = 0){
         localStorage.removeItem('cartNumberNL');
         localStorage.removeItem('GramsNL');
         localStorage.removeItem('totalCostNL');
         localStorage.removeItem('totalAmountNL');
+	}
+}, 1000);
+
+setInterval (function clearPE(){
+    let cartcheck = localStorage.getItem('GramsPE')
+        if (cartcheck = 0){
+        localStorage.removeItem('cartNumberPE');
+        localStorage.removeItem('GramsPE');
+        localStorage.removeItem('totalCostPE');
+        localStorage.removeItem('totalAmountPE');
 	}
 }, 1000);
 
@@ -119,9 +138,11 @@ emptycartCC();
 emptycartBW();
 emptycartPR();
 emptycartNL();
+emptycartPE();
 clearDP();
 clearCC();
 clearOC();
 clearBW();
 clearPR();
 clearNL();
+clearPE();
