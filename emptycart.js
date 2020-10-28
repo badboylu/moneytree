@@ -61,6 +61,15 @@ setInterval (function emptycartPE(){
     }
 }, 1000);
 
+setInterval (function emptycartCCES(){
+    let cartcheck = localStorage.getItem('cartNumberCCES')
+        if (cartcheck === null){
+		document.getElementById("CCESempty").style.display = "none";
+	}else{
+        document.getElementById("CCESempty").style.display = "block";
+    }
+}, 1000);
+
 setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
@@ -132,6 +141,16 @@ setInterval (function clearPE(){
 	}
 }, 1000);
 
+setInterval (function clearCCES(){
+    let cartcheck = localStorage.getItem('BatchCCES')
+        if (cartcheck = 0){
+        localStorage.removeItem('cartNumberCCES');
+        localStorage.removeItem('GramsCCES');
+        localStorage.removeItem('totalCostCCES');
+        localStorage.removeItem('totalAmountCCES');
+	}
+}, 1000);
+
 emptycartDP();
 emptycartOC();
 emptycartCC();
@@ -139,6 +158,7 @@ emptycartBW();
 emptycartPR();
 emptycartNL();
 emptycartPE();
+emptycartCCES();
 clearDP();
 clearCC();
 clearOC();
@@ -146,3 +166,4 @@ clearBW();
 clearPR();
 clearNL();
 clearPE();
+clearCCES();
