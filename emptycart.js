@@ -70,6 +70,17 @@ setInterval (function emptycartCCES(){
     }
 }, 1000);
 
+setInterval (function emptycartMain(){
+    let cart = localStorage.getItem('totalAmountNumber');
+        if (cart === null){
+		document.getElementById("Cartempty").style.display = "none";
+                document.getElementById("Cartemptyimg").style.display = "block";
+	}else{
+                document.getElementById("Cartemptyimg").style.display = "none";
+                document.getElementById("Cartempty").style.display = "block";
+    }
+}, 1000);
+
 setInterval (function clearDP(){
     let cartcheck = localStorage.getItem('GramsDP');
     totalCart = parseInt(totalCart);
@@ -159,6 +170,7 @@ emptycartPR();
 emptycartNL();
 emptycartPE();
 emptycartCCES();
+emptycartMain();
 clearDP();
 clearCC();
 clearOC();
