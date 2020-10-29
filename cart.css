@@ -22,6 +22,10 @@
 .plugproductsPE{
      margin-top: 20px;
 }
+.emptycartdisplay{
+    padding-left: 50%;
+    margin-bottom: 20px;
+}
 .plugcontainer{
     max-width: 760px;
     justify-content: space-around;
