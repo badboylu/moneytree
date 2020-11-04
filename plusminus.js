@@ -1,4 +1,4 @@
-var iconsBW = document.getElementById('');
+var iconsBW = document.getElementById('iconsAddBW');
 
 iconsBW.style.cursor = 'pointer';
 iconsBW.onclick = function() {
