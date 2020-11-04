@@ -451,7 +451,9 @@
     margin-right: auto;
     display: block;
 }
-
+.closebtnBW{
+    display:inline-block;
+}
 .plugfooterEnd{
     width: 100%;
     display: flex;
