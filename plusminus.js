@@ -1,5 +1,5 @@
 var iconsAddBW = document.getElementById('iconsAddBW');
-var iconsMinusBW = document.getElementById('iconsAddBW');
+var iconsMinusBW = document.getElementById('iconsMinusBW');
 iconsAddBW.style.cursor = 'pointer';
 iconsMinusBW.style.cursor = 'pointer';
 iconsAddBW.onclick = function() {
