@@ -454,6 +454,9 @@
 .closebtnBW{
     display:inline-block;
 }
+.gramsamountBW{
+    display:inline-block;
+}
 .plugfooterEnd{
     width: 100%;
     display: flex;
