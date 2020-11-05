@@ -21,3 +21,52 @@ clearBW.onclick = function() {
    localStorage.removeItem("totalCostBW");
    localStorage.removeItem("cartNumberBW");
 };
+
+clearDP.onclick = function() {
+   localStorage.removeItem("GramsDP");
+   localStorage.removeItem("totalAmountDP");
+   localStorage.removeItem("totalCostDP");
+   localStorage.removeItem("cartNumberDP");
+};
+
+clearOC.onclick = function() {
+   localStorage.removeItem("GramsOC");
+   localStorage.removeItem("totalAmountOC");
+   localStorage.removeItem("totalCostOC");
+   localStorage.removeItem("cartNumberOC");
+};
+
+clearNL.onclick = function() {
+   localStorage.removeItem("GramsNL");
+   localStorage.removeItem("totalAmountNL");
+   localStorage.removeItem("totalCostNL");
+   localStorage.removeItem("cartNumberNL");
+};
+
+clearPE.onclick = function() {
+   localStorage.removeItem("GramsPE");
+   localStorage.removeItem("totalAmountPE");
+   localStorage.removeItem("totalCostPE");
+   localStorage.removeItem("cartNumberPE");
+};
+
+clearCC.onclick = function() {
+   localStorage.removeItem("BatchCC");
+   localStorage.removeItem("totalAmountCC");
+   localStorage.removeItem("totalCostCC");
+   localStorage.removeItem("cartNumberCC");
+};
+
+clearCCES.onclick = function() {
+   localStorage.removeItem("BatchCCES");
+   localStorage.removeItem("totalAmountCCES");
+   localStorage.removeItem("totalCostCCES");
+   localStorage.removeItem("cartNumberCCES");
+};
+
+clearPR.onclick = function() {
+   localStorage.removeItem("GramsPR");
+   localStorage.removeItem("totalAmountPR");
+   localStorage.removeItem("totalCostPR");
+   localStorage.removeItem("cartNumberPR");
+};
