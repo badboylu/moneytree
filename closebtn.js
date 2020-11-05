@@ -58,9 +58,9 @@ clearCC.onclick = function() {
 };
 
 clearCCES.onclick = function() {
-   localStorage.removeItem("BatchCCES");
+   localStorage.removeItem("GramsCCes");
    localStorage.removeItem("totalAmountCCES");
-   localStorage.removeItem("totalCostCCES");
+   localStorage.removeItem("totalCostCCes");
    localStorage.removeItem("cartNumberCCES");
 };
 
