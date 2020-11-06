@@ -8,6 +8,11 @@ var iconsMinusOC = document.getElementById('iconsMinusOC');
 iconsAddOC.style.cursor = 'pointer';
 iconsMinusOC.style.cursor = 'pointer';
 
+var iconsAddCC = document.getElementById('iconsAddCC');
+var iconsMinusCC = document.getElementById('iconsMinusCC');
+iconsAddCC.style.cursor = 'pointer';
+iconsMinusCC.style.cursor = 'pointer';
+
 iconsAddBW.onclick = function() {
 var priceBW = 45;
    localStorage.setItem('totalCostBW', priceBW);
@@ -109,5 +114,56 @@ iconsMinusOC.onclick = function() {
                 localStorage.removeItem("totalAmountOC");
                 localStorage.removeItem("totalCostOC");
                 localStorage.removeItem("cartNumberOC");
+        }
+};
+
+iconsAddCC.onclick = function() {
+var priceCC = 240;
+    localStorage.setItem('totalCostCC', priceCC);
+        var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
+        cartCostCC = parseInt(cartCostCC);
+        if(cartCostCC) {
+                localStorage.setItem('totalCostCC', cartCostCC);
+        }else{
+                localStorage.setItem('totalCostCC', parseInt(cartCostCC));
+        }
+    let ifavailableCC = localStorage.getItem('BatchCC')
+        ifavailableCC = parseInt(ifavailableCC);
+               if(ifavailableCC) {
+                localStorage.setItem('BatchCC',(ifavailableCC) + 1);
+                let gramsNumberaddCC = localStorage.getItem('BatchCC'); 
+                gramsNumberaddCC = parseInt(gramsNumberaddCC);
+                document.querySelector('.gramsamountCC').textContent =parseInt(gramsNumberaddCC);
+               }else{
+                localStorage.setItem('BatchCC', 1 );       
+                document.querySelector('.gramsamountCC').textContent = parseInt(gramsNumberaddCC);
+               }
+};
+
+iconsMinusCC.onclick = function() {
+var priceCC = 240;
+    localStorage.setItem('totalCostCC', priceCC);
+        var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
+        cartCostCC = parseInt(cartCostCC);
+        if(cartCostCC) {
+                localStorage.setItem('totalCostCC', cartCostCC);
+        }else{
+                localStorage.setItem('totalCostCC', parseInt(cartCostCC));
+        }
+    let gramsNumbersminusCC = localStorage.getItem('BatchCC'); 
+        gramsNumbersminusCC = parseInt(gramsNumbersminusCC);
+               if(gramsNumbersminusCC) {
+                localStorage.setItem('BatchCC', gramsNumbersminusCC = (gramsNumbersminusCC - 1));
+                document.querySelector('.gramsamountCC').textContent = parseInt(gramsNumbersminusCC) -1;
+               }else{
+                document.querySelector('.gramsamountCC').textContent = 0;   
+        }
+    let checkgramsCC = localStorage.getItem("BatchCC");
+        checkgramsCC = parseInt(checkgramsCC);
+        if(checkgramsCC < 1){
+                localStorage.removeItem("BatchCC");
+                localStorage.removeItem("totalAmountCC");
+                localStorage.removeItem("totalCostCC");
+                localStorage.removeItem("cartNumberCC");
         }
 };
