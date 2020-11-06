@@ -196,7 +196,7 @@ var pricePR = 20;
                }
 };
 
-iconsMinusBW.onclick = function() {
+iconsMinusPR.onclick = function() {
    var pricePR = 20;
      localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
