@@ -342,7 +342,7 @@ iconsMinusNL.onclick = function() {
 };
 
 iconsAddPE.onclick = function() {
-var pricePE = 45;
+var pricePE = 110;
    localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -365,7 +365,7 @@ var pricePE = 45;
 };
 
 iconsMinusPE.onclick = function() {
-   var pricePE = 45;
+   var pricePE = 110;
     localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
