@@ -456,6 +456,8 @@
 }
 .gramsamount{
     display:inline-block;
+    width: 20px;
+    height: 20px;
 }
 .plugfooterEnd{
     width: 100%;
