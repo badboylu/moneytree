@@ -272,7 +272,7 @@ setInterval (function showJHBSouthWest(){
 
 setInterval (function showStructuretypeEast(){
    var Suburb = document.getElementById('suburbsPTAeast').value;
-   var SuburbJHBNorth = document.getElementById('suburbsJHBNorth').value;
+   var SuburbJHBNorth = document.getElementById('Randburg').value;
    var SuburbJHBEast = document.getElementById('suburbsJHBEast').value;
    var SuburbJHBCentral = document.getElementById('suburbsJHBCentral').value;
    var SuburbJHBNorthWest = document.getElementById('suburbsJHBNorthWest').value;
