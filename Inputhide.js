@@ -284,6 +284,13 @@ setInterval (function showStructuretypeEast(){
 	}
 }, 1000);
 
+setInterval (function showStructuretypeEast(){
+   var Suburb = document.getElementById('suburbsPTAeast').value;
+        if (Suburb){
+		document.getElementById("hidecribtype").style.display = "block";
+	}
+}, 1000);
+
 setInterval (function showStructuretypeNorthEast(){
    var Suburb = document.getElementById('suburbsPTANorthEast').value;
         if (Suburb){
