@@ -168,7 +168,7 @@ setInterval (function hideJHB(){
  setInterval (function showJHBEast(){
     var City = document.getElementById('city').value;
     var Town = document.getElementById('townsJHB').value;
-         if (Town=='JHBEast' && City=='Johannesburg'){
+         if (Town=='Midrand' && City=='Johannesburg'){
          document.getElementById("hideJHBEastsuburb").style.display = "block";
                  document.getElementById("suburbsJHBNorth").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
@@ -189,7 +189,7 @@ setInterval (function hideJHB(){
  setInterval (function showJHBCentral(){
     var City = document.getElementById('city').value;
     var Town = document.getElementById('townsJHB').value;
-         if (Town=='JHBCentral' && City=='Johannesburg'){
+         if (Town=='JohannesburgCentral' && City=='Johannesburg'){
          document.getElementById("hideJHBCentral").style.display = "block";
                  document.getElementById("suburbsJHBNorth").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
@@ -210,7 +210,7 @@ setInterval (function hideJHB(){
  setInterval (function showJHBNorthWest(){
     var City = document.getElementById('city').value;
     var Town = document.getElementById('townsJHB').value;
-         if (Town=='JHBNorthWest' && City=='Johannesburg'){
+         if (Town=='Roodepoort' && City=='Johannesburg'){
          document.getElementById("hideJHBNorthWestsuburb").style.display = "block";
                  document.getElementById("suburbsJHBNorth").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
@@ -231,7 +231,7 @@ setInterval (function hideJHB(){
  setInterval (function showJHBSouth(){
     var City = document.getElementById('city').value;
     var Town = document.getElementById('townsJHB').value;
-         if (Town=='JHBSouth' && City=='Johannesburg'){
+         if (Town=='JHBSandton' && City=='Johannesburg'){
          document.getElementById("hideJHBSouth").style.display = "block";
                  document.getElementById("suburbsJHBNorth").removeAttribute("required");
                  document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
@@ -271,7 +271,7 @@ setInterval (function hideJHB(){
  }, 1000);
  
  setInterval (function showStructuretypeEast(){
-    var Suburb = document.getElementById('suburbsPTAeast').value;
+    var Suburb = document.getElementById('suburbsJHBRoodepoort').value;
     var SuburbJHBRandburg = document.getElementById('suburbsJHBRandburg').value;
     var SuburbJHBEast = document.getElementById('suburbsJHBEast').value;
     var SuburbJHBCentral = document.getElementById('suburbsJHBCentral').value;
