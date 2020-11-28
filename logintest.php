@@ -15,20 +15,15 @@ if(empty($mailuid)||empty($password)){
     exit();
   }
  
-    $sql="SELECT * FROM users WHERE uidUsers=?";
-
-    $stmt=mysqli_stmt_init($conn); 
+ $sql="SELECT * FROM users WHERE uidUsers=?";
+ $stmt=mysqli_stmt_init($conn); 
  
-    mysqli_stmt_bind_params($stmt,"ss",$mailuid,$mailuid);
-    mysqli_stmt_execute($stmt);
-    $result=mysqli_stmt_get_result($stmt);
-     
-     if(!$row=mysqli_fetch_assoc($result)){
-        header("Location:signing.html?error");
-        exit();
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+     header("Location:signing.html?error=sqlerror");
+     exit();
   }else{
-    header("Location:signing.html?successful");
-    exit();
-  }
+      header("Location:index.html?error=AllGood");
+     exit();
+    }
     
 ?>
