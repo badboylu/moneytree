@@ -36,7 +36,7 @@ if(empty($mailuid)||empty($password)){
         SESSION_START();
         $_SESSION['userId']=$row['idUsers'];
         $_SESSION['userUid']=$row['uidUsers'];
-         header("Location:signing.html?login=successful");
+         header("Location:signing.html?login=verysuccessful");
          exit();
     }
        else{
