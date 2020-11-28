@@ -23,7 +23,7 @@ if(empty($mailuid)||empty($password)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
     $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck = 0){
+    if($resultCheck = null){
         header("Location:Signin.html?error=WrongUsername");
         exit();
     }
@@ -36,7 +36,7 @@ if(empty($mailuid)||empty($password)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
     $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck = 0){
+    if($resultCheck = null){
         header("Location:Signin.html?error=WrongPassword".$email);
         exit();
     }else{
