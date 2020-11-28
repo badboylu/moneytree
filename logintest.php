@@ -25,9 +25,6 @@ if(empty($mailuid)||empty($password)){
     if($resultCheckUSER = 0){
         header("Location:Signin.html?error=WrongUsername");
         exit();
-    }else{
-        header("Location:index.html?error=successful");
-        exit();
     }
 
     $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
