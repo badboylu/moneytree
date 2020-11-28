@@ -23,18 +23,11 @@ if(empty($mailuid)||empty($password)){
     mysqli_stmt_execute($stmt);
     $result=mysqli_stmt_get_result($stmt);
      
-     if($row=mysqli_fetch_assoc($result)){
-      $pwdcheck=password_verify($password, $row['pwdUsers']);
-      exit();
+     if(!$row=mysqli_fetch_assoc($result)){
+        header("Location:signing.html?error");
+        exit();
+  }else{
+    header("Location:signing.html?successful");
+    exit();
   }
-     else if($pwdcheck == true){
-       header("Location:index.html?login=successful");
-       exit();
-  }
-     else{
-       header("Location:index.html?error=wrongpassword");
-       exit();
-  }
- 
-
-?>
+    
