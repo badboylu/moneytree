@@ -1,2 +1,2 @@
-<?php header('Location: Signin.html');
+<?php header('Location: https://canibuy.co.za/Signin.html');
 ?>
