@@ -31,3 +31,4 @@ if(empty($mailuid)||empty($password)){
     exit();
   }
     
+?>
