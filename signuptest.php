@@ -7,6 +7,11 @@ $dBName="heroku_61db5a5cdc2dfd8";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
+$username=$_POST['uid'];
+$email=$_POST['email'];
+$password=$_POST['pwd'];
+$passwordrepeat=$_POST['pwdrepeat'];
+
 $sql="SELECT uidUsers FROM users WHERE uidUsers=?";
    
 $stmt=mysqli_stmt_init($conn);
