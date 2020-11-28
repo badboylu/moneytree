@@ -39,7 +39,7 @@ if(empty($mailuid)||empty($password)){
         header("Location:Signin.html?error=WrongPassword".$email);
         exit();
     }else{
-        header("Location:index.html?error=successful");
+        header("Location:index.html?error=correctPassword");
         exit();
     }
 
