@@ -21,9 +21,25 @@ if(empty($mailuid)||empty($password)){
     mysqli_stmt_bind_param($stmt,"s",$mailuid);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
-    $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck = 0){
-        header("Location:index.html?error=WrongUsername");
+    $resultCheckUSER = mysqli_stmt_num_rows($stmt);
+    if($resultCheckUSER = 0){
+        header("Location:Signin.html?error=WrongUsername");
+        exit();
+    }else{
+        header("Location:index.html?error=successful");
+        exit();
+    }
+
+    $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
+
+    $stmt=mysqli_stmt_init($conn); 
+ 
+    mysqli_stmt_bind_param($stmt,"s",$password);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_store_result($stmt);
+    $resultCheckPWD = mysqli_stmt_num_rows($stmt);
+    if($resultCheckPWD = 0){
+        header("Location:Signin.html?error=WrongPassword".$email);
         exit();
     }else{
         header("Location:index.html?error=successful");
