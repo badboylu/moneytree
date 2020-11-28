@@ -7,14 +7,6 @@ $dBName="heroku_61db5a5cdc2dfd8";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-if(!conn){  
-    header("Location:Signin.html?signup=unsuccessful");
-       exit();
-}else {        
-   header("Location:index.html?signup=successful");
-     exit();
-}
-
 $sql="SELECT uidUsers FROM users WHERE uidUsers=?";
    
 $stmt=mysqli_stmt_init($conn);
