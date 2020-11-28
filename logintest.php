@@ -33,14 +33,11 @@ if(empty($mailuid)||empty($password)){
       exit();
   }
      else if($pwdcheck == true){
-      SESSION_START();
-      $_SESSION['userId']=$row['idUsers'];
-      $_SESSION['userUid']=$row['uidUsers'];
-       header("Location:signing.html?login=successful");
+       header("Location:index.html?login=successful");
        exit();
   }
      else{
-       header("Location:signing.html?error=wrongpassword");
+       header("Location:index.html?error=wrongpassword");
        exit();
   }
  }
