@@ -8,7 +8,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
 $username=$_POST['uid'];
-$email=$_POST['email'];
+$email=$_POST['mailuid'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 
@@ -19,6 +19,10 @@ $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.html?error=sqlerror");
        exit();
+}
+  if(!FILTER_VAR($email, FILTER_VALIDATE_EMAIL)&&!preg_match("/^[a-zA-Z0-9]*$/",$email)){        
+   header("Location:Signin.html?error=invalidemail");
+     exit();
 }
   else{
    mysqli_stmt_bind_param($stmt,"s",$username);
