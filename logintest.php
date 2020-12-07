@@ -11,12 +11,12 @@ $mailuid=$_POST['mailuid'];
 $password=$_POST['pwd'];
 
 if(empty($mailuid)||empty($password)){
-    header("Location:signing.html?error=emptyfields");
+    header("Location:Signing.html?error=emptyfields");
     exit();
     }
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  header("Location:signing.html?error=wrongemailformat");
+  header("Location:Signing.html?error=wrongemailformat");
     exit();
 }
 
@@ -28,12 +28,10 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
     $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck = null){
-        header("Location:Signin.html?error=WrongUsername");
-        exit();
-    }
-
-    $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
+    if($resultCheck > 0){
+       header("Location:Signin.html?error=usernametaken);
+       exit();
+}
 
     $stmt=mysqli_stmt_init($conn); 
  
@@ -41,9 +39,9 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
     $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck = null){
-        header("Location:Signin.html?error=WrongPassword".$email);
-        exit();
+    if($resultCheck > 0){
+       header("Location:Signin.html?error=usernametaken);
+       exit();
     }else{
         header("Location:index.html?error=correctPassword");
         exit();
