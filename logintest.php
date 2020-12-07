@@ -15,6 +15,11 @@ if(empty($mailuid)||empty($password)){
     exit();
     }
 
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  header("Location:signing.html?error=wrongemailformat");
+    exit();
+}
+
     $sql="SELECT emailUsers FROM users WHERE emailUsers=?";
 
     $stmt=mysqli_stmt_init($conn); 
