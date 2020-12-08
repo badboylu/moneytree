@@ -12,12 +12,12 @@ $password=$_POST['pwd'];
 
 
 if(empty($mailuid)||empty($password)){
-    header("Location:Signing.html?error=emptyfields");
+    header("Location:Signin.html?error=emptyfields");
     exit();
     }
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  header("Location:Signing.html?error=wrongemailformat");
+  header("Location:Signin.html?error=wrongemailformat");
     exit();
 }
 
@@ -37,11 +37,11 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
        SESSION_START();
        $_SESSION['userId']=$row['idUsers'];
        $_SESSION['userUid']=$row['uidUsers'];
-        header("Location:signing.html?login=successful");
+        header("Location:index.html?login=successful");
         exit();
    }
       else{
-        header("Location:signing.html?error=wrongpassword");
+        header("Location:Signin.html?error=wrongpassword");
         exit();
    }
     
