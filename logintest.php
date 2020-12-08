@@ -34,8 +34,6 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
        exit();
    }
       else if($pwdcheck == true){
-       SESSION_START();
-       $_SESSION['userUid']=$row['uidUsers'];
         header("Location:index.html?login=successful");
         exit();
    }
