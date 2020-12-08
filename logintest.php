@@ -33,6 +33,8 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
        exit();
 }
 
+    $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
+
     $stmt=mysqli_stmt_init($conn); 
  
     mysqli_stmt_bind_param($stmt,"s",$password);
@@ -40,10 +42,10 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     mysqli_stmt_store_result($stmt);
     $resultCheck = mysqli_stmt_num_rows($stmt);
     if($resultCheck > 0){
-       header("Location:Signin.html?error=usernametaken);
+       header("Location: index.html );
        exit();
     }else{
-        header("Location:index.html?error=correctPassword");
+        header("Location:Signin.html?error=wrongpassword");
         exit();
     }
 
