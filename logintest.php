@@ -10,6 +10,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $mailuid=$_POST['mailuid'];
 $password=$_POST['pwd'];
 
+
 if(empty($mailuid)||empty($password)){
     header("Location:Signing.html?error=emptyfields");
     exit();
@@ -19,35 +20,29 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   header("Location:Signing.html?error=wrongemailformat");
     exit();
 }
-     $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
 
+    $sql="SELECT * FROM users WHERE uidUsers=?";
+    
     $stmt=mysqli_stmt_init($conn); 
  
-    mysqli_stmt_bind_param($stmt,"s",$password);
-    mysqli_stmt_execute($stmt);
-    mysqli_stmt_store_result($stmt);
-    $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck > 0){
-       header("Location: index.html );
+    mysqli_stmt_bind_params($stmt,"ss",$mailuid,$mailuid);
+     mysqli_stmt_execute($stmt);
+     $result=mysqli_stmt_get_result($stmt);
+      
+      if($row=mysqli_fetch_assoc($result)){
+       $pwdcheck=password_verify($password, $row['pwdUsers']);
        exit();
-    }else{
-        header("Location:Signin.html?error=wrongpassword");
+   }
+      else if($pwdcheck == true){
+       SESSION_START();
+       $_SESSION['userId']=$row['idUsers'];
+       $_SESSION['userUid']=$row['uidUsers'];
+        header("Location:signing.html?login=successful");
         exit();
-    }   
-
-    $sql="SELECT emailUsers FROM users WHERE emailUsers=?";
-
-    $stmt=mysqli_stmt_init($conn); 
- 
-    mysqli_stmt_bind_param($stmt,"s",$mailuid);
-    mysqli_stmt_execute($stmt);
-    mysqli_stmt_store_result($stmt);
-    $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck > 0){
-       header("Location:Signin.html?error=usernametaken);
-       exit();
-     }
-       
-
+   }
+      else{
+        header("Location:signing.html?error=wrongpassword");
+        exit();
+   }
     
     ?>
