@@ -31,7 +31,8 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     if($resultCheck > 0){
        header("Location:Signin.html?error=usernametaken);
        exit();
-}
+     }else{
+       
 
     $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
 
@@ -48,5 +49,5 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         header("Location:Signin.html?error=wrongpassword");
         exit();
     }
-
+}
     ?>
