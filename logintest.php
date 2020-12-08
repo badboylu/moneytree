@@ -25,7 +25,7 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
     
     $stmt=mysqli_stmt_init($conn); 
  
-    mysqli_stmt_bind_params($stmt,"ss",$mailuid,$mailuid);
+    mysqli_stmt_bind_params($stmt,"ss",$mailuid,$password);
      mysqli_stmt_execute($stmt);
      $result=mysqli_stmt_get_result($stmt);
       
@@ -35,7 +35,6 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
    }
       else if($pwdcheck == true){
        SESSION_START();
-       $_SESSION['userId']=$row['idUsers'];
        $_SESSION['userUid']=$row['uidUsers'];
         header("Location:index.html?login=successful");
         exit();
