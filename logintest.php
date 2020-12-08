@@ -16,7 +16,7 @@ if(empty($mailuid)||empty($password)){
     exit();
     }
 
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
   header("Location:Signin.html?error=wrongemailformat");
     exit();
 }
