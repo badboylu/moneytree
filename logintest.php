@@ -22,24 +22,14 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
 }
 
     $sql="SELECT * FROM users WHERE uidUsers=?";
-    
     $stmt=mysqli_stmt_init($conn); 
  
-    mysqli_stmt_bind_params($stmt,"ss",$mailuid,$password);
-     mysqli_stmt_execute($stmt);
-     $result=mysqli_stmt_get_result($stmt);
-      
-      if($row=mysqli_fetch_assoc($result)){
-       $pwdcheck=password_verify($password, $row['pwdUsers']);
-       exit();
-   }
-      else if($pwdcheck == true){
-        header("Location:index.html?login=successful");
-        exit();
-   }
-      else{
-        header("Location:Signin.html?error=wrongpassword");
-        exit();
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+     header("Location:Signin.html?error=sqlerror");
+     exit();
+  }
+   else{
+     header("Location:Signin.html?success
    }
     
     ?>
