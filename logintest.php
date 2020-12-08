@@ -19,6 +19,21 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   header("Location:Signing.html?error=wrongemailformat");
     exit();
 }
+     $sql="SELECT pwdUsers FROM users WHERE pwdUsers=?";
+
+    $stmt=mysqli_stmt_init($conn); 
+ 
+    mysqli_stmt_bind_param($stmt,"s",$password);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_store_result($stmt);
+    $resultCheck = mysqli_stmt_num_rows($stmt);
+    if($resultCheck > 0){
+       header("Location: index.html );
+       exit();
+    }else{
+        header("Location:Signin.html?error=wrongpassword");
+        exit();
+    }   
 
     $sql="SELECT emailUsers FROM users WHERE emailUsers=?";
 
@@ -34,19 +49,5 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
      }
        
 
-    $sql2="SELECT pwdUsers FROM users WHERE pwdUsers=?";
-
-    $stmt2=mysqli_stmt_init($conn); 
- 
-    mysqli_stmt_bind_param($stmt,"s",$password);
-    mysqli_stmt_execute($stmt);
-    mysqli_stmt_store_result($stmt);
-    $resultCheck = mysqli_stmt_num_rows($stmt);
-    if($resultCheck > 0){
-       header("Location: index.html );
-       exit();
-    }else{
-        header("Location:Signin.html?error=wrongpassword");
-        exit();
-    }
+    
     ?>
