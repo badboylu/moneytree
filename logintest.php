@@ -30,6 +30,7 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
   }
    else{
      header("Location:Signin.html?success");
+     exit();
    }
     
     ?>
