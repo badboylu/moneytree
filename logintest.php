@@ -10,27 +10,14 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $mailuid=$_POST['mailuid'];
 $password=$_POST['pwd'];
 
-
-if(empty($mailuid)||empty($password)){
-    header("Location:Signin.html?error=emptyfields");
-    exit();
-    }
-
 if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
   header("Location:Signin.html?error=wrongemailformat");
     exit();
 }
 
-    $sql="SELECT * FROM users WHERE uidUsers=?";
-    $stmt=mysqli_stmt_init($conn); 
+    $sql="SELECT * FROM users WHERE emailUsers='$mailuid' ";
+    $query=mysqli_query($conn,$sql);
+     
  
-    if(!mysqli_stmt_prepare($stmt, $sql)){
-     header("Location:Signin.html?error=sqlerror");
-     exit();
-  }
-   else{
-     header("Location:Signin.html?success");
-     exit();
-   }
     
-    ?>
+?>
