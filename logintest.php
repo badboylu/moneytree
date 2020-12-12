@@ -11,13 +11,30 @@ $mailuid=$_POST['mailuid'];
 $password=$_POST['pwd'];
 
 if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
-  header("Location:Signin.html?error=wrongemailformat");
+    header("Location:Signin.html?error=wrongemailformat");
     exit();
 }
 
-    $sql="SELECT * FROM users WHERE emailUsers='$mailuid' ";
-    $query=mysqli_query($conn,$sql);
-     
- 
-    
+    $sql1="SELECT * FROM users WHERE emailUsers='$mailuid' ";
+    $query1=mysqli_query($conn,$sql1);
+    $count1=mysqli_num_row($query1):
+
+if ($count1=0){
+    header("Location:Signin.html?error=wrngeml");
+    exit();
+}else{
+    $passwordunhash=
+
+    $sql2="SELECT * FROM users WHERE pwdUsers='$passwordunhash' ";
+    $query2=mysqli_query($conn,$sql2);
+    $count2=mysqli_num_row($query2):
+
+if ($count2=0){
+    header("Location:Signin.html?error=wrngpwd");
+    exit();
+}else{
+    header("Location:index.html");
+    exit();
+}
+}   
 ?>
