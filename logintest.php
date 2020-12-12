@@ -14,8 +14,8 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
     header("Location:Signin.html?error=wrongemailformat");
     exit();
 }
-
-    $sql1="SELECT * FROM users WHERE emailUsers='$mailuid' ";
+    $emaildunhash=
+    $sql1="SELECT * FROM users WHERE emailUsers='$emaildunhash' ";
     $query1=mysqli_query($conn,$sql1);
     $count1=mysqli_num_row($query1):
 
@@ -24,11 +24,9 @@ if ($count1=0){
     exit();
 }else if ($count1>0){
     $passwordunhash=
-
     $sql2="SELECT * FROM users WHERE pwdUsers='$passwordunhash' ";
     $query2=mysqli_query($conn,$sql2);
     $count2=mysqli_num_row($query2):
-
 if ($count2=0){
     header("Location:Signin.html?error=wrngpwd");
     exit();
