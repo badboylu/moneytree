@@ -22,7 +22,7 @@ if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
 if ($count1=0){
     header("Location:Signin.html?error=wrngeml");
     exit();
-}else{
+}else if ($count1>0){
     $passwordunhash=
 
     $sql2="SELECT * FROM users WHERE pwdUsers='$passwordunhash' ";
@@ -32,7 +32,7 @@ if ($count1=0){
 if ($count2=0){
     header("Location:Signin.html?error=wrngpwd");
     exit();
-}else{
+}else if ($count2>0){
     header("Location:index.html");
     exit();
 }
