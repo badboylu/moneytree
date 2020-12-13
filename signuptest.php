@@ -9,8 +9,6 @@ $username=$_POST['uid'];
 $email=$_POST['email'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
-$hashedPwd=password_hash($password,PASSWORD_DEFAULT);
-$hashedEml=password_hash($email,PASSWORD_DEFAULT);
 $sql1="SELECT emailUsers FROM users WHERE emailUsers=?";
 $stmt1=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt1,$sql1)){
@@ -27,11 +25,9 @@ $stmt3=mysqli_stmt_init($conn);
        header("Location:register.html?error=invalidemail");
        exit();
 }
-   mysqli_stmt_bind_param($stmt1,"s",$hashedEml);
-   mysqli_stmt_execute($stmt1);
-   mysqli_stmt_store_result($stmt1);
-   $resultCheck1=mysqli_stmt_num_rows($stmt1);
-   if($resultCheck1 > 0){
+   
+   $verify=password_verify($password, $stmt1); 
+   if(!$verify){
        header("Location:register.html?error=emailtaken=".$username);
        exit();
 } 
