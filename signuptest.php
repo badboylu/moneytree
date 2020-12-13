@@ -7,7 +7,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$email=$_POST['mailuid'];
+$email=$_POST['email'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 
