@@ -16,12 +16,12 @@ $sql="SELECT uidUsers FROM users WHERE uidUsers=?";
 $stmt=mysqli_stmt_init($conn);
 
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.html?error=sqlerror");
+       header("Location:register.html?error=sqlerror");
        exit();
 }
 
    if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       header("Location:Signin.html?error=invalidemail");
+       header("Location:register.html?error=invalidemail");
        exit();
 }
 
@@ -31,14 +31,14 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_store_result($stmt);
    $resultCheck=mysqli_stmt_num_rows($stmt);
   if($resultCheck > 0){
-       header("Location:Signin.html?error=usernametaken&email=".$email);
+       header("Location:register.html?error=usernametaken&email=".$email);
        exit();
 }
   else{ 
     $sql="INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES(?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-     header("Location:Signin.html?error=usernametaken&email=".$email);
+     header("Location:register.html?error=usernametaken&email=".$email);
        exit();
 }
     else{
