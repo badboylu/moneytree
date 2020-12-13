@@ -51,6 +51,5 @@ $stmt=mysqli_stmt_init($conn);
             }
         }
     }
-}
 ?>
 
