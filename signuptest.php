@@ -43,7 +43,8 @@ $stmt=mysqli_stmt_init($conn);
 }
     else{
      $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
-     mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
+     $hashedEml=password_hash($password,PASSWORD_DEFAULT);
+     mysqli_stmt_bind_param($stmt,"sss",$username,$hashedEml,$hashedPwd);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
      header("Location:index.html?signup=successful");
