@@ -30,8 +30,8 @@ $stmt1=mysqli_stmt_init($conn);
     $sql2="INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES(?,?,?)";
     $stmt2=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt2,$sql2)){
-        header("Location:register.html?error=SQL2);
-        exit();
+       header("Location:register.html?error=SQL2");
+       exit();
 }
      $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
      $hashedEml=password_hash($password,PASSWORD_DEFAULT);
