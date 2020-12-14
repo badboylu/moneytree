@@ -31,12 +31,7 @@ if (!$count>0){
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
   
-if (password_verify($password, $stmt)) {
     header("Location:index.html?login=successful");
     exit();
-} else {
-    header("Location:Signin.html?error=wrngpwd");
-    exit();
-}  
 }   
 ?>
