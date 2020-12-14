@@ -29,7 +29,7 @@ if (!$count>0){
        exit();
 }
    mysqli_stmt_execute($stmt);
-   $data = mysqli_fetch_assoc($stmt);
+   mysqli_stmt_bind_result($stmt, $hash);
 
     header("Location:index.html?login=successful");
     exit();
