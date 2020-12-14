@@ -32,7 +32,7 @@ if (!$count>0){
    mysqli_stmt_bind_result($stmt, $hash);
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    header("Location:index.html?login=successful);
+    header("Location:index.html?login=successful");
     exit();
 } else {
     header("Location:Signin.html?error=wrngpwd");
