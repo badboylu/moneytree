@@ -7,31 +7,26 @@ $dBName="heroku_61db5a5cdc2dfd8";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$mailuid=$_POST['mailuid'];
+$uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
-if (!filter_var($mailuid, FILTER_VALIDATE_EMAIL)) {
-    header("Location:Signin.html?error=wrongemailformat");
-    exit();
-}
-    $emaildunhash=
-    $sql1="SELECT * FROM users WHERE emailUsers='$emaildunhash' ";
-    $query1=mysqli_query($conn,$sql1);
-    $count1=mysqli_num_row($query1):
+    
+    $sql="SELECT * FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
+    $query=mysqli_query($conn,$sql);
+    $count=mysqli_num_row($query):
 
-if ($count1=0){
-    header("Location:Signin.html?error=wrngeml");
+if (!$count>0){
+    header("Location:Signin.html?error=wrnguid");
     exit();
-}else if ($count1>0){
-    $passwordunhash=
-    $sql2="SELECT * FROM users WHERE pwdUsers='$passwordunhash' ";
-    $query2=mysqli_query($conn,$sql2);
-    $count2=mysqli_num_row($query2):
-if ($count2=0){
+}else if ($count>0){
+    $sql="SELECT pwd FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
+    $query=mysqli_query($conn,$sql);
+    $result=mysqli_num_row($query):
+if (!$result>0){
     header("Location:Signin.html?error=wrngpwd");
     exit();
-}else if ($count2>0){
-    header("Location:index.html");
+}else if ($result>0){
+    header("Location:index.html?login=successful");
     exit();
 }
 }   
