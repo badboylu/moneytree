@@ -21,13 +21,13 @@ if (!$count>0){
 }else if ($count>0){
     $sql="SELECT pwd FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
     $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
+if (!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.html?error=SQL");
        exit();
 }
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
-    if (password_verify('$password', $stmt)) {
+if (password_verify('$password', $stmt)) {
     header("Location:index.html?login=successful");
     exit();
 }else {
