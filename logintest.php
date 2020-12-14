@@ -30,7 +30,7 @@ if (!$count>0){
    mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
    mysqli_stmt_execute($stmt);
    $result=mysqli_stmt_store_result($stmt);
-  if(!result){
+  if(!$result){
        header("Location:register.html?error=SQL3");
        exit();
 }
