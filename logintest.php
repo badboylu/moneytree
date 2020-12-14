@@ -30,9 +30,9 @@ if (!$count>0){
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
-   mysqli_stmt_fetch($stmt)
- 
+   while (mysqli_stmt_fetch($stmt)) {
     header("Location:index.html?login=".$hash);
     exit();
+}
 }   
 ?>
