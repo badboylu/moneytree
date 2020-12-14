@@ -30,11 +30,9 @@ if (!$count>0){
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
- while (mysqli_stmt_fetch($stmt)) {
-        printf ("%s (%s)\n", $hash);
-    }
+ 
 
-    header("Location:index.html?login=successful");
+    header("Location:index.html?login=".$hash);
     exit();
 }   
 ?>
