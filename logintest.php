@@ -21,15 +21,15 @@ if (!$count>0){
     header("Location:Signin.html?error=wrnguid");
     exit();
 }else if ($count>0){
-    $sql="SELECT pwdUsers FROM users WHERE emailUsers=? OR uidUsers=? ";
-    $stmt=mysqli_stmt_init($conn);
-if (!mysqli_stmt_prepare($stmt,$sql)){
+    $sql1="SELECT pwdUsers FROM users WHERE emailUsers=? OR uidUsers=? ";
+    $stmt1=mysqli_stmt_init($conn);
+if (!mysqli_stmt_prepare($stmt1,$sql1)){
        header("Location:Signin.html?error=SQL2");
        exit();
 }  
-   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
-   mysqli_stmt_execute($stmt);
-   $row=mysqli_fetch_assoc($stmt);
+   mysqli_stmt_bind_param($stmt1,"ss",$uid,$uid);
+   mysqli_stmt_execute($stmt1);
+   $row=mysqli_fetch_assoc($stmt1);
    $hashedpwd=$row['pwdUsers'];
 
 if (password_verify($password, $hashedpwd)) {
