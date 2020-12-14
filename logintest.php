@@ -22,7 +22,12 @@ if (!$count>0){
     exit();
 }else if ($count>0){
    $sql="SELECT pwdUsers FROM users WHERE emailUsers=$uid OR uidUsers=$uid ";
-   $row=mysqli_fetch_assoc($sql);
+   $stmt=mysqli_stmt_init($conn);
+  if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:register.html?error=SQL2");
+       exit();
+}
+   $row=mysqli_fetch_assoc($stmt);
    $hashedpwd=$row['pwdUsers'];
 if (password_verify($password, $hashedpwd)) {
     header("Location:index.html?login=successful");
