@@ -1,11 +1,14 @@
 <?php
-
-if(isset($_POST["request"])){
+   
+   $servername="us-cdbr-east-02.cleardb.com";
+   $dBUsername="b7fcd41c893d7a";
+   $dBPassword="1e8f896b7da9e41";
+   $dBName="heroku_61db5a5cdc2dfd8";
+   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $selector=bin2hex(random_bytes(8));
    $token=random_bytes(32);
-   $url="www.kushlord.herokuapp.com/FPW.html?selector=".$selector."&validate=".bin2hex($token);
+   $url="www.canibuy.co.za/FPW.html?selector=".$selector."&validate=".bin2hex($token);
    $expires=date("U")+1800;
-   require 'dbh.php';
    $userEmail=$_POST["email"];
    $sql="DELETE FROM pwdReset WHERE pwdResetEmail=?";
    $stmt=mysqli_stmt_init($conn);
@@ -46,7 +49,7 @@ if(isset($_POST["request"])){
    $headers="Content-type:text/html\r\n";
    mail($to,$subject,$message,$headers);
    header("Location:FPW.html?reset=success");
-}
+
 else{
  header("Location:FPW.html?error=posterror");
  exit();
