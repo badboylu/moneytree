@@ -21,17 +21,11 @@ if (!$count>0){
     header("Location:Signin.html?error=wrnguid");
     exit();
 }else if ($count>0){
-   $sql="SELECT pwdUsers FROM users WHERE emailUsers=? OR uidUsers=? ";
-   $stmt=mysqli_stmt_init($conn);
-  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=SQL2");
-       exit();
-}
-   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
-   mysqli_stmt_execute($stmt);
-   $result=mysqli_stmt_store_result($stmt);
-  if(!$result){
-       header("Location:register.html?error=SQL3");
+   $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
+   $row=mysqli_fetch_assoc($sql);
+
+       if(!$row){
+       header("Location:Signin.html?error=SQL3");
        exit();
 }
     header("Location:index.html?login=successful");
