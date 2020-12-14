@@ -10,7 +10,7 @@ $password=$_POST['pwd'];
 $sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=SQL");
+       header("Location:register.html?error=SQL1");
        exit();
 }
 mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
@@ -24,7 +24,7 @@ if (!$count>0){
     $sql="SELECT pwd FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
     $stmt=mysqli_stmt_init($conn);
 if (!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.html?error=SQL");
+       header("Location:Signin.html?error=SQL2");
        exit();
 }  
     header("Location:index.html?login=successful");
