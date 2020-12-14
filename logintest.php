@@ -7,7 +7,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
-$sql="SELECT * FROM users WHERE emailUsers='?' OR uidUsers='?' ";
+$sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL");
