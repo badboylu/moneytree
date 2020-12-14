@@ -27,9 +27,11 @@ if (!$count>0){
        header("Location:register.html?error=SQL2");
        exit();
 }
-   $row=mysqli_fetch_assoc($stmt);
-   $hashedpwd=$row['pwdUsers'];
-if (password_verify($password, $hashedpwd)) {
+   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+  
+if (password_verify($password, $stmt)) {
     header("Location:index.html?login=successful");
     exit();
 } else {
