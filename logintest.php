@@ -21,17 +21,9 @@ if (!$count>0){
     header("Location:Signin.html?error=wrnguid");
     exit();
 }else if ($count>0){
-    $sql1="SELECT pwdUsers FROM users WHERE emailUsers=? OR uidUsers=? ";
-    $stmt1=mysqli_stmt_init($conn);
-if (!mysqli_stmt_prepare($stmt1,$sql1)){
-       header("Location:Signin.html?error=SQL2");
-       exit();
-}  
-   mysqli_stmt_bind_param($stmt1,"ss",$uid,$uid);
-   mysqli_stmt_execute($stmt1);
-   $row=mysqli_fetch_assoc($stmt1);
+   $sql="SELECT pwdUsers FROM users WHERE emailUsers=$uid OR uidUsers=$uid ";
+   $row=mysqli_fetch_assoc($sql);
    $hashedpwd=$row['pwdUsers'];
-
 if (password_verify($password, $hashedpwd)) {
     header("Location:index.html?login=successful");
     exit();
