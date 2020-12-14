@@ -27,7 +27,7 @@ if (!mysqli_stmt_prepare($stmt,$sql)){
 }
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
-if (password_verify('$password', $stmt)) {
+if (password_verify($password, $stmt)) {
     header("Location:index.html?login=successful");
     exit();
 }else {
