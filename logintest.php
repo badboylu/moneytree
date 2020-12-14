@@ -20,8 +20,14 @@ if (!$count>0){
     exit();
 }else if ($count>0){
     $sql="SELECT pwd FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
-    $query=mysqli_query($conn,$sql);
-    $result=mysqli_num_row($query):
+    $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.html?error=SQL");
+       exit();
+}
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_store_result($stmt);
+
 if (!$result>0){
     header("Location:Signin.html?error=wrngpwd");
     exit();
