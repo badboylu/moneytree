@@ -13,7 +13,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:register.html?error=SQL1");
        exit();
 }
-mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
+   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
@@ -21,13 +21,23 @@ if (!$count>0){
     header("Location:Signin.html?error=wrnguid");
     exit();
 }else if ($count>0){
-    $sql="SELECT pwdUsers FROM users WHERE emailUsers='$uid' OR uidUsers='$uid' ";
+    $sql="SELECT pwdUsers FROM users WHERE emailUsers=? OR uidUsers=? ";
     $stmt=mysqli_stmt_init($conn);
 if (!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.html?error=SQL2");
        exit();
 }  
+   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
+   mysqli_stmt_execute($stmt);
+   $row=mysqli_fetch_assoc($stmt);
+   $hashedpwd=$row['pwdUsers'];
+
+if (password_verify($password, $hashedpwd)) {
     header("Location:index.html?login=successful");
     exit();
+} else {
+    header("Location:Signin.html?error=wrngpwd");
+    exit();
+}  
 }   
 ?>
