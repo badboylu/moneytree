@@ -15,28 +15,16 @@ $stmt1=mysqli_stmt_init($conn);
        header("Location:register.html?error=SQL1");
        exit();
 }
-$sql3="SELECT pwdUsers FROM users WHERE pwdUsers=?";
-$stmt3=mysqli_stmt_init($conn);
-  if(!mysqli_stmt_prepare($stmt3,$sql3)){
-       header("Location:register.html?error=SQL3");
-       exit();
-}
   if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
        header("Location:register.html?error=invalidemail");
        exit();
 }
-   
-   $verify=password_verify($password, $stmt1); 
-   if(!$verify){
-       header("Location:register.html?error=emailtaken=".$username);
-       exit();
-} 
-   mysqli_stmt_bind_param($stmt3,"s",$hashedPwd);
+   mysqli_stmt_bind_param($stmt3,"s",$email);
    mysqli_stmt_execute($stmt3);
    mysqli_stmt_store_result($stmt3);
    $resultCheck3=mysqli_stmt_num_rows($stmt3);
    if($resultCheck3 > 0){
-       header("Location:register.html?error=passwordtaken=".$username.$email);
+       header("Location:register.html?error=emailexists=".$username);
        exit();
 } 
     $sql2="INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES(?,?,?)";
@@ -46,8 +34,7 @@ $stmt3=mysqli_stmt_init($conn);
        exit();
 }
      $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
-     $hashedEml=password_hash($password,PASSWORD_DEFAULT);
-     mysqli_stmt_bind_param($stmt2,"sss",$username,$hashedEml,$hashedPwd);
+     mysqli_stmt_bind_param($stmt2,"sss",$username,$email,$hashedPwd);
      mysqli_stmt_execute($stmt2);
      mysqli_stmt_store_result($stmt2);
      header("Location:index.html?signup=successful");
