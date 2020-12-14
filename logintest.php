@@ -17,6 +17,7 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
+   mysqli_stmt_close($stmt);
 if (!$count>0){
     header("Location:Signin.html?error=wrnguid");
     exit();
