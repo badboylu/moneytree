@@ -24,12 +24,15 @@ if (!$count>0){
 }else if ($count>0){
    $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
    $stmt=mysqli_stmt_init($conn);
-   if(!mysqli_stmt_prepare($stmt,$sql)){
+ if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL2");
        exit();
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
+ while (mysqli_stmt_fetch($stmt)) {
+        printf ("%s (%s)\n", $hash);
+    }
 
     header("Location:index.html?login=successful");
     exit();
