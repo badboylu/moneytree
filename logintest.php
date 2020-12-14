@@ -27,7 +27,7 @@ if (!$count>0){
        header("Location:register.html?error=SQL2");
        exit();
 }
-   
+   $row=mysqli_fetch_assoc($stmt);
 
     header("Location:index.html?login=successful");
     exit();
