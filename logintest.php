@@ -24,10 +24,6 @@ if (!$count>0){
    $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
    $row=mysqli_fetch_assoc($sql);
 
-       if(!$row){
-       header("Location:Signin.html?error=SQL3");
-       exit();
-}
     header("Location:index.html?login=successful");
     exit();
 }   
