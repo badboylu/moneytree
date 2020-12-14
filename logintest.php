@@ -28,7 +28,7 @@ if (!$count>0){
        exit();
 }
    mysqli_stmt_execute($stmt);
-   $row=mysqli_fetch_assoc($stmt);
+   
 
     header("Location:index.html?login=successful");
     exit();
