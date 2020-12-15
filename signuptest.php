@@ -44,9 +44,20 @@ $stmt=mysqli_stmt_init($conn);
        exit();
 } 
    if($_POST['pwd'] != $_POST['pwdrepeat']){
-       header("Location:register.html?error=pwdnomatch"."&username=".$username);
+       header("Location:register.html?error=pwdnomatch"."&username=".$username."&email=".$email);
        exit();
 }
+
+     $uppercase = preg_match('@[A-Z]@', $password);
+     $lowercase = preg_match('@[a-z]@', $password);
+     $number    = preg_match('@[0-9]@', $password);
+     $specialChars = preg_match('@[^\w]@', $password);
+
+   if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
+       header("Location:register.html?error=invalidpwd"."&username=".$username."&email=".$email);
+       exit();
+}
+
     $sql="INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES(?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
