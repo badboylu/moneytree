@@ -12,6 +12,10 @@ function show(){
   else if(errorh=='usernameexists'){
    document.getElementById("usernamenotavail").style.display = "block";
  }
+  else if(errorh=='invalidemail'){
+   document.getElementById("invalidemail").style.display = "block";
+   document.getElementById("uid").value = params.get('username');
+ }
 }
 
 show();
