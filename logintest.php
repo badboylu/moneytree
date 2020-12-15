@@ -19,13 +19,13 @@ $stmt=mysqli_stmt_init($conn);
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
 if (!$count>0){
-    header("Location:Signin.html?error=wrnguid");
+    header("Location:Signin.php?error=wrnguid");
     exit();
 }else if ($count>0){
    $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.html?error=SQL2");
+       header("Location:Signin.php?error=SQL2");
        exit();
 }
    mysqli_stmt_execute($stmt);
@@ -35,7 +35,7 @@ if (!$count>0){
     header("Location:index.html?login=successful");
     exit();
 } else {
-    header("Location:Signin.html?error=wrngpwd");
+    header("Location:Signin.php?error=wrngpwd");
     exit();
 }
 }
