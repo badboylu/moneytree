@@ -4,7 +4,7 @@
 if($_GET['error'] == 'wrnguid'){
 ?>
 <script>
-   document.getElementById("username").style.display = "block";
+   
 <?php
 }
 ?>
