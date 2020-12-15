@@ -16,6 +16,10 @@ function show(){
    document.getElementById("invalidemail").style.display = "block";
    document.getElementById("uid").value = params.get('username');
  }
+  else if(errorh=='emailexists'){
+   document.getElementById("emailexists").style.display = "block";
+   document.getElementById("uid").value = params.get('username');
+ }
 }
 
 show();
