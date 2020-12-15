@@ -39,7 +39,7 @@
                             <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
-                               <a href="FPW.php">Forgot password?</a>
+                               <a href="Reset.php">Forgot password?</a>
                             </div>
                         </form>
                       
