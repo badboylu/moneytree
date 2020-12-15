@@ -63,4 +63,7 @@ if($_GET['error'] == 'wrnguid'){
         </div>
     </div>
 </body>
+<script 
+src="ShowHandlers.js" >
+</script>
 </html>
