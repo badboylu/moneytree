@@ -25,8 +25,8 @@ function show(){
    document.getElementById("uid").value = params.get('username');
    document.getElementById("email").value = params.get('email');
  }
-  else if(errorh=='pwdnomatch'){
-   document.getElementById("passwordmatch").style.display = "block";
+  else if(errorh=='invalidpwd'){
+   document.getElementById("invalidpassword").style.display = "block";
    document.getElementById("uid").value = params.get('username');
    document.getElementById("email").value = params.get('email');
  }
