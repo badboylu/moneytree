@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 
-if($_POST['error'] = 'wrngusername'){
+if($_POST['error'] = 'wrnguid'){
 
   Echo 'done';
 }
