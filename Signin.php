@@ -39,13 +39,13 @@
                             <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
-                               <a href="FPW.html">Forgot password?</a>
+                               <a href="FPW.php">Forgot password?</a>
                             </div>
                         </form>
                       
                         <div class="page-links">
                             <br>
-                            <a href="register.html">Register new account</a>
+                            <a href="register.php">Register new account</a>
                         </div>
                     </div>
                 </div>
