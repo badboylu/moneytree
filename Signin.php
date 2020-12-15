@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<?php
+
+if($_POST['error'] = 'wrngusername'){
+
+  Echo 'done';
+}
+
+?>
 <html lang="en">
 
 <head>
