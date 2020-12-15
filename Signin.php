@@ -2,12 +2,13 @@
 <?php
 
 if($_GET['error'] == 'wrnguid'){
-
-  echo 'done';
-  exit();
-}
-
 ?>
+<script>
+   document.getElementById("username").style.display = "<?php echo 'block'; ?>";
+<?php
+}
+?>
+</script>
 <html lang="en">
 
 <head>
