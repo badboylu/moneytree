@@ -68,7 +68,7 @@ $stmt=mysqli_stmt_init($conn);
      mysqli_stmt_bind_param($stmt,"sss",$username,$email,$hashedPwd);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
-     header("Location:index.html?signup=successful");
+     header("Location:Shop.php?signup=successful");
        exit();
       
 ?>
