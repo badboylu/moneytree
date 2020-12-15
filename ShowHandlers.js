@@ -20,6 +20,16 @@ function show(){
    document.getElementById("emailexists").style.display = "block";
    document.getElementById("uid").value = params.get('username');
  }
+  else if(errorh=='pwdnomatch'){
+   document.getElementById("passwordmatch").style.display = "block";
+   document.getElementById("uid").value = params.get('username');
+   document.getElementById("email").value = params.get('email');
+ }
+  else if(errorh=='pwdnomatch'){
+   document.getElementById("passwordmatch").style.display = "block";
+   document.getElementById("uid").value = params.get('username');
+   document.getElementById("email").value = params.get('email');
+ }
 }
 
 show();
