@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<?php
-
-if($_GET['error'] == 'wrnguid'){
-?>
-<script>
-   
-<?php
-}
-?>
-</script>
 <html lang="en">
 
 <head>
