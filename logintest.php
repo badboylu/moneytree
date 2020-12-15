@@ -35,7 +35,7 @@ if (!$count>0){
     header("Location:index.html?login=successful");
     exit();
 } else {
-    header("Location:Signin.php?error=wrngpwdusername=".$uid);
+    header("Location:Signin.php?error=wrngpwd username=".$uid);
     exit();
 }
 }
