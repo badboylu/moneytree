@@ -43,7 +43,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:register.html?error=emailexists"."&username=".$username);
        exit();
 } 
-   if(!$password == $passwordrepeat){
+   if(!$password = $passwordrepeat){
        header("Location:register.html?error=pwdnomatch"."&username=".$username);
        exit();
 }
