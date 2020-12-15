@@ -21,7 +21,7 @@ mysqli_stmt_bind_param($stmt,"s",$username);
    mysqli_stmt_store_result($stmt);
    $resultCheck=mysqli_stmt_num_rows($stmt);
    if($resultCheck > 0){
-       header("Location:register.html?error=usernameexists);
+       header("Location:register.html?error=usernameexists");
        exit();
 } 
 
