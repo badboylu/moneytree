@@ -752,7 +752,7 @@ HELP-LINE (WHATSAPP) NUMBER: (+27)71 440 7551
 <li 
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-<a href="cartpage.html">
+<a href="Cart.php">
 Cart
 </a>
 </li>
@@ -781,7 +781,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="index.html" 
+href="Shop.php" 
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -791,7 +791,7 @@ alt="Basel" />
 </div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
-<a href="cartpage.html"> 
+<a href="Cart.php"> 
 <span>
 Cart (<span>o</span>)
 </span> 
@@ -827,23 +827,16 @@ Online Shop
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="index.html">
+<a href="Shop.php">
 All
 </a>
 </li>
 <li class="cat-item cat-item-163 wc-default-cat">
-<a 
-class="pf-value"
-href="../product-category/uncategorized/index.html" 
-data-val="uncategorized" 
-data-title="Uncategorized" >
-Uncategorized
-</a>
 </li>
 <li class="cat-item cat-item-58 ">
 <a 
 class="pf-value" 
-href="index - flowers.html" 
+href="Flowers.php" 
 data-val="bags" 
 data-title="Bags" >
 Flowers
@@ -852,7 +845,7 @@ Flowers
 <li class="cat-item cat-item-63 ">
 <a 
 class="pf-value" 
-href="index - Edibles.html" 
+href="Edibles.php" 
 data-val="accessories" 
 data-title="Accessories" >
 Edibles
@@ -861,7 +854,7 @@ Edibles
 <li class="cat-item cat-item-62 ">
 <a 
 class="pf-value" 
-href="index - Accessories.html" 
+href="Accessories.php" 
 data-val="jewellery" 
 data-title="Jewellery" >
 Accessories
@@ -895,7 +888,7 @@ data-source="main_loop">
 	<div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19655 status-publish first instock product_cat-bags product_tag-new product_tag-whte has-post-thumbnail featured shipping-taxable purchasable product-type-variable" data-loop="1" data-id="19655">
 	<div class="product-element-top"> 
-<a href="Strain 1.html"> 
+<a href="Strain 1.php"> 
 <img 
 width="273" 
 height="348" 
@@ -914,7 +907,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595620831
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img">  
-<a href="Strain 1.html">
+<a href="Strain 1.php">
 <img 
 	width="273" 
 	height="348" 
@@ -935,7 +928,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 1.html"> 
+<a href="Strain 1.php"> 
 Durban Poison (Indoor)
 </a>
 </h3>
@@ -954,7 +947,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="cartpage.html">
+<a href="Cart.php">
 	View cart
 </a>	
 </div> 
@@ -999,7 +992,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="cannacaps.html"> 
+<a href="Dabcap.php"> 
 <img 
 	width="273" 
 	height="348" 
@@ -1020,7 +1013,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-	<a href="cannacaps.html"> 
+	<a href="Dabcap.php"> 
 	Cannacaps
 	</a>
 	</h3>
@@ -1039,7 +1032,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
-			<a href="cartpage.html">
+			<a href="Cart.php">
 				View cart
 			</a>	
 			</div>
@@ -1059,7 +1052,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Strain 2.html"> 
+<a href="Strain 2.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1081,7 +1074,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595620911
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 2.html"> 
+<a href="Strain 2.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1106,7 +1099,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a 
-href="Strain 2.html">
+href="Strain 2.php">
 Orange Cali (High Grade)
 </a>
 </h3>
@@ -1125,7 +1118,7 @@ Orange Cali (High Grade)
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php">
 			View cart
 		</a>	
 		</div> 
@@ -1143,7 +1136,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Rolling paper.html"> 
+<a href="Rolling paper.php"> 
 	<img 
 	width="273" 
 	height="348" 
@@ -1162,7 +1155,7 @@ data-id="19515">
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Rolling paper.html"> 
+<a href="Rolling paper.php"> 
 	<img 
 	width="273" 
 	height="348" 
@@ -1185,7 +1178,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a 
-href="Rolling paper.html">
+href="Rolling paper.php">
 Blunt Wrap
 </a>
 </h3>
@@ -1204,7 +1197,7 @@ Blunt Wrap
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
-		<a href="cartpage.html">
+		<a href="Cartpage.php">
 			View cart
 		</a>	
 		</div>
@@ -1229,7 +1222,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Canna_gwaaiz.html"> 
+<a href="Canna_gwaaiz.php"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1253,7 +1246,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Canna_gwaaiz.html"> 
+<a href="Canna_gwaaiz.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1276,7 +1269,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Canna_gwaaiz.html">
+<a href="Pre Rolls.php">
 Pre-Rolls
 </a>
 </h3>
@@ -1296,7 +1289,7 @@ per/j
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
-		<a href="cartpage.html">
+		<a href="Cartpage.php">
 			View cart
 		</a>	
 		</div>
@@ -1315,7 +1308,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="7" 
 data-id="19689">
 <div class="product-element-top"> 
-<a href="Strain 3.html"> 
+<a href="Strain 3.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1335,7 +1328,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595625592
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 3.html"> 
+<a href="Strain 3.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1357,7 +1350,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 3.html">
+<a href="Strain 3.php">
 Northern Lights (Greenhouse)
 </a>
 </h3>
@@ -1385,7 +1378,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="NlHomecart">
-		<a href="cartpage.html">
+		<a href="Cartpage.php">
 			View cart
 		</a>	
 		</div>
@@ -1403,7 +1396,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="CannacapsES.html"> 
+<a href="CannacapsES.php"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1428,7 +1421,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="CannacapsES.html"> 
+<a href="CannacapsES.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1447,7 +1440,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="CannacapsES.html">
+<a href="CannacapsES.php">
 Cannacaps (Extra Strong)
 </a>
 </h3>
@@ -1466,7 +1459,7 @@ per/batch
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
-		<a href="cartpage.html">
+		<a href="Cartpage.php">
 			View cart
 		</a>	
 		</div>
@@ -1484,7 +1477,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 4.html"> 
+<a href="Strain 4.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1503,7 +1496,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 4.html"> 
+<a href="Strain 4.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1524,7 +1517,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.html">
+<a href="Strain 4.php">
 Pineapple Express (Indoor)
 </a>
 </h3>
@@ -1543,7 +1536,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="PeHomecart">
-		<a href="cartpage.html">
+		<a href="Cartpage.php">
 			View cart
 		</a>	
 		</div>
@@ -1596,7 +1589,7 @@ Plug
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="cartpage.html"> 
+<a href="Cartpage.php"> 
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
