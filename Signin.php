@@ -3,7 +3,8 @@
 
 if($_GET['error'] == 'wrnguid'){
 
-  Echo 'done';
+  echo 'done';
+  exit();
 }
 
 ?>
