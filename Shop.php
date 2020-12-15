@@ -992,7 +992,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Dabcap.php"> 
+<a href="Dabcaps.php"> 
 <img 
 	width="273" 
 	height="348" 
@@ -1013,7 +1013,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-	<a href="Dabcap.php"> 
+	<a href="Dabcaps.php"> 
 	Cannacaps
 	</a>
 	</h3>
@@ -1246,7 +1246,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Canna_gwaaiz.php"> 
+<a href="Pre Rolls.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1396,7 +1396,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="CannacapsES.php"> 
+<a href="DabcapsES.php"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1421,7 +1421,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="CannacapsES.php"> 
+<a href="DabcapsES.php"> 
 <img 
 width="273" 
 height="348" 
@@ -1440,7 +1440,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="CannacapsES.php">
+<a href="DabcapsES.php">
 Cannacaps (Extra Strong)
 </a>
 </h3>
