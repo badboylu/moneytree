@@ -788,7 +788,8 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="Shop.php" 
+href="Shop.php?username=<?php echo $_GET['username']; ?>
+" 
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -834,7 +835,8 @@ Online Shop
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="Shop.php">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>
+">
 All
 </a>
 </li>
@@ -843,7 +845,8 @@ All
 <li class="cat-item cat-item-58 ">
 <a 
 class="pf-value" 
-href="Flowers.php" 
+href="Flowers.php?username=<?php echo $_GET['username']; ?>
+" 
 data-val="bags" 
 data-title="Bags" >
 Flowers
@@ -852,7 +855,8 @@ Flowers
 <li class="cat-item cat-item-63 ">
 <a 
 class="pf-value" 
-href="Edibles.php" 
+href="Edibles.php?username=<?php echo $_GET['username']; ?>
+" 
 data-val="accessories" 
 data-title="Accessories" >
 Edibles
@@ -861,7 +865,8 @@ Edibles
 <li class="cat-item cat-item-62 ">
 <a 
 class="pf-value" 
-href="Accessories.php" 
+href="Accessories.php?username=<?php echo $_GET['username']; ?>
+" 
 data-val="jewellery" 
 data-title="Jewellery" >
 Accessories
@@ -895,7 +900,8 @@ data-source="main_loop">
 	<div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19655 status-publish first instock product_cat-bags product_tag-new product_tag-whte has-post-thumbnail featured shipping-taxable purchasable product-type-variable" data-loop="1" data-id="19655">
 	<div class="product-element-top"> 
-<a href="Strain 1.php"> 
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -914,7 +920,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595620831
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img">  
-<a href="Strain 1.php">
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>
+">
 <img 
 	width="273" 
 	height="348" 
@@ -935,7 +942,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 1.php"> 
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>
+"> 
 Durban Poison (Indoor)
 </a>
 </h3>
@@ -973,7 +981,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="2" 
 data-id="19616">
 <div class="product-element-top"> 
-<a href="cannacaps.html">
+<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>
+">
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -999,7 +1008,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Dabcaps.php"> 
+<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 	width="273" 
 	height="348" 
@@ -1020,7 +1030,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-	<a href="Dabcaps.php"> 
+	<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>
+"> 
 	Cannacaps
 	</a>
 	</h3>
@@ -1059,7 +1070,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Strain 2.php"> 
+<a href="Strain 2.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1081,7 +1093,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595620911
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 2.php"> 
+<a href="Strain 2.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1106,7 +1119,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a 
-href="Strain 2.php">
+href="Strain 2.php?username=<?php echo $_GET['username']; ?>
+">
 Orange Cali (High Grade)
 </a>
 </h3>
@@ -1143,7 +1157,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Rolling paper.php"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
+"> 
 	<img 
 	width="273" 
 	height="348" 
@@ -1162,7 +1177,8 @@ data-id="19515">
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Rolling paper.php"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
+"> 
 	<img 
 	width="273" 
 	height="348" 
@@ -1185,7 +1201,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a 
-href="Rolling paper.php">
+href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
+">
 Blunt Wrap
 </a>
 </h3>
@@ -1229,7 +1246,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Canna_gwaaiz.php"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
+"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1253,7 +1271,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Pre Rolls.php"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1276,7 +1295,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Pre Rolls.php">
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
+">
 Pre-Rolls
 </a>
 </h3>
@@ -1315,7 +1335,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="7" 
 data-id="19689">
 <div class="product-element-top"> 
-<a href="Strain 3.php"> 
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1335,7 +1356,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595625592
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 3.php"> 
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1357,7 +1379,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 3.php">
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
+">
 Northern Lights (Greenhouse)
 </a>
 </h3>
@@ -1403,7 +1426,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="DabcapsES.php"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
+"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1428,7 +1452,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="DabcapsES.php"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1447,7 +1472,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="DabcapsES.php">
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
+">
 Cannacaps (Extra Strong)
 </a>
 </h3>
@@ -1484,7 +1510,8 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 4.php"> 
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1503,7 +1530,8 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 4.php"> 
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
+"> 
 <img 
 width="273" 
 height="348" 
@@ -1524,7 +1552,8 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.php">
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
+">
 Pineapple Express (Indoor)
 </a>
 </h3>
