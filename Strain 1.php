@@ -234,7 +234,8 @@ href="cannacaps.html" />
 </h1>
 Flowers range
 </h1>
-<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="index.html" rel="v:url" property="v:title">
+<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>">
 Shop
 </a> 
 <span class="current">
