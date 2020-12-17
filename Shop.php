@@ -1,6 +1,9 @@
 <?php
-$_SESSION['username'] = 
-
+$_SESSION['username'] = $_GET['username'];
+if(!isset($_SESSION['username'])){
+    header("Location:Signin.php?error=notloggedin");
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
