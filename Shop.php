@@ -759,7 +759,7 @@ HELP-LINE (WHATSAPP) NUMBER: (+27)71 440 7551
 <li 
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-<a href="Cart.php">
+<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 Cart
 </a>
 </li>
@@ -798,7 +798,7 @@ alt="Basel" />
 </div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
-<a href="Cart.php"> 
+<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 <span>
 Cart (<span>o</span>)
 </span> 
@@ -954,7 +954,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="Cart.php">
+<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 	View cart
 </a>	
 </div> 
@@ -1039,7 +1039,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
-			<a href="Cart.php">
+			<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 				View cart
 			</a>	
 			</div>
@@ -1125,7 +1125,7 @@ Orange Cali (High Grade)
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
-		<a href="Cart.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div> 
@@ -1204,7 +1204,7 @@ Blunt Wrap
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
-		<a href="Cartpage.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1296,7 +1296,7 @@ per/j
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
-		<a href="Cartpage.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1385,7 +1385,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="NlHomecart">
-		<a href="Cartpage.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1466,7 +1466,7 @@ per/batch
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
-		<a href="Cartpage.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1543,7 +1543,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="PeHomecart">
-		<a href="Cartpage.php">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
