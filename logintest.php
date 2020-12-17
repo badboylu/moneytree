@@ -32,7 +32,7 @@ if (!$count>0){
    mysqli_stmt_bind_result($stmt, $hash);
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    header("Location:Shop.php?login=successful");
+    header("Location:Shop.php?login=successful"."&username=".$uid);
     exit();
 } else {
     header("Location:Signin.php?error=wrngpwd"."&username=".$uid);
