@@ -28,7 +28,7 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_store_result($stmt);
    $resultCheck2=mysqli_stmt_num_rows($stmt);
    if(!$resultCheck1 > 0 || !$resultCheck2 > 0 ){
-       header("Location:Signin.php?error=notloggedin");
+       header("Location:Signin.php?error=failedauth");
     exit();
 } 
 session_start();
