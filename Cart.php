@@ -5,7 +5,7 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $usercheck=$_GET['username'];
-$sql="SELECT uidUsers FROM users WHERE uidUsers=?";
+$sql="SELECT * FROM users WHERE uidUsers=? or emailUsers=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQLinner1");
@@ -14,20 +14,9 @@ $stmt=mysqli_stmt_init($conn);
 mysqli_stmt_bind_param($stmt,"s",$usercheck);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $resultCheck1=mysqli_stmt_num_rows($stmt);
+   $resultCheck=mysqli_stmt_num_rows($stmt);
 
-$sql="SELECT emailUsers FROM users WHERE emailUsers=?";
-$stmt=mysqli_stmt_init($conn);
-  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQLinner2");
-       exit();
-}
-  
-   mysqli_stmt_bind_param($stmt,"s",$usercheck);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $resultCheck2=mysqli_stmt_num_rows($stmt);
-   if(!$resultCheck1 > 0 || !$resultCheck2 > 0 ){
+   if(!$resultCheck > 0 ){
        header("Location:Signin.php?error=failedauth");
     exit();
 } 
