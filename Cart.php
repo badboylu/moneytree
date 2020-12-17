@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['username'] = $_GET['username'];
 $servername="us-cdbr-east-02.cleardb.com";
 $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
@@ -17,15 +19,9 @@ mysqli_stmt_bind_param($stmt,"ss",$usercheck,$usercheck);
    $resultCheck=mysqli_stmt_num_rows($stmt);
 
    if(!$resultCheck > 0 ){
-       header("Location:Signin.php?error=failedauth");
+       header("Location:Signin.php?error=notloggedin");
     exit();
 } 
-session_start();
-$_SESSION['username'] = $_GET['username'];
-if(!isset($_SESSION['username'])){
-    header("Location:Signin.php?error=notloggedin");
-    exit();
-}
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
