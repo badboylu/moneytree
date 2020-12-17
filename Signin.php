@@ -35,8 +35,10 @@
                         <form action="logintest.php" method="post">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="E-mail/Username" required>
                             <p id="username" style="font-size:14px; color:red; display:none;">*incorrect username/email</p>
+                            
                             <input class="form-control" type="password" name="pwd" placeholder="Password" required>
                             <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
+                            <p id="notloggedin" style="font-size:14px; color:red; display:none;">*Please login</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
                                <a href="Reset.php">Forgot password?</a>
