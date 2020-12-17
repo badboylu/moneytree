@@ -30,6 +30,9 @@ function show(){
    document.getElementById("uid").value = params.get('username');
    document.getElementById("email").value = params.get('email');
  }
+  else if(errorh=='notloggedin'){
+   document.getElementById("notloggedin").style.display = "block";
+ }
 }
 
 show();
