@@ -1596,7 +1596,7 @@ Plug
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cartpage.php"> 
+<a href="Cart.php"> 
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
