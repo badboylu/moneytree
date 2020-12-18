@@ -107,11 +107,11 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-	<a href="cartpage.html">
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 	Cart
 	</a></li>
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -122,7 +122,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -199,7 +199,7 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="index.html" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
@@ -231,7 +231,8 @@ href="cannacaps.html" />
 </h1>
 Accessories range
 </h1>
-<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="index.html" rel="v:url" property="v:title">
+<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>" rel="v:url" property="v:title">
 Shop
 </a> 
 <span class="current">
