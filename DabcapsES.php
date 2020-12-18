@@ -387,7 +387,7 @@ per/Batch
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
-<a href="Accessories.php?username=<?php echo $_GET['username']; ?>" rel="tag">
+<a href="Edibles.php?username=<?php echo $_GET['username']; ?>" rel="tag">
 Edibles
 </a>
 </span>
