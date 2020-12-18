@@ -750,7 +750,7 @@ close
 <div class="container">
 <div class="topbar-content">
 <div class="top-bar-left"> 
-HELP-LINE (WHATSAPP) NUMBER: (+27)71 440 7551
+<span> Hi,<?php echo $_GET['username']; ?></span><span>Log out</span>
 </div>
 <div class="top-bar-right">
 <div class="topbar-menu">
