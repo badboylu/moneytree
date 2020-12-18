@@ -388,7 +388,8 @@ R
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
-<a href="../product-category/woman/index.html" rel="tag">
+<a href="Edibles.php?username=<?php echo $_GET['username']; ?>
+" rel="tag">
 Edibles
 </a>
 </span>
@@ -410,8 +411,7 @@ Edibles
 	<div class="col-left"> 
 	<i class="fa fa-copyright">
 	</i> 
-	2020 Created by 
-	<a href="http://xtemos.com/" style="color:white">
+	2020 Created by
 	<span style="color: orange;font-size: 15px">
 	Plug
 	</span>
