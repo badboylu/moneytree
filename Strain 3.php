@@ -100,7 +100,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	OUR WHATSAPP NUMBER: LungstaDaPlug
+	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[Log out]</span>
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
