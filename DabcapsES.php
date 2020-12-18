@@ -82,11 +82,11 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-	<a href="cartpage.html">
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 	Cart
 	</a></li>
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -97,7 +97,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -205,13 +205,13 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="index.html" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div class="search-button basel-search-full-screen"> <a href="#"> <i class="fa fa-search"></i> </a><div class="basel-search-wrapper"><div class="basel-search-inner"> <span class="basel-close-search">close</span><form role="search" method="get" id="searchform" class="searchform  basel-ajax-search" action="https://demo.xtemos.com/basel/"  data-thumbnail="1" data-price="1" data-count="5" data-post_type="product" data-symbols_count="3" data-sku="0"><div> <label class="screen-reader-text">Search for:</label> <input type="text" class="search-field" placeholder="Search for products" value="" name="s" id="s" /> <input type="hidden" name="post_type" id="post_type" value="product"> <button type="submit" id="searchsubmit" value="Search">Search</button></div></form><div class="search-results-wrapper"><div class="basel-scroll"><div class="basel-search-results basel-scroll-content"></div></div></div></div></div></div>
 <div> 
-	<a href="cartpage.html"> 
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -237,7 +237,8 @@ href="cannacaps.html" />
 </h1>
 Edibles range
 </h1>
-<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="index.html" rel="v:url" property="v:title">
+<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>" rel="v:url" property="v:title">
 Shop
 </a> 
 <span class="current">
@@ -270,7 +271,7 @@ Shop
 <span class="title-after_title">
 	Edibles
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="index.html">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
 	Cannacaps Extra Strong
@@ -386,7 +387,7 @@ per/Batch
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
-<a href="index - accessories.html" rel="tag">
+<a href="Accessories.php?username=<?php echo $_GET['username']; ?>" rel="tag">
 Edibles
 </a>
 </span>
@@ -409,7 +410,6 @@ Edibles
 <i class="fa fa-copyright">
 </i> 
 2020 Created by 
-<a href="http://xtemos.com/" style="color:white">
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
@@ -420,7 +420,7 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="index.html"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
@@ -431,7 +431,7 @@ Shop
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="cartpage.html"> 
+<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
