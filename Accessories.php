@@ -875,7 +875,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="4" 
 data-id="19551">
 <div class="product-element-top"> 
-<a href="Rolling paper.html"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -894,7 +894,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595626087
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Rolling paper.html"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>"> 
 	<img 
 	width="273" 
 	height="348" 
@@ -916,8 +916,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a 
-href="man/hooded-jacquard-jumper/index.html">
+<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>"> 
 Blunt Wrap
 </a>
 </h3>
