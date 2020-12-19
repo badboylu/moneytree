@@ -795,7 +795,7 @@ style="">
 <a 
 href="#" 
 class="basel-show-categories">
-Categories
+Edibles
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
