@@ -52,7 +52,7 @@
    $mail -> password = 'God@loves';
    $mail -> setFrom('no-reply@canibuy.co.za');
    $mail -> subject = 'Reset Canibuy password';
-   $mail -> body = '<h1>Password Reset link</h1><p> We have received a request for a password reset. Please follow the link below to reset your password.</p>;
+   $mail -> body = '<h1>Password Reset link</h1><p> We have received a request for a password reset. Please follow the link below to reset your password.</p>';
    
    $to=$userEmail;
    $subject='Reset Kush Lord password';
