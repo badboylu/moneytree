@@ -106,7 +106,7 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -117,7 +117,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="index.html">
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 	Shop
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -225,13 +225,13 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="index.html" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div >
 <div >
-	<a href="cartpage.html"> 
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -282,7 +282,7 @@ Cart
 <span class="title-after_title">
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="index.html">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
 Cart
@@ -660,7 +660,7 @@ class="single-product-page single-product-content product-design-default product
                 </div>
                 <div class='plugfooterEnd'></div>
                 <br>
-                <a href="delivery.html">
+                <a href="delivery.php?username=<?php echo $_GET['username']; ?>">
                 <button class="cartpayment" >
 		Confirm
 	        </button>
@@ -692,7 +692,6 @@ class="single-product-page single-product-content product-design-default product
 <i class="fa fa-copyright">
 </i> 
 2020 Created by 
-<a href="http://xtemos.com/" style="color:white">
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
@@ -703,7 +702,7 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="index.html"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
