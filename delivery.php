@@ -193,9 +193,6 @@ Delivery details
 </div>
 </div>
 
-<?php
-require 'md5.php';
-?>
 <form action="https://sandbox.payfast.co.za/eng/process" method="post" id="plug" name="moneytree">
    <label for="Country">Country:</label><input type="text" name="Country" value="South Africa" readonly>
    <label>Province:</label><input type="text" name="Province" value="Gauteng" readonly>
