@@ -769,7 +769,7 @@ style="">
 <a 
 href="#" 
 class="basel-show-categories">
-Categories
+Accessories
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
