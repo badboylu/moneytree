@@ -645,7 +645,6 @@ require 'md5.php';
 <i class="fa fa-copyright">
 </i> 
 2020 Created by 
-<a href="http://xtemos.com/" style="color:white">
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
