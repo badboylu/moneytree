@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="c7c58cca0fc9c8acb3530bf8cbf53297.css" data-minify="1" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://basel-cec2.kxcdn.com/' />
+        <link rel="stylesheet" href="plugIcons.css" />
+	<link rel="stylesheet" href="plugtech.css"/>
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Comments Feed" href="../comments/feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Products Feed" href="feed/index.html" />  
@@ -702,11 +704,11 @@ js-comp-ver-6.1 vc_responsive">
 		<div class="menu-top-bar-container">
 		<ul id="menu-top-bar" class="menu">
 		<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		Cart
 		</a></li>
 		<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-		<a href="index.html">
+		<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 		Shop
 		</a></li></ul></div></div></div></div>
 </div>
@@ -729,7 +731,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="../index.html" 
+href="Shop.php?username=<?php echo $_GET['username']; ?>" 
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -740,7 +742,7 @@ alt="Basel" />
 <div class="right-column">
 <div> 
 	<span class="basel-cart-totals"> 
-                <a href="cartpage.html">
+                <a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		<span class="basel-cart-numberCart">
 		0
 		</span> 
@@ -773,7 +775,7 @@ Accessories
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="index.html">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 All
 </a>
 </li>
@@ -909,7 +911,7 @@ Blunt Wrap
 	</span>
 	</span>
 	<div class="btn-add" id="BwHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -994,7 +996,7 @@ per/j
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1023,8 +1025,7 @@ per/j
 	<div class="col-left"> 
 	<i class="fa fa-copyright">
 	</i> 
-	2020 Created by 
-	<a href="http://xtemos.com/" style="color:white">
+	2020 Created by
 	<span style="color: orange;font-size: 15px">
 	Plug
 	</span>
@@ -1035,7 +1036,7 @@ per/j
 	</div>
 	<div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 	<div class="basel-toolbar-shop basel-toolbar-item"> 
-	<a href="index.html"> 
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
 	<span class="basel-toolbar-label"> 
 	Shop 
 	</span> </a></div>
@@ -1046,7 +1047,7 @@ per/j
 	<img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 	</div>
 	<div> 
-	<a href="cartpage.html"> 
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
 	<img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 	<span class="basel-toolbar-label">
 	Cart 
