@@ -39,6 +39,17 @@
 
    mysqli_stmt_close($stmt);
    mysqli_close($conn);
+
+   require_once('PHPMailerAutoload.php');
+   $mail = new PHPMailer();
+   $mail -> isSMTP();
+   $mail -> SMTPAuth = true;
+   $mail -> SMTPSecure = 'ssl';
+   $mail -> Host = 'cp52.domains.co.za';
+   $mail -> Port = '456';
+   $mail -> isHTML();
+   $mail -> username = 'admin@canibuy.co.za';
+   $mail -> password 
    
    $to=$userEmail;
    $subject='Reset Kush Lord password';
