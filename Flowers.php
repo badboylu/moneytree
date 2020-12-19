@@ -728,11 +728,11 @@ js-comp-ver-6.1 vc_responsive">
 		<div class="menu-top-bar-container">
 		<ul id="menu-top-bar" class="menu">
 		<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		Cart
 		</a></li>
 		<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-		<a href="index.html">
+		<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 		Shop
 		</a></li></ul></div></div></div></div>
 </div>
@@ -755,7 +755,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="index.html" 
+href="Shop.php?username=<?php echo $_GET['username']; ?>" 
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -766,7 +766,7 @@ alt="Basel" />
 <div class="right-column">
     <div> 
         <span class="basel-cart-totals"> 
-                    <a href="cartpage.html">
+                    <a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
             <span class="basel-cart-numberCart">
             0
             </span> 
@@ -799,7 +799,7 @@ Categories
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="index.html">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 All
 </a>
 </li>
@@ -815,7 +815,7 @@ Uncategorized
 <li class="cat-item cat-item-58 ">
 <a 
 class="pf-value" 
-href="index - flowers.html" 
+href="Flowers.php?username=<?php echo $_GET['username']; ?>" 
 data-val="bags" 
 data-title="Bags" >
 Flowers
@@ -824,7 +824,7 @@ Flowers
 <li class="cat-item cat-item-63 ">
 <a 
 class="pf-value" 
-href="index - Edibles.html" 
+href="Edibles.php?username=<?php echo $_GET['username']; ?>" 
 data-val="accessories" 
 data-title="Accessories" >
 Edibles
@@ -833,7 +833,7 @@ Edibles
 <li class="cat-item cat-item-62 ">
 <a 
 class="pf-value" 
-href="index - Accessories.html" 
+href="Accessories.php?username=<?php echo $_GET['username']; ?>" 
 data-val="jewellery" 
 data-title="Jewellery" >
 Accessories
@@ -1213,7 +1213,6 @@ per/gram
 <i class="fa fa-copyright">
 </i> 
 2020 Created by 
-<a href="http://xtemos.com/" style="color:white">
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
@@ -1224,7 +1223,7 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="index.html"> 
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
