@@ -954,7 +954,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Canna_gwaaiz.html"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -978,7 +978,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Canna_gwaaiz.html"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -1001,7 +1001,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Canna_gwaaiz.html">
+<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>">
 Pre-Rolls
 </a>
 </h3>
