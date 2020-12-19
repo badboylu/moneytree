@@ -37,6 +37,8 @@ mysqli_stmt_bind_param($stmt,"ss",$usercheck,$usercheck);
 	<link rel="stylesheet" href="c7c58cca0fc9c8acb3530bf8cbf53297.css" data-minify="1" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://basel-cec2.kxcdn.com/' />
+        <link rel="stylesheet" href="plugIcons.css" />
+	<link rel="stylesheet" href="plugtech.css"/>
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Comments Feed" href="../comments/feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Products Feed" href="feed/index.html" />  
@@ -795,7 +797,7 @@ style="">
 <a 
 href="#" 
 class="basel-show-categories">
-Categories
+Flowers
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
