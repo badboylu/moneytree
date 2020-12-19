@@ -870,7 +870,7 @@ data-source="main_loop">
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19655 status-publish first instock product_cat-bags product_tag-new product_tag-whte has-post-thumbnail featured shipping-taxable purchasable product-type-variable" data-loop="1" data-id="19655">
 	<div class="product-element-top"> 
-<a href="Strain 1.html"> 
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>">
 <img 
 width="273" 
 height="348" 
@@ -889,7 +889,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595620831
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img">  
-<a href="Strain 1.html">
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>">
 <img 
 	width="273" 
 	height="348" 
@@ -910,7 +910,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 1.html"> 
+<a href="Strain 1.php?username=<?php echo $_GET['username']; ?>">
 Durban Poison (Indoor)
 </a>
 </h3>
@@ -929,7 +929,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="cartpage.html">
+<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 	View cart
 </a>	
 </div> 
@@ -947,7 +947,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="7" 
 data-id="19689">
 <div class="product-element-top"> 
-<a href="Strain 3.html">
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -967,7 +967,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595625592
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 3.html">
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -989,7 +989,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 3.html">
+<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>"> 
 Northern Lights (Greenhouse)
 </a>
 </h3>
@@ -1017,7 +1017,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="NlHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
@@ -1037,7 +1037,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Strain 2.html"> 
+<a href="Strain 2.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -1059,7 +1059,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595620911
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 2.html"> 
+<a href="Strain 2.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -1083,7 +1083,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 2.html">
+<a href="Strain 2.php?username=<?php echo $_GET['username']; ?>"> 
 Orange Cali (High Grade)
 </a>
 </h3>
@@ -1102,7 +1102,7 @@ Orange Cali (High Grade)
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div> 
@@ -1122,7 +1122,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 4.html">
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -1141,7 +1141,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 4.html"> 
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -1166,7 +1166,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.html">
+<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>"> 
 Pineapple Express (Indoor)
 </a>
 </h3>
@@ -1185,7 +1185,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="PeHomecart">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 			View cart
 		</a>	
 		</div>
