@@ -37,6 +37,8 @@ mysqli_stmt_bind_param($stmt,"ss",$usercheck,$usercheck);
 	<link rel="stylesheet" href="c7c58cca0fc9c8acb3530bf8cbf53297.css" data-minify="1" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://basel-cec2.kxcdn.com/' />
+        <link rel="stylesheet" href="plugIcons.css" />
+	<link rel="stylesheet" href="plugtech.css"/>
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Comments Feed" href="../comments/feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Products Feed" href="feed/index.html" />  
@@ -728,11 +730,11 @@ js-comp-ver-6.1 vc_responsive">
 		<div class="menu-top-bar-container">
 		<ul id="menu-top-bar" class="menu">
 		<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-		<a href="cartpage.html">
+		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		Cart
 		</a></li>
 		<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-		<a href="index.html">
+		<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 		Shop
 		</a></li></ul></div></div></div></div>
 </div>
@@ -755,7 +757,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="index.html" 
+href="Shop.php?username=<?php echo $_GET['username']; ?>" 
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -766,7 +768,7 @@ alt="Basel" />
 <div class="right-column">
 <div> 
 	<span class="basel-cart-totals"> 
-                <a href="cartpage.html">
+                <a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		<span class="basel-cart-numberCart">
 		0
 		</span> 
@@ -799,7 +801,7 @@ Edibles
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="index.html">
+<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
 All
 </a>
 </li>
@@ -814,7 +816,7 @@ Uncategorized
 <li class="cat-item cat-item-58 ">
 	<a 
 	class="pf-value" 
-	href="index - flowers.html" 
+	href="Flowers.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="bags" 
 	data-title="Bags" >
 	Flowers
@@ -823,7 +825,7 @@ Uncategorized
 	<li class="cat-item cat-item-63 ">
 	<a 
 	class="pf-value" 
-	href="index - Edibles.html" 
+	href="Edibles.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="accessories" 
 	data-title="Accessories" >
 	Edibles
@@ -832,7 +834,7 @@ Uncategorized
 	<li class="cat-item cat-item-62 ">
 	<a 
 	class="pf-value" 
-	href="index - Accessories.html" 
+	href="Accessories.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="jewellery" 
 	data-title="Jewellery" >
 	Accessories
@@ -868,7 +870,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="2" 
 data-id="19616">
 <div class="product-element-top"> 
-<a href="cannacaps.html">
+<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -894,7 +896,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="cannacaps.html"> 
+<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>">  
 <img 
 	width="273" 
 	height="348" 
@@ -915,7 +917,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-	<a href="cannacaps.html"> 
+	<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>">  
 	Cannacaps
 	</a>
 	</h3>
@@ -934,7 +936,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
-			<a href="cartpage.html">
+			<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 				View cart
 			</a>	
 			</div>
@@ -946,8 +948,6 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</div>
 		</div>
 		</div>
-</div>
-<div class="clearfix visible-xs-block">
 </div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 last  type-product post-19564 status-publish last instock product_cat-watches has-post-thumbnail featured shipping-taxable purchasable product-type-simple" 
