@@ -723,7 +723,7 @@ js-comp-ver-6.1 vc_responsive">
 <div class="container">
 	<div class="topbar-content">
 		<div class="top-bar-left"> 
-		HELP-LINE (WHATSAPP) NUMBER: (+27)71 440 7551
+		<span> <?php echo $_GET['username']; ?></span><span> </span><span>[Log out]</span>
 		</div>
 		<div class="top-bar-right">
 		<div class="topbar-menu">
@@ -954,7 +954,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="CannacapsES.html">
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -979,7 +979,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="CannacapsES.html">
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
 <img 
 width="273" 
 height="348" 
@@ -998,7 +998,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="CannacapsES.html">
+<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
 Cannacaps (Extra Strong)
 </a>
 </h3>
@@ -1017,7 +1017,7 @@ per/batch
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
-	<a href="cartpage.html">
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
 		View cart
 	</a>	
 	</div>
@@ -1052,7 +1052,6 @@ per/batch
 	<i class="fa fa-copyright">
 	</i> 
 	2020 Created by 
-	<a href="http://xtemos.com/" style="color:white">
 	<span style="color: orange;font-size: 15px">
 	Plug
 	</span>
@@ -1063,7 +1062,7 @@ per/batch
 	</div>
 	<div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 	<div class="basel-toolbar-shop basel-toolbar-item"> 
-	<a href="index.html"> 
+	<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
 	<span class="basel-toolbar-label"> 
 	Shop 
 	</span> </a></div>
@@ -1074,7 +1073,7 @@ per/batch
 	<img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 	</div>
 	<div> 
-	<a href="cartpage.html"> 
+	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
 	<img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 	<span class="basel-toolbar-label">
 	Cart 
