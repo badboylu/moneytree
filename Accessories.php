@@ -816,7 +816,7 @@ Uncategorized
 <li class="cat-item cat-item-58 ">
 	<a 
 	class="pf-value" 
-	href="index - flowers.html" 
+	href="Flowers.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="bags" 
 	data-title="Bags" >
 	Flowers
@@ -825,7 +825,7 @@ Uncategorized
 	<li class="cat-item cat-item-63 ">
 	<a 
 	class="pf-value" 
-	href="index - Edibles.html" 
+	href="Edibles.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="accessories" 
 	data-title="Accessories" >
 	Edibles
@@ -834,7 +834,7 @@ Uncategorized
 	<li class="cat-item cat-item-62 ">
 	<a 
 	class="pf-value" 
-	href="index - Accessories.html" 
+	href="Accessories.php?username=<?php echo $_GET['username']; ?>" 
 	data-val="jewellery" 
 	data-title="Jewellery" >
 	Accessories
