@@ -33,7 +33,8 @@ if (!$count>0){
   
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    $token=random_bytes(32);
+    $random=random_bytes(32);
+    $token=var_dump(bin2hex($random));
     mysqli_stmt_close($stmt);
     $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
     $stmt= mysqli_stmt_init($conn);
