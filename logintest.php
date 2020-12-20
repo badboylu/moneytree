@@ -34,8 +34,10 @@ if (!$count>0){
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
     $token=random_bytes(11);
+    $time="N/A"
+    $date="N/A"
     mysqli_stmt_close($stmt);
-    $sql="INSERT INTO userauth(username,token) VALUES (?,?);";
+    $sql="INSERT INTO userauth(username,token,logintime,logindate) VALUES (?,?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -43,7 +45,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
+ mysqli_stmt_bind_param($stmt,"ssss",$uid,$token,$time,$date);
  mysqli_stmt_execute($stmt);
  
     header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
