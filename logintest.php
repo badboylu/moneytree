@@ -30,12 +30,13 @@ if (!$count>0){
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
-
+  
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
     $token="random_bytes(32)";
     $time="date(H:m)";
     $date="date(d/m/Y)";
+    mysqli_stmt_close($stmt);
     $sql="INSERT INTO userauth(username,token,logintime,logindate) VALUES (?,?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
