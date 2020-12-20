@@ -32,8 +32,23 @@ if (!$count>0){
    mysqli_stmt_bind_result($stmt, $hash);
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    header("Location:Shop.php?login=successful"."&username=".$uid);
+    $token=random_bytes(32);
+    $time=date(H:m);
+    $date=date(d/m/Y);
+    $sql="INSERT INTO userauth(username,token,logintime,logindate) VALUES (?,?,?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+ if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:FPW.html?error=sqlerror");
     exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"ssss",$uid,$token,$time,$date);
+ mysqli_stmt_execute($stmt);
+ 
+    header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
+    exit();
+
 } else {
     header("Location:Signin.php?error=wrngpwd"."&username=".$uid);
     exit();
