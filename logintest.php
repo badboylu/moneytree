@@ -30,15 +30,16 @@ if (!$count>0){
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
+
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    $token=random_bytes(32);
-    $time=date(H:m);
-    $date=date(d/m/Y);
+    $token="random_bytes(32)";
+    $time="date(H:m)";
+    $date="date(d/m/Y)";
     $sql="INSERT INTO userauth(username,token,logintime,logindate) VALUES (?,?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
- if(!mysqli_stmt_prepare($stmt, $sql)){
+if(!mysqli_stmt_prepare($stmt, $sql)){
     header("Location:FPW.html?error=sqlerror");
     exit();
  }
