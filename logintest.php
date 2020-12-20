@@ -45,7 +45,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"ssss",$uid,$token);
+ mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
  
     header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
