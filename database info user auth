@@ -1,0 +1,5 @@
+CREATE TABLE userauth2 (
+idOnline int(11) PRIMARY KEY AUTO_INCREMENT,
+username text,
+token varchar(32) 
+);
