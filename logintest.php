@@ -33,7 +33,7 @@ if (!$count>0){
   
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
-    $token="random_bytes(32)";
+    $token=random_bytes(32);
     $time="date(H:m)";
     $date="date(d/m/Y)";
     mysqli_stmt_close($stmt);
