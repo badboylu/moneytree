@@ -34,10 +34,8 @@ if (!$count>0){
    while (mysqli_stmt_fetch($stmt)) { 
     if (password_verify($password, $hash)) {
     $token=random_bytes(32);
-    $time="date(H:m)";
-    $date="date(d/m/Y)";
     mysqli_stmt_close($stmt);
-    $sql="INSERT INTO userauth (username,token) VALUES (?,?);";
+    $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
