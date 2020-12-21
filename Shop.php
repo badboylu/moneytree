@@ -1,6 +1,16 @@
 <?php
-$_SESSION['username'] = $_GET['username'];
-if(!isset($_SESSION['username'])){
+   $authtoken = $_GET['auth'];
+   $sql='SELECT * FROM userauth2 WHERE token="?";
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+ if (!$count>0){
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
