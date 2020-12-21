@@ -1,5 +1,6 @@
 let params = new URLSearchParams(location.search);
 var errorh  = params.get('error');
+var error  = params.get('logout');
 
 function show(){
   if(errorh =='wrnguid'){
@@ -32,6 +33,9 @@ function show(){
  }
   else if(errorh=='notloggedin'){
    document.getElementById("notloggedin").style.display = "block";
+ }
+  else if(error=='successful'){
+   document.getElementById("successful").style.display = "block";
  }
 }
 
