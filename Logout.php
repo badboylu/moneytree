@@ -6,8 +6,8 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
- $authtoken="$_GET['auth']";
- $sql="DELETE FROM userauth2 WHERE token=?";
+ $authtoken=$_GET['auth'];
+ $sql="DELETE FROM userauth2 WHERE token=".$authtoken;
  $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
