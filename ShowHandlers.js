@@ -36,6 +36,7 @@ function show(){
  }
   else if(error=='successful'){
    document.getElementById("successful").style.display = "block";
+   document.getElementById("successful2").style.display = "block";
  }
 }
 
