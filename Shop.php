@@ -1139,7 +1139,7 @@ Orange Cali (High Grade)
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
-		<a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div> 
@@ -1157,8 +1157,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<img 
 	width="273" 
 	height="348" 
@@ -1177,8 +1176,7 @@ data-id="19515">
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<img 
 	width="273" 
 	height="348" 
@@ -1200,9 +1198,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a 
-href="Rolling paper.php?username=<?php echo $_GET['username']; ?>
-">
+<a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Blunt Wrap
 </a>
 </h3>
@@ -1221,7 +1217,7 @@ Blunt Wrap
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
@@ -1246,8 +1242,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1271,8 +1266,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1295,8 +1289,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Pre Rolls.php?username=<?php echo $_GET['username']; ?>
-">
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Pre-Rolls
 </a>
 </h3>
@@ -1316,7 +1309,7 @@ per/j
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
@@ -1335,8 +1328,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="7" 
 data-id="19689">
 <div class="product-element-top"> 
-<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1356,8 +1348,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595625592
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1379,8 +1370,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 3.php?username=<?php echo $_GET['username']; ?>
-">
+<a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Northern Lights (Greenhouse)
 </a>
 </h3>
@@ -1408,7 +1398,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="NlHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
@@ -1426,8 +1416,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -1452,8 +1441,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1472,8 +1460,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>
-">
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Cannacaps (Extra Strong)
 </a>
 </h3>
@@ -1492,7 +1479,7 @@ per/batch
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
@@ -1510,8 +1497,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1530,8 +1516,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
-"> 
+<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1552,8 +1537,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.php?username=<?php echo $_GET['username']; ?>
-">
+<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Pineapple Express (Indoor)
 </a>
 </h3>
@@ -1572,7 +1556,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="PeHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
@@ -1625,7 +1609,7 @@ Plug
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
