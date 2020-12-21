@@ -5,15 +5,13 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   mysqli_query("DELETE FROM userauth2 WHERE token='$_GET['auth']'");
-   $check=mysqli_query("SELECT * FROM userauth2 WHERE token='$_GET['auth']'");
- if(!mysqli_num_rows($check)>0)}
-   header("Location:Signin.php?logout=successful");
-   exit();
+   $token=$_GET['auth'];
+   $sql='Delete FROM userauth2 WHERE token="'.$token.'"';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL2");
+       exit();
 }
- else{
-   header("Location:Signin.php?logout=notsuccessful");
-   exit();
-}
+   mysqli_stmt_execute($stmt);
 
 ?>
