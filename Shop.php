@@ -803,8 +803,8 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap">  
 <a 
-href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
-rel="home"> 
+href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+rel="home">
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
 alt="Basel" /> 
