@@ -769,7 +769,7 @@ close
 <li 
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Cart
 </a>
 </li>
@@ -809,7 +809,7 @@ alt="Basel" />
 </div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
-<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <span>
 Cart (<span>o</span>)
 </span> 
@@ -855,8 +855,7 @@ All
 <li class="cat-item cat-item-58 ">
 <a 
 class="pf-value" 
-href="Flowers.php?username=<?php echo $_GET['username']; ?>
-" 
+href="Flowers.php?username=<?php echo $_GET['username']; ?>" 
 data-val="bags" 
 data-title="Bags" >
 Flowers
@@ -972,7 +971,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	View cart
 </a>	
 </div> 
