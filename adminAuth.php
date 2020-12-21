@@ -155,7 +155,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
        
-                                <td><?php echo $rows['id']; ?> </td>
+                                <td><?php echo $rows['idOnline']; ?> </td>
                                 <td><?php echo $rows['username']; ?></td>
                                 <td><?php echo $rows['token']; ?></td>
                                 
