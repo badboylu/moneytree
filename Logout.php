@@ -13,19 +13,9 @@
        header("Location:register.html?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
    mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $count=mysqli_stmt_num_rows($stmt);
-   mysqli_stmt_close($stmt);
-if ($count>0){
-    header("Location:Signin.php?error=notworking");
-    exit();
-}
-else{
-    header("Location:Signin.php?logout=successful");
-    exit();
-}
+   header("Location:Signin.php?logout=successful");
+   exit();
 
 
 ?>
