@@ -1,5 +1,4 @@
 <?php
-
    $servername="us-cdbr-east-02.cleardb.com";
    $dBUsername="b7fcd41c893d7a";
    $dBPassword="1e8f896b7da9e41";
@@ -13,5 +12,6 @@
        exit();
 }
    mysqli_stmt_execute($stmt);
-
+   header("Location:Signin.php?logout=successful");
+   exit();
 ?>
