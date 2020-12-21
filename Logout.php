@@ -7,7 +7,7 @@
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $sql="DELETE FROM userauth2 WHERE token='$_GET['auth']'";
 
-  if(!mysqli_query($conn,$sql)){
+  if(mysqli_query($conn,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
 }
