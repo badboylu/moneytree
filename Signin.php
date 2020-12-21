@@ -39,6 +39,8 @@
                             <input class="form-control" type="password" name="pwd" placeholder="Password" required>
                             <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
                             <p id="notloggedin" style="font-size:14px; color:red; display:none;">*Please login</p>
+                            <p id="successful" style="font-size:14px; color:red; display:none;">*Logged out</p>
+                            <p id="successful" style="font-size:14px; color:green; display:none;">Thank you for visiting <span style="color:orange;">Canibuy</span>. We hope you come again soon!</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
                                <a href="Reset.php">Forgot password?</a>
