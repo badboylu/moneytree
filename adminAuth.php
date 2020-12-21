@@ -5,7 +5,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$query="select * from users";
+$query="select * from userauth2";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
@@ -145,9 +145,8 @@ $result=mysqli_query($conn,$query);
                             <thead>
                             <tr>
                                 <th>I.D</th>
-                                <th>Name</th>
-                                <th>Email </th>
-                                <th>Password</th>
+                                <th>Username</th>
+                                <th>Token</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -156,10 +155,9 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
        
-                                <td><?php echo $rows['idUsers']; ?> </td>
-                                <td><?php echo $rows['uidUsers']; ?></td>
-                                <td><?php echo $rows['emailUsers']; ?></td>
-                                <td><?php echo $rows['pwdUsers']; ?></td>
+                                <td><?php echo $rows['id']; ?> </td>
+                                <td><?php echo $rows['username']; ?></td>
+                                <td><?php echo $rows['token']; ?></td>
                                 
                             </tr>
                             <?php } ?>
