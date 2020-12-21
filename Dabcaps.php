@@ -228,7 +228,8 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+ class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
@@ -261,7 +262,7 @@ href="cannacaps.html" />
 Edibles range
 </h1> 
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
  rel="v:url" property="v:title">
 Shop
 </a> 
