@@ -1,27 +1,24 @@
 <?php
-session_start();
-$_SESSION['username'] = $_GET['username'];
-$servername="us-cdbr-east-02.cleardb.com";
-$dBUsername="b7fcd41c893d7a";
-$dBPassword="1e8f896b7da9e41";
-$dBName="heroku_61db5a5cdc2dfd8";
-$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$usercheck=$_GET['username'];
-$sql="SELECT * FROM users WHERE uidUsers=? or emailUsers=?";
-$stmt=mysqli_stmt_init($conn);
-  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQLinner1");
+   $servername="us-cdbr-east-02.cleardb.com";
+   $dBUsername="b7fcd41c893d7a";
+   $dBPassword="1e8f896b7da9e41";
+   $dBName="heroku_61db5a5cdc2dfd8";
+   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+   $authtoken = $_GET['auth'];
+   $sql='SELECT * FROM userauth2 WHERE token=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
        exit();
 }
-mysqli_stmt_bind_param($stmt,"ss",$usercheck,$usercheck);
+   mysqli_stmt_bind_param($stmt,"s",$authtoken);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $resultCheck=mysqli_stmt_num_rows($stmt);
-
-   if(!$resultCheck > 0 ){
-       header("Location:Signin.php?error=notloggedin");
+   $count=mysqli_stmt_num_rows($stmt);
+ if (!$count>0){
+    header("Location:Signin.php?error=notloggedin");
     exit();
-} 
+}
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
