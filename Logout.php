@@ -13,7 +13,7 @@
        header("Location:register.html?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"ss",$authtoken);
+   mysqli_stmt_bind_param($stmt,"s",$authtoken);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
