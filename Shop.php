@@ -765,7 +765,7 @@ close
 <div class="container">
 <div class="topbar-content">
 <div class="top-bar-left"> 
-<span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?> style="color:red; ">Log out</a>]</span>
+<span> <?php echo $_GET['username']; ?></span><span> </span><span style="color:red;" >[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>">Log out</a>]</span>
 </div>
 <div class="top-bar-right">
 <div class="topbar-menu">
