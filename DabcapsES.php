@@ -104,11 +104,11 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-	<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	Cart
 	</a></li>
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -119,7 +119,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	Shop
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -227,13 +227,13 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div class="search-button basel-search-full-screen"> <a href="#"> <i class="fa fa-search"></i> </a><div class="basel-search-wrapper"><div class="basel-search-inner"> <span class="basel-close-search">close</span><form role="search" method="get" id="searchform" class="searchform  basel-ajax-search" action="https://demo.xtemos.com/basel/"  data-thumbnail="1" data-price="1" data-count="5" data-post_type="product" data-symbols_count="3" data-sku="0"><div> <label class="screen-reader-text">Search for:</label> <input type="text" class="search-field" placeholder="Search for products" value="" name="s" id="s" /> <input type="hidden" name="post_type" id="post_type" value="product"> <button type="submit" id="searchsubmit" value="Search">Search</button></div></form><div class="search-results-wrapper"><div class="basel-scroll"><div class="basel-search-results basel-scroll-content"></div></div></div></div></div></div>
 <div> 
-	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
