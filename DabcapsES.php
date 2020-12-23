@@ -293,7 +293,7 @@ Shop
 <span class="title-after_title">
 	Edibles
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
 	Cannacaps Extra Strong
@@ -409,7 +409,7 @@ per/Batch
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
-<a href="Edibles.php?username=<?php echo $_GET['username']; ?>" rel="tag">
+<a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
 Edibles
 </a>
 </span>
@@ -442,7 +442,7 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
@@ -453,7 +453,7 @@ Shop
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
+<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
