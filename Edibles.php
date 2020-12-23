@@ -727,11 +727,11 @@ js-comp-ver-6.1 vc_responsive">
 		<div class="menu-top-bar-container">
 		<ul id="menu-top-bar" class="menu">
 		<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-		<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 		Cart
 		</a></li>
 		<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-		<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+		<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 		Shop
 		</a></li></ul></div></div></div></div>
 </div>
@@ -754,7 +754,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a 
-href="Shop.php?username=<?php echo $_GET['username']; ?>" 
+href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
 rel="home"> 
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -765,7 +765,7 @@ alt="Basel" />
 <div class="right-column">
 <div> 
 	<span class="basel-cart-totals"> 
-                <a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+                <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 		<span class="basel-cart-numberCart">
 		0
 		</span> 
@@ -798,7 +798,7 @@ Edibles
 </a>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 All
 </a>
 </li>
@@ -813,7 +813,7 @@ Uncategorized
 <li class="cat-item cat-item-58 ">
 	<a 
 	class="pf-value" 
-	href="Flowers.php?username=<?php echo $_GET['username']; ?>" 
+	href="Flowers.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
 	data-val="bags" 
 	data-title="Bags" >
 	Flowers
@@ -822,7 +822,7 @@ Uncategorized
 	<li class="cat-item cat-item-63 ">
 	<a 
 	class="pf-value" 
-	href="Edibles.php?username=<?php echo $_GET['username']; ?>" 
+	href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
 	data-val="accessories" 
 	data-title="Accessories" >
 	Edibles
@@ -831,7 +831,7 @@ Uncategorized
 	<li class="cat-item cat-item-62 ">
 	<a 
 	class="pf-value" 
-	href="Accessories.php?username=<?php echo $_GET['username']; ?>" 
+	href="Accessories.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
 	data-val="jewellery" 
 	data-title="Jewellery" >
 	Accessories
@@ -867,7 +867,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="2" 
 data-id="19616">
 <div class="product-element-top"> 
-<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -893,7 +893,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>">  
+<a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <img 
 	width="273" 
 	height="348" 
@@ -914,7 +914,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-	<a href="Dabcaps.php?username=<?php echo $_GET['username']; ?>">  
+	<a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	Cannacaps
 	</a>
 	</h3>
@@ -933,7 +933,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
-			<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+			<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 				View cart
 			</a>	
 			</div>
@@ -951,7 +951,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 <div class="product-labels labels-rounded">
 <span class="new product-label">
 New
@@ -976,7 +976,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/c
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -995,7 +995,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="DabcapsES.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Cannacaps (Extra Strong)
 </a>
 </h3>
@@ -1014,7 +1014,7 @@ per/batch
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
-	<a href="Cart.php?username=<?php echo $_GET['username']; ?>"> 
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 		View cart
 	</a>	
 	</div>
@@ -1059,7 +1059,7 @@ per/batch
 	</div>
 	<div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 	<div class="basel-toolbar-shop basel-toolbar-item"> 
-	<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
+	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-toolbar-label"> 
 	Shop 
 	</span> </a></div>
@@ -1070,7 +1070,7 @@ per/batch
 	<img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 	</div>
 	<div> 
-	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 	<span class="basel-toolbar-label">
 	Cart 
