@@ -108,7 +108,8 @@ href="../../wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordP
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[Log out]</span>
+	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span>
+
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
