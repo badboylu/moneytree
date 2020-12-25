@@ -197,7 +197,7 @@ Delivery details
 <select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Tshwane/Pretoria">Tshwane/Pretoria</option>
-  <option value="Johannesburg">Johannesburg</option>
+  <option value="Johannesburg" disabled>Johannesburg</option>
 </select>
 
 <div id="hidePTAtown" style="display:none">
@@ -205,11 +205,11 @@ Delivery details
 <select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="PretoriaEast">Pretoria East</option>
-  <option value="PretoriaNorthEast">Pretoria North East</option>
-  <option value="PretoriaNorthWest">Pretoria North West</option>
-  <option value="PretoriaCentral">Pretoria Central</option>
-  <option value="PretoriaCentralWest">Pretoria Central West</option>
-  <option value="Centurion">Centurion</option>
+  <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
+  <option value="PretoriaNorthWest" disabled >Pretoria North West</option>
+  <option value="PretoriaCentral" disabled >Pretoria Central</option>
+  <option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
+  <option value="Centurion" disabled >Centurion</option>
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
