@@ -620,7 +620,7 @@ Delivery details
    <input type="hidden" name="item_description" value="Flowers">
    <input type="hidden" name="email_confirmation" value="1">
    <input type="hidden" name="confirmation_address" value="john@doe.com">
-   <input type="hidden" name="return_url" value="https://www.canibuy.ca.za/Shop.php">
+   <input type="hidden" name="return_url" value="https://canibuy.co.za/Shop.php">
    <input type="hidden" name="cancel_url" value="https://www.canibuy.co.za/Cart.php">
    <input type="hidden" name="notify_url" value="https://www.canibuy.co.za/delivery.php">
    <input type="hidden" name="signature" value="<?php $signature ?>">
