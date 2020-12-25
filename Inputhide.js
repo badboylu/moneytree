@@ -28,7 +28,7 @@ setInterval (function hideJHB(){
                  document.getElementById("suburbsPTACentral").removeAttribute("required");
                  document.getElementById("suburbsPTACentralWest").removeAttribute("required");
                  document.getElementById("suburbsPTACenturion").removeAttribute("required");
-                 document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                 document.getElementById("suburbsJHBRandburg").removeAttribute("required");
                  document.getElementById("suburbsJHBEast").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
                  document.getElementById("suburbsJHBCentral").removeAttribute("required");
