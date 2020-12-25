@@ -34,6 +34,10 @@ setInterval (function hideJHB(){
                  document.getElementById("suburbsJHBCentral").removeAttribute("required");
                  document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
                  document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                 document.getElementById("townsJHB").removeAttribute("required");
+
+
+
      }else{
          document.getElementById("hidePTAeastsuburb").style.display = "none";
      }
