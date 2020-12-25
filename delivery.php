@@ -111,7 +111,7 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -124,13 +124,13 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>" class="basel-logo basel-main-logo" rel="home"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div >
 <div >
-	<a href="Cart.php?username=<?php echo $_GET['username']; ?>">  
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-number">
 		<strong>Total</strong>
@@ -181,7 +181,7 @@ Delivery details
 <span class="title-after_title">
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>"> 
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
 Delivery details
@@ -649,7 +649,7 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username']; ?>">  
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
