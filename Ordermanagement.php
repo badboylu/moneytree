@@ -1,7 +1,6 @@
 
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="post" id="OrderForm" name="OrderForm">
-<input type="hidden" name="merchant_key" value="46f0cd694581a">
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
 </form> 
 <script type="text/JavaScript">  
