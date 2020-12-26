@@ -1,8 +1,8 @@
 
 <html>
-<form action="" method="post" id="OrderForm" name="OrderForm">
+<form action="https://canibuy.co.za/Ordermanagement.php" method="post" id="OrderForm" name="OrderForm">
 <input type="hidden" name="merchant_key" value="46f0cd694581a">
-<input type="hidden" name="amount" id="amount" value="">
+<input type="hidden" name="DPgrams" id="DPgrams" value="">
 <input type="hidden" name="item_name" value="Cannibus Health Store Items">
 <input type="hidden" name="return_url" value="https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <input type="hidden" name="cancel_url" value="https://www.canibuy.co.za/Cart.php">
@@ -22,11 +22,10 @@
 
  if(orderDP == null){
   orderDP = 0;
+}else{
+ document.getElementById("DPgrams").value = orderDP;
+ document.getElementById("OrderForm").submit();
 }
- document.getElementById("townsJHB").value = orderDP;
 </script>
 </html>
-<?php
 
-
-?> 
