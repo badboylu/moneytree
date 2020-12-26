@@ -1,7 +1,9 @@
 <?php  
 
-echo '<script type="text/JavaScript">  
+echo '
+<html>
 
+<script type="text/JavaScript">  
      var orderDP = localStorage.getItem('GramsDP'); 
      var orderOC = localStorage.getItem('GramsOC'); 
      var orderBW = localStorage.getItem('GramsBW'); 
@@ -11,7 +13,14 @@ echo '<script type="text/JavaScript">
      var orderCCES = localStorage.getItem('GramsCCES'); 
      var orderPE = localStorage.getItem('GramsPE'); 
 
-     </script>' 
+ if(orderDP == null){
+  orderDP = 0;
+}
+     
+ document.getElementById("townsJHB").value = orderDP;
+</script>
+</html>
+' 
 ; 
 
 
