@@ -619,7 +619,7 @@ Delivery details
    <input type="hidden" name="item_name" value="Cannibus Health Store Items">
    <input type="hidden" name="return_url" value="https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
    <input type="hidden" name="cancel_url" value="https://www.canibuy.co.za/Cart.php">
-   <input type="hidden" name="notify_url" value="https://www.canibuy.co.za/delivery.php">
+   <input type="hidden" name="notify_url" value="https://canibuy.co.za/Ordermanagement.php">
    <input type="hidden" name="signature" value="<?php $signature ?>">
    <input type="hidden" name="custom_str1" value="">
    <input type="submit" name="Pay" value="Order" id="Blanks">
