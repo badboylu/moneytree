@@ -1,4 +1,9 @@
-
+<?php 
+header( 'HTTP/1.0 200 OK' );
+flush();
+define( 'SANDBOX_MODE', true );
+$pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
+?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="post" id="OrderForm" name="OrderForm">
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
@@ -21,11 +26,6 @@
 }
 </script>
 </html>
-<?php 
-header( 'HTTP/1.0 200 OK' );
-flush();
-define( 'SANDBOX_MODE', true );
-$pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
-?>
+
 
 
