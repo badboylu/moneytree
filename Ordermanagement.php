@@ -6,7 +6,7 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
-<input type="hidden" name="DPgrams" id="DPgrams" value="">
+<input type="hidden" name="NLgrams" id="NLgrams" value="">
 </form> 
 <script type="text/JavaScript">  
      var orderDP = localStorage.getItem('GramsDP'); 
@@ -18,10 +18,10 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
      var orderCCES = localStorage.getItem('GramsCCES'); 
      var orderPE = localStorage.getItem('GramsPE'); 
 
- if(orderDP == null){
-  orderDP = 0;
+ if(orderNL == null){
+  orderNL = 0;
 }else{
- document.getElementById("DPgrams").value = orderDP;
+ document.getElementById("NLgrams").value = orderNL;
  document.getElementById("OrderForm").submit();
 }
 </script>
