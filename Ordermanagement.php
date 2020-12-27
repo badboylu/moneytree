@@ -21,10 +21,24 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
  if(orderNL == null){
   orderNL = 0;
   document.getElementById("NLgrams").value = orderNL;
+  document.getElementById("DPgrams").value = orderDP;
+  document.getElementById("OCgrams").value = orderOC;
+  document.getElementById("CCgrams").value = orderCC;
+  document.getElementById("BWgrams").value = orderBW;
+  document.getElementById("PRgrams").value = orderPR;
+  document.getElementById("PEgrams").value = orderPE;
+  document.getElementById("CCESgrams").value = orderCCES;
   document.getElementById("OrderForm").submit();
 }else{
- document.getElementById("NLgrams").value = orderNL;
- document.getElementById("OrderForm").submit();
+  document.getElementById("NLgrams").value = orderNL;
+  document.getElementById("DPgrams").value = orderDP;
+  document.getElementById("OCgrams").value = orderOC;
+  document.getElementById("CCgrams").value = orderCC;
+  document.getElementById("BWgrams").value = orderBW;
+  document.getElementById("PRgrams").value = orderPR;
+  document.getElementById("PEgrams").value = orderPE;
+  document.getElementById("CCESgrams").value = orderCCES;
+  document.getElementById("OrderForm").submit();
 }
 </script>
 </html>
