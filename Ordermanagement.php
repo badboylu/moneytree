@@ -8,6 +8,7 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
 </form>
+<script type="text/JavaScript">  
 if(orderNL == null){
   orderNL = 0;
   document.getElementById("NLgrams").value = orderNL;
@@ -17,3 +18,5 @@ if(orderNL == null){
   document.getElementById("NLgrams").value = orderNL;
   document.getElementById("OrderForm").submit();
 }
+</script>
+</html>
