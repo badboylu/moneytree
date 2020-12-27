@@ -20,6 +20,8 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 
  if(orderNL == null){
   orderNL = 0;
+  document.getElementById("NLgrams").value = orderNL;
+  document.getElementById("OrderForm").submit();
 }else{
  document.getElementById("NLgrams").value = orderNL;
  document.getElementById("OrderForm").submit();
