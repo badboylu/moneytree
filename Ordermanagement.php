@@ -10,12 +10,21 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 </form>
 <script type="text/JavaScript"> 
 var  orderNL = localStorage.getItem('GramsNL');
+var  orderDP = localStorage.getItem('GramsDP');
 if(orderNL == null){
   orderNL = 0;
   document.getElementById("NLgrams").value = orderNL;
   document.getElementById("OrderForm").submit();
 }else if(orderNL){
   document.getElementById("NLgrams").value = orderNL;
+  document.getElementById("OrderForm").submit();
+}
+if(orderDP == null){
+  orderDP = 0;
+  document.getElementById("DPgrams").value = orderDP;
+  document.getElementById("OrderForm").submit();
+}else if(orderDP){
+  document.getElementById("DPgrams").value = orderDP;
   document.getElementById("OrderForm").submit();
 }
 </script>
