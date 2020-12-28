@@ -615,6 +615,7 @@ Delivery details
 </div>
    <input type="hidden" name="merchant_id" value=" 10000100 ">
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
+   <input type="hidden" name="name_first" value="<?php echo $_GET['username'];?>">
    <input type="hidden" name="amount" id="amount" value="">
    <input type="hidden" name="item_name" value="Cannibus Health Store Items">
    <input type="hidden" name="return_url" value="https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
