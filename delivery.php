@@ -1,5 +1,4 @@
-<?php
-   $servername="us-cdbr-east-02.cleardb.com";
+t  $servername="us-cdbr-east-02.cleardb.com";
    $dBUsername="b7fcd41c893d7a";
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
@@ -623,7 +622,7 @@ Delivery details
    <input type="hidden" name="notify_url" value="https://canibuy.co.za/Ordermanagement.php">
    <input type="hidden" name="signature" value="<?php $signature ?>">
    <input type="hidden" name="Address1" id="address1" value="<script>document.getElementById("hidePTAeastsuburb").value</script>">
-   <input type="hidden" name="Address2" id="address2" value="<script>document.getElementById("hidePTAeastsuburb").value</script>">
+   <input type="hidden" name="Address2" id="address2" value="<script>document.getElementById("hidePTAtown").value</script>">
    <input type="submit" name="Pay" value="Order" id="Blanks">
 </form> 
 
