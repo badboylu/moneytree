@@ -6,7 +6,7 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
-<input type="hidden" name="DPgrams" id="DPgrams" value="">
+<input type="hidden" name="NLgrams" id="NLgrams" value="">
 </form>
 <script type="text/JavaScript"> 
 var  orderNL = localStorage.getItem('GramsNL');
