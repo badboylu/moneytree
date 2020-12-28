@@ -622,7 +622,8 @@ Delivery details
    <input type="hidden" name="cancel_url" value="https://www.canibuy.co.za/Cart.php">
    <input type="hidden" name="notify_url" value="https://canibuy.co.za/Ordermanagement.php">
    <input type="hidden" name="signature" value="<?php $signature ?>">
-   <input type="hidden" name="custom_str1" value="">
+   <input type="hidden" name="Address1" id="address1" value="<script>document.getElementById("hidePTAeastsuburb").value</script>">
+   <input type="hidden" name="Address2" id="address2" value="<script>document.getElementById("hidePTAeastsuburb").value</script>">
    <input type="submit" name="Pay" value="Order" id="Blanks">
 </form> 
 
