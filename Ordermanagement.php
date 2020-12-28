@@ -10,12 +10,20 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
 <input type="hidden" name="BWgrams" id="BWgrams" value="">
 <input type="hidden" name="OCgrams" id="OCgrams" value="">
+<input type="hidden" name="PRgrams" id="PRgrams" value="">
+<input type="hidden" name="CCgrams" id="CCgrams" value="">
+<input type="hidden" name="CCESgrams" id="CCESgrams" value="">
+<input type="hidden" name="PEgrams" id="PEgrams" value="">
 </form>
 <script type="text/JavaScript"> 
 var  orderNL = localStorage.getItem('GramsNL');
 var  orderDP = localStorage.getItem('GramsDP');
 var  orderNL = localStorage.getItem('GramsNL');
 var  orderDP = localStorage.getItem('GramsDP');
+var  orderPR = localStorage.getItem('GramsPR');
+var  orderCC = localStorage.getItem('GramsCC');
+var  orderCCES = localStorage.getItem('GramsCCES');
+var  orderPE = localStorage.getItem('GramsPE');
 if(orderNL == null){
   orderNL = 0;
   document.getElementById("NLgrams").value = orderNL;
@@ -46,6 +54,38 @@ if(orderOC == null){
   document.getElementById("OrderForm").submit();
 }else if(orderOC){
   document.getElementById("OCgrams").value = orderOC;
+  document.getElementById("OrderForm").submit();
+}
+if(orderPR == null){
+  orderPR = 0;
+  document.getElementById("PRgrams").value = orderPR;
+  document.getElementById("OrderForm").submit();
+}else if(orderPR){
+  document.getElementById("PRgrams").value = orderPR;
+  document.getElementById("OrderForm").submit();
+}
+if(orderCC == null){
+  orderCC = 0;
+  document.getElementById("CCgrams").value = orderCC;
+  document.getElementById("OrderForm").submit();
+}else if(orderCC){
+  document.getElementById("CCgrams").value = orderCC;
+  document.getElementById("OrderForm").submit();
+}
+if(orderCCES == null){
+  orderCCES = 0;
+  document.getElementById("CCESgrams").value = orderCCES;
+  document.getElementById("OrderForm").submit();
+}else if(orderCCES){
+  document.getElementById("CCESgrams").value = orderCCES;
+  document.getElementById("OrderForm").submit();
+}
+if(orderPE == null){
+  orderPE = 0;
+  document.getElementById("PEgrams").value = orderPE;
+  document.getElementById("OrderForm").submit();
+}else if(orderPE){
+  document.getElementById("PEgrams").value = orderPE;
   document.getElementById("OrderForm").submit();
 }
 </script>
