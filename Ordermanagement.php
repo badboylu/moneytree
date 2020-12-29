@@ -93,6 +93,11 @@ if(orderPE == null){
 <?php
 $Adress1 = $_GET['Address1'];
 $Adress2 = $_GET['Address2'];
+if(!$Adress1 || !$Adress2){
+     header("Location:Ordermanagement.php?error=getmeth");
+     exit();
+}else{
 echo $Adress1;
 echo $Adress2;
+}
 ?>
