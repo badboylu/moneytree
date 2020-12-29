@@ -91,11 +91,12 @@ if(orderPE == null){
 </script>
 </html>
 <?php
-$Adress1 = $_GET['name_first'];
-if(!$Adress1){
-     header("Location:Ordermanagement.php?error=getmeth01");
+$pfData = $_POST;
+$Address1= $pfData['Address1'];
+if(!$Address1){
+     header("Location:Ordermanagement.php?error=getmeth02");
      exit();
 }else{
-echo $Adress1;
+echo $Address1;
 }
 ?>
