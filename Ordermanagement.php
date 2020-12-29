@@ -6,7 +6,18 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData = $_POST;
-    header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfData);
+foreach( $pfData as $key => $val ) {
+    $pfData[$key] = stripslashes( $val );
+}
+foreach( $pfData as $key => $val ) {
+    if( $key !== 'signature' ) {
+        $pfParamString .= $key .'='. urlencode( $val ) .'&';
+    } else {
+        break;
+    }
+}
+$pfParamString = substr( $pfParamString, 0, -1 ); 
+    header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfParamString);
     exit();
 ?>
 <html>
