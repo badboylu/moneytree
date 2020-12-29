@@ -5,8 +5,8 @@ define( 'SANDBOX_MODE', true );
 $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
-$pfData = $_POST;
-    header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfData['name_first'];
+$pfData = $_POST['name_first'];
+    header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfData;
     exit();
 ?>
 <html>
