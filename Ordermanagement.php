@@ -24,10 +24,11 @@ foreach( $pfData as $key => $val ) {
 $pfParamString = substr( $pfParamString, 0, -1 ); 
 
 if(!$pfParamString){
-     header("Location:Ordermanagement.php?error=getmeth04");
+     header("Location:Ordermanagement.php?success=POSTCOLLECTED");
      exit();
 }else{
-echo $pfParamString;
+     header("Location:Ordermanagement.php?error=getmeth04");
+     exit();
 }
 ?>
 <html>
