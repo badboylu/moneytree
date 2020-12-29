@@ -107,8 +107,10 @@ $check3 = pfValidPaymentData($cartTotal, $pfData);
 $check4 = pfValidServerConfirmation($pfParamString, $pfHost);
 
 if($check1 && $check2 && $check3 && $check4) {
-    // All checks have passed, the payment is successful
+       header("Location:Orderget?Order=Successfully placed");
+       exit();
 } else {
-    // Some checks have failed, check payment manually and log for investigation
+       header("Location:Orderget?error=verification");
+       exit();
 }
 ?>
