@@ -7,29 +7,9 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 <?php
 $pfData = $_POST;
 
-// Strip any slashes in data
-foreach( $pfData as $key => $val ) {
-    $pfData[$key] = stripslashes( $val );
-}
+print_r($_POST)
 
-// Convert posted variables to a string
-foreach( $pfData as $key => $val ) {
-    if( $pfData ) {
-        $pfParamString .= $key .'='. urlencode( $val ) .'&';
-    } else {
-        break;
-    }
-}
 
-$pfParamString = substr( $pfParamString, 0, -1 ); 
-
-if(!$pfParamString){
-     header("Location:Ordermanagement.php?success=POSTCOLLECTED");
-     exit();
-}else{
-     header("Location:Ordermanagement.php?error=getmeth04");
-     exit();
-}
 ?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
