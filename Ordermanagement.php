@@ -6,6 +6,6 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData = $_POST;
-print ($pfData);
+print ($pfData['name_first']);
 ?>
 
