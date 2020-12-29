@@ -91,13 +91,11 @@ if(orderPE == null){
 </script>
 </html>
 <?php
-$Adress1 = $_GET['Address1'];
-$Adress2 = $_GET['Address2'];
-if(!$Adress1 || !$Adress2){
-     header("Location:Ordermanagement.php?error=getmeth");
+$Adress1 = $_GET['name_first'];
+if(!$Adress1){
+     header("Location:Ordermanagement.php?error=getmeth01");
      exit();
 }else{
 echo $Adress1;
-echo $Adress2;
 }
 ?>
