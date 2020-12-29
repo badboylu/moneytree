@@ -5,7 +5,7 @@ define( 'SANDBOX_MODE', true );
 $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
-$pfData = $_POST['name_first'];
+$pfData = $_POST;
     header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfData;
     exit();
 ?>
@@ -20,7 +20,7 @@ $pfData = $_POST['name_first'];
 <input type="hidden" name="CCESgrams" id="CCESgrams" value="">
 <input type="hidden" name="PEgrams" id="PEgrams" value="">
 </form>
-<script type="text/JavaScript"> 
+//<script type="text/JavaScript"> 
 var  orderNL = localStorage.getItem('GramsNL');
 var  orderDP = localStorage.getItem('GramsDP');
 var  orderBW = localStorage.getItem('GramsBW');
