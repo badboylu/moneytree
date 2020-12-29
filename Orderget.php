@@ -67,4 +67,48 @@ function pfValidPaymentData( $cartTotal, $pfData ) {
     return !(abs((float)$cartTotal - (float)$pfData['amount_gross']) > 0.01);
 }
 
+function pfValidServerConfirmation( $pfParamString, $pfHost = 'sandbox.payfast.co.za', $pfProxy = null ) {
+    // Use cURL (if available)
+    if( in_array( 'curl', get_loaded_extensions(), true ) ) {
+        // Variable initialization
+        $url = 'https://'. $pfHost .'/eng/query/validate';
+
+        // Create default cURL object
+        $ch = curl_init();
+    
+        // Set cURL options - Use curl_setopt for greater PHP compatibility
+        // Base settings
+        curl_setopt( $ch, CURLOPT_USERAGENT, NULL );  // Set user agent
+        curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );      // Return output as string rather than outputting it
+        curl_setopt( $ch, CURLOPT_HEADER, false );             // Don't include header in output
+        curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 2 );
+        curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, true );
+        
+        // Standard settings
+        curl_setopt( $ch, CURLOPT_URL, $url );
+        curl_setopt( $ch, CURLOPT_POST, true );
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $pfParamString );
+        if( !empty( $pfProxy ) )
+            curl_setopt( $ch, CURLOPT_PROXY, $pfProxy );
+    
+        // Execute cURL
+        $response = curl_exec( $ch );
+        curl_close( $ch );
+        if ($response === 'VALID') {
+            return true;
+        }
+    }
+    return false;
+}
+
+$check1 = pfValidSignature($pfData, $pfParamString);
+$check2 = pfValidIP();
+$check3 = pfValidPaymentData($cartTotal, $pfData);
+$check4 = pfValidServerConfirmation($pfParamString, $pfHost);
+
+if($check1 && $check2 && $check3 && $check4) {
+    // All checks have passed, the payment is successful
+} else {
+    // Some checks have failed, check payment manually and log for investigation
+}
 ?>
