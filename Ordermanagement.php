@@ -4,6 +4,16 @@ flush();
 define( 'SANDBOX_MODE', true );
 $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
+<?php
+$pfData = $_POST;
+$Address1= $pfData['Address1'];
+if(!$Address1){
+     header("Location:Ordermanagement.php?error=getmeth03");
+     exit();
+}else{
+echo $Address1;
+}
+?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
 <input type="hidden" name="NLgrams" id="NLgrams" value="">
@@ -91,12 +101,5 @@ if(orderPE == null){
 </script>
 </html>
 <?php
-$pfData = $_POST;
-$Address1= $pfData['Address1'];
-if(!$Address1){
-     header("Location:Ordermanagement.php?error=getmeth02");
-     exit();
-}else{
-echo $Address1;
-}
+
 ?>
