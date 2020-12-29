@@ -6,13 +6,7 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData=$_POST;
-if (is_array($pfData))
-{
-  for ($i=0;$i<size($pfData);$i++)
-  {
-    print ($qty[$i]);
-  }
-}
+Print ($pfData);
 ?>
 <html>
 <form action="https://canibuy.co.za/Next.php" method="get" id="OrderForm" name="OrderForm">
