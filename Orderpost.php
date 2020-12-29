@@ -19,15 +19,14 @@ function generateSignature($data, $passPhrase = null) {
     }
     return md5( $getString );
 }
-?>
-<?php
+
 $cartTotal = 10.00;
 $data = array(
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'return_url' => 'http://www.yourdomain.co.za/return.php',
-    'cancel_url' => 'http://www.yourdomain.co.za/cancel.php',
-    'notify_url' => 'http://www.yourdomain.co.za/notify.php',
+    'return_url' => 'https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>',
+    'cancel_url' => 'https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>',
+    'notify_url' => 'https://canibuy.co.za/Orderget.php',
     'name_first' => 'First Name',
     'name_last'  => 'Last Name',
     'email_address'=> 'test@test.com',
