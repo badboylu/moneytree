@@ -6,7 +6,8 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData = $_POST;
-print_r($pfData['name_first']);
+    header("Location:Shop.php?Payment=successful"."&Arry=".$pfData);
+    exit();
 ?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
