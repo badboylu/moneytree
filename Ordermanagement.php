@@ -100,6 +100,3 @@ if(orderPE == null){
 }
 </script>
 </html>
-<?php
-
-?>
