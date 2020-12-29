@@ -16,9 +16,8 @@ foreach( $pfData as $key => $val ) {
         break;
     }
 }
-$pfParamString = substr( $pfParamString, 0, -1 ); 
-    header("Location:Ordermanagement.php?Check=successful"."&Arry=".$pfParamString);
-    exit();
+   $pfParamString = substr( $pfParamString, 0, -1 ); 
+   print_r($pfParamString);
 ?>
 <html>
 <form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
