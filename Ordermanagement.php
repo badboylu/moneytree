@@ -6,13 +6,10 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData = $_POST;
-foreach( $pfData as $key) {
-    echo $key;
-}
-
+print ($pfData);
 ?>
 <html>
-<form action="https://canibuy.co.za/Ordermanagement.php" method="get" id="OrderForm" name="OrderForm">
+<form action="https://canibuy.co.za/Next.php" method="get" id="OrderForm" name="OrderForm">
 <input type="hidden" name="NLgrams" id="NLgrams" value="">
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
 <input type="hidden" name="BWgrams" id="BWgrams" value="">
