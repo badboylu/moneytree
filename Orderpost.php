@@ -33,7 +33,7 @@ $data = array(
     'email_address'=> 'test@test.com',
     'm_payment_id' => '1234', 
     'amount' => '456',
-    'item_name' => 'Order#123'
+    'item_name' => 'Order#123',
 );
 $signature = generateSignature($data);
 $data['signature'] = $signature;
