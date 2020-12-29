@@ -613,8 +613,8 @@ Delivery details
 <div id="hideName" style="display:none">
    <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
-   <input type="hidden" name="merchant_id" value=" 16487327 ">
-   <input type="hidden" name="merchant_key" value="grrpth5dyco9u">
+   <input type="hidden" name="merchant_id" value=" 10000100 ">
+   <input type="hidden" name="merchant_key" value="46f0cd694581a">
    <input type="hidden" name="name_first" value="<?php echo $_GET['username'];?>">
    <input type="hidden" name="amount" id="amount" value="">
    <input type="hidden" name="item_name" value="Cannibus Health Store Items">
