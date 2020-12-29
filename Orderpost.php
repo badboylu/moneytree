@@ -12,8 +12,7 @@ $data = array(
     'm_payment_id' => '1234', 
     'amount' => '456',
     'item_name' => 'Order#123',
-    $signature = generateSignature($data);
-    $data['signature'] = $signature;
+    
 );
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
 foreach($data as $name=> $value)
