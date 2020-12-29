@@ -6,12 +6,28 @@ $pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 ?>
 <?php
 $pfData = $_POST;
-$Address1= $pfData['Address1'];
-if(!$Address1){
-     header("Location:Ordermanagement.php?error=getmeth03");
+
+// Strip any slashes in data
+foreach( $pfData as $key => $val ) {
+    $pfData[$key] = stripslashes( $val );
+}
+
+// Convert posted variables to a string
+foreach( $pfData as $key => $val ) {
+    if( $key !== 'signature' ) {
+        $pfParamString .= $key .'='. urlencode( $val ) .'&';
+    } else {
+        break;
+    }
+}
+
+$pfParamString = substr( $pfParamString, 0, -1 ); 
+
+if(!$pfParamString){
+     header("Location:Ordermanagement.php?error=getmeth04");
      exit();
 }else{
-echo $Address1;
+echo $pfParamString;
 }
 ?>
 <html>
