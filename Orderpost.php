@@ -15,13 +15,7 @@ $data = array(
     'signature'= "<?php $signature ?>"
 );
 
-$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
-foreach($data as $name=> $value)
-{
-    $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
-}
-$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" /></form>';
-echo $htmlForm;
+
 ?>
 <?php
    $servername="us-cdbr-east-02.cleardb.com";
