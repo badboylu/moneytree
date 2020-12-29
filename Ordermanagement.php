@@ -14,7 +14,7 @@ foreach( $pfData as $key => $val ) {
 
 // Convert posted variables to a string
 foreach( $pfData as $key => $val ) {
-    if( $key !== 'signature' ) {
+    if( $pfData ) {
         $pfParamString .= $key .'='. urlencode( $val ) .'&';
     } else {
         break;
