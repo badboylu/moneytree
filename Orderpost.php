@@ -11,7 +11,7 @@ $data = array(
     'email_address'=> 'test@test.com',
     'm_payment_id' => '1234', 
     'amount' => '456',
-    'item_name' => 'Order#123'
+    'item_name' => 'Order#123',
     'signature'=> '<?php $signature ?>'
 );
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
