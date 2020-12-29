@@ -17,7 +17,7 @@ foreach( $pfData as $key => $val ) {
     }
 }
 $pfParamString = substr( $pfParamString, 0, -1 ); 
-    header("Location:Ordermanagement.php?Payment=successful"."&Arry=".$pfParamString);
+    header("Location:Ordermanagement.php?Check=successful"."&Arry=".$pfParamString);
     exit();
 ?>
 <html>
