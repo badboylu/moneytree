@@ -90,3 +90,9 @@ if(orderPE == null){
 }
 </script>
 </html>
+<?php
+$Adress1 = $_GET['Address1'];
+$Adress2 = $_GET['Address2'];
+echo $Adress1;
+echo $Adress2;
+?>
