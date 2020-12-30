@@ -101,7 +101,7 @@ function pfValidServerConfirmation( $pfParamString, $pfHost = 'sandbox.payfast.c
     return false;
 }
 
-$check1 = pfValidSignature($pfData, $pfParamString);
+$check1 = pfValidSignature($pfData, $pfParamString,$pfPassphrase = null);
 $check2 = pfValidIP();
 $check3 = pfValidPaymentData($cartTotal, $pfData);
 $check4 = pfValidServerConfirmation($pfParamString, $pfHost);
