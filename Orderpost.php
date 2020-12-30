@@ -25,7 +25,7 @@ $cartTotal = 10.00;
 $data = array(
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'return_url' => 'https://canibuy.co.za/Shop.php?username='echo $_GET['username'];&auth=echo $_GET['auth'];,
+    'return_url' => 'https://canibuy.co.za/Shop.php?username='echo $_GET['username'];'&auth='echo $_GET['auth'];,
     'cancel_url' => 'https://canibuy.co.za/Cart.php',
     'notify_url' => 'https://canibuy.co.za/Orderget.php',
     'name_first' => 'First Name',
