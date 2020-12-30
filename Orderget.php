@@ -107,19 +107,11 @@ $check3 = pfValidPaymentData($cartTotal, $pfData);
 $check4 = pfValidServerConfirmation($pfParamString, $pfHost);
 
 if(!$check3) {
-       header("Location:Orderget?error=verificationcheck3");
+       header("Location:Orderget.php?error=verificationcheck3");
        exit();
 }
-if(!$check4) {
-       header("Location:Orderget?error=verificationcheck4");
-       exit();
-}
-if(!$check2) {
-       header("Location:Orderget?error=verificationcheck2");
-       exit();
-}
-if(!$check1) {
-       header("Location:Orderget?error=verificationcheck1");
+else{
+       header("Location:Orderget.php?Order=successful");
        exit();
 }
 ?>
