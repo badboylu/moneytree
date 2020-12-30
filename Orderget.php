@@ -115,7 +115,7 @@ else if(!$check1){
        exit();
 }
 else{
-       header("Location:Orderget.php?Order=successful");
+       header("Location:Orderget.php?Order=successful31");
        exit();
 }
 ?>
