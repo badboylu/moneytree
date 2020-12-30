@@ -17,6 +17,7 @@ function generateSignature($data, $passPhrase = null) {
     if( $passPhrase !== null ) {
         $getString .= '&passphrase='. urlencode( trim( $passPhrase ) );
     }
+    echo md5($getString);
     return md5( $getString );
 }
 ?>
