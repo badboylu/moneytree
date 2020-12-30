@@ -42,9 +42,9 @@ $signature = generateSignature($data);
 <input name="signature" type="hidden" value="<?php echo $signature ?>">
 </form>
 <script>
-const Orderbutton = document.querySelectorAll('.CannacapsES');
-Orderbutton.forEach(CannacapsES =>{
-        CannacapsES.addEventListener('click', () => {
+const Orderbutton = document.querySelectorAll('.Orderbtn');
+Orderbutton.forEach(Orderbtn =>{
+        Orderbtn.addEventListener('click', () => {
                document.getElementById("signature").submit();
 })
 }
@@ -58,7 +58,7 @@ foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" /></form>';
+$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
 echo $htmlForm;
 
 ?>
