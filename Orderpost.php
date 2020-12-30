@@ -17,7 +17,6 @@ function generateSignature($data, $passPhrase = null) {
     if( $passPhrase !== null ) {
         $getString .= '&passphrase='. urlencode( trim( $passPhrase ) );
     }
-    echo md5($getString);
     return md5( $getString );
 }
 ?>
@@ -37,6 +36,7 @@ $data = array(
     'item_name' => 'Order#123',
 );
 $signature = generateSignature($data);
+echo $signature;
 $data['signature'] = $signature;
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
 foreach($data as $name=> $value)
