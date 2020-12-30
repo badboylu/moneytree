@@ -42,7 +42,13 @@ $signature = generateSignature($data);
 <input name="signature" type="hidden" value="<?php echo $signature ?>">
 </form>
 <script>
-document.getElementById("signature").submit();
+const Orderbutton = document.querySelectorAll('.CannacapsES');
+Orderbutton.forEach(CannacapsES =>{
+        CannacapsES.addEventListener('click', () => {
+               document.getElementById("signature").submit();
+})
+}
+)
 </script>
 </html>
 <?php
