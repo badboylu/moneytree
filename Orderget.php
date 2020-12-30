@@ -110,6 +110,10 @@ if(!$check3) {
        header("Location:Orderget.php?error=verificationcheck3");
        exit();
 }
+else if(!$check1){
+       header("Location:Orderget.php?error=verificationcheck1");
+       exit();
+}
 else{
        header("Location:Orderget.php?Order=successful");
        exit();
