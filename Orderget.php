@@ -105,10 +105,10 @@ $check1 = pfValidSignature($pfData, $pfParamString);
 $check2 = pfValidIP();
 $check3 = pfValidPaymentData($cartTotal, $pfData);
 $check4 = pfValidServerConfirmation($pfParamString, $pfHost);
-if(!$check1) {
+if(!$check2) {
        header("Location:Orderget?error=verificationcheck1");
        exit();
-}if(!$check2) {
+}if(!$check1) {
        header("Location:Orderget?error=verificationcheck2");
        exit();
 }
