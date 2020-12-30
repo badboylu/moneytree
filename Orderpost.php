@@ -42,7 +42,7 @@ $signature = generateSignature($data);
 <input name="signature" type="hidden" value="<?php echo $signature ?>">
 </form>
 <script>
-
+document.getElementById("OrderForm").submit();
 </script>
 </html>
 <?php
