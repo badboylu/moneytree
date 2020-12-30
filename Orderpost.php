@@ -38,11 +38,11 @@ $data = array(
 $signature = generateSignature($data);
 ?>
 <html>
-<form action="https://canibuy.co.za?Orderget.php" method="post" id="signature">
+<form action="https://canibuy.co.za?Orderget.php" method="get" id="signature">
 <input name="signature" type="hidden" value="<?php echo $signature ?>">
 </form>
 <script>
-document.getElementById("OrderForm").submit();
+document.getElementById("signature").submit();
 </script>
 </html>
 <?php
