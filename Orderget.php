@@ -108,9 +108,6 @@ $check4 = pfValidServerConfirmation($pfParamString, $pfHost);
 if(!$check2) {
        header("Location:Orderget?error=verificationcheck1");
        exit();
-}if(!$check1) {
-       header("Location:Orderget?error=verificationcheck2");
-       exit();
 }
 if(!$check3) {
        header("Location:Orderget?error=verificationcheck3");
