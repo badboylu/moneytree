@@ -36,7 +36,16 @@ $data = array(
     'item_name' => 'Order#123',
 );
 $signature = generateSignature($data);
-echo $signature;
+?>
+<html>
+<form action="https://canibuy.co.za?Orderget.php" method="post" id="signature">
+<input name="signature" type="hidden" value="<?php echo $signature ?>">
+</form>
+<script>
+
+</script>
+</html>
+<?php
 $data['signature'] = $signature;
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
 foreach($data as $name=> $value)
