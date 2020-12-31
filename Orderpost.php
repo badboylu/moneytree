@@ -645,7 +645,7 @@ Delivery details
    <input type="hidden" name="Address2" id="address2" value="Mahlanyeng">
 </form> 
 <?php
-     $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
+     $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post" id="form">';
 foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
@@ -657,8 +657,10 @@ echo $htmlForm;
 <input type="hidden" id="pay" name="payload" value="<?php echo $signature ?>">
 </form>
 <script>
-const paybutton = document.getElementById("Blanks");
-paybutton.addEventListener("click", document.getElementById("signature").submit(););
+let form  = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+    document.getElementById("signature").submit();
+});
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
