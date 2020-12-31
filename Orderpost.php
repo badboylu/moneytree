@@ -1,9 +1,10 @@
 <?php
-/**
- * @param array $data
- * @param null $passPhrase
- * @return string
- */
+   $servername="us-cdbr-east-02.cleardb.com";
+   $dBUsername="b7fcd41c893d7a";
+   $dBPassword="1e8f896b7da9e41";
+   $dBName="heroku_61db5a5cdc2dfd8";
+   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+   $username = 'Test';
 function generateSignature($data, $passPhrase = '007') {
     // Create parameter string
     $pfOutput = '';
@@ -18,6 +19,19 @@ function generateSignature($data, $passPhrase = '007') {
         $getString .= '&passphrase='. urlencode( trim( $passPhrase ) );
     }
     return md5( $getString );
+}
+if(isset($_POST['Pay']))
+{
+    $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:Signin.php?error=sql007");
+    exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"ss",$username,$getString);
+ mysqli_stmt_execute($stmt);
 }
 ?>
 <?php
@@ -36,22 +50,6 @@ $data = array(
     'item_name' => 'Order#123',
 );
 $signature = generateSignature($data);
-?>
-<html>
-<form action="https://canibuy.co.za/Orderget.php" method="get" id="signature">
-<input name="signature" type="hidden" value="<?php echo $signature ?>">
-</form>
-<script>
-const Orderbutton = document.querySelectorAll('.Orderbtn');
-Orderbutton.forEach(Orderbtn =>{
-        Orderbtn.addEventListener('click', () => {
-               document.getElementById("signature").submit();
-})
-}
-)
-</script>
-</html>
-<?php
 $data['signature'] = $signature;
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
 foreach($data as $name=> $value)
@@ -175,7 +173,7 @@ href="cannacaps.html" />
 	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-number">
-		<strong>Total</strong>
+		<strong>Total</strong><?php echo $getString; ?>
 		</span> 
 		<span class="subtotal-dividerCart">
 		<strong>: </strong>R
