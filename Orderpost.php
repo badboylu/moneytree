@@ -30,7 +30,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"ss",$username,$getString);
+ mysqli_stmt_bind_param($stmt,"ss",$username,$signature);
  mysqli_stmt_execute($stmt);
 }
 ?>
