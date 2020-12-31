@@ -665,6 +665,15 @@ Delivery details
    <input type="hidden" name="Address1" id="address1" value="Pitori">
    <input type="hidden" name="Address2" id="address2" value="Mahlanyeng">
    <input type="submit" name="Pay" value="Order" id="Blanks">
+   <?php
+     $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post">';
+foreach($data as $name=> $value)
+{
+    $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
+}
+$htmlForm .= '<input type="submit" name="Pay" value="OrderTest" id="Blanks" class="Orderbtn" /></form>';
+echo $htmlForm;
+    ?>
 </form> 
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
@@ -678,7 +687,7 @@ Delivery details
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by <?php echo $signature; ?>
+2020 Created by
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
