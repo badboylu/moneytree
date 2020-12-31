@@ -5,7 +5,7 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $username = 'Test';
-function generateSignature($data, $passPhrase = '007') {
+function generateSignature($data, $passPhrase = '00777') {
     // Create parameter string
     $pfOutput = '';
     foreach( $data as $key => $val ) {
