@@ -1,8 +1,8 @@
 <?php
 $username = 'Test5';
 $signature = $_GET['payload'];
-echo $signature;
-if($_GET['payload']{
+
+if($signature){
             $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
             $stmt= mysqli_stmt_init($conn);
 
