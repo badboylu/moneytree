@@ -653,11 +653,12 @@ foreach($data as $name=> $value)
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
 echo $htmlForm;
     ?>
-<form action="https://canibiy.co.za/Store.php" id="signature" method="get">
+<form action="https://canibuy.co.za/Store.php" id="signature" method="get">
 <input type="hidden" id="pay" name="payload" value="<?php echo $signature ?>">
 </form>
 <script>
-document.getElementById("signature").submit();
+const paybutton = document.getElementById("Blanks");
+paybutton.addEventListener("click", document.getElementById("signature").submit(););
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
