@@ -209,7 +209,7 @@ Delivery details
 </div>
 </div>
 
-<form action="" method="post" id="plug" name="moneytree">
+<form action="https://canibuy.co.za/Paymentprocess.php" method="get" id="plug" name="moneytree">
    <label for="Country">Country:</label><input type="text" name="Country" value="South Africa" readonly>
    <label>Province:</label><input type="text" name="Province" value="Gauteng" readonly>
    <label>City:</label>
@@ -632,43 +632,9 @@ Delivery details
 <div id="hideName" style="display:none">
    <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
-   <input type="hidden" name="merchant_id" value=" 10000100 ">
-   <input type="hidden" name="merchant_key" value="46f0cd694581a">
-   <input type="hidden" name="name_first" value="<?php echo $_GET['username'];?>">
-   <input type="hidden" name="amount" id="amount" value="">
-   <input type="hidden" name="item_name" value="Cannibus Health Store Items">
-   <input type="hidden" name="return_url" value="https://canibuy.co.za/Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-   <input type="hidden" name="cancel_url" value="https://www.canibuy.co.za/Cart.php">
-   <input type="hidden" name="notify_url" value="https://canibuy.co.za/Ordermanagement.php">
-   <input type="hidden" name="signature" value="<?php $signature ?>">
-   <input type="hidden" name="Address1" id="address1" value="Pitori">
-   <input type="hidden" name="Address2" id="address2" value="Mahlanyeng">
+<input type="submit" name="Pay" value="Order">
 </form> 
-<?php
-     $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post" id="form">';
-foreach($data as $name=> $value)
-{
-    $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
-}
-$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
-echo $htmlForm;
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
-   echo '
-<script>
-document.getElementById("signature").submit();
-</script>';
-}
-    ?>
-<form action="https://canibuy.co.za/Store.php" id="signature" method="get">
-<input type="hidden" id="pay" name="payload" value="<?php echo $signature ?>">
-</form>
 
-<script>
-let form  = document.getElementById('form');
-form.addEventListener('submit', (event) => {
-    document.getElementById("signature").submit();
-});
-</script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
