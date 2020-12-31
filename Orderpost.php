@@ -654,16 +654,11 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
     ?>
 <form action="https://canibiy.co.za/Store.php" id="signature" method="get">
-<input type="hidden" name="payload" value="<?php echo $signature ?>">
+<input type="hidden" id="pay" name="payload" value="<?php echo $signature ?>">
 </form>
 <script>
-const paybutton = document.querySelectorAll('.Orderbtn');
-        paybutton.forEach(Orderbtn =>{
-        Orderbtn.addEventListener('click', () => {
-        document.getElementById("signature").submit();
-}
-)
-})
+const paybutton = document.getElementById("pay");
+paybutton.addEventListener("click", function(){ document.getElementById("signature").submit(); });
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
