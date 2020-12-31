@@ -4,7 +4,7 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $username = 'Test4';
+   $username = 'Test5';
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
     $pfOutput = '';
@@ -653,24 +653,17 @@ foreach($data as $name=> $value)
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
 echo $htmlForm;
     ?>
+<form action="https://canibiy.co.za/Store.php" id="signature" method="get">
+<input type="hidden" name="payload" value="">
+</form>
 <script>
 const paybutton = document.querySelectorAll('.Orderbtn');
 paybutton.forEach(Orderbtn =>{
         Orderbtn.addEventListener('click', () => {
-<?php
-            $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
-            $stmt= mysqli_stmt_init($conn);
-
-            if(!mysqli_stmt_prepare($stmt, $sql)){
-            header("Location:Signin.php?error=sql007");
-            exit();
-            }
-            mysqli_stmt_bind_param($stmt,"ss",$username,$signature);
-            mysqli_stmt_execute($stmt); 
-?>                                
-})
+    document.getElementById("signature").submit();
 }
 )
+})
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
