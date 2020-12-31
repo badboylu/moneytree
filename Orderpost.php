@@ -173,7 +173,7 @@ href="cannacaps.html" />
 	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-number">
-		<strong>Total</strong><?php echo $getString; ?>
+		<strong>Total</strong>
 		</span> 
 		<span class="subtotal-dividerCart">
 		<strong>: </strong>R
@@ -678,7 +678,7 @@ Delivery details
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by 
+2020 Created by <?php echo $getString; ?>
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
