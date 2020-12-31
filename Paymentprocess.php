@@ -31,4 +31,15 @@ $data = array(
 );
 $signature = generateSignature($data);
 $data['signature'] = $signature;
+
+$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process" method="post" id="form">';
+foreach($data as $name=> $value)
+{
+    $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
+}
+$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
+echo'
+<script>
+document.getElementById("form").submit();
+</script>';
 ?>
