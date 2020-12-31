@@ -37,7 +37,8 @@ foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
-$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
+$htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
+echo $htmlForm;
 echo'
 <script>
 document.getElementById("form").submit();
