@@ -38,12 +38,8 @@ $data = array(
 );
 $signature = generateSignature($data);
 $data['signature'] = $signature;
-
-if(array_key_exists('Pay', $_POST)) { 
-            SignatureToDatabase(); 
- } 
-function SignatureToDatabase() { 
-            $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+if(isset($_POST["Pay"])){
+$sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
             $stmt= mysqli_stmt_init($conn);
 
             if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -52,7 +48,8 @@ function SignatureToDatabase() {
             }
             mysqli_stmt_bind_param($stmt,"ss",$username,$signature);
             mysqli_stmt_execute($stmt); 
- } 
+}
+
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
