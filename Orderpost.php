@@ -652,9 +652,13 @@ foreach($data as $name=> $value)
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
 echo $htmlForm;
-
-if(isset($_POST["Pay"])){
-$sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+    ?>
+<script>
+const paybutton = document.querySelectorAll('.Orderbtn');
+paybutton.forEach(Orderbtn =>{
+        Orderbtn.addEventListener('click', () => {
+<?php
+            $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
             $stmt= mysqli_stmt_init($conn);
 
             if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -663,8 +667,11 @@ $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
             }
             mysqli_stmt_bind_param($stmt,"ss",$username,$signature);
             mysqli_stmt_execute($stmt); 
+?>                                
+})
 }
-    ?>
+)
+</script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
