@@ -39,4 +39,9 @@ foreach($data as $name=> $value)
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" /></form>';
 echo $htmlForm;
+echo'
+<script>
+document.getElementById("Blanks").submit();
+</script>';
+
 ?>
