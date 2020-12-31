@@ -678,7 +678,7 @@ Delivery details
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by <?php echo $getString; ?>
+2020 Created by <?php echo $signature; ?>
 <span style="color: orange;font-size: 15px">
 Plug
 </span>
