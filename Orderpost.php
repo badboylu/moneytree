@@ -4,7 +4,7 @@
  * @param null $passPhrase
  * @return string
  */
-function generateSignature($data, $passPhrase = null) {
+function generateSignature($data, $passPhrase = '007') {
     // Create parameter string
     $pfOutput = '';
     foreach( $data as $key => $val ) {
