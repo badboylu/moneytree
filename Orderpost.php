@@ -658,9 +658,9 @@ echo $htmlForm;
 </form>
 <script>
 const paybutton = document.querySelectorAll('.Orderbtn');
-paybutton.forEach(Orderbtn =>{
+        paybutton.forEach(Orderbtn =>{
         Orderbtn.addEventListener('click', () => {
-    document.getElementById("signature").submit();
+        document.getElementById("signature").submit();
 }
 )
 })
