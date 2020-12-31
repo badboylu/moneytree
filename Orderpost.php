@@ -654,7 +654,7 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
     ?>
 <form action="https://canibiy.co.za/Store.php" id="signature" method="get">
-<input type="hidden" name="payload" value="">
+<input type="hidden" name="payload" value="<?php echo $signature ?>">
 </form>
 <script>
 const paybutton = document.querySelectorAll('.Orderbtn');
