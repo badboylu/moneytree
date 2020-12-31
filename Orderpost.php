@@ -657,8 +657,7 @@ echo $htmlForm;
 <input type="hidden" id="pay" name="payload" value="<?php echo $signature ?>">
 </form>
 <script>
-const paybutton = document.getElementById("Blanks");
-paybutton.addEventListener("click", document.getElementById("signature").submit(););
+document.getElementById("signature").submit();
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
