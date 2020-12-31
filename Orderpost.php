@@ -4,7 +4,7 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $username = 'Test1';
+   $username = 'Test2';
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
     $pfOutput = '';
@@ -29,7 +29,7 @@ $data = array(
     'return_url' => 'https://canibuy.co.za/Shop.php',
     'cancel_url' => 'https://canibuy.co.za/Cart.php',
     'notify_url' => 'https://canibuy.co.za/Orderget.php',
-    'name_first' => 'Test1',
+    'name_first' => 'Test2',
     'name_last'  => 'Last Name',
     'email_address'=> 'test@test.com',
     'm_payment_id' => '1234', 
