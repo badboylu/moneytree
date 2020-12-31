@@ -658,7 +658,7 @@ echo $htmlForm;
 </form>
 <script>
 const paybutton = document.getElementById("pay");
-paybutton.addEventListener("click", function(){ document.getElementById("signature").submit(); });
+paybutton.addEventListener("click", document.getElementById("signature").submit(););
 </script>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
