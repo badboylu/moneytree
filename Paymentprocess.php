@@ -10,7 +10,7 @@ $nl = $_GET['NLgrams'];
 $cces = $_GET['CCESgrams'];
 $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
-$address = $_GET['auth'];
+$address = $_GET['Province']',' $_GET['City']',' $_GET['TownJHB']',' $_GET['suburbsJHBRandburg']',' $_GET['Crib']','  ;
 
 $sql="INSERT INTO orders (idOrderNumber, idUsers, idOrderDPgrams, idOrderCCbatches, idOrderOCgrams, idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderAddress) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
