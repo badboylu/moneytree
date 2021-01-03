@@ -1,5 +1,4 @@
 <?php
-$username = 'Test5';
 $authtoken = $_GET['auth'];
 $confirmedpayment = 'N';
 $dp = $_GET['DPgrams'];
@@ -19,7 +18,7 @@ $sql="INSERT INTO orders (idOrderNumber, idUsers, idOrderDPgrams, idOrderCCbatch
        exit();
 }
      $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
-     mysqli_stmt_bind_param($stmt,"sssssssssss",$username,$email,$hashedPwd);
+     mysqli_stmt_bind_param($stmt,"sssssssssss",$authtoken,$confirmedpayment,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$address);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
 
