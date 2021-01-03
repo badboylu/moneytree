@@ -1,0 +1,20 @@
+CREATE TABLE Address (
+idUser int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+idUsername TEXT NOT NULL,
+idProvince TEXT NOT NULL,
+idCity TEXT NOT NULL,
+idTown TEXT NOT NULL,
+idSuburb TEXT NOT NULL,
+idCrib TEXT NOT NULL,
+idBuilding TEXT NOT NULL,
+idEstate TEXT NOT NULL,
+idComplex TEXT NOT NULL,
+idMall TEXT NOT NULL,
+idShop TEXT NOT NULL,
+idStreet TEXT NOT NULL,
+idUnitNumber TEXT NOT NULL,
+idHouseNumber TIME NOT NULL,
+idContactNumber TEXT NOT NULL,
+idTime TIME NOT NULL,
+idDate DATE NOT NULL
+);
