@@ -8,7 +8,21 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $confirmedpayment = 'N';
 $dp = $_GET['DPgrams'];
+$oc = $_GET['OCgrans'];
+$bw = $_GET['BWgrams'];
+$pr = $_GET['PRgrams'];
+$nl = $_GET['NLgrams'];
+$cces = $_GET['CCESgrams'];
+$cc = $_GET['CCgrams'];
+$pe = $_GET['PEgrams'];
 echo $dp;
+echo $oc;
+echo $bw;
+echo $pr;
+echo $nl;
+echo $cces;
+echo $cc;
+echo $pe;
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
