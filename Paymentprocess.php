@@ -7,7 +7,8 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
 $authtoken = $_GET['auth'];
 $confirmedpayment = 'N';
-echo $confirmedpayment;
+$dp = $_GET['DPgrams'];
+echo $dp;
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
