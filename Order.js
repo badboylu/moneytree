@@ -1,3 +1,4 @@
+<script>
 var  orderNL = localStorage.getItem('GramsNL');
 var  orderDP = localStorage.getItem('GramsDP');
 var  orderBW = localStorage.getItem('GramsBW');
@@ -55,3 +56,4 @@ if(orderPE == null){
   document.getElementById("PEgrams").value = orderPE;
 }
 
+</script>
