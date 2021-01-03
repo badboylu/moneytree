@@ -88,7 +88,7 @@ function pfValidServerConfirmation( $pfParamString, $pfHost = 'sandbox.payfast.c
         curl_setopt( $ch, CURLOPT_URL, $url );
         curl_setopt( $ch, CURLOPT_POST, true );
         curl_setopt( $ch, CURLOPT_POSTFIELDS, $pfParamString );
-        if( !empty( $pfProxy ) )
+        if( !empty( $pfProxy ) ){
             curl_setopt( $ch, CURLOPT_PROXY, $pfProxy );
     
         // Execute cURL
