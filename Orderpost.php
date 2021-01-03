@@ -632,6 +632,14 @@ Delivery details
 <div id="hideName" style="display:none">
    <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
+<input type="hidden" name="NLgrams" id="NLgrams" value="">
+<input type="hidden" name="DPgrams" id="DPgrams" value="">
+<input type="hidden" name="BWgrams" id="BWgrams" value="">
+<input type="hidden" name="OCgrams" id="OCgrams" value="">
+<input type="hidden" name="PRgrams" id="PRgrams" value="">
+<input type="hidden" name="CCgrams" id="CCgrams" value="">
+<input type="hidden" name="CCESgrams" id="CCESgrams" value="">
+<input type="hidden" name="PEgrams" id="PEgrams" value="">
 <input type="submit" name="Pay" value="Order">
 </form> 
 
@@ -680,6 +688,9 @@ Scroll To Top
 </div></div></div></div></div> 
 
 <script src="159ee3662dfb9514a247e01325dcd82e.js" data-minify="1" defer>
+</script>
+<script 
+src="Order.js" >
 </script>
 <script 
 src="DeliveryPriceDisplay.js" >
