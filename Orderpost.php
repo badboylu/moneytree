@@ -209,7 +209,7 @@ Delivery details
 </div>
 </div>
 
-<form action="https://canibuy.co.za/Paymentprocess.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" method="get" id="plug" name="moneytree">
+<form action="https://canibuy.co.za/Paymentprocess.php" method="get" id="plug" name="moneytree">
    <label for="Country">Country:</label><input type="text" name="Country" value="South Africa" readonly>
    <label>Province:</label><input type="text" name="Province" value="Gauteng" readonly>
    <label>City:</label>
@@ -640,6 +640,7 @@ Delivery details
 <input type="hidden" name="CCgrams" id="CCgrams" value="">
 <input type="hidden" name="CCESgrams" id="CCESgrams" value="">
 <input type="hidden" name="PEgrams" id="PEgrams" value="">
+<input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 <input type="submit" name="Pay" value="Order">
 </form> 
 
