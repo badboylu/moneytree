@@ -15,14 +15,9 @@ $nl = $_GET['NLgrams'];
 $cces = $_GET['CCESgrams'];
 $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
-echo $dp;
-echo $oc;
-echo $bw;
-echo $pr;
-echo $nl;
-echo $cces;
-echo $cc;
-echo $pe;
+$address = $_GET['Province']',' $_GET['City']',' $_GET['TownPTA']',' $_GET['suburbsPTAeast']',' $_GET['Crib']',' $_GET['Estate']',' $_GET['Complex']',' $_GET['Building'];
+echo $address;
+
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
