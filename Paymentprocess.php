@@ -1,5 +1,16 @@
 <?php
 $username = 'Test5';
+$authtoken = $_GET['auth'];
+$Confirmedpayment = 'N';
+$DP = $_GET['DPgrams'];
+$OC = $_GET['OCgrans'];
+$BW= $_GET['BWgrams'];
+$PR = $_GET['PRgrams'];
+$NL = $_GET['NLgrams'];
+$CCES = $_GET['CCESgrams'];
+$CC = $_GET['CCgrams'];
+$PE = $_GET['PEgrams'];
+$authtoken = $_GET['auth'];
 
 $sql="INSERT INTO orders (idOrderNumber, idUsers, idOrderDPgrams, idOrderCCbatches, idOrderOCgrams, idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderAddress) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
