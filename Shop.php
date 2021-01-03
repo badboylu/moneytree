@@ -900,7 +900,7 @@ role="main">
 </span> 
 </div>
 </div>
-<div>
+<div class="Added">
 <span>Testing</span>
 </div>
 <div class="basel-shop-loader">
