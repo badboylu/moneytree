@@ -6,7 +6,8 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
 $authtoken = $_GET['auth'];
-echo $authtoken;
+$confirmedpayment = 'N';
+echo $confirmedpayment;
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
