@@ -1,5 +1,17 @@
 <?php
 $username = 'Test5';
+
+$sql="INSERT INTO orders (idOrderNumber, idUsers, idOrderDPgrams, idOrderCCbatches, idOrderOCgrams, idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderAddress) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
+    $stmt=mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:register.php?error=SQL3");
+       exit();
+}
+     $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
+     mysqli_stmt_bind_param($stmt,"sssssssssss",$username,$email,$hashedPwd);
+     mysqli_stmt_execute($stmt);
+     mysqli_stmt_store_result($stmt);
+
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
     $pfOutput = '';
