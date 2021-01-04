@@ -888,6 +888,9 @@ Accessories
 </div>
 </div>
 <div class="container">
+<div class="Added">
+<span>Testing</span>
+</div>
 <div class="row">
 <div 
 class="site-content shop-content-area col-sm-12 content-with-products description-area-before" 
@@ -901,9 +904,7 @@ role="main">
 </span> 
 </div>
 </div>
-<div class="Added">
-<span>Testing</span>
-</div>
+
 <div class="basel-shop-loader">
 </div>
 <div 
