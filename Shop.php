@@ -889,7 +889,7 @@ Accessories
 </div>
 <div class="container">
 <div class="Added">
-<span>Testing</span>
+<span><strong>Item/s added to cart</strong></span>
 </div>
 <div class="row">
 <div 
