@@ -6,6 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
 $authtoken = $_GET['auth'];
+$username = $_GET['username'];
 $confirmedpayment = 'N';
 $dp = $_GET['DPgrams'];
 $oc = $_GET['OCgrans'];
@@ -17,13 +18,13 @@ $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
 $address = 'Testing';
 
-    $sql="INSERT INTO orders (idOrderNumber, idUsers, idOrderDPgrams, idOrderCCbatches, idOrderOCgrams, idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
+    $sql="INSERT INTO orders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.php?error=SQL3");
+       header("Location:Orderpost.php?error=SQL4");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssss",$authtoken,$confirmedpayment,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$address);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiiss",$username,$confirmedpayment,$authtoken);
      mysqli_stmt_execute($stmt);
 
    function generateSignature($data, $passPhrase = null) {
