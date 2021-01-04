@@ -25,7 +25,7 @@ $address = 'Testing';
        header("Location:Orderpost.php?error=SQL4");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiiss",$username,$confirmedpayment,$authtoken);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$confirmedpayment,$authtoken);
      mysqli_stmt_execute($stmt);
 
    function generateSignature($data, $passPhrase = null) {
