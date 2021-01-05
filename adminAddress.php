@@ -4,7 +4,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$query="select * from oders";
+$query="select * from address";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
@@ -147,16 +147,23 @@ $result=mysqli_query($conn,$query);
                                 <th>Date</th>
                                 <th>Time</th>
                                 <th>User</th>
-                                <th>Durban Poison</th>
-                                <th>Orange Cali</th>
-                                <th>Blunt wrap</th>
-                                <th>Pre-rolls</th>
-                                <th>Dabcaps</th>
-                                <th>Norther lights</th>
-                                <th>DabcapsES</th>
-                                <th>Pineapple Express</th>
+                                <th>Province</th>
+                                <th>City</th>
+                                <th>Town</th>
+                                <th>Suburb</th>
+                                <th>Crib</th>
+                                <th>Building</th>
+                                <th>Estate</th>
+                                <th>Complex</th>
+                                <th>Mall</th>
+                                <th>Shop</th>
+                                <th>Street</th>
+                                <th>Unit-Number</th>
+                                <th>House-number</th>
+                                <th>Contact-number</th>
                                 <th>Token</th>
-                                <th>Prep statues</th>
+                                <th>delivery stat</th>
+                          
                             </tr>
                             </thead>
                             <tbody>
