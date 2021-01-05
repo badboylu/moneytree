@@ -145,8 +145,19 @@ $result=mysqli_query($conn,$query);
                             <thead>
                             <tr>
                                 <th>I.D</th>
-                                <th>Username</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>User</th>
                                 <th>Token</th>
+                                <th>Durban Poison</th>
+                                <th>Orange Cali</th>
+                                <th>Blunt wrap</th>
+                                <th>Pre-rolls</th>
+                                <th>Dabcaps</th>
+                                <th>Norther lights</th>
+                                <th>DabcapsES</th>
+                                <th>Pineapple Express</th>
+                                <th>Prep statues</th>
                             </tr>
                             </thead>
                             <tbody>
