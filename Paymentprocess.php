@@ -22,7 +22,7 @@ $pe = $_GET['PEgrams'];
     $sql="INSERT INTO orders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Orderpost.php?error=SQL4");
+       header("Location:delivery.php?error=SQL5");
        exit();
 }
      mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date);
