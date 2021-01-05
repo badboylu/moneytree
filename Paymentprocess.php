@@ -99,7 +99,7 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
 echo'
 <script>
-document.getElementById("form").submit();
+
 </script>';
 
 ?>
