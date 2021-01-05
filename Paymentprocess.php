@@ -18,7 +18,6 @@ $nl = $_GET['NLgrams'];
 $cces = $_GET['CCESgrams'];
 $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
-$address = 'Testing';
 
     $sql="INSERT INTO orders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
@@ -26,7 +25,7 @@ $address = 'Testing';
        header("Location:Orderpost.php?error=SQL4");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$confirmedpayment,$authtoken);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date);
      mysqli_stmt_execute($stmt);
 
    function generateSignature($data, $passPhrase = null) {
