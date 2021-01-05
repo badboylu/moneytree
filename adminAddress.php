@@ -139,7 +139,8 @@ $result=mysqli_query($conn,$query);
                     <div class="card-header">
                         <h5>Database Data</h5>
                     </div>
-                    <div class="card-body vendor-table"  width="100%">
+                    <div class="card-body vendor-table" >
+                        <div>
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
@@ -197,6 +198,7 @@ $result=mysqli_query($conn,$query);
                             <?php } ?>
                             </tbody>
                         </table>
+                      </div>
                     </div>
                 </div>
             </div>
