@@ -20,7 +20,7 @@ $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
 
 $province = $_GET['Province'];
-$city = $_GET['city'];
+$city = $_GET['City'];
 $townpta = $_GET['TownsPTA'];
 $suburb = $_GET['suburbsPTAeast'];
 $street = $_GET['Street'];
