@@ -9,7 +9,7 @@ $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
-$confirmedpayment = 'N';
+$confirmedpayment = 'Pending';
 $dp = $_GET['DPgrams'];
 $oc = $_GET['OCgrams'];
 $bw = $_GET['BWgrams'];
@@ -34,6 +34,17 @@ $shop = $_GET['Shop'];
 $housenumber = $_GET['House-number'];
 $unitnumber = $_GET['Unit-number'];
 $contactnumber = $_GET['Contact-number'];
+
+$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$stmt=mysqli_stmt_init($conn);
+
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:delivery.php?error=SQL6");
+       exit();
+}
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date);
+     mysqli_stmt_execute($stmt);
+     mysqli_stmt_close($stmt);
 
 $sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
