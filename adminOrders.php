@@ -148,7 +148,6 @@ $result=mysqli_query($conn,$query);
                                 <th>Date</th>
                                 <th>Time</th>
                                 <th>User</th>
-                                <th>Token</th>
                                 <th>Durban Poison</th>
                                 <th>Orange Cali</th>
                                 <th>Blunt wrap</th>
@@ -157,6 +156,7 @@ $result=mysqli_query($conn,$query);
                                 <th>Norther lights</th>
                                 <th>DabcapsES</th>
                                 <th>Pineapple Express</th>
+                                <th>Token</th>
                                 <th>Prep statues</th>
                             </tr>
                             </thead>
@@ -170,7 +170,6 @@ $result=mysqli_query($conn,$query);
                                 <td><?php echo $rows['idOrderDate']; ?></td>
                                 <td><?php echo $rows['idOrderTime']; ?> </td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderToken']; ?></td>
                                 <td><?php echo $rows['idOrderDPgrams']; ?></td>
                                 <td><?php echo $rows['idOrderOCgrams']; ?> </td>
                                 <td><?php echo $rows['idOrderBWgrams']; ?></td>
@@ -179,6 +178,7 @@ $result=mysqli_query($conn,$query);
                                 <td><?php echo $rows['idOrderNLgrams']; ?></td>
                                 <td><?php echo $rows['idOrderCCESbatches']; ?></td>
                                 <td><?php echo $rows['idOrderPEgrams']; ?></td>
+                                <td><?php echo $rows['idOrderToken']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
 
                             </tr>
