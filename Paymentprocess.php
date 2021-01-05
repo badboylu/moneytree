@@ -1,9 +1,9 @@
 <?php
-   $servername="us-cdbr-east-02.cleardb.com";
-   $dBUsername="b7fcd41c893d7a";
-   $dBPassword="1e8f896b7da9e41";
-   $dBName="heroku_61db5a5cdc2dfd8";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$servername="us-cdbr-east-02.cleardb.com";
+$dBUsername="b7fcd41c893d7a";
+$dBPassword="1e8f896b7da9e41";
+$dBName="heroku_61db5a5cdc2dfd8";
+$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $date = date("Y-m-d");
 $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
@@ -19,10 +19,11 @@ $cces = $_GET['CCESgrams'];
 $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
 
-    $sql="INSERT INTO orders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
-    $stmt=mysqli_stmt_init($conn);
+$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$stmt=mysqli_stmt_init($conn);
+
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:delivery.php?error=SQL5");
+       header("Location:delivery.php?error=SQL6");
        exit();
 }
      mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date);
