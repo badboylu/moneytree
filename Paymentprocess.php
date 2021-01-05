@@ -50,10 +50,10 @@ $sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,i
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:delivery.php?error=SQL6");
+       header("Location:delivery.php?error=SQL7");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date);
+     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$townpta,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
