@@ -134,7 +134,7 @@ $result=mysqli_query($conn,$query);
             <!-- Container-fluid Ends-->
 
             <!-- Container-fluid starts-->
-            <div class="container-fluid" width="4000px">
+            <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
                         <h5>Database Data</h5>
