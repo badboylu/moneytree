@@ -172,19 +172,25 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idOrders']; ?> </td>
-                                <td><?php echo $rows['idOrderDate']; ?></td>
-                                <td><?php echo $rows['idOrderTime']; ?> </td>
-                                <td><?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderDPgrams']; ?></td>
-                                <td><?php echo $rows['idOrderOCgrams']; ?> </td>
-                                <td><?php echo $rows['idOrderBWgrams']; ?></td>
-                                <td><?php echo $rows['idOrderPRjays']; ?></td>
-                                <td><?php echo $rows['idOrderCCbatches']; ?> </td>
-                                <td><?php echo $rows['idOrderNLgrams']; ?></td>
-                                <td><?php echo $rows['idOrderCCESbatches']; ?></td>
-                                <td><?php echo $rows['idOrderPEgrams']; ?></td>
-                                <td><?php echo $rows['idOrderToken']; ?></td>
+                                <td><?php echo $rows['idUser']; ?> </td>
+                                <td><?php echo $rows['idDate']; ?></td>
+                                <td><?php echo $rows['idTime']; ?> </td>
+                                <td><?php echo $rows['idUsername']; ?></td>
+                                <td><?php echo $rows['idProvince']; ?></td>
+                                <td><?php echo $rows['idCity']; ?> </td>
+                                <td><?php echo $rows['idTown']; ?></td>
+                                <td><?php echo $rows['idSuburb']; ?></td>
+                                <td><?php echo $rows['idCrib']; ?> </td>
+                                <td><?php echo $rows['idBuilding']; ?></td>
+                                <td><?php echo $rows['idEstate']; ?></td>
+                                <td><?php echo $rows['idComplex']; ?></td>
+                                <td><?php echo $rows['idMall']; ?></td>
+                                <td><?php echo $rows['idShop']; ?></td>
+                                <td><?php echo $rows['idStreet']; ?></td>
+                                <td><?php echo $rows['idUnitNumber']; ?> </td>
+                                <td><?php echo $rows['idHouseNumber']; ?></td>
+                                <td><?php echo $rows['idContactNumber']; ?></td>
+                                <td><?php echo $rows['idToken']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
 
                             </tr>
