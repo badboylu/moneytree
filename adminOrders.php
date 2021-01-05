@@ -166,7 +166,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['id']; ?> </td>
+                                <td><?php echo $rows['idOrders']; ?> </td>
                                 <td><?php echo $rows['idOrderDate']; ?></td>
                                 <td><?php echo $rows['idOrderTime']; ?> </td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
