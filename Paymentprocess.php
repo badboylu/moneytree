@@ -6,6 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $date = date("Y-m-d");
 $time = date("H:i:s");
+date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
 $confirmedpayment = 'N';
