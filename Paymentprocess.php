@@ -19,6 +19,22 @@ $cces = $_GET['CCESgrams'];
 $cc = $_GET['CCgrams'];
 $pe = $_GET['PEgrams'];
 
+$province = $_GET['DPgrams'];
+$city = $_GET['OCgrams'];
+$town = $_GET['BWgrams'];
+$suburb = $_GET['PRgrams'];
+$street = $_GET['NLgrams'];
+$structure = $_GET['CCESgrams'];
+$mall = $_GET['CCgrams'];
+$building = $_GET['PEgrams'];
+$estate = $_GET['CCgrams'];
+$complex = $_GET['PEgrams'];
+$Shoppingcomplex = $_GET['CCgrams'];
+$company = $_GET['PEgrams'];
+$shop = $_GET['CCgrams'];
+$housenumber = $_GET['PEgrams'];
+$unitnumber = $_GET['PEgrams'];
+
 $sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
