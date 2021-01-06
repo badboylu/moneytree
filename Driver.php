@@ -117,7 +117,7 @@ $result=mysqli_query($conn,$query);
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3>Canibuy delivery
-                                    <small>Orders</small>
+                                    <small>Delivery management</small>
                                 </h3>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order</h5>
+                        <h5>Order collection protocol</h5>
                     </div>
                     <div class="card-body vendor-table" >
                         <div>
