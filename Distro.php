@@ -13,7 +13,7 @@ $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
 $row = mysqli_fetch_array($finalresult);
-print_r($row['idOrders']);
+
 ?>
 <html lang="en">
 <head>
@@ -148,6 +148,7 @@ print_r($row['idOrders']);
                         <h5>Order to prepare</h5>
                     </div>
                     <div class="card-body vendor-table" >
+<?php print_r($row['idOrders']); ?>
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
