@@ -13,7 +13,7 @@ $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
 $row = mysqli_fetch_array($finalresult);
-$count=mysqli_num_rows($finalresult);
+$count=mysqli_num_rows($result);
 ?>
 <html lang="en">
 <head>
@@ -133,7 +133,7 @@ $count=mysqli_num_rows($finalresult);
                             <ol class="breadcrumb pull-right">
                                 <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
                                 <li class="breadcrumb-item">Orders</li>
-                                <li class="breadcrumb-item active">Pending orders:<?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
                             </ol>
                         </div>
                     </div>
