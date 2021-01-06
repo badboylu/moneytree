@@ -13,7 +13,6 @@ $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
 $row = mysqli_fetch_array($finalresult);
-
 ?>
 <html lang="en">
 <head>
@@ -152,7 +151,7 @@ $row = mysqli_fetch_array($finalresult);
                          <br>
                          <strong><span>Order number:</span></strong>
                          <br>
-                         <strong><span>Durban Poison:<?php print_r($row['idOrders']); ?></span></strong>
+                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
