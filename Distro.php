@@ -159,7 +159,23 @@ $row = mysqli_fetch_array($finalresult);
                          <br>
                          <br>
                          <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
-
+                         <br>
+                         <br>
+                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
+                         <br>
+                         <br>
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
