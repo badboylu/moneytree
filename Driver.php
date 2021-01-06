@@ -1,7 +1,13 @@
-<!DOCTYPE html>
+<?php
+$servername="us-cdbr-east-02.cleardb.com";
+$dBUsername="b7fcd41c893d7a";
+$dBPassword="1e8f896b7da9e41";
+$dBName="heroku_61db5a5cdc2dfd8";
+$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$query="select * from address";
+$result=mysqli_query($conn,$query);
+?>
 <html lang="en">
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:27 GMT -->
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -12,7 +18,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>admin drivers</title>
+    <title>Admin</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -82,7 +88,7 @@
                             <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Driver</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Distros</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Distributors</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
                             <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Distro List</a></li>
                             <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Distro</a></li>
@@ -99,78 +105,7 @@
         <!-- Page Sidebar Ends-->
 
         <!-- Right sidebar Start-->
-        <div class="right-sidebar" id="right_side_bar">
-            <div>
-                <div class="container p-0">
-                    <div class="modal-header p-l-20 p-r-20">
-                        <div class="col-sm-8 p-0">
-                            <h6 class="modal-title font-weight-bold">FRIEND LIST</h6>
-                        </div>
-                        <div class="col-sm-4 text-right p-0"><i class="mr-2" data-feather="settings"></i></div>
-                    </div>
-                </div>
-                <div class="friend-list-search mt-0">
-                    <input type="text" placeholder="search friend"><i class="fa fa-search"></i>
-                </div>
-                <div class="p-l-30 p-r-30">
-                    <div class="chat-box">
-                        <div class="people-list friend-list">
-                            <ul class="list">
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/user.png" alt="">
-                                    <div class="status-circle online"></div>
-                                    <div class="about">
-                                        <div class="name">Vincent Porter</div>
-                                        <div class="status"> Online</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/user1.jpg" alt="">
-                                    <div class="status-circle away"></div>
-                                    <div class="about">
-                                        <div class="name">Ain Chavez</div>
-                                        <div class="status"> 28 minutes ago</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/user2.jpg" alt="">
-                                    <div class="status-circle online"></div>
-                                    <div class="about">
-                                        <div class="name">Kori Thomas</div>
-                                        <div class="status"> Online</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/user3.jpg" alt="">
-                                    <div class="status-circle online"></div>
-                                    <div class="about">
-                                        <div class="name">Erica Hughes</div>
-                                        <div class="status"> Online</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/man.png" alt="">
-                                    <div class="status-circle offline"></div>
-                                    <div class="about">
-                                        <div class="name">Ginger Johnston</div>
-                                        <div class="status"> 2 minutes ago</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/user5.jpg" alt="">
-                                    <div class="status-circle away"></div>
-                                    <div class="about">
-                                        <div class="name">Prasanth Anand</div>
-                                        <div class="status"> 2 hour ago</div>
-                                    </div>
-                                </li>
-                                <li class="clearfix"><img class="rounded-circle user-image blur-up lazyloaded" src="../assets/images/dashboard/designer.jpg" alt="">
-                                    <div class="status-circle online"></div>
-                                    <div class="about">
-                                        <div class="name">Hileri Jecno</div>
-                                        <div class="status"> Online</div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Right sidebar Ends-->
 
         <div class="page-body">
@@ -181,16 +116,16 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Driver List
-                                    <small>Driver Admin panel</small>
+                                <h3>Canibuy database
+                                    <small>Database details</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="index.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Drivers</li>
-                                <li class="breadcrumb-item active">Driver List</li>
+                                <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
+                                <li class="breadcrumb-item">Order database</li>
+                                <li class="breadcrumb-item active"> Data</li>
                             </ol>
                         </div>
                     </div>
@@ -199,218 +134,15 @@
             <!-- Container-fluid Ends-->
 
             <!-- Container-fluid starts-->
-            <div class="container-fluid">
+            <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Vendor Details</h5>
+                        <h5>Database Data</h5>
                     </div>
-                    <div class="card-body vendor-table">
-                        <table class="display" id="basic-1">
-                            <thead>
-                            <tr>
-                                <th>Driver</th>
-                                <th>Completed deliveries</th>
-                                <th>Parcels grabbed</th>
-                                <th>Registration Date</th>
-                                <th>Online Balance</th>
-                                <th>Cash collected</th>
-                                <th>Action</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/team/2.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Petey Cruiser</span>
-                                    </div>
-                                </td>
-                                <td>1670</td>
-                                <td>Warephase</td>
-                                <td>8/10/18</td>
-                                <td>$576132</td>
-                                <td>$9761266</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/user5.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Rowan torres</span>
-                                    </div>
-                                </td>
-                                <td>790</td>
-                                <td>Sunnamplex</td>
-                                <td>5/6/18</td>
-                                <td>$87610</td>
-                                <td>$631479</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/boy-2.png" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Gray Brody</span>
-                                    </div>
-                                </td>
-                                <td>579</td>
-                                <td>Conecom</td>
-                                <td>25/2/18</td>
-                                <td>$245508</td>
-                                <td>$1279520</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/user.png" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Lane Skylar</span>
-                                    </div>
-                                </td>
-                                <td>8972</td>
-                                <td>Golddex</td>
-                                <td>30/3/18</td>
-                                <td>$7812483</td>
-                                <td>$8761424</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/designer.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Colton Clay</span>
-                                    </div>
-                                </td>
-                                <td>9710</td>
-                                <td>Green-Plus</td>
-                                <td>6/5/18</td>
-                                <td>$780250</td>
-                                <td>$8793611</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/user2.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Woters maxine</span>
-                                    </div>
-                                </td>
-                                <td>680</td>
-                                <td>Kan-code</td>
-                                <td>15/4/18</td>
-                                <td>$27910</td>
-                                <td>$579214</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/user1.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Lane Skylar</span>
-                                    </div>
-                                </td>
-                                <td>8678</td>
-                                <td>Plexzap</td>
-                                <td>4/8/18</td>
-                                <td>$89340</td>
-                                <td>$10285255</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/dashboard/user3.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Perez Alonzo</span>
-                                    </div>
-                                </td>
-                                <td>3476</td>
-                                <td>Betatech</td>
-                                <td>17/9/18</td>
-                                <td>$32451</td>
-                                <td>$647212</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/team/3.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Anna Mull</span>
-                                    </div>
-                                </td>
-                                <td>1670</td>
-                                <td>Zotware</td>
-                                <td>8/10/18</td>
-                                <td>$576132</td>
-                                <td>$9761266</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-flex vendor-list">
-                                        <img src="../assets/images/team/1.jpg" alt="" class="img-fluid img-40 rounded-circle blur-up lazyloaded">
-                                        <span>Paige Turner</span>
-                                    </div>
-                                </td>
-                                <td>4680</td>
-                                <td>Finhigh</td>
-                                <td>11/7/18</td>
-                                <td>$87616</td>
-                                <td>$947611</td>
-                                <td>
-                                    <div>
-                                        <i class="fa fa-edit mr-2 font-success"></i>
-                                        <i class="fa fa-trash font-danger"></i>
-                                    </div>
-                                </td>
-                            </tr>
-
-                            </tbody>
-                        </table>
+                    <div class="card-body vendor-table" >
+                        <div>
+                        
+                      </div>
                     </div>
                 </div>
             </div>
@@ -423,8 +155,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 © Plug Tech Creations.</p>
+                        <p class="mb-0">Copyright 2020 Plug Tech Creations.</p>
                     </div>
+                   
                 </div>
             </div>
         </footer>
