@@ -141,9 +141,11 @@ $result=mysqli_query($conn,$query);
                     </div>
                     <div class="card-body vendor-table" >
                         <div>
+                        <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
 			Recieve order
 		        </button>
+                        </a>
                       </div>
                     </div>
                 </div>
