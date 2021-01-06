@@ -12,7 +12,7 @@ while($row=mysqli_fetch_array($result)){
 $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
-print_r($final);
+print_r($finalresult);
 ?>
 <html lang="en">
 <head>
