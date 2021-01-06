@@ -151,7 +151,15 @@ $row = mysqli_fetch_array($finalresult);
                          <br>
                          <strong><span>Order number:</span></strong>
                          <br>
+                         <br>
                          <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
+
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
