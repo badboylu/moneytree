@@ -149,6 +149,8 @@ $row = mysqli_fetch_array($finalresult);
                     </div>
                     <div class="card-body vendor-table" >
 <?php print_r($row['idOrders']); ?>
+                         <br>
+                         <strong><span>Order number:</span></strong>
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
