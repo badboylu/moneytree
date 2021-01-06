@@ -18,7 +18,7 @@ $result=mysqli_query($conn,$query);
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Delivery Agent</title>
+    <title>Distribution Agent</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -137,13 +137,13 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order collection protocol</h5>
+                        <h5>Order to prepare</h5>
                     </div>
                     <div class="card-body vendor-table" >
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
-			Recieve order
+			Finished
 		        </button>
                         </a>
                       </div>
