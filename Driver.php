@@ -141,7 +141,9 @@ $result=mysqli_query($conn,$query);
                     </div>
                     <div class="card-body vendor-table" >
                         <div>
-                        
+                        <button class="receive" id="receive">
+			add to cart
+		        </button>
                       </div>
                     </div>
                 </div>
