@@ -161,16 +161,16 @@ $row = mysqli_fetch_array($finalresult);
                          <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
                          <br>
                          <br>
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCgrams']); ?> grams</span>
+                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> grams</span>
                          <br>
                          <br>
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRgrams']); ?> grams</span>
+                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> grams</span>
                          <br>
                          <br>
                          <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
                          <br>
                          <br>
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESgrams']); ?> grams</span>
+                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> grams</span>
                          <br>
                          <br>
                          <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
