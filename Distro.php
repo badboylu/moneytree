@@ -13,7 +13,7 @@ $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
 $row = mysqli_fetch_array($finalresult);
-print_r($row);
+print_r($row['idOders']);
 ?>
 <html lang="en">
 <head>
