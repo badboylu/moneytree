@@ -9,7 +9,8 @@ $result=mysqli_query($conn,$query);
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
-print_r($ordernumbers);
+$order=Min($ordernumbers);
+print_r($order);
 ?>
 <html lang="en">
 <head>
