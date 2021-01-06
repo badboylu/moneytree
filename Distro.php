@@ -10,7 +10,7 @@ while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
 $order=Min($ordernumbers);
-$final="SELECT * FROM oders WHERE idOrders=".$order";
+$final="SELECT * FROM oders WHERE idOrders=".$order;
 print_r($final);
 ?>
 <html lang="en">
