@@ -18,7 +18,7 @@ $result=mysqli_query($conn,$query);
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Admin</title>
+    <title>Delivery Agent</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -73,7 +73,7 @@ $result=mysqli_query($conn,$query);
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14">Lunga M</h6>
-                    <p>Site owner</p>
+                    <p>Delivery Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="indexAdmin.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -116,16 +116,16 @@ $result=mysqli_query($conn,$query);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy database
-                                    <small>Database details</small>
+                                <h3>Canibuy delivery
+                                    <small>Orders</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
                                 <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Order database</li>
-                                <li class="breadcrumb-item active"> Data</li>
+                                <li class="breadcrumb-item">Orders</li>
+                                <li class="breadcrumb-item active">(Pending orders:)</li>
                             </ol>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Database Data</h5>
+                        <h5>Order</h5>
                     </div>
                     <div class="card-body vendor-table" >
                         <div>
