@@ -250,9 +250,18 @@ var NL = <?php echo $row['idOrderNLgrams']?>;
 var PE = <?php echo $row['idOrderPEgrams']?>;
 
 function hideOrder(){
-
+if(DP = '0'){
+   document.getElementById("hideDP").style.display = "none";
+ }
+else{
+  document.getElementById("hideDP").style.display = "block";
+ }
+}
 if(CC = '0'){
    document.getElementById("hideCC").style.display = "none";
+ }
+else{
+  document.getElementById("hideCC").style.display = "block";
  }
 if(OC = '0'){
    document.getElementById("hideOC").style.display = "none";
@@ -271,7 +280,10 @@ if(NL = '0'){
  }
 if(PE = '0'){
    document.getElementById("hidePE").style.display = "none";
- }
+}
+else{
+
+}
 
 }
 hideOrder();
