@@ -11,8 +11,16 @@ while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
 $order=Min($ordernumbers);
-$sql="UPDATE oders SET idOrderConfirmation = Prepared WHERE idOrders=".$order";";
-$Update=mysqli_query($conn,$sql);
+$sql="UPDATE oders SET idOrderConfirmation = ? WHERE idOrders=? ;";
+$stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:Signin.php?error=sqlerror123");
+    exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"ss",$orderready,$order);
+ mysqli_stmt_execute($stmt);
  
     header("Location:Distro.php?Prep=successful"."&auth=".$token."&username=".$uid);
     exit();
