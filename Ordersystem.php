@@ -6,7 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$OrderReady="Prepared";
+$orderready="Prepared";
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
@@ -17,7 +17,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     header("Location:Distro.php?error=sqlerror777");
     exit();
  }
- mysqli_stmt_bind_param($stmt,"s",$OrderReady);
+ mysqli_stmt_bind_param($stmt,"s",$orderready);
  mysqli_stmt_execute($stmt);
  
     header("Location:Distro.php?Prep=successful"."&auth=".$token."&username=".$uid);
