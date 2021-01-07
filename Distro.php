@@ -255,7 +255,7 @@ if(DP = 0){
 if(CC = 0){
    document.getElementById("hideCC").style.display = "none";
  }
-if(OC = 0){
+if(OC = '0'){
    document.getElementById("hideOC").style.display = "none";
  }
 }
