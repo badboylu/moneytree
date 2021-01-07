@@ -84,14 +84,14 @@ $count=mysqli_num_rows($result);
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Prep history</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Earnings</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="order.html"><i class="fa fa-circle"></i>Orders prepared</a></li>
+                            <li><a href="order.html"><i class="fa fa-circle"></i>Earning history</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Earnings</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Prep history</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Earning history</a></li>
+                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Orders prepared</a></li>
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Canceled orders</span><i class="fa fa-angle-right pull-right"></i></a>
