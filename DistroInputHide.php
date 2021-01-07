@@ -9,3 +9,8 @@ $result=mysqli_query($conn,$query);
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
+$order=Min($ordernumbers);
+$final="SELECT * FROM oders WHERE idOrders=".$order;
+$finalresult=mysqli_query($conn,$final);
+$row = mysqli_fetch_array($finalresult);
+?>
