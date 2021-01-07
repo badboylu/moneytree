@@ -177,7 +177,6 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         </div>
                         <div>
                         <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
                         <button class="receive" id="receive">
