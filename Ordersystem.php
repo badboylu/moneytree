@@ -11,14 +11,8 @@ while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
 $order=Min($ordernumbers);
-$sql="INSERT INTO oders (idOrderConfirmation) WHERE idOrders=".$order" VALUES (?);";
-    $stmt= mysqli_stmt_init($conn);
-if(!mysqli_stmt_prepare($stmt, $sql)){
-    header("Location:Distro.php?error=sqlerror777");
-    exit();
- }
- mysqli_stmt_bind_param($stmt,"s",$orderready);
- mysqli_stmt_execute($stmt);
+$sql="UPDATE oders SET idOrderConfirmation = Prepared WHERE idOrders=".$order";";
+$Update=mysqli_query($conn,$sql);
  
     header("Location:Distro.php?Prep=successful"."&auth=".$token."&username=".$uid);
     exit();
