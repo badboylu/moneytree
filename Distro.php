@@ -118,8 +118,6 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Orders</li>
                                 <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
                             </ol>
                         </div>
