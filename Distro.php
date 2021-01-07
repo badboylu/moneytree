@@ -84,26 +84,22 @@ $count=mysqli_num_rows($result);
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="indexAdmin.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Sales</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Prep history</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="order.html"><i class="fa fa-circle"></i>Orders</a></li>
+                            <li><a href="order.html"><i class="fa fa-circle"></i>Orders prepared</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Drivers</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Earnings</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Drivers List</a></li>
-                            <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Driver</a></li>
+                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Earning history</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Distributors</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Canceled orders</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Distro List</a></li>
-                            <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Distro</a></li>
+                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Order List</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    <li><a class="sidebar-header" href="invoice.html"><i data-feather="archive"></i><span>Invoice</span></a>
+                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Performance report</span></a></li>
                     </li>
                     <li><a class="sidebar-header" href="logout.html"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
