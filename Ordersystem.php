@@ -20,5 +20,5 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"s",$OrderReady);
  mysqli_stmt_execute($stmt);
  
-    header("Location:Distro.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:Distro.php?Prep=successful"."&auth=".$token."&username=".$uid);
     exit();
