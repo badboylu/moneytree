@@ -238,6 +238,26 @@ $count=mysqli_num_rows($result);
 <!--script admin-->
 <script src="admin-script.js"></script>
 
+<script>
+var DB = <?php echo $row['idOrderDBgrams'] ?>;
+var CC = <?php echo $row['idOrderCCbatches']?>;
+var OC = <?php echo $row['idOrderOCgrams']?>;
+var BW = <?php echo $row['idOrderBWgrams']?>;
+var PR = <?php echo $row['idOrderPRjays']?>;
+var CCES = <?php echo $row['idOrderCCESbatches']?>;
+var NL = <?php echo $row['idOrderNLgrams']?>;
+var PE = <?php echo $row['idOrderPEgrams']?>;
+
+if(DB = 0){
+   document.getElementById("hideDP").style.display = "none";
+}
+if(CC = 0){
+   document.getElementById("hideCC").style.display = "none";
+}
+if(OC = 0){
+   document.getElementById("hideOC").style.display = "none";
+}
+</script>
 </body>
 
 <!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
