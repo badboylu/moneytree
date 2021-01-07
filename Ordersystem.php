@@ -6,12 +6,12 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$orderready="Prepared";
+$orderready='Prepared';
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
 $order=Min($ordernumbers);
-$sql="UPDATE address SET idOrderConfirmation = ? WHERE idOrders=? ;";
+$sql="UPDATE oders SET idOrderConfirmation=? WHERE idOrders=?";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
