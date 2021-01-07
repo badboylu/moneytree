@@ -24,6 +24,7 @@ var CCES = <?php echo $row['idOrderCCESbatches']?>;
 var NL = <?php echo $row['idOrderNLgrams']?>;
 var PE = <?php echo $row['idOrderPEgrams']?>;
 
+function hideOrder(){
 if(DB = 0){
    document.getElementById("hideDP").style.display = "none";
 }
@@ -33,4 +34,7 @@ if(CC = 0){
 if(OC = 0){
    document.getElementById("hideOC").style.display = "none";
 }
+}
+ 
+hideOrder();
 </script>
