@@ -239,6 +239,8 @@ $count=mysqli_num_rows($result);
 <script src="admin-script.js"></script>
 
 <script>
+function hideOrder(){
+	
 var DP = <?php echo $row['idOrderDPgrams'] ?>;
 var CC = <?php echo $row['idOrderCCbatches']?>;
 var OC = <?php echo $row['idOrderOCgrams']?>;
@@ -247,20 +249,12 @@ var PR = <?php echo $row['idOrderPRjays']?>;
 var CCES = <?php echo $row['idOrderCCESbatches']?>;
 var NL = <?php echo $row['idOrderNLgrams']?>;
 var PE = <?php echo $row['idOrderPEgrams']?>;
-
-function hideOrder(){
+	
 if(DP = '0'){
    document.getElementById("hideDP").style.display = "none";
  }
-else{
-  document.getElementById("hideDP").style.display = "block";
- }
-}
 if(CC = '0'){
    document.getElementById("hideCC").style.display = "none";
- }
-else{
-  document.getElementById("hideCC").style.display = "block";
  }
 if(OC = '0'){
    document.getElementById("hideOC").style.display = "none";
@@ -280,9 +274,7 @@ if(NL = '0'){
 if(PE = '0'){
    document.getElementById("hidePE").style.display = "none";
 }
-else{
 
-}
 
 }
 hideOrder();
