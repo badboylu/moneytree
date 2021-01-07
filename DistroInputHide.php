@@ -14,3 +14,23 @@ $final="SELECT * FROM oders WHERE idOrders=".$order;
 $finalresult=mysqli_query($conn,$final);
 $row = mysqli_fetch_array($finalresult);
 ?>
+<script>
+var DB = <?php echo $row['idOrderDBgrams'] ?>;
+var CC = <?php echo $row['idOrderCCbatches']?>;
+var OC = <?php echo $row['idOrderOCgrams']?>;
+var BW = <?php echo $row['idOrderBWgrams']?>;
+var PR = <?php echo $row['idOrderPRjays']?>;
+var CCES = <?php echo $row['idOrderCCESbatches']?>;
+var NL = <?php echo $row['idOrderNLgrams']?>;
+var PE = <?php echo $row['idOrderPEgrams']?>;
+
+if(DB = 0){
+   document.getElementById("hideDP").style.display = "none";
+}
+if(CC = 0){
+   document.getElementById("hideCC").style.display = "none";
+}
+if(OC = 0){
+   document.getElementById("hideOC").style.display = "none";
+}
+</script>
