@@ -12,7 +12,7 @@ if($count>1){
  $ordernumbers[]=$row['idUser'];
   }
  $order=Min($ordernumbers);
- $final="SELECT * FROM oders WHERE idOrders=".$order;
+ $final="SELECT * FROM address WHERE idUser=".$order;
  $finalresult=mysqli_query($conn,$final);
  $row = mysqli_fetch_array($finalresult);
 }
