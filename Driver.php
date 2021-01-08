@@ -208,7 +208,7 @@ else{
                          <br>
                          </div>
                          <div id="hideHouse">
-                         <strong><span>Estate name:</strong><span> </span><?php print_r($row['idHouseNumber']); ?></span>
+                         <strong><span>House-number:</strong><span> </span><?php print_r($row['idHouseNumber']); ?></span>
                          <br>
                          <br>
                          </div>
