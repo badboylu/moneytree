@@ -8,12 +8,13 @@ $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
 if($count>1){
- while($row=mysqli_fetch_array($result);){
-  $firstorder=min($row['idOrders']);
-  $sql="SELECT * FROM oders WHERE idOrders=".$firstorder";
-  $finalresult=mysqli_query($conn,$sql);
-  $row=mysqli_fetch_array($finalresult);
- }
+ while($row=mysqli_fetch_array($result)){
+ $ordernumbers[]=$row['idOrders'];
+  }
+ $order=Min($ordernumbers);
+ $final="SELECT * FROM oders WHERE idOrders=".$order;
+ $finalresult=mysqli_query($conn,$final);
+ $row = mysqli_fetch_array($finalresult);
 }
 else if($count>0){
  $row=mysqli_fetch_array($result);
