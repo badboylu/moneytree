@@ -274,7 +274,7 @@ else{
 <script>
 function hideOrder(){
 
- var crib = <?php echo $row['idCrib'] ?>;
+ var crib = <?php print_r($row['idCrib']); ?>;
  
  if(crib == 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
