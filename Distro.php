@@ -19,7 +19,7 @@ if($count>1){
 else if($count>0){
  $row=mysqli_fetch_array($result);
 }
-else if($count<0){
+else{
   header("Location:D1.php");
   exit();
 }
