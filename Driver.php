@@ -272,6 +272,8 @@ function hideOrder1(){
    var mallhide = '<?php print_r($row['idCrib']); ?>';
    if(mallhide == 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
+   document.getElementById("hideEstate").style.display = "none";
+   document.getElementById("hideComplex").style.display = "none";
    }
 }
 hideOrder1();
