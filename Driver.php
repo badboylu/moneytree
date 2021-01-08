@@ -209,7 +209,7 @@ else{
                          <br>
                          </div>
                          <form action="Ordersystemdelivery.php" method="post" id="form">
-                         <input type="submit" name="Delivered" value="Deliver" id="Blanks" "/>
+                         <input type="submit" name="Delivered" value="Request call" id="Blanks" "/>
                          </form>
                         
                     </div>
