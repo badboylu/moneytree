@@ -176,13 +176,9 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                        <div>
-                        <a href="Nextdelivery.php">
-                        <button class="receive" id="receive">
-			Next order
-		        </button>
-                        </a>
-                      </div>
+                         <form action="Ordersystemdelivery.php" method="post" id="form">
+                         <input type="submit" name="Delivered" value="Delivered" id="Blanks" "/>
+                         </form>
                     </div>
                 </div>
             </div>
