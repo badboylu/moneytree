@@ -213,8 +213,8 @@ else{
                          <br>
                          </div>
                          <form action="Ordersystemdelivery.php" method="post" id="form">
-                         <label>Delivery code:<span> </span></label><input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
-                         <input type="submit" name="Delivered" value="Delivered1" id="Blanks" "/>
+                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
+                         <input type="submit" name="Delivered" value="Delivered" id="Blanks" "/>
                          </form>
                         
                     </div>
