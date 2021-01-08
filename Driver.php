@@ -282,7 +282,7 @@ function hideOrder(){
  var estate = <?php echo $row['idEstate']?>;
  var complex = <?php echo $row['idComplex']?>;
  
-if(building == null){
+if(building == 'null'){
    document.getElementById("hideBuilding").style.display = "none";
  }
 if(mall == null){
