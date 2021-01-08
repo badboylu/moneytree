@@ -269,10 +269,10 @@ else{
 
 <script>
 function hideOrder1(){
- var crib = <?php echo $row['idCrib'] ?>;
- if(crib == Mall){
+ 
+ 
    document.getElementById("hideBuilding").style.display = "none";
- }
+ 
 }
 hideOrder1();
 </script>
