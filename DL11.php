@@ -157,18 +157,18 @@ $count=mysqli_num_rows($result);
                          <br>
                          </div>
                          <div id="hideStreet">
-                         <strong><span>Street name:</strong><span> </span><?php print_r($row['idStreet']); ?></span>
+                         <strong><span>Street name:</strong><span> </span>Ryk Street</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideHouse">
-                         <strong><span>House-number:</strong><span> </span><?php print_r($row['idHouseNumber']); ?></span>
+                         <strong><span>House-number:</strong><span> </span>13</span>
                          <br>
                          <br>
                          </div>
                          <form action="Ordersystemdelivery.php" method="post" id="form">
-                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter code here" required>
-                         <input type="submit" name="Delivered" value="Delivered" id="Blanks" "/>
+                         <label><strong>Collection code 1: </strong></label> <span> </span> @ type="text" name="Shop" placeholder="Enter code here" required>
+                         <input type="submit" name="Receive" value="Recieve" id="Blanks" "/>
                          </form>
                     </div>
                 </div>
