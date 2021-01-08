@@ -276,7 +276,7 @@ function hideOrder(){
 
  var crib = <?php echo $row['idCrib'] ?>;
  
-if(crib = 'Mall'){
+if(crib == 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
  }
 if(mall == null){
