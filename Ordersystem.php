@@ -13,5 +13,5 @@ while($row=mysqli_fetch_array($result)){
 $order=Min($ordernumbers);
 $sql="UPDATE oders SET idOrderConfirmation='".$orderready."' WHERE idOrders='".$order."'";
 $ready=mysqli_query($conn,$sql);
-    header("Location:Next.php");
+    header("Location:D1.php");
     exit();
