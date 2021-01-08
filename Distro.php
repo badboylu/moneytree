@@ -187,7 +187,7 @@ else if($count<0){
                          <br>
                          </div>
                         <div>
-                        <a href="Ordersystem.php">
+                        <a href="Next.php">
                         <button class="receive" id="receive">
 			Finished
 		        </button>
