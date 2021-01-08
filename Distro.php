@@ -6,10 +6,11 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$row=mysqli_fetch_array($result);
-if($row){
-while($row=mysqli_fetch_array($result)){
- $ordernumbers[]=$row['idOrders'];
+$row1=mysqli_fetch_array($result);
+$count=mysqli_num_rows($result);
+if($count>0){
+while($row1)){
+ $ordernumbers[]=$row1['idOrders'];
 }
 $order=Min($ordernumbers);
 $final="SELECT * FROM oders WHERE idOrders=".$order;
