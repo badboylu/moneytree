@@ -251,15 +251,30 @@ else{
 <script>
 function hideOrder(){
 
-   document.getElementById("hideProvince").style.display = "none";
-   document.getElementById("hideCity").style.display = "none";
-   document.getElementById("hideTown").style.display = "none";
-   document.getElementById("hideSuburb").style.display = "none";
+   if(DP == 0){
+   document.getElementById("hideDP").style.display = "none";
+ }
+if(CC == 0){
+   document.getElementById("hideCC").style.display = "none";
+ }
+if(OC == 0){
+   document.getElementById("hideOC").style.display = "none";
+ }
+if(BW == 0){
+   document.getElementById("hideBW").style.display = "none";
+ }
+if(PR == 0){
    document.getElementById("hidePR").style.display = "none";
+ }
+if(CCES == 0){
    document.getElementById("hideCCES").style.display = "none";
+ }
+if(NL == 0){
    document.getElementById("hideNL").style.display = "none";
+ }
+if(PE == 0){
    document.getElementById("hidePE").style.display = "none";
-
+}
 }
 hideOrder();
 </script>
