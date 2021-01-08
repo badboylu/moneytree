@@ -11,6 +11,10 @@ $count=mysqli_num_rows($result);
          header("Location:Distro.php");
          exit();
    }
+  else{
+  header("Location:D1.php");
+  exit();
+}
 ?>
 <html lang="en">
 <head>
