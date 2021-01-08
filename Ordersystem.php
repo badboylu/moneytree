@@ -13,5 +13,5 @@ while($row=mysqli_fetch_array($result)){
 $order=Min($ordernumbers);
 $sql="UPDATE oders SET idOrderConfirmation='".$orderready."' WHERE idOrders='".$order."'";
 $ready=mysqli_query($conn,$sql);
-    header("Location:Distro.php?Prep=successful"."&auth=".$token."&username=".$uid);
+    header("Location:Next.php");
     exit();
