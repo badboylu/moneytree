@@ -246,6 +246,14 @@ function hideOrder(){
    document.getElementById("hideON").style.display = "none";
 
 }
+
+function reload(){
+   setInterval(function(){
+    location.reload();
+}, 1000);
+}
+
+reload();
 hideOrder();
 </script>
 </body>
