@@ -212,17 +212,11 @@ else{
                          <br>
                          <br>
                          </div>
-                         <form action="https://sandbox.payfast.co.za/eng/process" method="post" id="form">
-                         <label>Delivery code:</label><input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
+                         <form action="Ordersystemdelivery.php" method="post" id="form">
+                         <label>Delivery code:<span> </span></label><input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
                          <input type="submit" name="Delivered" value="Delivered1" id="Blanks" "/>
                          </form>
-                        <div>
-                        <a href="Ordersystemdelivery.php">
-                        <button class="receive" id="receive">
-			Delivered
-		        </button>
-                        </a>
-                      </div>
+                        
                     </div>
                 </div>
             </div>
