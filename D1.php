@@ -233,15 +233,6 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 <script>
 function hideOrder(){
 	
-var DP = <?php echo $row['idOrderDPgrams'] ?>;
-var CC = <?php echo $row['idOrderCCbatches']?>;
-var OC = <?php echo $row['idOrderOCgrams']?>;
-var BW = <?php echo $row['idOrderBWgrams']?>;
-var PR = <?php echo $row['idOrderPRjays']?>;
-var CCES = <?php echo $row['idOrderCCESbatches']?>;
-var NL = <?php echo $row['idOrderNLgrams']?>;
-var PE = <?php echo $row['idOrderPEgrams']?>;
-	
 
    document.getElementById("hideDP").style.display = "none";
    document.getElementById("hideCC").style.display = "none";
