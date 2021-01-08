@@ -213,7 +213,7 @@ else{
                          <br>
                          </div>
                          <form action="Ordersystemdelivery.php" method="post" id="form">
-                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
+                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Delivered" id="Blanks" "/>
                          </form>
                         
@@ -274,8 +274,8 @@ else{
 <script>
 function hideOrder(){
 
-   if(DP == 0){
-   document.getElementById("hideDP").style.display = "none";
+   if(hideBuilding == ""){
+   document.getElementById("hideBuilding").style.display = "none";
  }
 if(CC == 0){
    document.getElementById("hideCC").style.display = "none";
