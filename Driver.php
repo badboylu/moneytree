@@ -187,6 +187,32 @@ else{
                          <br>
                          <br>
                          </div>
+                         <div id="hideMall">
+                         <strong><span>Mall name:</strong><span> </span><?php print_r($row['idMall']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideShop">
+                         <strong><span>Shop name:</strong><span> </span><?php print_r($row['idShop']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideStreet">
+                         <strong><span>Street name:</strong><span> </span><?php print_r($row['idStreet']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideUnit">
+                         <strong><span>Unit-number:</strong><span> </span><?php print_r($row['idUnitNumber']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideHouse">
+                         <strong><span>Estate name:</strong><span> </span><?php print_r($row['idHouseNumber']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         
                         <div>
                         <a href="Ordersystemdelivery.php">
                         <button class="receive" id="receive">
