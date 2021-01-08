@@ -108,7 +108,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active"><span> </span> <?php print_r($count); ?></li>
                             </ol>
                         </div>
                     </div>
