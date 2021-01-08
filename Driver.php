@@ -274,30 +274,35 @@ else{
 <script>
 function hideOrder(){
 
-   if(hideBuilding == ""){
+ var building = <?php echo $row['idBuilding'] ?>;
+ var mall = <?php echo $row['idMall']?>;
+ var shop = <?php echo $row['idShop']?>;
+ var house = <?php echo $row['idHouseNumber']?>;
+ var street = <?php echo $row['idStreet']?>;
+ var estate = <?php echo $row['idEstate']?>;
+ var complex = <?php echo $row['idComplex']?>;
+ 
+if(building == null){
    document.getElementById("hideBuilding").style.display = "none";
  }
-if(CC == 0){
-   document.getElementById("hideCC").style.display = "none";
+if(mall == null){
+   document.getElementById("hideMall").style.display = "none";
  }
-if(OC == 0){
-   document.getElementById("hideOC").style.display = "none";
+if(shop == null){
+   document.getElementById("hideShop").style.display = "none";
  }
-if(BW == 0){
-   document.getElementById("hideBW").style.display = "none";
+if(house == null){
+   document.getElementById("hideHouse").style.display = "none";
  }
-if(PR == 0){
-   document.getElementById("hidePR").style.display = "none";
+if(street == null){
+   document.getElementById("hideStreet").style.display = "none";
  }
-if(CCES == 0){
-   document.getElementById("hideCCES").style.display = "none";
+if(estate == null){
+   document.getElementById("hideEstate").style.display = "none";
  }
-if(NL == 0){
-   document.getElementById("hideNL").style.display = "none";
+if(complex == null){
+   document.getElementById("hideComplex").style.display = "none";
  }
-if(PE == 0){
-   document.getElementById("hidePE").style.display = "none";
-}
 }
 hideOrder();
 </script>
