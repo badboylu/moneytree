@@ -268,13 +268,13 @@ else{
 <script src="admin-script.js"></script>
 
 <script>
-function hideOrder(){
- var crib = <?php print_r($row['idCrib']); ?>;
- if(crib == 'Mall'){
+function hideOrder1(){
+ var crib = <?php echo $row['idCrib'] ?>;
+ if(crib == Mall){
    document.getElementById("hideBuilding").style.display = "none";
  }
 }
-hideOrder();
+hideOrder1();
 </script>
 </body>
 
