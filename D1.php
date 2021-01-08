@@ -133,10 +133,12 @@ $count=mysqli_num_rows($result);
                         <h5>Order prepared</h5>
                     </div>
                     <div class="card-body vendor-table" >
+                         <div id="hideON">
                          <br>
                          <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
                          <br>
                          <br>
+                         </div>
                          <div id="hideDP">
                          <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
                          <br>
@@ -259,6 +261,7 @@ var PE = <?php echo $row['idOrderPEgrams']?>;
    document.getElementById("hideCCES").style.display = "none";
    document.getElementById("hideNL").style.display = "none";
    document.getElementById("hidePE").style.display = "none";
+   document.getElementById("hideON").style.display = "none";
 
 }
 hideOrder();
