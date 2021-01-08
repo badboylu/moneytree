@@ -115,7 +115,7 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active"><span> </span></li>
                             </ol>
                         </div>
                     </div>
