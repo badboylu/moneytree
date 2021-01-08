@@ -4,27 +4,13 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$event = function() {
-         $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
-         $result=mysqli_query($conn,$query);
-         $count=mysqli_num_rows($result);
-         if ($count>0){
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
+$result=mysqli_query($conn,$query);
+$count=mysqli_num_rows($result);
+   if ($count>0){
          header("Location:Distro.php");
          exit();
    }
-  }
-
-function setInterval ( $event, $seconds ) 
-{
-      $seconds = (1)$seconds;
-      $_func = $event;
-      while ( true )
-      {
-            $_func;
-            sleep($seconds);
-      }
-}
-
 ?>
 <html lang="en">
 <head>
