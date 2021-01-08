@@ -144,10 +144,6 @@ else{
                     <div class="card-body vendor-table" >
                          <br>
                          <div id="hideProvince">
-                         <strong><span>Collection code:</strong><span> </span></span>
-                         <br>
-                         <br>
-                         <div id="hideProvince">
                          <strong><span>Province:</strong><span> </span><?php print_r($row['idProvince']); ?></span>
                          <br>
                          <br>
@@ -273,10 +269,8 @@ else{
 
 <script>
 function hideOrder(){
-
  var crib = <?php print_r($row['idCrib']); ?>;
- 
- if(crib == Mall){
+ if(crib == 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
  }
 }
