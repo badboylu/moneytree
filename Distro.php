@@ -8,9 +8,9 @@ $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
 if($count>0){
-    
+ $row=mysqli_fetch_array($result);
 }
-else if($count>0){
+else if($count<0){
   header("Location:D1.php");
   exit();
 }
