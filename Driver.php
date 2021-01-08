@@ -276,26 +276,8 @@ function hideOrder(){
 
  var crib = <?php echo $row['idCrib'] ?>;
  
-if(crib == 'Mall'){
+ if(crib == 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
- }
-if(mall == null){
-   document.getElementById("hideMall").style.display = "none";
- }
-if(shop == null){
-   document.getElementById("hideShop").style.display = "none";
- }
-if(house == null){
-   document.getElementById("hideHouse").style.display = "none";
- }
-if(street == null){
-   document.getElementById("hideStreet").style.display = "none";
- }
-if(estate == null){
-   document.getElementById("hideEstate").style.display = "none";
- }
-if(complex == null){
-   document.getElementById("hideComplex").style.display = "none";
  }
 }
 hideOrder();
