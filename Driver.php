@@ -274,15 +274,9 @@ else{
 <script>
 function hideOrder(){
 
- var building = <?php echo $row['idBuilding'] ?>;
- var mall = <?php echo $row['idMall']?>;
- var shop = <?php echo $row['idShop']?>;
- var house = <?php echo $row['idHouseNumber']?>;
- var street = <?php echo $row['idStreet']?>;
- var estate = <?php echo $row['idEstate']?>;
- var complex = <?php echo $row['idComplex']?>;
+ var crib = <?php echo $row['idCrib'] ?>;
  
-if(building = null){
+if(crib = 'Mall'){
    document.getElementById("hideBuilding").style.display = "none";
  }
 if(mall == null){
