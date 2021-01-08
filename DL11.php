@@ -127,7 +127,7 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Delivery request</h5>
+                        <h5>Delivery-request location</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <br>
@@ -167,7 +167,6 @@ $count=mysqli_num_rows($result);
                          <br>
                          </div>
                          <form action="Ordersystemdelivery.php" method="post" id="form">
-                         <label><strong>Collection code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter code here" required>
                          <input type="submit" name="Receive" value="Recieve" id="Blanks" "/>
                          </form>
                     </div>
