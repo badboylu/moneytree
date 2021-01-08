@@ -4,8 +4,25 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$query="select * from address";
+$query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
+$count=mysqli_num_rows($result);
+if($count>1){
+ while($row=mysqli_fetch_array($result)){
+ $ordernumbers[]=$row['idUser'];
+  }
+ $order=Min($ordernumbers);
+ $final="SELECT * FROM oders WHERE idOrders=".$order;
+ $finalresult=mysqli_query($conn,$final);
+ $row = mysqli_fetch_array($finalresult);
+}
+else if($count>0){
+ $row=mysqli_fetch_array($result);
+}
+else{
+  header("Location:D.php");
+  exit();
+}
 ?>
 <html lang="en">
 <head>
@@ -68,7 +85,7 @@ $result=mysqli_query($conn,$query);
         <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
-                <div class="logo-wrapper"><a href="indexAdmin.html"><img class="blur-up lazyloaded" src="multikart-logo.png" alt=""></a></div>
+                <div class="logo-wrapper"></div>
             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
@@ -76,26 +93,13 @@ $result=mysqli_query($conn,$query);
                     <p>Delivery Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="indexAdmin.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Sales</span><i class="fa fa-angle-right pull-right"></i></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="order.html"><i class="fa fa-circle"></i>Orders</a></li>
-                        </ul>
+                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Earnings</span></a></li>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Drivers</span><i class="fa fa-angle-right pull-right"></i></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Drivers List</a></li>
-                            <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Driver</a></li>
-                        </ul>
+                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Distribution History</span></a></li>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="users"></i><span>Distributors</span><i class="fa fa-angle-right pull-right"></i></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="list-vendor.html"><i class="fa fa-circle"></i>Distro List</a></li>
-                            <li><a href="create-vendors.html"><i class="fa fa-circle"></i>Add Distro</a></li>
-                        </ul>
+                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Canceled orders</span></a></li>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    <li><a class="sidebar-header" href="invoice.html"><i data-feather="archive"></i><span>Invoice</span></a>
+                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Performance report</span></a></li>
                     </li>
                     <li><a class="sidebar-header" href="logout.html"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
@@ -123,9 +127,7 @@ $result=mysqli_query($conn,$query);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Orders</li>
-                                <li class="breadcrumb-item active">(Pending orders:)</li>
+                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
                             </ol>
                         </div>
                     </div>
@@ -140,10 +142,55 @@ $result=mysqli_query($conn,$query);
                         <h5>Order collection protocol</h5>
                     </div>
                     <div class="card-body vendor-table" >
+                         <br>
+                         <div id="hideProvince">
+                         <strong><span>Collection code:</strong><span> </span></span>
+                         <br>
+                         <br>
+                         <div id="hideProvince">
+                         <strong><span>Province:</strong><span> </span><?php print_r($row['idProvince']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideCity">
+                         <strong><span>City:</strong><span> </span><?php print_r($row['idCity']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideTown">
+                         <strong><span>Town:</strong><span> </span><?php print_r($row['idTown']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideSuburb">
+                         <strong><span>Suburb:</strong><span> </span><?php print_r($row['idSuburb']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideCrib">
+                         <strong><span>Structure:</strong><span> </span><?php print_r($row['idCrib']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideBuilding">
+                         <strong><span>Building name:</strong><span> </span><?php print_r($row['idBuilding']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideEstate">
+                         <strong><span>Estate name:</strong><span> </span><?php print_r($row['idEstate']); ?></span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideComplex">
+                         <strong><span>Complex name:</strong><span> </span><?php print_r($row['idComplex']); ?></span>
+                         <br>
+                         <br>
+                         </div>
                         <div>
-                        <a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
+                        <a href="Ordersystemdelivery.php">
                         <button class="receive" id="receive">
-			Recieve order
+			Delivered
 		        </button>
                         </a>
                       </div>
@@ -201,6 +248,21 @@ $result=mysqli_query($conn,$query);
 <!--script admin-->
 <script src="admin-script.js"></script>
 
+<script>
+function hideOrder(){
+
+   document.getElementById("hideProvince").style.display = "none";
+   document.getElementById("hideCity").style.display = "none";
+   document.getElementById("hideTown").style.display = "none";
+   document.getElementById("hideSuburb").style.display = "none";
+   document.getElementById("hidePR").style.display = "none";
+   document.getElementById("hideCCES").style.display = "none";
+   document.getElementById("hideNL").style.display = "none";
+   document.getElementById("hidePE").style.display = "none";
+
+}
+hideOrder();
+</script>
 </body>
 
 <!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
