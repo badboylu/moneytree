@@ -130,10 +130,52 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order prepared!</h5>
+                        <h5>Order prepared</h5>
                     </div>
                     <div class="card-body vendor-table" >
-                         
+                         <br>
+                         <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
+                         <br>
+                         <br>
+                         <div id="hideDP">
+                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideOC">
+                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideBW">
+                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideCC">
+                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hidePR">
+                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideNL">
+                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideCCES">
+                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hidePE">
+                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
+                         <br>
+                         <br>
                          </div>
                         <div>
                         <a href="Next.php">
@@ -208,30 +250,16 @@ var CCES = <?php echo $row['idOrderCCESbatches']?>;
 var NL = <?php echo $row['idOrderNLgrams']?>;
 var PE = <?php echo $row['idOrderPEgrams']?>;
 	
-if(DP == 0){
+
    document.getElementById("hideDP").style.display = "none";
- }
-if(CC == 0){
    document.getElementById("hideCC").style.display = "none";
- }
-if(OC == 0){
    document.getElementById("hideOC").style.display = "none";
- }
-if(BW == 0){
    document.getElementById("hideBW").style.display = "none";
- }
-if(PR == 0){
    document.getElementById("hidePR").style.display = "none";
- }
-if(CCES == 0){
    document.getElementById("hideCCES").style.display = "none";
- }
-if(NL == 0){
    document.getElementById("hideNL").style.display = "none";
- }
-if(PE == 0){
    document.getElementById("hidePE").style.display = "none";
-}
+
 }
 hideOrder();
 </script>
