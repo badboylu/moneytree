@@ -7,6 +7,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
+$check=$_POST;
 if($count>1){
  while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idUser'];
@@ -23,6 +24,7 @@ else{
   header("Location:D.php");
   exit();
 }
+echo $check;
 ?>
 <html lang="en">
 <head>
