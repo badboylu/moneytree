@@ -176,7 +176,7 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         <form action="Ordersystemdelivery.php" method="post" id="form">
+                         <form action="DL1.php" method="post" id="form">
                          <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Verify" id="Blanks" "/>
                          </form>
