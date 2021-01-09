@@ -127,7 +127,7 @@ else{
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active">Delivered orders:<span> </span>?/5</li>
                             </ol>
                         </div>
                     </div>
