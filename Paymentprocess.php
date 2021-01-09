@@ -90,10 +90,7 @@ $data = array(
 $signature = generateSignature($data);
 $data['signature'] = $signature;
 
-$testingMode = true;
-$pfHost = $testingMode ? 'sandbox.payfast.co.za';
-$htmlForm = '<form action="https://'.$pfHost.'/eng/process" method="post" id="form" >';
-
+$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process?true" method="post" id="form">'
 foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
