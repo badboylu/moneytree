@@ -186,13 +186,9 @@ else{
                          <br>
                          <br>
                          </div>
-                        <div>
-                        <a href="Ordersystem.php">
-                        <button class="receive" id="receive">
-			Finished
-		        </button>
-                        </a>
-                      </div>
+                         <form action="Ordersystem.php" method="post" id="form">
+                         <input type="submit" name="Next" value="Conplete" id="Blanks" "/>
+                         </form>
                     </div>
                 </div>
             </div>
