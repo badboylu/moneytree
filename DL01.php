@@ -8,7 +8,7 @@ $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
    if ($count>0){
-         header("Location:Driver.php");
+         header("Location:DL11.php");
          exit();
    }
 ?>
