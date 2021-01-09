@@ -115,7 +115,7 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collects available:</span> ?/5</li>
+                                <li class="breadcrumb-item active"><span>Delivered orders:</span> ?/5</li>
                             </ol>
                         </div>
                     </div>
