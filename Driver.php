@@ -139,7 +139,7 @@ else{
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order collection protocol</h5>
+                        <h5>Order delivery protocol</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <br>
