@@ -9,7 +9,7 @@ $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
-$confirmedpayment = 'Placed';
+$confirmedpayment = 'Pending';
 $dp = $_GET['DPgrams'];
 $oc = $_GET['OCgrams'];
 $bw = $_GET['BWgrams'];
