@@ -1,10 +1,27 @@
 <?php
-$servername="us-cdbr-east-02.cleardb.com";
-$dBUsername="b7fcd41c893d7a";
-$dBPassword="1e8f896b7da9e41";
-$dBName="heroku_61db5a5cdc2dfd8";
-$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$emails = array();
+header( 'HTTP/1.0 200 OK' );
+flush();
+
+define( 'SANDBOX_MODE', true );
+$pfHost = SANDBOX_MODE ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
+// Posted variables from ITN
+$pfData = $_POST;
+
+// Strip any slashes in data
+foreach( $pfData as $key => $val ) {
+    $pfData[$key] = stripslashes( $val );
+}
+
+// Convert posted variables to a string
+foreach( $pfData as $key => $val ) {
+    if( $key !== 'signature' ) {
+        $pfParamString .= $key .'='. urlencode( $val ) .'&';
+    } else {
+        break;
+    }
+}
+
+$pfParamString = substr( $pfParamString, 0, -1 ); 
 
 foreach ( $_POST as $key => $value )
 {
