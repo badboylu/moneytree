@@ -183,6 +183,9 @@ $result=mysqli_query($conn,$query);
 
                             </tr>
                             <?php } ?>
+                                <form action="OrderReset.php" method="post" id="form">
+                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
+                                </form>
                             </tbody>
                         </table>
                     </div>
