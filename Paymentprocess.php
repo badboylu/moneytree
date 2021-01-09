@@ -77,7 +77,7 @@ $cartTotal = 10.00;
 $data = array(
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'return_url' => 'https://canibuy.co.za/Shop.php',
+    'return_url' => 'https://canibuy.co.za/Payfastpost.php',
     'cancel_url' => 'https://canibuy.co.za/Cart.php',
     'notify_url' => 'https://canibuy.co.za/Payfastpost.php',
     'name_first' => 'Test2',
@@ -99,7 +99,7 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
 echo'
 <script>
-
+   document.getElementById("form").submit();
 </script>';
 
 ?>
