@@ -148,6 +148,7 @@ $result=mysqli_query($conn,$query);
                                 <th>Pre-Agent</th>
                                 <th>Distro token</th>
                                 <th>Client token</th>
+                                <th>Verification token</th>
                                
                             </tr>
                             </thead>
@@ -162,6 +163,7 @@ $result=mysqli_query($conn,$query);
                                 <td><?php echo $rows['idUsername']; ?> </td>
                                 <td><?php echo $rows['idPrepperToken']; ?></td>
                                 <td><?php echo $rows['idCustomerToken']; ?></td>
+                                <td><?php echo $rows['idOrderID']; ?></td>
                                 
 
                             </tr>
