@@ -12,6 +12,16 @@ while($row=mysqli_fetch_array($result)){
 }
 $order=Min($ordernumbers);
 $sql="UPDATE oders SET idOrderConfirmation='".$orderready."' WHERE idOrders='".$order."'";
-$ready=mysqli_query($conn,$sql);
+mysqli_query($conn,$sql);
+
+$sql0="SELECT * FROM address WHERE idOrderConfirmation='Placed'";
+$result1=mysqli_query($conn,$sql0);
+$orderready1='Pending';
+while($row=mysqli_fetch_array($result1)){
+ $ordernumbers1[]=$row['idUser'];
+}
+$order1=Min($ordernumbers1);
+$sql1="UPDATE oders SET idOrderConfirmation='".$orderready1."' WHERE idOrders='".$order1."'";
+mysqli_query($conn,$sql1);
     header("Location:D1.php");
     exit();
