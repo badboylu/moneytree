@@ -6,3 +6,5 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $sql="DELETE FROM oders";
 mysqli_query($conn, $sql);
+    header("Location:adminOrders.php");
+    exit();
