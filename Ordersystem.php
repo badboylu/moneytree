@@ -13,7 +13,7 @@ while($row=mysqli_fetch_array($result)){
 }
 $order=Min($ordernumbers);
 
-$sql2="SELECT * FROM oders WHERE WHERE idOrders='".$order."'";
+$sql2="SELECT * FROM oders WHERE idOrders='".$order."'";
 $result2=mysqli_query($conn,$sql2);
 
 
