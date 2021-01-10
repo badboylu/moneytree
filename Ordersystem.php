@@ -26,7 +26,7 @@ while($row=mysqli_fetch_array($result1)){
  $ordernumbers1[]=$row['idUser'];
 }
 $order1=Max($ordernumbers1);
-$sql1="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idOrders='".$order1."' AND idToken='".$token."'";
+$sql1="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idOrders='".$order1."' ";
 mysqli_query($conn,$sql1);
     header("Location:D1.php");
     exit();
