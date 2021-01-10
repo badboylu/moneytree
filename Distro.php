@@ -187,7 +187,7 @@ else{
                          <br>
                          </div>
                          <form action="Ordersystem.php" method="post" id="form">
-                         <input type="submit" name="Next" value="Conplete" id="Blanks" "/>
+                         <input type="submit" name="Next" value="Complete order" id="Blanks" "/>
                          </form>
                     </div>
                 </div>
