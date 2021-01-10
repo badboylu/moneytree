@@ -8,16 +8,23 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $orderready='Prepared';
+
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
+
 $order=Min($ordernumbers);
 
-$sql2="SELECT * FROM oders WHERE idOrders='".$order."'";
-$result2=mysqli_query($conn,$sql2);
-$row1=mysqli_fetch_array($result2);
-$check[]=$row1;
-echo $check;
+ $sql='SELECT idOrderToken FROM oders WHERE idOrders="'.$order.'" ';
+ $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL2");
+       exit();
+}
+  mysqli_stmt_execute($stmt);
+  mysqli_stmt_bind_result($stmt, $token);
+
+echo $token;
 
 
 
