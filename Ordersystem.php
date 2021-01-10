@@ -5,9 +5,9 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
+$orderready='Prepared';
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$orderready='Prepared';
 
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
@@ -15,17 +15,17 @@ while($row=mysqli_fetch_array($result)){
 
 $order=Min($ordernumbers);
 
- $sql='SELECT idOrderToken FROM oders WHERE idOrders="'.$order.'" ';
- $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL2");
-       exit();
-}
-while($row = mysqli_fetch_assoc($stmt)) {
-    echo "id: ".$row["idOrderToken"];
-  }
- 
+ $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
+ $result1=mysqli_query($conn,$sql);
 
+while($row = mysqli_fetch_array($result1)) {
+ $token[]=$row["idOrderToken"];
+  }
+
+$order1=Max($token);
+
+echo $order; 
+echo $order1;
 
 
 
