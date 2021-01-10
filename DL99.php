@@ -127,7 +127,7 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order collect</h5>
+                        <h5>Order collect protocol</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
