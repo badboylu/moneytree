@@ -15,14 +15,30 @@ while($row=mysqli_fetch_array($result)){
 
 $order=Min($ordernumbers);
 
- $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
- $result1=mysqli_query($conn,$sql);
+$sql="UPDATE oders SET idOrderConfirmation='".$orderready."' WHERE idOrders='".$order."'";
+$ready=mysqli_query($conn,$sql);
+mysqli_query($conn,$sql);
+
+ $new='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
+ $result1=mysqli_query($conn,$new);
 
 while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderToken"];
   }
 
 $order1=Max($token);
+
+$sql1="SELECT * FROM address WHERE idOrderConfirmation='Placed'";
+$result2=mysqli_query($conn,$sql1);
+$orderready1='Pending';
+while($row=mysqli_fetch_array($result2)){
+ $ordernumbers1[]=$row['idUser'];
+}
+
+$order2=Max($ordernumbers1);
+
+$sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
+mysqli_query($conn,$sql2);
 
 echo $order1;
 
