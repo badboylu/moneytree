@@ -34,8 +34,4 @@ while($row=mysqli_fetch_array($result2)){
 
 echo $tokenarray;
 
-$sql1="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order1."' ";
-
-mysqli_query($conn,$sql1);
-    
 
