@@ -24,7 +24,6 @@ while($row = mysqli_fetch_array($result1)) {
 
 $order1=Max($token);
 
-echo $order; 
 echo $order1;
 
 
