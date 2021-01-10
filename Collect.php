@@ -14,17 +14,16 @@ while($row = mysqli_fetch_array($result1)) {
 
 $verification=Max($token);
 
-$sql='SELECT idPrepperToken FROM deliverytoken WHERE idOrderID="'.$verification.'"';
-$stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL999");
-       exit();
-}
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_bind_result($stmt, $orderid);
-  
-   while (mysqli_stmt_fetch($stmt)) { 
-    if (!$verification == $orderid) {
+$new2='SELECT * FROM deliverytoken WHERE idUsername="Lin" ';
+$result2=mysqli_query($conn,$new2);
+
+while($row1 = mysqli_fetch_array($result2)) {
+ $token2[]=$row2["idOrderID"];
+  }
+
+$verification2=Min($token);
+
+    if (!$verification == $verification2) {
        header("Location:DL99.php?verification=error");
        exit();
     }else{
