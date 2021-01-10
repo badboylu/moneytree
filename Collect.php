@@ -21,7 +21,7 @@ while($row1 = mysqli_fetch_array($result2)) {
  $token2[]=$row2["idOrderID"];
   }
 
-$verification2=Min($token);
+$verification2=Min($token2);
 
     if (!$verification == $verification2) {
        header("Location:DL99.php?verification=error");
