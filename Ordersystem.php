@@ -26,9 +26,16 @@ while($row=mysqli_fetch_array($result1)){
 
 $order1=Max($ordernumbers1);
 
+$sql2="SELECT * FROM oders WHERE WHERE idOrders='".$order."'";
+$result2=mysqli_query($conn,$sql2);
+while($row=mysqli_fetch_array($result2)){
+ $tokenarray[]=$row['idOrderToken'];
+}
+
+echo $tokenarray;
+
 $sql1="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order1."' ";
 
 mysqli_query($conn,$sql1);
     
-header("Location:D1.php");
-exit();
+
