@@ -24,10 +24,7 @@ $order=Min($ordernumbers);
 while($row = mysqli_fetch_assoc($stmt)) {
     echo "id: ".$row["idOrderToken"];
   }
-  mysqli_stmt_execute($stmt);
-  mysqli_stmt_bind_result($stmt, $token);
-
-echo $token;
+ 
 
 
 
