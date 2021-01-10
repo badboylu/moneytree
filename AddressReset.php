@@ -6,3 +6,5 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $sql="DELETE FROM address";
 mysqli_query($conn, $sql);
+    header("Location:adminAddress.php");
+    exit();
