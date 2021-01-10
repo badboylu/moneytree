@@ -24,7 +24,7 @@ $order=Min($ordernumbers);
   mysqli_stmt_execute($stmt);
   mysqli_stmt_bind_result($stmt, $token);
 
-echo "Life";
+echo $token;
 
 
 
