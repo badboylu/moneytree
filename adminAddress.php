@@ -198,6 +198,9 @@ $result=mysqli_query($conn,$query);
                             <?php } ?>
                             </tbody>
                         </table>
+                                <form action="AddressReset.php" method="post" id="form">
+                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
+                                </form>
                       </div>
                     </div>
                 </div>
