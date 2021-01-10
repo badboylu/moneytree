@@ -9,6 +9,7 @@ $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
+$confirmedpayment1 = 'Placed';
 $confirmedpayment = 'Pending';
 $dp = $_GET['DPgrams'];
 $oc = $_GET['OCgrams'];
@@ -53,7 +54,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:delivery.php?error=SQL7");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$townpta,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment);
+     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$townpta,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
