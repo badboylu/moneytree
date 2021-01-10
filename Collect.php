@@ -5,9 +5,16 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$verification='';
+$new='SELECT * FROM address WHERE idOrderConfirmation="Pending" ';
+$result1=mysqli_query($conn,$new);
 
-$sql='SELECT idPrepperToken FROM deliverytoken WHERE OrderId="'.$verification.'"';
+while($row = mysqli_fetch_array($result1)) {
+ $token[]=$row["idOrderToken"];
+  }
+
+$verification=Max($token);
+
+$sql='SELECT idPrepperToken FROM deliverytoken WHERE idOrderID="'.$verification.'"';
 $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL999");
@@ -18,7 +25,9 @@ $stmt=mysqli_stmt_init($conn);
   
    while (mysqli_stmt_fetch($stmt)) { 
     if (!$verification == $orderid) {
-    
+       header("Location:DL99.php?verification=error");
+       exit();
     }else{
-    
+       header("Location:DL99.php?verification=success");
+       exit();
     }
