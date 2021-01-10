@@ -40,7 +40,8 @@ $order2=Max($ordernumbers1);
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
-echo $order1;
+    header("Location:D1.php");
+    exit();
 
 
 
