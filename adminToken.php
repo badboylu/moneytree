@@ -148,7 +148,7 @@ $result=mysqli_query($conn,$query);
                                 <th>Pre-Agent</th>
                                 <th>Distro token</th>
                                 <th>Client token</th>
-                                <th>Order token</th>
+                               
                             </tr>
                             </thead>
                             <tbody>
