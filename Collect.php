@@ -20,10 +20,10 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys2) {
-  echo $keys2;
+  
 }
  
-
+echo $keys2;
 
 
     
