@@ -14,7 +14,7 @@ while($row = mysqli_fetch_array($result1)) {
 
 $verification=Max($token);
 
-$new2='SELECT * FROM deliverytoken WHERE idOrderID="'.$verification'"';
+$new2='SELECT * FROM deliverytoken WHERE idOrderID="'echo $verification;'"';
 $result2=mysqli_query($conn,$new2);
 
 while($row2 = mysqli_fetch_array($result2)) {
