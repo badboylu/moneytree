@@ -26,7 +26,7 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys) {
-  if ($keys=='ghf'){
+  if ($keys==$order1){
       echo 'Money';
 }else{
       echo 'Try more';
