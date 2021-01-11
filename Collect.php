@@ -14,19 +14,15 @@ while($row = mysqli_fetch_array($result1)) {
 
 $verification=Max($token);
 
-$new2='SELECT * FROM deliverytoken WHERE idUsername="Lin" ';
+$new2='SELECT * FROM deliverytoken WHERE idOrderID="'.$verification.'"';
 $result2=mysqli_query($conn,$new2);
 
 while($row1 = mysqli_fetch_array($result2)) {
- $token2[]=$row2["idOrderID"];
+ $token2[]=$row2["idPrepperToken"];
   }
 
-$verification2=Min($token2);
+$code=Min($token2);
 
-    if (!$verification == $verification2) {
-       header("Location:DL99.php?verification=error");
-       exit();
-    }else{
-       header("Location:DL99.php?verification=success");
-       exit();
-    }
+echo $code;
+
+    
