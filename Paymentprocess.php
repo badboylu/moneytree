@@ -7,7 +7,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $date = date("Y-m-d");
 $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
-$authtoken = $_GET['auth'];
+$authtoken = bin2hex(random_bytes(16));
 $username = $_GET['username'];
 $confirmedpayment1 = 'Placed';
 $confirmedpayment = 'Pending';
