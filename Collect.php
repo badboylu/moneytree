@@ -12,6 +12,10 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderToken"];
   }
 
+foreach ($token as $keys) {
+  echo $keys;
+}
+
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
@@ -19,11 +23,9 @@ while($row2 = mysqli_fetch_array($result2)) {
  $token2[]=$row2["idPrepperToken"];
   }
 
-foreach ($token2 as $keys2) {
-  
-}
+
  
-echo $keys2[0];
+
 
 
     
