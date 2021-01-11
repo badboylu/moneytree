@@ -23,7 +23,7 @@ foreach ($token2 as $keys2) {
   
 }
  
-echo $keys2;
+echo $keys2[0];
 
 
     
