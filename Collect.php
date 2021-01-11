@@ -20,11 +20,11 @@ $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
 while($row2 = mysqli_fetch_array($result2)) {
- $token2[]=$row2["idPrepperToken"];
+ $token2[]=$row2["idOrderID"];
   }
 
 foreach ($token2 as $keys) {
-  if ($keys=='96afd993'){
+  if ($keys==$order1){
       echo 'Money';
 }else{
       echo 'Try again';
