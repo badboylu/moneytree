@@ -12,7 +12,9 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderToken"];
   }
 
-$verification=Max($token);
+foreach ($token as $keys) {
+  $Verification=$keys;
+}
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
@@ -21,7 +23,11 @@ while($row2 = mysqli_fetch_array($result2)) {
  $token2[]=$row2["idPrepperToken"];
   }
 
-echo $verification;
-
+foreach ($token2 as $keys2) {
+  $Verification2=$key2;
+}
+ 
+echo $Verification;
+echo $Verification2;
 
     
