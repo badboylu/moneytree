@@ -12,9 +12,11 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idToken"];
   }
 
-$order1=Max($token);
+foreach ($token as $key) {
+}
 
-echo $order1;
+
+echo $key;
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
@@ -27,7 +29,7 @@ foreach ($token2 as $keys) {
   if ($keys==$order1){
       echo 'Money';
 }else{
-      echo 'Try again';
+      echo 'Try';
 }
 }
  
