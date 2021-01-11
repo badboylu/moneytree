@@ -9,12 +9,12 @@ $new='SELECT * FROM address WHERE idOrderConfirmation="Pending" ';
 $result1=mysqli_query($conn,$new);
 
 while($row = mysqli_fetch_array($result1)) {
- $token[]=$row["idOrderToken"];
+ $token[]=$row["idToken"];
   }
 
-foreach ($token as $key) {
-    echo $key;
-}
+$order1=Max($token);
+
+echo $order1;
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
