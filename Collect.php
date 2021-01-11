@@ -12,7 +12,6 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderToken"];
   }
 
-
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
@@ -21,8 +20,7 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys2) {
-  $verification2=$key2;
-  echo $verification2;
+  echo $keys2;
 }
  
 
