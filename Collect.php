@@ -21,7 +21,9 @@ while($row2 = mysqli_fetch_array($result2)) {
  $token2[]=$row2["idPrepperToken"];
   }
 
-echo $token2;
+foreach ($token2 as $keys) {
+  echo $keys;
+}
 
 
     
