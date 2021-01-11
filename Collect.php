@@ -13,7 +13,8 @@ while($row = mysqli_fetch_array($result1)) {
   }
 
 foreach ($token as $keys) {
-  $Verification=$keys;
+  $verification=$keys;
+  
 }
 
 $new2='SELECT * FROM deliverytoken ';
@@ -24,10 +25,11 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys2) {
-  $Verification2=$key2;
+  $verification2=$key2;
+  
 }
  
-echo $Verification;
-echo $Verification2;
+echo $verification;
+echo $verification2;
 
     
