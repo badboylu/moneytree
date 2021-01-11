@@ -20,7 +20,11 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys) {
-  echo $keys;
+  if ($keys='96afd00993'){
+      echo 'Money';
+}else{
+      echo 'Try again';
+}
 }
  
 
