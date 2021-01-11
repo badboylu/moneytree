@@ -12,6 +12,10 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderToken"];
   }
 
+foreach ($token as $key) {
+    echo $key;
+}
+
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
