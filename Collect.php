@@ -21,14 +21,14 @@ $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
 while($row2 = mysqli_fetch_array($result2)) {
- $token2[]=$row2["idOrderID"];
+ $token2[]=$row2["idPrepperToken"];
   }
 
 foreach ($token2 as $keys) {
-  if ($keys=='4a6539'){
-      echo $keys;
+  if ($keys=='4a6539fxffxd'){
+      echo 'Billions';
 }else{
-      echo $keys;
+      echo 'Not working;
 }
 }
  
