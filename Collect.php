@@ -15,7 +15,6 @@ while($row = mysqli_fetch_array($result1)) {
 foreach ($token as $key) {
 }
 
-echo $key;
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
@@ -25,7 +24,7 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys) {
-  if ($keys=='4a6539fxffxd'){
+  if ($keys=='4a6539'){
       echo 'Billions';
 }else{
       echo 'Not working';
