@@ -27,7 +27,7 @@ foreach ($token2 as $keys) {
   if ($keys==$authtoken){
       echo 'Billions';
 }else{
-      echo 'Not working';
+      echo $authtoken ;
 } 
 }
  
