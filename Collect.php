@@ -28,8 +28,8 @@ foreach ($token2 as $keys) {
   if ($keys=='4a6539fxffxd'){
       echo 'Billions';
 }else{
-      echo 'Not working;
-}
+      echo 'Not working';
+} 
 }
  
 
