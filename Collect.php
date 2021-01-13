@@ -24,7 +24,7 @@ while($row2 = mysqli_fetch_array($result2)) {
   }
 
 foreach ($token2 as $keys) {
-  if ($keys=='4a6539'){
+  if ($keys=='4a6539a'){
       echo 'Billions';
 }else{
       echo 'Not working';
