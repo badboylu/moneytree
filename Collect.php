@@ -11,14 +11,7 @@ $stat='Collected';
 $new='SELECT * FROM deliverytoken WHERE idPrepperToken='".$authtoken."' ';
 $result1=mysqli_query($conn,$new);
 
-while($row = mysqli_fetch_array($result1)) {
- $token[]=$row["idOrderID"];
-  }
 
-foreach ($token as $key) {
-}
-
-echo $key;
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
@@ -29,7 +22,7 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$authtoken){
-      echo $key;
+      echo 'test';
 }else{
       echo $authtoken ;
 } 
