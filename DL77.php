@@ -16,6 +16,8 @@ if(!$count1){
 $count1=0;
 }
 else if($count1>6){
+  header("Location:DL2.php");
+  exit();
 }
 ?>
 <html lang="en">
@@ -121,7 +123,7 @@ else if($count1>6){
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collected:</span> <?php print_r($count1); ?>/5</li>
+                                <li class="breadcrumb-item active"><span>Collected:</span> <?php print_r($count1); ?>/6</li>
                             </ol>
                         </div>
                     </div>
