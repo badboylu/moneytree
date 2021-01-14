@@ -52,7 +52,7 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"sssss",$prepper,$order1,$preptoken,$custitoken,$date,$order1);
+ mysqli_stmt_bind_param($stmt,"ssssss",$prepper,$order1,$preptoken,$custitoken,$date,$order1);
  mysqli_stmt_execute($stmt);
 
     header("Location:D1.php");
