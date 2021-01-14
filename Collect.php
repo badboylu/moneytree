@@ -8,9 +8,6 @@ $authtoken = $_GET['Collect'];
 $driver='Lunga';
 $stat='Collected';
 
-$new='SELECT * FROM deliverytoken WHERE idPrepperToken='".$authtoken."' ';
-$result1=mysqli_query($conn,$new);
-
 
 
 $new2='SELECT * FROM deliverytoken ';
