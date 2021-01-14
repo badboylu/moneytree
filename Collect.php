@@ -12,7 +12,7 @@ $sql='SELECT idOrderID FROM deliverytoken WHERE idPrepperToken="'.$authtoken.'" 
 $result=mysqli_query($conn,$sql);
 
 while($row = mysqli_fetch_array($result)) {
- $token[]=$row;
+ $token[]=$row['idOrderID'];
   }
 
 foreach ($token as $key) {
