@@ -179,6 +179,12 @@ $count=mysqli_num_rows($result);
                          <form action="DL2.php" method="post" id="form">
                          <input type="submit" name="Next" value="Receive order" id="Blanks" "/>
                          </form>
+                         <span>           </span>
+                         <span>
+                         <form action="Driver.php" method="post" id="form">
+                         <input type="submit" name="Next" value="Start delivery" id="Blanks" "/>
+                         </form>
+                         </span>
                     </div>
                 </div>
             </div>
