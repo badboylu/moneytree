@@ -11,6 +11,15 @@ $stat='Collected';
 $sql='SELECT idOrderID FROM deliverytoken WHERE idPrepperToken="'.$authtoken.'" ';
 $result=mysqli_query($conn,$sql);
 
+while($row = mysqli_fetch_array($result)) {
+ $token[]=$row;
+  }
+
+foreach ($token as $key) {
+}
+
+echo $key;
+
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
 
