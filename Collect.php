@@ -29,7 +29,11 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$authtoken){
-      echo 'test';
+      $sql="UPDATE deliverytoken SET idPrepperToken='".$driver."' WHERE idPrepperToken='".$authtoken."' ";
+      mysqli_query($conn,$sql);
+      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$key."' ";
+      mysqli_query($conn,$sql2);
+      echo 'killed it;
 }else{
       echo $authtoken ;
 } 
