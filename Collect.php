@@ -29,7 +29,7 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$authtoken){
-      
+      echo $key;
 }else{
       echo $authtoken ;
 } 
