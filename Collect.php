@@ -5,6 +5,9 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['Collect'];
+$driver='Lunga';
+$stat='Collected';
+
 $new='SELECT * FROM address WHERE idOrderConfirmation="Pending" ';
 $result1=mysqli_query($conn,$new);
 
@@ -25,7 +28,10 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$authtoken){
-      echo 'Billions';
+      $sql="UPDATE deliverytoken SET idPrepperToken='".$driver."' WHERE idPrepperToken='".$authtoken."' ";
+      mysqli_query($conn,$sql);
+      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idUser='".$order2."' ";
+      mysqli_query($conn,$sql2);
 }else{
       echo $authtoken ;
 } 
