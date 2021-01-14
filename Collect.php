@@ -8,16 +8,17 @@ $authtoken = $_GET['Collect'];
 $driver='Lunga';
 $stat='Collected';
 
-$new='SELECT * FROM address WHERE idOrderConfirmation="Pending" ';
+$new='SELECT * FROM deliverytoken WHERE idPrepperToken='".$authtoken."' ';
 $result1=mysqli_query($conn,$new);
 
 while($row = mysqli_fetch_array($result1)) {
- $token[]=$row["idToken"];
+ $token[]=$row["idOrderID"];
   }
 
 foreach ($token as $key) {
 }
 
+echo $key;
 
 $new2='SELECT * FROM deliverytoken ';
 $result2=mysqli_query($conn,$new2);
