@@ -4,13 +4,18 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+
+$driver='Lunga';
 $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$count=mysqli_num_rows($result);
-   if (!$count){
-         header("Location:D2.php");
-         exit();
-   }
+
+$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
+$result1=mysqli_query($conn,$query1);
+$count1=mysqli_num_rows($result1);
+if(!$count1){
+$count1=0;
+}
+
 ?>
 <html lang="en">
 <head>
@@ -115,7 +120,7 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collects available:</span> ?/5</li>
+                                <li class="breadcrumb-item active"><span>Collected:</span> <?php print_r($count1); ?> /5</li>
                             </ol>
                         </div>
                     </div>
