@@ -15,7 +15,8 @@ $count1=mysqli_num_rows($result1);
 if(!$count1){
 $count1=0;
 }
-
+else if($count1>5){
+ 
 ?>
 <html lang="en">
 <head>
