@@ -176,10 +176,10 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         <form action="Collect.php" method="post" id="form">
+                         <form action="Collect.php" method="get" >
                          <label><strong>Collection code: </strong></label> <span> </span> 
                          <input type="text" name="Collect" placeholder="Enter code here" required>
-                         <input type="submit" name="Delivered" value="Verify" id="Blanks" "/>
+                         <input type="submit" name="Delivered" value="Verify" "/>
                          </form>
                     </div>
                 </div>
