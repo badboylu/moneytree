@@ -20,7 +20,7 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-  header("Location:D1.php");
+  header("Location:D2.php");
   exit();
 }
 ?>
