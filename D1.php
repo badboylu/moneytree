@@ -173,7 +173,7 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         <form action="DL33.php" method="get" id="form">
+                         <form action="Distro.php" method="get" id="form">
                          <input type="submit" name="Prepared" value="Next order" id="Blanks" "/>
                          </form>
                     </div>
