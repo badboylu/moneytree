@@ -7,10 +7,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
-   if (!$count){
-         header("Location:D2.php");
-         exit();
-   }
+   
 ?>
 <html lang="en">
 <head>
