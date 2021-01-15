@@ -7,10 +7,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
-   if (!$count){
-         header("Location:D2.php");
-         exit();
-   }
+   
 ?>
 <html lang="en">
 <head>
@@ -176,13 +173,9 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                        <div>
-                        <a href="Next.php">
-                        <button class="receive" id="receive">
-			Next order
-		        </button>
-                        </a>
-                      </div>
+                         <form action="DL33.php" method="get" id="form">
+                         <input type="submit" name="Delivered" value="Verify" id="Blanks" "/>
+                         </form>
                     </div>
                 </div>
             </div>
