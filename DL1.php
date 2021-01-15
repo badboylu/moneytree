@@ -4,11 +4,11 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
+$query="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
    if (!$count){
-         header("Location:D2.php");
+         header("Location:DL3.php");
          exit();
    }
 ?>
@@ -176,7 +176,7 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         <form action="DL3.php" method="post" id="form">
+                         <form action="DL33.php" method="post" id="form">
                          <input type="submit" name="Next" value="Next order" id="Blanks" "/>
                          </form>
                     </div>
