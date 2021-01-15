@@ -7,10 +7,6 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
-   if (!$count){
-         header("Location:D2.php");
-         exit();
-   }
 ?>
 <html lang="en">
 <head>
@@ -176,8 +172,8 @@ $count=mysqli_num_rows($result);
                          <br>
                          <br>
                          </div>
-                         <form action="DL1.php" method="post" id="form">
-                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Shop" placeholder="Enter code here" required>
+                         <form action="Deliver.php" method="get" id="form">
+                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Verify" id="Blanks" "/>
                          </form>
                     </div>
