@@ -15,6 +15,9 @@ $count=mysqli_num_rows($result);
 $query1="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
+   if (!$count1){
+         $count1='0';
+   }
 
 ?>
 <html lang="en">
