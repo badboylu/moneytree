@@ -13,7 +13,10 @@ $count1=mysqli_num_rows($result1);
    if (!$count1){
          $count1='0';
    }
-
+   else if($count1>3){
+         header("Location:Driver.php");
+         exit();
+   }
 ?>
 <html lang="en">
 <head>
@@ -118,7 +121,7 @@ $count1=mysqli_num_rows($result1);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collected:</span><?php print_r($count1); ?>/6</li>
+                                <li class="breadcrumb-item active"><span>Collected:</span><?php print_r($count1); ?>/3</li>
                             </ol>
                         </div>
                     </div>
