@@ -6,6 +6,14 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
+
+$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
+$result1=mysqli_query($conn,$query1);
+$count1=mysqli_num_rows($result1);
+   if (!$count1){
+         $count1='0';
+   }
+
 ?>
 <html lang="en">
 <head>
@@ -110,7 +118,7 @@ $result=mysqli_query($conn,$query);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collects available:</span> ?/5</li>
+                                <li class="breadcrumb-item active"><span>Collected:</span><?php print_r($count1); ?>/6</li>
                             </ol>
                         </div>
                     </div>
