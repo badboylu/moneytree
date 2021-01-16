@@ -1,6 +1,6 @@
 var  orderNL = localStorage.getItem('GramsNL');
 var  orderDP = localStorage.getItem('GramsDP');
-var  orderBW = localStorage.getItem('GramsBW');
+var  orderBW = localStorage.getItem('PacksBW');
 var  orderOC = localStorage.getItem('GramsOC');
 var  orderPR = localStorage.getItem('GramsPR');
 var  orderCC = localStorage.getItem('BatchCC');
