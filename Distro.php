@@ -157,7 +157,7 @@ else{
                          <br>
                          </div>
                          <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
+                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> packs</span>
                          <br>
                          <br>
                          </div>
