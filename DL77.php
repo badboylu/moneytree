@@ -123,7 +123,7 @@ else if($count1>3){
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collected:</span> <?php print_r($count1); ?>/6</li>
+                                <li class="breadcrumb-item active"><span>Collected:</span> <?php print_r($count1); ?>/3</li>
                             </ol>
                         </div>
                     </div>
