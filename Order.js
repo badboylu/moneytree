@@ -4,7 +4,7 @@ var  orderBW = localStorage.getItem('GramsBW');
 var  orderOC = localStorage.getItem('GramsOC');
 var  orderPR = localStorage.getItem('GramsPR');
 var  orderCC = localStorage.getItem('BatchCC');
-var  orderCCES = localStorage.getItem('BatchCCES');
+var  orderCCES = localStorage.getItem('GramsCCes');
 var  orderPE = localStorage.getItem('GramsPE');
 if(orderNL == null){
   orderNL = 0;
