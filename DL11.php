@@ -11,6 +11,11 @@ $count=mysqli_num_rows($result);
          header("Location:D2.php");
          exit();
    }
+
+$query1="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
+$result1=mysqli_query($conn,$query1);
+$count1=mysqli_num_rows($result1);
+
 ?>
 <html lang="en">
 <head>
@@ -115,7 +120,7 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Orders pending:</span> <?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active"><span>Orders pending:</span> <?php print_r($count1); ?></li>
                             </ol>
                         </div>
                     </div>
