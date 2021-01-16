@@ -145,7 +145,7 @@ if(!$count2){
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Delivered orders:<span> </span>?/5</li>
+                                <li class="breadcrumb-item active">Delivered orders:<span></span> <?php print_r($count2); ?>/<?php print_r($count1); ?></li>
                             </ol>
                         </div>
                     </div>
