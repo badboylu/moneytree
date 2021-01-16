@@ -44,7 +44,7 @@ $order2=Max($ordernumbers1);
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
-$sql3="UPDATE deliverytoken SET idusername='".$prepper."' AND idOrdertoken='".$order1."' AND idPrepperToken='".$preptoken."' AND idDate='".$date."' WHERE idOrderID='".$order1."' ";
+$sql3="UPDATE deliverytoken SET idusername='".$prepper."' WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql3);
 
 
