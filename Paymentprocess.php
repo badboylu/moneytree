@@ -4,6 +4,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$custitoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
 $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
@@ -57,6 +58,19 @@ $stmt=mysqli_stmt_init($conn);
      mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$townpta,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
+
+$sql3="INSERT INTO deliverytoken (idCustomerToken) VALUES (?);";
+$stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql3)){
+    header("Location:Signin.php?error=sqlerror999");
+    exit();
+ }
+
+    mysqli_stmt_bind_param($stmt,"s",$custitoken);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
