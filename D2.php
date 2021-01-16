@@ -127,7 +127,7 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>No pending Order to prepare</h5>
+                        <h5>Scanning for Order...</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
