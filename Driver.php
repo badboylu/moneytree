@@ -24,7 +24,23 @@ else{
   header("Location:DL11.php");
   exit();
 }
-echo $check;
+
+$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
+$result1=mysqli_query($conn,$query1);
+$count1=mysqli_num_rows($result1);
+
+if(!$count1){
+ $count1='0';
+  }
+
+$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Delivered'";
+$result2=mysqli_query($conn,$query2);
+$count2=mysqli_num_rows($result2);
+
+if(!$count2){
+ $count2='0';
+  }
+
 ?>
 <html lang="en">
 <head>
