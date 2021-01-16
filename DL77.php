@@ -15,8 +15,8 @@ $count1=mysqli_num_rows($result1);
 if(!$count1){
 $count1=0;
 }
-else if($count1>500){
-  header("Location:DL2.php");
+else if($count1>3){
+  header("Location:Driver.php");
   exit();
 }
 ?>
