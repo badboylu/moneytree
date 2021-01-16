@@ -44,16 +44,9 @@ $order2=Max($ordernumbers1);
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
-$sql3="INSERT INTO deliverytoken (idusername,idOrdertoken,idPrepperToken,idDate,idOrderID) VALUES (?,?,?,?,?);";
-$stmt= mysqli_stmt_init($conn);
+$sql3="UPDATE deliverytoken SET idusername='".$prepper."' AND idOrdertoken='".$order1."' AND idPrepperToken='".$preptoken."' AND idDate='".$date."' WHERE idOrderID='".$order1."' ";
+mysqli_query($conn,$sql3);
 
-if(!mysqli_stmt_prepare($stmt, $sql3)){
-    header("Location:Signin.php?error=sqlerror999");
-    exit();
- }
-
- mysqli_stmt_bind_param($stmt,"sssss",$prepper,$order1,$preptoken,$date,$order1);
- mysqli_stmt_execute($stmt);
 
     header("Location:D1.php");
     exit();
