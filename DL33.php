@@ -111,7 +111,7 @@ $count=mysqli_num_rows($result);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Delivered orders:</span> ?/5</li>
+                                <li class="breadcrumb-item active"><span>Delivered orders:</span> <?php print_r($count2); ?>/<?php print_r($count1); ?></li>
                             </ol>
                         </div>
                     </div>
