@@ -6,7 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $prepper='Lin';
 $preptoken= bin2hex(random_bytes(3));
-$custitoken= bin2hex(random_bytes(3));
+
 $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
 $orderready='Prepared';
@@ -44,7 +44,7 @@ $order2=Max($ordernumbers1);
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
-$sql3="INSERT INTO deliverytoken (idusername,idOrdertoken,idPrepperToken,idCustomerToken,idDate,idOrderID) VALUES (?,?,?,?,?,?);";
+$sql3="INSERT INTO deliverytoken (idusername,idOrdertoken,idPrepperToken,idDate,idOrderID) VALUES (?,?,?,?,?);";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql3)){
@@ -52,7 +52,7 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"ssssss",$prepper,$order1,$preptoken,$custitoken,$date,$order1);
+ mysqli_stmt_bind_param($stmt,"sssss",$prepper,$order1,$preptoken,$date,$order1);
  mysqli_stmt_execute($stmt);
 
     header("Location:D1.php");
