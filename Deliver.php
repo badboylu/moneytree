@@ -35,7 +35,7 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql);
       $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$key."' ";
       mysqli_query($conn,$sql2);
-      header("Location:DL1.php");
+      header("Location:DL01.php");
       exit();
   
 }
