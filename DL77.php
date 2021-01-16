@@ -184,7 +184,7 @@ else if($count1>500){
                          <br>
                          <br>
                          </div>
-                         <form action="DL2.php" method="post" id="form">
+                         <form action="DL99.php" method="post" id="form">
                          <input type="submit" name="Next" value="Receive order" id="Blanks" "/>
                          </form>
                          <span>           </span>
