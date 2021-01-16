@@ -59,7 +59,7 @@ $stmt=mysqli_stmt_init($conn);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
-$sql3="INSERT INTO deliverytoken (idCustomerToken) VALUES (?);";
+$sql3="INSERT INTO deliverytoken (idCustomerToken,idOrderID) VALUES (?,?);";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql3)){
@@ -67,7 +67,7 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     exit();
  }
 
-    mysqli_stmt_bind_param($stmt,"s",$custitoken);
+    mysqli_stmt_bind_param($stmt,"ss",$custitoken,$authtoken);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
