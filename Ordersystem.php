@@ -41,12 +41,22 @@ while($row=mysqli_fetch_array($result2)){
 
 $order2=Max($ordernumbers1);
 
+  
+
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
 $sql3="UPDATE deliverytoken SET idusername='".$prepper."' WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql3);
 
+$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' ";
+mysqli_query($conn,$sql4);
+
+$sql5="UPDATE deliverytoken SET idPrepperToken='".$preptoken."' WHERE idOrderID='".$order1."' ";
+mysqli_query($conn,$sql5);
+
+$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' ";
+mysqli_query($conn,$sql6);
 
     header("Location:D1.php");
     exit();
