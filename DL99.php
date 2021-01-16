@@ -13,7 +13,7 @@ $count1=mysqli_num_rows($result1);
    if (!$count1){
          $count1='0';
    }
-   else if($count1>3){
+   else if($count1>2){
          header("Location:Driver.php");
          exit();
    }
