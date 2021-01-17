@@ -21,7 +21,7 @@ $data = array(
     'merchant_key' => '46f0cd694581a',
     'return_url' => 'https://canibuy.co.za/Shop.php',
     'cancel_url' => 'https://canibuy.co.za/Shopredirect.php',
-    'notify_url' => 'http://canibuy.co.za/Payfastpost.php',
+    'notify_url' => 'https://canibuy.co.za/Payfastpost.php',
     'amount' => '100.00',
     'item_name' => 'TestProduct',
 );
@@ -36,7 +36,7 @@ echo $signature;
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
    <input type="hidden" name="return_url" value="https://canibuy.co.za/Payfastpost.php">
    <input type="hidden" name="cancel_url" value="https://canibuy.co.za/Shopredirect.php">
-   <input type="hidden" name="notify_url" value="http://canibuy.co.za/Payfastpost.php">
+   <input type="hidden" name="notify_url" value="https://canibuy.co.za/Payfastpost.php">
    <input type="hidden" name="amount" value="100.00">
    <input type="hidden" name="item_name" value="TestProduct">
    <input type="hidden" name="signature" value="<?php echo $signature; ?>"> 
