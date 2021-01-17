@@ -4,8 +4,8 @@ flush();
 
 $pfData = $_POST;
 
-foreach( $pfData as $key = $val ) {
-    $pfData[$key] = stripslashes( $val );
+foreach( $pfData as $key ) {
+    echo $key;
 }
 
-echo $key;
+
