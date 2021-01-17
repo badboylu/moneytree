@@ -23,7 +23,7 @@ $data = array(
     'item_name' => 'Test Product',
     'return_url' => 'https://canibuy.co.za/Payfastpost.php',
     'cancel_url' => 'https://canibuy.co.za/Shopredirect.php',
-    'notify_url' => 'https://canibuy.co.za/Payfastpost.php'
+    'notify_url' => 'https://canibuy.co.za/Payfastpost.php',
 );
 
 $signature = generateSignature($data);
