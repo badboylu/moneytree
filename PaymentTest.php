@@ -7,7 +7,7 @@ function generateSignature($data, $passPhrase = null) {
             $pfOutput .= $key .'='. urlencode( trim( $val ) ) .'&';
         }
     }
-    // Remove last ampersand
+
     $getString = substr( $pfOutput, 0, -1 );
     if( $passPhrase !== null ) {
         $getString .= '&passphrase='. urlencode( trim( $passPhrase ) );
