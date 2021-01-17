@@ -8,4 +8,4 @@ foreach( $pfData as $key = $val ) {
     $pfData[$key] = stripslashes( $val );
 }
 
-echo $pfData;
+echo $key;
