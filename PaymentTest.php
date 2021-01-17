@@ -19,11 +19,11 @@ $data = array(
     // Merchant details
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'amount' => '100.00',
-    'item_name' => 'TestProduct',
     'return_url' => 'https://canibuy.co.za/Payfastpost.php',
     'cancel_url' => 'https://canibuy.co.za/Shopredirect.php',
     'notify_url' => 'https://canibuy.co.za/Payfastpost.php',
+    'amount' => '100.00',
+    'item_name' => 'TestProduct',
 );
 
 $signature = generateSignature($data);
@@ -34,11 +34,11 @@ echo $signature;
 <form action="https://sandbox.payfast.co.za/eng/process?true" method="post">
    <input type="hidden" name="merchant_id" value="10000100">
    <input type="hidden" name="merchant_key" value="46f0cd694581a">
-   <input type="hidden" name="amount" value="100.00">
-   <input type="hidden" name="item_name" value="TestProduct">
    <input type="hidden" name="return_url" value="https://canibuy.co.za/Payfastpost.php">
    <input type="hidden" name="cancel_url" value="https://canibuy.co.za/Shopredirect.php">
    <input type="hidden" name="notify_url" value="https://canibuy.co.za/Payfastpost.php">
+   <input type="hidden" name="amount" value="100.00">
+   <input type="hidden" name="item_name" value="TestProduct">
    <input type="hidden" name="signature" value="<?php echo $signature; ?>"> 
    <input type="submit" name="Pay" value="Order" >
 </form> 
