@@ -40,6 +40,6 @@ echo $signature;
    <input type="hidden" name="cancel_url" value="https://canibuy.co.za/Shopredirect.php">
    <input type="hidden" name="notify_url" value="https://canibuy.co.za/Payfastpost.php">
    <input type="hidden" name="signature" value="<?php echo $signature; ?>"> 
-   <input type="submit">
+   <input type="submit" name="Pay" value="Order" >
 </form> 
 </html>
