@@ -8,6 +8,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 $boss='Admin-Lunga';
+$driver='Driver-Lunga';
 $sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -51,6 +52,11 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     header("Location:AdminCBI.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
  }
+if($uid==$driver){
+    header("Location:DLH.php?login=successful"."&auth=".$token."&username=".$uid);
+    exit();
+ }
+ 
  
     header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
