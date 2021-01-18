@@ -68,7 +68,7 @@
     <div class="page-main-header">
         <div class="main-header-right row">
             <div class="main-header-left d-lg-none">
-                <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="multikart-logo.png" alt=""></a></div>
+                <div class="logo-wrapper"></div>
             </div>
             <div class="mobile-sidebar">
                 <div class="media-body text-right switch-sm">
@@ -78,11 +78,7 @@
             <div class="nav-right col">
                 <ul class="nav-menus">
                     <li>
-                        <form class="form-inline search-form">
-                            <div class="form-group">
-                                <input class="form-control-plaintext" type="search" placeholder="Search.."><span class="d-sm-none mobile-search"><i data-feather="search"></i></span>
-                            </div>
-                        </form>
+                        
                     </li>
                     <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize-2"></i></a></li>
                     <li class="onhover-dropdown"><a class="txt-dark" href="#">
@@ -150,14 +146,14 @@
         <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
-                <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="multikart-logo.png" alt=""></a></div>
+                <div class="logo-wrapper"></div>
             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <div><img class="img-60 rounded-circle lazyloaded blur-up" src="man.png" alt="#">
                     </div>
                     <h6 class="mt-3 f-14">JOHN</h6>
-                    <p>general manager.</p>
+                    <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -331,7 +327,7 @@
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3>Dashboard
-                                    <small>Multikart Admin panel</small>
+                                    <small>Distribution Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -357,7 +353,7 @@
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Earnings</span>
-                                        <h3 class="mb-0">$ <span class="counter">6659</span><small> This Month</small></h3>
+                                        <h3 class="mb-0">R <span class="counter">6659</span><small> This Month</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -371,7 +367,7 @@
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Products</span>
-                                        <h3 class="mb-0">$ <span class="counter">9856</span><small> This Month</small></h3>
+                                        <h3 class="mb-0">R <span class="counter">9856</span><small> This Month</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -385,7 +381,7 @@
                                         <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Messages</span>
-                                        <h3 class="mb-0">$ <span class="counter">893</span><small> This Month</small></h3>
+                                        <h3 class="mb-0">R <span class="counter">893</span><small> This Month</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -399,38 +395,13 @@
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">New Vendors</span>
-                                        <h3 class="mb-0">$ <span class="counter">45631</span><small> This Month</small></h3>
+                                        <h3 class="mb-0">R <span class="counter">45631</span><small> This Month</small></h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 xl-100">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Market Value</h5>
-                                <div class="card-header-right">
-                                    <ul class="list-unstyled card-option">
-                                        <li><i class="icofont icofont-simple-left"></i></li>
-                                        <li><i class="view-html fa fa-code"></i></li>
-                                        <li><i class="icofont icofont-maximize full-card"></i></li>
-                                        <li><i class="icofont icofont-minus minimize-card"></i></li>
-                                        <li><i class="icofont icofont-refresh reload-card"></i></li>
-                                        <li><i class="icofont icofont-error close-card"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="market-chart"></div>
-                                <div class="code-box-copy">
-                                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                                    <pre><code class="language-html" id="example-head">&lt;!-- Cod Box Copy begin --&gt;
-&lt;div class="market-chart"&gt;&lt;/div&gt;
-&lt;!-- Cod Box Copy end --&gt;</code></pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
