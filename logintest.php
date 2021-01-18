@@ -7,6 +7,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
+$boss='Admin-Lunga';
 $sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -45,6 +46,11 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
+
+ if($uid==$boss){
+    header("Location:AdminCBI.php?login=successful"."&auth=".$token."&username=".$uid);
+    exit();
+ }
  
     header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
