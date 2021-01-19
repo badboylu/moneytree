@@ -133,7 +133,7 @@
 
                     <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
                     
-                    <li><a class="sidebar-header" href="logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
+                    <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
