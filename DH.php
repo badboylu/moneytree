@@ -115,20 +115,22 @@
                         </ul>
                     </li>
                     
-                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Pages</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="pages-list.html"><i class="fa fa-circle"></i>List Page</a></li>
-                            <li><a href="page-create.html"><i class="fa fa-circle"></i>Create Page</a></li>
-                        </ul>
-                    </li>
                     
-                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Localization</span></a>
+                    
+                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="translations.html"><i class="fa fa-circle"></i>Translations</a></li>
-                            <li><a href="currency-rates.html"><i class="fa fa-circle"></i>Currency Rates</a></li>
-                            <li><a href="taxes.html"><i class="fa fa-circle"></i>Taxes</a></li>
+                            <li><a href="translations.html"><i class="fa fa-circle"></i>Order codes</a></li>
+                            
                         </ul>
                     </li>
+
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                        <ul class="sidebar-submenu">
+                            <li><a href="pages-list.html"><i class="fa fa-circle"></i>Transactions</a></li>
+                            
+                        </ul>
+                    </li>
+
                     <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
                     
                     <li><a class="sidebar-header" href="login.html"><i data-feather="log-in"></i><span>Logout</span></a>
