@@ -98,7 +98,7 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Orders</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
@@ -119,7 +119,7 @@
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="translations.html"><i class="fa fa-circle"></i>Order codes</a></li>
+                            <li><a href="translations.html"><i class="fa fa-circle"></i>Collection codes</a></li>
                             
                         </ul>
                     </li>
