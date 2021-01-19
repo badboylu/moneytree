@@ -5,6 +5,7 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
+   $authtoken = $_GET['username'];
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -97,18 +98,16 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Products</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Orders</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
                                     <span>Physical</span> <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                                 <ul class="sidebar-submenu">
-                                    <li><a href="category.html"><i class="fa fa-circle"></i>Category</a></li>
-                                    <li><a href="category-sub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
-                                    <li><a href="product-list.html"><i class="fa fa-circle"></i>Product List</a></li>
-                                    <li><a href="product-detail.html"><i class="fa fa-circle"></i>Product Detail</a></li>
-                                    <li><a href="add-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
+                                    <li><a href="category.html"><i class="fa fa-circle"></i>Pending orders</a></li>
+                                    <li><a href="category-sub.html"><i class="fa fa-circle"></i>Scan pending orders</a></li>
+                                    
                                 </ul>
                             </li>
                             <li>
