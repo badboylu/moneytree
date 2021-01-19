@@ -90,7 +90,7 @@
             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
-                    <div><img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg"/>
+                    <div>
                     </div>
                     <h6 class="mt-3 f-14">JOHN</h6>
                     <p>Distribution Agent</p>
