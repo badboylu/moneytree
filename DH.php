@@ -98,28 +98,19 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Orders</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Orders</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Physical</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Pending orders</span> 
                                 </a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="category.html"><i class="fa fa-circle"></i>Pending orders</a></li>
-                                    <li><a href="category-sub.html"><i class="fa fa-circle"></i>Scan pending orders</a></li>
-                                    
-                                </ul>
+                          
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Digital</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Scan pending orders</span> 
                                 </a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="category-digital.html"><i class="fa fa-circle"></i>Category</a></li>
-                                    <li><a href="category-digitalsub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
-                                    <li><a href="product-listdigital.html"><i class="fa fa-circle"></i>Product List</a></li>
-                                    <li><a href="add-digital-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
-                                </ul>
+                                
                             </li>
                         </ul>
                     </li>
