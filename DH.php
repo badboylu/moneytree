@@ -236,10 +236,17 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2019 © Multikart All rights reserved.</p>
+
+                        <p class="mb-0">© 2020 Created by 
+<a href="'#'" style="color:white">
+<span style="color: orange;font-size: 15px">
+Plug
+</span>
+	<a href="'#'">Tech</a> Creations
+</a></p>
                     </div>
                     <div class="col-md-6">
-                        <p class="pull-right mb-0">Hand crafted & made with<i class="fa fa-heart"></i></p>
+                        <p class="pull-right mb-0">Premium e-commerce solutions</p>
                     </div>
                 </div>
             </div>
