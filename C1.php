@@ -143,7 +143,7 @@ $result=mysqli_query($conn,$query);
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
-                                <th>I.D</th>
+                                <th>Order I.D</th>
                                 <th>collection code</th>
                                 
                                
