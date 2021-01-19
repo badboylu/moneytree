@@ -126,14 +126,14 @@
 
                     <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="pages-list.html"><i class="fa fa-circle"></i>Transactions</a></li>
+                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
                             
                         </ul>
                     </li>
 
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
                     
-                    <li><a class="sidebar-header" href="login.html"><i data-feather="log-in"></i><span>Logout</span></a>
+                    <li><a class="sidebar-header" href="logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
