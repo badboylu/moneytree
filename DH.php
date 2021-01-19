@@ -238,12 +238,12 @@
                     <div class="col-md-6 footer-copyright">
 
                         <p class="mb-0">© 2020 Created by 
-<a href="'#'" style="color:white">
-<span style="color: orange;font-size: 15px">
+
+<span style="color: orange;">
 Plug
 </span>
-	<a href="'#'">Tech</a> Creations
-</a></p>
+	Tech Creations
+</p>
                     </div>
                     <div class="col-md-6">
                         <p class="pull-right mb-0">Premium e-commerce solutions</p>
