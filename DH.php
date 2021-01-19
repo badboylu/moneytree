@@ -68,7 +68,7 @@
     <div class="page-main-header">
         <div class="main-header-right row">
             <div class="main-header-left d-lg-none">
-                <div class="logo-wrapper"></div>
+                <div class="logo-wrapper"> <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg"/> </div>
             </div>
             <div class="mobile-sidebar">
                 <div class="media-body text-right switch-sm">
