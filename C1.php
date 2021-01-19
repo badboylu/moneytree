@@ -73,7 +73,7 @@ $result=mysqli_query($conn,$query);
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14">Lunga M</h6>
-                    <p>Site owner</p>
+                    <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="indexAdmin.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -116,8 +116,8 @@ $result=mysqli_query($conn,$query);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy database
-                                    <small>Database details</small>
+                                <h3>Collection protocol
+                                    <small>Distribution Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -137,18 +137,15 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="4000px">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Database Data</h5>
+                        <h5>Collection codes</h5>
                     </div>
                     <div class="card-body vendor-table">
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
                                 <th>I.D</th>
-                                <th>Date</th>
-                                <th>Pre-Agent</th>
-                                <th>Distro token</th>
-                                <th>Client token</th>
-                                <th>Verification token</th>
+                                <th>collection code</th>
+                                
                                
                             </tr>
                             </thead>
@@ -159,11 +156,8 @@ $result=mysqli_query($conn,$query);
                             <tr>
                                 
                                 <td><?php echo $rows['idOrder']; ?> </td>
-                                <td><?php echo $rows['idDate']; ?></td>
-                                <td><?php echo $rows['idUsername']; ?> </td>
                                 <td><?php echo $rows['idPrepperToken']; ?></td>
-                                <td><?php echo $rows['idCustomerToken']; ?></td>
-                                <td><?php echo $rows['idOrderID']; ?></td>
+                                
                                 
 
                             </tr>
