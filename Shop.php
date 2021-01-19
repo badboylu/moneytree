@@ -1600,7 +1600,7 @@ Plug
 </span>
 	<a href="'#'">Tech</a> Creations
 </a>
-. Premium e-commerce solutions.</div></div></div></div></footer></div>
+. Premium e-commerce solutions</div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
