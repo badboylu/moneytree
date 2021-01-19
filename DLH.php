@@ -70,6 +70,11 @@
             <div class="main-header-left d-lg-none">
                 <div class="logo-wrapper"></div>
             </div>
+            <div class="mobile-sidebar">
+                <div class="media-body text-right switch-sm">
+                    <label class="switch"><a href="#"><i id="sidebar-toggle" data-feather="align-left"></i></a></label>
+                </div>
+            </div>
             
         </div>
     </div>
