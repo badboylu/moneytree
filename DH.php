@@ -191,7 +191,7 @@
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Pending orders to prepare</span>
-                                        <h3 class="mb-0"><span class="counter">???</span><small> Now</small></h3>
+                                        <h3 class="mb-0"><span class="counter">777</span><small> Now</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -204,8 +204,8 @@
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-primary"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Messages</span>
-                                        <h3 class="mb-0">R <span class="counter">893</span><small> This Month</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Orders prepared</span>
+                                        <h3 class="mb-0"><span class="counter">1279</span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -218,8 +218,8 @@
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">New Vendors</span>
-                                        <h3 class="mb-0">R <span class="counter">45631</span><small> This Month</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Orders collected</span>
+                                        <h3 class="mb-0"><span class="counter">1300</span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
