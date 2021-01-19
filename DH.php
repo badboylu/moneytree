@@ -93,7 +93,7 @@
                 <div class="sidebar-user text-center">
                     <div>
                     </div>
-                    <h6 class="mt-3 f-14">JOHN</h6>
+                    <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
@@ -107,7 +107,7 @@
                           
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-circle"></i>
+                                <a href="D2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
                                     <span>Scan pending orders</span> 
                                 </a>
                                 
