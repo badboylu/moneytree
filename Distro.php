@@ -36,7 +36,7 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-  header("Location:D2.php");
+  header("Location:Distro.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>");
   exit();
 }
 ?>
