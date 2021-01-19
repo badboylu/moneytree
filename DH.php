@@ -97,7 +97,7 @@
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
@@ -177,7 +177,7 @@
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Earnings</span>
-                                        <h3 class="mb-0">R <span class="counter">6659</span><small> This Month</small></h3>
+                                        <h3 class="mb-0">R <span class="counter">6659</span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +190,8 @@
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Products</span>
-                                        <h3 class="mb-0">R <span class="counter">9856</span><small> This Month</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Pending orders to prepare</span>
+                                        <h3 class="mb-0"><span class="counter">???</span><small> Now</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                             <div class="bg-primary card-body">
                                 <div class="media static-top-widget row">
                                     <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
+                                        <div class="align-self-center text-center"><i data-feather="box" class="font-primary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Messages</span>
                                         <h3 class="mb-0">R <span class="counter">893</span><small> This Month</small></h3>
