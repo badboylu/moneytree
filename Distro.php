@@ -36,21 +36,18 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-
   echo '
-  <html>
+  <script>
+  document.getElementById("verify").submit();
+  </script>';
+}
+?>
+<html lang="en">
   <form action="D2.php" method="get" id="verify">
   <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
   <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
   <input type="submit">
   </form>
-  <script>
-  document.getElementById("verify").submit();
-  </script>
-  </html> ';
-}
-?>
-<html lang="en">
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
