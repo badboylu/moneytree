@@ -145,7 +145,7 @@ if(!$count2){
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Pending deliveries:<span></span> <?php print_r($count1); ?></li>
+                                <li class="breadcrumb-item active"><span></span></li>
                             </ol>
                         </div>
                     </div>
