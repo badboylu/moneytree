@@ -36,7 +36,18 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-  header("Location:D2.php");
+
+  echo '
+  <html>
+  <form action="D2.php" id="verify">
+  <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+  <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
+  <input type="submit">
+  </form>
+  <script>
+  document.getElementById("myForm").submit();
+  </script>
+  </html> '
   exit();
 }
 ?>
