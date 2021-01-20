@@ -46,20 +46,18 @@ $count=mysqli_num_rows($result);
 <!-- page-wrapper Start-->
 <div class="page-wrapper">
 
-    <!-- Page Header Start-->
+     <!-- Page Header Start-->
     <div class="page-main-header">
         <div class="main-header-right row">
             <div class="main-header-left d-lg-none">
-                <div class="logo-wrapper"></div>
+                <div class="logo-wrapper"> </div>
             </div>
             <div class="mobile-sidebar">
                 <div class="media-body text-right switch-sm">
                     <label class="switch"><a href="#"><i id="sidebar-toggle" data-feather="align-left"></i></a></label>
                 </div>
             </div>
-            <div class="nav-right col">
-                <div class="d-lg-none mobile-toggle pull-right"><i data-feather="more-horizontal"></i></div>
-            </div>
+            
         </div>
     </div>
     <!-- Page Header Ends -->
@@ -74,19 +72,49 @@ $count=mysqli_num_rows($result);
             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
-                    <h6 class="mt-3 f-14">Lunga M</h6>
+                    <div>
+                    </div>
+                    <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Earnings</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
+                        <ul class="sidebar-submenu">
+                            <li>
+                                <a href="Distro.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Pending orders</span> 
+                                </a>
+                          
+                            </li>
+                            <li>
+                                <a href="D2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending orders</span> 
+                                </a>
+                                
+                            </li>
+                        </ul>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Distribution History</span></a></li>
+                    
+                    
+                    
+                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
+                        <ul class="sidebar-submenu">
+                            <li><a href="C1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection codes</a></li>
+                            
+                        </ul>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Canceled orders</span></a></li>
+
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                        <ul class="sidebar-submenu">
+                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
+                            
+                        </ul>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Performance report</span></a></li>
-                    </li>
-                    <li><a class="sidebar-header" href="logout.html"><i data-feather="log-in"></i><span>Logout</span></a>
+
+                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
+                    
+                    <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
