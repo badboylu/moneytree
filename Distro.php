@@ -45,7 +45,7 @@ else{
   <input type="submit">
   </form>
   <script>
-  document.getElementById("myForm").submit();
+  document.getElementById("verify").submit();
   </script>
   </html> '
   exit();
