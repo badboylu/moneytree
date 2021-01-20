@@ -4,7 +4,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$prepper=echo '$_GET['username']';
+$prepper= echo $_GET['username'];
 $preptoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
