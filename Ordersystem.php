@@ -4,7 +4,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$prepper= echo $_GET['username'];
+ echo $_GET['username'];
 $preptoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
@@ -46,7 +46,7 @@ $order2=Max($ordernumbers1);
 $sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
-$sql3="UPDATE deliverytoken SET idusername='".$prepper."' WHERE idOrderID='".$order1."' ";
+$sql3="UPDATE deliverytoken SET idusername='echo $_GET['username'];' WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql3);
 
 $sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' ";
