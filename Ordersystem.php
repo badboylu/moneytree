@@ -33,19 +33,11 @@ while($row = mysqli_fetch_array($result1)) {
 
 $order1=Max($token);
 
-$sql1="SELECT * FROM address WHERE idOrderConfirmation='Placed'";
-$result2=mysqli_query($conn,$sql1);
-
-while($row=mysqli_fetch_array($result2)){
- $ordernumbers1[]=$row['idUser'];
-}
-
-$order2=Max($ordernumbers1);
-
-  
-
-$sql2="UPDATE oder SET idOrderConfirmation='".$user."' WHERE idUser='".$order2."' AND idOrderToken='".$order1."' ";
+$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' ";
 mysqli_query($conn,$sql2);
+
+$sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderToken='".$order1."' ";
+mysqli_query($conn,$sql7);
 
 $sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql3);
