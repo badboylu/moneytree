@@ -333,7 +333,7 @@ Plug
 
 <script>
 function pay(){
-var cash = <?php print_r($count3);?> * 10;
+var cash = 10;
 document.getElementById('pay').textContent = cash;
 }
 pay();
