@@ -334,7 +334,7 @@ Plug
 <script>
 function pay(){
 var cash = 10;
-document.querySelectorAll('.paythem').textContent = cash;
+document.querySelector('.paythem').textContent = cash;
 }
 pay();
 </script>
