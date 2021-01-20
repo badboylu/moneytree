@@ -58,7 +58,8 @@ mysqli_query($conn,$sql5);
 $sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql6);
 
-    
+    header("Location:D1.php?username=".$user."&auth=".$authtoken."");
+    exit();
 
 
 
