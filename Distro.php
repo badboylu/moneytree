@@ -40,7 +40,7 @@ else{
   echo '
   <html>
   <form action="D2.php" id="verify">
-  <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+  <input type="hidden" name="auth" value="'.<?php echo $_GET['auth'] ?>.'">
   <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
   <input type="submit">
   </form>
