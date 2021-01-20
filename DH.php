@@ -332,10 +332,13 @@ Plug
 <script src="admin-script.js"></script>
 
 <script>
-
+function pay(){
+let cash = <?php print_r($count3);?> * 10;
+document.getElementById('pay').value= cash;
+}
+pay();
 </script>
 
-document.getElementById('Id').value='new value';
 </body>
 
 <!-- Mirrored from themes.pixelstrap.com/multikart/back-end/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:31:08 GMT -->
