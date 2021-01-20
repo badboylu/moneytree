@@ -12,6 +12,7 @@ $orderready='Prepared';
 $authtoken=$_GET['auth'];
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
+$orderready1='Pending';
 
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
@@ -34,7 +35,7 @@ $order1=Max($token);
 
 $sql1="SELECT * FROM address WHERE idOrderConfirmation='Placed'";
 $result2=mysqli_query($conn,$sql1);
-$orderready1='Pending';
+
 while($row=mysqli_fetch_array($result2)){
  $ordernumbers1[]=$row['idUser'];
 }
@@ -43,7 +44,7 @@ $order2=Max($ordernumbers1);
 
   
 
-$sql2="UPDATE address SET idOrderConfirmation='".$orderready1."' WHERE idUser='".$order2."' AND idToken='".$order1."' ";
+$sql2="UPDATE oder SET idOrderConfirmation='".$user."' WHERE idUser='".$order2."' AND idOrderToken='".$order1."' ";
 mysqli_query($conn,$sql2);
 
 $sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderID='".$order1."' ";
