@@ -47,7 +47,7 @@ else{
   <script>
   document.getElementById("verify").submit();
   </script>
-  </html> '
+  </html> ';
   exit();
 }
 ?>
