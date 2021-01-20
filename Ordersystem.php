@@ -10,7 +10,6 @@ $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
 $orderready='Prepared';
 $authtoken=$_GET['auth'];
-$user=$_GET['username'];
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 
