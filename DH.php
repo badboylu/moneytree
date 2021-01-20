@@ -195,7 +195,7 @@ $count2=mysqli_num_rows($result2);
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Earnings</span>
-                                        <h3 class="mb-0">R <span class="counter"><span class="pay"></span></span><small> Today</small></h3>
+                                        <h3 class="mb-0">R <span class="counter"><span class="paythem"></span></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -334,7 +334,7 @@ Plug
 <script>
 function pay(){
 var cash = 10;
-document.querySelector('.pay').textContent = cash;
+document.querySelectorAll('.paythem').textContent = cash;
 }
 pay();
 </script>
