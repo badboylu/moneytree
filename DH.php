@@ -23,6 +23,9 @@
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
+$query="SELECT * FROM deliverytoken WHERE idUsername='Lin'";
+$result=mysqli_query($conn,$query);
+$count1=mysqli_num_rows($result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -208,7 +211,7 @@ $count=mysqli_num_rows($result);
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-primary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Orders prepared</span>
-                                        <h3 class="mb-0"><span class="counter">1279</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php print_r($count1); ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
