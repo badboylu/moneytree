@@ -38,7 +38,10 @@ else if($count>0){
 else{
   echo '
   <script>
+  function form(){
   document.getElementById("verify").submit();
+  }
+  form();
   </script>';
 }
 ?>
