@@ -120,13 +120,13 @@ $count2=mysqli_num_rows($result2);
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Pending orders</span> 
+                                    <span>Active deliveries</span> 
                                 </a>
                           
                             </li>
                             <li>
-                                <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending orders</span> 
+                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending collections</span> 
                                 </a>
                                 
                             </li>
@@ -137,7 +137,7 @@ $count2=mysqli_num_rows($result2);
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="C1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection codes</a></li>
+                            <li><a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection protocol</a></li>
                             
                         </ul>
                     </li>
