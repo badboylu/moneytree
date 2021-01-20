@@ -23,9 +23,12 @@
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
-$query="SELECT * FROM deliverytoken WHERE idUsername='Lin'";
-$result=mysqli_query($conn,$query);
-$count1=mysqli_num_rows($result);
+$query1="SELECT * FROM deliverytoken WHERE idUsername='Lin'";
+$result1=mysqli_query($conn,$query1);
+$count1=mysqli_num_rows($result1);
+$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' OR idPrepperToken='Delivered' ";
+$result2=mysqli_query($conn,$query2);
+$count2=mysqli_num_rows($result2);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -224,8 +227,8 @@ $count1=mysqli_num_rows($result);
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Orders collected</span>
-                                        <h3 class="mb-0"><span class="counter">1300</span><small> Today</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Orders distributed</span>
+                                        <h3 class="mb-0"><span class="counter"><?php print_r($count2); ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
