@@ -5,6 +5,7 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken=$_GET['auth'];
+$user=$_GET['username'];
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -36,7 +37,7 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-    header("Location:D2.php?username=$_GET['username'];&auth=$_GET['auth'];");
+    header("Location:D2.php?username=".$user."&auth=".$authtoken."");
     exit();
 }
 ?>
