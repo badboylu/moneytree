@@ -36,7 +36,7 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-    header("Location:D2.php?username=echo $_GET['username'];&auth=echo $_GET['auth'];");
+    header("Location:D2.php?username=$_GET['username'];&auth=$_GET['auth'];");
     exit();
 }
 ?>
