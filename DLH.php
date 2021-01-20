@@ -214,7 +214,7 @@ $count2=mysqli_num_rows($result2);
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Pending orders to deliver</span>
+                                    <div class="media-body col-8"><span class="m-0">Pending Order Collections</span>
                                         <h3 class="mb-0"><span class="counter"><?php print_r($count3); ?></span><small> Now</small></h3>
                                     </div>
                                 </div>
