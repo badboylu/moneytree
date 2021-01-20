@@ -6,10 +6,11 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $prepper='Lin';
 $preptoken= bin2hex(random_bytes(3));
-
 $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
 $orderready='Prepared';
+$authtoken=$_GET['auth'];
+$user=$_GET['username'];
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 
@@ -58,7 +59,7 @@ mysqli_query($conn,$sql5);
 $sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' ";
 mysqli_query($conn,$sql6);
 
-    header("Location:D1.php");
+    header("Location:D1.php?username=".$user."&auth=".$authtoken."");
     exit();
 
 
