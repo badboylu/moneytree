@@ -20,15 +20,24 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
-$result=mysqli_query($conn,$query);
-$count=mysqli_num_rows($result);
-$query1="SELECT * FROM deliverytoken WHERE idUsername='Lin'";
+$query3="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
+$result3=mysqli_query($conn,$query3);
+$count3=mysqli_num_rows($result3);
+ if (!$count3){
+    $count3='0';
+}
+$query1="SELECT * FROM deliverytoken WHERE idUsername='".$distro."'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
+  if (!$count1){
+    $count1='0';
+}
 $query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' OR idPrepperToken='Delivered' ";
 $result2=mysqli_query($conn,$query2);
 $count2=mysqli_num_rows($result2);
+  if (!$count2){
+    $count2='0';
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
