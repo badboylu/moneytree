@@ -388,7 +388,7 @@ Flowers
 </div></div></div></div></div></div></div>
 
 <div class="container">
-<div class="Added" id="added" style="display:block;" >
+<div class="Added" id="added" style="display:none;" >
 <span><strong>Durban Poison added to cart</strong></span>
 </div>
 </div>
