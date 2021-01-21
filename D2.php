@@ -24,7 +24,7 @@ $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
    if ($count>0){
-         header("Location:Distro.php");
+         header("Location:Distro.php?username=".$user."&auth=".$authtoken."");
          exit();
    }
 ?>
