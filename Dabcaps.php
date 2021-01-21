@@ -368,7 +368,7 @@ Cannacaps 400mg capsules
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-240.00
+240.00 per batch
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
@@ -409,6 +409,10 @@ R
 		</div>
 
 </div>
+<br>
+<br>
+<br>
+<br>
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
