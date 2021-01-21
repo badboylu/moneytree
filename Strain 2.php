@@ -402,7 +402,7 @@ Flowers
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Dabcaps added to cart</strong></span>
+<span><strong>Orange Cali added to cart</strong></span>
 </div>
 </div>
 </div>
