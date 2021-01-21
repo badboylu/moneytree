@@ -478,6 +478,17 @@ src="totalAmountsDisplay.js" >
 <script 
 src="totalAmountsDisplayFooter.js" >
 </script>
+<script>
+setInterval (function addHide(){
+    dp= localStorage.getItem('cartNumberDP');
+    if(dp){
+    document.getElementById("added").style.display = "block";
+    }else{
+    document.getElementById("added").style.display = "none";
+    }
+}, 1000);
+addHide();
+</script>
 </body>
 <!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
 </html>
