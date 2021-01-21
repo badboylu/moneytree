@@ -4,6 +4,8 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken=$_GET['auth'];
+$user=$_GET['username'];
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -22,7 +24,7 @@ $query="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
    if ($count>0){
-         header("Location:DL11.php");
+         header("Location:DL11.php?username=".$user."&auth=".$authtoken."");
          exit();
    }
 ?>
