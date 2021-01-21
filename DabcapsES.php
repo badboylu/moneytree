@@ -417,6 +417,9 @@ Edibles
 </div></div></div></div></div></div></div>
 
 <div class="container">
+<div class="Added" id="added" style="display:none;" >
+<span><strong>Dabcaps (Extra Strong) added to cart</strong></span>
+</div>
 </div>
 </div>
 
@@ -496,6 +499,17 @@ src="plugtechCCes.js" >
 </script>
 <script 
 src="totalAmountsDisplay.js" >
+</script>
+<script>
+setInterval (function addHide(){
+    cces= localStorage.getItem('cartNumberCCES');
+    if(cces){
+    document.getElementById("added").style.display = "block";
+    }else{
+    document.getElementById("added").style.display = "none";
+    }
+}, 1000);
+addHide();
 </script>
 </body>
 <!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
