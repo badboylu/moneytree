@@ -1680,12 +1680,6 @@ src="totalAmountsDisplay.js" >
 </script>
 
 <script>
-
-setInterval (function addHide1(){
-   
-    }
-}, 1000);
-
 setInterval (function addHide(){
     dp= localStorage.getItem('cartNumberDP');
     oc= localStorage.getItem('cartNumberOC');
