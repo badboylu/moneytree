@@ -888,7 +888,7 @@ Accessories
 </div>
 </div>
 <div class="container">
-<div class="Added">
+<div class="Added" id="added" >
 <span><strong>Item/s added to cart</strong></span>
 </div>
 <div class="row">
@@ -1678,5 +1678,31 @@ src="PrHome.js" >
 <script 
 src="totalAmountsDisplay.js" >
 </script>
+
+<script>
+
+setInterval (function addHide1(){
+   
+    }
+}, 1000);
+
+setInterval (function addHide(){
+    dp= localStorage.getItem('cartNumberDP');
+    oc= localStorage.getItem('cartNumberOC');
+    bw= localStorage.getItem('cartNumberBW');
+    pe= localStorage.getItem('cartNumberPE');
+    nl= localStorage.getItem('cartNumberNL');
+    cc= localStorage.getItem('cartNumberCC');
+    cces= localStorage.getItem('cartNumberCCES');
+    pr= localStorage.getItem('cartNumberPR');
+    if(dp||oc||bw||pe||nl||cc||cces||pr){
+    document.getElementById("added").style.display = "block";
+    }else{
+    document.getElementById("added").style.display = "none";
+    }
+}, 1000);
+addHide();
+</script>
+
 </body>
 </html>
