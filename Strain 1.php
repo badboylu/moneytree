@@ -227,9 +227,6 @@ href="cannacaps.html" />
 <div class="main-page-wrapper">
 <div class="page-title page-title-default title-size-small title-design-centered color-scheme-light" style="">
 <div class="container">
-<div class="Added" id="added" style="display:block;" >
-<span><strong>Durban Poison added to cart</strong></span>
-</div>
 <header class="entry-header">
 <h1 class="entry-title">
 </h1>
@@ -282,6 +279,9 @@ Shop
 id="product-19515" 
 class="single-product-page single-product-content product-design-default product-with-attachments product type-product post-19515 status-publish first instock product_cat-woman has-post-thumbnail shipping-taxable purchasable product-type-variable">
 <div class="container">
+<div class="Added" id="added" style="display:block;" >
+<span><strong>Durban Poison added to cart</strong></span>
+</div>
 <div class="row">
 <div class="product-image-summary col-sm-12">
 <div class="row">
