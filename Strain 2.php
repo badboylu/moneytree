@@ -30,6 +30,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" 
 href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" href="Added.css" />
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
 <title>Orange Cali</title>
@@ -400,6 +401,9 @@ Flowers
 </div></div></div></div></div></div></div>
 
 <div class="container">
+<div class="Added" id="added" style="display:none;" >
+<span><strong>Dabcaps added to cart</strong></span>
+</div>
 </div>
 </div>
 
@@ -479,7 +483,18 @@ src="plugtechOC.js" >
 </script>
 <script 
 src="totalAmountsDisplay.js" >
-</script>		   
+</script>	
+<script>
+setInterval (function addHide(){
+    oc= localStorage.getItem('cartNumberOC');
+    if(oc){
+    document.getElementById("added").style.display = "block";
+    }else{
+    document.getElementById("added").style.display = "none";
+    }
+}, 1000);
+addHide();
+</script>
 </body>
 <!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
 </html>
