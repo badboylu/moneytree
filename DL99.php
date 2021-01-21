@@ -155,7 +155,7 @@ $count1=mysqli_num_rows($result1);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Collected:</span><?php print_r($count1); ?>/3</li>
+                                <li class="breadcrumb-item active"><span></li>
                             </ol>
                         </div>
                     </div>
