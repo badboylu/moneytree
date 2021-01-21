@@ -430,7 +430,7 @@ Edibles
 
 <div class="container">
 <div class="Added" id="added" style="display:block;" >
-<span><strong>Durban Poison added to cart</strong></span>
+<span><strong>Dabcaps added to cart</strong></span>
 </div>
 </div>
 </div>
