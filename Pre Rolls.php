@@ -381,6 +381,10 @@ per/J
 	<br>
 	<strong>Potency:</strong><span> 18% - 22%</span>
 	</p></div>
+	<br>
+	<br>
+	<br>
+	<br>
 <div >
 	<div class="single_variation_wrap">
 	<div class="woocommerce-variation single_variation">
