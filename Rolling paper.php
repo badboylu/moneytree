@@ -386,7 +386,7 @@ Accessories
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Durban Poison added to cart</strong></span>
+<span><strong>Blunt Wrap added to cart</strong></span>
 </div>
 </div>
 </div>
