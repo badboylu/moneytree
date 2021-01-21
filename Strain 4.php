@@ -40,6 +40,7 @@ data-minify="1" />
 href="plugIcons.css" />
 <link rel='dns-prefetch' 
 href='http://fonts.googleapis.com/' />
+<link rel="stylesheet" href="Added.css" />
 <link rel='dns-prefetch' 
 href='http://basel-cec2.kxcdn.com/' />
 <link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" 
@@ -385,6 +386,9 @@ Flowers
 </div></div></div></div></div></div></div>
 
 <div class="container">
+<div class="Added" id="added" style="display:none;" >
+<span><strong>Pineapple Express added to cart</strong></span>
+</div>
 </div>
 </div>
 
@@ -465,6 +469,17 @@ src="plugtechPE.js" >
 </script>
 <script 
 src="totalAmountsDisplay.js" >
+</script>
+<script>
+setInterval (function addHide(){
+    pe= localStorage.getItem('cartNumberPE');
+    if(pe){
+    document.getElementById("added").style.display = "block";
+    }else{
+    document.getElementById("added").style.display = "none";
+    }
+}, 1000);
+addHide();
 </script>
 </body>
 <!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
