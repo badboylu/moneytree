@@ -61,16 +61,14 @@ else if($count1>2){
     <div class="page-main-header">
         <div class="main-header-right row">
             <div class="main-header-left d-lg-none">
-                <div class="logo-wrapper"></div>
+                <div class="logo-wrapper"> </div>
             </div>
             <div class="mobile-sidebar">
                 <div class="media-body text-right switch-sm">
                     <label class="switch"><a href="#"><i id="sidebar-toggle" data-feather="align-left"></i></a></label>
                 </div>
             </div>
-            <div class="nav-right col">
-                <div class="d-lg-none mobile-toggle pull-right"><i data-feather="more-horizontal"></i></div>
-            </div>
+            
         </div>
     </div>
     <!-- Page Header Ends -->
