@@ -226,6 +226,9 @@ href="cannacaps.html" />
 <div class="main-page-wrapper">
 <div class="page-title page-title-default title-size-small title-design-centered color-scheme-light" style="">
 <div class="container">
+<div class="Added" id="added" style="display:block;" >
+<span><strong>Durban Poison added to cart</strong></span>
+</div>
 <header class="entry-header">
 <h1 class="entry-title">
 </h1>
