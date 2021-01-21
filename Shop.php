@@ -887,10 +887,10 @@ Accessories
 </div>
 </div>
 </div>
-<div class="Added" id="added" >
+<div class="container">
+<div class="Added" id="added" style="display:none;" >
 <span><strong>Item/s added to cart</strong></span>
 </div>
-<div class="container">
 <div class="row">
 <div 
 class="site-content shop-content-area col-sm-12 content-with-products description-area-before" 
