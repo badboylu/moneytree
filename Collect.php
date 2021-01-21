@@ -39,7 +39,7 @@ foreach ($token2 as $keys) {
       exit();
       echo 'killed it';
 }else{
-      echo $authtoken ;
+      
 } 
 }
  
