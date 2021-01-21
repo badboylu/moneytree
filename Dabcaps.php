@@ -383,6 +383,12 @@ R
 	</p></div>
 <div >
 	<div >
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<div class="single_variation_wrap">
 		<div class="woocommerce-variation single_variation">
 		</div>
@@ -409,8 +415,6 @@ R
 		</div>
 
 </div>
-<br>
-<br>
 <br>
 <br>
 <div class="product_meta">  
