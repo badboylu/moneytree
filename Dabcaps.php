@@ -36,6 +36,7 @@ href="Backend/xmlrpc.html">
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
+<link rel="stylesheet" href="Added.css" />
 <link rel="stylesheet" 
 href="plugIcons.css" />
 <link rel='dns-prefetch' 
@@ -428,6 +429,9 @@ Edibles
 </div></div></div></div></div></div></div>
 
 <div class="container">
+<div class="Added" id="added" style="display:block;" >
+<span><strong>Durban Poison added to cart</strong></span>
+</div>
 </div>
 </div>
 
