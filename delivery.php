@@ -330,6 +330,19 @@ Delivery details
 </select>
 </div>
 
+<div id="hideJHBSandtonsuburb" style="display:none">
+<label>Suburb:</label>
+<select class="JHBSandtonsuburb" name="suburbsJHBSandton" id="suburbsJHBSandton" form="plug" required>
+  <option value="" disabled selected>Select Suburb</option>
+  <option value="Sandowns"> Sandowns </option>
+  <option value="Bryanston"> Bryanston </option>
+  <option value="Sandhurst"> Sandhurst </option>
+  <option value="Hyde Park"> Hyde Park </option>
+  <option value="Craighall Park"> Craighall Park </option>
+  <option value="Null" style="display:none" >Null</option>
+</select>
+</div>
+
 <div id="hideJHBEastsuburb" style="display:none">
 <label>Suburb:</label>
 <select class="JHBEastsuburb" name="suburbsJHBEast" id="suburbsJHBEast" form="plug" required>
