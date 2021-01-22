@@ -215,8 +215,8 @@ Delivery details
    <label>City:</label>
 <select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
-  <option value="Tshwane/Pretoria">Tshwane/Pretoria</option>
-  <option value="Johannesburg" disabled>Johannesburg</option>
+  <option value="Tshwane/Pretoria" disabled>Tshwane/Pretoria</option>
+  <option value="Johannesburg" >Johannesburg</option>
 </select>
 
 <div id="hidePTAtown" style="display:none">
@@ -245,9 +245,9 @@ Delivery details
   <option value="JohannesburgSouth" disabled >Johannesburg South</option>
   <option value="Kemptonpark" disabled>Kemptonpark</option>
   <option value="Lethabong" disabled>Lethabong</option>
-  <option value="Midrand">Midrand</option>
+  <option value="Midrand" disabled>Midrand</option>
   <option value="Randburg">Randburg</option>
-  <option value="Roodepoort">Roodepoort</option>
+  <option value="Roodepoort" disabled>Roodepoort</option>
   <option value="Sandton">Sandton</option>
   <option value="Soweto" disabled>Soweto</option>
   <option value="Tembisa" disabled>Tembisa</option>
