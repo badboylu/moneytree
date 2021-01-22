@@ -241,7 +241,7 @@ Delivery details
   <option value="Benoni" disabled >Benoni</option>
   <option value="Boksburg" disabled >Boksburg</option>
   <option value="Germiston" disabled >Germiston</option>
-  <option value="JohannesburgCentral">Johannesburg Central</option>
+  <option value="JohannesburgCentral" disabled >Johannesburg Central</option>
   <option value="JohannesburgSouth" disabled >Johannesburg South</option>
   <option value="Kemptonpark" disabled>Kemptonpark</option>
   <option value="Lethabong" disabled>Lethabong</option>
