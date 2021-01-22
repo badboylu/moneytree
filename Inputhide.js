@@ -168,6 +168,28 @@ setInterval (function hideJHB(){
          document.getElementById("hideJHBRandburgsuburb").style.display = "none";
      }
  }, 1000);
+
+setInterval (function showJHBSandton(){
+    var City = document.getElementById('city').value;
+    var Town = document.getElementById('townsJHB').value;
+         if (Town=='Sandton' && City=='Johannesburg'){
+         document.getElementById("hideJHBSandtonsuburb").style.display = "block";
+                 document.getElementById("suburbsJHBNorth").removeAttribute("required");
+                 document.getElementById("suburbsJHBSouth").removeAttribute("required");
+                 document.getElementById("suburbsJHBCentral").removeAttribute("required");
+                 document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
+                 document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
+                 document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                 document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                 document.getElementById("suburbsPTACentral").removeAttribute("required");
+                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                 document.getElementById("suburbsPTAeast").removeAttribute("required");
+                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                 document.getElementById("suburbsJHBRandburg").removeAttribute("required");
+     }else{
+         document.getElementById("hideJHBSandtonsuburb").style.display = "none";
+     }
+ }, 1000);
  
  setInterval (function showJHBEast(){
     var City = document.getElementById('city').value;
