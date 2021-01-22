@@ -1,5 +1,5 @@
-PayFast end user Agreement
-BY USING THE PAYFAST WEBSITE (THE “SITE”) AND THE PAYMENTS PROCESSING SERVICE OFFERED BY IT (THE “SERVICE”), YOU (THE “USER”) ARE INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS end user AGREEMENT.
+Canibuy end user Agreement
+BY USING THE CANIBUY WEBSITE (THE “SITE”) AND THE PAYMENTS PROCESSING SERVICE OFFERED BY IT (THE “SERVICE”), YOU (THE “USER”) ARE INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS end user AGREEMENT.
 1 GENERAL
 1.1 This end user agreement may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new end user agreement and its terms and conditions.
 
