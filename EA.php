@@ -4,15 +4,21 @@ Canibuy Disposal Agent Agreement
 </h1>
 <p>
 BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YOU (THE “USER”) ARE INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT.
+</p>
+<p>
 1 GENERAL
 1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new end user agreement and its terms and conditions.
-
+</p>
+<p>
 1.2 This agreement herein applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the disposal of the products or otherwise.
-
+</p>
+<p>
 1.3 The headings of the clauses in the conditions is provided for convenience and ease of reference only and will not be used to interpret, modify or amplify the terms of the conditions.
-
+</p>
+<p>
 1.4 No failure or delay by Canibuy to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this end user agreement or prejudice our right to take subsequent action against the User.
-
+</p>
+<p>
 2. Copyright © Canibuy, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibuy site and the disposal of any product users must be 18 years of age or older.
 
 3. COPYRIGHT
