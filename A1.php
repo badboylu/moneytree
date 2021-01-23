@@ -1,29 +1,4 @@
-<?php
-   $servername="us-cdbr-east-02.cleardb.com";
-   $dBUsername="b7fcd41c893d7a";
-   $dBPassword="1e8f896b7da9e41";
-   $dBName="heroku_61db5a5cdc2dfd8";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-?>
-<?php
-$cartTotal = 10.00;
-$data = array(
-    'merchant_id' => '10000100',
-    'merchant_key' => '46f0cd694581a',
-    'return_url' => 'https://canibuy.co.za/Shop.php',
-    'cancel_url' => 'https://canibuy.co.za/Cart.php',
-    'notify_url' => 'https://canibuy.co.za/Orderget.php',
-    'name_first' => 'Test2',
-    'name_last'  => 'Last Name',
-    'email_address'=> 'test@test.com',
-    'm_payment_id' => '1234', 
-    'amount' => '456',
-    'item_name' => 'Order#123',
-);
-$signature = generateSignature($data);
-$data['signature'] = $signature;
-?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <!-- /Added by HTTrack -->
@@ -108,7 +83,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span>
+	
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
@@ -158,8 +133,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-D
-
+Terms and Conditions
 </strong>
 <span class="title-separator">
 <span>
