@@ -5,20 +5,6 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-   function generateSignature($data, $passPhrase = null) {
-    // Create parameter string
-    $pfOutput = '';
-    foreach( $data as $key => $val ) {
-        if(!empty($val)) {
-            $pfOutput .= $key .'='. urlencode( trim( $val ) ) .'&';
-        }
-    }
-    // Remove last ampersand
-    $getString = substr( $pfOutput, 0, -1 );
-    if( $passPhrase !== null ) {
-        $getString .= '&passphrase='. urlencode( trim( $passPhrase ) );
-    }
-    return md5( $getString );
 }
 ?>
 <?php
@@ -130,9 +116,7 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-	Shop
-	</a></li></ul></div></div></div></div></div></div>
+	</li></ul></div></div></div></div></div></div>
 	
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
 	<div class="container">
@@ -143,25 +127,13 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
+<a href="#" class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div >
 <div >
-	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-	<span class="basel-cart-totals"> 
-		<span class="basel-cart-number">
-		<strong>Total</strong>
-		</span> 
-		<span class="subtotal-dividerCart">
-		<strong>: </strong>R
-		</span>
-		<span class="woocommerce-Price-amount amount">
-		<span class="woocommerce-Price-currencySymbol">
-		</span><span class="totalOrderDelivery"></span></span></span> 
-        </span> 
-	</a>
+	
 	</div>
 	</div>
 </div></div></div></div>
@@ -187,7 +159,8 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Delivery details
+D
+
 </strong>
 <span class="title-separator">
 <span>
@@ -198,12 +171,12 @@ Delivery details
 </span>
 </div>
 <span class="title-after_title">
-
+Terms and Conditions
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Shop
+<a href="">
+Legal
 </a><span class="breadcrumb-last"> 
-Delivery details
+Terms and Conditions
 </span>
 </nav>
 </div>
