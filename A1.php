@@ -228,7 +228,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 </strong>
 </p>
 <p>
-1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new end user agreement and its terms and conditions.
+1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new Disposal Agent agreement and its terms and conditions.
 </p>
 <p>
 1.2 This agreement herein applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the disposal of the products or otherwise.
