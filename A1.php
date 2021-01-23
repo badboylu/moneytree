@@ -9,7 +9,7 @@
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Delivery</title>
+<title>Legal</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -133,7 +133,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Terms and Conditions
+Legal
 </strong>
 <span class="title-separator">
 <span>
@@ -411,19 +411,14 @@ Tech Creations
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-<span class="basel-toolbar-label"> 
-Shop 
-</span> </a></div>
+</div>
 <div class="king"> 
 <img src="https://img.icons8.com/ios-glyphs/30/000000/medieval-crown.png"/>
 </div>
 <div class="queen"> 
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
-<div class="lighter">  
-<img src="https://img.icons8.com/pastel-glyph/30/000000/hand-lighter-without-flame.png"/>
-</a></div></div> 
+</div> 
 </div>
 <a href="#" class="scrollToTop basel-tooltip">
 Scroll To Top
