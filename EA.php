@@ -1,5 +1,8 @@
+<html>
+<h1>
 Canibuy Disposal Agent Agreement
-
+</h1>
+<p>
 BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YOU (THE “USER”) ARE INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT.
 1 GENERAL
 1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new end user agreement and its terms and conditions.
@@ -107,3 +110,5 @@ If any provision of this Disposal Agent agreement is held to be invalid, void or
 27.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
 
 27.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of Canibuy.
+</p>
+</html>
