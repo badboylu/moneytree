@@ -412,12 +412,6 @@ Tech Creations
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
 </div>
-<div class="king"> 
-<img src="https://img.icons8.com/ios-glyphs/30/000000/medieval-crown.png"/>
-</div>
-<div class="queen"> 
-<img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
-</div>
 </div> 
 </div>
 <a href="#" class="scrollToTop basel-tooltip">
