@@ -54,97 +54,56 @@ All the content, trademarks and data on this web site, including but not limited
 11.1 You acknowledge that (i) Canibuy is not offering any of the displayed products for sale and the Service you are providing for Canibuy is a waste disposal service of products rather the sale and use of the waste products, and (ii) any funds paid to Canibuy by the Disposal Agent through the payment method/s on the site is not a purchase of any product or service but a donation to the Canibuy cause.
 
 14. PROHIBITED TRANSACTIONS
-14.1 You agree that you will only use the Service to accept payments for goods or services where payment is due and for which there exists an invoice which can be presented to PayFast upon request.
+14.1 Disposal Agents agree that on receiving products from Canibuy, you will disposed the products using methods safe enough not to cause harm to another person or to the Disposal Agent.
 
-14.2 You agree that you will not use the Service to accept payment for illegal products or services, including but not limited to materials that infringe the intellectual property rights of third parties.
-
-14.3 You agree not to use the Service to sell securities, business opportunities, franchises, multi-level marketing, or for the pre-order of goods.
-
-14.4 You will not use the Service, the PayFast website or any of the services offered therein for any unlawful or fraudulent activity. If PayFast has reason to believe that you may be engaging in or have engaged in fraudulent, unlawful, or improper activity, including without limitation any violation of any terms and conditions of this Agreement, your access to the Service may be suspended or terminated.
-
-14.5 You will cooperate fully with PayFast to investigate any suspected unlawful, fraudulent or improper activity.
-
-14.6 You agree not to impersonate a PayFast User or a PayFast representative, or to request that a PayFast customer provide you with their password or other information to access their account.
-
-15. PAYOUTS
-15.1 In order to withdraw funds (the proceeds of payments due to you) that PayFast is holding in custody for you, you are required to make a payout request on the PayFast website. The funds will then be transferred electronically to your designated bank account (South African banks only).
-
-15.2 PayFast may enter into a separate agreement with you to automate the Payout of funds from your account on a scheduled basis on terms acceptable to both you and PayFast.
-
-15.3 Each Payout may incur a fee as specified on your Account page.
-
-15.4 PayFast will not be held responsible for incorrect banking details being provided by the User which may or may not lead to funds held in custody being transferred to the incorrect party. It is the User’s responsibility to ensure the accuracy of the provided banking details.
-
-16. NO SURCHARGES
-Under Visa, MasterCard, Diners and American Express regulations, merchants may not charge a fee to the buyer for accepting credit card payments (often called a “surcharge”). You agree that you will not impose a surcharge or any other fee in using the Service provided by PayFast for the acceptance of funds through any means including, but not limited to, the acceptance of credit cards. This restriction does not prevent you from imposing a handling fee in connection with the sale of goods or services, as long as the handling fee does not operate as a surcharge (in other words, the handling fee for transactions paid through the Service may not be higher than the handling fee for transactions paid through other payment methods).
-
-17. DEPOSITS AND BALANCES
-17.1 You acknowledge that PayFast does not hold a deposit-taking license (a banking license) and cannot hold funds on your behalf which are not the proceeds of payments due to you from the sale of goods or services which PayFast processed on your behalf.
-
-17.2 You acknowledge that if funds are present in your PayFast account which are not the proceeds of payments due to you from the sale of goods or services, that PayFast will endevour to return these funds to you after a period of 48 hours after those funds came to be in your account.
-
-18. SECURITY
-18.1 PayFast makes every effort to ensure the security and integrity of your account and we make use of sophisticated systems to accomplish this. You understand however, that there is a compromise made between the extent of these security systems and the inconvenience to you, the user.
-
-18.2 You understand that security still relies heavily on the use of a username and password and undertake to contact us at once if you believe your username and password have been compromised, or if someone has transferred or may transfer money from your account without your permission.
-
-18.3 PayFast strongly suggests that you use a web browser with 128-bit encryption or better. However, regardless of whether you use a web browser with security features or not, PayFast is unable to guarantee that data transmitted and is secure and/or will not be intercepted by third parties.
-
-18.4 Phishing is a form of fraud where criminals attempt to access your confidential information. This is done by an email request for information, by luring you to a fake website or some other such means. In any case of phishing, PayFast will respond as quickly as possible to alert users to the threat or to mitigate the threat. No guarentee is given as to this action however, and PayFast will not be held liable for any funds lost as a result of a User falling prey to a phishing attack. It is the responsibility of the User to be aware of such potential threats, to avoid them and to report them to PayFast upon discovery.
-
-18.5 PayFast reserves the right to implement any security measures deemed appropriate to lower or negate fraudulent transactions, which may result in certain payments a User (as a receiver), or from a User (as a sender), being disallowed.
+14.2 Disposal Agents agree that products received for disposal shall be disposed of at the non-public premises.
 
 19. FEES
-You understand that PayFast will charge fees for the use of any of the services it provides. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
+19.1 Disposal Agents understand that Canibuy will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
 
 20. DISCLAIMER OF WARRANTIES
 20.1 YOU UNDERSTAND AND AGREE THAT THIS SITE AND THE INFORMATION, SERVICES, PRODUCTS AND MATERIALS AVAILABLE THROUGH IT ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. YOU EXPRESSLY AGREE THAT USE OF THIS SITE IS AT YOUR SOLE RISK.
 
-20.2 TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, PAYFAST AND ITS AFFILIATES DISCLAIM ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF TITLE, OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION PROVIDED BY PAYFAST OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PROVIDERS, MERCHANTS, SPONSORS, LICENSORS OR THE LIKE SHALL CREATE A WARRANTY; NOR SHALL YOU RELY ON ANY SUCH INFORMATION OR ADVICE.
+20.2 TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CANIBUY AND ITS AFFILIATES DISCLAIM ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF TITLE, OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION PROVIDED BY CANIBUY OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PROVIDERS, MERCHANTS, SPONSORS, LICENSORS OR THE LIKE SHALL CREATE A WARRANTY; NOR SHALL YOU RELY ON ANY SUCH INFORMATION OR ADVICE.
 
-20.3 YOU EXPRESSLY AGREE THAT USE OF THIS SITE, INCLUDING ALL CONTENT, DATA OR SOFTWARE DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SITE, IS AT YOUR SOLE RISK. YOU UNDERSTAND AND AGREE THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR BUSINESS OR YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH CONTENT, DATA AND/OR SOFTWARE.
+20.3 YOU EXPRESSLY AGREE THAT USE OF THIS SITE, INCLUDING ALL CONTENT, DATA OR SOFTWARE DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SITE, IS AT YOUR SOLE RISK. YOU UNDERSTAND AND AGREE THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH CONTENT, DATA AND/OR SOFTWARE.
 
-20.4 YOU ACKNOWLEDGE THAT PAYFAST DOES NOT CONTROL IN ANY RESPECT ANY INFORMATION, PRODUCTS OR SERVICES OFFERED BY THIRD PARTIES ON OR THROUGH THIS SITE, EXCEPT AS OTHERWISE AGREED IN WRITING, PAYFAST AND ITS AFFILIATES ASSUME NO RESPONSIBILITY FOR AND MAKE NO WARRANTY OR REPRESENTATION AS TO THE ACCURACY, CURRENCY, COMPLETENESS, RELIABILITY OR USEFULNESS OF CONTENT OR PRODUCTS DISTRIBUTED OR MADE AVAILABLE BY THIRD PARTIES THROUGH THIS SITE.
+20.5 CANIBUY DOES NOT MAKE ANY WARRANTY THAT THE SITE OR CONTENT WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. PAYFAST DOES NOT REPRESENT OR WARRANT THAT MATERIALS IN THIS SITE OR INFORMATION PROVIDED BY PAYFAST VIA EMAIL OR OTHER MEANS, ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE. NOR DOES PAYFAST MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF PAYFAST OR ITS CONTENT OR AS TO THE ACCURACY, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH USE OF THE SITE.
 
-20.5 PAYFAST DOES NOT MAKE ANY WARRANTY THAT THIS SITE OR ITS CONTENT WILL MEET YOUR REQUIREMENTS, OR THAT THE SITE OR CONTENT WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. PAYFAST DOES NOT REPRESENT OR WARRANT THAT MATERIALS IN THIS SITE OR INFORMATION PROVIDED BY PAYFAST VIA EMAIL OR OTHER MEANS, ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE. NOR DOES PAYFAST MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF PAYFAST OR ITS CONTENT OR AS TO THE ACCURACY, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH USE OF THE SITE.
+20.6 CANIBUY ASSUMES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED BY A DISPOSAL AGENT, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA FROM DELAYS, NONDELIVERIES OF CONTENT OR EMAIL, ERRORS, SYSTEM DOWN TIME, MISDELIVERIES OF CONTENT OR EMAIL, NETWORK OR SYSTEM OUTAGES, FILE CORRUPTION OR SERVICE INTERRUPTIONS CAUSED BY THE NEGLIGENCE OF CANIBUY, ITS AFFILIATES, ITS LICENSORS OR A DISPOSAL AGENT’S OWN ERRORS AND/OR OMISSIONS.
 
-20.6 PAYFAST ASSUMES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED BY A USER, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA FROM DELAYS, NONDELIVERIES OF CONTENT OR EMAIL, ERRORS, SYSTEM DOWN TIME, MISDELIVERIES OF CONTENT OR EMAIL, NETWORK OR SYSTEM OUTAGES, FILE CORRUPTION OR SERVICE INTERRUPTIONS CAUSED BY THE NEGLIGENCE OF PAYFAST, ITS AFFILIATES, ITS LICENSORS OR A USER’S OWN ERRORS AND/OR OMISSIONS.
+20.7 CANIBUY DISCLAIMS ANY WARRANTY OR REPRESENTATION THAT CONFIDENTIALITY OF INFORMATION TRANSMITTED THROUGH THIS WEB SITE WILL BE MAINTAINED.
 
-20.7 PAYFAST DISCLAIMS ANY WARRANTY OR REPRESENTATION THAT CONFIDENTIALITY OF INFORMATION TRANSMITTED THROUGH THIS WEB SITE WILL BE MAINTAINED.
-
-20.8 ALL THE INFORMATION APPEARING ON THIS SITE IS PROVIDED WITHOUT A REPRESENTATION OR WARRANTY WHATSOEVER, WHETHER EXPRESSED OR IMPLIED, AND PAYFAST DISCLAIMS ANY LIABILITY TO THE USER IN THIS REGARD.
+20.8 ALL THE INFORMATION APPEARING ON THIS SITE IS PROVIDED WITHOUT A REPRESENTATION OR WARRANTY WHATSOEVER, WHETHER EXPRESSED OR IMPLIED, AND CANIBUY DISCLAIMS ANY LIABILITY TO THE DISPOSAL AGENT IN THIS REGARD.
 
 21. LIMITATION OF LIABILITY
-21.1 PayFast has taken reasonable steps as far as is possible, to ensure the accuracy and completeness of the content shown on this site, to ensure that the user doesn’t suffer any loss or damages as a result of the use of this site.
+21.1 Canibuy has taken reasonable steps as far as is possible, to ensure the accuracy and completeness of the content shown on this site, to ensure that the Disposal Agent doesn’t suffer any loss or damages as a result of the use of this site.
 
-21.2 UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL PAYFAST OR ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING, TRANSMITTING, OR DISTRIBUTING PAYFAST OR RELATED SERVICES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH THE USE OR INABILITY TO USE PAYFAST OR ANY CONTENT PROVIDED BY OR THROUGH THIS SITE, OR RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, OR OTHER INFORMATION THAT IS SENT OR RECEIVED, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF PAYFAST HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+21.2 UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL CANIBUY OR ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING FOR CANIBUY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH THE USE OR INABILITY TO USE CANIBUY OR ANY CONTENT PROVIDED BY OR THROUGH THIS SITE, OR RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, OR OTHER INFORMATION THAT IS SENT OR RECEIVED, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF CANIBUY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-21.3 PAYFAST SHALL HAVE NO LIABILITY TO YOU IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES YOUR USER NAME AND PASSWORD WITH YOUR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH PAYFAST DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
+21.3 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES DISPOSAL AGENT USER NAME AND PASSWORD WITH THEIR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH CANIBUY DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
 
-21.4 PAYFAST SHALL HAVE NO LIABILITY TO YOU IN CONNECTION WITH ANY PRODUCT, SERVICE OR OTHERWISE, PURCHASED OR USED AS A RESULT OF THE USE OF THIS SITE. IT IS EXPRESSLY UNDERSTOOD THAT THE USER IS AWARE THAT PAYFAST PROVIDES A SERVICE TO BRING BUYER AND SELLER OR SERVICE OFFERER AND SERVICE CONSUMER TOGETHER, AND ACCEPTS NO RESPONSIBILITY FOR THE QUALITY, RELIABILITY, SAFETY, FUNCTION, SUITABILITY OR OTHERWISE, OF A PRODUCT PURCHASED, SERVICE USED, OR OTHERWISE, AS A RESULT OF THE USE OF THIS SITE.
+21.4 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE PRODUCTS THAT ARE TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT CANIBUY WEBSITE IS A DEMONSTRATIONAL WEBSITE AND IS USED TO SHOWCASE SOFTWARE DEVELOPMENT CAPABILITIES OF CANIBUY AND IS NOT AN ONLINE STORE THAT SELLS THE PRODUCTS DISPLAYED THERE.
 
-21.5 PayFast shall not be liable for any fraud, deception or misrepresentations by Users of the Service in any capacity whatsoever.
+21.5 Canibuy shall not be liable for any fraud, deception or misrepresentations by Disposal Agents of the Site's services in any capacity whatsoever.
 
-21.6 In no event shall PayFast be liable for any act or omission of any third party (such as, for example, any provider of telecommunications services, internet access or computer equipment or software) or for any circumstances beyond our control (such as, for example, a fire, flood, or other natural disaster, war, riot, strike, act of civil or military authority, equipment failure, computer virus, or failure or interruption of electrical, telecommunications or other utility services).
+21.6 In no event shall Canibuy be liable for any act or omission of any third party (such as, for example, any provider of telecommunications services, internet access or computer equipment or software) or for any circumstances beyond our control (such as, for example, a fire, flood, or other natural disaster, war, riot, strike, act of civil or military authority, equipment failure, computer virus, or failure or interruption of electrical, telecommunications or other utility services).
 
 21.7 Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, in such jurisdictions, liability is limited to the fullest extent permitted by law.
 
-22. USER’S LIABILITY TO PAYFAST
-In the event that PayFast takes action against you for breach of these terms of use, you agree to reimburse PayFast for all legal costs, including tracing fees and collection commission, on a scale as between attorney and own client.
+22. DISPOSAL AGENT’S LIABILITY TO CANIBUY
+In the event that Canibuy takes action against you for breach of these terms of use, you agree to reimburse Canibuy for all legal costs, including all fees related to evidence gathering and collection commission, on a scale as between attorney and own client.
 
 23. APPLICABLE LAW
-The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the users consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
+The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
 
 24. TERMINATION
-Notwithstanding any of these terms and conditions, PayFast reserves the right, without notice and in its sole discretion, to terminate your license to use this Site, and to block or prevent future access to and use of this Site.
+Notwithstanding any of these terms and conditions, Canibuy reserves the right, without notice and in its sole discretion, to terminate your license to use this Site, and to block or prevent future access to and use of this Site.
 
 25. SEVERABILITY
-If any provision of this end user agreement is held to be invalid, void or for any reason unenforceable, then that provision shall be deemed severable from this end user agreement and shall not affect the validity and enforceability of any remaining provisions.
-
-26. DOMICILIUM
-PayFast chooses as its domicilium citandi et executandi for all purposes under this agreement, whether in respect of court process, notice, or other documents or communication of whatsoever nature: Brookside Office Park, Lansdowne Building, 11 Imam Haron Road, Claremont, Cape Town, South Africa.
+If any provision of this Disposal Agent agreement is held to be invalid, void or for any reason unenforceable, then that provision shall be deemed severable from this Disposal Agent agreement and shall not affect the validity and enforceability of any remaining provisions.
 
 27. TERMS
-27.1 The terms “The User” and “You” are used interchangeably and refer to all individuals and/or entities accessing this web site for any reason.
+27.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
 
-27.2 The terms “we” and “PayFast” are used interchangeably and refer to PayFast itself and all individuals and/or entities acting directly on behalf of PayFast.
+27.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of Canibuy.
