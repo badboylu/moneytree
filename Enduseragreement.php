@@ -3,45 +3,42 @@ BY USING THE CANIBUY WEBSITE (THE “SITE”) AND THE PAYMENTS PROCESSING SERVIC
 1 GENERAL
 1.1 This end user agreement may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new end user agreement and its terms and conditions.
 
-1.2 This end user agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with PayFast for products, services or otherwise.
+1.2 This end user agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the disposal of the products or otherwise.
 
 1.3 The headings of the clauses in the conditions is provided for convenience and ease of reference only and will not be used to interpret, modify or amplify the terms of the conditions.
 
-1.4 No failure or delay by PayFast to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this end user agreement or prejudice our right to take subsequent action against the User.
+1.4 No failure or delay by Canibuy to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this end user agreement or prejudice our right to take subsequent action against the User.
 
-1.5 PayFast cannot screen or edit all the content available from the PayFast site and does not accept any liability for illegal, defamatory or obscene content. Users are encouraged to inform PayFast of any content that may be offensive or illegal.
-2. PRIVACY POLICY
-Copyright © PayFast, Cape Town, South Africa. All rights not expressly granted, are reserved. To obtain permission for the commercial use of any content on this site contact PayFast at info@payfast.co.za.
+2. Copyright © Canibuy, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibuy site and the disposal of any product users must be 18 years of age or older.
+
 3. COPYRIGHT
-This end user agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with PayFast for products, services or otherwise.
+This end user agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
+
 4. INTELLECTUAL PROPERTY RIGHTS
-All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to PayFast and as such are protected from infringement by local and international legislation and treaties.
+All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to Canibuy and as such are protected from infringement by local and international legislation and treaties.
+
 5. LICENSES AND SITE ACCESS
-5.1 PayFast grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the Site or content therein; (b) the collection and use of any listings or descriptions; (c) making derivative uses of the Site and its contents; or (d) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of PayFast or any third party.
+5.1 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the Site or content or products therein; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
+5.2 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
 
-5.2 You may not use, frame or utilize framing techniques to enclose any PayFast trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without PayFast‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a PayFast name, trademark or product name without PayFast‘s express written consent.
-6. LINKING
-6.1 You are granted a limited, nonexclusive right to create a hyperlink to this Site provided such link does not portray PayFast or any of its products and services in a false, misleading, derogatory or otherwise defamatory manner. You may not use a PayFast logo or other proprietary graphic or trademark of PayFast to link to this Site without the express written permission of PayFast. This limited right may be revoked at any time.
+6. PRODUCT DISPOSAL
+6.1 Canibuy makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the end user. The product disposal methods employed by disposal agents are not under the control of Canibuy and Canibuy is not responsible illegal use and or application of the products to be disposed.
 
-6.2 PayFast makes no claim or representation regarding, and accepts no responsibility for, the quality, content, nature or reliability of sites accessible by hyperlink from this Site, or sites linking to this Site. The linked sites are not under the control of PayFast and PayFast is not responsible for the content of any linked site or any link contained in a linked site, or any review, changes or updates to such sites. The inclusion of any link does not imply affiliation, endorsement or adoption by PayFast of the site or any information contained therein. When leaving the PayFast site, you should be aware that PayFast‘s terms and policies no longer govern, and therefore you should review the applicable terms and policies, including privacy and data-gathering practices, of that site.
-7. USER CONDUCT
+7. DISPOSAL AGENT CONDUCT
 7.1.1 In using this Site, and any of the services it offers, you agree:
 
-7.1.2 Not to disrupt or interfere with the security of, or otherwise abuse, the Site, or any services, system resources, accounts, servers or networks connected to or accessible through the Site or affiliated or linked Web sites;
+7.1.2 Not to disrupt or interfere with the security of, or otherwise abuse, the Site, or any services, system resources, accounts, servers or networks connected to or accessible through the Site or affiliated;
 
-7.1.3 Not to violate, or attempt to violate the security of PayFast. Violations of system or network security may result in civil or criminal liability. PayFast will investigate occurrences, which may involve such violations and may involve, and cooperate with, law enforcement authorities in prosecuting users who are involved in such violations.
+7.1.3 Not to violate, or attempt to violate the security of Canibuy. Violations of system or network security may result in civil or criminal liability. Canibuy will investigate occurrences, which may involve such violations and may involve, and cooperate with, law enforcement authorities in prosecuting disposal agents who are involved in such violations.
 
-7.1.4 Not to disrupt or interfere with any other user’s enjoyment of the Site or affiliated or linked Web sites
+7.2 In addition, disposal agents agree that they are solely responsible for their actions of disposing products for canibuy and that they will comply with all applicable local, national and international laws and regulations in this regard.
 
-7.1.5 Not to upload, post or otherwise transmit through or on this Site any viruses or other harmful, disruptive or destructive files;
-
-7.1.6 Not to transmit through or on this Site spam, chain letters, junk mail or any other type of unsolicited mass email to people or entities who have not agreed to be part of such mailings;
-
-7.2 In addition, you agree that you are solely responsible for actions and communications undertaken or transmitted under your account (if applicable), and that you will comply with all applicable local, national and international laws and regulations in this regard.
 8. INDEMNIFICATION
 You shall remain solely liable for the content of any messages or other information you upload or transmit to PayFast. You agree to indemnify and hold harmless PayFast from any claim, action, demand, loss or damages (including attorneys’ fees) made or incurred by any third party arising out of or relating to your conduct, your violation of this end user agreement, or your violation of any rights of a third party.
+
 9. SUBMISSIONS
 You agree that any materials, including but not limited to questions, comments, suggestions, ideas, plans, notes, drawings, original or creative materials or other information, provided by you in the form of email or submissions to PayFast, or postings on this Site, are non-confidential and shall become the sole property of PayFast. PayFast shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use of these materials for any purpose, commercial or otherwise, without acknowledgment or compensation to you. The submission of any materials to PayFast irrevocably waives any and all “moral rights” in such materials, including the rights of paternity and integrity.
+
 10. EMAIL DISCLAIMER
 10.1 The information in all e-mail messages (document and attachments) sent by an employee / electronic agent / a legal member of PayFast is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
 
