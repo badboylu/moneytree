@@ -20,8 +20,10 @@ All the content, trademarks and data on this web site, including but not limited
 
 5. LICENSES AND SITE ACCESS
 5.1 By registering with Canibuy, you are agree to become a Canibuy subcontractor and given the title of Disposal Agent.
-5.1 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
-5.2 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
+
+5.2 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
+
+5.3 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
 
 6. PRODUCT DISPOSAL
 6.1 Canibuy makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the Disposal Agent. The product disposal methods employed by Disposal Agents are not under the control of Canibuy and Canibuy is not responsible for the illegal use and or application of the products to be disposed of.
@@ -49,26 +51,7 @@ All the content, trademarks and data on this web site, including but not limited
 10.3 No employee is authorised to conclude a binding agreement on behalf of Canibuy by email without the express written confirmation of a director of Canibuy. Nothing contained in said email shall be construed as a legally binding agreement or an offer to contract.
 
 11. ACCEPTANCE OF FUNDS
-11.1 By registering with Canibuy, you are subcontracted as a Canibuy Disposal Agent.
-
-11.2 You acknowledge that (i) PayFast is not a bank and the Service you are provided with is a payment processing service rather than a banking service, and (ii) PayFast is not acting as a trustee, fiduciary or escrow with respect to your funds, but is acting only as an agent and custodian.
-
-11.3 PayFast reserves the right to hold funds beyond the normal distribution periods for transactions it deems suspicious or for accounts conducting high transaction volumes to ensure integrity of the funds.
-
-11.4 PayFast shall not be responsible for payments made to unintended Recipients or for payments made in incorrect amounts due to the input of incorrect information by Senders.
-
-11.5 PayFast shall not be obligated to pay a User for any Payments for which PayFast has not been fully paid by the Sender’s credit card issuer or bank, as applicable.
-
-11.6 PayFast reserves the right to require Users who receive payments through the Service and operate with high reversal rates or otherwise present a relatively high risk of losses to choose between closure of their PayFast account or entering into an additional agreement addressing such risks, which may include higher fees.
-
-13. IMPOSED LIMITS AND DELAYS
-13.1 PayFast reserves the right to impose an upper limit on the amount of a single transaction which will be accepted through the Service.
-
-13.2 PayFast reserves the right to impose certain limits with regards to the flow of funds in the system including, but not limited to: funds sent, funds received and funds withdrawn. Details of what these limits are will be available on the Site.
-
-13.3 PayFast reserves the right to delay the withdrawal of funds in the system based on when the funds were received by the User. This delay will be noted on the Site.
-
-13.4 PayFast reserves the right to freeze or suspend any account in the system for an indefinite period if there is suspicion of any illegal activity taking place or for any other reason whatsoever.
+11.1 You acknowledge that (i) Canibuy is not offering any of the displayed products for sale and the Service you are providing for Canibuy is a waste disposal service of products rather the sale and use of the waste products, and (ii) any funds paid to Canibuy by the Disposal Agent through the payment method/s on the site is not a purchase of any product or service but a donation to the Canibuy cause.
 
 14. PROHIBITED TRANSACTIONS
 14.1 You agree that you will only use the Service to accept payments for goods or services where payment is due and for which there exists an invoice which can be presented to PayFast upon request.
