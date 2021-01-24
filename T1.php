@@ -156,11 +156,14 @@ Tracker
 </div>
 </div>
 
-<P>Payment status: Paid</p>
-<P>Order collection code: 467fg6</p>
+<P><strong>Payment status:</strong> Paid</p>
+<P> <strong> Order collection code: </strong> 467fg6</p>
 <br>
-<p>Order preparation: Complete</p>
-<p>Order collection: Pending</p>
+<p><strong> Order preparation: </strong> Complete</p>
+<p><strong> Order collection: </strong> Pending</p>
+<p><strong> Order delivery: </strong> Pending </p>
+<p><strong> Order arrival: </strong> Pending</p>
+<P><strong> Order status: </strong> Pending</p>
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
