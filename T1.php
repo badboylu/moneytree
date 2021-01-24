@@ -113,13 +113,7 @@ href="cannacaps.html" />
 	</div>
 </div></div></div></div>
 </header>
-<h1>Payment status: Paid</h1>
-<br>
-<h1>Order collection code: 467fg6</h1>
-<br>
-<p>Order preparation: Complete</p>
-<br>
-<p>Order collection: Pending</p>
+
 <div class="clear">
 </div>
 <div class="main-page-wrapper">
@@ -162,6 +156,13 @@ Tracker
 </div>
 </div>
 
+<h1>Payment status: Paid</h1>
+<br>
+<h1>Order collection code: 467fg6</h1>
+<br>
+<p>Order preparation: Complete</p>
+<br>
+<p>Order collection: Pending</p>
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
