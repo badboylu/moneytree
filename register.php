@@ -51,7 +51,7 @@
                          <p><small>By signing-up you agree to these <br> <a href="A1.php">terms and conditions</a></small></p>
                     
                         <p><div class="page-links">
-                            <a href="Signin.php">Login</a>
+                            <a href="Signin.php"><span style="color:green">Login<span></a>
                         </div></p>
                     </div>
                 </div>
