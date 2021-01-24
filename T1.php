@@ -13,6 +13,15 @@ while($row=mysqli_fetch_array($result)){
 }
 
 $order=Min($ordernumbers);
+
+$query="SELECT idOrderToken FROM oders WHERE idOrder="'.$order.'" ";
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $token[]=$row;
+}
+
+$ordertoken=Min($token);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -150,7 +159,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker
+Order Tracker <?php echo $ordertoken;?>
 </strong>
 <span class="title-separator">
 <span>
