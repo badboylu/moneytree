@@ -157,7 +157,8 @@ Tracker
 </div>
 
 <P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
-<P> <strong> Order collection code: </strong> 467fg6</p>
+<P><strong> Order number:</strong> [00765]</p>
+<P><strong> Order collection code:</strong> 467fg6</p>
 <br>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
 <p><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
