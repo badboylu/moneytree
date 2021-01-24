@@ -46,6 +46,12 @@
                                 <button type="submit" class="ibtn" >Sign-up</button>
                             </div>
                         </form>
+                         <form>
+                         
+                                I don't accept: <input type="checkbox" id="no"> 
+                                I accept: <input type="checkbox" id="yes"> 
+                           
+                         </form>
                         <br>
                         <div class="page-links">
                             <a href="Signin.php">Already have account</a>
