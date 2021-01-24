@@ -177,7 +177,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker <?php echo $collectcode;?>
+Order Tracker 
 </strong>
 <span class="title-separator">
 <span>
@@ -201,7 +201,7 @@ Tracker
 
 <P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
 <P><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
-<P><strong> Order collection code:</strong> 467fg6</p>
+<P><strong> Order collection code:</strong> <?php echo $collectcode;?></p>
 <br>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
 <p><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
