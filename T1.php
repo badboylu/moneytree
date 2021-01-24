@@ -23,11 +23,11 @@ while($row=mysqli_fetch_array($result)){
 
 $ordertoken=Min($token);
 
-$query='SELECT * FROM deliverytoken WHERE idToken="'.$ordertoken.'" ';
+$query='SELECT * FROM deliverytoken WHERE idOrderToken="'.$ordertoken.'" ';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $ordernumber[]=$row['idUser'];
+ $ordernumber[]=$row['idOrder'];
 }
 
 $ordernmbr=Min($ordernumber);
