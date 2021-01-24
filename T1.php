@@ -18,7 +18,7 @@ $query="SELECT * FROM oders WHERE idOrder="'.$order.'" ";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $token[]=$row;
+ $token[]=$row['idOrderToken'];
 }
 
 $ordertoken=Min($token);
