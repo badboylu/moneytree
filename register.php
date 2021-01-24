@@ -48,11 +48,11 @@
                             </div>
                         </form>
                          <br>
-                         <p><small>By signing-up you agree to these terms and conditions</small></p>
+                         <p><small>By signing-up you agree to these <br> terms and conditions</small></p>
                     
-                        <div class="page-links">
+                        <p><div class="page-links">
                             <a href="Signin.php">Login</a>
-                        </div>
+                        </div></p>
                     </div>
                 </div>
             </div>
