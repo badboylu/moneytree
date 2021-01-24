@@ -153,6 +153,7 @@ setInterval (function hideJHB(){
     var Town = document.getElementById('townsJHB').value;
          if (Town=='Randburg' && City=='Johannesburg'){
          document.getElementById("hideJHBRandburgsuburb").style.display = "block";
+                 document.getElementById("suburbsJHBSandton").removeAttribute("required");
                  document.getElementById("suburbsJHBEast").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
                  document.getElementById("suburbsJHBCentral").removeAttribute("required");
