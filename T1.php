@@ -36,7 +36,7 @@ $query='SELECT * FROM deliverytoken WHERE idOrderToken="'.$ordertoken.'" ';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $code[]=$row['idPrepperToken'];
+ $code[]=$row['idCustomerToken'];
 }
 
 $collectcode=Min($code);
