@@ -296,16 +296,16 @@ setInterval (function showJHBSandton(){
      }
  }, 1000);
  
- setInterval (function showStructuretypeEast(){
-    var Suburb = document.getElementById('suburbsJHBRoodepoort').value;
-    var SuburbJHBRandburg = document.getElementById('suburbsJHBRandburg').value;
-    var SuburbJHBEast = document.getElementById('suburbsJHBEast').value;
-    var SuburbJHBCentral = document.getElementById('suburbsJHBCentral').value;
-    var SuburbJHBNorthWest = document.getElementById('suburbsJHBNorthWest').value;
-    var SuburbJHBSouthWest = document.getElementById('suburbsJHBSouthWest').value;
-    var SuburbJHBSouth = document.getElementById('suburbsJHBSouth').value;
+ setInterval (function showStructuretypeJHBRandburg(){
+    var Suburb = document.getElementById('suburbsJHBRandburg').value;
+         if (Suburb){
+         document.getElementById("hidecribtype").style.display = "block";
+     }
+ }, 1000);
  
-         if (Suburb || SuburbJHBRandburg || SuburbJHBSouthWest || SuburbJHBNorthWest || SuburbJHBSouth || SuburbJHBCentral || SuburbJHBEast){
+setInterval (function showStructuretypeJHBSanton(){
+    var Suburb = document.getElementById('suburbsJHBSandton').value;
+         if (Suburb){
          document.getElementById("hidecribtype").style.display = "block";
      }
  }, 1000);
@@ -500,6 +500,8 @@ setInterval (function showJHBSandton(){
  hideJHB();
  hidePTA();
  showPTAeast();
+ showStructuretypeJHBSandton();
+ showStructuretypeJHBRandburg();
  showStructuretypeEast();
  showEstate();
  showStreet();
