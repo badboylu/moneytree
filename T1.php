@@ -31,6 +31,15 @@ while($row=mysqli_fetch_array($result)){
 }
 
 $ordernmbr=Min($ordernumber);
+
+$query='SELECT * FROM deliverytoken WHERE idOrderToken="'.$ordertoken.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $code[]=$row['idPrepperToken'];
+}
+
+$collectcode=Min($code);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -168,7 +177,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker <?php echo $ordertoken;?>
+Order Tracker <?php echo $collectcode;?>
 </strong>
 <span class="title-separator">
 <span>
