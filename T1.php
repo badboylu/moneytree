@@ -14,7 +14,7 @@ while($row=mysqli_fetch_array($result)){
 
 $order=Min($ordernumbers);
 
-$query="SELECT * FROM oders WHERE idOrder="'.$order.'" ";
+$query='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
