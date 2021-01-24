@@ -24,7 +24,7 @@ $order=Min($ordernumbers);
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Tracker</title>
+<title>Order Tracker</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -150,7 +150,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker
+Order Tracker <?php echo $order;?>
 </strong>
 <span class="title-separator">
 <span>
@@ -166,7 +166,7 @@ Order Tracker
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Tracker <?php echo $order;?>
+Tracker 
 </span>
 </nav>
 </div>
