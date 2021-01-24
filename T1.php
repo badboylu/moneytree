@@ -22,6 +22,15 @@ while($row=mysqli_fetch_array($result)){
 }
 
 $ordertoken=Min($token);
+
+$query='SELECT * FROM deliverytoken WHERE idToken="'.$ordertoken.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $ordernumber[]=$row['idUser'];
+}
+
+$ordernmbr=Min($ordernumber);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -182,7 +191,7 @@ Tracker
 </div>
 
 <P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
-<P><strong> Order number:</strong> [00<?php echo $order;?>]</p>
+<P><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
 <P><strong> Order collection code:</strong> 467fg6</p>
 <br>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
