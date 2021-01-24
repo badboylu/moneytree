@@ -5,7 +5,7 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' and idOrderUsername='Lunga'";
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' and idOrderUsername='Lunga'";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
