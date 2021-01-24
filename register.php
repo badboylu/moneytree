@@ -48,7 +48,7 @@
                             </div>
                         </form>
                          <br>
-                         <p><small>By signing-up you agree to these <br> <a href="EA.php">terms and conditions</a></small></p>
+                         <p><small>By signing-up you agree to these <br> <a href="A1.php">terms and conditions</a></small></p>
                     
                         <p><div class="page-links">
                             <a href="Signin.php">Login</a>
