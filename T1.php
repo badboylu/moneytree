@@ -162,7 +162,7 @@ Order Tracker <?php echo $order;?>
 </div>
 <span class="title-after_title">
 
-</span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
+</span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="#" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
@@ -173,7 +173,7 @@ Tracker
 </div>
 
 <P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
-<P><strong> Order number:</strong> [00765]</p>
+<P><strong> Order number:</strong> [00<?php echo $order;?>]</p>
 <P><strong> Order collection code:</strong> 467fg6</p>
 <br>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
