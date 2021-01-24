@@ -5,17 +5,14 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' and idOrderUsername='Lunga'";
 $result=mysqli_query($conn,$query);
-$orderready1='Pending';
 
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
 
 $order=Min($ordernumbers);
-
-echo $order;
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -169,7 +166,7 @@ Order Tracker
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Tracker
+Tracker <?php echo $order;?>
 </span>
 </nav>
 </div>
