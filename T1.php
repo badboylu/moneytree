@@ -134,7 +134,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Track
+Order Tracker
 </strong>
 <span class="title-separator">
 <span>
@@ -156,7 +156,7 @@ Tracker
 </div>
 </div>
 
-<P><strong>Payment status:</strong> Paid</p>
+<P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
 <P> <strong> Order collection code: </strong> 467fg6</p>
 <br>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
