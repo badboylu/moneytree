@@ -42,13 +42,12 @@
                             <p id="invalidpassword" style="font-size:14px; color:red; display:none;">*Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character</p>
                             <p id="passwordmatch" style="font-size:14px; color:red; display:none;">*Passwords don't match</p>
                             <input class="form-control" type="password" name="pwdrepeat" placeholder="Repeat Password" required>
-                            <input type="checkbox" id="no"> 
-                            <input type="checkbox" id="yes"> 
+                             
                            <div class="form-button">
                                 <button type="submit" class="ibtn" >Sign-up</button>
                             </div>
                         </form>
-                         
+                         <p>By signing-up you agree to these terms and conditions</p>
                         <br>
                         <div class="page-links">
                             <a href="Signin.php">Already have account</a>
