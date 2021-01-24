@@ -47,10 +47,11 @@
                                 <button type="submit" class="ibtn" >Sign-up</button>
                             </div>
                         </form>
+                         <br>
                          <p><small>By signing-up you agree to these terms and conditions</small></p>
-                        <br>
+                    
                         <div class="page-links">
-                            <a href="Signin.php">Already have account</a>
+                            <a href="Signin.php">Login</a>
                         </div>
                     </div>
                 </div>
