@@ -296,6 +296,8 @@ src="Form.js" >
 function hideCollect(){
 var collected = <?php echo $collected ?>;
 if (collected){
+ document.getElementById("preparehide1").style.display = "none";
+ document.getElementById("preparehide2").style.display = "block";
  document.getElementById("collecthide1").style.display = "none";
  document.getElementById("collecthide2").style.display = "block";
  }
