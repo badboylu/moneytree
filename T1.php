@@ -52,8 +52,8 @@ $collect = 'Collected';
    mysqli_stmt_bind_param($stmt,"s",$collect);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $count=mysqli_stmt_num_rows($stmt);
-   echo $count;
+   $collected=mysqli_stmt_num_rows($stmt);
+   
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -291,6 +291,14 @@ src="Inputhide.js" >
 </script>
 <script 
 src="Form.js" >
+</script>
+<script>
+function hideCollect(){
+var collected = <?php echo $collected ?>
+if (collected){
+ 
+ }
+}
 </script>
 </body>
 </html>
