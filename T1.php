@@ -201,13 +201,16 @@ Tracker
 
 <P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
 <P><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
-<P><strong> Order collection code:</strong> <?php echo $collectcode;?></p>
+<P><strong> Collection code:</strong> <?php echo $collectcode;?></p>
 <br>
+<p><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
 <p><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
+<p><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
 <p><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
+<p><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <p><strong> Order arrival: </strong> <span style="color:orange"> Pending </span> </p>
-<P><strong> Order status: </strong> <span style="color:orange"> Pending </span> </p>
+<p><strong> Order arrival: </strong> <span style="color:green"> Has arrived </span> </p>
 <br>
 <div class="btn-add"> 
 	<button >
