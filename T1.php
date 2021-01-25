@@ -52,16 +52,16 @@ $stmt=mysqli_stmt_init($conn);
   
    while (mysqli_stmt_fetch($stmt)) { 
     if ($status == 'Collected') {
-    echo 'Collected';
+    $stat = echo 'Collected';
     }
     else if ($status == 'Prepared') {
-    echo 'prepared';
+    $stat = echo 'prepared';
     }
     else if ($status == 'Arrived') {
-    echo 'arrived';
+    $stat = echo 'arrived';
     }
 }
-
+echo $stat;
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
