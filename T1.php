@@ -60,7 +60,7 @@ $stmt=mysqli_stmt_init($conn);
     else if ($status == 'Arrived') {
     echo 'arrived';
     }
-
+}
 
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
