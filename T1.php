@@ -52,7 +52,10 @@ $stmt=mysqli_stmt_init($conn);
   
    while (mysqli_stmt_fetch($stmt)) { 
     if ($status == 'Collected') {
-    echo 'collected';
+    echo '
+    <script>
+    collected
+    </script>';
     }
     else if ($status == 'Prepared') {
     echo 'prepared';
