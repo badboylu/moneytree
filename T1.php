@@ -42,27 +42,18 @@ while($row=mysqli_fetch_array($result)){
 $collectcode=Min($code);
 
 $query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
-$stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$query)){
-       header("Location:Signin.php?error=SQL2");
+$collect = 'Collected';
+   $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
        exit();
 }
+   mysqli_stmt_bind_param($stmt,"s",$collect);
    mysqli_stmt_execute($stmt);
-   mysqli_stmt_bind_result($stmt, $status);
-  
-   while (mysqli_stmt_fetch($stmt)) { 
-    if ($status == 'Collected') {
-    $stat = echo 'Collected';
-    }
-    else if ($status == 'Prepared') {
-    $stat = echo 'prepared';
-    }
-    else if ($status == 'Arrived') {
-    $stat = echo 'arrived';
-    }
-
-}
-
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+   echo $count;
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
