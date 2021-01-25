@@ -318,6 +318,8 @@ if (collected){
  document.getElementById("preparehide2").style.display = "block";
  document.getElementById("collecthide1").style.display = "none";
  document.getElementById("collecthide2").style.display = "block";
+ document.getElementById("deliveryhide1").style.display = "none";
+ document.getElementById("deliveryhide2").style.display = "block";
  }
 }
 hideCollect();
