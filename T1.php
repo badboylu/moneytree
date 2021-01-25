@@ -237,11 +237,6 @@ Tracker
 <p id="deliveryhide1"><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
 <p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <br>
-<div class="btn-add"> 
-	<button >
-		Refresh
-	</button>
-</div>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
@@ -304,7 +299,7 @@ src="Inputhide.js" >
 src="Form.js" >
 </script>
 <script>
-function hideCollect(){
+setInterval (function hideCollect(){
 var collected = <?php echo $collected ?>;
 var prepared = <?php echo $prep ?>;
 if (prepared){
@@ -319,7 +314,7 @@ if (collected){
  document.getElementById("deliveryhide1").style.display = "none";
  document.getElementById("deliveryhide2").style.display = "block";
  }
-}
+}, 1000);
 hideCollect();
 </script>
 </body>
