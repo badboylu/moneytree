@@ -62,7 +62,7 @@ $stmt=mysqli_stmt_init($conn);
     document.getElementById("collecthide2").style.display = "block";
     }
     hideCollect();
-    </script>;
+    </script>
     </html>'
     }
     else if ($status == 'Prepared') {
