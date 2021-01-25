@@ -52,7 +52,7 @@ $stmt=mysqli_stmt_init($conn);
   
    while (mysqli_stmt_fetch($stmt)) { 
     if ($status == 'Collected') {
-    echo 'arrived';
+    echo 'Collected';
     }
     else if ($status == 'Prepared') {
     echo 'prepared';
