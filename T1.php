@@ -204,13 +204,13 @@ Tracker
 <P><strong> Collection code:</strong> <?php echo $collectcode;?></p>
 <br>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
-<p id="preparehide2"><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
+<p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
 <p id="collecthide1"><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
-<p id="collecthide2"><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
+<p id="collecthide2" style="display:none" ><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
 <p id="deliveryhide1"><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
-<p id="deliveryhide2"><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
+<p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <p id="arrivalhide1"><strong> Order arrival: </strong> <span style="color:orange"> Pending </span> </p>
-<p id="arrivalhide2"><strong> Order arrival: </strong> <span style="color:green"> Has arrived </span> </p>
+<p id="arrivalhide2" style="display:none" ><strong> Order arrival: </strong> <span style="color:green"> Has arrived </span> </p>
 <br>
 <div class="btn-add"> 
 	<button >
