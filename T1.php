@@ -312,7 +312,7 @@ if (prepared){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
  }
-if (collected){
+else if (collected){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
  document.getElementById("collecthide1").style.display = "none";
@@ -320,6 +320,23 @@ if (collected){
  document.getElementById("deliveryhide1").style.display = "none";
  document.getElementById("deliveryhide2").style.display = "block";
  }
+else{
+ document.getElementById("preparehide1").style.display = "none";
+ document.getElementById("preparehide2").style.display = "none";
+ document.getElementById("collecthide1").style.display = "none";
+ document.getElementById("collecthide2").style.display = "none";
+ document.getElementById("deliveryhide1").style.display = "none";
+ document.getElementById("deliveryhide2").style.display = "none";
+ document.getElementById("payhide2").style.display = "block";
+ document.getElementById("OD2").style.display = "block";
+ document.getElementById("codehide2").style.display = "block";
+ document.getElementById("payhide1").style.display = "none";
+ document.getElementById("OD1").style.display = "none";
+ document.getElementById("codehide1").style.display = "none";
+ document.getElementById("collecthide3").style.display = "block";
+ document.getElementById("deliveryhide3").style.display = "block";
+ document.getElementById("deliveryhide3").style.display = "block";
+}
 }, 1000);
 hideCollect();
 </script>
