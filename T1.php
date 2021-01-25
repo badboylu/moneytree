@@ -218,7 +218,7 @@ Tracker
 <P><strong> Collection code:</strong> <?php echo $collectcode;?></p>
 <br>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
-<p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green">Complete </span> </p>
+<p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
 <p id="collecthide1"><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
 <p id="collecthide2" style="display:none" ><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
 <p id="deliveryhide1"><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
