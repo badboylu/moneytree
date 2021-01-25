@@ -54,7 +54,11 @@ $stmt=mysqli_stmt_init($conn);
     if ($status == 'Collected') {
     echo '
     <script>
-    collected
+    function hideCollect(){
+    document.getElementById("collecthide1").style.display = "none";
+    document.getElementById("collecthide2").style.display = "block";
+    }
+    hideCollect();
     </script>';
     }
     else if ($status == 'Prepared') {
