@@ -52,18 +52,7 @@ $stmt=mysqli_stmt_init($conn);
   
    while (mysqli_stmt_fetch($stmt)) { 
     if ($status == 'Collected') {
-    echo '
-    <html>
-    <p id="collecthide1"><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
-    <p id="collecthide2" style="display:none" ><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
-    <script>
-    function hideCollect(){
-    document.getElementById("collecthide1").style.display = "none";
-    document.getElementById("collecthide2").style.display = "block";
-    }
-    hideCollect();
-    </script>
-    </html>'
+    echo 'arrived';
     }
     else if ($status == 'Prepared') {
     echo 'prepared';
