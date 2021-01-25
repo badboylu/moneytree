@@ -152,7 +152,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span> <?php echo $_GET['username']; ?></span><span> </span> <span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span> <span>[<a href="#.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:orange;">[Order History]</span></a>]</span>
+	<span> <?php echo $_GET['username']; ?></span><span> </span> <span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span> <span>[<a href="#.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:orange;">[Order log]</span></a>]</span>
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
@@ -226,16 +226,22 @@ Tracker
 </div>
 </div>
 
-<P><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
-<P><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
-<P><strong> Collection code:</strong> <?php echo $collectcode;?></p>
+<P id="payhide1"><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
+<P id="payhide2" style="display:none" ><strong>Payment status:</strong> <span style="color:green"> No order placed</span></p>
+<P id="OD1"><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
+<P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
+<P id="codehide1"><strong> Collection code:</strong><?php echo $collectcode;?></p>
+<P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
 <br>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
+<p id="preparehide3" style="display:none"><strong> Order preparation: </strong> <span> N/A </span> </p>
 <p id="collecthide1"><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
 <p id="collecthide2" style="display:none" ><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
+<p id="collecthide3" style="display:none" ><strong> Order collection: </strong> <span> N/A </span> </p>
 <p id="deliveryhide1"><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
 <p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
+<p id="deliveryhide3" style="display:none" ><strong> Order delivery: </strong> <span> N/A </span> </p>
 <br>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
