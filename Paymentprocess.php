@@ -94,13 +94,9 @@ $data = array(
     'merchant_key' => 'grrpth5dyco9u',
     'return_url' => 'https://www.canibuy.co.za/T1.php',
     'cancel_url' => 'https://canibuy.co.za/F1.php',
-    'notify_url' => 'https://www.canibuy.co.za/T1.php',
-    'name_first' => 'Test2',
-    'name_last'  => 'Last Name',
-    'email_address'=> 'test@test.com',
-    'm_payment_id' => '1234', 
+    'email_address'=> 'support@canibuy.co.za',
     'amount' => '456',
-    'item_name' => 'Order#123',
+    'item_name' => 'Canibuy Health Store',
 );
 $signature = generateSignature($data);
 $data['signature'] = $signature;
