@@ -160,7 +160,7 @@ Terms and Conditions
 Copyright © Canibuy, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibuy site and the disposal of any product users must be 18 years of age or older.
 </p>
 <p>
-BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YOU (THE “Disposal Agent”) ARE INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT and are 18 years of age or older. 
+BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YOU (THE “Disposal Agent”) ARE INDICATING THAT YOU ARE IN THE POSITION TO BE BOUND BY THIS CONTRACT AS WELL AS INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT and are 18 years of age or older. 
 </p>
 <p>
 <strong>
