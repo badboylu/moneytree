@@ -243,6 +243,10 @@ Tracker
 <p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <p id="deliveryhide3" style="display:none" ><strong> Order delivery: </strong> <span> N/A </span> </p>
 <br>
+<br>
+	<button id="update">
+		Update
+	</button>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
