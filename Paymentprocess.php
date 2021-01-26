@@ -110,7 +110,11 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
 echo'
 <script>
+   function savekeys(){
+    
+   }
    document.getElementById("form").submit();
+   savekeys();
 </script>';
 
 ?>
