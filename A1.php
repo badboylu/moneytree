@@ -291,13 +291,21 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 10.2 Disposal Agents agree that products received from Canibuy for disposal shall be disposed of at the non-public premises.
 </p>
 <p>
+<strong>
 11. DELIVERY
+</strong>
 </p>
 <p>
 11.1 Disposal Agents understand that Canibuy will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
 </p>
 <p>
-11.2 Disposal Agents understand that Canibuy will deliver products to Deliver Agents at any time and date. Data gathered from the site may be used to facilitate the delivery of the products to be Disposed.
+11.2 Disposal Agents understand that Canibuy will deliver products to Agents at any time and date. Data gathered from the site may be used to facilitate the delivery of the products to be Disposed.
+</p>
+<p>
+11.3 Disposal Agents understand that the website may be used to facilitate the delivery of the products to Agents.
+</p>
+<p>
+11.4 Disposal Agents will be informed when delivery of products to be disposed of have arrived at the Disposal Agents location.
 </p>
 <p>
 <strong>
