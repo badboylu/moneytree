@@ -413,7 +413,6 @@ setInterval (function showStructuretypeJHBSanton(){
  setInterval (function showHouse(){
     var Complex = document.getElementById('Cribtype').value;
          if (Complex=='House'){
-         document.getElementById("hideMall").style.display = "block";
                  document.getElementById("Complex1").removeAttribute("required");
                  document.getElementById("Estate1").removeAttribute("required");
                  document.getElementById("Shop1").removeAttribute("required");
@@ -421,8 +420,6 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("Company1").removeAttribute("required");
                  document.getElementById("Unit1").removeAttribute("required");
                  document.getElementById("Mall1").removeAttribute("required");
-     }else{
-         document.getElementById("hideMall").style.display = "none";
      }
  }, 1000);
  
