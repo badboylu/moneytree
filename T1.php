@@ -343,7 +343,17 @@ else{
 }, 1000);
 
 function update(){
+ const refresh = document.querySelectorAll('.update');
+ refresh.forEach(update =>{
+    update.addEventListener('click', () => {
+                refresh();           
+})
+}
+)
+ function refresh(){
  location.reload();
+}
+
 };
 update();
 hideCollect();
