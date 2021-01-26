@@ -352,8 +352,7 @@ function update(){
 )
  function refresh(){
  location.reload();
-}
-
+};
 };
 update();
 hideCollect();
