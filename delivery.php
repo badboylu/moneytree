@@ -249,22 +249,9 @@ Delivery details
 <div id="hideJHBtown" style="display:none">
 <label>Town:</label>
 <select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug" required>
-  <option value="" disabled selected>Select Town</option>
-  <option value="Alberton" disabled >Alberton</option>
-  <option value="Alexandra" disabled >Alexandra</option>
-  <option value="Benoni" disabled >Benoni</option>
-  <option value="Boksburg" disabled >Boksburg</option>
-  <option value="Germiston" disabled >Germiston</option>
-  <option value="JohannesburgCentral" disabled >Johannesburg Central</option>
-  <option value="JohannesburgSouth" disabled >Johannesburg South</option>
-  <option value="Kemptonpark" disabled>Kemptonpark</option>
-  <option value="Lethabong" disabled>Lethabong</option>
-  <option value="Midrand" disabled>Midrand</option>
   <option value="Randburg">Randburg</option>
-  <option value="Roodepoort" disabled>Roodepoort</option>
   <option value="Sandton">Sandton</option>
-  <option value="Soweto" disabled>Soweto</option>
-  <option value="Tembisa" disabled>Tembisa</option>
+  
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
