@@ -8,7 +8,7 @@ $custitoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
 $time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
-$authtoken = bin2hex(random_bytes(16));
+$authtoken = $_GET['auth'];
 $username = $_GET['username'];
 $confirmedpayment1 = 'Placed';
 $confirmedpayment = 'Pending';
