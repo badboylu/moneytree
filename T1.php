@@ -343,7 +343,7 @@ else{
 }, 1000);
 
 function update(){
-
+ location.reload();
 };
 update();
 hideCollect();
