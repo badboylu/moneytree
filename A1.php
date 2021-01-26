@@ -203,73 +203,82 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 3.2 By registering with Canibuy, you are agree to become a participant in the Canibuy website development experiment until notice is give by Canibuy indicating the website development experiment has been concluded.
 </p>
 <p>
-4.2 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
+3.3 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
 </p>
 <p>
-4.3 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
-</p>
-<p>
-<strong>
-5. PRODUCT DISPOSAL
-</strong>
-</p>
-<p>
-5.1 Canibuy makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the Disposal Agent. The product disposal methods employed by Disposal Agents are not under the control of Canibuy and Canibuy is not responsible for the illegal use and or application of the products to be disposed of.
+3.4 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
 </p>
 <p>
 <strong>
-6. DISPOSAL AGENT CONDUCT
+4. PRODUCT DISPOSAL
 </strong>
 </p>
 <p>
-6.1.1 In using this Site, and in receiving products to dispose of, you agree:
-</p>
-<p>
-6.1.2 Not to disrupt or interfere with the security of, or otherwise abuse, the Site, or any services, system resources, accounts, servers or networks connected to or accessible through the Site or affiliated;
-</p>
-<p>
-6.1.3 Not to violate, or attempt to violate the security of Canibuy. Violations of system or network security may result in civil or criminal liability. Canibuy will investigate occurrences, which may involve such violations and may involve, and cooperate with, law enforcement authorities in prosecuting disposal agents who are involved in such violations.
-</p>
-<p>
-6.2 In addition, disposal agents agree that they are solely responsible for their actions of disposing products for Canibuy and that they will comply with all applicable local, national and international laws and regulations in this regard.
+4.1 Canibuy makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the Disposal Agent. The product disposal methods employed by Disposal Agents are not under the control of Canibuy and Canibuy is not responsible for the illegal use and or application of the products to be disposed of.
 </p>
 <p>
 <strong>
-7. INDEMNIFICATION
+5. DISPOSAL AGENT CONDUCT
 </strong>
 </p>
 <p>
-7.1 Disposal Agents shall remain solely liable for the safe and legal disposal of any products delivered by Canibuy. You agree to indemnify and hold harmless Canibuy from any claim, action, demand, loss or damages (including attorneys’ fees) made or incurred by any third party arising out of or relating to your conduct, your violation of this Disposal Agent agreement, or your violation of any rights of a third party.
+5.1.1 In using this Site, and after receiving products to dispose of, you agree:
+</p>
+<p>
+5.1.2 Not to violate any of the agreed upon terms and conditions stated herein this agreement.
+</p>
+<p>
+5.1.3 Not to disrupt or interfere with the security of, or otherwise abuse, the Site, or any services, system resources, accounts, servers or networks connected to or accessible through the Site or affiliated.
+</p>
+<p>
+5.1.4 Not to violate, or attempt to violate the security of Canibuy. Violations of system or network security may result in civil or criminal liability. Canibuy will investigate occurrences, which may involve such violations and may involve, and cooperate with, law enforcement authorities in prosecuting disposal agents who are involved in such violations.
+</p>
+<p>
+5.2 In addition, disposal agents agree that they are solely responsible for their actions of disposing products for Canibuy and that they will comply with all applicable local, national and international laws and regulations in this regard.
 </p>
 <p>
 <strong>
-8. SUBMISSIONS
+6. INDEMNIFICATION
 </strong>
 </p>
 <p>
-8.1 You agree that any materials, including but not limited to questions, comments, suggestions, ideas, plans, notes, drawings, original or creative materials or other information, provided by you in the form of email or submissions to Canibuy, or postings on this Site, are non-confidential and shall become the sole property of Canibuy. Canibuy shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use of these materials for any purpose, commercial or otherwise, without acknowledgment or compensation to you. The submission of any materials to Canibuy irrevocably waives any and all “moral rights” in such materials, including the rights of paternity and integrity.
+6.1 Disposal Agents shall remain solely liable for the safe and legal disposal of any products delivered by Canibuy.
+</p>
+<p>
+6.2 Disposal Agents agree to indemnify and hold harmless Canibuy from any claim, action, demand, loss or damages (including attorneys’ fees) made or incurred by any third party arising out of or relating to your conduct, your violation of this Disposal Agent agreement, or your violation of any rights of a third party.
 </p>
 <p>
 <strong>
-9. EMAIL DISCLAIMER
+7. SUBMISSIONS
 </strong>
 </p>
 <p>
-9.1 The information in all e-mail messages (document and attachments) sent by an employee / electronic agent / a legal member of Canibuy is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
-</p>
-<p>
-9.2 Internet communications cannot be guaranteed to be secure or error-free. Neither Canibuy nor the sender accepts liability for any errors or omissions in the contents of messages which arise as a result of email transmission. If verification is required, please request a hard copy version. Also take note that email can possibly contain viruses and that the recipient is responsible for checking and deleting viruses. In no event will Canibuy or the sender be liable to anyone for any indirect, special, consequential or direct damages arising from the transmission of email messages, the opening of email messages and their attachments, or any use thereof whatsoever.
-</p>
-<p>
-9.3 No employee is authorised to conclude a binding agreement on behalf of Canibuy by email without the express written confirmation of a director of Canibuy. Nothing contained in said email shall be construed as a legally binding agreement or an offer to contract.
+7.1 Disposal Agents agree that any materials, including but not limited to questions, comments, suggestions, ideas, plans, notes, drawings, original or creative materials or other information, provided by Agents in the form of email or submissions to Canibuy, or postings on this Site, are non-confidential and shall become the sole property of Canibuy. Canibuy shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use of these materials for any purpose, commercial or otherwise, without acknowledgment or compensation to Agents. The submission of any materials to Canibuy irrevocably waives any and all “moral rights” in such materials, including the rights of paternity and integrity.
 </p>
 <p>
 <strong>
-10. ACCEPTANCE OF FUNDS
+8. EMAIL DISCLAIMER
 </strong>
 </p>
 <p>
-10.1 You acknowledge that (i) Canibuy is not offering any of the displayed products for sale and the Service you are providing for Canibuy is a waste disposal service of products rather the sale and use of the waste products, and (ii) any funds paid to Canibuy by the Disposal Agent through the payment method/s on the site is not a purchase of any product or service but a donation to the Canibuy cause.
+8.1 The information in all e-mail messages (document and attachments) sent by an employee / electronic agent / a legal member of Canibuy is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
+</p>
+<p>
+8.2 Internet communications cannot be guaranteed to be secure or error-free. Neither Canibuy nor the sender accepts liability for any errors or omissions in the contents of messages which arise as a result of email transmission. If verification is required, please request a hard copy version. Also take note that email can possibly contain viruses and that the recipient is responsible for checking and deleting viruses. In no event will Canibuy or the sender be liable to anyone for any indirect, special, consequential or direct damages arising from the transmission of email messages, the opening of email messages and their attachments, or any use thereof whatsoever.
+</p>
+<p>
+8.3 No employee or Disposal Agent is authorised to conclude a binding agreement on behalf of Canibuy by email without the express written confirmation of a director of Canibuy. Nothing contained in said email shall be construed as a legally binding agreement or an offer to contract.
+</p>
+<p>
+<strong>
+9. ACCEPTANCE OF FUNDS
+</strong>
+</p>
+<p>
+9.1 Disposal Agents acknowledge that Canibuy is not offering any of the displayed products on the site for sale and the Service Agents are providing to Canibuy upon receiving products is a waste disposal service of the products which is not a sale of the products for any form of use other than to dispose of the products.
+</p>
+<p>
+9.2 Disposal Agents acknowledge that any funds paid to Canibuy by the Disposal Agent through the payment method/s on the site is not a purchase of any product or service but a donation to the Canibuy cause for cannibus health awareness.
 </p>
 <p>
 <strong>
