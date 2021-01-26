@@ -181,28 +181,26 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 1.4 No failure or delay by Canibuy to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this end user agreement or prejudice our right to take subsequent action against the User.
 </p>
 <p>
-<strong>
-2. COPYRIGHT
-</strong>
-</p>
-<p>
-2.1 This Disposal Agent agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
+1.5 This Disposal Agent agreement applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
 </p>
 <p>
 <strong>
-3. INTELLECTUAL PROPERTY RIGHTS
+2. INTELLECTUAL PROPERTY RIGHTS
 </strong>
 </p>
 <p>
-3.1 All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to Canibuy and as such are protected from infringement by local and international legislation and treaties.
+2.1 All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to Canibuy and as such are protected from infringement by local and international legislation and treaties.
 </p>
 <p>
 <strong>
-4. LICENSES AND SITE ACCESS
+3. LICENSES AND SITE ACCESS
 </strong>
 </p>
 <p>
-4.1 By registering with Canibuy, you are agree to become a Canibuy subcontractor and given the title of Disposal Agent.
+3.1 By registering with Canibuy, you are agree to become a Canibuy subcontractor and given the title of Disposal Agent.
+</p>
+<p>
+3.2 By registering with Canibuy, you are agree to become a participant in the Canibuy website development experiment until notice is give by Canibuy indicating the website development experiment has been concluded.
 </p>
 <p>
 4.2 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
