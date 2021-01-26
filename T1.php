@@ -243,7 +243,7 @@ Tracker
 <p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <p id="deliveryhide3" style="display:none" ><strong> Order delivery: </strong> <span> N/A </span> </p>
 <br>
-	<button class="update">
+	<button id="update">
 		Update
 	</button>
 </div></div></div></div></div></div></div></article></div></div></div></div>
@@ -343,17 +343,17 @@ else{
 }, 1000);
 
 function update(){
- const refresh = document.querySelectorAll('.update');
- refresh.forEach(update =>{
+ const refresh = document.getElementById("update");
+ refresh.update =>{
     update.addEventListener('click', () => {
-                refresh();           
-})
+                function refresh(){
+ location.reload();
+};           
+}
 }
 )
- function refresh(){
- location.reload();
 };
-};
+
 update();
 hideCollect();
 </script>
