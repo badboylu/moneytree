@@ -243,7 +243,6 @@ Tracker
 <p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
 <p id="deliveryhide3" style="display:none" ><strong> Order delivery: </strong> <span> N/A </span> </p>
 <br>
-<br>
 	<button id="update">
 		Update
 	</button>
@@ -342,6 +341,11 @@ else{
  document.getElementById("deliveryhide3").style.display = "block";
 }
 }, 1000);
+
+function update(){
+
+};
+update();
 hideCollect();
 </script>
 </body>
