@@ -282,115 +282,115 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 </p>
 <p>
 <strong>
-11. PROHIBITED TRANSACTIONS
+10. PROHIBITED TRANSACTIONS
 </strong>
 </p>
 <p>
-11.1 Disposal Agents agree that on receiving products from Canibuy, you will disposed the products using methods safe enough not to cause harm to another person or to the Disposal Agent.
+10.1 Disposal Agents agree that on receiving products from Canibuy, you will disposed the products using methods safe enough not to cause harm to another person or to the Disposal Agent.
 </p>
 <p>
-11.2 Disposal Agents agree that products received for disposal shall be disposed of at the non-public premises.
+10.2 Disposal Agents agree that products received from Canibuy for disposal shall be disposed of at the non-public premises.
 </p>
 <p>
-12. FEES
+11. DELIVERY FEES
 </p>
 <p>
-12.1 Disposal Agents understand that Canibuy will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
+11.1 Disposal Agents understand that Canibuy will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
 </p>
 <p>
 <strong>
-13. DISCLAIMER OF WARRANTIES
+12. DISCLAIMER OF WARRANTIES
 </strong>
 </p>
 <p>
-13.1 YOU UNDERSTAND AND AGREE THAT THIS SITE AND THE INFORMATION, SERVICES, PRODUCTS AND MATERIALS AVAILABLE THROUGH IT ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. YOU EXPRESSLY AGREE THAT USE OF THIS SITE IS AT YOUR SOLE RISK.
+12.1 YOU UNDERSTAND AND AGREE THAT THIS SITE AND THE INFORMATION, SERVICES, PRODUCTS AND MATERIALS AVAILABLE THROUGH IT ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. YOU EXPRESSLY AGREE THAT USE OF THIS SITE IS AT YOUR SOLE RISK.
 </p>
 <p>
-13.2 TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CANIBUY AND ITS AFFILIATES DISCLAIM ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF TITLE, OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION PROVIDED BY CANIBUY OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PROVIDERS, MERCHANTS, SPONSORS, LICENSORS OR THE LIKE SHALL CREATE A WARRANTY; NOR SHALL YOU RELY ON ANY SUCH INFORMATION OR ADVICE.
+12.2 TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CANIBUY AND ITS AFFILIATES DISCLAIM ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF TITLE, OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION PROVIDED BY CANIBUY OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PROVIDERS, MERCHANTS, SPONSORS, LICENSORS OR THE LIKE SHALL CREATE A WARRANTY; NOR SHALL YOU RELY ON ANY SUCH INFORMATION OR ADVICE.
 </p>
 <p>
-13.3 YOU EXPRESSLY AGREE THAT USE OF THIS SITE, INCLUDING ALL CONTENT, DATA OR SOFTWARE DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SITE, IS AT YOUR SOLE RISK. YOU UNDERSTAND AND AGREE THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH CONTENT, DATA AND/OR SOFTWARE.
+12.3 YOU EXPRESSLY AGREE THAT USE OF THIS SITE, INCLUDING ALL CONTENT, DATA OR SOFTWARE DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SITE, IS AT YOUR SOLE RISK. YOU UNDERSTAND AND AGREE THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH CONTENT, DATA AND/OR SOFTWARE.
 </p>
 <p>
-13.4 CANIBUY DOES NOT MAKE ANY WARRANTY THAT THE SITE OR CONTENT WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. PAYFAST DOES NOT REPRESENT OR WARRANT THAT MATERIALS IN THIS SITE OR INFORMATION PROVIDED BY PAYFAST VIA EMAIL OR OTHER MEANS, ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE. NOR DOES PAYFAST MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF PAYFAST OR ITS CONTENT OR AS TO THE ACCURACY, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH USE OF THE SITE.
+12.4 CANIBUY DOES NOT MAKE ANY WARRANTY THAT THE SITE OR CONTENT WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. PAYFAST DOES NOT REPRESENT OR WARRANT THAT MATERIALS IN THIS SITE OR INFORMATION PROVIDED BY PAYFAST VIA EMAIL OR OTHER MEANS, ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE. NOR DOES PAYFAST MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF PAYFAST OR ITS CONTENT OR AS TO THE ACCURACY, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH USE OF THE SITE.
 </p>
 <p>
-13.5 CANIBUY ASSUMES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED BY A DISPOSAL AGENT, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA FROM DELAYS, NONDELIVERIES OF CONTENT OR EMAIL, ERRORS, SYSTEM DOWN TIME, MISDELIVERIES OF CONTENT OR EMAIL, NETWORK OR SYSTEM OUTAGES, FILE CORRUPTION OR SERVICE INTERRUPTIONS CAUSED BY THE NEGLIGENCE OF CANIBUY, ITS AFFILIATES, ITS LICENSORS OR A DISPOSAL AGENT’S OWN ERRORS AND/OR OMISSIONS.
+12.5 CANIBUY ASSUMES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED BY A DISPOSAL AGENT, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA FROM DELAYS, NONDELIVERIES OF CONTENT OR EMAIL, ERRORS, SYSTEM DOWN TIME, MISDELIVERIES OF CONTENT OR EMAIL, NETWORK OR SYSTEM OUTAGES, FILE CORRUPTION OR SERVICE INTERRUPTIONS CAUSED BY THE NEGLIGENCE OF CANIBUY, ITS AFFILIATES, ITS LICENSORS OR A DISPOSAL AGENT’S OWN ERRORS AND/OR OMISSIONS.
 </p>
 <p>
-13.6 CANIBUY DISCLAIMS ANY WARRANTY OR REPRESENTATION THAT CONFIDENTIALITY OF INFORMATION TRANSMITTED THROUGH THIS WEB SITE WILL BE MAINTAINED.
+12.6 CANIBUY DISCLAIMS ANY WARRANTY OR REPRESENTATION THAT CONFIDENTIALITY OF INFORMATION TRANSMITTED THROUGH THIS WEB SITE WILL BE MAINTAINED.
 </p>
 <p>
-13.7 ALL THE INFORMATION APPEARING ON THIS SITE IS PROVIDED WITHOUT A REPRESENTATION OR WARRANTY WHATSOEVER, WHETHER EXPRESSED OR IMPLIED, AND CANIBUY DISCLAIMS ANY LIABILITY TO THE DISPOSAL AGENT IN THIS REGARD.
+12.7 ALL THE INFORMATION APPEARING ON THIS SITE IS PROVIDED WITHOUT A REPRESENTATION OR WARRANTY WHATSOEVER, WHETHER EXPRESSED OR IMPLIED, AND CANIBUY DISCLAIMS ANY LIABILITY TO THE DISPOSAL AGENT IN THIS REGARD.
 </p>
 <p>
 <strong>
-14. LIMITATION OF LIABILITY
+13. LIMITATION OF LIABILITY
 </strong>
 </p>
 <p>
-14.1 Canibuy has taken reasonable steps as far as is possible, to ensure the accuracy and completeness of the content shown on this site, to ensure that the Disposal Agent doesn’t suffer any loss or damages as a result of the use of this site.
+13.1 Canibuy has taken reasonable steps as far as is possible, to ensure the accuracy and completeness of the content shown on this site, to ensure that the Disposal Agent doesn’t suffer any loss or damages as a result of the use of this site.
 </p>
 <p>
-14.2 UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL CANIBUY OR ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING FOR CANIBUY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH THE USE OR INABILITY TO USE CANIBUY OR ANY CONTENT PROVIDED BY OR THROUGH THIS SITE, OR RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, OR OTHER INFORMATION THAT IS SENT OR RECEIVED, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF CANIBUY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+13.2 UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL CANIBUY OR ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING FOR CANIBUY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH THE USE OR INABILITY TO USE CANIBUY OR ANY CONTENT PROVIDED BY OR THROUGH THIS SITE, OR RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, OR OTHER INFORMATION THAT IS SENT OR RECEIVED, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF CANIBUY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 </p>
 <p>
-14.3 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES DISPOSAL AGENT USER NAME AND PASSWORD WITH THEIR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH CANIBUY DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
+13.3 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES DISPOSAL AGENT USER NAME AND PASSWORD WITH THEIR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH CANIBUY DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
 </p>
 <p>
-14.4 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE PRODUCTS THAT ARE TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT CANIBUY WEBSITE IS A DEMONSTRATIONAL WEBSITE AND IS USED TO SHOWCASE SOFTWARE DEVELOPMENT CAPABILITIES OF CANIBUY AND IS NOT AN ONLINE STORE THAT SELLS THE PRODUCTS DISPLAYED THERE.
+13.4 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE PRODUCTS THAT ARE TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT CANIBUY WEBSITE IS A DEMONSTRATIONAL WEBSITE AND IS USED TO SHOWCASE SOFTWARE DEVELOPMENT CAPABILITIES OF CANIBUY AND IS NOT AN ONLINE STORE THAT SELLS THE PRODUCTS DISPLAYED THERE.
 </p>
 <p>
-14.5 Canibuy shall not be liable for any fraud, deception or misrepresentations by Disposal Agents of the Site's services in any capacity whatsoever.
+13.5 Canibuy shall not be liable for any fraud, deception or misrepresentations by Disposal Agents of the Site's services in any capacity whatsoever.
 </p>
 <p>
-14.6 In no event shall Canibuy be liable for any act or omission of any third party (such as, for example, any provider of telecommunications services, internet access or computer equipment or software) or for any circumstances beyond our control (such as, for example, a fire, flood, or other natural disaster, war, riot, strike, act of civil or military authority, equipment failure, computer virus, or failure or interruption of electrical, telecommunications or other utility services).
+13.6 In no event shall Canibuy be liable for any act or omission of any third party (such as, for example, any provider of telecommunications services, internet access or computer equipment or software) or for any circumstances beyond our control (such as, for example, a fire, flood, or other natural disaster, war, riot, strike, act of civil or military authority, equipment failure, computer virus, or failure or interruption of electrical, telecommunications or other utility services).
 </p>
 <p>
-14.7 Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, in such jurisdictions, liability is limited to the fullest extent permitted by law.
+13.7 Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, in such jurisdictions, liability is limited to the fullest extent permitted by law.
 </p>
 <p>
 <strong>
-15. DISPOSAL AGENT’S LIABILITY TO CANIBUY
+14. DISPOSAL AGENT’S LIABILITY TO CANIBUY
 </strong>
 </p>
 <p>
-15.1 In the event that Canibuy takes action against you for breach of these terms of use, you agree to reimburse Canibuy for all legal costs, including all fees related to evidence gathering and collection commission, on a scale as between attorney and own client.
+14.1 In the event that Canibuy takes action against you for breach of these terms of use, you agree to reimburse Canibuy for all legal costs, including all fees related to evidence gathering and collection commission, on a scale as between attorney and own client.
 </p>
 <p>
 <strong>
-16. APPLICABLE LAW
+15. APPLICABLE LAW
 </strong>
 </p>
 <p>
-16.1 The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
+15.1 The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
 </p>
 <p>
 <strong>
-17. TERMINATION
+16. TERMINATION
 </strong>
 </p>
 <p>
-17.1 Notwithstanding any of these terms and conditions, Canibuy reserves the right, without notice and in its sole discretion, to terminate your license to use this Site, and to block or prevent future access to and use of this Site.
+16.1 Notwithstanding any of these terms and conditions, Canibuy reserves the right, without notice and in its sole discretion, to terminate your license to use this Site, and to block or prevent future access to and use of this Site.
 </p>
 <p>
 <strong>
-18. SEVERABILITY
+17. SEVERABILITY
 </strong>
 </p>
 <p>
-18.1 If any provision of this Disposal Agent agreement is held to be invalid, void or for any reason unenforceable, then that provision shall be deemed severable from this Disposal Agent agreement and shall not affect the validity and enforceability of any remaining provisions.
+17.1 If any provision of this Disposal Agent agreement is held to be invalid, void or for any reason unenforceable, then that provision shall be deemed severable from this Disposal Agent agreement and shall not affect the validity and enforceability of any remaining provisions.
 </p>
 <p>
 <strong>
-19. TERMS
+18. TERMS
 </strong>
 </p>
 <p>
-19.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
+18.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
 </p>
 <p>
-19.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of Canibuy.
+18.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of Canibuy.
 </p>
 </p>
 </html>
