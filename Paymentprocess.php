@@ -111,13 +111,13 @@ echo $htmlForm;
 echo'
 <script>
    function savekeys(){
-    let username = 
-    let token =  
-    localStorage.setItem('username', 5 );
-    localStorage.setItem('token', 5 );       
-   }
-   document.getElementById("form").submit();
+    let username = <?php echo $_GET['username']; ?>;
+    let token =  <?php echo $_GET['auth']; ?>;
+    localStorage.setItem('username', username );
+    localStorage.setItem('token', token );       
+    }
    savekeys();
+   document.getElementById("form").submit();
 </script>';
 
 ?>
