@@ -251,6 +251,7 @@ Delivery details
 <select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug" required>
   <option value="Randburg">Randburg</option>
   <option value="Sandton">Sandton</option>
+  <option value="" disabled selected>Select town</option>
   
   <option value="Null" style="display:none" >Null</option>
 </select>
