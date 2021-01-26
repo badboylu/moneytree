@@ -364,7 +364,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("Company1").removeAttribute("required");
                  document.getElementById("House1").removeAttribute("required");
      }else{
-         document.getElementById("hideEstate").style.display = "block";
+         document.getElementById("hideEstate").style.display = "none";
      }
  }, 1000);
  
@@ -379,7 +379,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("Company1").removeAttribute("required");
                  document.getElementById("House1").removeAttribute("required");
      }else{
-         document.getElementById("hideComplex").style.display = "block";
+         document.getElementById("hideComplex").style.display = "none";
      }
  }, 1000);
  
@@ -394,7 +394,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("Company1").removeAttribute("required");
                  document.getElementById("House1").removeAttribute("required");
      }else{
-         document.getElementById("hideBuilding").style.display = "block";
+         document.getElementById("hideBuilding").style.display = "none";
      }
  }, 1000);
  
@@ -410,7 +410,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("House1").removeAttribute("required");
                  document.getElementById("Unit1").removeAttribute("required");
      }else{
-         document.getElementById("hideOffice").style.display = "block";
+         document.getElementById("hideOffice").style.display = "none";
      }
  }, 1000);
  
@@ -427,7 +427,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("House1").removeAttribute("required");
                  document.getElementById("Unit1").removeAttribute("required");
      }else{
-         document.getElementById("hideMall").style.display = "block";
+         document.getElementById("hideMall").style.display = "none";
      }
  }, 1000);
  
@@ -443,7 +443,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("House1").removeAttribute("required");
                  document.getElementById("Unit1").removeAttribute("required");
      }else{
-         document.getElementById("hideShop").style.display = "block";
+         document.getElementById("hideShop").style.display = "none";
      }
  }, 1000);
  
@@ -454,7 +454,7 @@ setInterval (function showStructuretypeJHBSanton(){
          if (Estate=='Estate' || House=='House' || Complex=='Complex' || Complex=='Flat' || Complex=='Office' || Complex=='Shop' ){
          document.getElementById("hideStreet").style.display = "block";
      }else{
-         document.getElementById("hideStreet").style.display = "block";
+         document.getElementById("hideStreet").style.display = "none";
      }
  }, 1000);
  
@@ -464,7 +464,7 @@ setInterval (function showStructuretypeJHBSanton(){
                  document.getElementById("hideNumber").style.display = "block";
                  document.getElementById("House1").removeAttribute("required");
      }else{
-         document.getElementById("hideNumber").style.display = "block";
+         document.getElementById("hideNumber").style.display = "none";
      }
  }, 1000);
  
@@ -474,7 +474,7 @@ setInterval (function showStructuretypeJHBSanton(){
          document.getElementById("hideHouseNumber").style.display = "block";
                  document.getElementById("Unit1").removeAttribute("required");
      }else{
-         document.getElementById("hideHouseNumber").style.display = "block";
+         document.getElementById("hideHouseNumber").style.display = "none";
      }
  }, 1000);
  
@@ -484,7 +484,7 @@ setInterval (function showStructuretypeJHBSanton(){
          if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' || House=='Shop' ){
          document.getElementById("hideContactNumber").style.display = "block";
      }else{
-         document.getElementById("hideContactNumber").style.display = "block";
+         document.getElementById("hideContactNumber").style.display = "none";
      }
  }, 1000);
  
@@ -494,7 +494,7 @@ setInterval (function showStructuretypeJHBSanton(){
          if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' || House=='Shop' ){
          document.getElementById("hideName").style.display = "block";
      }else{
-         document.getElementById("hideName").style.display = "block";
+         document.getElementById("hideName").style.display = "none";
      }
  }, 1000);
  
