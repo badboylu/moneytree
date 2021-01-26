@@ -622,37 +622,37 @@ Delivery details
   <option value="Shop">Shopping Complex</option>
 </select>
 </div>
-<div id="hideEstate" style="display:none">
+<div id="hideEstate" style="display:block">
    <label>Estate name:</label><input type="text" name="Estate" placeholder="Enter Estate Name" id="Estate1" required>
 </div>
-<div id="hideComplex" style="display:none">
+<div id="hideComplex" style="display:block">
    <label>Complex name:</label><input type="text" name="Complex" placeholder="Enter Complex Name" id="Complex1"  required>
 </div>
-<div id="hideBuilding" style="display:none">
+<div id="hideBuilding" style="display:block">
    <label>Building name:</label><input type="text" name="Building" placeholder="Enter Building Name" id="Building1"  required>
 </div>
-<div id="hideMall" style="display:none">
+<div id="hideMall" style="display:block">
    <label>Mall name:</label><input type="text" name="Mall" placeholder="Enter Mall Name" id="Mall1"  required>
 </div>
-<div id="hideOffice" style="display:none">
+<div id="hideOffice" style="display:block">
    <label>Company name:</label><input type="text" name="Shop" placeholder="Enter Company Name" id="Company1" required>
 </div>
-<div id="hideShop" style="display:none">
+<div id="hideShop" style="display:block">
    <label>Shop name:</label><input type="text" name="Shop" placeholder="Enter Shop Name" id="Shop1" required>
 </div>
-<div id="hideStreet" style="display:none">
+<div id="hideStreet" style="display:block">
    <label>Street:</label><input type="text" name="Street" placeholder="Enter Street Name" id="Street1" required>
 </div>
-<div id="hideNumber" style="display:none">
+<div id="hideNumber" style="display:block">
    <label>Unit number:</label><input type="text" name="Unit-number" placeholder="Enter Unit Number" id="Unit1" required>
 </div>
-<div id="hideHouseNumber" style="display:none">
+<div id="hideHouseNumber" style="display:block">
    <label>House number:</label><input type="text" name="House-number" placeholder="Enter House Number"  id="House1" required>
 </div>
-<div id="hideContactNumber" style="display:none">
+<div id="hideContactNumber" style="display:block">
    <label>Recipient contact number:</label><input type="text" name="Contact-number" placeholder="Enter Contact Number" required>
 </div>
-<div id="hideName" style="display:none">
+<div id="hideName" style="display:block">
    <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
 <input type="hidden" name="NLgrams" id="NLgrams" value="">
