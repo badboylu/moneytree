@@ -342,20 +342,12 @@ else{
 }
 }, 1000);
 
-function update(){
- const refresh = document.getElementById("update");
- refresh.update =>{
-    update.addEventListener('click', () => {
-                function refresh(){
- location.reload();
-};           
-}
-}
-)
-};
-
-update();
 hideCollect();
+</script>
+<script type="text/javascript">
+function refreshPage(){
+location.reload();		
+}
 </script>
 </body>
 </html>
