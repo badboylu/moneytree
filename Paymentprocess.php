@@ -111,10 +111,10 @@ echo $htmlForm;
 echo'
 <script>
    function savekeys(){
-    let ifavailableOC = localStorage.getItem('GramsOC')
-    let gramsNumberaddOC = localStorage.getItem('GramsOC'); 
-    localStorage.setItem('GramsOC', 5 );
-    localStorage.setItem('GramsOC', 5 );       
+    let username = 
+    let token =  
+    localStorage.setItem('username', 5 );
+    localStorage.setItem('token', 5 );       
    }
    document.getElementById("form").submit();
    savekeys();
