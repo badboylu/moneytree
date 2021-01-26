@@ -229,7 +229,6 @@ Delivery details
    <label>City:</label>
 <select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
-  <option value="Tshwane/Pretoria" disabled>Tshwane/Pretoria</option>
   <option value="Johannesburg" >Johannesburg</option>
 </select>
 
@@ -344,6 +343,7 @@ Delivery details
   <option value="Illovo"> Illovo </option>
   <option value="Inanda"> Inanda </option>
   <option value="Parkmore"> Parkmore </option>
+  <option value="Paulshof"> Paulshof </option>
   <option value="Rosebank"> Rosebank </option>
   <option value="Sandhurst"> Sandhurst </option>
   <option value="Sandowns"> Sandowns </option>
