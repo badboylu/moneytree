@@ -196,7 +196,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 </strong>
 </p>
 <p>
-3.1 By registering with Canibuy, you agree to become a Canibuy subcontractor and given the title of Disposal Agent.
+3.1 By registering with Canibuy, you agree to become a Canibuy independent subcocontractor and are given the title of Disposal Agent.
 </p>
 <p>
 3.2 By registering with Canibuy, you agree to become a participant in the Canibuy website development experiment until notice is give by Canibuy indicating the website development experiment has been concluded.
