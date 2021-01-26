@@ -180,7 +180,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YO
 1.4 No failure or delay by Canibuy to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this Disposal Agent agreement or prejudice our right to take subsequent action against the Agent.
 </p>
 <p>
-1.5 This Disposal Agent agreement applies exclusively to your access to, the use of, this Site including but not limited to disposing of Canibuy products and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
+1.5 This Disposal Agent agreement applies exclusively to your access to, the use of this Site including but not limited to disposing of Canibuy products and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
 </p>
 <p>
 <strong>
