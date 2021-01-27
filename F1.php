@@ -231,5 +231,9 @@ src="Inputhide.js" >
 <script 
 src="Form.js" >
 </script>
+<script>
+let username = localStorage.getItem('username'); 
+let token = localStorage.getItem('token'); 
+</script>
 </body>
 </html>
