@@ -166,7 +166,7 @@ Tracker
 <p><strong> Order arrival: </strong> <span> N/A </span> </p>
 <P><strong> Order status: </strong> <span> N/A </span> </p>
 <br>
-<form action="T1.php" method="post" id="key">
+<form action="F1.php" method="get" id="key">
 <input name="username" type="hidden" value="" id="user">
 <input name="auth" type="hidden" value="" id="auth">
 </form>
