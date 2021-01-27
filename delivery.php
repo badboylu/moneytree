@@ -5,7 +5,7 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
-   $total = $_GET['total'];
+   $total = $_GET['totalamount'];
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -666,6 +666,7 @@ Delivery details
 <input type="hidden" name="PEgrams" id="PEgrams" value="">
 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
+<input type="hidden" name="totalamount" value="<?php echo $total; ?>">
 <input type="submit" name="Pay" value="Order">
 </form> 
 </div></div></div></div></div></div></div></article></div></div></div></div>
