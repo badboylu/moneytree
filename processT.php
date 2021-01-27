@@ -10,5 +10,10 @@ echo $auth;
 <input name="username" type="hidden" value="<?php echo $user; ?>">
 <input name="auth" type="hidden" value="<?php echo $auth; ?>">
 </form>
-
+<script>
+function keys(){
+document.getElementById("key").submit();
+}
+keys();
+</script>
 <html>
