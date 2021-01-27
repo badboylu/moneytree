@@ -847,7 +847,7 @@ style="">
 <div class="nav-shop">
 <div  
 class="basel-show-categories">
-Online Shop
+Online Shop <?php echo $username; ?>
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
@@ -1697,16 +1697,14 @@ setInterval (function addHide(){
     }
 }, 1000);
 
- function keys(){
-   let username = '<?php echo $username; ?>';
-   let token = '<?php echo $authtoken; ?>';
-   localStorage.setItem('username', username );          
-   localStorage.setItem('token', token );                            
-}
-
 addHide();
+</script>
+<script>
+function keys(){
+   localStorage.setItem('username', <?php echo $username; ?> );          
+   localStorage.setItem('token', <?php echo $authtoken; ?> );                            
+}
 keys();
 </script>
-
 </body>
 </html>
