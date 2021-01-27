@@ -1,5 +1,5 @@
 <?php
-   session_start();
+   
    $servername="us-cdbr-east-02.cleardb.com";
    $dBUsername="b7fcd41c893d7a";
    $dBPassword="1e8f896b7da9e41";
@@ -22,8 +22,12 @@
     exit();
 }
 
-$_SESSION['username'] = $_GET['username'];
-$_SESSION['token'] = $_GET['auth'];
+ setcookie('username',$username);
+ setcookie('token',$authtoken);
+ $user = $_COOKIE['username'];
+ $auth = $_COOKIE['token'];
+ echo $user;
+ echo $auth;
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
