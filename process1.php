@@ -18,5 +18,5 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"s",$token);
  mysqli_stmt_execute($stmt);
 
- header("Location:F1.php?auth=".$token.");
+ header("Location:F1.php?auth=".$token);
  exit();
