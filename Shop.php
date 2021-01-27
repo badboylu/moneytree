@@ -4,6 +4,7 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+   $username = $_GET['username'];
    $authtoken = $_GET['auth'];
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
@@ -1695,7 +1696,16 @@ setInterval (function addHide(){
     document.getElementById("added").style.display = "none";
     }
 }, 1000);
+
+ function keys(){
+   let username = <?php echo $username; ?>;
+   let token = <?php echo $authtoken; ?>;
+   localStorage.setItem('username', username );          
+   localStorage.setItem('token', token );                            
+}
+
 addHide();
+keys();
 </script>
 
 </body>
