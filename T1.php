@@ -68,9 +68,8 @@ $prepared = 'Prepared';
    mysqli_stmt_store_result($stmt);
    $prep=mysqli_stmt_num_rows($stmt);
   
-   
-   echo $_SESSION['username'];
-   echo $_SESSION['token'];
+   header("Location:T1.php?username=<?php echo $_SESSION['username'];?>&auth=<?php echo $_SESSION['token'];?>");
+    
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
