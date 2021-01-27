@@ -5,8 +5,7 @@
  $dBName="heroku_61db5a5cdc2dfd8";
  $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
-$token= bin2hex(random_bytes(16));
-    mysqli_stmt_close($stmt);
+    $token= bin2hex(random_bytes(16));
     $sql="INSERT INTO userauth2 (token) VALUES (?);";
     $stmt= mysqli_stmt_init($conn);
 
