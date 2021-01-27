@@ -659,6 +659,11 @@ class="single-product-page single-product-content product-design-default product
                 </div>
                 <div class='plugfooterEnd'></div>
                 <br>
+                <form action="delivery.php" method="get" id="amount">
+                <input type="hidden" name="totalamount" value="" id="total">
+                <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+                <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
+                </form> 
                 <a href="delivery.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
                 <button class="cartpayment" >
 		Confirm
