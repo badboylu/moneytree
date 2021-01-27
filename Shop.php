@@ -1,4 +1,5 @@
 <?php
+   session_start();
    $servername="us-cdbr-east-02.cleardb.com";
    $dBUsername="b7fcd41c893d7a";
    $dBPassword="1e8f896b7da9e41";
@@ -20,7 +21,7 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-session_start();
+
 $_SESSION['username'] = $_GET['username'];
 $_SESSION['token'] = $_GET['auth'];
 echo $_SESSION['username'];
