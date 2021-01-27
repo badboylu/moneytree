@@ -10,4 +10,4 @@
 <input name="auth" type="hidden" value="<?php echo $auth; ?>">
 </form>
 
-<html>
+</html>
