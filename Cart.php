@@ -771,7 +771,7 @@ src="plusminus.js" >
 <script>
 function setTotal(){
 let total = localStorage.getItem('totalAmountNumber'); 
-total = parseInt(total);
+total = parseInt(total) + 40;
 document.getElementById("total").value = total;
 }
 setTotal();
