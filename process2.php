@@ -1,17 +1,21 @@
 <?php
-session_start();
-$user = $_SESSION['username'];
-$auth = $_SESSION['token'];
-?>
-<html>
-<form action="T1.php" method="get" id="key">
-<input name="username" type="hidden" value="<?php echo $user; ?>">
-<input name="auth" type="hidden" value="<?php echo $auth; ?>">
-</form>
-<script>
-function keys(){
-document.getElementById("key").submit();
-}
-keys();
-</script>
-<html>
+ $servername="us-cdbr-east-02.cleardb.com";
+ $dBUsername="b7fcd41c893d7a";
+ $dBPassword="1e8f896b7da9e41";
+ $dBName="heroku_61db5a5cdc2dfd8";
+ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+
+    $token= bin2hex(random_bytes(16));
+    $sql="INSERT INTO userauth2 (token) VALUES (?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:Signin.php?error=sqlerror123");
+    exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"s",$token);
+ mysqli_stmt_execute($stmt);
+
+ header("Location:T1.php?auth=".$token);
+ exit();
