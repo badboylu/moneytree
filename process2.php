@@ -19,7 +19,10 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 ?>
 <html>
 <script>
+function clear(){
 localStorage.clear();
+}
+clear();
 </script>
 </html>
 <?php
