@@ -96,9 +96,9 @@ $data = array(
     'return_url' => 'https://canibuy.co.za/process2.php',
     'cancel_url' => 'https://canibuy.co.za/process1.php',
     'email_address'=> 'support@canibuy.co.za',
+    'amount'=> $total,
     'item_name' => 'Canibuy Health Store',
 );
-$data['amount'] = $total;
 $signature = generateSignature($data);
 $data['signature'] = $signature;
 
