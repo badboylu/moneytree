@@ -167,8 +167,8 @@ Tracker
 <P><strong> Order status: </strong> <span> N/A </span> </p>
 <br>
 <form action="T1.php" method="post" id="key">
-<input name="username" type="hidden" value="" >
-<input name="auth" type="hidden" value="" >
+<input name="username" type="hidden" value="" id="user">
+<input name="auth" type="hidden" value="" id="auth">
 </form>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
@@ -234,8 +234,8 @@ src="Form.js" >
 <script>
 let username = localStorage.getItem('username'); 
 let token = localStorage.getItem('token');
-document.getElementById("OC").value
-document.getElementById("OC").value
+document.getElementById("user").value = username;
+document.getElementById("auth").value = token;
 </script>
 </body>
 </html>
