@@ -233,7 +233,9 @@ src="Form.js" >
 </script>
 <script>
 let username = localStorage.getItem('username'); 
-let token = localStorage.getItem('token'); 
+let token = localStorage.getItem('token');
+document.getElementById("OC").value
+document.getElementById("OC").value
 </script>
 </body>
 </html>
