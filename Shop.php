@@ -20,6 +20,11 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
+session_start();
+$_SESSION['username'] = $_GET['username'];
+$_SESSION['token'] = $_GET['auth'];
+echo $_SESSION['username'];
+echo $_SESSION['token'];
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -1698,13 +1703,6 @@ setInterval (function addHide(){
 }, 1000);
 
 addHide();
-</script>
-<script>
-function keys(){
-   localStorage.setItem('username', 5 );          
-   localStorage.setItem('token', 7 );                            
-}
-keys();
 </script>
 </body>
 </html>
