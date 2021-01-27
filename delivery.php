@@ -667,7 +667,9 @@ Delivery details
 <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
 <input type="submit" name="Pay" value="Order">
 </form> 
-
+<form action="delivery.php" method="get" id="amount">
+<input type="hidden" name="totalamount" value="" id="total">
+</form> 
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
@@ -728,6 +730,15 @@ src="Inputhide.js" >
 </script>
 <script 
 src="Form.js" >
+</script>
+<script>
+function setTotal(){
+let total = localStorage.getItem('cartNumberBW'); 
+total = parseInt(total);
+document.getElementById("BW").value = total;
+document.getElementById("amount").submit();
+}
+setTotal();
 </script>
 </body>
 </html>
