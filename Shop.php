@@ -24,8 +24,6 @@
 
 $_SESSION['username'] = $_GET['username'];
 $_SESSION['token'] = $_GET['auth'];
-echo $_SESSION['username'];
-echo $_SESSION['token'];
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
