@@ -2,6 +2,7 @@
 session_start();
 $user = $_SESSION['username'];
 $auth = $_SESSION['token'];
+?>
 <html>
 <form action="T1.php" method="get" id="key">
 <input name="username" type="hidden" value="<?php echo $user ?>">
