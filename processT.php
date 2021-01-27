@@ -2,8 +2,6 @@
 session_start();
 $user = $_SESSION['username'];
 $auth = $_SESSION['token'];
-echo $user;
-echo $auth;
 ?>
 <html>
 <form action="T1.php" method="get" id="key">
