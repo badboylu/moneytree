@@ -733,9 +733,9 @@ src="Form.js" >
 </script>
 <script>
 function setTotal(){
-let total = localStorage.getItem('cartNumberBW'); 
+let total = localStorage.getItem('totalAmountNumber'); 
 total = parseInt(total);
-document.getElementById("BW").value = total;
+document.getElementById("total").value = total;
 document.getElementById("amount").submit();
 }
 setTotal();
