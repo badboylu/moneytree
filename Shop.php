@@ -1698,8 +1698,8 @@ setInterval (function addHide(){
 }, 1000);
 
  function keys(){
-   let username = <?php echo $username; ?>;
-   let token = <?php echo $authtoken; ?>;
+   let username = '<?php echo $username; ?>';
+   let token = '<?php echo $authtoken; ?>';
    localStorage.setItem('username', username );          
    localStorage.setItem('token', token );                            
 }
