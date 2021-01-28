@@ -21,7 +21,12 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-
+ setcookie('username',$username);
+ setcookie('token',$authtoken);
+ $user = $_COOKIE['username'];
+ $auth = $_COOKIE['token'];
+ echo $user;
+ echo $auth;
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
