@@ -657,6 +657,10 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalCart"><strong>Total</strong></span>
                 <span class="totalOrderR1">R</span>
                 <span class="totalOrder1"></span>
+		<form action="#" method="post" id="discount">
+                <input type="text" name="Discount" placeholder="Enter code here" required>
+                <input type="submit" name="Apply" value="Apply" "/>
+                </form> 
                 </div>
                 <div class='plugfooterEnd'></div>
                 <br>
