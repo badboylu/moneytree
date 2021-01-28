@@ -12,4 +12,6 @@ $sql2='DELETE FROM address WHERE idToken="'.$authtoken.'"';
 mysqli_query($conn, $sql2);
 $sql3='DELETE FROM deliverytoken WHERE idOrderID="'.$authtoken.'"';
 mysqli_query($conn, $sql3);
+       header("Location:register.html?error=SQL1");
+       exit();
 ?>
