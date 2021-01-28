@@ -2,8 +2,9 @@
 $lunga='Lunga';
 ?>
 <html>
-<div id="show">
-</div>
+<span id="show">
+Test
+</span>
 <script>
 
 function test(){
