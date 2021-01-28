@@ -658,10 +658,14 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalOrderR1">R</span>
                 <span class="totalOrder1"></span>
 		</div>
+		<div class='plugfooterEnd'></div>
 		<div>
+		<br>
 		<form action="#" method="post" id="discount">
-                <input type="text" name="Discount" placeholder="Enter code here" required>
+                <input type="text" name="Discount" placeholder="Enter promo code here" required>
+		<br>
                 <input type="submit" name="Apply" value="Apply" "/>
+		<br>
                 </form> 
                 </div>
                 <div class='plugfooterEnd'></div>
