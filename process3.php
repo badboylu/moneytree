@@ -6,7 +6,17 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $username = $_GET['username'];
 $authtoken = $_GET['auth'];
-$sql='DELETE FROM oders WHERE idOrderToken="'.$authtoken.'"';
+
+$query='SELECT * FROM oders WHERE idOrderToken="'.$authtoken.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $token[]=$row['idOrders'];
+}
+
+$ordertoken=Max($token);
+
+$sql='DELETE FROM oders WHERE idOrderToken="'.$authtoken.'" AND idOrders="'.$ordertoken.'"';
 mysqli_query($conn, $sql);
 $sql2='DELETE FROM address WHERE idToken="'.$authtoken.'"';
 mysqli_query($conn, $sql2);
