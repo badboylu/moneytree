@@ -1716,17 +1716,12 @@ addHide();
 <script>
 function test(){
 let auth = '<?php echo $authtoken; ?>';
-let username = '<?php echo $username; ?>';
-if(test){
+if(auth){
   localStorage.setItem('token', auth);
-  localStorage.setItem('username', username);
  }
 }
 
 function show(){
-let username1 = localStorage.getItem('username');
-document.getElementById("show").textContent = username1;
-}
 let auth1 = localStorage.getItem('token');
 document.getElementById("show2").textContent = auth1;
 }
