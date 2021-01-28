@@ -21,12 +21,7 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
- setcookie('username',$username);
- setcookie('token',$authtoken);
- $user = $_COOKIE['username'];
- $auth = $_COOKIE['token'];
- echo $user;
- echo $auth;
+ 
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -899,12 +894,6 @@ Accessories
 <div class="Added" id="added" style="display:none;" >
 <span><strong>Item/s added to cart</strong></span>
 </div>
-<div class="Added" id="show" >
-<span><strong>Item/s added to cart</strong></span>
-</div>
-<div class="Added" id="show2" >
-<span><strong>Item/s added to cart</strong></span>
-</div>
 <div class="row">
 <div 
 class="site-content shop-content-area col-sm-12 content-with-products description-area-before" 
@@ -1721,24 +1710,11 @@ if(auth){
  }
 }
 
-function test1(){
-let user = '<?php echo $username; ?>';
-if(user){
-  localStorage.setItem('username', user);
- }
-}
-
 function show(){
 let auth1 = localStorage.getItem('token');
 document.getElementById("show2").textContent = auth1;
 }
 
-function show1(){
-let user1 = localStorage.getItem('username');
-document.getElementById("show").textContent = user1;
-}
-show1()
-test1();
 show();
 test();
 </script>
