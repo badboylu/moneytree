@@ -207,7 +207,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker <?php echo $_SESSION['username']; ?>
+Order Tracker 
 </strong>
 <span class="title-separator">
 <span>
