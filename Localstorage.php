@@ -15,7 +15,7 @@ if(test){
 
 function show(){
 let name = localStorage.getItem('username');
-document.getElementById("show").textcontent = name;
+document.getElementById("show").textcontent = '5';
 }
 
 show();
