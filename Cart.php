@@ -665,8 +665,8 @@ class="single-product-page single-product-content product-design-default product
                 <input type="text" name="Discount" placeholder="Enter promo code here" required>
 		<br>
                 <input type="submit" name="Apply" value="Apply" "/>
-		<br>
                 </form> 
+		<br>
                 </div>
                 <div class='plugfooterEnd'></div>
                 <br>
