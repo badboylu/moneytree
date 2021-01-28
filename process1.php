@@ -11,7 +11,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 <html>
 
 <form action="process1.php" method="get" id="form2">
-<input type="hidden" name="auth" value="" id="auth">
+<input type="hidden" name="auth" value="" id="auth2">
 </form>
 
 <form action="F1.php" method="get" id="form">
@@ -21,6 +21,8 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
 <script>
 function submit2(){
+let auth2 = localStorage.getItem('token');
+document.getElementById("auth2").value = auth2 ;
 document.getElementById("form2").submit();
 }
 submit2();
