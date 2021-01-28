@@ -1721,10 +1721,24 @@ if(auth){
  }
 }
 
+function test1(){
+let user = '<?php echo $username; ?>';
+if(user){
+  localStorage.setItem('username', user);
+ }
+}
+
 function show(){
 let auth1 = localStorage.getItem('token');
 document.getElementById("show2").textContent = auth1;
 }
+
+function show1(){
+let user1 = localStorage.getItem('username');
+document.getElementById("show").textContent = user1;
+}
+show1()
+test1();
 show();
 test();
 </script>
