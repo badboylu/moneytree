@@ -12,6 +12,6 @@ $sql2='DELETE FROM address WHERE idToken="'.$authtoken.'"';
 mysqli_query($conn, $sql2);
 $sql3='DELETE FROM deliverytoken WHERE idOrderID="'.$authtoken.'"';
 mysqli_query($conn, $sql3);
-       header("Location:Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>");
+       header("Location:Shop.php?username=".$_GET['username']."&auth=".$_GET['auth']."");
        exit();
 ?>
