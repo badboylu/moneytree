@@ -14,12 +14,10 @@ $sql3='DELETE FROM deliverytoken WHERE idOrderID="'.$authtoken.'"';
 mysqli_query($conn, $sql3);    
 ?>
 <html>
-
 <form action="F1.php" method="get" id="form">
 <input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
 </form>
-
 <script>
 function user(){
 let user = localStorage.getItem('username');
