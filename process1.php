@@ -27,7 +27,7 @@ submit2();
 </script>
 
 <?php
-$ot=
+$ot=GET_['auth'];
 $sql='DELETE FROM oders WHERE idOrderToken="'.$ot.'"';
 mysqli_query($conn, $sql);
 $sql2='DELETE FROM address WHERE idToken="'.$ot.'"';
