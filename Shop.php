@@ -1724,11 +1724,11 @@ if(test){
 }
 
 function show(){
-let username = localStorage.getItem('username');
-document.getElementById("show").textContent = username;
+let username1 = localStorage.getItem('username');
+document.getElementById("show").textContent = username1;
 }
-let auth = localStorage.getItem('token');
-document.getElementById("show2").textContent = auth;
+let auth1 = localStorage.getItem('token');
+document.getElementById("show2").textContent = auth1;
 }
 show();
 test();
