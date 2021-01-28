@@ -1711,8 +1711,10 @@ if(auth){
 }
 
 function show(){
-let auth1 = localStorage.getItem('token');
-document.getElementById("show2").textContent = auth1;
+let user = '<?php echo $username; ?>';
+if(user){
+  localStorage.setItem('username', user);
+ }
 }
 
 show();
