@@ -1,5 +1,5 @@
 <?php
-$lunga='Lunga';
+$lunga='Magagula';
 ?>
 <html>
 <span id="show">
@@ -8,7 +8,7 @@ Test
 <script>
 
 function test(){
-let test = 'Lunga';
+let test = '<?php echo $lunga; ?>';
 if(test){
   localStorage.setItem('username', test);
  }
