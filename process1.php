@@ -4,19 +4,19 @@
 <input type="hidden" name="username" value="" id="user">
 </form>
 <script>
-function 1(){
+function user(){
 let user = localStorage.getItem('username');
 document.getElementById("user").value = user;
 }
-function 2(){
+function auth(){
 let auth = localStorage.getItem('token');
 document.getElementById("auth").value = auth ;
 }
 function submit(){
 document.getElementById("form").submit();
 }
-1();
-2();
+user();
+auth();
 submit();
 </script>
 </html>
