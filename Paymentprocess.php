@@ -23,8 +23,8 @@ $pe = $_GET['PEgrams'];
 
 $province = $_GET['Province'];
 $city = $_GET['City'];
-$townpta = $_GET['TownsPTA'];
-$suburb = $_GET['suburbsPTAeast'];
+$town = $_GET['Towns'];
+$suburb = $_GET['suburbs'];
 $street = $_GET['Street'];
 $structure = $_GET['Crib'];
 $mall = $_GET['Mall'];
@@ -56,7 +56,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:delivery.php?error=SQL7");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$townpta,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
+     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
