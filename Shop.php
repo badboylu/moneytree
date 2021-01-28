@@ -1714,7 +1714,7 @@ $lunga='Magagula';
 ?>
 <script>
 function test(){
-let test = '<?php echo $lunga; ?>';
+let test = '<?php echo $authtoken; ?>';
 if(test){
   localStorage.setItem('username', test);
  }
