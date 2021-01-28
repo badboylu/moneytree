@@ -63,7 +63,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  }
  
  
-    header("Location:Shop.php?login=successful"."&auth=".$token);
+    header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
