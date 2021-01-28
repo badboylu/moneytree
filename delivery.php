@@ -235,7 +235,7 @@ Delivery details
 
 <div id="hidePTAtown" style="display:none">
 <label>Town:</label>
-<select class="PTAtown" name="TownsPTA" id="townsPTA" form="plug" required>
+<select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="PretoriaEast">Pretoria East</option>
   <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
@@ -248,7 +248,7 @@ Delivery details
 </div>
 <div id="hideJHBtown" style="display:none">
 <label>Town:</label>
-<select class="JHBtown" name="TownsJHB" id="townsJHB" form="plug" required>
+<select class="JHBtown" name="Towns" id="townsJHB" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="Randburg">Randburg</option>
   <option value="Sandton">Sandton</option>
@@ -260,7 +260,7 @@ Delivery details
 
 <div id="hideJHBRandburgsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="JHBRandburg" name="suburbsJHBRandburg" id="suburbsJHBRandburg" form="plug" required>
+<select class="JHBRandburg" name="suburbs" id="suburbsJHBRandburg" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="AldaraPark"> Aldara Park </option>
   <option value="BellairsPark"> Bellairs Park </option>
@@ -335,7 +335,7 @@ Delivery details
 
 <div id="hideJHBSandtonsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="JHBSandtonsuburb" name="suburbsJHBSandton" id="suburbsJHBSandton" form="plug" required>
+<select class="JHBSandtonsuburb" name="suburbs" id="suburbsJHBSandton" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Bryanston"> Bryanston </option>
   <option value="Craighall Park"> Craighall Park </option>
@@ -356,7 +356,7 @@ Delivery details
 
 <div id="hideJHBEastsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="JHBEastsuburb" name="suburbsJHBEast" id="suburbsJHBEast" form="plug" required>
+<select class="JHBEastsuburb" name="suburbs" id="suburbsJHBEast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Alexandra"> Alexandra </option>
   <option value="Bruma"> Bruma </option>
@@ -419,7 +419,7 @@ Delivery details
 
 <div id="hidePTAeastsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="PTAeastSuburb" name="suburbsPTAeast" id="suburbsPTAeast" form="plug" required>
+<select class="PTAeastSuburb" name="suburbs" id="suburbsPTAeast" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="AlphenPark"> Alphen Park </option>
   <option value=" Arcadia "> Arcadia </option>
@@ -588,7 +588,7 @@ Delivery details
 </div>
 <div id="hideCenturionsuburb" style="display:none">
 <label>Suburb:</label>
-<select class="Centurionsuburb" name="suburbsCenturion" id="suburbsPTACenturion" form="plug" required>
+<select class="Centurionsuburb" name="suburbs" id="suburbsPTACenturion" form="plug" required>
   <option value="" disabled selected>Select Suburb</option>
   <option value="Clubview"> Clubview </option>
   <option value=" CornwallHill "> Cornwall Hill </option>
