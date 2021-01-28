@@ -902,6 +902,9 @@ Accessories
 <div class="Added" id="show" >
 <span><strong>Item/s added to cart</strong></span>
 </div>
+<div class="Added" id="show2" >
+<span><strong>Item/s added to cart</strong></span>
+</div>
 <div class="row">
 <div 
 class="site-content shop-content-area col-sm-12 content-with-products description-area-before" 
@@ -1709,22 +1712,24 @@ setInterval (function addHide(){
 
 addHide();
 </script>
-<?php
-$lunga='Magagula';
-?>
+
 <script>
 function test(){
-let test = '<?php echo $authtoken; ?>';
+let auth = '<?php echo $authtoken; ?>';
+let username = '<?php echo $username; ?>';
 if(test){
-  localStorage.setItem('username', test);
+  localStorage.setItem('token', auth);
+  localStorage.setItem('username', username);
  }
 }
 
 function show(){
-let name = localStorage.getItem('username');
-document.getElementById("show").textContent = name;
+let username = localStorage.getItem('username');
+document.getElementById("show").textContent = username;
 }
-
+let auth = localStorage.getItem('token');
+document.getElementById("show2").textContent = auth;
+}
 show();
 test();
 </script>
