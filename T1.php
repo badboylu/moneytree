@@ -20,6 +20,9 @@ $stmt=mysqli_stmt_init($conn);
    $check=mysqli_stmt_num_rows($stmt);
 
 if ($check){
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' OR idOrderConfirmation='Prepared' and idOrderUsername="'.$username.'"";
+$result=mysqli_query($conn,$query);
+
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
