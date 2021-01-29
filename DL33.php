@@ -241,7 +241,9 @@ if(!$count2){
                          </div>
                          <form action="Deliver.php" method="get" id="form">
                          <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
-                         <input type="submit" name="Delivered" value="Verify" id="Blanks" "/>
+                         <input type="submit" name="Delivered" value="Verify" id="Blanks">
+                         <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+                         <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
                          </form>
                     </div>
                 </div>
