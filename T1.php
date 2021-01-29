@@ -5,10 +5,14 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken = $_GET['auth'];
+$username = $_GET['username'];
 
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' OR idOrderConfirmation='Prepared' and idOrderUsername='Lunga'";
 $result=mysqli_query($conn,$query);
-
+mysqli_stmt_store_result($result);
+$check=mysqli_stmt_num_rows($result)
+if ($check){
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
 }
@@ -41,6 +45,7 @@ while($row=mysqli_fetch_array($result)){
 }
 
 $collectcode=Min($code);
+}
 
 $query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $collect = 'Collected';
