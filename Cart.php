@@ -781,6 +781,17 @@ src="CartPriceDisplay.js" >
 src="plusminus.js" >
 </script>
 <script>
+function discount(){
+let code = <?php echo GET_['promo']; ?>
+if(code='welovecanibuy'){
+let totalamount = localStorage.getItem('totalAmountNumber');
+totalamount = parseInt(totalamount);
+discountamount = totalamount - (totalamount * 0.40);
+localStorage.setItem('totalAmountNumber', discountamount );
+ }
+}
+</script>
+<script>
 function setTotal(){
 let total = localStorage.getItem('totalAmountNumber'); 
 total = parseInt(total) + 40;
