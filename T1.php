@@ -65,9 +65,6 @@ $collect = 'Collected';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
-   if(!$collected){
-   $collected='0';
-   }
 
 $query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $prepared = 'Prepared';
@@ -81,9 +78,13 @@ $prepared = 'Prepared';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prep=mysqli_stmt_num_rows($stmt);
-   if(!$prep){
-   $prep='0';
-   }
+   
+}
+else{
+$collected='0';
+$prep='0';
+$collectcode='0';
+$ordernmbr='0';
 }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
