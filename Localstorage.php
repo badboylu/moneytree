@@ -32,7 +32,15 @@ function test(){
   localStorage.removeItem("totalCostOC");
   localStorage.removeItem("cartNumberOC");
 
+  localStorage.removeItem("GramsPE");
+  localStorage.removeItem("totalAmountPE");
+  localStorage.removeItem("totalCostPE");
+  localStorage.removeItem("cartNumberPE");
 
+  localStorage.removeItem("GramsPR");
+  localStorage.removeItem("totalAmountPR");
+  localStorage.removeItem("totalCostPR");
+  localStorage.removeItem("cartNumberPR");
 }
 test();
 </script>
