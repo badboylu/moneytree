@@ -6,8 +6,24 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $custicode = $_GET['Deliver'];
 $auth = $_GET['auth'];
-$driver='Lunga';
+$driver = $_GET['username'];
 $stat='Delivered';
+$username = $_GET['username'];
+
+   $sql='SELECT * FROM userauth2 WHERE token=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$auth);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+ if (!$count>0){
+    header("Location:Signin.php?error=notloggedin");
+    exit();
+}
 
 $query='SELECT * FROM deliverytoken WHERE idCustomerToken="'.$custicode.'" ';
 $result=mysqli_query($conn,$query);
@@ -35,7 +51,7 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql2);
       $sql4="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' ";
       mysqli_query($conn,$sql4);
-      header("Location:DL01.php");
+      header("Location:DLH.php?username=".$username."&auth=".$auth."");
       exit();
   
 }
