@@ -46,14 +46,17 @@ $query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $collect = 'Collected';
    $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
    $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
+   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL1");
        exit();
-}
+   }
    mysqli_stmt_bind_param($stmt,"s",$collect);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
+   if(!$collected){
+   $collected='0';
+   }
 
 $query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $prepared = 'Prepared';
@@ -67,7 +70,9 @@ $prepared = 'Prepared';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prep=mysqli_stmt_num_rows($stmt);
-  
+   if(!$prep){
+   $prep='0';
+   }
    
     
 ?>
@@ -314,11 +319,11 @@ src="Form.js" >
 setInterval (function hideCollect(){
 var collected = <?php echo $collected ?>;
 var prepared = <?php echo $prep ?>;
-if (prepared){
+if (prepared>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
  }
-else if (collected){
+else if (collected>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
  document.getElementById("collecthide1").style.display = "none";
