@@ -47,7 +47,7 @@ while($row = mysqli_fetch_array($result1)) {
 
 $order1=Max($token);
 
-$query="SELECT * FROM deliverytoken WHERE idOrderID="'.$order1.'" ";
+$query="SELECT * FROM deliverytoken WHERE idOrderID='".$order1."' ";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
@@ -59,19 +59,19 @@ $order2=Min($delivery);
 $sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
 mysqli_query($conn,$sql2);
 
-$sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderToken='".$order1."' AND idPrepperToken='Pending' ";
+$sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderToken='".$order1."' AND idPrepperToken='".$order2."' ";
 mysqli_query($conn,$sql7);
 
-$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderID='".$order1."' AND idPrepperToken='Pending' ";
+$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderID='".$order1."' AND idPrepperToken='".$order2."' ";
 mysqli_query($conn,$sql3);
 
-$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' AND idPrepperToken='Pending' ";
+$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' AND idPrepperToken='".$order2."' ";
 mysqli_query($conn,$sql4);
 
-$sql5="UPDATE deliverytoken SET idPrepperToken='".$preptoken."' WHERE idOrderID='".$order1."' AND idPrepperToken='Pending' ";
+$sql5="UPDATE deliverytoken SET idPrepperToken='".$preptoken."' WHERE idOrderID='".$order1."' AND idPrepperToken='".$order2."' ";
 mysqli_query($conn,$sql5);
 
-$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' idPrepperToken='Pending' ";
+$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' idPrepperToken='".$order2."' ";
 mysqli_query($conn,$sql6);
 
     header("Location:D1.php?username=".$user."&auth=".$authtoken."");
