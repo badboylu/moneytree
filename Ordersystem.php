@@ -71,7 +71,7 @@ mysqli_query($conn,$sql4);
 $sql5="UPDATE deliverytoken SET idPrepperToken='".$preptoken."' WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
 mysqli_query($conn,$sql5);
 
-$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' idOrder='".$order2."' ";
+$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
 mysqli_query($conn,$sql6);
 
     header("Location:D1.php?username=".$user."&auth=".$authtoken."");
