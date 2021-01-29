@@ -12,7 +12,10 @@ function test(){
   localStorage.removeItem("totalCostBW");
   localStorage.removeItem("cartNumberBW");
 
-
+  localStorage.removeItem("GramsCCes");
+  localStorage.removeItem("totalAmountCCES");
+  localStorage.removeItem("totalCostCCes");
+  localStorage.removeItem("cartNumberCCES");
 
 }
 test();
