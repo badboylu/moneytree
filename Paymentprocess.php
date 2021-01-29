@@ -45,7 +45,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:delivery.php?error=SQL6");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment,$authtoken,$time,$date,$total);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
