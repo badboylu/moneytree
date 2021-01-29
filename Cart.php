@@ -783,15 +783,15 @@ src="CartPriceDisplay.js" >
 src="plusminus.js" >
 </script>
 <script>
-setInterval(function discount(){
-let code = <?php echo GET_['promo']; ?>
-if(code='welovecanibuy'){
+function discount(){
+let code = <?php echo GET_['promo'] ?>
+if(code){
 let totalamount = localStorage.getItem('totalAmountNumber');
 totalamount = parseInt(totalamount);
 discountamount = totalamount - (totalamount * 0.40);
 localStorage.setItem('totalAmountNumber', discountamount );
  }
-}, 1000);
+}
 discount();
 </script>
 <script>
