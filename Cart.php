@@ -657,6 +657,9 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalCart"><strong>Total</strong></span>
                 <span class="totalOrderR1">R</span>
                 <span class="totalOrder1"></span>
+                <span class="totalCart"><strong>Promotional discount</strong></span>
+                <span class="totalOrderR1">%</span>
+                <span class="totalOrder1"></span>
 		</div>
 		<div class='plugfooterEnd'></div>
 		<div>
