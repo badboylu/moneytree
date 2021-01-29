@@ -4,6 +4,24 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken = $_GET['auth'];
+$username = $_GET['username'];
+
+$sql='SELECT * FROM userauth2 WHERE token=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+ if (!$count>0){
+    header("Location:Signin.php?error=notloggedin");
+    exit();
+}
+
 $query="SELECT * FROM address WHERE idOrderConfirmation='Collected'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
@@ -262,6 +280,8 @@ if(!$count2){
                          </div>
                          <form action="DL33.php" method="post" id="form">
                          <input type="submit" name="Delivered" value="Request call" id="Blanks" "/>
+                         <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+                         <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
                          </form>
                         
                     </div>
