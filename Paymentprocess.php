@@ -38,14 +38,14 @@ $unitnumber = $_GET['Unit-number'];
 $contactnumber = $_GET['Contact-number'];
 $total = $_GET['totalamount'];
 
-$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror111");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissssi",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
