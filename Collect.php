@@ -24,7 +24,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     exit();
 }
 
-$new2='SELECT * FROM deliverytoken ';
+$new2='SELECT * FROM deliverytoken';
 $result2=mysqli_query($conn,$new2);
 
 while($row2 = mysqli_fetch_array($result2)) {
@@ -41,8 +41,8 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql3);
       header("Location:DL77.php?username=".$user."&auth=".$auth."");
       exit();
-      
-
+      }
+}
 
 
     
