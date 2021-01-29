@@ -663,6 +663,8 @@ class="single-product-page single-product-content product-design-default product
 		<br>
 		<form action="Cart.php" method="get" id="discount">
                 <input type="text" name="promo" placeholder="Enter promo code here" required>
+                <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+                <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
 		<br>
                 <input type="submit" name="Apply" value="Apply" >
                 </form> 
