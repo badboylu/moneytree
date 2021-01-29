@@ -661,8 +661,8 @@ class="single-product-page single-product-content product-design-default product
 		<div class='plugfooterEnd'></div>
 		<div>
 		<br>
-		<form action="#" method="post" id="discount">
-                <input type="text" name="Discount" placeholder="Enter promo code here" required>
+		<form action="Cart.php" method="get" id="discount">
+                <input type="text" name="promo" placeholder="Enter promo code here" required>
 		<br>
                 <input type="submit" name="Apply" value="Apply" "/>
                 </form> 
