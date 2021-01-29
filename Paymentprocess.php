@@ -45,7 +45,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:Signin.php?error=sqlerror111");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiissssi",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$custitoken,$date,$total);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissssi",$custitoken,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
