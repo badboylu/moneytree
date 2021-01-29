@@ -235,6 +235,8 @@ $count1=mysqli_num_rows($result1);
                          <form action="Collect.php" method="get" >
                          <label><strong>Collection code: </strong></label> <span> </span> 
                          <input type="text" name="Collect" placeholder="Enter code here" required>
+                         <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
+                         <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
                          <input type="submit" name="Delivered" value="Verify" "/>
                          </form>
                     </div>
