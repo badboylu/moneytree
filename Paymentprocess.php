@@ -42,7 +42,7 @@ $sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrder
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:delivery.php?error=SQL6");
+       header("Location:Signin.php?error=sqlerror111");
        exit();
 }
      mysqli_stmt_bind_param($stmt,"siiiiiiiissss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total);
@@ -53,7 +53,7 @@ $sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,i
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:delivery.php?error=SQL7");
+       header("Location:Signin.php?error=sqlerror222");
        exit();
 }
      mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
