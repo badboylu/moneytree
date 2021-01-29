@@ -278,8 +278,8 @@ if(!$count2){
                          <br>
                          <br>
                          </div>
-                         <form action="DL33.php" method="post" id="form">
-                         <input type="submit" name="Delivered" value="Request call" id="Blanks" "/>
+                         <form action="DL33.php" method="get">
+                         <input type="submit" value="Request call" >
                          <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
                          <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
                          </form>
