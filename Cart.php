@@ -790,8 +790,8 @@ let promocode = 'welovecanibuy';
 if(code==promocode){
 let totalamount = localStorage.getItem('totalAmountNumber');
 totalamount = parseInt(totalamount);
-discountamount = '5';
-localStorage.setItem('totalAmountNumber', discountamount );
+discountamount = totalamount - (totalamount*0.4) ;
+localStorage.setItem('totalAmountNumberPromo', discountamount );
  }
 }
 discount();
