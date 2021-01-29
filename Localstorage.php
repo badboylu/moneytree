@@ -21,6 +21,18 @@ function test(){
   localStorage.removeItem("totalAmountDP");
   localStorage.removeItem("totalCostDP");
   localStorage.removeItem("cartNumberDP");
+
+  localStorage.removeItem("GramsNL");
+  localStorage.removeItem("totalAmountNL");
+  localStorage.removeItem("totalCostNL");
+  localStorage.removeItem("cartNumberNL");
+
+  localStorage.removeItem("GramsOC");
+  localStorage.removeItem("totalAmountOC");
+  localStorage.removeItem("totalCostOC");
+  localStorage.removeItem("cartNumberOC");
+
+
 }
 test();
 </script>
