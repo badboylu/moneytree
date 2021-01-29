@@ -8,7 +8,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
 
-$sql="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' OR idOrderConfirmation='Prepared' and idOrderUsername=?";
+$sql="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' OR idOrderConfirmation='Prepared' AND idOrderUsername=?";
 $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL1");
@@ -20,7 +20,7 @@ $stmt=mysqli_stmt_init($conn);
    $check=mysqli_stmt_num_rows($stmt);
 
 if ($check){
-$query='SELECT * FROM oders WHERE idOrderConfirmation="Pending" OR idOrderConfirmation="Collected" OR idOrderConfirmation="Prepared" and idOrderUsername="'.$username.'"';
+$query='SELECT * FROM oders WHERE idOrderConfirmation="Pending" OR idOrderConfirmation="Collected" OR idOrderConfirmation="Prepared" AND idOrderUsername="'.$username.'"';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
