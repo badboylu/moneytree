@@ -49,7 +49,7 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql);
       $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$authcode."' ";
       mysqli_query($conn,$sql2);
-      $sql4="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' ";
+      $sql4="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' AND idOrderTime='".$custicode."' ";
       mysqli_query($conn,$sql4);
       header("Location:DLH.php?username=".$username."&auth=".$auth."");
       exit();
