@@ -24,6 +24,15 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     exit();
 }
 
+$query='SELECT * FROM deliverytoken WHERE idPrepperToken="'.$collect.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $ordernumber[]=$row['idOrderID'];
+}
+
+$authcode=Min($ordernumber);
+
 $new2='SELECT * FROM deliverytoken';
 $result2=mysqli_query($conn,$new2);
 
@@ -33,11 +42,11 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$collect){
-      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$auth."' ";
+      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$collect."' ";
       mysqli_query($conn,$sql);
-      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$auth."' ";
+      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$authcode."' ";
       mysqli_query($conn,$sql2);
-      $sql3="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$auth."' ";
+      $sql3="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' ";
       mysqli_query($conn,$sql3);
       header("Location:DL77.php?username=".$user."&auth=".$auth."");
       exit();
