@@ -784,8 +784,9 @@ src="plusminus.js" >
 </script>
 <script>
 function discount(){
-let code = <?php echo GET_['promo'] ?>
-if(code){
+let code = '<?php echo GET_['promo'] ?>';
+let promocode = 'welovecanibuy';
+if(code==promocode){
 let totalamount = localStorage.getItem('totalAmountNumber');
 totalamount = parseInt(totalamount);
 discountamount = totalamount - (totalamount * 0.40);
