@@ -17,6 +17,10 @@ function test(){
   localStorage.removeItem("totalCostCCes");
   localStorage.removeItem("cartNumberCCES");
 
+  localStorage.removeItem("GramsDP");
+  localStorage.removeItem("totalAmountDP");
+  localStorage.removeItem("totalCostDP");
+  localStorage.removeItem("cartNumberDP");
 }
 test();
 </script>
