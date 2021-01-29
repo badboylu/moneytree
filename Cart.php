@@ -783,7 +783,20 @@ src="CartPriceDisplay.js" >
 src="plusminus.js" >
 </script>
 <script>
-
+setInterval (function discount(){
+let promo = "<?php $_GET['promo'] ?>";
+let code = "welovecanibuy";
+let active = "active";
+if(promo==code){
+ let total = localStorage.getItem('totalAmountNumber'); 
+ total = parseInt(total);
+ discountamount = total - (total*0.4);
+ localStorage.setItem('discount', discountamount); 
+ }
+}, 1000);
+discount();
+</script>
+<script>
 setInterval (function setTotal(){
 let total = localStorage.getItem('totalAmountNumber'); 
 total = parseInt(total) + 40;
@@ -791,6 +804,5 @@ document.getElementById("total").value = total;
 }, 1000);
 setTotal();
 </script>
-
 </body>
 </html>
