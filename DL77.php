@@ -3,6 +3,8 @@ $servername="us-cdbr-east-02.cleardb.com";
 $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
+$auth=$_GET['auth'];
+$user=$_GET['username'];
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
@@ -10,7 +12,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
        header("Location:Signin.php?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_bind_param($stmt,"s",$auth);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
@@ -236,7 +238,7 @@ else if($count1>2){
                          </form>
                          <span>           </span>
                          <span>
-                         <form action="Driver.php" method="post" id="form">
+                         <form action="Driver.php" method="get" id="form">
                          <input type="submit" name="Next" value="Start delivery" id="Blanks" "/>
                          </form>
                          </span>
