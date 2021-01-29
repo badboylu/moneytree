@@ -664,7 +664,7 @@ class="single-product-page single-product-content product-design-default product
 		<form action="Cart.php" method="get" id="discount">
                 <input type="text" name="promo" placeholder="Enter promo code here" required>
 		<br>
-                <input type="submit" name="Apply" value="Apply" "/>
+                <input type="submit" name="Apply" value="Apply" >
                 </form> 
 		<br>
                 </div>
@@ -788,6 +788,7 @@ let totalamount = localStorage.getItem('totalAmountNumber');
 totalamount = parseInt(totalamount);
 discountamount = totalamount - (totalamount * 0.40);
 localStorage.setItem('totalAmountNumber', discountamount );
+discount();
  }
 }
 </script>
