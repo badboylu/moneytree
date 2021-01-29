@@ -33,11 +33,11 @@ while($row2 = mysqli_fetch_array($result2)) {
 
 foreach ($token2 as $keys) {
   if ($keys==$collect){
-      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$authtoken."' ";
+      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$auth."' ";
       mysqli_query($conn,$sql);
-      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$key."' ";
+      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$auth."' ";
       mysqli_query($conn,$sql2);
-      $sql3="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$key."' ";
+      $sql3="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$auth."' ";
       mysqli_query($conn,$sql3);
       header("Location:DL77.php?username=".$user."&auth=".$auth."");
       exit();
