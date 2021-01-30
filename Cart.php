@@ -795,16 +795,23 @@ src="plusminus.js" >
 </script>
 
 <script>
+setInterval (function discountdelete(){
+let promo = <?php $_GET['promo'] ?>;
+if(!promo){
+ localStorage.removeItem("discount"); 
+ }
+}, 1000);
+discountdelete();
+</script>
+
+<script>
 setInterval (function discount(){
-let promo = "<?php $_GET['promo'] ?>";
+let promo = <?php $_GET['promo'] ?>;
 if(promo="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
  total = parseInt(total);
  discountamount = total - (total*0.4);
  localStorage.setItem('discount', discountamount); 
- }
- else if(!promo){
- localStorage.removeItem("discount");
  }
 }, 1000);
 discount();
