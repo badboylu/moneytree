@@ -650,7 +650,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalDelivery">R40</span>
                 <br>
                 <span class="totalCart"><strong>Promotional discount</strong></span>
-                <span class="percent">%40</span>
+                <span class="totalDelivery">%40</span>
                 <br>
                 <span class="totalCart"><strong>Items</strong></span>
                 <span class="totalOrderR">R</span>
