@@ -649,7 +649,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalCart"><strong>Delivery</strong></span>
                 <span class="totalDelivery">R40</span>
 		<br>
-		<div style="display:block">
+		<div style="display:none">
                 <span class="totalCart"><strong>Promotional discount</strong></span>
                 <span class="totalDelivery">%40</span>
 		<br>
