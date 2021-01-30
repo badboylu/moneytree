@@ -15,7 +15,14 @@
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
    }
-   $order=Min($ordernumbers);   
+   $order=Min($ordernumbers);  
+
+   $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
+   $result=mysqli_query($conn,$query);
+   while($row=mysqli_fetch_array($result)){
+   $ordertoken[]=$row['idOrderToken'];
+   }
+   $token=Min($ordertoken); 
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
