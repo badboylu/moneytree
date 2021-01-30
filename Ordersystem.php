@@ -5,7 +5,6 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $user=$_GET['username'];
-$preptoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
 date_default_timezone_set('Africa/Johannesburg');
 $orderready='Prepared';
@@ -65,9 +64,6 @@ while($row=mysqli_fetch_array($result)){
 
 $order3=Min($delivery1);
 
-$sql8="UPDATE oder SET idOrderCode='".$preptoken."' WHERE idOrderToken='".$order1."' AND idOrderCustiCode='".$order3."' ";
-mysqli_query($conn,$sql8);
-
 $sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
 mysqli_query($conn,$sql2);
 
@@ -79,9 +75,6 @@ mysqli_query($conn,$sql3);
 
 $sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
 mysqli_query($conn,$sql4);
-
-$sql5="UPDATE deliverytoken SET idPrepperToken='".$preptoken."' WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
-mysqli_query($conn,$sql5);
 
 $sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
 mysqli_query($conn,$sql6);
