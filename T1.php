@@ -8,6 +8,20 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
 
+$sql='SELECT * FROM userauth2 WHERE token=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+   if (!$count>0){
+    header("Location:Signin.php?error=notloggedin");
+    exit();
+   }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
