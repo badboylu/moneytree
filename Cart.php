@@ -822,7 +822,6 @@ discount();
 </script>
 
 <script>
-
 setInterval (function setTotal(){
 let check = localStorage.getItem('discount');
 if(check){
