@@ -650,8 +650,8 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalDelivery">R40</span>
 		<br>
 		<div style="display:none" id="promo">
-                <span class="totalCart"><strong>Promotional discount</strong></span>
-                <span class="totalDelivery">%40</span>
+                <span class="totalCart" style="color:orange"><strong>Promotional discount</strong></span>
+                <span class="totalDelivery" style="color:green">%40</span>
 		<br>
 		</div>
                 <span class="totalCart"><strong>Items</strong></span>
