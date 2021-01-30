@@ -56,11 +56,11 @@ while($row=mysqli_fetch_array($result)){
 
 $order2=Min($delivery);
 
-$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
-mysqli_query($conn,$sql2);
-
 $sql8="UPDATE oder SET idOrderCode='".$preptoken."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
 mysqli_query($conn,$sql8);
+
+$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
+mysqli_query($conn,$sql2);
 
 $sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderToken='".$order1."' AND idOrder='".$order2."' ";
 mysqli_query($conn,$sql7);
