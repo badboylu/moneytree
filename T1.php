@@ -7,7 +7,7 @@
    $authtoken = $_GET['auth'];
    $username = $_GET['username'];
 $prepared = 'Prepared';
-$collected = 'Collected':
+$collected = 'Collected';
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
