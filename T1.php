@@ -19,7 +19,7 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
 
-if ($check){
+if ($check>0){
 $query='SELECT * FROM oders WHERE idOrderConfirmation="Pending" OR idOrderConfirmation="Collected" OR idOrderConfirmation="Prepared" AND idOrderUsername="'.$username.'"';
 $result=mysqli_query($conn,$query);
 
@@ -56,7 +56,6 @@ while($row=mysqli_fetch_array($result)){
 
 $collectcode=Min($code);
 
-$query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $collect = 'Collected';
    $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
    $stmt=mysqli_stmt_init($conn);
@@ -69,7 +68,6 @@ $collect = 'Collected';
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
 
-$query='SELECT idOrderConfirmation FROM oders WHERE idOrders="'.$order.'" ';
 $prepared = 'Prepared';
    $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
    $stmt=mysqli_stmt_init($conn);
