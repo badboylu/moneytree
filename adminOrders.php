@@ -146,17 +146,10 @@ $result=mysqli_query($conn,$query);
                             <tr>
                                 <th>I.D</th>
                                 <th>Date</th>
-                                <th>Time</th>
                                 <th>User</th>
-                                <th>Durban Poison</th>
-                                <th>Orange Cali</th>
-                                <th>Blunt wrap</th>
-                                <th>Pre-rolls</th>
-                                <th>Dabcaps</th>
-                                <th>Norther lights</th>
-                                <th>DabcapsES</th>
-                                <th>Pineapple Express</th>
+                                <th>OrderID</th>
                                 <th>Token</th>
+                                 <th>Order total</th>
                                 <th>Prep statues</th>
                             </tr>
                             </thead>
@@ -165,20 +158,12 @@ $result=mysqli_query($conn,$query);
                             while($rows=mysqli_fetch_assoc($result)){
                             ?>
                             <tr>
-                                
                                 <td><?php echo $rows['idOrders']; ?> </td>
                                 <td><?php echo $rows['idOrderDate']; ?></td>
-                                <td><?php echo $rows['idOrderTime']; ?> </td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderDPgrams']; ?></td>
-                                <td><?php echo $rows['idOrderOCgrams']; ?> </td>
-                                <td><?php echo $rows['idOrderBWgrams']; ?></td>
-                                <td><?php echo $rows['idOrderPRjays']; ?></td>
-                                <td><?php echo $rows['idOrderCCbatches']; ?> </td>
-                                <td><?php echo $rows['idOrderNLgrams']; ?></td>
-                                <td><?php echo $rows['idOrderCCESbatches']; ?></td>
-                                <td><?php echo $rows['idOrderPEgrams']; ?></td>
+                                <td><?php echo $rows['idOrderCode']; ?></td>
                                 <td><?php echo $rows['idOrderToken']; ?></td>
+                                <td><?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
 
                             </tr>
