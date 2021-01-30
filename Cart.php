@@ -649,7 +649,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalCart"><strong>Delivery</strong></span>
                 <span class="totalDelivery">R40</span>
 		<br>
-		<div style="display:none">
+		<div style="display:none" id="promo">
                 <span class="totalCart"><strong>Promotional discount</strong></span>
                 <span class="totalDelivery">%40</span>
 		<br>
@@ -794,7 +794,7 @@ src="plusminus.js" >
 setInterval (function discountdisplay(){
  let check = localStorage.getItem('discount'); 
  if(check){
- 
+ document.getElementById("promo").style.display = "block";
  }
 }, 1000);
 discountdisplay();
