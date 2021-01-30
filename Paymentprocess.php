@@ -39,25 +39,25 @@ $unitnumber = $_GET['Unit-number'];
 $contactnumber = $_GET['Contact-number'];
 $total = $_GET['totalamount'];
 
-$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror111");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"siiiiiiiissssis",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total,$custitoken,$preppertoken);
+     mysqli_stmt_bind_param($stmt,"siiiiiiiissssiss",$username,$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total,$custitoken,$preppertoken);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
-$sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,idBuilding,idEstate,idComplex,idMall,idShop,idStreet,idUnitNumber,idHouseNumber,idContactNumber,idTime,idDate,idToken,idOrderConfirmation,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,idBuilding,idEstate,idComplex,idMall,idShop,idStreet,idUnitNumber,idHouseNumber,idContactNumber,idTime,idDate,idToken,idOrderConfirmation,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror222");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"ssssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1,$custitoken,$preppertoken);
+     mysqli_stmt_bind_param($stmt,"sssssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1,$custitoken,$preppertoken);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
