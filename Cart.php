@@ -651,7 +651,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
 		<div style="display:none" id="promo">
                 <span class="totalCart" style="color:orange"><strong>Promotional discount</strong></span>
-                <span class="totalDelivery" style="color:green">%40</span>
+                <span class="totalDelivery" style="color:green">-%40</span>
 		<br>
 		</div>
                 <span class="totalCart"><strong>Items</strong></span>
@@ -662,8 +662,12 @@ class="single-product-page single-product-content product-design-default product
                 <div class="totalsRow">
                 <span class="totalCart"><strong>Total</strong></span>
                 <span class="totalOrderR1">R</span>
+		<div id="nodiscount">
                 <span class="totalOrder1"></span>
-                
+		</div>
+		<div id="yesdiscount">
+                <span class="totalOrder2">testing</span>
+		</div>
 		</div>
 		<div class='plugfooterEnd'></div>
 		<div>
