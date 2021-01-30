@@ -26,7 +26,7 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prepared=mysqli_stmt_num_rows($stmt);
-   if($prepared>0){
+   if(!$prepared>0){
       $prepared='0';
    }
 
@@ -40,7 +40,7 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
-   if($collected>0){
+   if(!$collected>0){
       $collected='0';
    }
 ?>
