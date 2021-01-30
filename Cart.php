@@ -798,9 +798,11 @@ src="plusminus.js" >
 setInterval (function discountdisplay(){
  let check = localStorage.getItem('discount'); 
  if(check){
+ let display = localStorage.getItem('discount');
  document.getElementById("promo").style.display = "block";
  document.getElementById("yesdiscount").style.display = "block";
  document.getElementById("nodiscount").style.display = "none";
+ document.querySelector('.totalOrder2').textContent = display;
  }
 }, 1000);
 discountdisplay();
