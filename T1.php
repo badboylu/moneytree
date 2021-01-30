@@ -285,8 +285,8 @@ src="Form.js" >
 </script>
 <script>
 setInterval (function hideCollect(){
-var collected = '';
-var prepared = '';
+var collected = ' <?php echo $collected; ?> ';
+var prepared = ' <?php echo $prepared; ?> ';
 if (prepared>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
