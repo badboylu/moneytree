@@ -360,7 +360,7 @@ else{
  document.getElementById("codehide1").style.display = "none";
  document.getElementById("collecthide3").style.display = "block";
  document.getElementById("deliveryhide3").style.display = "block";
- document.getElementById("deliveryhide3").style.display = "block";
+ document.getElementById("preparehide3").style.display = "block";
 }
 }, 1000);
 
