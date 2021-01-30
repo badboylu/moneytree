@@ -15,14 +15,17 @@
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);   
-
-   $sql="SELECT * FROM oder WHERE idOrderConfirmation=? AND idOrderUsername='".$username."' AND idOrders='".$order."' ";
+   
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
-   mysqli_stmt_bind_param($stmt,"s",$prepared);
+   if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:register.html?error=SQL1");
+       exit();
+   }
+   mysqli_stmt_bind_param($stmt,"sss",$prepared,$username,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prep=mysqli_stmt_num_rows($stmt);
-   
   
    
 
