@@ -26,7 +26,10 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prepared=mysqli_stmt_num_rows($stmt);
-  
+   if($prepared>0){
+      $prepared='0';
+   }
+
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -37,7 +40,9 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
-
+   if($collected>0){
+      $collected='0';
+   }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
