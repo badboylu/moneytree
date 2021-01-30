@@ -648,12 +648,10 @@ class="single-product-page single-product-content product-design-default product
                 <div class="itemsRow">
                 <span class="totalCart"><strong>Delivery</strong></span>
                 <span class="totalDelivery">R40</span>
-                <br>
 		<div style="display:none">
                 <span class="totalCart"><strong>Promotional discount</strong></span>
                 <span class="totalDelivery">%40</span>
 		</div>
-                <br>
                 <span class="totalCart"><strong>Items</strong></span>
                 <span class="totalOrderR">R</span>
                 <span class="totalOrder"></span>
