@@ -822,11 +822,18 @@ discount();
 </script>
 
 <script>
+
 setInterval (function setTotal(){
+let check = localStorage.getItem('discount');
+if(!check){
 let total = localStorage.getItem('totalAmountNumber'); 
 total = parseInt(total) + 40;
 document.getElementById("total").value = total;
 }, 1000);
+}else{
+let discounttotal = localStorage.getItem('discount'); 
+document.getElementById("total").value =  discounttotal;
+}
 setTotal();
 </script>
 
