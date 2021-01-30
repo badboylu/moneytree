@@ -803,8 +803,7 @@ discountdisplay();
 <script>
 setInterval (function discount(){
 let promo = "<?php $_GET['promo'] ?>";
-let code = "welovecanibuy";
-if(promo==code){
+if(promo="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
  total = parseInt(total);
  discountamount = total - (total*0.4);
