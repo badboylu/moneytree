@@ -18,75 +18,6 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
-
-if ($check>0){
-$query='SELECT * FROM oders WHERE idOrderConfirmation="Pending" OR idOrderConfirmation="Collected" OR idOrderConfirmation="Prepared" AND idOrderUsername="'.$username.'"';
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $ordernumbers[]=$row['idOrders'];
-}
-
-$order=Min($ordernumbers);
-
-$query='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $token[]=$row['idOrderToken'];
-}
-
-$ordertoken=Min($token);
-
-$query='SELECT * FROM deliverytoken WHERE idOrderToken="'.$ordertoken.'" ';
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $ordernumber[]=$row['idOrder'];
-}
-
-$ordernmbr=Min($ordernumber);
-
-$query='SELECT * FROM deliverytoken WHERE idOrderToken="'.$ordertoken.'" ';
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $code[]=$row['idCustomerToken'];
-}
-
-$collectcode=Min($code);
-
-$collect = 'Collected';
-   $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
-   $stmt=mysqli_stmt_init($conn);
-   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
-       exit();
-   }
-   mysqli_stmt_bind_param($stmt,"s",$collect);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $collected=mysqli_stmt_num_rows($stmt);
-
-$prepared = 'Prepared';
-   $sql='SELECT * FROM oders WHERE idOrders="'.$order.'" AND idOrderConfirmation=?';
-   $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
-       exit();
-}
-   mysqli_stmt_bind_param($stmt,"s",$prepared);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $prep=mysqli_stmt_num_rows($stmt);
-   
-}
-else{
-$collected='0';
-$prep='0';
-$collectcode='0';
-$ordernmbr='0';
-}
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -240,7 +171,7 @@ Order Tracker
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Tracker 
+Tracker <?php echo $check;?>
 </span>
 </nav>
 </div>
@@ -248,9 +179,9 @@ Tracker
 
 <P id="payhide1"><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
 <P id="payhide2" style="display:none" ><strong>Payment status:</strong> <span style="color:green"> No order placed</span></p>
-<P id="OD1"><strong> Order number:</strong> [00<?php echo $ordernmbr;?>]</p>
+<P id="OD1"><strong> Order number:</strong> [00]</p>
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
-<P id="codehide1"><strong> Collection code:</strong> <?php echo $collectcode;?></p>
+<P id="codehide1"><strong> Collection code:</strong> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
 <br>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
@@ -329,8 +260,8 @@ src="Form.js" >
 </script>
 <script>
 setInterval (function hideCollect(){
-var collected = <?php echo $collected ?>;
-var prepared = <?php echo $prep ?>;
+var collected = 
+var prepared = 
 if (prepared>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
