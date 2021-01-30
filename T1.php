@@ -240,9 +240,9 @@ Tracker
 
 <P id="payhide1"><strong>Payment status:</strong> <span style="color:green"> Paid </span></p>
 <P id="payhide2" style="display:none" ><strong>Payment status:</strong> <span style="color:green"> No order placed</span></p>
-<P id="OD1"><strong> Order number:</strong> [00]</p>
+<P id="OD1"><strong> Order number:</strong> [007<?php echo $ordernmb; ?>]</p>
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
-<P id="codehide1"><strong> Collection code:</strong> </p>
+<P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
 <br>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
