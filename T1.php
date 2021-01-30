@@ -299,6 +299,8 @@ else if (collected>0){
  document.getElementById("deliveryhide1").style.display = "none";
  document.getElementById("deliveryhide2").style.display = "block";
  }
+else if (pending>0){
+ }
 else{
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "none";
