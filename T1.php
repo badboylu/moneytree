@@ -8,16 +8,6 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
 
-$sql="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Collected' OR idOrderConfirmation='Prepared' AND idOrderUsername=?";
-$stmt=mysqli_stmt_init($conn);
-   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
-       exit();
-   }
-   mysqli_stmt_bind_param($stmt,"s",$username);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $check=mysqli_stmt_num_rows($stmt);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -171,7 +161,7 @@ Order Tracker
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Tracker <?php echo $check;?>
+Tracker 
 </span>
 </nav>
 </div>
