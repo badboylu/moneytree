@@ -8,6 +8,7 @@
    $username = $_GET['username'];
    $prepared = 'Prepared';
    $collected = 'Collected';
+   $pending = 'Pending';
 
    $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderUsername='".$username."' ";
    $result=mysqli_query($conn,$query);
@@ -42,6 +43,20 @@
    $collected=mysqli_stmt_num_rows($stmt);
    if(!$collected>0){
       $collected='0';
+   }
+
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
+   $stmt=mysqli_stmt_init($conn);
+   if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:register.html?error=SQL1");
+       exit();
+   }
+   mysqli_stmt_bind_param($stmt,"sss",$pending,$username,$order);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $pending=mysqli_stmt_num_rows($stmt);
+   if(!$pending>0){
+      $pending='0';
    }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
