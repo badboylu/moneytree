@@ -22,9 +22,7 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prep=mysqli_stmt_num_rows($stmt);
-   if(!$prep){
-    $prep = '0';
-   }
+   
   
    
 
