@@ -802,7 +802,7 @@ setInterval (function discountdisplay(){
  document.getElementById("promo").style.display = "block";
  document.getElementById("yesdiscount").style.display = "block";
  document.getElementById("nodiscount").style.display = "none";
- document.querySelector('.totalOrder2').textContent = display;
+ document.querySelector('.totalOrder2').textContent = display + 40;
  }
 }, 1000);
 discountdisplay();
