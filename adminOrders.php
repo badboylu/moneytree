@@ -147,7 +147,8 @@ $result=mysqli_query($conn,$query);
                                 <th>I.D</th>
                                 <th>Date</th>
                                 <th>User</th>
-                                <th>OrderID</th>
+                                <th>OrderPrepperID</th>
+                                <th>OrderCustomerID</th>
                                 <th>Token</th>
                                  <th>Order total</th>
                                 <th>Prep statues</th>
@@ -162,6 +163,7 @@ $result=mysqli_query($conn,$query);
                                 <td><?php echo $rows['idOrderDate']; ?></td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
                                 <td><?php echo $rows['idOrderCode']; ?></td>
+                                 <td><?php echo $rows['idOrderCustiCode']; ?></td>
                                 <td><?php echo $rows['idOrderToken']; ?></td>
                                 <td><?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
