@@ -49,14 +49,14 @@ $stmt=mysqli_stmt_init($conn);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
-$sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,idBuilding,idEstate,idComplex,idMall,idShop,idStreet,idUnitNumber,idHouseNumber,idContactNumber,idTime,idDate,idToken,idOrderConfirmation) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$sql="INSERT INTO address (idUsername,idProvince,idCity,idTown,idSuburb,idCrib,idBuilding,idEstate,idComplex,idMall,idShop,idStreet,idUnitNumber,idHouseNumber,idContactNumber,idTime,idDate,idToken,idOrderConfirmation,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror222");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1);
+     mysqli_stmt_bind_param($stmt,"ssssssssssssssssssss",$username,$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1,$custitoken);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
