@@ -827,6 +827,7 @@ setInterval (function setTotal(){
 let check = localStorage.getItem('discount');
 if(check){
 let discounttotal = localStorage.getItem('discount'); 
+discounttotal = parseInt(discounttotal) + 40;
 document.getElementById("total").value =  discounttotal;
 }else{
 let total = localStorage.getItem('totalAmountNumber'); 
