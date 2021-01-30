@@ -665,7 +665,7 @@ class="single-product-page single-product-content product-design-default product
 		<div id="nodiscount">
                 <span class="totalOrder1"></span>
 		</div>
-		<div id="yesdiscount">
+		<div style="display:none" id="yesdiscount" >
                 <span class="totalOrder2">testing</span>
 		</div>
 		</div>
@@ -799,6 +799,8 @@ setInterval (function discountdisplay(){
  let check = localStorage.getItem('discount'); 
  if(check){
  document.getElementById("promo").style.display = "block";
+ document.getElementById("yesdiscount").style.display = "block";
+ document.getElementById("nodiscount").style.display = "none";
  }
 }, 1000);
 discountdisplay();
