@@ -4,6 +4,7 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+   $totalamount = $_GET['totalamount'];
    $authtoken = $_GET['auth'];
    $username = $_GET['username'];
    $total = $_GET['totalamount'];
@@ -175,7 +176,7 @@ href="cannacaps.html" />
 		</span>
 		<span class="woocommerce-Price-amount amount">
 		<span class="woocommerce-Price-currencySymbol">
-		</span><span class="totalOrderDelivery"></span></span></span> 
+		</span><span> </span><?php echo $_GET['totalamount'];?></span></span> 
         </span> 
 	</a>
 	</div>
