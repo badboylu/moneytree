@@ -47,9 +47,9 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql3);
       $sql="UPDATE deliverytoken SET idCustomerToken='".$driver."' WHERE idCustomerToken='".$custicode."' ";
       mysqli_query($conn,$sql);
-      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$authcode."' ";
+      $sql2="UPDATE address SET idOrderConfirmation='".$stat."' WHERE idToken='".$authcode."' AND idOrderCustiCode='".$custicode."' ";
       mysqli_query($conn,$sql2);
-      $sql4="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' AND idOrderTime='".$custicode."' ";
+      $sql4="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' AND idOrderCustiCode='".$custicode."' ";
       mysqli_query($conn,$sql4);
       header("Location:DLH.php?username=".$username."&auth=".$auth."");
       exit();
