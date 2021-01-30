@@ -893,7 +893,7 @@ Accessories
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
 <span><strong>Item/s added to cart <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
-	View Cart
+	(View Cart)
 </a>	</strong></span>
 </div>
 <div class="row">
