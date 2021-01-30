@@ -271,7 +271,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Cart
+Cart <?php $_GET['promo'] ?>
 </strong>
 <span class="title-separator">
 <span>
