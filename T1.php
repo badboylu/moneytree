@@ -24,19 +24,19 @@
    }
    $token=Min($ordertoken); 
 
+   $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
+   $result=mysqli_query($conn,$query);
+   while($row=mysqli_fetch_array($result)){
+   $Custitoken[]=$row['idOrderCustiCode'];
+   }
+   $token=Min($ordertoken); 
+
    $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernm[]=$row['idOrder'];
    }
    $ordernmb=Min($ordernm); 
-
-   $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $ordercode[]=$row['idCustomerToken'];
-   }
-   $code=Min($ordercode); 
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
