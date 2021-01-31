@@ -6,6 +6,10 @@
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
    $distro = $_GET['username'];
+   $date = date("Y-m-d");
+   $distroearnings = $count1 * 15;
+   $payment='Pending';
+   date_default_timezone_set('Africa/Johannesburg');
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -38,6 +42,21 @@ $count2=mysqli_num_rows($result2);
   if (!$count2){
     $count2='0';
 }
+
+
+
+
+$sql="INSERT INTO earnings (idDate,idDistro,idDistroEarnings,idPayment) VALUES(?,?,?,?)";
+$stmt=mysqli_stmt_init($conn);
+
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=sqlerror111");
+       exit();
+}
+     mysqli_stmt_bind_param($stmt,"ssis",$date,$distro,$distroearnings,$payment);
+     mysqli_stmt_execute($stmt);
+     mysqli_stmt_close($stmt);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
