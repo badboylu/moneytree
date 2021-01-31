@@ -59,6 +59,7 @@ function clear(){
   localStorage.removeItem("totalCostPR");
   localStorage.removeItem("cartNumberPR");
   localStorage.removeItem("discount");
+   localStorage.removeItem("promo");
 }
 clear();
 user();
