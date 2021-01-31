@@ -674,7 +674,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
                 <input type="text" name="promo" placeholder="Enter promo code here" required>
 		<br>
-                <button class="OrangeCali" id="OC">
+                <button id="promo">
 		Apply
 	        </button>
 		<br>
