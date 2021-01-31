@@ -672,9 +672,9 @@ class="single-product-page single-product-content product-design-default product
 		<div class='plugfooterEnd'></div>
 		
 		<br>
-                <input type="text" name="promo" placeholder="Enter promo code here" required>
+                <input type="text" name="" placeholder="Enter promo code here" id="promo">
 		<br>
-                <button id="promo">
+                <button onclick='addpromo()'>
 		Apply
 	        </button>
 		<br>
