@@ -796,7 +796,7 @@ function addpromo(){
 let item = document.getElementById("promocode").value;
 localStorage.setItem('promo', item);
 let promo = localStorage.getItem('promo');
-if(promo="welovecanibuy"){
+if(promo=="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
  total = parseInt(total);
  discountamount = total - (total*0.4);
