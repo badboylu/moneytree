@@ -155,8 +155,8 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 <td><?php echo $rows['idDate']; ?></td>
-                                <td><?php echo $rows['idDriver']; ?></td>
-                                 <td><?php echo $rows['idDriverEarnings']; ?></td>
+                                <td><?php echo $rows['idDistro']; ?></td>
+                                 <td><?php echo $rows['idDistroEarnings']; ?></td>
                                 <td><?php echo $rows['idPayment']; ?></td>
                             </tr>
                             <?php } ?>
