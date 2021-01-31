@@ -56,15 +56,15 @@ $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror111");
        exit();
-}
+     }
      mysqli_stmt_bind_param($stmt,"ssis",$date,$distro,$distroearnings,$payment);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
-}else{
-$sql="UPDATE earnings SET idDistroEarnings='".$distroearnings."' WHERE idDistro='".$distro."' ";
+}
+$sql="UPDATE earnings SET idDistroEarnings='".$distroearnings."' WHERE idDistro='".$distro."'";
 $ready=mysqli_query($conn,$sql);
 mysqli_query($conn,$sql);
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
