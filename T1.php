@@ -332,6 +332,7 @@ src="Form.js" >
 setInterval (function hideCollect(){
 var collected = ' <?php echo $collected; ?> ';
 var prepared = ' <?php echo $prepared; ?> ';
+var pending = ' <?php echo $pending; ?> ';
 if (prepared>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
