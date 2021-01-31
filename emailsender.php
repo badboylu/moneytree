@@ -3,7 +3,7 @@
 <script>
 function sendemail(){
 Email.send({
-    Host : "mail.canibuy.co.za port 58",
+    Host : "mail.canibuy.co.za",
     Username : "no-reply@canibuy.co.za",
     Password : "God@loves",
     To : 'liyandza.magagula@gmail.com',
