@@ -670,11 +670,11 @@ class="single-product-page single-product-content product-design-default product
 		</div>
 		</div>
 		<div class='plugfooterEnd'></div>
-		<div>
+		
 		<br>
                 <input type="text" name="promo" placeholder="Enter promo code here" required>
 		<br>
-                </div>
+                
                 <div class='plugfooterEnd'></div>
                 <br>
                 <form action="delivery.php" method="get" id="amount">
