@@ -811,8 +811,11 @@ if(promo=="welovecanibuy"){
 <script>
 setInterval (function wrongcode(){
 let promo = localStorage.getItem('promo');
-if(promo!=="welovecanibuy"){
+if(promo){
+let check = localStorage.getItem('promo');
+if(check!=="welovecanibuy"){
  document.getElementById("wrongcode").style.display = "block";
+}
 }
 }, 1000);
 wrongcode();
