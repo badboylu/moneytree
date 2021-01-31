@@ -804,10 +804,20 @@ if(promo=="welovecanibuy"){
  total = parseInt(total);
  discountamount = total - (total*0.4);
  localStorage.setItem('discount', discountamount); 
- }else if(!promo=="welovecanibuy"){
+ }
+}
+</script>
+
+<script>
+setInterval (function wrongcode(){
+let promo = localStorage.getItem('promo');
+if(promo){
+if(!promo=="welovecanibuy"){
  document.getElementById("wrongcode").style.display = "block";
  }
 }
+}, 1000);
+wrongcode()
 </script>
 
 <script>
