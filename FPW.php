@@ -9,7 +9,7 @@
    $token=random_bytes(32);
    $url="www.canibuy.co.za/FPW.html?selector=".$selector."&validate=".bin2hex($token);
    $expires=date("U")+1800;
-   $userEmail=$_POST["email"];
+   $userEmail=$_GET["email"];
    $sql="DELETE FROM pwdReset WHERE pwdResetEmail=?";
    $stmt=mysqli_stmt_init($conn);
 
