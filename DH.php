@@ -44,7 +44,7 @@ $count2=mysqli_num_rows($result2);
     $count2='0';
 }
 
-$query4="SELECT * FROM earnings WHERE idDate='".$date."' AND idDistro='".$distro."'' ";
+$query4="SELECT * FROM earnings WHERE idDate='".$date."' AND idDistro='".$distro."'";
 $result4=mysqli_query($conn,$query4);
 $count4=mysqli_num_rows($result4);
   if (!$count4){
