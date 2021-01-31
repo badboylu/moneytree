@@ -804,7 +804,7 @@ if(promo=="welovecanibuy"){
  total = parseInt(total);
  discountamount = total - (total*0.4);
  localStorage.setItem('discount', discountamount); 
- }else{
+ }else if(!promo=="welovecanibuy"){
  document.getElementById("wrongcode").style.display = "block";
  }
 }
