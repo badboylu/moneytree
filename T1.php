@@ -12,14 +12,15 @@
 
    $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderUsername='".$username."' ";
    $result=mysqli_query($conn,$query);
+   if(!$result){
+      $result='0';
+   }
+   if(!$result=0){
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-   if(!$order){
-      $order='0';
-   }
-   if(!$order=0){
+   
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
