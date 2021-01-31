@@ -817,7 +817,7 @@ if(!promo=="welovecanibuy"){
  }
 }
 }, 1000);
-wrongcode()
+wrongcode();
 </script>
 
 <script>
