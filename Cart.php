@@ -672,7 +672,7 @@ class="single-product-page single-product-content product-design-default product
 		<div class='plugfooterEnd'></div>
 		
 		<br>
-                <input type="text" name="" placeholder="Enter promo code here" id="promo">
+                <input type="text" name="" placeholder="Enter promo code here" id="promocode">
 		<br>
                 <button onclick='addpromo()'>
 		Apply
@@ -793,7 +793,7 @@ src="plusminus.js" >
 
 <script>
 function addpromo(){
-let item = document.getElementById("promo").value
+let item = document.getElementById("promocode").value;
 localStorage.setItem('promo', item);
 let promo = localStorage.getItem('promo');
 if(promo="welovecanibuy"){
