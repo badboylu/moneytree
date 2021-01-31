@@ -674,7 +674,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
                 <input type="text" name="" placeholder="Enter promo code here" id="promocode">
 		<br>
-		<div style="display:block" id="wrongcode" >
+		<div style="display:none" id="wrongcode" >
                 <span style="color:red">*invalid promotion code</span>
 		</div>
                 <button onclick='addpromo()'>
