@@ -15,8 +15,11 @@
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
    }
-   $order=Min($ordernumbers);  
-
+   $order=Min($ordernumbers);
+   if(!$order){
+      $order='0';
+   }
+   if(!$order=0){
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
@@ -48,10 +51,7 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prepared=mysqli_stmt_num_rows($stmt);
-   if(!$prepared>0){
-      $prepared='0';
-   }
-
+   
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -62,10 +62,7 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
-   if(!$collected>0){
-      $collected='0';
-   }
-
+   
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -76,8 +73,11 @@
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $pending=mysqli_stmt_num_rows($stmt);
-   if(!$pending>0){
-      $pending='0';
+   }
+   else{
+    $prepared='0';
+    $collected='0';
+    $pending='0';
    }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
