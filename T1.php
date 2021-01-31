@@ -27,11 +27,11 @@
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
-   $Custitoken[]=$row['idOrderCustiCode'];
+   $custitoken[]=$row['idOrderCustiCode'];
    }
-   $token=Min($ordertoken); 
+   $code=Min($custitoken); 
 
-   $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' ";
+   $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernm[]=$row['idOrder'];
