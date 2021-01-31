@@ -14,5 +14,6 @@ Email.send({
   message => alert(message)
 );
 }
+sendemail();
 </script> 
 </html>
