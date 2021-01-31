@@ -674,7 +674,10 @@ class="single-product-page single-product-content product-design-default product
 		<br>
                 <input type="text" name="promo" placeholder="Enter promo code here" required>
 		<br>
-                
+                <button class="OrangeCali" id="OC">
+		Apply
+	        </button>
+		<br>
                 <div class='plugfooterEnd'></div>
                 <br>
                 <form action="delivery.php" method="get" id="amount">
