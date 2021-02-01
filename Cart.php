@@ -819,7 +819,6 @@ if(promo=="welovecanibuy"){
  total = parseInt(total);
  discountamount = total - (total*0.4);
  localStorage.setItem('discount', discountamount); 
- location.reload();
   }
  }
 }, 1000);
