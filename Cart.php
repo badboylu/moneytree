@@ -813,8 +813,6 @@ if(promo=="welovecanibuy"){
 setInterval (function add(){
 let item = localStorage.getItem('promo');
 if(item){
-let items = document.getElementById("promocode").value;
-localStorage.setItem('promo', items);
 let promo = localStorage.getItem('promo');
 if(promo=="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
