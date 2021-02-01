@@ -810,6 +810,25 @@ if(promo=="welovecanibuy"){
 </script>
 
 <script>
+setInterval (function add(){
+let item = document.getElementById("promocode").value;
+if(item){
+let items = document.getElementById("promocode").value;
+localStorage.setItem('promo', items);
+let promo = localStorage.getItem('promo');
+if(promo=="welovecanibuy"){
+ let total = localStorage.getItem('totalAmountNumber'); 
+ total = parseInt(total);
+ discountamount = total - (total*0.4);
+ localStorage.setItem('discount', discountamount); 
+ location.reload();
+  }
+ }
+}, 1000);
+add();
+</script>
+
+<script>
 setInterval (function wrongcode(){
 let promo = localStorage.getItem('promo');
 if(promo){
