@@ -811,7 +811,7 @@ if(promo=="welovecanibuy"){
 
 <script>
 setInterval (function add(){
-let item = document.getElementById("promocode").value;
+let item = localStorage.getItem('promo');
 if(item){
 let items = document.getElementById("promocode").value;
 localStorage.setItem('promo', items);
@@ -871,6 +871,8 @@ document.getElementById("total").value = total;
 }, 1000);
 setTotal();
 </script>
+
+
 
 </body>
 </html>
