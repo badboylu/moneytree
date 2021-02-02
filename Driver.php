@@ -338,28 +338,8 @@ if(!$count2){
 <!--script admin-->
 <script src="admin-script.js"></script>
 
-<script>
-function hideOrder1(){
-   var mallhide = '<?php print_r($row['idCrib']); ?>';
-   if(mallhide == 'Mall'){
-   document.getElementById("hideBuilding").style.display = "none";
-   document.getElementById("hideEstate").style.display = "none";
-   document.getElementById("hideComplex").style.display = "none";
-   document.getElementById("hideHouse").style.display = "none";
-   document.getElementById("hideUnit").style.display = "none";
-   document.getElementById("hideStreet").style.display = "none";
-   }
-   if(mallhide == 'Shop'){
-   document.getElementById("hideBuilding").style.display = "none";
-   document.getElementById("hideEstate").style.display = "none";
-   document.getElementById("hideComplex").style.display = "none";
-   document.getElementById("hideHouse").style.display = "none";
-   document.getElementById("hideUnit").style.display = "none";
-   document.getElementById("hideMall").style.display = "none";
-   }
-}
-hideOrder1();
-</script>
+<script src="hideAddress.js"></script>
+
 </body>
 
 <!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
