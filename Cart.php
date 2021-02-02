@@ -672,12 +672,12 @@ class="single-product-page single-product-content product-design-default product
 		<div class='plugfooterEnd'></div>
 		
 		<br>
-                <input type="text" name="" placeholder="Enter promo code here" id="promocode">
+                <input type="text" class="promo" name="" placeholder="Enter promo code here" id="promocode">
 		<br>
 		<div style="display:none" id="wrongcode" >
                 <span style="color:red">*invalid promotion code</span>
 		</div>
-                <button onclick='addpromo()'>
+                <button class="promobutton" onclick='addpromo()'>
 		Apply
 	        </button>
 		<br>
