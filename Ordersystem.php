@@ -25,7 +25,6 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
 }
 $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
-$orderready1='Pending';
 
 while($row=mysqli_fetch_array($result)){
  $ordernumbers[]=$row['idOrders'];
