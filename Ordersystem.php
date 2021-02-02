@@ -41,12 +41,12 @@ mysqli_query($conn,$sql);
  $result1=mysqli_query($conn,$new);
 
 while($row = mysqli_fetch_array($result1)) {
- $token[]=$row["idOrderToken"];
+ $token[]=$row["idOrderCustomerToken"];
   }
 
-$order1=Max($token);
+$custitoken=Max($token);
 
-$query="SELECT * FROM deliverytoken WHERE idOrderID='".$order1."' ";
+$query="SELECT * FROM deliverytoken WHERE idOrderCustomerToken='".$custitoken."' ";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
@@ -55,7 +55,7 @@ while($row=mysqli_fetch_array($result)){
 
 $order2=Min($delivery);
 
-$query="SELECT * FROM deliverytoken WHERE idOrderID='".$order1."' ";
+$query="SELECT * FROM deliverytoken WHERE idOrderCustomerToken='".$custitoken."' ";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
@@ -64,19 +64,19 @@ while($row=mysqli_fetch_array($result)){
 
 $order3=Min($delivery1);
 
-$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderToken='".$order1."' AND idOrders='".$order."' ";
+$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql2);
 
-$sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderToken='".$order1."' AND idOrder='".$order2."' ";
+$sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql7);
 
-$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
+$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WidOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql3);
 
-$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
+$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql4);
 
-$sql6="UPDATE deliverytoken SET idDate='".$date."'  WHERE idOrderID='".$order1."' AND idOrder='".$order2."' ";
+$sql6="UPDATE deliverytoken SET idDate='".$date."'  idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql6);
 
     header("Location:D1.php?username=".$user."&auth=".$authtoken."");
