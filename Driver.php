@@ -372,6 +372,27 @@ if(!$count2){
    document.getElementById("hideUnit").style.display = "none";
    document.getElementById("hideMall").style.display = "none";
    }
+   if(mallhide == 'Complex'){
+   document.getElementById("hideBuilding").style.display = "none";
+   document.getElementById("hideHouse").style.display = "none";
+   document.getElementById("hideShop").style.display = "none";
+   document.getElementById("hideMall").style.display = "none";
+   document.getElementById("hideEstate").style.display = "none";
+   }
+   if(mallhide == 'Flat'){
+   document.getElementById("hideComplex").style.display = "none";
+   document.getElementById("hideHouse").style.display = "none";
+   document.getElementById("hideShop").style.display = "none";
+   document.getElementById("hideMall").style.display = "none";
+   document.getElementById("hideEstate").style.display = "none";
+   }
+   if(mallhide == 'Office'){
+   document.getElementById("hideComplex").style.display = "none";
+   document.getElementById("hideHouse").style.display = "none";
+   document.getElementById("hideShop").style.display = "none";
+   document.getElementById("hideMall").style.display = "none";
+   document.getElementById("hideEstate").style.display = "none";
+   }
 }
 hideOrder1();
 </script>
