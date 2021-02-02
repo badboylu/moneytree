@@ -41,6 +41,8 @@ while($row = mysqli_fetch_array($result1)) {
 
 $custitoken=Min($token);
 
+echo $custitoken;
+
 $sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='".$custitoken."' ";
 mysqli_query($conn,$sql2);
 
@@ -56,8 +58,7 @@ mysqli_query($conn,$sql4);
 $sql6="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql6);
 
-    header("Location:D1.php?username=".$user."&auth=".$authtoken."");
-    exit();
+   
 
 
 
