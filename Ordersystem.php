@@ -33,50 +33,28 @@ while($row=mysqli_fetch_array($result)){
 
 $order=Min($ordernumbers);
 
-$sql="UPDATE oders SET idOrderConfirmation='".$orderready."' WHERE idOrders='".$order."'";
-$ready=mysqli_query($conn,$sql);
-mysqli_query($conn,$sql);
-
- $new='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
- $result1=mysqli_query($conn,$new);
+$new='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
+$result1=mysqli_query($conn,$new);
 
 while($row = mysqli_fetch_array($result1)) {
- $token[]=$row["idOrderCustomerToken"];
+ $token[]=$row["idOrderCustiCode"];
   }
 
 $custitoken=Max($token);
 
-$query="SELECT * FROM deliverytoken WHERE idOrderCustomerToken='".$custitoken."' ";
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $delivery[]=$row['idOrder'];
-}
-
-$order2=Min($delivery);
-
-$query="SELECT * FROM deliverytoken WHERE idOrderCustomerToken='".$custitoken."' ";
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $delivery1[]=$row['idPrepperToken'];
-}
-
-$order3=Min($delivery1);
-
-$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' idOrderCustomerToken='".$custitoken."' ";
+$sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='".$custitoken."' ";
 mysqli_query($conn,$sql2);
 
 $sql7="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql7);
 
-$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WidOrderCustomerToken='".$custitoken."' ";
+$sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql3);
 
-$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' idOrderCustomerToken='".$custitoken."' ";
+$sql4="UPDATE deliverytoken SET idOrdertoken='".$order1."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql4);
 
-$sql6="UPDATE deliverytoken SET idDate='".$date."'  idOrderCustomerToken='".$custitoken."' ";
+$sql6="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$custitoken."' ";
 mysqli_query($conn,$sql6);
 
     header("Location:D1.php?username=".$user."&auth=".$authtoken."");
