@@ -363,7 +363,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2CC"><strong>Cannacaps</strong></span>
+                <span class = "DPcontainer2CC"><strong>Cannacaps (8 capasules)</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3CC">R240 per/batch</span>
@@ -452,7 +452,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PR">R60 per/Pack</span>
+                <span class = "DPcontainer3PR">R20 per/J</span>
             </li>
             <li>
                 <div class="quantitygramsPR" id="PRgrams"> 
@@ -490,7 +490,7 @@ class="single-product-page single-product-content product-design-default product
                             https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg"  class = "DPcontainer1">
                         </li>
                     <li>	
-                    <span class = "DPcontainer2CCES"><strong>Cannacaps Extra Strong</strong></span>
+                    <span class = "DPcontainer2CCES"><strong>Cannacaps Extra Strong (8 capsules)</strong></span>
                 </li>
                 <li>
                     <span class = "DPcontainer3CCES">R450 per/Batch</span>
@@ -532,7 +532,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2NL"><strong>Northern Lights</strong></span>
+                <span class = "DPcontainer2NL"><strong>Northern Lights (Green House)</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3NL">R60 per/Gram</span>
@@ -574,7 +574,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
+                <span class = "DPcontainer2PE"><strong>Pineapple Express (Indoor)</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3PE">R110 per/gram</span>
