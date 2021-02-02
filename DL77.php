@@ -233,7 +233,7 @@ else if($count1>2){
                          <br>
                          <br>
                          </div>
-                         <form action="DL99.php" method="post" id="form">
+                         <form action="DL99.php" method="get" id="form">
                          <input type="submit" name="Next" value="Receive order" id="Blanks" ">
 			 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
                          <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
