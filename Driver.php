@@ -360,7 +360,7 @@ if(!$count2){
    if(mallhide == 'House'){
    document.getElementById("hideBuilding").style.display = "none";
    document.getElementById("hideEstate").style.display = "none";
-   document.getElementById("hideComplex").style.display = "none";
+   document.getElementById("hideShop").style.display = "none";
    document.getElementById("hideComplex").style.display = "none";
    document.getElementById("hideUnit").style.display = "none";
    document.getElementById("hideMall").style.display = "none";
