@@ -39,7 +39,7 @@ while($row = mysqli_fetch_array($result1)) {
  $token[]=$row["idOrderCustiCode"];
   }
 
-$custitoken=Max($token);
+$custitoken=Min($token);
 
 $sql2="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='".$custitoken."' ";
 mysqli_query($conn,$sql2);
