@@ -24,5 +24,12 @@ function hideOrder1(){
    document.getElementById("hideUnit").style.display = "none";
    document.getElementById("hideMall").style.display = "none";
    }
+   if(mallhide == 'Estate'){
+   document.getElementById("hideBuilding").style.display = "none";
+   document.getElementById("hideComplex").style.display = "none";
+   document.getElementById("hideHouse").style.display = "none";
+   document.getElementById("hideUnit").style.display = "none";
+   document.getElementById("hideMall").style.display = "none";
+   }
 }
 hideOrder1();
