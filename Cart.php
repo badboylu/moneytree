@@ -689,7 +689,7 @@ class="single-product-page single-product-content product-design-default product
                 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 		<input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
                 <input type="hidden" name="totalamount" value="" id="total">
-                <input type="submit" name="Pay" value="Order">
+                <input class="orderbutton" type="submit" name="Pay" value="Order">
                 </form> 
                 
 			</div>
