@@ -24,7 +24,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
 
 
 
-$query="SELECT * FROM oders WHERE idOrderConfirmation='58efe8'";
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
@@ -42,9 +42,9 @@ while($row = mysqli_fetch_array($result1)) {
 
 foreach ($token as $keys) {
   if ($keys){
-      $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
+      $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderCustiCode='".$keys."' ";
       mysqli_query($conn,$sql);
-      echo 'test8';
+      echo 'test9';
       }
 }
 
