@@ -43,17 +43,16 @@ $custitoken=Min($token);
 
 echo $custitoken;
 
-$sql2='UPDATE oder SET idOrderConfirmation="'.$orderready.'" WHERE idOrderCustiCode="'.$custitoken.'" ';
-mysqli_query($conn,$sql2);
+      $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='".$custitoken."' ";
+      mysqli_query($conn,$sql);
+      $sql2="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderCustomerToken='".$custitoken."'  ";
+      mysqli_query($conn,$sql2);
+      $sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderCustomerToken='".$custitoken."'  ";
+      mysqli_query($conn,$sql3);
+      $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$custitoken."' ";
+      mysqli_query($conn,$sql4);
 
-$sql7='UPDATE deliverytoken SET idUser="'.$user.'" WHERE idOrderCustomerToken="'.$custitoken.'" ';
-mysqli_query($conn,$sql7);
 
-$sql3='UPDATE deliverytoken SET idusername="'.$_GET['username'].'" WHERE idOrderCustomerToken="'.$custitoken.'" ';
-mysqli_query($conn,$sql3);
-
-$sql6='UPDATE deliverytoken SET idDate="'.$date.'" WHERE idOrderCustomerToken="'.$custitoken.'" ';
-mysqli_query($conn,$sql6);
 
    
 
