@@ -187,6 +187,12 @@ Log
                                 
                                 <td><?php echo $rows['idOrder']; ?> </td>
                                 <td><?php echo $rows['idDate']; ?></td>
+                            <?php } ?>
+                            <?php 
+                            while($rows=mysqli_fetch_assoc($result2)){
+                            ?>
+                                <td><?php echo $rows['idOrder']; ?> </td>
+                                <td><?php echo $rows['idDate']; ?></td>
                             </tr>
                             <?php } ?>
                             </tbody>
