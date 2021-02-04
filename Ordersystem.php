@@ -6,7 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_GET['auth'];
 $user=$_GET['username'];
-$stat='Pending';
+$stat='Prepared';
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -24,7 +24,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
 
 
 
-$query="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
@@ -44,16 +44,11 @@ foreach ($token as $keys) {
   if ($keys){
       $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderCustiCode='".$keys."' ";
       mysqli_query($conn,$sql);
-      echo 'test9';
+      $sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderCustomerToken='".$keys."'  ";
+      mysqli_query($conn,$sql3);
+      $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$keys."' ";
+      mysqli_query($conn,$sql4);
+      echo 'test10';
       }
 }
-
-
-      
-
-   
-
-
-
-
 
