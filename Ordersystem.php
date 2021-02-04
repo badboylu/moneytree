@@ -31,7 +31,7 @@ while($row=mysqli_fetch_array($result)){
 
 foreach ($ordernumber as $keys) {
   if ($ordernumber){
-      $sql="UPDATE order SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
+      $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
       mysqli_query($conn,$sql);
       
       }
