@@ -8,8 +8,6 @@
    $result=mysqli_query($conn,$query);
    $query2="select * from oders";
    $result2=mysqli_query($conn,$query2);
-   $query3="select * from address";
-   $result3=mysqli_query($conn,$query3);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -185,14 +183,14 @@ Log
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idOrder']; ?> </td>
+                                <td>#00<?php echo $rows['idOrder']; ?> </td>
                                 <td><?php echo $rows['idDate']; ?></td>
                             <?php } ?>
                             <?php 
                             while($rows=mysqli_fetch_assoc($result2)){
                             ?>
-                                <td><?php echo $rows['idOrder']; ?> </td>
-                                <td><?php echo $rows['idDate']; ?></td>
+                                <td>R<?php echo $rows['idOrderTotal']; ?></td>
+                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
                             </tr>
                             <?php } ?>
                             </tbody>
