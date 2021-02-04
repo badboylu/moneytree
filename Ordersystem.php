@@ -46,9 +46,9 @@ foreach ($token as $keys) {
   if ($keys){
       $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderCustiCode='".$keys."' ";
       mysqli_query($conn,$sql);
-      $sql3="UPDATE deliverytoken SET idUsername='".$user."' WHERE idOrderCustomerToken='".$keys."'  ";
+      $sql3="UPDATE deliverytoken SET idUsername='".$user."' WHERE idCustomerToken='".$keys."'  ";
       mysqli_query($conn,$sql3);
-      $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$keys."' ";
+      $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idCustomerToken='".$keys."' ";
       mysqli_query($conn,$sql4);
       echo 'test10';
       }
