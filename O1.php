@@ -185,11 +185,8 @@ Log
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idOrders']; ?> </td>
+                                <td><?php echo $rows['idOrder']; ?> </td>
                                 <td><?php echo $rows['idDate']; ?></td>
-                                
-                                
-
                             </tr>
                             <?php } ?>
                             </tbody>
