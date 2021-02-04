@@ -24,18 +24,27 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
 
 
 
-$query='SELECT * FROM oders WHERE idOrderConfirmation="Prepared"';
+$query="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $ordernumber[]=$row['idOrders'];
+ $ordernumbers[]=$row['idOrders'];
 }
 
-foreach ($ordernumber as $keys) {
+$order=Min($ordernumbers);
+
+$new='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
+$result1=mysqli_query($conn,$new);
+
+while($row = mysqli_fetch_array($result1)) {
+ $token[]=$row["idOrderCustiCode"];
+  }
+
+foreach ($token as $keys) {
   if ($keys){
-      $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
+      $sql="UPDATE oders SET idOrderConfirmation='".$keys."' WHERE idOrderUsername='Lunga'  ";
       mysqli_query($conn,$sql);
-      echo 'test6';
+      echo 'test7';
       }
 }
 
