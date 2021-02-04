@@ -51,7 +51,7 @@ $custitoken=Min($token);
       mysqli_query($conn,$sql3);
       $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$custitoken."' ";
       mysqli_query($conn,$sql4);
-      
+      exit();
       }
 echo $custitoken;
 
