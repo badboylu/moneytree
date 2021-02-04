@@ -168,7 +168,33 @@ Log
 </nav>
 </div>
 </div>
+<table>
+                            <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Date placed</th>
+                                <th>Order Amount</th>
+                                <th>Order status</th>
+                                
+                               
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php 
+                            while($rows=mysqli_fetch_assoc($result)){
+                            ?>
+                            <tr>
+                                
+                                <td><?php echo $rows['idOrders']; ?> </td>
+                                <td><?php echo $rows['idDate']; ?></td>
+                                
+                                
 
+                            </tr>
+                            <?php } ?>
+                            </tbody>
+                        </table>
+                                <br>
 
 	<button onclick='refreshPage()'>
 		Update
