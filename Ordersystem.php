@@ -7,6 +7,8 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_GET['auth'];
 $user=$_GET['username'];
 $stat='Prepared';
+$date = date("Y-m-d");
+date_default_timezone_set('Africa/Johannesburg');
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -44,7 +46,7 @@ foreach ($token as $keys) {
   if ($keys){
       $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderCustiCode='".$keys."' ";
       mysqli_query($conn,$sql);
-      $sql3="UPDATE deliverytoken SET idusername='".$_GET['username']."' WHERE idOrderCustomerToken='".$keys."'  ";
+      $sql3="UPDATE deliverytoken SET idusername='".$user"' WHERE idOrderCustomerToken='".$keys."'  ";
       mysqli_query($conn,$sql3);
       $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idOrderCustomerToken='".$keys."' ";
       mysqli_query($conn,$sql4);
