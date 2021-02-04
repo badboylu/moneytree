@@ -7,6 +7,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $orderready='Prepared';
       $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderUsername='Lunga' ";
       mysqli_query($conn,$sql);
+echo 'test';
       
 
    
