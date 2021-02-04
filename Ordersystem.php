@@ -6,7 +6,7 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_GET['auth'];
 $user=$_GET['username'];
-$stat='Prepared';
+$stat='Pending';
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -21,6 +21,8 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
+
+
 
 $query='SELECT * FROM oders WHERE idOrderConfirmation="Collected"';
 $result=mysqli_query($conn,$query);
