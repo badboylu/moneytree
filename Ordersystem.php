@@ -43,7 +43,7 @@ $custitoken=Min($token);
 
 
       if($custitoken){
-      $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='58efe8' ";
+      $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderUsername='Lunga' ";
       mysqli_query($conn,$sql);
       $sql2="UPDATE deliverytoken SET idUser='".$user."' WHERE idOrderCustomerToken='".$custitoken."'  ";
       mysqli_query($conn,$sql2);
