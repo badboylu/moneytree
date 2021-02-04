@@ -22,7 +22,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     exit();
 }
 
-$query='SELECT * FROM oders WHERE idOrderConfirmation="Pending"';
+$query='SELECT * FROM oders WHERE idOrderConfirmation="Collected"';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
