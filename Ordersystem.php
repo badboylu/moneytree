@@ -5,9 +5,9 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $orderready='Prepared';
-      $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderUsername='Lunga' ";
+      $sql="UPDATE oder SET idOrderConfirmation='Prepared' WHERE idOrderUsername='Lunga' ";
       mysqli_query($conn,$sql);
-echo 'test';
+echo 'test2';
       
 
    
