@@ -40,7 +40,7 @@ while($row = mysqli_fetch_array($result1)) {
   }
 
 $custitoken=Min($token);
-$test= echo $custitoken;
+
 
       if($custitoken){
       $sql="UPDATE oder SET idOrderConfirmation='".$orderready."' WHERE idOrderCustiCode='".$custitoken."' ";
