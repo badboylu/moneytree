@@ -33,11 +33,11 @@ foreach ($ordernumber as $keys) {
   if ($ordernumber){
       $sql="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
       mysqli_query($conn,$sql);
-      
+      echo 'test5';
       }
 }
 
-echo 'test4';
+
       
 
    
