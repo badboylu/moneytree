@@ -29,15 +29,6 @@ while($row=mysqli_fetch_array($result)){
  $ordernumber[]=$row['idOrders'];
 }
 
-$last=Min($ordernumber);
-
-$new2='SELECT * FROM deliverytoken';
-$result2=mysqli_query($conn,$new2);
-
-while($row2 = mysqli_fetch_array($result2)) {
- $token2[]=$row2["idPrepperToken"];
-  }
-
 foreach ($ordernumber as $keys) {
   if ($ordernumber){
       $sql="UPDATE order SET idOrderConfirmation='".$stat."' WHERE idOrderUsername='Lunga'  ";
