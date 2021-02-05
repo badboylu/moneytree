@@ -33,6 +33,15 @@ while($row=mysqli_fetch_array($result)){
 
 $authcode=Min($ordernumber);
 
+$query='SELECT * FROM deliverytoken WHERE idPrepperToken="'.$collect.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $ordernu[]=$row['idOrder'];
+}
+
+$odnum=Min($ordernumber);
+
 $new2='SELECT * FROM deliverytoken';
 $result2=mysqli_query($conn,$new2);
 
