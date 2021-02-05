@@ -167,7 +167,7 @@ Log
 </div>
 </div>
 <table>
-                            <thead>
+                            <thead style="display:block">
                             <tr>
                                 <th>Order ID</th>
                                 <th>Date placed</th>
