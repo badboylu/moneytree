@@ -82,7 +82,7 @@ if(!mysqli_stmt_prepare($stmt, $sql4)){
     exit();
  }
 
-    mysqli_stmt_bind_param($stmt,"ssisss",$confirmedpayment,$custitoken,$date,$total,$preppertoken,$username);
+    mysqli_stmt_bind_param($stmt,"sssiss",$confirmedpayment,$custitoken,$date,$total,$preppertoken,$username);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
