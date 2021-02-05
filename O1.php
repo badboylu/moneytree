@@ -177,7 +177,7 @@ Log
                                
                             </tr>
                             </thead>
-                            <tbody >
+                            <tbody style="display:block" >
                             <tr>
                             <?php 
                             while($rows=mysqli_fetch_assoc($result)){
