@@ -15,24 +15,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="fontawesome.css">
-
-    <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="flag-icon.css">
-
-    <!-- Datatable css-->
-    <link rel="stylesheet" type="text/css" href="datatables.css">
-
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-
-    <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="admin.css">
 <link rel="profile" 
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
@@ -212,50 +194,7 @@ Log
                         </table>
                                 <br>
 
-            <!-- Container-fluid starts-->
-            <div class="container-fluid" width="device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-                <div class="card">
-                    <div class="card-header">
-                        <h5>Database Data</h5>
-                    </div>
-                    <div class="card-body vendor-table">
-                        <table class="display" id="basic-1">
-                            <thead>
-                            <tr>
-                               
-                                <th>User</th>
-                                <th>OrderPrepperID</th>
-                                <th>OrderCustomerID</th>
-                                <th>Token</th>
-                                 <th>Order total</th>
-                                <th>Prep statues</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php 
-                            while($rows=mysqli_fetch_assoc($result)){
-                            ?>
-                            <tr>
-                                
-                                <td><?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderCode']; ?></td>
-                                 <td><?php echo $rows['idOrderCustiCode']; ?></td>
-                                <td><?php echo $rows['idOrderToken']; ?></td>
-                                <td><?php echo $rows['idOrderTotal']; ?></td>
-                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
-
-                            </tr>
-                            <?php } ?>
-                            </tbody>
-                        </table>
-                                <br>
-                                <form action="OrderReset.php" method="post" id="form">
-                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
-                                </form>
-                    </div>
-                </div>
-            </div>
-            <!-- Container-fluid Ends-->
+            
 
 	<button onclick='refreshPage()'>
 		Update
@@ -329,32 +268,5 @@ location.reload();
 </script>
 <!-- latest jquery-->
 <script src="jquery-3.3.1.min.js"></script>
-
-<!-- Bootstrap js-->
-<script src="popper.min.js"></script>
-<script src="bootstrap.js"></script>
-
-<!-- feather icon js-->
-<script src="feather.min.js"></script>
-<script src="feather-icon.js"></script>
-
-<!-- Sidebar jquery-->
-<script src="sidebar-menu.js"></script>
-
-<!-- Datatables js-->
-<script src="jquery.dataTables.min.js"></script>
-<script src="custom-basic.js"></script>
-
-<!--Customizer admin-->
-<script src="admin-customizer.js"></script>
-
-<!-- lazyload js-->
-<script src="lazysizes.min.js"></script>
-
-<!--right sidebar js-->
-<script src="chat-menu.js"></script>
-
-<!--script admin-->
-<script src="admin-script.js"></script>
 </body>
 </html>
