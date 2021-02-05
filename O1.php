@@ -213,7 +213,7 @@ Log
                                 <br>
 
             <!-- Container-fluid starts-->
-            <div class="container-fluid" width="4000px">
+            <div class="container-fluid" width="device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                 <div class="card">
                     <div class="card-header">
                         <h5>Database Data</h5>
