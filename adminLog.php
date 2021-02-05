@@ -144,12 +144,13 @@ $result=mysqli_query($conn,$query);
                             <thead>
                             <tr>
                                
-                                
+                                <th>User</th>
                                 <th>Date</th>
                                 <th>OrderNum</th>
                                 <th>Amount</th>
                                 <th>Order status</th>
-                                <th>codeID</th>
+                                <th>custiID</th>
+                                <th>prepperID</th>
                                 
                             </tr>
                             </thead>
@@ -159,12 +160,13 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                
+                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
                                 <td><?php echo $rows['idDate']; ?></td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
                                 <td><?php echo $rows['IdOrderToken']; ?></td>
                                 <td><?php echo $rows['idDriver']; ?></td>
                                 <td><?php echo $rows['idToken']; ?></td>
+                                <td><?php echo $rows['idOrderCancel']; ?></td>
                                 
 
                             </tr>
