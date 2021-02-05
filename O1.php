@@ -212,6 +212,51 @@ Log
                         </table>
                                 <br>
 
+            <!-- Container-fluid starts-->
+            <div class="container-fluid" width="4000px">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Database Data</h5>
+                    </div>
+                    <div class="card-body vendor-table">
+                        <table class="display" id="basic-1">
+                            <thead>
+                            <tr>
+                               
+                                <th>User</th>
+                                <th>OrderPrepperID</th>
+                                <th>OrderCustomerID</th>
+                                <th>Token</th>
+                                 <th>Order total</th>
+                                <th>Prep statues</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php 
+                            while($rows=mysqli_fetch_assoc($result)){
+                            ?>
+                            <tr>
+                                
+                                <td><?php echo $rows['idOrderUsername']; ?></td>
+                                <td><?php echo $rows['idOrderCode']; ?></td>
+                                 <td><?php echo $rows['idOrderCustiCode']; ?></td>
+                                <td><?php echo $rows['idOrderToken']; ?></td>
+                                <td><?php echo $rows['idOrderTotal']; ?></td>
+                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
+
+                            </tr>
+                            <?php } ?>
+                            </tbody>
+                        </table>
+                                <br>
+                                <form action="OrderReset.php" method="post" id="form">
+                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
+                                </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Container-fluid Ends-->
+
 	<button onclick='refreshPage()'>
 		Update
 	</button>
