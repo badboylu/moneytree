@@ -8,6 +8,14 @@
    $result=mysqli_query($conn,$query);
    $query2="select * from oders";
    $result2=mysqli_query($conn,$query2);
+   while($rows=mysqli_fetch_assoc($result)){
+    $ordernum=$rows['idOrder'];
+    $orderdate=$rows['idDate'];
+   }
+   while($rows=mysqli_fetch_assoc($result2)){
+    $ordertotal=$rows['idOrderTotal'];
+    $orderstat=$rows['idOrderConfirmation'];
+   }                       
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -179,24 +187,12 @@ Log
                             </tr>
                             </thead>
                             <tbody>
-                            
-                            <?php 
-                            while($rows=mysqli_fetch_assoc($result)){
-                            ?>
-                            
                                 <tr>
-                                <td>#00<?php echo $rows['idOrder']; ?></td>
-                                <td><?php echo $rows['idDate']; ?></td>
-                                <?php } ?>
-                                <?php 
-                                while($rows=mysqli_fetch_assoc($result2)){
-                                ?>
-                                <td>R<?php echo $rows['idOrderTotal']; ?></td>
-                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
+                                <td>#00<?php echo $ordernum; ?></td>
+                                <td><?php echo $orderdate; ?></td>
+                                <td>R<?php echo $ordertotal; ?></td>
+                                <td><?php echo $orderstat; ?></td>
                                 </tr>
-                                
-                            
-                            <?php } ?>
                             </tbody>
                             </table>
                             </div>
