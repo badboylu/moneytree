@@ -166,7 +166,7 @@ Log
 </nav>
 </div>
 </div>
-                            <table style="width:500px;" >
+                            <table style="width:30px;" >
                             <thead>
                             <tr>
                                 <th>Order ID</th>
