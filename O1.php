@@ -282,5 +282,34 @@ function refreshPage(){
 location.reload();		
 }
 </script>
+<!-- latest jquery-->
+<script src="jquery-3.3.1.min.js"></script>
+
+<!-- Bootstrap js-->
+<script src="popper.min.js"></script>
+<script src="bootstrap.js"></script>
+
+<!-- feather icon js-->
+<script src="feather.min.js"></script>
+<script src="feather-icon.js"></script>
+
+<!-- Sidebar jquery-->
+<script src="sidebar-menu.js"></script>
+
+<!-- Datatables js-->
+<script src="jquery.dataTables.min.js"></script>
+<script src="custom-basic.js"></script>
+
+<!--Customizer admin-->
+<script src="admin-customizer.js"></script>
+
+<!-- lazyload js-->
+<script src="lazysizes.min.js"></script>
+
+<!--right sidebar js-->
+<script src="chat-menu.js"></script>
+
+<!--script admin-->
+<script src="admin-script.js"></script>
 </body>
 </html>
