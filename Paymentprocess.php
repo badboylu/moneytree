@@ -73,15 +73,15 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
-$sql4="INSERT INTO orderdelivery (idDriver,idToken,idDate,idOrderCancel,idOrderConfirmation) VALUES (?,?,?,?,?);";
+$sql5="INSERT INTO orderdelivery (idDate) VALUES (?);";
 $stmt= mysqli_stmt_init($conn);
 
-if(!mysqli_stmt_prepare($stmt, $sql4)){
+if(!mysqli_stmt_prepare($stmt, $sql5)){
     header("Location:Signin.php?error=sqlerror111");
     exit();
  }
 
-    mysqli_stmt_bind_param($stmt,"sssss",$confirmedpayment,$custitoken,$date,$preppertoken,$username);
+    mysqli_stmt_bind_param($stmt,"s",$date);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
