@@ -4,7 +4,7 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$query="select * from ordermemory";
+$query="select * from orderdelivery";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
@@ -144,11 +144,12 @@ $result=mysqli_query($conn,$query);
                             <thead>
                             <tr>
                                
-                                <th>OrderID</th>
+                                
                                 <th>Date</th>
                                 <th>OrderNum</th>
                                 <th>Amount</th>
                                 <th>Order status</th>
+                                <th>codeID</th>
                                 
                             </tr>
                             </thead>
@@ -158,11 +159,12 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idMemory']; ?></td>
-                                <td><?php echo $rows['idOrderDate']; ?></td>
-                                 <td><?php echo $rows['idOrderNumber']; ?></td>
-                                <td><?php echo $rows['IdOrderAmount']; ?></td>
-                                <td><?php echo $rows['idOrderStat']; ?></td>
+                                
+                                <td><?php echo $rows['idDate']; ?></td>
+                                <td><?php echo $rows['idOrderUsername']; ?></td>
+                                <td><?php echo $rows['IdOrderToken']; ?></td>
+                                <td><?php echo $rows['idDriver']; ?></td>
+                                <td><?php echo $rows['idToken']; ?></td>
                                 
 
                             </tr>
