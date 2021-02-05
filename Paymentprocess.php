@@ -38,6 +38,7 @@ $housenumber = $_GET['House-number'];
 $unitnumber = $_GET['Unit-number'];
 $contactnumber = $_GET['Contact-number'];
 $total = $_GET['totalamount'];
+$total1 = 'R567';
 
 $sql="INSERT INTO oders (idOrderUsername,idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
@@ -81,7 +82,7 @@ if(!mysqli_stmt_prepare($stmt, $sql4)){
     exit();
  }
 
-    mysqli_stmt_bind_param($stmt,"ssssss",$confirmedpayment,$custitoken,$date,$total,$preppertoken,$username);
+    mysqli_stmt_bind_param($stmt,"ssssss",$confirmedpayment,$custitoken,$date,$total1,$preppertoken,$username);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
