@@ -166,7 +166,8 @@ Log
 </nav>
 </div>
 </div>
-                            <table style="width:30px;" >
+                            <div style="width:30px;">
+                            <table  >
                             <thead>
                             <tr>
                                 <th>Order ID</th>
@@ -191,7 +192,8 @@ Log
                             <?php } ?>
                             </tr>
                             </tbody>
-                        </table>
+                            </table>
+                            </div>
                                 <br>
 
             
