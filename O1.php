@@ -182,7 +182,9 @@ Log
                             
                             <?php 
                             while($rows=mysqli_fetch_assoc($result)){
-                            
+                            ?>
+                            <?php 
+                            while($rows=mysqli_fetch_assoc($result2)){
                             ?>
                                 <tr>
                                 <td>#00<?php echo $rows['idOrder']; ?></td>
@@ -192,7 +194,7 @@ Log
                                 </tr>
                                 
                             <?php } ?>
-                            
+                            <?php } ?>
                             </tbody>
                             </table>
                             </div>
