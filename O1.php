@@ -190,14 +190,8 @@ Log
                                 <td>R<?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
                                 </tr>
-                                <tr>
-                                <td>#00<?php echo $rows['idOrder']; ?></td>
-                                <td><?php echo $rows['idDate']; ?></td>
-                                <td>R<?php echo $rows['idOrderTotal']; ?></td>
-                                <td><?php echo $rows['idOrderConfirmation']; ?></td>
-                                </tr>
+                                
                             <?php } ?>
-                            
                             
                             </tbody>
                             </table>
