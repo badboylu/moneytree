@@ -179,28 +179,26 @@ Log
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
+                            
                             <?php 
                             while($rows=mysqli_fetch_assoc($result)){
                             
                             ?>
+                                <tr>
                                 <td>#00<?php echo $rows['idOrder']; ?></td>
                                 <td><?php echo $rows['idDate']; ?></td>
                                 <td>R<?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
-                            
-                            <?php } ?>
-                            </tr>
-                            while($rows=mysqli_fetch_assoc($result)){
-                            
-                            ?>
+                                </tr>
+                                <tr>
                                 <td>#00<?php echo $rows['idOrder']; ?></td>
                                 <td><?php echo $rows['idDate']; ?></td>
                                 <td>R<?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
-                            
+                                </tr>
                             <?php } ?>
-                            </tr>
+                            
+                            
                             </tbody>
                             </table>
                             </div>
