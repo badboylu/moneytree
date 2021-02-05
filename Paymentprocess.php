@@ -73,6 +73,18 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
+$sql4="INSERT INTO ordermemory (idOrderDate,IdOrderAmount) VALUES (?,?);";
+$stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql4)){
+    header("Location:Signin.php?error=sqlerror111");
+    exit();
+ }
+
+    mysqli_stmt_bind_param($stmt,"si",$date,$total);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
