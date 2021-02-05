@@ -183,17 +183,19 @@ Log
                             <?php 
                             while($rows=mysqli_fetch_assoc($result)){
                             ?>
-                            <?php 
-                            while($rows=mysqli_fetch_assoc($result2)){
-                            ?>
+                            
                                 <tr>
                                 <td>#00<?php echo $rows['idOrder']; ?></td>
                                 <td><?php echo $rows['idDate']; ?></td>
+                                <?php } ?>
+                                <?php 
+                                while($rows=mysqli_fetch_assoc($result2)){
+                                ?>
                                 <td>R<?php echo $rows['idOrderTotal']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
                                 </tr>
                                 
-                            <?php } ?>
+                            
                             <?php } ?>
                             </tbody>
                             </table>
