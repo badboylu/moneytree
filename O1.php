@@ -166,8 +166,8 @@ Log
 </nav>
 </div>
 </div>
-<table>
-                            <thead style="display:block">
+                            <table >
+                            <thead>
                             <tr>
                                 <th>Order ID</th>
                                 <th>Date placed</th>
@@ -177,7 +177,7 @@ Log
                                
                             </tr>
                             </thead>
-                            <tbody style="display:block" >
+                            <tbody>
                             <tr>
                             <?php 
                             while($rows=mysqli_fetch_assoc($result)){
