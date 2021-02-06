@@ -650,7 +650,7 @@ class="single-product-page single-product-content product-design-default product
                 <div class="itemsRow">
 		<div style="display:none" id="promo">
                 <span class="totalCart" style="color:orange"><strong>Promotional discount</strong></span>
-                <span class="totalDelivery" style="color:green">-%40</span>
+                <span class="totalDelivery" style="color:green">-%25</span>
 		<br>
 		</div>
                 <span class="totalCart"><strong>Delivery</strong></span>
@@ -804,7 +804,7 @@ let promo = localStorage.getItem('promo');
 if(promo=="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
  total = parseInt(total);
- discountamount = total - (total*0.4);
+ discountamount = total - (total*0.25);
  localStorage.setItem('discount', discountamount); 
  location.reload();
  }
@@ -819,7 +819,7 @@ let promo = localStorage.getItem('promo');
 if(promo=="welovecanibuy"){
  let total = localStorage.getItem('totalAmountNumber'); 
  total = parseInt(total);
- discountamount = total - (total*0.4);
+ discountamount = total - (total*0.25);
  localStorage.setItem('discount', discountamount); 
   }
  }
