@@ -39,7 +39,7 @@ else if($count>0){
  $row=mysqli_fetch_array($result);
 }
 else{
-  header("Location:DL01.php");
+  header("Location:DL01.php?username=".$user."&auth=".$auth."");
   exit();
 }
 
