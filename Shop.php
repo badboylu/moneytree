@@ -38,6 +38,7 @@
 	<link rel="stylesheet" href="c7c58cca0fc9c8acb3530bf8cbf53297.css" data-minify="1" />
         <link rel="stylesheet" href="plugIcons.css" />
         <link rel="stylesheet" href="Added.css" />
+        <link rel="stylesheet" href="Added2.css" />
 	<link rel="stylesheet" href="plugtech.css"/>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://basel-cec2.kxcdn.com/' />
@@ -891,7 +892,7 @@ Accessories
 </div>
 </div>
 <div class="container">
-<div class="Added" id="added" style="display:block;" >
+<div class="Added2" id="added" style="display:block;" >
 <span><strong>Covid-19 precaution adherence. For more info click <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	(here)
 </a>	</strong></span>
