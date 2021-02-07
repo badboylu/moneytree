@@ -1606,10 +1606,10 @@ per/gram
 </i> 
 2020 Created by 
 <a href="'#'" style="color:white">
-<span style="color: orange;font-size: 15px">
-Plug
+<span>
+Kahrent
 </span>
-	<a href="'#'">Tech</a> Creations
+	<a href="'#'">Technology</a> Africa
 </a>
 . Premium e-commerce solutions. Contact us <a href="'#'">(here)</a>. Terms and conditions <a href="A1.php">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
