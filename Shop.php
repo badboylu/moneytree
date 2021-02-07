@@ -892,7 +892,7 @@ Accessories
 </div>
 </div>
 <div class="container">
-<div class="Added2" id="added" style="display:block;" >
+<div class="Added2" style="display:block;" >
 <span><strong>Covid-19 precaution adherence. For more info click <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	(here)
 </a>	</strong></span>
