@@ -18,7 +18,7 @@
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Order Tracker</title>
+<title>Contact us</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -92,7 +92,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span> <?php echo $_GET['username']; ?></span><span> </span> <span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span> <span>[<a href="O1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><span style="color:orange;">Order log</span></a>]</span>
+	<span> <?php echo $_GET['username']; ?></span><span> </span> <span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span> 
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
@@ -166,7 +166,8 @@ Tracker
 </div>
 </div>
 <p>For any suggestions, queries or complaints please send an email to the address below and we will reply. Thank you</span></p>
-<p>E-mail:<span>support@canibuy.co.za</span></p>
+<p><strong>E-mail:</strong><span> support@canibuy.co.za</span></p>
+<br>
 <br>
 <br>
 <br>
