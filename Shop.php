@@ -1611,7 +1611,7 @@ Plug
 </span>
 	<a href="'#'">Tech</a> Creations
 </a>
-. Premium e-commerce solutions. Contact us (here). Terms and conditions (here)</div></div></div></div></footer></div>
+. Premium e-commerce solutions. Contact us <a href="'#'">(here)</a>. Terms and conditions <a href="A1.php">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
