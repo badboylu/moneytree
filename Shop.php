@@ -1516,51 +1516,47 @@ data-loop="8"
 data-id="19564">
 <div class="product-element-top"> 
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-<div class="product-labels labels-rounded">
-<span class="new product-label">
-New
-</span>
-</div>
 <img 
 width="273" 
 height="348" 
-src="../../../basel-cec2.kxcdn.com/basel/wp-content/uploads/2015/10/watches-2.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
+src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg" 
+class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_697,w_546/v1595155865/cannacaps.jpg 546w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595155865/cannacaps.jpg 273w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595155865/cannacaps.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595155865/cannacaps.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595155865/cannacaps.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155865/cannacaps.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595155865/cannacaps.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595155865/cannacaps.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155865/cannacaps.jpg 526w" 
-sizes="(max-width: 273px) 100vw, 273px" /> 
+"https://res.cloudinary.com/badboylu/image/upload/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 526w" 
+sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img"> 
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
-src="../../../basel-cec2.kxcdn.com/basel/wp-content/uploads/2015/10/watches-13.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" 
+src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg" 
+class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
+alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595155752/_DSC6512_jsmovp.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595155752/_DSC6512_jsmovp.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595155752/_DSC6512_jsmovp.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595155752/_DSC6512_jsmovp.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595155752/_DSC6512_jsmovp.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595155752/_DSC6512_jsmovp.jpg 526w" 
+"https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595088889/_DSC6536_aeu5je.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595088889/_DSC6536_aeu5je.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595088889/_DSC6536_aeu5je.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595088889/_DSC6536_aeu5je.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595088889/_DSC6536_aeu5je.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
 </div>
 <h3 class="product-title">
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Cannacaps (Extra Strong)
+Pineapple Express (Indoor)
 </a>
 </h3>
 <div class="wrap-price">
@@ -1572,20 +1568,12 @@ Cannacaps (Extra Strong)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-450
+110
 </span>
-per/batch
+per/gram
 </span>
 </span>
-<div class="btn-add" id="CCesHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-			View cart
-		</a>	
-		</div>
-<div class="btn-add"> 
-	<button class="CannacapsESHome" id="CCesHome" >
-		add to cart
-	</button>
+<div class="btn-add">
 </div>
 </div>
 </div>
