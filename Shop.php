@@ -1515,7 +1515,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="8" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="#">
 <img 
 width="273" 
 height="348" 
@@ -1534,7 +1534,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img"> 
-<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="#">
 <img 
 width="273" 
 height="348" 
@@ -1555,7 +1555,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="#">
 Pineapple Express (Indoor)
 </a>
 </h3>
