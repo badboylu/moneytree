@@ -1514,7 +1514,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+
 <img 
 width="273" 
 height="348" 
@@ -1531,9 +1531,9 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1596008971
 https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 263w, 
 https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
-</a>
+
 <div class="hover-img"> 
-<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+
 <img 
 width="273" 
 height="348" 
@@ -1550,13 +1550,11 @@ https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595088889/_
 https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595088889/_DSC6536_aeu5je.jpg 263w, 
 https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595088889/_DSC6536_aeu5je.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
-</a>
+
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Pineapple Express (Indoor)
-</a>
 </h3>
 <div class="wrap-price">
 <div class="wrapp-swap">
@@ -1572,16 +1570,7 @@ R
 per/gram
 </span>
 </span>
-<div class="btn-add" id="PeHomecart">
-		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-			View cart
-		</a>	
-		</div>
-<div class="btn-add"> 
-	<button class="PineappleExpressHome" id="PeHome" >
-		add to cart
-	</button>
-</div>
+
 </span>
 </div>
 </div>
