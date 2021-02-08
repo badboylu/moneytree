@@ -359,7 +359,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Pre-Rolls Greenhouse
+	Pre-Rolls 
 </h1>
 
 <p class="price">
@@ -368,14 +368,14 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-20.00
+60.00
 </span>
 per/J
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Mixture</span>
+	<strong>Strain Type:</strong><span> Greenhouse</span>
 	<br>
 	<strong>Product origins:</strong><span> South Africa</span>
 	<br>
@@ -495,6 +495,4 @@ setInterval (function addHide(){
 addHide();
 </script>
 </body>
-<!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
-</html>
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1582301857 -->
+
