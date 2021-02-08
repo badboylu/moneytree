@@ -194,7 +194,7 @@ var priceCC = 240;
 };
 
 iconsAddPR.onclick = function() {
-var pricePR = 20;
+var pricePR = 60;
   localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -206,18 +206,18 @@ var pricePR = 20;
     let ifavailablePR = localStorage.getItem('GramsPR')
         ifavailablePR = parseInt(ifavailablePR);
                if(ifavailablePR) {
-                localStorage.setItem('GramsPR',(ifavailablePR) + 5);
+                localStorage.setItem('GramsPR',(ifavailablePR) + 1);
                 let gramsNumberaddPR = localStorage.getItem('GramsPR'); 
                 gramsNumberaddPR = parseInt(gramsNumberaddPR);
                 document.querySelector('.gramsamountPR').textContent =parseInt(gramsNumberaddPR);
                }else{
-                localStorage.setItem('GramsPR', 5 );       
+                localStorage.setItem('GramsPR', 1 );       
                 document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumberaddPR);
                }
 };
 
 iconsMinusPR.onclick = function() {
-   var pricePR = 20;
+   var pricePR = 60;
      localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -229,8 +229,8 @@ iconsMinusPR.onclick = function() {
     let gramsNumbersminusPR = localStorage.getItem('GramsPR'); 
         gramsNumbersminusPR = parseInt(gramsNumbersminusPR);
                if(gramsNumbersminusPR) {
-                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 5));
-                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -5;
+                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 1));
+                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -1;
                }else{
                 document.querySelector('.gramsamountPR').textContent = 0;   
         }
