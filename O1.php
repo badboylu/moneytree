@@ -203,6 +203,7 @@ Log
 	<button onclick='refreshPage()'>
 		Update
 	</button>
+<br>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
