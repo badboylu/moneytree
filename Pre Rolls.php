@@ -382,7 +382,7 @@ per/J
 	<strong>Potency:</strong><span> 18% - 22%</span>
 	</p></div>
 	<br>
-	<br>
+	
 	
 <div >
 	<div class="single_variation_wrap">
