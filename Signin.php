@@ -41,6 +41,7 @@
                             <p id="notloggedin" style="font-size:14px; color:red; display:none;">*Please login</p>
                             <p id="successful" style="font-size:14px; color:red; display:none;">*Logged out</p>
                             <p id="successful2" style="font-size:14px; color:green; display:none;">Thank you for visiting <span style="color:orange;">canibuy.co.za</span>. We hope you come again soon!</p>
+                            <p id="successful3" style="font-size:14px; color:green; display:none;">Sign-up to Canibuy successful. Welcome! Please log in</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
                                <a href="Reset.php">Forgot password?</a>
