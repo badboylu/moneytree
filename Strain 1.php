@@ -363,7 +363,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Durban Poison Indoor
+	Durban Poison
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
@@ -373,16 +373,16 @@ R
 </span>
 70.00
 </span>
-per/g
+per/gram
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
 	<strong>Strain Type:</strong><span> Sativa</span>
 	<br>
-	<strong>Genetic origins:</strong><span> South Africa</span>
-	<br>
-	<strong>Potency:</strong><span> 22.8%</span>
+	<strong>Quality:</strong><span> Indoor</span>
+        <br>
+	<strong>Description:</strong><span> An internationally know bud with genetic origins from South Africa grown in a controlled environment to produce a high quality bud. </span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
