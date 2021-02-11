@@ -1321,7 +1321,7 @@ R
 </span>
 60
 </span>
-per/j
+per/joint
 </span>
 </span>
 </span>
