@@ -371,7 +371,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-70.00
+70
 </span>
 per/gram
 </span>
