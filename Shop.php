@@ -967,7 +967,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Durban Poison (Indoor)
+Durban Poison
 </a>
 </h3>
 <div class="wrap-price">
@@ -1052,7 +1052,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 	<a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-	Cannacaps
+	Dabcapsules (light)
 	</a>
 	</h3>
 	<div class="wrap-price">
@@ -1137,7 +1137,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Orange Cali (High Grade)
+Orange Cali
 </a>
 </h3>
 <div class="wrap-price">
@@ -1215,7 +1215,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Blunt Wrap
+Raw rizzla
 </a>
 </h3>
 <div class="wrap-price">
@@ -1388,7 +1388,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Northern Lights (Greenhouse)
+Northern Lights
 </a>
 </h3>
 <div class="wrap-price">
@@ -1478,7 +1478,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Cannacaps (Extra Strong)
+Dabcapsules (Strong)
 </a>
 </h3>
 <div class="wrap-price">
