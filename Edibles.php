@@ -915,7 +915,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 	<a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
-	Dabcapsules(light)
+	Dabcapsules (light)
 	</a>
 	</h3>
 	<div class="wrap-price">
@@ -996,7 +996,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Dabcapsules(strong)
+Dabcapsules (strong)
 </a>
 </h3>
 <div class="wrap-price">
