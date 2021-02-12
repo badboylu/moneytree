@@ -121,7 +121,7 @@ $data = array(
 $signature = generateSignature($data);
 $data['signature'] = $signature;
 
-
+echo $order;
 $htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process?true" method="post" id="form">';
 foreach($data as $name=> $value)
 {
@@ -129,8 +129,5 @@ foreach($data as $name=> $value)
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
 echo $htmlForm;
-echo'
-<script>
-   document.getElementById("form").submit();
-</script>';
+
 ?>
