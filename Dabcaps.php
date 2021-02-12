@@ -378,7 +378,7 @@ R
 	<br>
 	<strong>Strength:</strong><span> Light</span>
 	<br>
-	<strong>Description:</strong><span> Dabcapsules are a brand new product that is produced locally to make cannibus edibles more healthy to consume. Using modern extraction methods, cannibus oils are extracted from sativa and indica strains and then after encapsulated into a dabcapsule. These capsules contain the full spectrum of the cannibus oil compounds which gives the full health benefits of the cannibus plant. Health benefits may include a boosted endocannabinoid system which enhances overall well being.</span>
+	<strong>Description:</strong><span> Dabcapsules are a brand new product that is produced locally to make cannibus edibles more healthy to consume. Using modern extraction methods, cannibus oils are extracted from sativa and indica strains and then after encapsulated into the dabcapsules. These capsules contain the full spectrum of the cannibus oil compounds which gives the full health benefits of the cannibus plant. Health benefits may include a boosted endocannabinoid system which enhances overall well being.</span>
 	</p></div>
 <div >
 	<div >
