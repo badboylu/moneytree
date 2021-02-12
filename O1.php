@@ -183,10 +183,10 @@ Log
                                 <?php 
                                 while($rows=mysqli_fetch_assoc($result)){
                                 ?>
-                                <td>#00<?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderUsername']; ?></td>
-                                <td>R<?php echo $rows['idOrderUsername']; ?></td>
-                                <td><?php echo $rows['idOrderUsername']; ?></td>
+                                <td>#00<?php echo $rows['idOrderNumber']; ?></td>
+                                <td><?php echo $rows['idDate']; ?></td>
+                                <td>R<?php echo $rows['idAmount']; ?></td>
+                                <td><?php echo $rows['idOrderStat']; ?></td>
                                 <?php } ?>
                                 </tr>
                             </tbody>
