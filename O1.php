@@ -3,19 +3,11 @@
    $dBUsername="b7fcd41c893d7a";
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
+   $user=$_GET['username'];
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $query="select * from deliverytoken";
+   $query="select * from orderlog WHERE idUsername='".$user."' ";
    $result=mysqli_query($conn,$query);
-   $query2="select * from oders";
-   $result2=mysqli_query($conn,$query2);
-   while($rows=mysqli_fetch_assoc($result)){
-    $ordernum=$rows['idOrder'];
-    $orderdate=$rows['idDate'];
-   }
-   while($rows=mysqli_fetch_assoc($result2)){
-    $ordertotal=$rows['idOrderTotal'];
-    $orderstat=$rows['idOrderConfirmation'];
-   }                       
+   
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -188,6 +180,9 @@ Log
                             </thead>
                             <tbody>
                                 <tr>
+                                <?php 
+                                while($rows=mysqli_fetch_assoc($result)){
+                                ?>
                                 <td>#00<?php echo $ordernum; ?></td>
                                 <td><?php echo $orderdate; ?></td>
                                 <td>R<?php echo $ordertotal; ?></td>
