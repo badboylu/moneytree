@@ -1478,7 +1478,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Dabcapsules (Strong)
+Dabcapsules (strong)
 </a>
 </h3>
 <div class="wrap-price">
