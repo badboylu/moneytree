@@ -187,6 +187,7 @@ Log
                                 <td><?php echo $orderdate; ?></td>
                                 <td>R<?php echo $ordertotal; ?></td>
                                 <td><?php echo $orderstat; ?></td>
+                                <?php } ?>
                                 </tr>
                             </tbody>
                             </table>
