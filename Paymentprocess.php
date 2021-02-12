@@ -80,8 +80,7 @@ if(!mysqli_stmt_prepare($stmt, $sql4)){
     header("Location:Signin.php?error=sqlerror999");
     exit();
  }
-
-    mysqli_stmt_bind_param($stmt,"siss",$date,$confirmedpayment,$custitoken);
+    mysqli_stmt_bind_param($stmt,"siss",$date,$total,$confirmedpayment1,$custitoken);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
@@ -96,10 +95,6 @@ $ordercustinumber=Max($ordernum);
 while($rows=mysqli_fetch_assoc($result2)){
     $ordertotal=$rows['idOrderNumber'];
     } 
-if($ordercustinumber!=$ordertotal){
-
-}
-
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
