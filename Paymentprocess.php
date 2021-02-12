@@ -73,6 +73,17 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
+$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idUniqueID) VALUES (?,?,?,?);";
+$stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql4)){
+    header("Location:Signin.php?error=sqlerror999");
+    exit();
+ }
+
+    mysqli_stmt_bind_param($stmt,"siss",$date,$confirmedpayment,$custitoken);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
 
 $query="select * from deliverytoken";
 $result=mysqli_query($conn,$query);
@@ -81,9 +92,13 @@ $result2=mysqli_query($conn,$query2);
 while($rows=mysqli_fetch_assoc($result)){
     $ordernum=$rows['idOrder'];
     }
+$ordercustinumber=Max($ordernum);
 while($rows=mysqli_fetch_assoc($result2)){
     $ordertotal=$rows['idOrderNumber'];
-    }     
+    } 
+if($ordercustinumber!=$ordertotal){
+
+}
 
 
    function generateSignature($data, $passPhrase = null) {
