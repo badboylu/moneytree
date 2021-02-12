@@ -88,13 +88,7 @@ $query="select * from deliverytoken";
 $result=mysqli_query($conn,$query);
 $query2="select * from orderlog";
 $result2=mysqli_query($conn,$query2);
-while($rows=mysqli_fetch_assoc($result)){
-    $ordernum=$rows['idOrder'];
-    }
-$ordercustinumber=Max($ordernum);
-while($rows=mysqli_fetch_assoc($result2)){
-    $ordertotal=$rows['idOrderNumber'];
-    } 
+
 
    function generateSignature($data, $passPhrase = null) {
     // Create parameter string
