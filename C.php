@@ -160,7 +160,7 @@ Contact us
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Tracker 
+Contact us 
 </span>
 </nav>
 </div>
