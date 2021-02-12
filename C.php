@@ -166,7 +166,7 @@ Tracker
 </div>
 </div>
 <p>For any suggestions, queries or complaints please send an email to the address below and we will reply. Thank you</span></p>
-<p><strong>E-mail:</strong><span> support@canibuy.co.za</span></p>
+<p><strong>E-mail:</strong><span> support@canibuy.site</span></p>
 <br>
 <br>
 <br>
