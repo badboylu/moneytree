@@ -383,8 +383,7 @@ R
 <div >
 	<div >
 		
-		<br>
-		<br>
+		
 		<br>
 		<div class="single_variation_wrap">
 		<div class="woocommerce-variation single_variation">
