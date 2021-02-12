@@ -73,21 +73,23 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
-$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idUniqueID,idUsername) VALUES (?,?,?,?,?);";
+$query="select * from deliverytoken";
+$result=mysqli_query($conn,$query);
+while($row=mysqli_fetch_array($result)){
+ $ordernumbers[]=$row['idOrders'];
+}
+$order=Max($ordernumbers);
+
+$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idUniqueID,idUsername,idOrderNumber) VALUES (?,?,?,?,?,?);";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql4)){
     header("Location:Signin.php?error=sqlerror999");
     exit();
  }
-    mysqli_stmt_bind_param($stmt,"sisss",$date,$total,$confirmedpayment1,$custitoken,$username);
+    mysqli_stmt_bind_param($stmt,"sisssi",$date,$total,$confirmedpayment1,$custitoken,$username,$order);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-
-$query="select * from deliverytoken";
-$result=mysqli_query($conn,$query);
-$query2="select * from orderlog";
-$result2=mysqli_query($conn,$query2);
 
 
    function generateSignature($data, $passPhrase = null) {
