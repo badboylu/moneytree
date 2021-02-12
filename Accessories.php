@@ -869,26 +869,26 @@ data-source="main_loop">
 
 
 <div 
-class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 last  type-product post-19551 status-publish last instock product_cat-man product_tag-new product_tag-sweaters has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
-data-loop="4" 
-data-id="19551">
+class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 type-product post-19515 status-publish instock product_cat-woman has-post-thumbnail shipping-taxable purchasable product-type-variable" 
+data-loop="3" 
+data-id="19515">
 <div class="product-element-top"> 
 <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-<img 
-width="273" 
-height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg" 
-class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
-alt="" 
-srcset=
-"https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 235w,
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 526w" 
+	<img 
+	width="273" 
+	height="348" 
+	src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg" 
+	class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
+	alt="" 
+	srcset=
+	"https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 870w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 235w,
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 768w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 803w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 266w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 219w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 263w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 <div class="hover-img"> 
@@ -900,22 +900,22 @@ sizes="(max-width: 273px) 100vw, 273px" />
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1596059294/Rizzla_usrybh.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1596059294/Rizzla_usrybh.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1596059294/Rizzla_usrybh.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1596059294/Rizzla_usrybh.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1596059294/Rizzla_usrybh.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1596059294/Rizzla_usrybh.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1596059294/Rizzla_usrybh.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1596059294/Rizzla_usrybh.jpg
- 526w"  
+"https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/images-3_bgewza.jpg 235w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/images-3_bgewza.jpg 768w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/images-3_bgewza.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/images-3_bgewza.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/images-3_bgewza.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/images-3_bgewza.jpg 263w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/images-3_bgewza.jpg
+ 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
 </div>
 <h3 class="product-title">
 <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Blunt Wrap
+Raw rizzla
 </a>
 </h3>
 <div class="wrap-price">
@@ -927,12 +927,12 @@ Blunt Wrap
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	45
+	30
 	</span>
 	per/pack
 	</span>
 	</span>
-	<div class="btn-add" id="BwHomecart">
+<div class="btn-add" id="BwHomecart">
 		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
@@ -946,6 +946,7 @@ Blunt Wrap
 	</div>
 	</div>
 </div>
+
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19730 status-publish first instock product_cat-accessories product_tag-basic product_tag-new has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
 data-loop="5" 
