@@ -268,7 +268,7 @@ Edibles range
 Shop
 </a> 
 <span class="current">
-Cannacaps
+Dabcapsules
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -284,7 +284,7 @@ Cannacaps
 </span>
 <h4 class="title" >
 <strong>
-Cannacaps 
+Dabcapsules 
 </strong>
 <span class="title-separator">
 <span>
@@ -295,12 +295,12 @@ Cannacaps
 </span>
 </div>
 <span class="title-after_title">
-Batch is 8 capsules of 50mg each
+A Batch includes 8 capsules
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-Cannacaps
+Dabcapsules
 </span>
 </nav>
 </div>
@@ -362,31 +362,27 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-Cannacaps 400mg capsules
+Dabcapsules
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-240.00 per batch
+240 per batch
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Mixture</span>
+	<strong>Strains used in production:</strong><span> Mixture of sativa and indica</span>
 	<br>
-	<strong>Product origins:</strong><span> South Africa</span>
+	<strong>Strength:</strong><span> Light</span>
 	<br>
-	<strong>Potency:</strong><span> 97.8%</span>
-	<br>
-	<strong>Potency per/cap:</strong><span> 30 mg</span>
+	<strong>Description:</strong><span> Dabcapsules are a brand new product that is produced locally to make cannibus edibles more healthy. Using modern extraction methods, cannibus oils are extracted from sativa and indica strains and then after encapsulated into a dabcapsule. These capsules are full spectrum cannibus oil which gives the benefits of the full health benefit of the cannibus plant. No additives are included. Health benefits include a boosted endocannabinoid system which enhances overall well being.</span>
 	</p></div>
 <div >
 	<div >
-		<br>
-		<br>
-		<br>
+		
 		<br>
 		<br>
 		<br>
