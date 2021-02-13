@@ -145,7 +145,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Last order
+Order history
 </strong>
 <span class="title-separator">
 <span>
@@ -170,7 +170,7 @@ Log
                             <table  >
                             <thead>
                             <tr>
-                                <th>Order ID</th>
+                                <th>Order number</th>
                                 <th>Date placed</th>
                                 <th>Order Amount</th>
                                 <th>Order status</th>
