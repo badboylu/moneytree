@@ -80,7 +80,7 @@ while($row=mysqli_fetch_array($result)){
 }
 $order=Max($ordernumbers);
 
-$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idUniqueID,idUsername,idOrderNumber) VALUES (?,?,?,?,?,?);";
+$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idCustiToken,idUsername,idOrderNumber) VALUES (?,?,?,?,?,?);";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql4)){
