@@ -80,14 +80,14 @@ while($row=mysqli_fetch_array($result)){
 }
 $order=Max($ordernumbers);
 
-$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idCustiToken,idUsername,idOrderNumber) VALUES (?,?,?,?,?,?);";
+$sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idCustiToken,idUsername,idOrderNumber,idPrepperToken) VALUES (?,?,?,?,?,?,?);";
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql4)){
     header("Location:Signin.php?error=sqlerror123");
     exit();
  }
-    mysqli_stmt_bind_param($stmt,"sisssi",$date,$total,$confirmedpayment1,$custitoken,$username,$order);
+    mysqli_stmt_bind_param($stmt,"sisssis",$date,$total,$confirmedpayment1,$custitoken,$username,$order,$preppertoken);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
