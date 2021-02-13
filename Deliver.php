@@ -32,7 +32,7 @@ $authcode=Min($ordernumber);
 $query2='SELECT * FROM deliverytoken WHERE idCustomerToken="'.$custicode.'" ';
 $result2=mysqli_query($conn,$query2);
 while($row=mysqli_fetch_array($result2)){
- $ordernumber2[]=$row2['idOrders'];
+ $ordernumber2[]=$row2['idOrder'];
 }
 $ordernumber=Max($ordernumber2);
 $new2='SELECT * FROM deliverytoken ';
