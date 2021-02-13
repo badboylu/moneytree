@@ -84,7 +84,7 @@ $sql4="INSERT INTO orderlog (idDate,idAmount,idOrderStat,idUniqueID,idUsername,i
 $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql4)){
-    header("Location:Signin.php?error=sqlerror999");
+    header("Location:Signin.php?error=sqlerror123");
     exit();
  }
     mysqli_stmt_bind_param($stmt,"sisssi",$date,$total,$confirmedpayment1,$custitoken,$username,$order);
