@@ -31,7 +31,7 @@ $sql2='DELETE FROM address WHERE idToken="'.$authtoken.'" AND idUser="'.$orderto
 mysqli_query($conn, $sql2);
 $sql3='DELETE FROM deliverytoken WHERE idOrderID="'.$authtoken.'" AND idOrder="'.$ordertoken2.'"';
 mysqli_query($conn, $sql3);
-$sql4='DELETE FROM orderlog WHERE idOrderNumber="'.$ordertoken2.'" ;
+$sql4='DELETE FROM orderlog WHERE idOrderNumber="'.$ordertoken2.'"' ;
 mysqli_query($conn, $sql4);    
 ?>
 <html>
