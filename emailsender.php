@@ -10,9 +10,7 @@ Email.send({
     From : "no-reply@canibuy.co.za",
     Subject : "Sent with php by Lunga Magagula",
     Body : "I am proud to type that you have sent this email with code written by yourself boi!"
-}).then(
-  message => alert(message)
-);
+});
 }
 sendemail();
 </script> 
