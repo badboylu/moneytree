@@ -11,7 +11,7 @@ Email.send({
     To : 'liyandza.magagula@gmail.com',
     From : "no-reply@canibuy.site",
     Subject : "PHP email sent",
-    Body : "If you can read this then it works"
+    Body : "Bro this you? lol"
 }).then(
   message => alert(message)
 );
