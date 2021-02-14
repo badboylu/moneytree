@@ -3,7 +3,7 @@
 <script src="https://smtpjs.com/v3/smtp.js">
 function sendemail(){
 Email.send({
-    Host : "smtp.canibuy.site",
+    Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
     Password : "God@loves",
     To : 'liyandza.magagula@gmail.com',
