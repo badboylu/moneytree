@@ -1,6 +1,4 @@
-<?php
-echo'sent';
-?>
+
 <html>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
@@ -17,5 +15,7 @@ Email.send({
 }
 sendemail();
 </script> 
+<?php
+echo'sent';
+?>
 </html>
-
