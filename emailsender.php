@@ -13,6 +13,9 @@ Email.send({
 });
 }
 sendemail();
+<?php
+echo'sent';
+?>
 </script> 
 </html>
 
