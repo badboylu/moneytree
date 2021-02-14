@@ -40,29 +40,36 @@
    mysqli_stmt_close($stmt);
    mysqli_close($conn);
 
-   require_once('PHPMailerAutoload.php');
-   $mail = new PHPMailer();
-   $mail -> isSMTP();
-   $mail -> SMTPAuth = true;
-   $mail -> SMTPSecure = 'ssl';
-   $mail -> Host = 'cp52.domains.co.za';
-   $mail -> Port = '456';
-   $mail -> isHTML();
-   $mail -> username = 'admin@canibuy.co.za';
-   $mail -> password = 'God@loves';
-   $mail -> setFrom('no-reply@canibuy.co.za');
-   $mail -> subject = 'Reset Canibuy password';
-   $mail -> body = '<h1>Password Reset link</h1><p> We have received a request for a password reset. Please follow the link below to reset your password.</p>';
-   
-   $to=$userEmail;
-   $subject='Reset Kush Lord password';
-   $message='<p> We have received a request for a password reset. Please follow the link below to reset your password.</p>';
-   $message='<p> Reset link: <br>' ;
-   $message='<a href="'.$url.'">'.$url.'</a></p>';
-   $headers="From:Kush Lord<admin@kushlord.co.za>\r\n";
-   $headers="Content-type:text/html\r\n";
-   mail($to,$subject,$message,$headers);
-   header("Location:FPW.html?reset=success");
+ echo'
+ <html>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+function sendemail(){
+Email.send({
+    Host : "mail.canibuy.site",
+    Username : "no-reply@canibuy.site",
+    Password : "God@loves",
+    To : 'liyandza.magagula@gmail.com',
+    From : "no-reply@canibuy.site",
+    Subject : "Reset Canibuy password",
+    Body : "
+    Hello, 
+    we recieved a request from you to reset your account password on the canibuy.co.za site.
+    We have generated a link for you to reset your password below. Please click on the link to change your password.
+    
+    Password reset link: www.canibuy.co.za/FPW.html?selector=".$selector."&validate=".bin2hex($token)
+    
+    If you did not make this request or need assistance, please send a email to support@canibuy.site and inform us.
+    "
+}).then(
+  message => alert(message)
+);
+}
+sendemail();
+</script> 
+</html>
+ ';
 
 else{
  header("Location:FPW.html?error=posterror");
