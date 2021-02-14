@@ -1,17 +1,19 @@
 
 <html>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
+<script><script src="https://smtpjs.com/v3/smtp.js">
+</script>
 function sendemail(){
 Email.send({
-    Host : "mail.canibuy.site",
+    Host : "smtp.canibuy.site",
     Username : "no-reply@canibuy.site",
     Password : "God@loves",
     To : 'liyandza.magagula@gmail.com',
-    From : "no-reply@canibuy.co.za",
-    Subject : "Sent with php by Lunga Magagula",
-    Body : "I am proud to type that you have sent this email with code written by yourself boi!"
-});
+    From : "no-reply@canibuy.site",
+    Subject : "PHP email sent",
+    Body : "If you can read this thenit works"
+}).then(
+  message => alert(message)
+);
 }
 sendemail();
 </script> 
