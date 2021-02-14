@@ -1,6 +1,6 @@
 
 <html>
-<script><script src="https://smtpjs.com/v3/smtp.js">
+<script src="https://smtpjs.com/v3/smtp.js">
 </script>
 function sendemail(){
 Email.send({
