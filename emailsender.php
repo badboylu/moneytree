@@ -9,7 +9,7 @@ Email.send({
     To : 'liyandza.magagula@gmail.com',
     From : "no-reply@canibuy.site",
     Subject : "PHP email sent",
-    Body : "If you can read this thenit works"
+    Body : "If you can read this then it works"
 }).then(
   message => alert(message)
 );
