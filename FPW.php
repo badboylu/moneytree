@@ -6,7 +6,7 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $auth=bin2hex(random_bytes(8));
-   $expires=date("U")+1800;
+   $date=date("U")+1800;
    $userEmail=$_GET["email"];
  
   $sql="SELECT * FROM users WHERE emailUsers=?";
@@ -25,7 +25,7 @@
     exit();
  }
 
-$sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+$sql="INSERT INTO pwdrest (pwdResetEmail,pwdResetToken,pwdResetDate) VALUES (?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -33,7 +33,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
     exit();
  }
 
- mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
+ mysqli_stmt_bind_param($stmt,"sss",$userEmail,$auth,$date);
  mysqli_stmt_execute($stmt);
 
 ?>
