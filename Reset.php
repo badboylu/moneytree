@@ -41,6 +41,9 @@ $auth=$_GET['error'];
                         <div style="display:none" id="wrngemail">
                         <p><span style="color:red"><small>*E-mail address submitted is not registered</small></span></p>
                         </div>
+                        <div style="display:none" id="link">
+                        <p><span style="color:red"><small>*Reset link has already been sent to this e-mail address</small></span></p>
+                        </div>
                    </div>
                 </div>
             </div>
@@ -52,6 +55,9 @@ function wrngemail(){
  let confirmation="<?php echo $auth; ?>";
  if(confirmation=="emailnotfound"){
   document.getElementById("wrngemail").style.display = "block";
+ }
+ if(confirmation=="emailnotfound"){
+  document.getElementById("link").style.display = "block";
  }
 }
 wrngemail();
