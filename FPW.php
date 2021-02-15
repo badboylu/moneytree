@@ -25,7 +25,7 @@
     exit();
  }
 
- echo 'W';
+ echo 'Wins';
 ?>
 <html>
 <script src="https://smtpjs.com/v3/smtp.js">
@@ -33,6 +33,7 @@
 <script>
 function sendemail(){
 Email.send({
+    Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
     Password : "God@loves",
     To : 'liyandza.magagula@gmail.com',
