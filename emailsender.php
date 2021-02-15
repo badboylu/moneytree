@@ -11,7 +11,7 @@ Email.send({
     To : 'liyandza.magagula@gmail.com',
     From : "no-reply@canibuy.site",
     Subject : "Reset Canibuy password",
-    Body : "<p>Hello,</p><p>How is this spacing looking like?</p>"
+    Body : "<p>Hello,</p><p>we have recieved a request to reset your account password on the canibuy.co.za site. We have generated a link for you to reset your password below. Please click on the link below to change your password.</p>"
 }).then(
   message => alert(message)
 );
