@@ -5,9 +5,7 @@
    $dBPassword="1e8f896b7da9e41";
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $selector=bin2hex(random_bytes(8));
-   $token=random_bytes(32);
-   $url="www.canibuy.co.za/FPW.html?selector=".$selector."&validate=".bin2hex($token);
+   $auth=bin2hex(random_bytes(8));
    $expires=date("U")+1800;
    $userEmail=$_GET["email"];
    $sql="DELETE FROM pwdReset WHERE pwdResetEmail=?";
@@ -23,7 +21,7 @@
  mysqli_stmt_execute($stmt);
  }
  
-    $sql="INSERT INTO pwdRest(pwdResetEmail,pwdResetSelector,pwdResetToken,pwdResetExpires) VALUES (?,?,?,?);";
+    $sql="INSERT INTO pwdRest(pwdResetEmail,pwdResetSelector,pwdResetExpires) VALUES (?,?,?);";
     $stmt= mysqli_stmt_init($conn);
 
  if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -32,8 +30,7 @@
  }
 
  else{
- $hashedToken=password_hash($token, PASSWORD_DEFAULT);
- mysqli_stmt_bind_param($stmt,"ssss",$userEmail,$selector,$hashedToken,$expires);
+ mysqli_stmt_bind_param($stmt,"sss",$userEmail,$auth,$expires);
  mysqli_stmt_execute($stmt);
  }
 
@@ -58,7 +55,7 @@ Email.send({
     we recieved a request from you to reset your account password on the canibuy.co.za site.
     We have generated a link for you to reset your password below. Please click on the link to change your password.
     
-    Password reset link: www.canibuy.co.za/FPW.html?selector=".$selector."&validate=".bin2hex($token)
+    Password reset link: www.canibuy.co.za/FPW.php?selector="<?php echo $auth ?>"
     
     If you did not make this request or need assistance, please send a email to support@canibuy.site and inform us.
     "
