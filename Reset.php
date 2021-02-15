@@ -51,7 +51,7 @@ $auth=$_GET['error'];
 function wrngemail(){
  let confirmation="<?php echo $auth; ?>";
  if(confirmation=="emailnotfound"){
-
+  document.getElementById("wrngemail").style.display = "block";
  }
 }
 wrngemail();
