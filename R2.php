@@ -53,7 +53,7 @@
                     <div class="form-items">
                         <h3><span style="color:orange">Create new password</span></h3>
      
-                        <form action="FWP2.php" method="post">
+                        <form action="pwdReset.php" method="post">
                             <input class="form-control" type="password" name="pwd" placeholder="Create Password" required>
                             <p id="invalidpassword" style="font-size:14px; color:red; display:none;">*Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character</p>
                             <p id="passwordmatch" style="font-size:14px; color:red; display:none;">*Passwords don't match</p>
