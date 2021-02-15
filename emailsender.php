@@ -11,7 +11,7 @@ Email.send({
     To : 'liyandza.magagula@gmail.com',
     From : "no-reply@canibuy.site",
     Subject : "Reset Canibuy password",
-    Body : "Is it working? "
+    Body : "<p>Hello,</p><p>How is this spacing looking like?</p>"
 }).then(
   message => alert(message)
 );
