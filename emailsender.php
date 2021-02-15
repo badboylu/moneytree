@@ -20,7 +20,4 @@ Email.send({
 }
 sendemail();
 </script> 
-<?php
-echo'sent';
-?>
 </html>
