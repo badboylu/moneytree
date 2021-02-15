@@ -5,13 +5,14 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $auth=$_GET['auth'];
-   $sql="SELECT * FROM pwdrest WHERE pwdResetToken=?";
+   $email=$_GET['email'];
+   $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
   $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Reset.php?error=SQL1");
        exit();
  }
-   mysqli_stmt_bind_param($stmt,"s",$auth);
+   mysqli_stmt_bind_param($stmt,"s",$email);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
