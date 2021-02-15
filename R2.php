@@ -30,7 +30,7 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Create new password</h3>
+                        <h3><span style="color:orange">Create new password</span></h3>
      
                         <form action="FWP2.php" method="post">
                             <input class="form-control" type="password" name="pwd" placeholder="Create Password" required>
