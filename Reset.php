@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
+?>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,14 +42,6 @@
                         <p><span style="color:red"><small>*E-mail address submitted is not registered</small></span></p>
                         </div>
                    </div>
-                    <div class="form-sent">
-                        <div class="tick-holder">
-                            <div class="tick-icon"></div>
-                        </div>
-                        <h3>Password link sent</h3>
-                        <p>Please check your inbox></a></p>
-                        
-                    </div>
                 </div>
             </div>
         </div>
