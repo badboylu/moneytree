@@ -11,7 +11,7 @@
        header("Location:Reset.php?error=SQL1");
        exit();
  }
-   mysqli_stmt_bind_param($stmt,"s",$userEmail);
+   mysqli_stmt_bind_param($stmt,"s",$auth);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
