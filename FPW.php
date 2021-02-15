@@ -25,6 +25,16 @@
     exit();
  }
 
+$sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:Signin.php?error=sqlerror123");
+    exit();
+ }
+
+ 
+
 ?>
 <html>
 <script src="https://smtpjs.com/v3/smtp.js">
