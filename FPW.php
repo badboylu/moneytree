@@ -14,7 +14,7 @@
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
-}
+ }
    mysqli_stmt_bind_param($stmt,"s",$userEmail);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
