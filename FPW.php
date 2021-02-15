@@ -21,11 +21,12 @@
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
  if (!$count>0){
-    header("Location:Reset.php?error=emailnotfound");
+    header("Location:R1.php?error=emailnotfound");
     exit();
  }
 
- echo 'Wins';
+    header("Location:R2.php?reset=successful");
+    exit();
 ?>
 <html>
 <script src="https://smtpjs.com/v3/smtp.js">
