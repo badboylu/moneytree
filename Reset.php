@@ -51,15 +51,15 @@ $auth=$_GET['error'];
     </div>
 </body>
 <script>
-function wrngemail(){
+function handler(){
  let confirmation="<?php echo $auth; ?>";
  if(confirmation=="emailnotfound"){
   document.getElementById("wrngemail").style.display = "block";
  }
- if(confirmation=="emailnotfound"){
+ if(confirmation=="linksent"){
   document.getElementById("link").style.display = "block";
  }
 }
-wrngemail();
+handler();
 </script>
 </html>
