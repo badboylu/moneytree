@@ -25,6 +25,7 @@
     exit();
  }
 
+ echo 'W';
 ?>
 <html>
 <script src="https://smtpjs.com/v3/smtp.js">
