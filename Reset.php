@@ -30,11 +30,11 @@
                 <div class="form-content">
                     <div class="form-items">
                         <h3>Password Reset</h3>
-                        <p>To reset your password, enter the email address you use to sign in</p>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
+                        <p>To reset your password, enter the email address you registered with.</p>
+                        <form action="FPW.php" method="get">
+                            <input class="form-control" type="text" name="email" placeholder="E-mail Address" required>
                             <div class="form-button full-width">
-                                <button id="submit" type="submit" class="ibtn">Send Reset Link</button>
+                                <button type="submit" class="ibtn">Send Reset Link</button>
                             </div>
                         </form>
                     </div>
