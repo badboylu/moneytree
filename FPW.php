@@ -6,7 +6,9 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $auth=bin2hex(random_bytes(8));
-   $date=date("U")+1800;
+   $date = date("Y-m-d");
+   date_default_timezone_set('Africa/Johannesburg');
+
    $userEmail=$_GET["email"];
  
   $sql="SELECT * FROM users WHERE emailUsers=?";
