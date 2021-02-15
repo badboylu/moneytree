@@ -57,6 +57,6 @@ sendemail();
 </script> 
 </html>
 <?php
-    header("Location:R1.php?reset=successful"."&auth=".$auth);
+    header("Location:R1.php?link=sent"."&auth=".$auth."&email=".$userEmail);
     exit();
 ?>
