@@ -50,7 +50,7 @@ $auth=$_GET['error'];
 <script>
 function wrngemail(){
  let confirmation="<?php echo $auth; ?>";
- if(confirmation=="wrngemail"){
+ if(confirmation=="emailnotfound"){
 
  }
 }
