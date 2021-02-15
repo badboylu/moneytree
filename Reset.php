@@ -37,8 +37,10 @@
                                 <button type="submit" class="ibtn">Send Reset Link</button>
                             </div>
                         </form>
+                        <div style="display:none" id="wrngemail">
                         <p><span style="color:red"><small>*E-mail address submitted is not registered</small></span></p>
-                    </div>
+                        </div>
+                   </div>
                     <div class="form-sent">
                         <div class="tick-holder">
                             <div class="tick-icon"></div>
