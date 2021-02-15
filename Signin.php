@@ -29,7 +29,7 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Welcome! <br> Login to <span style="color:orange;">Canibuy</span></h3>
+                        <h3>Welcome! <br> Login to <span style="color:orange;">canibuy</span></h3>
                         <p style="color:green;" >Cannibus Health Store</p>
                         
                         <form action="logintest.php" method="post">
