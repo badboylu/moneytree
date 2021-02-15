@@ -1,5 +1,5 @@
 <?php
-
+$auth=$_GET['error'];
 ?>
 <html lang="en">
 <head>
@@ -47,4 +47,13 @@
         </div>
     </div>
 </body>
+<script>
+function wrngemail(){
+ let confirmation="<?php echo $auth; ?>";
+ if(confirmation=="wrngemail"){
+
+ }
+}
+wrngemail();
+</script>
 </html>
