@@ -29,11 +29,8 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Password reset link sent! </h3>
-                        <div class="tick-holder">
-                        <div class="tick-icon">
-                        </div>
-                        </div>
+                        <h3><span style="color:green"> Password reset link sent!</span></h3>
+                        
                         <p>Check your email for the link to reset your password</p>
                     </div>
                 </div>
