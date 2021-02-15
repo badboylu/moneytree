@@ -1,5 +1,5 @@
 <?php
-$auth=bin2hex(random_bytes(8));
+$auth=bin2hex(random_bytes(32));
 ?>
 <html>
 <script src="https://smtpjs.com/v3/smtp.js">
