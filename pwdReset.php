@@ -6,12 +6,11 @@ $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_POST['auth'];
-$email=$_POST['email'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 
    if($_POST['pwd'] != $_POST['pwdrepeat']){
-       header("Location:R2.php?error=pwdnomatch"."&username=".$username."&email=".$email);
+       header("Location:R2.php?error=pwdnomatch"."&auth=".$auth."&email=".$email);
        exit();
    }
 
