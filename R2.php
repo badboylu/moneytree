@@ -58,8 +58,8 @@
                             <p id="invalidpassword" style="font-size:14px; color:red; display:none;">*Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character</p>
                             <p id="passwordmatch" style="font-size:14px; color:red; display:none;">*Passwords don't match</p>
                             <input class="form-control" type="password" name="pwdrepeat" placeholder="Repeat Password" required>
-                           <div class="form-button">
-                                <button type="submit" class="ibtn" >Submit</button>
+                            <div class="form-button">
+                            <button type="submit" class="ibtn" >Submit</button>
                             </div>
                         </form>
                     </div>
