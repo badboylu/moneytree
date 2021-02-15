@@ -37,8 +37,12 @@
    mysqli_stmt_close($stmt);
    mysqli_close($conn);
 
- echo'
- <html>
+else{
+ header("Location:FPW.html?error=posterror");
+ exit();
+}
+?>
+<html>
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>
 <script>
@@ -57,11 +61,5 @@ Email.send({
 sendemail();
 </script> 
 </html>
- ';
-
-else{
- header("Location:FPW.html?error=posterror");
- exit();
-}
 
    
