@@ -5,6 +5,21 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $auth=$_GET['auth'];
+   $sql="SELECT * FROM pwdrest WHERE pwdResetToken=?";
+  $stmt=mysqli_stmt_init($conn);
+  if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Reset.php?error=SQL1");
+       exit();
+ }
+   mysqli_stmt_bind_param($stmt,"s",$userEmail);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+   mysqli_stmt_close($stmt);
+ if (!$count>0){
+    header("Location:Reset.php?error=emailnotfound");
+    exit();
+ }
 ?>
 <html lang="en">
 <head>
@@ -48,6 +63,8 @@
 </script>
 <script>
 function sendemail(){
+let count="<?php echo $count ?>";
+if(count==1){
 Email.send({
     Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
@@ -57,6 +74,7 @@ Email.send({
     Subject : "Reset Canibuy password",
     Body : '<p>Hello,</p><p>we have recieved a request to reset your account password on the canibuy site. We have generated a link for you to reset your password below. Please click on the link below to change your password.</p><p><a href="https://www.canibuy.co.za/R2.php?auth=<?php echo $auth; ?>"> Password reset link </a></p><p>If you did not make this request or need assistance, please send a email to support@canibuy.site and inform us. Thank you</p>'              
 });
+}
 }
 sendemail();
 </script> 
