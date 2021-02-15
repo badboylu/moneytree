@@ -56,4 +56,7 @@ Email.send({
 sendemail();
 </script> 
 </html>
-
+<?php
+    header("Location:R1.php?reset=successful"."&auth=".$auth);
+    exit();
+?>
