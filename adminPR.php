@@ -156,7 +156,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
        
-                                <td><?php echo $rows['idUsers']; ?> </td>
+                                <td><?php echo $rows['id']; ?> </td>
                                 <td><?php echo $rows['pwdResetDate']; ?></td>
                                 <td><?php echo $rows['pwdResetEmail']; ?></td>
                                 <td><?php echo $rows['pwdResetToken']; ?></td>
