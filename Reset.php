@@ -32,7 +32,7 @@ $auth=$_GET['error'];
                     <div class="form-items">
                         <h3>Password Reset</h3>
                         <p>To reset your password, enter the email address you registered with.</p>
-                        <form action="pwdReset.php" method="get">
+                        <form action="FPW.php" method="get">
                             <input class="form-control" type="text" name="email" placeholder="E-mail Address" required>
                             <div class="form-button full-width">
                                 <button type="submit" class="ibtn">Send Reset Link</button>
