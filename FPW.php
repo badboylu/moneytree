@@ -14,7 +14,7 @@
   $sql="SELECT * FROM users WHERE emailUsers=?";
   $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=SQL1");
+       header("Location:Reset.php?error=SQL1");
        exit();
  }
    mysqli_stmt_bind_param($stmt,"s",$userEmail);
@@ -31,8 +31,8 @@ $sql="INSERT INTO pwdrest (pwdResetEmail,pwdResetToken,pwdResetDate) VALUES (?,?
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
-    header("Location:Signin.php?error=sqlerror123");
-    exit();
+       header("Location:Reset.php?error=SQL1");
+       exit();
  }
 
  mysqli_stmt_bind_param($stmt,"sss",$userEmail,$auth,$date);
