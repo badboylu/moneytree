@@ -31,6 +31,9 @@ while($row=mysqli_fetch_array($result)){
 $custiemail=Min($email);
 echo $custiemail;
 
+      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$collect."' ";
+      mysqli_query($conn,$sql);
+
 ?>
 
 
