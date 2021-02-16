@@ -65,12 +65,9 @@ src="ShowHandlers.js" >
 </script>
 <script>
 function handler(){
- let confirmation="<?php echo $auth; ?>";
- if(confirmation=="emailnotf"){
-  document.getElementById("wrngemail").style.display = "block";
- }
- if(confirmation=="linksent"){
-  document.getElementById("link").style.display = "block";
+ let confirmation="<?php echo $reset; ?>";
+ if(confirmation=="successful"){
+  document.getElementById("successful4").style.display = "block";
  }
 }
 handler();
