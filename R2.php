@@ -16,7 +16,7 @@
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
  if (!$count>0){
-    header("Location:Signin.php?error=notloggedin");
+    header("Location:X1.php?error=expired");
     exit();
 }
  
