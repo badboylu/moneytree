@@ -37,7 +37,7 @@ $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
- if (!$count>0){
+ if ($count>0){
     header("Location:Reset.php?error=linksent");
     exit();
  }
