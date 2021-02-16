@@ -9,6 +9,7 @@ $username=$_POST['uid'];
 $email=$_POST['email'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
+$hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 
 $sql="SELECT uidUsers FROM users WHERE uidUsers=?";
 $stmt=mysqli_stmt_init($conn);
@@ -57,7 +58,8 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:register.php?error=invalidpwd"."&username=".$username."&email=".$email);
        exit();
 }
-     header("Location:Shop.php?signup=successful"."&username=".$uid);
+
+     header("Location:R4.php?signup=complete"."&username=".$uid."&email=".$email."&auth=".$hashedPwd);
      exit();
       
 ?>
