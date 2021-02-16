@@ -42,7 +42,7 @@ $signup=$_GET['signup'];
                             <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
                             <p id="notloggedin" style="font-size:14px; color:red; display:none;">*Please login</p>
                             <p id="successful" style="font-size:14px; color:orange; display:none;">Logged out</p>
-                            <p id="successful2" style="font-size:14px; color:green; display:none;">Thank you for visiting <span style="color:orange;">canibuy</span></p>
+                            <p id="successful2" style="font-size:14px; color:green; display:none;">Thank you for visiting</p>
                             <p id="successful3" style="font-size:14px; color:green; display:none;">Sign-up to Canibuy successful. Welcome! Please log in</p>
                             <p id="successful4" style="font-size:14px; color:orange; display:none;">Password successfully reset</p>
                             <p id="successful5" style="font-size:14px; color:orange; display:none;">Sign-up successful</p>
