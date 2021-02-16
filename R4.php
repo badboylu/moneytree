@@ -57,7 +57,7 @@ Email.send({
     To : 'liyandza.magagula@gmail.com',
     From : "no-reply@canibuy.site",
     Subject : "Canibuy account activation",
-    Body : '<p>Hello,</p><p>We at Canibuy welcome you to our online store. The last step to getting your account active is to confirm your email address. Please click on the link below to activate your account.</p><p><a href="https://www.canibuy.co.za/R4.php?signup=complete"."&username=<?php echo $username; ?>"."&email=<?php echo $email; ?>"."&auth=<?php echo $password; ?>"> Account activation link </a></p><p>If you did not make this request or need assistance, please send a email to support@canibuy.site and inform us. Thank you</p>'              
+    Body : '<p>Hello,</p><p>We at Canibuy welcome you to our online store. The last step to getting your account active is to confirm your email address. Please click on the link below to activate your account.</p><p><a href="https://www.canibuy.co.za/S1.php?signup=complete"."&username=<?php echo $username; ?>"."&email=<?php echo $email; ?>"."&auth=<?php echo $password; ?>"> Account activation link </a></p><p>If you did not make this request or need assistance, please send a email to support@canibuy.site and inform us. Thank you</p>'              
   });
 }
 sendemail();
