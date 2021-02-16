@@ -50,7 +50,7 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3><span style="color:green"> Password reset link sent!</span></h3>
+                        <h3><span style="color:green"> Password reset link sent! <?php echo $count; ?></span></h3>
                         
                         <p>Check your email for the link to reset your password</p>
                     </div>
