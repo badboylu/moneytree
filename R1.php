@@ -65,7 +65,7 @@
 <script>
 function sendemail(){
 let count="<?php echo $count ?>";
-if(count!>0){
+if(count==0){
 Email.send({
     Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
