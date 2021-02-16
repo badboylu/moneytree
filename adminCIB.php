@@ -165,6 +165,10 @@ $result=mysqli_query($conn,$query);
                             <?php } ?>
                             </tbody>
                         </table>
+                      <br>
+                                <form action="UserReset.php" method="post" id="form">
+                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
+                                </form>
                     </div>
                 </div>
             </div>
