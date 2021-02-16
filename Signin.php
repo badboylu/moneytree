@@ -1,5 +1,5 @@
 <?php
-
+$reset=$_GET['pwdReset'];
 ?>
 <html lang="en">
 <head>
@@ -62,5 +62,8 @@
 </body>
 <script 
 src="ShowHandlers.js" >
+</script>
+<script>
+
 </script>
 </html>
