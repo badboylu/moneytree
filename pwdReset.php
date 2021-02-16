@@ -32,12 +32,10 @@ $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 
       $sql="UPDATE users SET pwdUsers='".$hashedPwd."' WHERE emailUsers='".$custiemail."' ";
       mysqli_query($conn,$sql);
-      $sql="DELETE * SET pwdUsers='".$hashedPwd."' WHERE emailUsers='".$custiemail."' ";
+      $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$custiemail."' ";
       mysqli_query($conn,$sql);
       header("Location:Signin.php?pwdReset=successful");
       exit();
-
-
 ?>
 
 
