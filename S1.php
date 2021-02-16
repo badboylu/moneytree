@@ -20,5 +20,5 @@ $password=$_GET['auth'];
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
 
-     header("Location:Shop.php?signup=successful");
+     header("Location:Signin.php?signup=successful");
      exit();
