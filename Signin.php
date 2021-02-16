@@ -64,6 +64,15 @@ $reset=$_GET['pwdReset'];
 src="ShowHandlers.js" >
 </script>
 <script>
-
+function handler(){
+ let confirmation="<?php echo $auth; ?>";
+ if(confirmation=="emailnotf"){
+  document.getElementById("wrngemail").style.display = "block";
+ }
+ if(confirmation=="linksent"){
+  document.getElementById("link").style.display = "block";
+ }
+}
+handler();
 </script>
 </html>
