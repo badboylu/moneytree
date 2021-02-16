@@ -21,7 +21,7 @@ $password=$_GET['auth'];
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
  if (!$count>0){
-    header("Location:Signin.php?error=notloggedin");
+    header("Location:X1.php?error=expired");
     exit();
  }
 
