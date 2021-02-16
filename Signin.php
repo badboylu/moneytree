@@ -45,6 +45,7 @@ $signup=$_GET['signup'];
                             <p id="successful2" style="font-size:14px; color:green; display:none;">Thank you for visiting <span style="color:orange;">canibuy.co.za</span>. We hope you come again soon!</p>
                             <p id="successful3" style="font-size:14px; color:green; display:none;">Sign-up to Canibuy successful. Welcome! Please log in</p>
                             <p id="successful4" style="font-size:14px; color:orange; display:none;">Password successfully reset</p>
+                            <p id="successful5" style="font-size:14px; color:orange; display:none;"Sign-up successful</p>
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Login</button> 
                                <a href="Reset.php">Forgot password?</a>
@@ -67,8 +68,12 @@ src="ShowHandlers.js" >
 <script>
 function handler(){
  let confirmation="<?php echo $reset; ?>";
+ let signup="<?php echo $signup; ?>";
  if(confirmation=="successful"){
   document.getElementById("successful4").style.display = "block";
+ }
+ if(signup=="successful"){
+  document.getElementById("successful5").style.display = "block";
  }
 }
 handler();
