@@ -19,7 +19,7 @@ $password=$_GET['auth'];
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
- if (!$count>0){
+ if (!$count){
     $count='0';
  }
 ?>
