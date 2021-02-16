@@ -68,14 +68,19 @@ src="ShowHandlers.js" >
 <script>
 function handler(){
  let confirmation="<?php echo $reset; ?>";
- let signup="<?php echo $signup; ?>";
  if(confirmation=="successful"){
   document.getElementById("successful4").style.display = "block";
  }
- else if(signup=="successful"){
+}
+handler();
+</script>
+<script>
+function handler2(){
+ let signup="<?php echo $signup; ?>";
+ if(signup=="successful"){
   document.getElementById("successful5").style.display = "block";
  }
 }
-handler();
+handler2();
 </script>
 </html>
