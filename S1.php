@@ -19,6 +19,7 @@ $password=$_GET['auth'];
      mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
-
+     $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$email."' ";
+     mysqli_query($conn,$sql);
      header("Location:Signin.php?signup=successful");
      exit();
