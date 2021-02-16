@@ -71,7 +71,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_execute($stmt);
 
 
-     header("Location:R4.php?signup=complete"."&username=".$uid."&email=".$email."&auth=".$hashedPwd);
+     header("Location:R4.php?signup=complete"."&username=".$username."&email=".$email."&auth=".$hashedPwd);
      exit();
       
 ?>
