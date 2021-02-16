@@ -82,7 +82,7 @@ sendemail();
 </script> 
 </html>
 <?php
-if($count=0){
+if(!$count>0){
 $sql="INSERT INTO pwdrest (pwdResetEmail) VALUES (?);";
     $stmt= mysqli_stmt_init($conn);
 if(!mysqli_stmt_prepare($stmt, $sql)){
