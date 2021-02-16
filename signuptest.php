@@ -59,6 +59,18 @@ $stmt=mysqli_stmt_init($conn);
        exit();
 }
 
+    $sql="INSERT INTO pwdrest (pwdResetEmail) VALUES (?,?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+       header("Location:Reset.php?error=SQL1");
+       exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"s",$email);
+ mysqli_stmt_execute($stmt);
+
+
      header("Location:R4.php?signup=complete"."&username=".$uid."&email=".$email."&auth=".$hashedPwd);
      exit();
       
