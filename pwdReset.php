@@ -8,7 +8,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_POST['auth'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
-
+$hashedPwd=password_hash($password,PASSWORD_DEFAULT);
    if($_POST['pwd'] != $_POST['pwdrepeat']){
        header("Location:R2.php?error=pwdnomatch"."&auth=".$auth."&email=".$email);
        exit();
@@ -23,16 +23,19 @@ $passwordrepeat=$_POST['pwdrepeat'];
        exit();
    }  
   
-$query='SELECT * FROM pwdrest WHERE pwdResetToken="'.$auth.'" ';
-$result=mysqli_query($conn,$query);
-while($row=mysqli_fetch_array($result)){
- $email[]=$row['pwdResetEmail'];
-}
-$custiemail=Min($email);
-echo $custiemail;
+   $query='SELECT * FROM pwdrest WHERE pwdResetToken="'.$auth.'" ';
+   $result=mysqli_query($conn,$query);
+   while($row=mysqli_fetch_array($result)){
+    $email[]=$row['pwdResetEmail'];
+   }
+   $custiemail=Min($email);
 
-      $sql="UPDATE deliverytoken SET idPrepperToken='".$stat."' WHERE idPrepperToken='".$collect."' ";
+      $sql="UPDATE users SET pwdUsers='".$hashedPwd."' WHERE emailUsers='".$custiemail."' ";
       mysqli_query($conn,$sql);
+
+      header("Location:Signin.php?pwdReset=successful");
+      exit();
+
 
 ?>
 
