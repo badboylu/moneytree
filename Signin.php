@@ -1,5 +1,6 @@
 <?php
 $reset=$_GET['pwdReset'];
+$signup=$_GET['Signup'];
 ?>
 <html lang="en">
 <head>
