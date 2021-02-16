@@ -72,7 +72,7 @@ function handler(){
  if(confirmation=="successful"){
   document.getElementById("successful4").style.display = "block";
  }
- if(signup=="successful"){
+ else if(signup=="successful"){
   document.getElementById("successful5").style.display = "block";
  }
 }
