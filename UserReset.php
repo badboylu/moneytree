@@ -6,6 +6,6 @@ $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $sql="DELETE FROM users";
 mysqli_query($conn, $sql);
-    header("Location:adminOrders.php");
+    header("Location:adminCIB.php");
     exit();
 
