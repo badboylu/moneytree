@@ -11,6 +11,20 @@ $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 
+$sql='SELECT * FROM pwdrest WHERE pwdResetEmail=?';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$email);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $count=mysqli_stmt_num_rows($stmt);
+ if ($count>0){
+    header("Location:X2.php?error=sent");
+    exit();
+}
 $sql="SELECT uidUsers FROM users WHERE uidUsers=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
