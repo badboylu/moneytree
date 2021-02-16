@@ -1,5 +1,5 @@
 <?php
-$auth=bin2hex(random_bytes(16));
+$password=bin2hex(random_bytes(16));
 $email='liyandza.magagula@gmail.com';
 $username='Lunga';
 ?>
