@@ -23,6 +23,13 @@ $passwordrepeat=$_POST['pwdrepeat'];
        header("Location:R2.php?error=invalidpwd"."&auth=".$auth);
        exit();
 }    
+$query='SELECT * FROM pwdRest WHERE pwdResetToken="'.$auth.'" ';
+$result=mysqli_query($conn,$query);
+while($row=mysqli_fetch_array($result)){
+ $email[]=$row['pwdResetEmail'];
+}
+$custiemail=Min($email);
+echo $custiemail;
 ?>
 
 
