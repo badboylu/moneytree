@@ -20,8 +20,7 @@ $password=$_GET['auth'];
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
  if (!$count>0){
-    header("Location:Signin.php?error=notloggedin");
-    exit();
+    $count='0';
  }
 ?>
 <html lang="en">
@@ -67,7 +66,7 @@ $password=$_GET['auth'];
 <script>
 function sendemail(){
 let count="<?php echo $count ?>";
-if(count!>0){
+if(count=='0'){
 Email.send({
     Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
@@ -82,3 +81,13 @@ Email.send({
 sendemail();
 </script> 
 </html>
+<?php
+$sql="INSERT INTO pwdrest (pwdResetEmail) VALUES (?);";
+    $stmt= mysqli_stmt_init($conn);
+if(!mysqli_stmt_prepare($stmt, $sql)){
+       header("Location:Reset.php?error=SQL1");
+       exit();
+ }
+ mysqli_stmt_bind_param($stmt,"s",$email);
+ mysqli_stmt_execute($stmt);
+?>
