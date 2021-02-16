@@ -19,3 +19,6 @@ $password=$_GET['auth'];
      mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_store_result($stmt);
+
+     header("Location:Shop.php?signup=successful");
+     exit();
