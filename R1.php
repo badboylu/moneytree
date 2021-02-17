@@ -91,4 +91,5 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 
  mysqli_stmt_bind_param($stmt,"sss",$email,$auth,$date);
  mysqli_stmt_execute($stmt);
+}
 ?>
