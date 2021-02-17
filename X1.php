@@ -1,28 +1,3 @@
-<?php
-   $servername="us-cdbr-east-02.cleardb.com";
-   $dBUsername="b7fcd41c893d7a";
-   $dBPassword="1e8f896b7da9e41";
-   $dBName="heroku_61db5a5cdc2dfd8";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $auth=$_GET['auth'];
-   $email=$_GET['email'];
-   $date = date("Y-m-d");
-   date_default_timezone_set('Africa/Johannesburg');
-   $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
-  $stmt=mysqli_stmt_init($conn);
-  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Reset.php?error=SQL1");
-       exit();
- }
-   mysqli_stmt_bind_param($stmt,"s",$email);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $count=mysqli_stmt_num_rows($stmt);
-   mysqli_stmt_close($stmt);
- if (!$count>0){
-    $count='0';
- }
-?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,9 +21,9 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3><span style="color:green"> Password reset link sent!</span></h3>
+                        <h3><span style="color:orange">Link expired</span></h3>
                         
-                        <p>Check your email for the link to reset your password</p>
+                        <p>This link has been used. If need be, please request a new link from the site.</p>
                     </div>
                 </div>
             </div>
