@@ -19,7 +19,6 @@ document.getElementById("form").submit();
 }
 function clear(){
 
-  localStorage.setItem('Send', 1);
   localStorage.removeItem("BatchCC");
   localStorage.removeItem("totalAmountCC");
   localStorage.removeItem("totalCostCC");
