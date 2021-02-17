@@ -14,13 +14,7 @@ $signup=$_GET['signup'];
 </head>
 <body>
     <div class="form-body without-side">
-        <div class="website-logo">
-            <a href="index.html">
-                <div class="logo">
-                    <img class="logo-size" src="logo-light.svg" alt="">
-                </div>
-            </a>
-        </div>
+        
         <div class="row">
             <div class="img-holder">
                 <div class="bg"></div>
