@@ -36,10 +36,10 @@ $signup=$_GET['signup'];
                         
                         <form action="logintest.php" method="post">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="E-mail/Username" required>
-                            <p id="username" style="font-size:14px; color:red; display:none;">*incorrect username/email</p>
+                            <p id="username" style="font-size:14px; color:red; display:none;">*Incorrect username/email</p>
                             
                             <input class="form-control" type="password" name="pwd" placeholder="Password" required>
-                            <p id="password" style="font-size:14px; color:red; display:none;">*incorrect password</p>
+                            <p id="password" style="font-size:14px; color:red; display:none;">*Incorrect password</p>
                             <p id="notloggedin" style="font-size:14px; color:red; display:none;">*Not logged in</p>
                             <p id="successful" style="font-size:14px; color:orange; display:none;">Logged out</p>
                             <p id="successful2" style="font-size:14px; color:green; display:none;">Thank you for visiting</p>
