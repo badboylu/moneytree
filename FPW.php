@@ -42,6 +42,17 @@ $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
     exit();
  }
 
-    header("Location:R1.php?error=linksent");
-    exit();
+    
+$sql="INSERT INTO pwdrest (pwdResetToken,pwdResetDate) VALUES (?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+       header("Location:Reset.php?error=SQL1");
+       exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"ss"$auth,$date);
+ mysqli_stmt_execute($stmt);
+
+    header("Location:R1.php?link=sent"."&auth=".$auth."&email=".$userEmail);
 ?>
