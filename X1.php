@@ -24,6 +24,9 @@
                         <h3><span style="color:orange">Link expired</span></h3>
                         
                         <p>This link has been used. If need be, please request a new link from the site.</p>
+                        <p><div class="page-links">
+                        <a href="Signin.php"><span style="color:green">Login<span></a>
+                        </div></p>
                     </div>
                 </div>
             </div>
