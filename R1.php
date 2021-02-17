@@ -6,6 +6,8 @@
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $auth=$_GET['auth'];
    $email=$_GET['email'];
+   $date = date("Y-m-d");
+   date_default_timezone_set('Africa/Johannesburg');
    $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
   $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
