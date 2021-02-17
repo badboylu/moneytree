@@ -132,13 +132,16 @@ echo $htmlForm;
 ?>
 <html>
 <script>
-localStorage.setItem('eTotal', 1);
+localStorage.setItem('eTotal', <?php echo $total; ?>);
+
 localStorage.setItem('eOrdernumber', 1);
+
 localStorage.setItem('eAddress', 1);
+
 localStorage.setItem('eProduct', 1);
-localStorage.setItem('eContact', 1);
-localStorage.setItem('eRecipient', 1);
-localStorage.setItem('eDate', 1);
+
+localStorage.setItem('eContact', <?php echo $contactnumber; ?>);
+localStorage.setItem('eDate', <?php echo $date; ?>);
 </script>
 </html>
 <?php
