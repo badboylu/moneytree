@@ -42,6 +42,6 @@ $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
     exit();
  }
 
-    header("Location:R4.php?error=linksent");
+    header("Location:R1.php?error=linksent");
     exit();
 ?>
