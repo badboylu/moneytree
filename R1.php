@@ -89,6 +89,6 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
        exit();
  }
 
- mysqli_stmt_bind_param($stmt,"sss",$userEmail,$auth,$date);
+ mysqli_stmt_bind_param($stmt,"sss",$email,$auth,$date);
  mysqli_stmt_execute($stmt);
 ?>
