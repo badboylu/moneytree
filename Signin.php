@@ -35,7 +35,7 @@ $signup=$_GET['signup'];
                         <p style="color:green;" >Cannibus Health Store</p>
                         
                         <form action="logintest.php" method="post">
-                            <input id="uid" class="form-control" type="text" name="uid" placeholder="E-mail/Username" required>
+                            <input id="uid" class="form-control" type="text" name="uid" placeholder="Username/E-mail" required>
                             <p id="username" style="font-size:14px; color:red; display:none;">*Incorrect username/email</p>
                             
                             <input class="form-control" type="password" name="pwd" placeholder="Password" required>
