@@ -81,13 +81,14 @@ sendemail();
 </html>
 <?php
 if(!$count>0){
-$sql="INSERT INTO pwdrest (pwdResetEmail) VALUES (?);";
+$sql="INSERT INTO pwdrest (pwdResetEmail,pwdResetToken,pwdResetDate) VALUES (?,?,?);";
     $stmt= mysqli_stmt_init($conn);
+
 if(!mysqli_stmt_prepare($stmt, $sql)){
        header("Location:Reset.php?error=SQL1");
        exit();
  }
- mysqli_stmt_bind_param($stmt,"s",$email);
+
+ mysqli_stmt_bind_param($stmt,"sss",$userEmail,$auth,$date);
  mysqli_stmt_execute($stmt);
-}
 ?>
