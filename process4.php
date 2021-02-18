@@ -28,7 +28,6 @@ mysqli_query($conn,$sql2);
 <form action="T1.php" method="get" id="form">
 <input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
-
 <input type="hidden" name="PacksBW" value="" id="PacksBW">
 <input type="hidden" name="eTotal" value="" id="eTotal">
 <input type="hidden" name="eOrdernumber" value="" id="eOrdernumber">
@@ -68,35 +67,35 @@ function submit(){
 document.getElementById("form").submit();
 }
 function email(){
-localStorage.getItem('PacksBW'); 
-localStorage.getItem('eTotal');
-localStorage.getItem('eOrdernumber');
-localStorage.getItem('eCity');
-localStorage.getItem('eTown');
-localStorage.getItem('eSuburb');
-localStorage.getItem('eStreet');
-localStorage.getItem('eMall');
-localStorage.getItem('eBuilding');
-localStorage.getItem('eShop');
-localStorage.getItem('eComplex';
-localStorage.getItem('eCompany');
-localStorage.getItem('eHouseNumber');
-localStorage.getItem('eUnitNumber');
-localStorage.getItem('eEstate');
-localStorage.getItem('eDP');
-localStorage.getItem('eCC');
-localStorage.getItem('eOC');
-localStorage.getItem('eBW');
-localStorage.getItem('eNL');
-localStorage.getItem('ePR');
-localStorage.getItem('eCCES');
-localStorage.getItem('ePE');
-localStorage.getItem('eContact');
-localStorage.getItem('eDate');
+let PacksBW = localStorage.getItem('PacksBW'); 
+let eTotal = localStorage.getItem('eTotal');
+let eOrdernumber = localStorage.getItem('eOrdernumber');
+let eCity = localStorage.getItem('eCity');
+let eTown = localStorage.getItem('eTown');
+let eSuburb = localStorage.getItem('eSuburb');
+let eStreet = localStorage.getItem('eStreet');
+let eTotal = localStorage.getItem('eMall');
+let eTotal = localStorage.getItem('eBuilding');
+let eTotal = localStorage.getItem('eShop');
+let eTotal = localStorage.getItem('eComplex';
+let eTotal = localStorage.getItem('eCompany');
+let eTotal = localStorage.getItem('eHouseNumber');
+let eTotal = localStorage.getItem('eUnitNumber');
+let eTotal = localStorage.getItem('eEstate');
+let eTotal = localStorage.getItem('eDP');
+let eTotal = localStorage.getItem('eCC');
+let eTotal = localStorage.getItem('eOC');
+let eTotal = localStorage.getItem('eBW');
+let eTotal = localStorage.getItem('eNL');
+let eTotal = localStorage.getItem('ePR');
+let eTotal = localStorage.getItem('eCCES');
+let eTotal = localStorage.getItem('ePE');
+let eTotal = localStorage.getItem('eContact');
+let eTotal = localStorage.getItem('eDate');
 }
 user();
 auth();
-submit();
 email();
+submit();
 </script>
 </html>
