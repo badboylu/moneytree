@@ -130,7 +130,14 @@ foreach($data as $name=> $value)
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
 echo $htmlForm;
 ?>
-
+<html>
+<script>
+function set(){
+document.getElementById("form").submit();
+}
+set();
+</script>
+</html>
 <?php
 echo'
 <script>
