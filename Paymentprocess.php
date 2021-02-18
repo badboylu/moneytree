@@ -133,7 +133,7 @@ echo $htmlForm;
 <html>
 <script>
 function set(){
-localStorage.setItem('eTotal', 1);
+localStorage.setItem('eTotal', <?php echo $total; ?>);
 }
 set();
 </script>
