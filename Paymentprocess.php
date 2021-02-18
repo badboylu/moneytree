@@ -129,40 +129,14 @@ foreach($data as $name=> $value)
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
 
-   $query="SELECT * FROM oders WHERE idOrderConfirmation='Placed' AND idOrderUsername='".$username."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $ordernumbers[]=$row['idOrders'];
-   }
-   $order=Min($ordernumbers);
    
-   $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $ordertoken[]=$row['idOrderToken'];
-   }
-   $token=Min($ordertoken); 
-
-   $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $custitoken[]=$row['idOrderCustiCode'];
-   }
-   $code=Min($custitoken); 
-
-   $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $ordernm[]=$row['idOrder'];
-   }
-   $ordernmb=Min($ordernm); 
 ?>
 <html>
 
 <script>
 function set(){
 localStorage.setItem('eTotal', <?php echo $total; ?>);
-localStorage.setItem('eOrdernumber', <?php echo $ordernmb; ?>);
+
 localStorage.setItem('eCity', <?php echo $city; ?>);
 localStorage.setItem('eTown', <?php echo $town; ?>);
 localStorage.setItem('eSuburb', <?php echo $suburb; ?>);
