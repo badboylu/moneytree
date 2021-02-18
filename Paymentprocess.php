@@ -160,6 +160,7 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 <html>
 <?php echo $htmlForm; ?>
 <script>
+function set(){
 localStorage.setItem('eTotal', <?php echo $total; ?>);
 localStorage.setItem('eOrdernumber', <?php echo $ordernmb; ?>);
 localStorage.setItem('eCity', <?php echo $city; ?>);
@@ -184,11 +185,12 @@ localStorage.setItem('eCCES', <?php echo $cces; ?>);
 localStorage.setItem('ePE', <?php echo $pe; ?>);
 localStorage.setItem('eContact', <?php echo $contactnumber; ?>);
 localStorage.setItem('eDate', <?php echo $date; ?>);
+}
+function submit(){
+document.getElementById("form").submit();
+}
+set();
+submit();
 </script>
 </html>
-<?php
-echo'
-<script>
-   document.getElementById("form").submit();
-</script>';
-?>
+
