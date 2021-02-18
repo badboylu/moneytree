@@ -41,8 +41,12 @@ document.getElementById("auth").value = auth ;
 function submit(){
 document.getElementById("form").submit();
 }
+function email(){
+
+}
 user();
 auth();
 submit();
+email();
 </script>
 </html>
