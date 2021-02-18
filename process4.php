@@ -42,31 +42,31 @@ function submit(){
 document.getElementById("form").submit();
 }
 function email(){
-localStorage.setItem('eTotal', <?php echo $total; ?>);
-localStorage.setItem('eOrdernumber', <?php echo $ordernmb; ?>);
-localStorage.setItem('eCity', <?php echo $city; ?>);
-localStorage.setItem('eTown', <?php echo $town; ?>);
-localStorage.setItem('eSuburb', <?php echo $suburb; ?>);
-localStorage.setItem('eStreet', <?php echo $street; ?>);
-localStorage.setItem('eMall', <?php echo $mall; ?>);
-localStorage.setItem('eBuilding', <?php echo $building; ?>);
-localStorage.setItem('eShop', <?php echo $shop; ?>);
-localStorage.setItem('eComplex', <?php echo $complex; ?>);
-localStorage.setItem('eCompany', <?php echo $company; ?>);
-localStorage.setItem('eHouseNumber', <?php echo $housenumber; ?>);
-localStorage.setItem('eUnitNumber', <?php echo $unitnumber; ?>);
-localStorage.setItem('eEstate', <?php echo $estate; ?>);
-localStorage.setItem('eDP', <?php echo $dp; ?>);
-localStorage.setItem('eCC', <?php echo $cc; ?>);
-localStorage.setItem('eOC', <?php echo $oc; ?>);
-localStorage.setItem('eBW', <?php echo $bw; ?>);
-localStorage.setItem('eNL', <?php echo $nl; ?>);
-localStorage.setItem('ePR', <?php echo $pr; ?>);
-localStorage.setItem('eCCES', <?php echo $cces; ?>);
-localStorage.setItem('ePE', <?php echo $pe; ?>);
-localStorage.setItem('eContact', <?php echo $contactnumber; ?>);
-localStorage.setItem('eDate', <?php echo $date; ?>);
-
+localStorage.getItem('PacksBW'); 
+localStorage.getItem('eTotal');
+localStorage.getItem('eOrdernumber', <?php echo $ordernmb; ?>);
+localStorage.getItem('eCity', <?php echo $city; ?>);
+localStorage.getItem('eTown', <?php echo $town; ?>);
+localStorage.getItem('eSuburb', <?php echo $suburb; ?>);
+localStorage.getItem('eStreet', <?php echo $street; ?>);
+localStorage.getItem('eMall', <?php echo $mall; ?>);
+localStorage.getItem('eBuilding', <?php echo $building; ?>);
+localStorage.getItem('eShop', <?php echo $shop; ?>);
+localStorage.getItem('eComplex', <?php echo $complex; ?>);
+localStorage.getItem('eCompany', <?php echo $company; ?>);
+localStorage.getItem('eHouseNumber', <?php echo $housenumber; ?>);
+localStorage.getItem('eUnitNumber', <?php echo $unitnumber; ?>);
+localStorage.getItem('eEstate', <?php echo $estate; ?>);
+localStorage.getItem('eDP', <?php echo $dp; ?>);
+localStorage.getItem('eCC', <?php echo $cc; ?>);
+localStorage.getItem('eOC', <?php echo $oc; ?>);
+localStorage.getItem('eBW', <?php echo $bw; ?>);
+localStorage.getItem('eNL', <?php echo $nl; ?>);
+localStorage.getItem('ePR', <?php echo $pr; ?>);
+localStorage.getItem('eCCES', <?php echo $cces; ?>);
+localStorage.getItem('ePE', <?php echo $pe; ?>);
+localStorage.getItem('eContact', <?php echo $contactnumber; ?>);
+localStorage.getItem('eDate', <?php echo $date; ?>);
 }
 user();
 auth();
