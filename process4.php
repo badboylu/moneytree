@@ -53,17 +53,21 @@ mysqli_query($conn,$sql2);
 <input type="hidden" name="eDate" value="" id="eDate">
 </form>
 <script>
+ 
 function user(){
 let user = localStorage.getItem('username');
 document.getElementById("user").value = user;
 }
+ 
 function auth(){
 let auth = localStorage.getItem('token');
 document.getElementById("auth").value = auth ;
 }
+ 
 function submit(){
 document.getElementById("form").submit();
 }
+ 
 function email(){
 let eTotal = localStorage.getItem('eTotal');
 let eCity = localStorage.getItem('eCity');
@@ -88,29 +92,75 @@ let eCCES = localStorage.getItem('eCCES');
 let ePE = localStorage.getItem('ePE');
 let eContact = localStorage.getItem('eContact');
 let eDate = localStorage.getItem('eDate');
+if(eTotal){
 document.getElementById("eTotal").value = eTotal;
+}
+if(eCity){
 document.getElementById("eCity").value = eCity;
+}
+if(eTown){
 document.getElementById("eTown").value = eTown;
+}
+if(eSuburb){
 document.getElementById("eSuburb").value = eSuburb;
+}
+if(eStreet){
 document.getElementById("eStreet").value = eStreet;
+}
+if(eMall){
 document.getElementById("eMall").value = eMall;
+}
+if(eBuilding){
 document.getElementById("eBuilding").value = eBuilding;
+}
+if(eShop){
 document.getElementById("eShop").value = eShop;
+}
+if(eComplex){
 document.getElementById("eComplex").value = eComplex;
+}
+if(eCompany){
 document.getElementById("eCompany").value = eCompany;
+}
+if(eHouseNumber){
 document.getElementById("eHouseNumber").value = eHouseNumber;
+}
+if(eUnitNumber){
 document.getElementById("eUnitNumber").value = eUnitNumber;
+}
+if(eEstate){
 document.getElementById("eEstate").value = eEstate;
+}
+if(eDP){
 document.getElementById("eDP").value = eDP;
+}
+if(eCC){
 document.getElementById("eCC").value = eCC;
+}
+if(eOC){
 document.getElementById("eOC").value = eOC;
+}
+if(eBW){
 document.getElementById("eBW").value = eBW;
+}
+if(eNL){
 document.getElementById("eNL").value = eNL;
+}
+if(ePR){
 document.getElementById("ePR").value = ePR;
+}
+if(eCCES){
 document.getElementById("eCCES").value = eCCES;
+}
+if(ePE){
 document.getElementById("ePE").value = ePE;
+}
+if(eContact){
 document.getElementById("eContact").value = eContact;
+}
+if(eDate){
 document.getElementById("eDate").value = eDate;
+}
 }
 user();
 auth();
