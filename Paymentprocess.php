@@ -156,8 +156,8 @@ localStorage.setItem('eCCES', <?php echo $cces; ?>);
 localStorage.setItem('ePE', <?php echo $pe; ?>);
 localStorage.setItem('eContact', <?php echo $contactnumber; ?>);
 localStorage.setItem('eDate', <?php echo $date; ?>);
-localStorage.setItem('username', <?php echo $contactnumber; ?>);
-localStorage.setItem('auth', <?php echo $date; ?>);
+localStorage.setItem('username', <?php echo $username; ?>);
+localStorage.setItem('token', <?php echo $authtoken; ?>);
 }
 set();
 </script>
