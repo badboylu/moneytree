@@ -161,12 +161,29 @@ echo $htmlForm;
 <html>
 <script>
 localStorage.setItem('eTotal', <?php echo $total; ?>);
-
 localStorage.setItem('eOrdernumber', <?php echo $ordernmb; ?>);
 
-localStorage.setItem('eAddress', 1);
+localStorage.setItem('eCity', 1);
+localStorage.setItem('eTown', 1);
+localStorage.setItem('eSuburb', 1);
+localStorage.setItem('eStreet', 1);
+localStorage.setItem('eMall', 1);
+localStorage.setItem('eBuilding', 1);
+localStorage.setItem('eShop', 1);
+localStorage.setItem('eComplex', 1);
+localStorage.setItem('eCompany', 1);
+localStorage.setItem('eHouseNumber', 1);
+localStorage.setItem('eUnitNumber', 1);
+localStorage.setItem('eEstate', 1);
 
-localStorage.setItem('eProduct', 1);
+localStorage.setItem('eDP', 1);
+localStorage.setItem('eCC', 1);
+localStorage.setItem('eOC', 1);
+localStorage.setItem('eBW', 1);
+localStorage.setItem('eNL', 1);
+localStorage.setItem('ePR', 1);
+localStorage.setItem('eCCES', 1);
+localStorage.setItem('ePE', 1);
 
 localStorage.setItem('eContact', <?php echo $contactnumber; ?>);
 localStorage.setItem('eDate', <?php echo $date; ?>);
