@@ -128,11 +128,10 @@ foreach($data as $name=> $value)
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
-?>
-<html>
-<?php echo $htmlForm; ?>
+echo $htmlForm;
+echo'
 <script>
-function set(){
+   function set(){
 localStorage.setItem('eTotal', <?php echo $total; ?>);
 localStorage.setItem('eCity', <?php echo $city; ?>);
 localStorage.setItem('eTown', <?php echo $town; ?>);
@@ -162,6 +161,6 @@ document.getElementById("form").submit();
 }
 set();
 submit();
-</script>
-</html>
+</script>';
+?>
 
