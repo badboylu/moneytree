@@ -162,4 +162,12 @@ localStorage.setItem('token', "<?php echo $authtoken; ?>");
 set();
 </script>
 </html>
-
+<?php
+echo'
+<script>
+function submit(){
+document.getElementById("form").submit();
+}
+submit();
+</script>';
+?>
