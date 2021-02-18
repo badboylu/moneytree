@@ -128,7 +128,6 @@ foreach($data as $name=> $value)
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
 }
 $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="Orderbtn" style="display:none"/></form>';
-echo $htmlForm;
 
    $query="SELECT * FROM oders WHERE idOrderConfirmation='Placed' AND idOrderUsername='".$username."' ";
    $result=mysqli_query($conn,$query);
@@ -159,6 +158,7 @@ echo $htmlForm;
    $ordernmb=Min($ordernm); 
 ?>
 <html>
+<?php echo $htmlForm; ?>
 <script>
 localStorage.setItem('eTotal', <?php echo $total; ?>);
 localStorage.setItem('eOrdernumber', <?php echo $ordernmb; ?>);
