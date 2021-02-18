@@ -132,7 +132,7 @@ echo $htmlForm;
 echo'
 <script>
 function set(){
-localStorage.setItem('eTotal', <?php echo $total; ?>);
+localStorage.setItem('eTotal', '.$total;.');
 }
 function submit(){
 document.getElementById("form").submit();
