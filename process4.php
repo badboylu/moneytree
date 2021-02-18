@@ -90,7 +90,6 @@ let eCCES = localStorage.getItem('eCCES');
 let ePE = localStorage.getItem('ePE');
 let eContact = localStorage.getItem('eContact');
 let eDate = localStorage.getItem('eDate');
-
 document.getElementById("eTotal").value = eTotal;
 document.getElementById("eOrdernumber").value = eOrdernumber;
 document.getElementById("eCity").value = eCity;
