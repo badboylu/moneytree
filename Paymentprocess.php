@@ -131,9 +131,13 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
 echo $htmlForm;
 echo'
 <script>
+function set(){
+localStorage.setItem('eTotal', <?php echo $total; ?>);
+}
 function submit(){
 document.getElementById("form").submit();
 }
+set();
 submit();
 </script>';
 ?>
