@@ -158,7 +158,7 @@ $htmlForm .= '<input type="submit" name="Pay" value="Order" id="Blanks" class="O
    $ordernmb=Min($ordernm); 
 ?>
 <html>
-<?php echo $htmlForm; ?>
+
 <script>
 function set(){
 localStorage.setItem('eTotal', <?php echo $total; ?>);
