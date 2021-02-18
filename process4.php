@@ -28,7 +28,6 @@ mysqli_query($conn,$sql2);
 <form action="T1.php" method="get" id="form">
 <input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
-<input type="hidden" name="PacksBW" value="" id="PacksBW">
 <input type="hidden" name="eTotal" value="" id="eTotal">
 <input type="hidden" name="eOrdernumber" value="" id="eOrdernumber">
 <input type="hidden" name="eCity" value="" id="eCity">
@@ -67,7 +66,6 @@ function submit(){
 document.getElementById("form").submit();
 }
 function email(){
-let PacksBW = localStorage.getItem('PacksBW'); 
 let eTotal = localStorage.getItem('eTotal');
 let eOrdernumber = localStorage.getItem('eOrdernumber');
 let eCity = localStorage.getItem('eCity');
@@ -93,7 +91,6 @@ let ePE = localStorage.getItem('ePE');
 let eContact = localStorage.getItem('eContact');
 let eDate = localStorage.getItem('eDate');
 
-document.getElementById("PacksBW").value = PacksBW;
 document.getElementById("eTotal").value = eTotal;
 document.getElementById("eOrdernumber").value = eOrdernumber;
 document.getElementById("eCity").value = eCity;
