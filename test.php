@@ -1,3 +1,8 @@
+<?php
+$total='250';
+$city='Pretoria';
+$town='Pretoria  East';
+?>
 <html>
 <script>
 function set(){
