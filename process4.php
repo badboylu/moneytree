@@ -75,6 +75,7 @@ user();
 auth();
 total();
 city();
+town();
 street();
 suburb();
 mall();
