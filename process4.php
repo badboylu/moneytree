@@ -29,6 +29,7 @@ mysqli_query($conn,$sql2);
 <input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
 <input type="hidden" name="eTotal" value="" id="eTotal">
+<input type="hidden" name="eCity" value="" id="eCity">
 </form>
 <script>
  
@@ -51,9 +52,15 @@ let total = localStorage.getItem('eTotal');
 document.getElementById("eTotal").value = total ;
 }
 
+function city(){
+let city = localStorage.getItem('eCity');
+document.getElementById("eCity").value = city ;
+}
+
 user();
 auth();
 total();
+city();
 submit();
 </script>
 </html>
