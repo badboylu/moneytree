@@ -28,6 +28,7 @@ mysqli_query($conn,$sql2);
 <form action="T1.php" method="get" id="form">
 <input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
+<input type="hidden" name="eTotal" value="" id="eTotal">
 </form>
 <script>
  
@@ -45,9 +46,14 @@ function submit(){
 document.getElementById("form").submit();
 }
  
+function total(){
+let total = localStorage.getItem('eTotal');
+document.getElementById("eTotal").value = total ;
+}
 
 user();
 auth();
+total();
 submit();
 </script>
 </html>
