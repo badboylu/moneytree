@@ -34,23 +34,6 @@ mysqli_query($conn,$sql2);
 <input type="hidden" name="eStreet" value="" id="eStreet">
 <input type="hidden" name="eSuburb" value="" id="eSuburb">
 <input type="hidden" name="eMall" value="" id="eMall">
-<input type="hidden" name="eBuilding" value="" id="eBuilding">
-<input type="hidden" name="eShop" value="" id="eShop">
-<input type="hidden" name="eComplex" value="" id="eComplex">
-<input type="hidden" name="eCompany" value="" id="eCompany">
-<input type="hidden" name="eHouseNumber" value="" id="eHouseNumber">
-<input type="hidden" name="eUnitNumber" value="" id="eUnitNumber">
-<input type="hidden" name="eEstate" value="" id="eEstate">
-<input type="hidden" name="eDP" value="" id="eDP">
-<input type="hidden" name="eCC" value="" id="eCC">
-<input type="hidden" name="eOC" value="" id="eOC">
-<input type="hidden" name="eBW" value="" id="eBW">
-<input type="hidden" name="eNL" value="" id="eNL">
-<input type="hidden" name="ePR" value="" id="ePR">
-<input type="hidden" name="eCCES" value="" id="eCCES">
-<input type="hidden" name="ePE" value="" id="ePE">
-<input type="hidden" name="eContact" value="" id="eContact">
-<input type="hidden" name="eDate" value="" id="eDate">
 </form>
 <script>
 function user(){
@@ -80,11 +63,21 @@ function street(){
 let street = localStorage.getItem('eStreet');
 document.getElementById("eStreet").value = street ;
 }
-
+function suburb(){
+let suburb = localStorage.getItem('eSuburb');
+document.getElementById("eSuburb").value = suburb ;
+}
+function mall(){
+let mall = localStorage.getItem('eMall');
+document.getElementById("eMall").value = mall ;
+}
 user();
 auth();
 total();
 city();
+street();
+suburb();
+mall();
 submit();
 </script>
 </html>
