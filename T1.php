@@ -26,31 +26,14 @@
    $dp = $_GET['eDP'];
    $cc = $_GET['eCC'];
    $oc = $_GET['eOC'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-
-
-
-
-<input type="hidden" name="eEstate" value="" id="eEstate">
-<input type="hidden" name="eDP" value="" id="eDP">
-<input type="hidden" name="eCC" value="" id="eCC">
-<input type="hidden" name="eOC" value="" id="eOC">
-<input type="hidden" name="eTown" value="" id="eTown">
-<input type="hidden" name="eBW" value="" id="eBW">
-<input type="hidden" name="eNL" value="" id="eNL">
-<input type="hidden" name="ePR" value="" id="ePR">
-<input type="hidden" name="eCCES" value="" id="eCCES">
-<input type="hidden" name="ePE" value="" id="ePE">
-<input type="hidden" name="eContact" value="" id="eContact">
-<input type="hidden" name="eDate" value="" id="eDate">
-</form>
+   $bw = $_GET['eBW'];
+   $nl = $_GET['eNL'];
+   $pr = $_GET['ePR'];
+   $cces = $_GET['eCCES'];
+   $pe = $_GET['ePE'];
+   $contact = $_GET['eContact'];
+   $date = $_GET['eDate'];
+   
 
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? OR idOrderConfirmation=? OR idOrderConfirmation=? AND idOrderUsername=? ";
    $stmt=mysqli_stmt_init($conn);
