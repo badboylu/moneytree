@@ -74,6 +74,13 @@
    $ordernm[]=$row['idOrder'];
    }
    $ordernmb=Min($ordernm); 
+
+   $query="SELECT * FROM users WHERE uidUsers='".$username."' ";
+   $result=mysqli_query($conn,$query);
+   while($row=mysqli_fetch_array($result)){
+   $usermail[]=$row['emailUsers'];
+   }
+   $email=Min($usermail); 
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
