@@ -149,6 +149,14 @@ function pe(){
 let pe = localStorage.getItem('ePE');
 document.getElementById("ePE").value = pe ;
 }
+function contact(){
+let contact = localStorage.getItem('eContact');
+document.getElementById("eContact").value = contact ;
+}
+function date(){
+let date = localStorage.getItem('eDate');
+document.getElementById("eDate").value = date ;
+}
 user();
 auth();
 total();
@@ -172,6 +180,8 @@ nl();
 pr();
 cces();
 pe();
+contact();
+date();
 submit();
 </script>
 </html>
