@@ -101,6 +101,26 @@ function complex(){
 let complex = localStorage.getItem('eComplex');
 document.getElementById("eComplex").value = complex ;
 }
+function company(){
+let company = localStorage.getItem('eCompany');
+document.getElementById("eCompany").value = company ;
+}
+function housenumber(){
+let housenumber = localStorage.getItem('eHouseNumber');
+document.getElementById("eHouseNumber").value = housenumber ;
+}
+function unitnumber(){
+let unitnumber = localStorage.getItem('eUnitNumber');
+document.getElementById("eUnitNumber").value = unitnumber ;
+}
+function estate(){
+let estate = localStorage.getItem('eEstate');
+document.getElementById("eEstate").value = estate ;
+}
+function dp(){
+let dp = localStorage.getItem('eDP');
+document.getElementById("eDP").value = dp ;
+}
 user();
 auth();
 total();
@@ -112,6 +132,11 @@ mall();
 building();
 shop();
 complex();
+company();
+housenumber();
+unitnumber();
+estate();
+dp();
 submit();
 </script>
 </html>
