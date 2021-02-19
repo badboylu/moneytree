@@ -17,15 +17,15 @@
    $suburb = $_GET['eSuburb'];
    $mall = $_GET['eMall'];
    $building = $_GET['eBuilding'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
-   $total = $_GET['eTotal'];
+   $shop = $_GET['eShop'];
+   $complex = $_GET['eComplex'];
+   $company = $_GET['eCompany'];
+   $housenumber = $_GET['eHouseNumber'];
+   $unitnumber = $_GET['eUnitNumber'];
+   $estate = $_GET['eEstate'];
+   $dp = $_GET['eDP'];
+   $cc = $_GET['eCC'];
+   $oc = $_GET['eOC'];
    $total = $_GET['eTotal'];
    $total = $_GET['eTotal'];
    $total = $_GET['eTotal'];
@@ -37,11 +37,7 @@
 
 
 
-<input type="hidden" name="eShop" value="" id="eShop">
-<input type="hidden" name="eComplex" value="" id="eComplex">
-<input type="hidden" name="eCompany" value="" id="eCompany">
-<input type="hidden" name="eHouseNumber" value="" id="eHouseNumber">
-<input type="hidden" name="eUnitNumber" value="" id="eUnitNumber">
+
 <input type="hidden" name="eEstate" value="" id="eEstate">
 <input type="hidden" name="eDP" value="" id="eDP">
 <input type="hidden" name="eCC" value="" id="eCC">
