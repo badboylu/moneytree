@@ -10,6 +10,52 @@
    $collected = 'Collected';
    $pending = 'Pending';
    
+   $total = $_GET['eTotal'];
+   $city = $_GET['eCity'];
+   $town = $_GET['eTown'];
+   $street = $_GET['eStreet'];
+   $suburb = $_GET['eSuburb'];
+   $mall = $_GET['eMall'];
+   $building = $_GET['eBuilding'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+   $total = $_GET['eTotal'];
+
+
+
+<input type="hidden" name="eShop" value="" id="eShop">
+<input type="hidden" name="eComplex" value="" id="eComplex">
+<input type="hidden" name="eCompany" value="" id="eCompany">
+<input type="hidden" name="eHouseNumber" value="" id="eHouseNumber">
+<input type="hidden" name="eUnitNumber" value="" id="eUnitNumber">
+<input type="hidden" name="eEstate" value="" id="eEstate">
+<input type="hidden" name="eDP" value="" id="eDP">
+<input type="hidden" name="eCC" value="" id="eCC">
+<input type="hidden" name="eOC" value="" id="eOC">
+<input type="hidden" name="eTown" value="" id="eTown">
+<input type="hidden" name="eBW" value="" id="eBW">
+<input type="hidden" name="eNL" value="" id="eNL">
+<input type="hidden" name="ePR" value="" id="ePR">
+<input type="hidden" name="eCCES" value="" id="eCCES">
+<input type="hidden" name="ePE" value="" id="ePE">
+<input type="hidden" name="eContact" value="" id="eContact">
+<input type="hidden" name="eDate" value="" id="eDate">
+</form>
+
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? OR idOrderConfirmation=? OR idOrderConfirmation=? AND idOrderUsername=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
