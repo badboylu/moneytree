@@ -121,6 +121,34 @@ function dp(){
 let dp = localStorage.getItem('eDP');
 document.getElementById("eDP").value = dp ;
 }
+function cc(){
+let cc = localStorage.getItem('eCC');
+document.getElementById("eCC").value = cc ;
+}
+function oc(){
+let oc = localStorage.getItem('eOC');
+document.getElementById("eOC").value = oc ;
+}
+function bw(){
+let bw = localStorage.getItem('eBW');
+document.getElementById("eBW").value = bw ;
+}
+function nl(){
+let nl = localStorage.getItem('eNL');
+document.getElementById("eNL").value = nl ;
+}
+function pr(){
+let pr = localStorage.getItem('ePR');
+document.getElementById("ePR").value = pr ;
+}
+function cces(){
+let cces = localStorage.getItem('eCCES');
+document.getElementById("eCCES").value = cces ;
+}
+function pe(){
+let pe = localStorage.getItem('ePE');
+document.getElementById("ePE").value = pe ;
+}
 user();
 auth();
 total();
@@ -137,6 +165,13 @@ housenumber();
 unitnumber();
 estate();
 dp();
+cc();
+oc();
+bw();
+nl();
+pr();
+cces();
+pe();
 submit();
 </script>
 </html>
