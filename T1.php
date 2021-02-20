@@ -257,7 +257,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker <?php echo $email; ?>
+Order Tracker
 </strong>
 <span class="title-separator">
 <span>
