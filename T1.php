@@ -411,7 +411,7 @@ Email.send({
     To : '<?php echo $email; ?>',
     From : "no-reply@canibuy.site",
     Subject : "Canibuy transaction details",
-    Body : '<p>Hello <?php echo $username; ?>,</p><p>you have successfully <span style="color:green">placed</span> an order at <span style="color:orange">canibuy</span>.</p><p><h3>Transaction details:</h3></p><p>Amount transacted:<?php echo $total; ?></p>'              
+    Body : '<p>Hello <?php echo $username; ?>,</p><p>you have successfully <span style="color:green">placed</span> an order at <span style="color:orange">canibuy</span>.</p><p><h3>Transaction details:</h3></p><p>Amount transacted:<?php echo $total; ?></p><p><h3>Order:</h3></p><p><?php if($dp>0){echo'Durban poison:';} ?><?php if($dp>0){echo $dp;} ?></p><p><?php if($cc>0){echo'Dabcapsules (Light):';} ?><?php if($cc>0){echo $cc;} ?></p><p><?php if($oc>0){echo'Orange cali:';} ?><?php if($oc>0){echo $oc;} ?></p>'              
   });
  }
 }
