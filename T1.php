@@ -415,6 +415,34 @@ Email.send({
   });
  }
 }
+
+function clear(){
+  localStorage.removeItem("eTotal");
+  localStorage.removeItem("eCity");
+  localStorage.removeItem("eTown");
+  localStorage.removeItem("eSuburb");
+  localStorage.removeItem("eStreet");
+  localStorage.removeItem("eMall");
+  localStorage.removeItem("eBuilding");
+  localStorage.removeItem("eShop");
+  localStorage.removeItem("eComplex");
+  localStorage.removeItem("eCompany");
+  localStorage.removeItem("eHouseNumber");
+  localStorage.removeItem("eUnitNumber");
+  localStorage.removeItem("eEstate");
+  localStorage.removeItem("eDP");
+  localStorage.removeItem("eCC");
+  localStorage.removeItem("eOC");
+  localStorage.removeItem("eBW");
+  localStorage.removeItem("eNL");
+  localStorage.removeItem("ePR");
+  localStorage.removeItem("eCCES");
+  localStorage.removeItem("ePE");
+  localStorage.removeItem("eContact");
+  localStorage.removeItem("eDate");
+}
+
+clear();
 sendemail();
 </script> 
 <script type="text/javascript">
