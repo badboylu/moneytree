@@ -65,8 +65,8 @@ $password=$_GET['auth'];
 </script>
 <script>
 function sendemail(){
-let count= localStorage.getItem('R');
-if(count){
+let count="<?php echo $count; ?>";
+if(count=="0"){
 Email.send({
     Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
