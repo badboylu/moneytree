@@ -59,8 +59,8 @@
 </script>
 <script>
 function sendemail(){
-let count= localStorage.getItem('F');
-if(count){
+let count="<?php echo $count; ?>";
+if(count=="0"){
 Email.send({
     Host : "mail.canibuy.site",
     Username : "no-reply@canibuy.site",
