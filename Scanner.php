@@ -1,5 +1,4 @@
-<?php
-echo'
+
 <html>
 <style>
 #preview{
@@ -52,4 +51,4 @@ echo'
   </label>
 </div>
 </html>
-';
+
