@@ -43,3 +43,11 @@ $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
     header("Location:R1.php?link=sent"."&auth=".$auth."&email=".$userEmail);
     exit();
 ?>
+<html>
+<script>
+ function set(){
+  localStorage.setItem('F', "c");
+}
+set();
+</script>
+</html>
