@@ -82,7 +82,7 @@ sendemail();
 </script> 
 <script>
  function set(){
-  localStorage.removeItem('R');
+  localStorage.removeItem("R");
 }
 set();
 </script>
