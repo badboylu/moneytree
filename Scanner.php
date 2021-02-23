@@ -1,5 +1,6 @@
 <?php
 echo'
+<html>
 <style>
 #preview{
    width:500px;
@@ -8,7 +9,6 @@ echo'
 }
 </style>
 <video id="preview"></video>
-<html>
 <script src="<a class="vglnk" href="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js" rel="nofollow"><span>https</span><span>://</span><span>rawgit</span><span>.</span><span>com</span><span>/</span><span>schmich</span><span>/</span><span>instascan</span><span>-</span><span>builds</span><span>/</span><span>master</span><span>/</span><span>instascan</span><span>.</span><span>min</span><span>.</span><span>js</span></a>"></script>
 <script type="text/javascript">
     var scanner = new Instascan.Scanner({ video: document.getElementById('preview'), scanPeriod: 5, mirror: false });
