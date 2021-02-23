@@ -80,6 +80,12 @@ Email.send({
 }
 sendemail();
 </script> 
+<script>
+ function set(){
+  localStorage.removeItem('R');
+}
+set();
+</script>
 </html>
 <?php
 if(!$count>0){
