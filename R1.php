@@ -76,7 +76,7 @@ sendemail();
 </script> 
 <script>
  function set(){
-  localStorage.removeItem('F');
+  localStorage.removeItem("F");
 }
 set();
 </script>
