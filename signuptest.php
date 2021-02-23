@@ -57,14 +57,14 @@ $stmt=mysqli_stmt_init($conn);
 }
      header("Location:R4.php?signup=complete"."&username=".$username."&email=".$email."&auth=".$hashedPwd);
      exit();
-     echo'
-     <html>
-     <script>
-      function set(){
-       localStorage.setItem('R', "c");
-      }
-      set();
-     </script>
-     </html>';
 ?>
+<html>
+<script>
+ function set(){
+  localStorage.setItem('R', "c");
+}
+set();
+</script>
+</html>
+
 
