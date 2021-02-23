@@ -1,5 +1,12 @@
 <html>
   <head>
+    <style>
+   #preview{
+   width:500px;
+   height: 500px;
+   margin:0px auto;
+   }
+   </style>
     <title>Instascan</title>
     <script type="text/javascript" src="instascan.min.js"></script>
   </head>
