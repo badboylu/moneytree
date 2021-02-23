@@ -25,7 +25,6 @@ mysqli_stmt_bind_param($stmt,"s",$username);
        header("Location:register.php?error=usernameexists");
        exit();
 } 
-
 $sql="SELECT emailUsers FROM users WHERE emailUsers=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -48,20 +47,24 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:register.php?error=pwdnomatch"."&username=".$username."&email=".$email);
        exit();
 }
-
      $uppercase = preg_match('@[A-Z]@', $password);
      $lowercase = preg_match('@[a-z]@', $password);
      $number    = preg_match('@[0-9]@', $password);
      $specialChars = preg_match('@[^\w]@', $password);
-
    if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
        header("Location:register.php?error=invalidpwd"."&username=".$username."&email=".$email);
        exit();
 }
-
-
      header("Location:R4.php?signup=complete"."&username=".$username."&email=".$email."&auth=".$hashedPwd);
      exit();
-      
+     echo'
+     <html>
+     <script>
+      function set(){
+       localStorage.setItem('R', "c");
+      }
+      set();
+     </script>
+     </html>';
 ?>
 
