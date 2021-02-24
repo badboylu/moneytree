@@ -32,14 +32,14 @@ $auth=$_GET['error'];
   <option value="" disabled selected>Select Province</option>
   <option value="Gauteng" >Gauteng</option>
 </select></div>
-   <label>City:</label>
-<select name="City" id="city" form="plug" required>
+<div><label>City:</label></div>
+<div><select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Johannesburg" >Johannesburg</option>
   <option value="Pretoria" >Pretoria</option>
-</select>
-<label>Allocated area:</label>
-<select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
+</select></div>
+<div><label>Allocated area:</label></div>
+<div><select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="PretoriaEast">Pretoria East</option>
   <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
@@ -48,9 +48,9 @@ $auth=$_GET['error'];
   <option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
   <option value="Centurion" disabled >Centurion</option>
   <option value="Null" style="display:none" >Null</option>
-</select>
-<label>Distro's e-mail address:</label>
-<input class="form-control" type="text" name="email" placeholder="E-mail Address" required>
+</select></div>
+<div><label>Distro's e-mail address:</label></div>
+<div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
 <div class="form-button full-width">
 <button type="submit" class="ibtn">Send Activation Link</button>
 </div>
