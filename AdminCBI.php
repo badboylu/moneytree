@@ -145,7 +145,7 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Agents</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Agents</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
@@ -164,7 +164,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Users</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
