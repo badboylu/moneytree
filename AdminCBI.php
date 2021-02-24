@@ -5,7 +5,6 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
-   
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -167,7 +166,7 @@
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="#"><i class="fa fa-circle"></i>
+                                <a href="RD.php"><i class="fa fa-circle"></i>
                                     <span>Add Distro</span> 
                                 </a>
                             </li>
