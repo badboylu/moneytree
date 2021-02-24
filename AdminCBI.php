@@ -18,7 +18,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Multikart - Premium Admin Template</title>
+    <title>Admin</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -54,79 +54,6 @@
     <!-- Page Header Start-->
     <div class="page-main-header">
         <div class="main-header-right row">
-            <div class="main-header-left d-lg-none">
-                <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="multikart-logo.png" alt=""></a></div>
-            </div>
-            <div class="mobile-sidebar">
-                <div class="media-body text-right switch-sm">
-                    <label class="switch"><a href="#"><i id="sidebar-toggle" data-feather="align-left"></i></a></label>
-                </div>
-            </div>
-            <div class="nav-right col">
-                <ul class="nav-menus">
-                    <li>
-                        <form class="form-inline search-form">
-                            <div class="form-group">
-                                <input class="form-control-plaintext" type="search" placeholder="Search.."><span class="d-sm-none mobile-search"><i data-feather="search"></i></span>
-                            </div>
-                        </form>
-                    </li>
-                    <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize-2"></i></a></li>
-                    <li class="onhover-dropdown"><a class="txt-dark" href="#">
-                        <h6>EN</h6></a>
-                        <ul class="language-dropdown onhover-show-div p-20">
-                            <li><a href="#" data-lng="en"><i class="flag-icon flag-icon-is"></i> English</a></li>
-                            <li><a href="#" data-lng="es"><i class="flag-icon flag-icon-um"></i> Spanish</a></li>
-                            <li><a href="#" data-lng="pt"><i class="flag-icon flag-icon-uy"></i> Portuguese</a></li>
-                            <li><a href="#" data-lng="fr"><i class="flag-icon flag-icon-nz"></i> French</a></li>
-                        </ul>
-                    </li>
-                    <li class="onhover-dropdown"><i data-feather="bell"></i><span class="badge badge-pill badge-primary pull-right notification-badge">3</span><span class="dot"></span>
-                        <ul class="notification-dropdown onhover-show-div p-0">
-                            <li>Notification <span class="badge badge-pill badge-primary pull-right">3</span></li>
-                            <li>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h6 class="mt-0"><span><i class="shopping-color" data-feather="shopping-bag"></i></span>Your order ready for Ship..!</h6>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h6 class="mt-0 txt-success"><span><i class="download-color font-success" data-feather="download"></i></span>Download Complete</h6>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h6 class="mt-0 txt-danger"><span><i class="alert-color font-danger" data-feather="alert-circle"></i></span>250 MB trash files</h6>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="txt-dark"><a href="#">All</a> notification</li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="right_side_toggle" data-feather="message-square"></i><span class="dot"></span></a></li>
-                    <li class="onhover-dropdown">
-                        <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="../assets/images/dashboard/man.png" alt="header-user">
-                            <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
-                        </div>
-                        <ul class="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
-                            <li><a href="#"><i data-feather="user"></i>Edit Profile</a></li>
-                            <li><a href="#"><i data-feather="mail"></i>Inbox</a></li>
-                            <li><a href="#"><i data-feather="lock"></i>Lock Screen</a></li>
-                            <li><a href="#"><i data-feather="settings"></i>Settings</a></li>
-                            <li><a href="#"><i data-feather="log-out"></i>Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="d-lg-none mobile-toggle pull-right"><i data-feather="more-horizontal"></i></div>
-            </div>
         </div>
     </div>
     <!-- Page Header Ends -->
@@ -137,41 +64,29 @@
         <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
-                <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="multikart-logo.png" alt=""></a></div>
-            </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
-                    <div><img class="img-60 rounded-circle lazyloaded blur-up" src="man.png" alt="#">
-                    </div>
-                    <h6 class="mt-3 f-14">JOHN</h6>
-                    <p>general manager.</p>
+                    <h6 class="mt-3 f-14">Lunga</h6>
+                    <p>canibuy site builder</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Products</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Agents</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Physical</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Admin</span> <i class="fa fa-angle-right pull-right"></i>
                                 </a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="category.html"><i class="fa fa-circle"></i>Category</a></li>
-                                    <li><a href="category-sub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
-                                    <li><a href="product-list.html"><i class="fa fa-circle"></i>Product List</a></li>
-                                    <li><a href="product-detail.html"><i class="fa fa-circle"></i>Product Detail</a></li>
-                                    <li><a href="add-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
-                                </ul>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Digital</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Driver</span> <i class="fa fa-angle-right pull-right"></i>
                                 </a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="category-digital.html"><i class="fa fa-circle"></i>Category</a></li>
-                                    <li><a href="category-digitalsub.html"><i class="fa fa-circle"></i>Sub Category</a></li>
-                                    <li><a href="product-listdigital.html"><i class="fa fa-circle"></i>Product List</a></li>
-                                    <li><a href="add-digital-product.html"><i class="fa fa-circle"></i>Add Product</a></li>
-                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle"></i>
+                                    <span>Distro</span> <i class="fa fa-angle-right pull-right"></i>
+                                </a>
                             </li>
                         </ul>
                     </li>
