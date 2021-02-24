@@ -27,19 +27,19 @@ $auth=$_GET['error'];
                         <h3>Distro account activation</h3>
                         <p>Distro recruitment.</p>
                         <form action="FPW.php" method="get">
-<div><label>Province:</label></div>
-<div><select name="Province" id="province" form="plug" required>
+<div><label>Province:</label>
+<select name="Province" id="province" form="plug" required>
   <option value="" disabled selected>Select Province</option>
   <option value="Gauteng" >Gauteng</option>
 </select></div>
-<div><label>City:</label></div>
-<div><select name="City" id="city" form="plug" required>
+<div><label>City:</label>
+<select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Johannesburg" >Johannesburg</option>
   <option value="Pretoria" >Pretoria</option>
 </select></div>
-<div><label>Allocated area:</label></div>
-<div><select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
+<div><label>Allocated area:</label>
+<select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
   <option value="" disabled selected>Select Town</option>
   <option value="PretoriaEast">Pretoria East</option>
   <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
