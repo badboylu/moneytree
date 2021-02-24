@@ -137,6 +137,7 @@
         <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
+             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14">Lunga</h6>
