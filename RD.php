@@ -25,8 +25,8 @@ $auth=$_GET['error'];
                 <div class="form-content">
                     <div class="form-items">
                         <h3>Distro account activation</h3>
-                        <p>Distro recruitment.</p>
-                        <form action="FPW.php" method="get">
+                        <p>Distro recruitment</p>
+<form action="RD1.php" method="get">
 <div style"padding-bottom:4px"><label>Province:</label>
 <select name="Province" id="province" form="plug" required>
   <option value="" disabled selected>Select Province</option>
