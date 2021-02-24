@@ -171,11 +171,6 @@
                                     <span>Add Distro</span> 
                                 </a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Add Driver</span>
-                                </a>
-                            </li>
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
