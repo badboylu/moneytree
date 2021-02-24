@@ -39,7 +39,7 @@ $auth=$_GET['error'];
   <option value="Pretoria" >Pretoria</option>
 </select></div>
 <div style"padding-bottom:4px"><label>Allocated area:</label>
-<select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
+<select class="PTAtown" name="area" id="area" form="plug" required>
   <option value="" disabled selected>Select Area</option>
   <option value="PretoriaEast">Pretoria East</option>
   <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
