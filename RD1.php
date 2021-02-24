@@ -53,7 +53,7 @@ $password=$_GET['auth'];
                 <div class="form-content">
                     <div class="form-items">
                         <h3><span style="color:green"> Distro activation link sent!</span></h3>
-                        <p><a href="AdminCBI.php"><button class="ibtn">Dashboard</button></a></p>
+                        <p><a href="AdminCBI.php">Dashboard</a></p>
                     </div>
                 </div>
             </div>
