@@ -145,29 +145,37 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Agents</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Agents</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Admin</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Admin</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Driver</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Driver</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Distro</span> <i class="fa fa-angle-right pull-right"></i>
+                                    <span>Distro</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Users</span><i class="fa fa-angle-right pull-right"></i></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Users</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="user-list.html"><i class="fa fa-circle"></i>User List</a></li>
-                            <li><a href="create-user.html"><i class="fa fa-circle"></i>Create User</a></li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle"></i>
+                                    <span>Add Distro</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle"></i>
+                                    <span>Add Driver</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
