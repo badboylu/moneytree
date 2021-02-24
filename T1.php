@@ -441,9 +441,8 @@ function clear(){
   localStorage.removeItem("eContact");
   localStorage.removeItem("eDate");
 }
-
-clear();
 sendemail();
+clear();
 </script> 
 <script type="text/javascript">
 function refreshPage(){
