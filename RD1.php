@@ -4,9 +4,10 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$username=$_GET['username'];
+$province=$_GET['province'];
+$city=$_GET['city'];
+$area=$_GET['area'];
 $email=$_GET['email'];
-$password=$_GET['auth'];
 
   $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
   $stmt=mysqli_stmt_init($conn);
@@ -27,7 +28,7 @@ $password=$_GET['auth'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account registration</title>
+    <title>Distro recruitment</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="iofrm-style.css">
