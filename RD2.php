@@ -1,7 +1,4 @@
-
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +21,7 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Register new account</h3>
+                        <h3>Register distro account</h3>
      
                         <form action="RD3.php" method="get">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="Username" required>
