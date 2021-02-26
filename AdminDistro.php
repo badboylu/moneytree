@@ -5,6 +5,7 @@
    $dBName="heroku_61db5a5cdc2dfd8";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
+   $username = $_GET['username'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -139,8 +140,8 @@
              </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
-                    <h6 class="mt-3 f-14">Lunga</h6>
-                    <p>canibuy site builder</p>
+                    <h6 class="mt-3 f-14"><?php echo $username ?></h6>
+                    <p>distro</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -148,7 +149,7 @@
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Prepper</span>
+                                    <span>Admin</span>
                                 </a>
                             </li>
                             <li>
@@ -156,17 +157,18 @@
                                     <span>Driver</span>
                                 </a>
                             </li>
-                            
+                            <li>
+                                <a href="#"><i class="fa fa-circle"></i>
+                                    <span>Distro</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="RD.php"><i class="fa fa-circle"></i>
-                                    <span>Add Prepper</span> 
-                                </a>
-                            </li>
-                            <li>
-                                <a href="RD.php"><i class="fa fa-circle"></i>
-                                    <span>Add Driver</span> 
+                                    <span>Add Distro</span> 
                                 </a>
                             </li>
                         </ul>
