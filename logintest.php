@@ -8,32 +8,29 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
-$sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
+$sql="SELECT * FROM distrouser WHERE idDistro=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
+   mysqli_stmt_bind_param($stmt,"s",$uid);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
    mysqli_stmt_close($stmt);
-if (!$count>0){
-    header("Location:Signin.php?error=wrnguid");
-    exit();
-}else if ($count>0){
-   $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
+if ($count>0){
+   $sql='SELECT idPassword FROM distrouser WHERE idDistro="'.$uid.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL2");
        exit();
 }
    mysqli_stmt_execute($stmt);
-   mysqli_stmt_bind_result($stmt, $hash);
+   mysqli_stmt_bind_result($stmt, $hash1);
   
    while (mysqli_stmt_fetch($stmt)) { 
-    if (password_verify($password, $hash)) {
+    if (password_verify($password, $hash1)) {
     $token= bin2hex(random_bytes(16));
     mysqli_stmt_close($stmt);
     $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
@@ -47,7 +44,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
 
-    header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:AdminDistro.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
