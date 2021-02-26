@@ -13,7 +13,7 @@ $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 
-$sql="SELECT uidUsers FROM users WHERE uidUsers=?";
+$sql="SELECT idDistro FROM distrouser WHERE idDistro=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RD2.php?error=SQL1");
@@ -27,7 +27,7 @@ mysqli_stmt_bind_param($stmt,"s",$username);
        header("Location:RD2.php?error=usernameexists");
        exit();
 } 
-$sql="SELECT emailUsers FROM users WHERE emailUsers=?";
+$sql="SELECT idEmail FROM distrouser WHERE idEmail=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RD2.php?error=SQL2");
