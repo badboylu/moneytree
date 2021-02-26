@@ -148,7 +148,7 @@
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Admin</span>
+                                    <span>Prepper</span>
                                 </a>
                             </li>
                             <li>
@@ -156,18 +156,17 @@
                                     <span>Driver</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Distro</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                            
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="RD.php"><i class="fa fa-circle"></i>
-                                    <span>Add Distro</span> 
+                                    <span>Add Prepper</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="RD.php"><i class="fa fa-circle"></i>
+                                    <span>Add Driver</span> 
                                 </a>
                             </li>
                         </ul>
