@@ -8,7 +8,7 @@ $province=$_POST['uid'];
 $city=$_POST['pwd'];
 $area=$_POST['pwd'];
 $email=$_POST['email'];
-$username=$_POST['pwd'];
+$username='Distro-'.$_POST['pwd'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
@@ -57,6 +57,18 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=invalidpwd"."&username=".$username."&email=".$email);
        exit();
 }
-     header("Location:Signin.php?distrosignup=complete"."&username=".$username."&email=".$email."&auth=".$hashedPwd);
+     $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword) VALUES(?,?,?)";
+    $stmt=mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:RD2.php?error=SQL3");
+       exit();
+}
+     $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
+     mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
+     mysqli_stmt_execute($stmt);
+     mysqli_stmt_store_result($stmt);
+     $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$email."' ";
+     mysqli_query($conn,$sql);
+     header("Location:Signin.php?signup=successful");
      exit();
 ?>
