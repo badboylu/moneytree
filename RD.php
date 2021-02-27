@@ -28,18 +28,18 @@ $auth=$_GET['error'];
                         <p>Distro recruitment</p>
 <form action="RD1.php" method="get">
 <label>Province:</label>
-<select name="Province" id="province" form="plug" required>
+<select required>
 <option value="" disabled selected>Select Province</option>
 <option value="Gauteng" >Gauteng</option>
 </select>
 <label>City:</label>
-<select name="City" id="city" form="plug" required>
+<select required>
 <option value="" disabled selected>Select City</option>
 <option value="Johannesburg" >Johannesburg</option>
 <option value="Pretoria" >Pretoria</option>
 </select>
 <label>Allocated area:</label>
-<select class="PTAtown" name="area" id="area" form="plug" required>
+<select required>
 <option value="" disabled selected>Select Area</option>
 <option value="PretoriaEast">Pretoria East</option>
 <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
