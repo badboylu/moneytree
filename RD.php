@@ -48,6 +48,7 @@ $auth=$_GET['error'];
 <option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
 <option value="Centurion" disabled >Centurion</option>
 </select></div>
+<div><label>Enter Distrobution Agent's e-mail address:</label></div>
 <div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
 <div class="form-button full-width">
 <button type="submit" class="ibtn">Send Activation Link</button>
