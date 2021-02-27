@@ -145,7 +145,9 @@ $result=mysqli_query($conn,$query);
                             <tr>
                                
                                 <th>id</th>
+                                <th>Date</th>
                                 <th>DistroID</th>
+                                <th>Location</th>
                                 <th>Email</th>
                                 <th>Password</th>
                             </tr>
@@ -157,8 +159,10 @@ $result=mysqli_query($conn,$query);
                             <tr>
                                 
                                 <td><?php echo $rows['id']; ?></td>
+                                <td><?php echo $rows['idDate']; ?></td>
                                 <td><?php echo $rows['idDistro']; ?></td>
-                                 <td><?php echo $rows['idEmail']; ?></td>
+                                <td><?php echo $rows['idLocation']; ?></td>
+                                <td><?php echo $rows['idEmail']; ?></td>
                                 <td><?php echo $rows['idPassword']; ?></td>
                             </tr>
                             <?php } ?>
