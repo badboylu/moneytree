@@ -7,7 +7,6 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $preppertoken= bin2hex(random_bytes(3));
 $custitoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
-$time = date("H:i:s");
 date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
