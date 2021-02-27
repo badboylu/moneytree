@@ -26,33 +26,14 @@ $auth=$_GET['error'];
                     <div class="form-items">
                         <h3>Distro account activation</h3>
                         <p>Distro recruitment</p>
+<p>
 <form action="RD1.php" method="get">
-<label>Province:</label>
-<select required>
-<option value="" disabled selected>Select Province</option>
-<option value="Gauteng" >Gauteng</option>
+<label>Town:</label>
+<select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
+<option value="Lunga" >Lunga</option>
 </select>
-<label>City:</label>
-<select required>
-<option value="" disabled selected>Select City</option>
-<option value="Johannesburg" >Johannesburg</option>
-<option value="Pretoria" >Pretoria</option>
-</select>
-<label>Allocated area:</label>
-<select required>
-<option value="" disabled selected>Select Area</option>
-<option value="PretoriaEast">Pretoria East</option>
-<option value="PretoriaNorthEast" disabled >Pretoria North East</option>
-<option value="PretoriaNorthWest" disabled >Pretoria North West</option>
-<option value="PretoriaCentral" disabled >Pretoria Central</option>
-<option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
-<option value="Centurion" disabled >Centurion</option>
-</select>
-
-<div class="form-button full-width">
-<button type="submit" class="ibtn">Send Activation Link</button>
-</div>
 </form>
+
                         
                    </div>
                 </div>
