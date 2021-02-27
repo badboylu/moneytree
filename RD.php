@@ -155,20 +155,20 @@ $user=$_GET['username'];
                     <div class="card-body vendor-table" >
                          <div>
                          </div>
-                         <form action="RD1.php" method="get">
+<form action="RD1.php" method="get">
 <label>Province:</label>
-<select required>
+<select name="Province" required>
 <option value="" disabled selected>Select Province</option>
 <option value="Gauteng" >Gauteng</option>
 </select>
 <label>City:</label>
-<select required>
+<select name="City" required>
 <option value="" disabled selected>Select City</option>
 <option value="Johannesburg" >Johannesburg</option>
 <option value="Pretoria" >Pretoria</option>
 </select>
 <label>Allocated area:</label>
-<select required>
+<select name="Area" required>
 <option value="" disabled selected>Select Area</option>
 <option value="PretoriaEast">Pretoria East</option>
 <option value="PretoriaNorthEast" disabled >Pretoria North East</option>
