@@ -32,6 +32,9 @@ $auth=$_GET['error'];
 <select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
 <option value="Lunga" >Lunga</option>
 </select>
+<div class="form-button full-width">
+<button type="submit" class="ibtn">Send Activation Link</button>
+</div>
 </form>
 
                         
