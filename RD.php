@@ -27,18 +27,18 @@ $auth=$_GET['error'];
                         <h3>Recruite Distribution Agent</h3>
                     
 <form action="RD1.php" method="get">
-<label>Province:</label>
+<div><label>Province:</label>
 <select name="Province" required>
 <option value="" disabled selected>Select Province</option>
 <option value="Gauteng" >Gauteng</option>
-</select>
-<label>City:</label>
+</select></div>
+<div><label>City:</label>
 <select name="City" required>
 <option value="" disabled selected>Select City</option>
 <option value="Johannesburg" >Johannesburg</option>
 <option value="Pretoria" >Pretoria</option>
-</select>
-<label>Allocated area:</label>
+</select></div>
+<div><label>Allocated area:</label>
 <select name="Area" required>
 <option value="" disabled selected>Select Area</option>
 <option value="PretoriaEast">Pretoria East</option>
@@ -47,7 +47,8 @@ $auth=$_GET['error'];
 <option value="PretoriaCentral" disabled >Pretoria Central</option>
 <option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
 <option value="Centurion" disabled >Centurion</option>
-</select>
+</select></div>
+<div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
 <div class="form-button full-width">
 <button type="submit" class="ibtn">Send Activation Link</button>
 </div>
