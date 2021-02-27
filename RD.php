@@ -153,55 +153,32 @@ $user=$_GET['username'];
                         <h5>Recruite Distribution Agent</h5>
                     </div>
                     <div class="card-body vendor-table" >
-                         <br>
-                         <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
-                         <br>
-                         <br>
-                         <div id="hideDP">
-                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
-                         <br>
-                         <br>
+                         <div>
                          </div>
-                         <div id="hideOC">
-                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> packs</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCC">
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePR">
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideNL">
-                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCCES">
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePE">
-                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <form action="RD1.php" method="get" >
-                         <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
-                         <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
-                         <input type="submit" name="Next" value="Complete order" id="Blanks" "/>
-                         </form>
+                         <form action="RD1.php" method="get">
+<label>Province:</label>
+<select required>
+<option value="" disabled selected>Select Province</option>
+<option value="Gauteng" >Gauteng</option>
+</select>
+<label>City:</label>
+<select required>
+<option value="" disabled selected>Select City</option>
+<option value="Johannesburg" >Johannesburg</option>
+<option value="Pretoria" >Pretoria</option>
+</select>
+<label>Allocated area:</label>
+<select required>
+<option value="" disabled selected>Select Area</option>
+<option value="PretoriaEast">Pretoria East</option>
+<option value="PretoriaNorthEast" disabled >Pretoria North East</option>
+<option value="PretoriaNorthWest" disabled >Pretoria North West</option>
+<option value="PretoriaCentral" disabled >Pretoria Central</option>
+<option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
+<option value="Centurion" disabled >Centurion</option>
+</select>
+<button type="submit">Send Activation Link</button>
+</form>
                     </div>
                 </div>
             </div>
