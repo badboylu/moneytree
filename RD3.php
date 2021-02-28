@@ -8,6 +8,7 @@ $province=$_GET['Province'];
 $city=$_GET['City'];
 $area=$_GET['Area'];
 $email=$_GET['email'];
+$location=$provision.'-'.$city.'-'.$area;
 $username='Distro-'.$_GET['uid'];
 $password=$_GET['pwd'];
 $passwordrepeat=$_GET['pwdrepeat'];
@@ -71,4 +72,5 @@ $stmt=mysqli_stmt_init($conn);
 echo $province;
 echo $city;
 echo $area;
+echo $location;
 ?>
