@@ -12,6 +12,8 @@ $username='Distro-'.$_POST['uid'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
+date_default_timezone_set('Africa/Johannesburg');
+$date = date("Y-m-d");
 
 $sql="SELECT idDistro FROM distrouser WHERE idDistro=?";
 $stmt=mysqli_stmt_init($conn);
@@ -57,13 +59,13 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=invalidpwd"."&username=".$username."&email=".$email);
        exit();
 }
-    $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword) VALUES(?,?,?)";
+    $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RD2.php?error=SQL3");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sss",$username,$email,$hashedPwd);
+     mysqli_stmt_bind_param($stmt,"sssss",$username,$email,$hashedPwd,$date,$location);
      mysqli_stmt_execute($stmt);
      $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$email."' ";
      mysqli_query($conn,$sql);
