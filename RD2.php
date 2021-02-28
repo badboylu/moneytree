@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>Recruitment</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="iofrm-style.css">
@@ -23,7 +23,7 @@
                     <div class="form-items">
                         <h3>Register distro account</h3>
      
-                        <form action="RD3.php" method="post">
+                        <form action="RD3.php" method="get">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="Username" required>
                             <p id="usernamenotavail" style="font-size:14px; color:red; display:none;">*Username not available</p>
                             <input id="email" class="form-control" type="email" name="email" placeholder="E-mail Address" required>
@@ -33,12 +33,12 @@
                             <p id="invalidpassword" style="font-size:14px; color:red; display:none;">*Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character</p>
                             <p id="passwordmatch" style="font-size:14px; color:red; display:none;">*Passwords don't match</p>
                             <input class="form-control" type="password" name="pwdrepeat" placeholder="Repeat Password" required>
-                            <input type="hidden" name="Province"  value="">
-                            <input type="hidden" name="City"  value="">
-                            <input type="hidden" name="Area"  value=""> 
+                            <input type="hidden" name="Province"  value="<?php echo GET_['province'] ?>">
+                            <input type="hidden" name="City"  value="<?php echo GET_['city'] ?>">
+                            <input type="hidden" name="Area"  value="<?php echo GET_['area'] ?>"> 
                            <div class="form-button">
                                 <button type="submit" class="ibtn" >Sign-up</button>
-                            </div>
+                           </div>
                         </form>
                     </div>
                 </div>
