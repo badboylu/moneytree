@@ -36,9 +36,9 @@
                             <div class="form-button">
                                 <button type="submit" class="ibtn" >Sign-up</button>
                             </div>
-                            <input type="hidden" name="Province"  value="<?php echo GET_['province'] ?>">
-                            <input type="hidden" name="City"  value="<?php echo GET_['city'] ?>">
-                            <input type="hidden" name="Area"  value="<?php echo GET_['area'] ?>">
+                            <input type="hidden" name="Province"  value="<?php echo $_GET['province'] ?>">
+                            <input type="hidden" name="City"  value="<?php echo $_GET['city'] ?>">
+                            <input type="hidden" name="Area"  value="<?php echo $_GET['area'] ?>">
                         </form>
                     </div>
                 </div>
