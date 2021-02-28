@@ -13,7 +13,8 @@ $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 date_default_timezone_set('Africa/Johannesburg');
-$date = date("Y-m-d");
+$date=date("Y-m-d");
+$location=$province.'-'.$city.'-'.$area
 
 $sql="SELECT idDistro FROM distrouser WHERE idDistro=?";
 $stmt=mysqli_stmt_init($conn);
