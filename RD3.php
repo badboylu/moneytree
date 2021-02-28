@@ -4,14 +4,14 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$province=$_GET['Province'];
-$city=$_GET['City'];
-$area=$_GET['Area'];
-$email=$_GET['email'];
+$province=$_POST['Province'];
+$city=$_POST['City'];
+$area=$_POST['Area'];
+$email=$_POST['email'];
 $location=$province.'-'.$city.'-'.$area;
-$username='Distro-'.$_GET['uid'];
-$password=$_GET['pwd'];
-$passwordrepeat=$_GET['pwdrepeat'];
+$username='Distro-'.$_POST['uid'];
+$password=$_POST['pwd'];
+$passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 date_default_timezone_set('Africa/Johannesburg');
 $date=date("Y-m-d");
@@ -49,7 +49,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=emailexists");
        exit();
 } 
-   if($_GET['pwd'] != $_GET['pwdrepeat']){
+   if($_POST['pwd'] != $_POST['pwdrepeat']){
        header("Location:RD2.php?error=pwdnomatch");
        exit();
 }
@@ -61,13 +61,12 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=invalidpwd");
        exit();
 }
-    $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword, idDate) VALUES(?,?,?,?)";
+    $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RD2.php?error=SQL3");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"ssss",$username,$email,$hashedPwd,$date);
+     mysqli_stmt_bind_param($stmt,"ssss",$username,$email,$hashedPwd,$date,$location);
      mysqli_stmt_execute($stmt);
-echo $location;
 ?>
