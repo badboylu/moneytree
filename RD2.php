@@ -33,11 +33,12 @@
                             <p id="invalidpassword" style="font-size:14px; color:red; display:none;">*Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character</p>
                             <p id="passwordmatch" style="font-size:14px; color:red; display:none;">*Passwords don't match</p>
                             <input class="form-control" type="password" name="pwdrepeat" placeholder="Repeat Password" required>
-                            
-                             
-                           <div class="form-button">
+                            <div class="form-button">
                                 <button type="submit" class="ibtn" >Sign-up</button>
                             </div>
+                            <input type="hidden" name="Province"  value="<?php echo GET_['province'] ?>">
+                            <input type="hidden" name="City"  value="<?php echo GET_['city'] ?>">
+                            <input type="hidden" name="Area"  value="<?php echo GET_['area'] ?>">
                         </form>
                     </div>
                 </div>
