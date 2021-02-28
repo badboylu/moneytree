@@ -4,13 +4,13 @@ $dBUsername="b7fcd41c893d7a";
 $dBPassword="1e8f896b7da9e41";
 $dBName="heroku_61db5a5cdc2dfd8";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$province=$_POST['province'];
-$city=$_POST['city'];
-$area=$_POST['area'];
-$email=$_POST['email'];
-$username='Distro-'.$_POST['uid'];
-$password=$_POST['pwd'];
-$passwordrepeat=$_POST['pwdrepeat'];
+$province=$_GET['province'];
+$city=$_GET['city'];
+$area=$_GET['area'];
+$email=$_GET['email'];
+$username='Distro-'.$_GET['uid'];
+$password=$_GET['pwd'];
+$passwordrepeat=$_GET['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
 date_default_timezone_set('Africa/Johannesburg');
 $date=date("Y-m-d");
@@ -48,7 +48,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=emailexists"."&username=".$username);
        exit();
 } 
-   if($_POST['pwd'] != $_POST['pwdrepeat']){
+   if($_GET['pwd'] != $_GET['pwdrepeat']){
        header("Location:RD2.php?error=pwdnomatch"."&username=".$username."&email=".$email);
        exit();
 }
