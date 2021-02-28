@@ -37,7 +37,7 @@ $stmt=mysqli_stmt_init($conn);
        exit();
 }
   if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       header("Location:RD2.php?error=invalidemail"."&username=".$username);
+       header("Location:RD2.php?error=invalidemail");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"s",$email);
@@ -45,11 +45,11 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_store_result($stmt);
    $resultCheck=mysqli_stmt_num_rows($stmt);
    if($resultCheck > 0){
-       header("Location:RD2.php?error=emailexists"."&username=".$username);
+       header("Location:RD2.php?error=emailexists");
        exit();
 } 
    if($_GET['pwd'] != $_GET['pwdrepeat']){
-       header("Location:RD2.php?error=pwdnomatch"."&username=".$username."&email=".$email);
+       header("Location:RD2.php?error=pwdnomatch");
        exit();
 }
      $uppercase = preg_match('@[A-Z]@', $password);
@@ -57,7 +57,7 @@ $stmt=mysqli_stmt_init($conn);
      $number    = preg_match('@[0-9]@', $password);
      $specialChars = preg_match('@[^\w]@', $password);
    if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
-       header("Location:RD2.php?error=invalidpwd"."&username=".$username."&email=".$email);
+       header("Location:RD2.php?error=invalidpwd");
        exit();
 }
     $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword, idDate) VALUES(?,?,?,?)";
