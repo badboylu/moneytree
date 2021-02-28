@@ -68,8 +68,4 @@ $stmt=mysqli_stmt_init($conn);
 }
      mysqli_stmt_bind_param($stmt,"sssss",$username,$email,$hashedPwd,$date,$location);
      mysqli_stmt_execute($stmt);
-     $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$email."' ";
-     mysqli_query($conn,$sql);
-     header("Location:Signin.php?signup=successful");
-     exit();
 ?>
