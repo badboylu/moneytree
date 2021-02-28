@@ -23,7 +23,7 @@
                     <div class="form-items">
                         <h3>Register distro account</h3>
      
-                        <form action="RD3.php" method="get">
+                        <form action="RD3.php" method="post">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="Username" required>
                             <p id="usernamenotavail" style="font-size:14px; color:red; display:none;">*Username not available</p>
                             <input id="email" class="form-control" type="email" name="email" placeholder="E-mail Address" required>
