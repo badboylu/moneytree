@@ -69,8 +69,5 @@ $stmt=mysqli_stmt_init($conn);
 }
      mysqli_stmt_bind_param($stmt,"ssss",$username,$email,$hashedPwd,$date);
      mysqli_stmt_execute($stmt);
-echo $province;
-echo $city;
-echo $area;
 echo $location;
 ?>
