@@ -30,7 +30,7 @@ $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
    }
    $custiemail=Min($email);
 
-      $sql="UPDATE users SET pwdUsers='".$hashedPwd."' WHERE emailUsers='".$custiemail."' ";
+      $sql="UPDATE users SET pwdUsers='".$hashedPwd."' WHERE emailUser='".$custiemail."' ";
       mysqli_query($conn,$sql);
       $sql="DELETE FROM pwdrest WHERE pwdResetEmail='".$custiemail."' ";
       mysqli_query($conn,$sql);
