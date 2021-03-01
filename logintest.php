@@ -54,10 +54,10 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 }
 }   
 
-$sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
+$sql="SELECT * FROM users WHERE emailUser=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=user1");
+       header("Location:Signin.php?error=user1");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
