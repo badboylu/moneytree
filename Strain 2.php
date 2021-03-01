@@ -273,7 +273,7 @@ Orange Cali
 </span>
 </div>
 <span class="title-after_title">
-High Grade
+Greenhouse
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
@@ -349,18 +349,18 @@ Orange Cali High Grade
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-20.00
+20
 </span>
-per/g
+per/gram
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Indica</span>
+	<strong>Strain Type:</strong><span> Indica dominant</span>
 	<br>
-	<strong>Genetic origins:</strong><span> Europe</span>
-	<br>
-	<strong>Potency:</strong><span> 18.8%</span>
+	<strong>Quality:</strong><span> Greenhouse</span>
+        <br>
+	<strong>Description:</strong><span> An internationally know bud with genetic origins from Europe grown in a greenhouse environment. Famous for producing a more body focused effect rather than a mental one.  </span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
