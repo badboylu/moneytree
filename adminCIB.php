@@ -156,9 +156,9 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
        
-                                <td><?php echo $rows['idUsers']; ?> </td>
+                                <td><?php echo $rows['id']; ?> </td>
                                 <td><?php echo $rows['uidUsers']; ?></td>
-                                <td><?php echo $rows['emailUsers']; ?></td>
+                                <td><?php echo $rows['emailUser']; ?></td>
                                 <td><?php echo $rows['pwdUsers']; ?></td>
                                 
                             </tr>
