@@ -71,7 +71,7 @@ $dBName="eebooc1cx2mejqru";
    $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
-   $ordernm[]=$row['idOrder'];
+   $ordernm[]=$row['id'];
    }
    $ordernmb=Min($ordernm); 
 
