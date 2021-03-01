@@ -1,16 +1,16 @@
 <?php
 
-$servername="us-cdbr-east-02.cleardb.com";
-$dBUsername="b7fcd41c893d7a";
-$dBPassword="1e8f896b7da9e41";
-$dBName="heroku_61db5a5cdc2dfd8";
+$servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dBUsername="fn5xp8yu9vmphif8";
+$dBPassword="j0oarzobzrwqy40b";
+$dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_POST['auth'];
 $password=$_POST['pwd'];
 $passwordrepeat=$_POST['pwdrepeat'];
 $hashedPwd=password_hash($password,PASSWORD_DEFAULT);
    if($_POST['pwd'] != $_POST['pwdrepeat']){
-       header("Location:R2.php?error=pwdnomatch"."&auth=".$auth."&email=".$email);
+       header("Location:R2.php?error=pwdnomatch"."&auth=".$auth);
        exit();
    }
      $uppercase = preg_match('@[A-Z]@', $password);
