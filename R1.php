@@ -11,7 +11,7 @@ $dBName="eebooc1cx2mejqru";
    $sql="SELECT * FROM pwdrest WHERE pwdResetEmail=?";
   $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Reset.php?error=SQL1");
+       header("Location:Reset.php?error=SQL17");
        exit();
  }
    mysqli_stmt_bind_param($stmt,"s",$email);
@@ -87,7 +87,7 @@ $sql="INSERT INTO pwdrest (pwdResetEmail,pwdResetToken,pwdResetDate) VALUES (?,?
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
-       header("Location:Reset.php?error=SQL1");
+       header("Location:Reset.php?error=SQL27");
        exit();
  }
 
