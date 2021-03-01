@@ -11,7 +11,7 @@ $password=$_POST['pwd'];
 $sql="SELECT * FROM distrouser WHERE idDistro=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=SQL1");
+       header("Location:Signin.html?error=D1");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"s",$uid);
@@ -57,7 +57,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 $sql="SELECT * FROM users WHERE emailUsers=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:register.html?error=SQL1");
+       header("Location:register.html?error=user1");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"ss",$uid,$uid);
@@ -72,7 +72,7 @@ if (!$count>0){
    $sql='SELECT pwdUsers FROM users WHERE emailUsers="'.$uid.'" OR uidUsers="'.$uid.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL2");
+       header("Location:Signin.php?error=pwd");
        exit();
 }
    mysqli_stmt_execute($stmt);
@@ -86,7 +86,7 @@ if (!$count>0){
     $stmt= mysqli_stmt_init($conn);
 
 if(!mysqli_stmt_prepare($stmt, $sql)){
-    header("Location:Signin.php?error=sqlerror123");
+    header("Location:Signin.php?error=auth");
     exit();
  }
 
