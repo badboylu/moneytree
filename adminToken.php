@@ -158,7 +158,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idOrder']; ?> </td>
+                                <td><?php echo $rows['id']; ?> </td>
                                 <td><?php echo $rows['idDate']; ?></td>
                                 <td><?php echo $rows['idUsername']; ?> </td>
                                 <td><?php echo $rows['idPrepperToken']; ?></td>
