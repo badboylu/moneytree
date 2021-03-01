@@ -8,7 +8,7 @@ $dBName="eebooc1cx2mejqru";
    $auth=bin2hex(random_bytes(8));
    $userEmail=$_GET["email"];
  
-$sql="SELECT * FROM users WHERE emailUsers=?";
+  $sql="SELECT * FROM users WHERE emailUsers=?";
   $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Reset.php?error=SQL1");
