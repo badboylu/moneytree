@@ -707,7 +707,9 @@ class="single-product-page single-product-content product-design-default product
         Cart is empty
      </H4>
      </div>
+     <div style="margin-left: auto;  margin-right: auto;  width: 50%;">
      <img src="https://res.cloudinary.com/badboylu/image/upload/v1612773657/images_12_kxhgir.jpg">
+     </div>
      </div>
 <footer class="footer-container color-scheme-light">
 <div class="container main-footer">
