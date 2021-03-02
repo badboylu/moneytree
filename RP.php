@@ -5,7 +5,7 @@ $auth=$_GET['error'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <title>Recruitment</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="iofrm-style.css">
@@ -24,16 +24,21 @@ $auth=$_GET['error'];
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Prepper account activation</h3>
-                        <p>Prepper recruitment</p>
-<form action="RD1.php" method="get">
-<div><label>Prepper's e-mail address:</label></div>
+                        <h3>Recruite Preparation Agent</h3>
+                    
+<form action="RP1.php" method="get">
+<div><label>Enter Preparation Agent's e-mail address:</label></div>
 <div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
 <div class="form-button full-width">
 <button type="submit" class="ibtn">Send Activation Link</button>
 </div>
 </form>
-                        
+                        <div style="display:none" id="wrngemail">
+                        <p><span style="color:red"><small>*E-mail address submitted is not registered</small></span></p>
+                        </div>
+                        <div style="display:none" id="link">
+                        <p><span style="color:red"><small>*Reset link has already been sent to this e-mail address</small></span></p>
+                        </div>
                    </div>
                 </div>
             </div>
