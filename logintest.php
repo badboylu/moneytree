@@ -8,6 +8,41 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
+ if ($uid='Admin'){
+   $sql='SELECT pwdUsers FROM users WHERE uidUsers="'Lunga'"';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=pwd");
+       exit();
+}
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_bind_result($stmt, $hash);
+  
+   while (mysqli_stmt_fetch($stmt)) { 
+    if (password_verify($password, $hash)) {
+    $token= bin2hex(random_bytes(16));
+    mysqli_stmt_close($stmt);
+    $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("Location:Signin.php?error=auth");
+    exit();
+ }
+
+ mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
+ mysqli_stmt_execute($stmt);
+ 
+    header("Location:AdminCBI.php?login=successful"."&auth=".$token."&username=".$uid);
+    exit();
+
+} else {
+    header("Location:Signin.php?error=wrngpwd"."&username=".$uid);
+    exit();
+}
+}
+}   
+
 $sql="SELECT * FROM distrouser WHERE idDistro=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
