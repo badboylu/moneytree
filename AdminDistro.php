@@ -3,9 +3,15 @@
   $dBUsername="fn5xp8yu9vmphif8";
   $dBPassword="j0oarzobzrwqy40b";
   $dBName="eebooc1cx2mejqru";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $authtoken = $_GET['auth'];
-   $username = $_GET['username'];
+  $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+  $authtoken = $_GET['auth'];
+  $username = $_GET['username'];
+  $query='SELECT * FROM distrouser WHERE idDistro="'.$username.'" ';
+  $result=mysqli_query($conn,$query);
+  while($row=mysqli_fetch_array($result)){
+   $location[]=$row['idLocation'];
+  }
+  $locae=Min($location);
 ?>
 <!DOCTYPE html>
 <html lang="en">
