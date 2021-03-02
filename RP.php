@@ -29,6 +29,7 @@ $auth=$_GET['error'];
 <form action="RP1.php" method="get">
 <div><label>Enter Preparation Agent's e-mail address:</label></div>
 <div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
+<input type="hidden" name="Location" value="<?php echo $_GET['location']; ?>">
 <div class="form-button full-width">
 <button type="submit" class="ibtn">Send Activation Link</button>
 </div>
