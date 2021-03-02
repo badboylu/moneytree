@@ -147,7 +147,8 @@
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14"><?php echo $username ?></h6>
-                    <p>distro</p>
+                    <p>Distribution</p>
+                     <p><?php echo $locae ?></p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
