@@ -67,6 +67,6 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RD2.php?error=SQL3");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"ssss",$username,$email,$hashedPwd,$date,$location);
+     mysqli_stmt_bind_param($stmt,"sssss",$username,$email,$hashedPwd,$date,$location);
      mysqli_stmt_execute($stmt);
 ?>
