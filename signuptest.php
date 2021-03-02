@@ -25,7 +25,7 @@ mysqli_stmt_bind_param($stmt,"s",$username);
        header("Location:register.php?error=usernameexists");
        exit();
 } 
-$sql="SELECT emailUsers FROM users WHERE emailUsers=?";
+$sql="SELECT emailUsers FROM users WHERE emailUser=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.php?error=SQL2");
