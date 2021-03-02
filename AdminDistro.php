@@ -162,12 +162,12 @@
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="RD.php"><i class="fa fa-circle"></i>
+                                <a href="RP.php"><i class="fa fa-circle"></i>
                                     <span>Add Prepper</span> 
                                 </a>
                             </li>
                             <li>
-                                <a href="RD.php"><i class="fa fa-circle"></i>
+                                <a href="RDR.php"><i class="fa fa-circle"></i>
                                     <span>Add Driver</span> 
                                 </a>
                             </li>
