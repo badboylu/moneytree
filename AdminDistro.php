@@ -147,7 +147,6 @@
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14"><?php echo $username ?></h6>
-                    <p>Distribution</p>
                      <p><?php echo $locae ?></p>
                 </div>
                 <ul class="sidebar-menu">
@@ -169,12 +168,12 @@
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="RP.php"><i class="fa fa-circle"></i>
+                                <a href="RP.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
                                     <span>Add Prepper</span> 
                                 </a>
                             </li>
                             <li>
-                                <a href="RDR.php"><i class="fa fa-circle"></i>
+                                <a href="RP.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
                                     <span>Add Driver</span> 
                                 </a>
                             </li>
