@@ -8,7 +8,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
- if ($uid='Admin'){
+ if ($uid=='Admin'){
    $sql='SELECT pwdUsers FROM users WHERE uidUsers="Lunga"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
