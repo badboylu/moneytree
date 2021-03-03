@@ -18,6 +18,7 @@ $sql='SELECT * FROM pwdrest WHERE pwdResetToken=?';
     header("Location:X1.php?error=expired");
     exit();
 }
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
