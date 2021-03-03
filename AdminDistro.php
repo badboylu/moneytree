@@ -173,7 +173,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="RP.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
+                                <a href="RDR.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
                                     <span>Add Driver</span> 
                                 </a>
                             </li>
