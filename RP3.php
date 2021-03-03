@@ -58,7 +58,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RP2.php?error=invalidpwd");
        exit();
 }
-    $sql="INSERT INTO prepperuser (idDistro, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
+    $sql="INSERT INTO prepperuser (idPrepper, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RP2.php?error=SQL3");
