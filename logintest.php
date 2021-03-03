@@ -135,7 +135,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 }
 }   
 
-$sql="SELECT * FROM driverouser WHERE idDriver=? ";
+$sql="SELECT * FROM driveruser WHERE idDriver=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.html?error=D1");
