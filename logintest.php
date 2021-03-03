@@ -171,7 +171,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
 
-    header("Location:DH.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:DLH.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
