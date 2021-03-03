@@ -8,7 +8,7 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
- if ($uid=='Admin'){
+ if ($uid=='Owner'){
    $sql='SELECT pwdUsers FROM users WHERE uidUsers="Lunga"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -33,7 +33,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
  
-    header("Location:Admin.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:Owner.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
