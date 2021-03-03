@@ -40,7 +40,7 @@ $count2=mysqli_num_rows($result2);
   if (!$count2){
     $count2='0';
 }
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
