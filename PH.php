@@ -8,7 +8,7 @@ $dBName="eebooc1cx2mejqru";
    $distro = $_GET['username'];
    $date = date("Y-m-d");
    $multiple=20;
-   $distroearnings = print_r($count2);;
+   $distroearnings = print_r($count2);
    $payment='Pending';
    date_default_timezone_set('Africa/Johannesburg');
    $sql='SELECT * FROM userauth2 WHERE token=?';
