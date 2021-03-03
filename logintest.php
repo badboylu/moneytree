@@ -125,7 +125,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
 
-    header("Location:Prep.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:PH.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
