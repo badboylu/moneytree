@@ -26,28 +26,7 @@ $auth=$_GET['error'];
                     <div class="form-items">
                         <h3>Recruite Delivery Agent</h3>
                     
-<form action="RD1.php" method="get">
-<div><label>Province:</label>
-<select name="Province" required>
-<option value="" disabled selected>Select Province</option>
-<option value="Gauteng" >Gauteng</option>
-</select></div>
-<div><label>City:</label>
-<select name="City" required>
-<option value="" disabled selected>Select City</option>
-<option value="Johannesburg" >Johannesburg</option>
-<option value="Pretoria" >Pretoria</option>
-</select></div>
-<div><label>Allocated area:</label>
-<select name="Area" required>
-<option value="" disabled selected>Select Area</option>
-<option value="PretoriaEast">Pretoria East</option>
-<option value="PretoriaNorthEast" disabled >Pretoria North East</option>
-<option value="PretoriaNorthWest" disabled >Pretoria North West</option>
-<option value="PretoriaCentral" disabled >Pretoria Central</option>
-<option value="PretoriaCentralWest" disabled >Pretoria Central West</option>
-<option value="Centurion" disabled >Centurion</option>
-</select></div>
+<form action="RDR1.php" method="get">
 <div><label>Enter Delivery Agent's e-mail address:</label></div>
 <div><input class="form-control" type="text" name="email" placeholder="E-mail Address" required></div>
 <div class="form-button full-width">
