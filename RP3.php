@@ -14,10 +14,10 @@ date_default_timezone_set('Africa/Johannesburg');
 $date=date("Y-m-d");
 
 
-$sql="SELECT idDistro FROM distrouser WHERE idDistro=?";
+$sql="SELECT idPrepper FROM prepperuser WHERE idPrepper=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:RD2.php?error=SQL1");
+       header("Location:RP2.php?error=SQL1");
        exit();
 }
 mysqli_stmt_bind_param($stmt,"s",$username);
@@ -25,17 +25,17 @@ mysqli_stmt_bind_param($stmt,"s",$username);
    mysqli_stmt_store_result($stmt);
    $resultCheck=mysqli_stmt_num_rows($stmt);
    if($resultCheck > 0){
-       header("Location:RD2.php?error=usernameexists");
+       header("Location:RP2.php?error=usernameexists");
        exit();
 } 
-$sql="SELECT idEmail FROM distrouser WHERE idEmail=?";
+$sql="SELECT idEmail FROM prepperuser WHERE idEmail=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:RD2.php?error=SQL2");
+       header("Location:RP2.php?error=SQL2");
        exit();
 }
   if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       header("Location:RD2.php?error=invalidemail");
+       header("Location:RP2.php?error=invalidemail");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"s",$email);
@@ -43,11 +43,11 @@ $stmt=mysqli_stmt_init($conn);
    mysqli_stmt_store_result($stmt);
    $resultCheck=mysqli_stmt_num_rows($stmt);
    if($resultCheck > 0){
-       header("Location:RD2.php?error=emailexists");
+       header("Location:RP2.php?error=emailexists");
        exit();
 } 
    if($_POST['pwd'] != $_POST['pwdrepeat']){
-       header("Location:RD2.php?error=pwdnomatch");
+       header("Location:RP2.php?error=pwdnomatch");
        exit();
 }
      $uppercase = preg_match('@[A-Z]@', $password);
@@ -55,13 +55,13 @@ $stmt=mysqli_stmt_init($conn);
      $number    = preg_match('@[0-9]@', $password);
      $specialChars = preg_match('@[^\w]@', $password);
    if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
-       header("Location:RD2.php?error=invalidpwd");
+       header("Location:RP2.php?error=invalidpwd");
        exit();
 }
-    $sql="INSERT INTO distrouser (idDistro, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
+    $sql="INSERT INTO prepperuser (idDistro, idEmail, idPassword, idDate, idLocation) VALUES(?,?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:RD2.php?error=SQL3");
+       header("Location:RP2.php?error=SQL3");
        exit();
 }
      mysqli_stmt_bind_param($stmt,"sssss",$username,$email,$hashedPwd,$date,$location);
