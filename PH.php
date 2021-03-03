@@ -5,11 +5,8 @@ $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
-   $distro = $_GET['username'];
+   $prepper = $_GET['username'];
    $date = date("Y-m-d");
-   $multiple=20;
-   $distroearnings = print_r($count2);
-   $payment='Pending';
    date_default_timezone_set('Africa/Johannesburg');
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
@@ -31,7 +28,7 @@ $count3=mysqli_num_rows($result3);
  if (!$count3){
     $count3='0';
 }
-$query1="SELECT * FROM deliverytoken WHERE idUsername='".$distro."'";
+$query1="SELECT * FROM deliverytoken WHERE idUsername='".$prepper."'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
   if (!$count1){
