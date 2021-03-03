@@ -6,5 +6,5 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $sql="DELETE FROM driveruser";
 mysqli_query($conn, $sql);
-    header("Location:adminDriver.php");
+    header("Location:adminDrivers.php");
     exit();
