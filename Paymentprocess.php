@@ -76,7 +76,7 @@ if(!mysqli_stmt_prepare($stmt, $sql3)){
 $query="select * from deliverytoken";
 $result=mysqli_query($conn,$query);
 while($row=mysqli_fetch_array($result)){
- $ordernumbers[]=$row['idOrder'];
+ $ordernumbers[]=$row['id'];
 }
 $order=Max($ordernumbers);
 
