@@ -1511,75 +1511,92 @@ per/batch
 </div>
 
 <div 
-class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 last  type-product post-19564 status-publish last instock product_cat-watches has-post-thumbnail featured shipping-taxable purchasable product-type-simple" 
-data-loop="8" 
-data-id="19564">
+class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19730 status-publish first instock product_cat-accessories product_tag-basic product_tag-new has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
+data-loop="5" 
+data-id="19730">
 <div class="product-element-top"> 
-
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<div class="product-labels labels-rounded">
+<span class="new product-label">
+New
+</span>
+</div>
 <img 
 width="273" 
 height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg" 
+src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg" 
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008971/c98132204fc270649a31ba21002c4460_ozfvzg.jpg 526w" 
-sizes="(max-width: 273px) 100vw, 273px" />
-
-<div class="hover-img"> 
-
-<img 
-width="273" 
-height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1612773340/images_3_ujwx3h.png" 
-class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
-alt="" 
-srcset=
-"https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1612773340/images_3_ujwx3h.png 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1612773340/images_3_ujwx3h.png 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1612773340/images_3_ujwx3h.png 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1612773340/images_3_ujwx3h.png 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1612773340/images_3_ujwx3h.png 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1612773340/images_3_ujwx3h.png 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1612773340/images_3_ujwx3h.png 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1612773340/images_3_ujwx3h.png 526w" 
+"https://res.cloudinary.com/badboylu/image/upload/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
+</a>
+<div class="hover-img"> 
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<img 
+width="273" 
+height="348" 
+src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
+class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
+alt="" 
 
+srcset=
+"https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 526w" 
+sizes="(max-width: 273px) 100vw, 273px" /> 
+</a>
+</div>
+<div class="basel-buttons">
 </div>
 </div>
 <h3 class="product-title">
-<a href="">
-Pineapple Express
+<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+Pre-Rolls (indoor)
 </a>
 </h3>
 <div class="wrap-price">
+<div class="wrap-price">
 <div class="wrapp-swap">
 <div class="swap-elements"> 
-<span class="price">
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-110
+60
 </span>
-per/gram
+per/joint
 </span>
 </span>
-<div class="btn-add">
+</span>
+<div class="btn-add" id="PrHomecart">
+		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+			View cart
+		</a>	
+		</div>
+<div class="btn-add"> 
+	<button class="PreRollsHome" id="PrHome" >
+		add to cart
+	</button>
+	</div>
 </div>
 </div>
 </div>
 </div>
 </div>
-
 
 </div>
 </div>
