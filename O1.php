@@ -183,7 +183,7 @@ Log
                                 while($rows=mysqli_fetch_assoc($result)){
                                 ?>
                                 <tr>
-                                <td>#00<?php echo $rows['idOrderNumber']; ?></td>
+                                <td>#00<?php echo $rows['id']; ?></td>
                                 <td><?php echo $rows['idDate']; ?></td>
                                 <td>R<?php echo $rows['idAmount']; ?></td>
                                 <td><?php echo $rows['idOrderStat']; ?></td>
