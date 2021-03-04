@@ -57,7 +57,7 @@ foreach ($token as $keys) {
       mysqli_query($conn,$sql3);
       $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idCustomerToken='".$keys."' ";
       mysqli_query($conn,$sql4);
-      $sql2="UPDATE orderlog SET idOrderStat='Prepared' WHERE idOrderNumber='".$order1."' ";
+      $sql2="UPDATE orderlog SET idOrderStat='Prepared' WHERE idCustiToken='".$keys."' ";
       mysqli_query($conn,$sql2);
       header("Location:D1.php?username=".$user."&auth=".$authtoken."");
       exit();
