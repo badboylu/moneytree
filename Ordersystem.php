@@ -35,6 +35,13 @@ while($row=mysqli_fetch_array($result)){
 
 $order=Min($ordernumbers);
 
+$query1="select * from deliverytoken";
+$result1=mysqli_query($conn,$query1);
+while($row=mysqli_fetch_array($result1)){
+ $ordernumbers1[]=$row['id'];
+}
+$order1=Max($ordernumbers1);
+
 $new='SELECT * FROM oders WHERE idOrders="'.$order.'" ';
 $result1=mysqli_query($conn,$new);
 
@@ -50,6 +57,8 @@ foreach ($token as $keys) {
       mysqli_query($conn,$sql3);
       $sql4="UPDATE deliverytoken SET idDate='".$date."' WHERE idCustomerToken='".$keys."' ";
       mysqli_query($conn,$sql4);
+      $sql2="UPDATE orderlog SET idOrderStat='Prepared' WHERE idOrderNumber='".$order1."' ";
+      mysqli_query($conn,$sql2);
       header("Location:D1.php?username=".$user."&auth=".$authtoken."");
       exit();
       }
