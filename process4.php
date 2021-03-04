@@ -20,7 +20,7 @@ while($row2=mysqli_fetch_array($result2)){
 $ordertoken2=Max($token2);
 $sql="UPDATE oders SET idOrderConfirmation='Pending' WHERE idOrderToken='".$authtoken."' AND idOrders='".$ordertoken."' ";
 mysqli_query($conn,$sql);
-$sql2="UPDATE orderlog SET idOrderStat='Pending' WHERE idOrderNumber='".$ordertoken2."' ";
+$sql2="UPDATE orderlog SET idOrderStat='Pending' WHERE idPrepperToken='".$authtoken."' ";
 mysqli_query($conn,$sql2);
 ?>
 
