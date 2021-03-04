@@ -59,7 +59,7 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql3);
       $sql2="UPDATE orderlog SET idOrderStat='Collected' WHERE idCustiToken='".$custi."' ";
       mysqli_query($conn,$sql2);
-      header("Location:DL77.php?username=".$user."&auth=".$auth."");
+      header("Location:DL77.php?username=".$user."&auth=".$auth."&custi=".$custi."");
       exit();
       }
 }
