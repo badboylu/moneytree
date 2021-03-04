@@ -1200,14 +1200,14 @@ sizes="(max-width: 273px) 100vw, 273px" />
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/images-3_bgewza.jpg 235w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/images-3_bgewza.jpg 768w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/images-3_bgewza.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/images-3_bgewza.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/images-3_bgewza.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/images-3_bgewza.jpg 263w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/images-3_bgewza.jpg
+"https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 235w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 768w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 263w,
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg
  526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
