@@ -37,10 +37,10 @@ $query='SELECT * FROM deliverytoken WHERE idPrepperToken="'.$collect.'" ';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $ordernu[]=$row['idOrder'];
+ $token[]=$row['idCustomerToken'];
 }
 
-$odnum=Min($ordernumber);
+$custi=Min($token);
 
 $new2='SELECT * FROM deliverytoken';
 $result2=mysqli_query($conn,$new2);
@@ -57,6 +57,8 @@ foreach ($token2 as $keys) {
       mysqli_query($conn,$sql2);
       $sql3="UPDATE oders SET idOrderConfirmation='".$stat."' WHERE idOrderToken='".$authcode."' AND idOrderCode='".$collect."' ";
       mysqli_query($conn,$sql3);
+      $sql2="UPDATE orderlog SET idOrderStat='Collected' WHERE idCustiToken='".$custi."' ";
+      mysqli_query($conn,$sql2);
       header("Location:DL77.php?username=".$user."&auth=".$auth."");
       exit();
       }
