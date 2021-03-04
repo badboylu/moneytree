@@ -191,7 +191,7 @@ $result=mysqli_query($conn,$query);
                                 <td><?php echo $rows['idUnitNumber']; ?> </td>
                                 <td><?php echo $rows['idHouseNumber']; ?></td>
                                 <td><?php echo $rows['idContactNumber']; ?></td>
-                                <td><?php echo $rows['idCustiToken']; ?></td>
+                                <td><?php echo $rows['idOrderCustiCode']; ?></td>
                                 <td><?php echo $rows['idOrderConfirmation']; ?></td>
 
                             </tr>
