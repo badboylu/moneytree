@@ -1311,15 +1311,6 @@ Pre-Rolls (greenhouse)
 <div class="wrap-price">
 <div class="wrapp-swap">
 <div class="swap-elements">
-<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-<span style="width:100%">
-Rated 
-<strong class="rating">
-5.00
-</strong> 
-out of 5
-</span>
-</div>
 <span class="price">
 <span class="price">
 <span class="woocommerce-Price-amount amount">
@@ -1399,15 +1390,6 @@ Northern Lights
 <div class="wrap-price">
 <div class="wrapp-swap">
 <div class="swap-elements">
-<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-<span style="width:100%">
-Rated 
-<strong class="rating">
-5.00
-</strong> 
-out of 5
-</span>
-</div>
 <span class="price">
 <span class="price">
 <span class="woocommerce-Price-amount amount">
