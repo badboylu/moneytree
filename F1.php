@@ -163,8 +163,6 @@ Tracker
 <p><strong> Order preparation: </strong> <span> N/A </span> </p>
 <p><strong> Order collection: </strong> <span> N/A </span> </p>
 <p><strong> Order delivery: </strong> <span> N/A </span> </p>
-<p><strong> Order arrival: </strong> <span> N/A </span> </p>
-<P><strong> Order status: </strong> <span> N/A </span> </p>
 <br>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
