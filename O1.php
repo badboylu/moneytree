@@ -7,7 +7,8 @@ $dBName="eebooc1cx2mejqru";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $query="select * from orderlog WHERE idUsername='".$user."' ";
    $result=mysqli_query($conn,$query);
-   
+   $sql="DELETE FROM orderlog WHERE idOrderStat='Placed' ";
+   mysqli_query($conn,$sql);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
