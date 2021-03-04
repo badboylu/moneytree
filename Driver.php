@@ -22,7 +22,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-$query='SELECT * FROM address WHERE idCustiToken="'.$custi.'" ';
+$query='SELECT * FROM address ';
 $result=mysqli_query($conn,$query);
 $row=mysqli_fetch_array($result);
 
