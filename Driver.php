@@ -6,6 +6,7 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
+$custi = $_GET['custi'];
 
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
