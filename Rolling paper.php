@@ -32,7 +32,7 @@ $dBName="eebooc1cx2mejqru";
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Blunt wrap</title>
+<title>Raw Rolling Paper</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -269,7 +269,7 @@ Accessories range
 Shop
 </a> 
 <span class="current">
-	Blunt wrap
+	Raw Rolling Paper
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -285,7 +285,7 @@ Shop
 </span>
 <h4 class="title" >
 <strong>
-	Blunt wrap
+	Raw Rolling Paper
 </strong>
 <span class="title-separator">
 <span>
@@ -301,7 +301,7 @@ Shop
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
-	Blunt wrap
+	Raw Rolling Paper
 </span>
 </nav>
 </div>
@@ -363,7 +363,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Blunt wrap
+	Raw Rolling Paper
 </h1>
 
 <p class="price">
@@ -372,7 +372,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60.00
+20.00
 </span>
 per/pack
 </span>
@@ -421,7 +421,7 @@ Accessories
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Blunt Wrap added to cart</strong></span>
+<span><strong>Raw Rolling Paper added to cart</strong></span>
 </div>
 </div>
 </div>
