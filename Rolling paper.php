@@ -269,7 +269,7 @@ Accessories range
 Shop
 </a> 
 <span class="current">
-	Raw Rolling Paper
+	Raw 
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -285,7 +285,7 @@ Shop
 </span>
 <h4 class="title" >
 <strong>
-	Raw Rolling Paper
+	Raw 
 </strong>
 <span class="title-separator">
 <span>
@@ -372,7 +372,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-20.00
+20
 </span>
 per/pack
 </span>
