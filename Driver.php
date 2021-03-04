@@ -22,42 +22,6 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     exit();
 }
 
-$query="SELECT * FROM address WHERE idOrderConfirmation='Collected'";
-$result=mysqli_query($conn,$query);
-$count=mysqli_num_rows($result);
-$check=$_POST;
-if($count>1){
- while($row=mysqli_fetch_array($result)){
- $ordernumbers[]=$row['idUser'];
-  }
- $order=Min($ordernumbers);
- $final="SELECT * FROM address WHERE idUser=".$order;
- $finalresult=mysqli_query($conn,$final);
- $row = mysqli_fetch_array($finalresult);
-}
-else if($count>0){
- $row=mysqli_fetch_array($result);
-}
-else{
-  header("Location:DL01.php?username=".$user."&auth=".$auth."");
-  exit();
-}
-
-$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
-$result1=mysqli_query($conn,$query1);
-$count1=mysqli_num_rows($result1);
-
-if(!$count1){
- $count1='0';
-  }
-
-$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Delivered'";
-$result2=mysqli_query($conn,$query2);
-$count2=mysqli_num_rows($result2);
-
-if(!$count2){
- $count2='0';
-  }
 
 ?>
 <html lang="en">
