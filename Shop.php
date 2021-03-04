@@ -1302,18 +1302,25 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1612773186
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
-<div class="basel-buttons">
-</div>
 </div>
 <h3 class="product-title">
 <a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Pre-Rolls
+Pre-Rolls (greenhouse)
 </a>
 </h3>
 <div class="wrap-price">
-<div class="wrap-price">
 <div class="wrapp-swap">
-<div class="swap-elements"> 
+<div class="swap-elements">
+<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+<span style="width:100%">
+Rated 
+<strong class="rating">
+5.00
+</strong> 
+out of 5
+</span>
+</div>
+<span class="price">
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
@@ -1322,7 +1329,6 @@ R
 60
 </span>
 per/joint
-</span>
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
@@ -1334,7 +1340,6 @@ per/joint
 	<button class="PreRollsHome" id="PrHome" >
 		add to cart
 	</button>
-	</div>
 </div>
 </div>
 </div>
