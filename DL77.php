@@ -244,6 +244,7 @@ else if($count1>2){
                          <input type="submit" name="Next" value="Start delivery" id="Blanks" ">
                          <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
                          <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
+                         <input type="hidden" name="custi" value="<?php echo $_GET['custi'] ?>">
                          </form>
                          </span>
                     </div>
