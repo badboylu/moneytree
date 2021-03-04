@@ -121,7 +121,7 @@ href="cannacaps.html" />
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
 	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
-	Shop
+	Shop 
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
         <div class="container">
@@ -319,30 +319,30 @@ class="single-product-page single-product-content product-design-default product
 <div class="col-md-9 col-md-push-3">
 <figure class="woocommerce-product-gallery__wrapper owl-carousel">
 	<figure data-thumb="
-	https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
+	https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg" 
 	class="woocommerce-product-gallery__image">
-	<a href="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg">
+	<a href="https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg">
 	<img width="870" height="1110" 
-	src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
+	src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg" 
 	class="attachment-woocommerce_single size-woocommerce_single" 
 	alt="" 
 	title="woman (22)" 
 	data-caption="" 
-	data-src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
-	data-large_image="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
+	data-src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg" 
+	data-large_image="https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg" 
 	data-large_image_width="3315" 
 	data-large_image_height="1528" 
 	srcset="
-        https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg 870w, 
-        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_697,w_546/v1600203458/images-3_bgewza.jpg 546w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1600203458/images-3_bgewza.jpg 273w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/images-3_bgewza.jpg 235w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/images-3_bgewza.jpg 768w,
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/images-3_bgewza.jpg 803w,
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/images-3_bgewza.jpg 266w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/images-3_bgewza.jpg 219w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/images-3_bgewza.jpg 263w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/images-3_bgewza.jpg 526w" 
+        https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 870w, 
+        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_697,w_546/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 546w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 273w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 235w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 768w,
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 803w,
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 266w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 219w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 263w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 526w" 
 	sizes="(max-width: 870px) 100vw, 870px" />
 	</a>
 	</figure>
