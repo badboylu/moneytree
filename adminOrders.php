@@ -144,12 +144,12 @@ $result=mysqli_query($conn,$query);
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
-                               
+                                <th>ID</th>
                                 <th>User</th>
                                 <th>OrderPrepperID</th>
                                 <th>OrderCustomerID</th>
                                 <th>Token</th>
-                                 <th>Order total</th>
+                                <th>Order total</th>
                                 <th>Prep statues</th>
                             </tr>
                             </thead>
@@ -158,7 +158,7 @@ $result=mysqli_query($conn,$query);
                             while($rows=mysqli_fetch_assoc($result)){
                             ?>
                             <tr>
-                                
+                                <td><?php echo $rows['idOrders']; ?></td>
                                 <td><?php echo $rows['idOrderUsername']; ?></td>
                                 <td><?php echo $rows['idOrderCode']; ?></td>
                                  <td><?php echo $rows['idOrderCustiCode']; ?></td>
