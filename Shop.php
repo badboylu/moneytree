@@ -1082,7 +1082,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</div>
 		</div>
 		</div>
-</div>
+                </div>
 <div class="clearfix visible-xs-block">
 </div>
 <div 
@@ -1170,7 +1170,7 @@ Orange Cali
 </div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 type-product post-19515 status-publish instock product_cat-woman has-post-thumbnail shipping-taxable purchasable product-type-variable" 
-data-loop="3" 
+data-loop="4" 
 data-id="19515">
 <div class="product-element-top"> 
 <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
@@ -1245,7 +1245,7 @@ Raw rizzla
 	</div>
 	</div>
 	</div>
-</div>
+        </div>
 
 </div>
 </div>
@@ -1338,7 +1338,7 @@ per/joint
 </div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 type-product post-19689 status-publish instock product_cat-accessories product_tag-basic product_tag-black has-post-thumbnail featured shipping-taxable purchasable product-type-simple" 
-data-loop="7" 
+data-loop="6" 
 data-id="19689">
 <div class="product-element-top"> 
 <a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
@@ -1415,9 +1415,11 @@ per/gram
 </div>
 </div>
 </div>
+<div class="clearfix visible-xs-block">
+</div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 last  type-product post-19564 status-publish last instock product_cat-watches has-post-thumbnail featured shipping-taxable purchasable product-type-simple" 
-data-loop="8" 
+data-loop="7" 
 data-id="19564">
 <div class="product-element-top"> 
 <a href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
@@ -1499,7 +1501,7 @@ per/batch
 
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19730 status-publish first instock product_cat-accessories product_tag-basic product_tag-new has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
-data-loop="5" 
+data-loop="8" 
 data-id="19730">
 <div class="product-element-top"> 
 <a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
