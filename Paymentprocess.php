@@ -87,7 +87,7 @@ if(!mysqli_stmt_prepare($stmt, $sql4)){
     header("Location:Signin.php?error=sqlerror123");
     exit();
  }
-    mysqli_stmt_bind_param($stmt,"sisssis",$date,$total,$confirmedpayment1,$custitoken,$username,$order,$preppertoken);
+    mysqli_stmt_bind_param($stmt,"sisssis",$date,$total,$confirmedpayment1,$custitoken,$username,$order,$authtoken);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
