@@ -15,7 +15,7 @@ $ordertoken=Max($token);
 $query2='SELECT * FROM deliverytoken WHERE idOrderID="'.$authtoken.'" ';
 $result2=mysqli_query($conn,$query2);
 while($row2=mysqli_fetch_array($result2)){
- $token2[]=$row2['idOrder'];
+ $token2[]=$row2['id'];
 }
 $ordertoken2=Max($token2);
 $sql="UPDATE oders SET idOrderConfirmation='Pending' WHERE idOrderToken='".$authtoken."' AND idOrders='".$ordertoken."' ";
