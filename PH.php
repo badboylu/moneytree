@@ -121,7 +121,7 @@ $count2=mysqli_num_rows($result2);
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="Distro.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                <a href="Prep.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
                                     <span>Pending orders</span> 
                                 </a>
                           
