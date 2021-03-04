@@ -21,7 +21,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     exit();
 }
 $driver='Lunga';
-$query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
+$query="SELECT * FROM address WHERE idCustiToken='Pending'";
 $result=mysqli_query($conn,$query);
 
 $query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
