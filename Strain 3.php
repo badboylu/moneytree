@@ -363,7 +363,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Northern lights indoor
+	Northern lights 
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
@@ -382,7 +382,7 @@ per/grams
         <br>
 	<strong>Quality:</strong><span> Indoor</span>
         <br>
-	<strong>Description:</strong><span> An internationally known strain made by crossing Afghani with Thai. It has been reported that it produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Having a pungently sweet and spicy flavor profile, it is smooth on the exhale. Most patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain on occasion features purple crystal-coated buds.</span>
+	<strong>Description:</strong><span> An internationally known strain made by crossing Afghani with Thai. It has been reported that it produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Having a pungently sweet and spicy flavor profile, it is smooth on the exhale. Most patients choose Northern lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain on occasion features purple crystal-coated buds.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
