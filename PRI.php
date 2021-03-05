@@ -386,19 +386,19 @@ per/Joint
 	<div >
 	<div class="quantity" id="PEgrams"> 
 	<button class ="upbutton">
-	<ion-icon type="button" class="lessGramsPreRolls" name="caret-down-outline"></ion-icon>
+	<ion-icon type="button" class="lessGramsPineappleExpress" name="caret-down-outline"></ion-icon>
 	</button> 
 	<span class="gramsamountPE" >0</span>
 	<button class ="upbutton">
-	<ion-icon type="button" class="moreGramsPreRolls" name="caret-up-outline"></ion-icon>
+	<ion-icon type="button" class="moreGramsPineappleExpress" name="caret-up-outline"></ion-icon>
 	</button>
 	
 	<span>
-	J's
+	Joints
 	</span>
 	</div>
 	<br>
-	<button class="PreRolls" id="PE">
+	<button class="PineappleExpress" id="PE">
 		add to cart
 	</button>
 	</div>
