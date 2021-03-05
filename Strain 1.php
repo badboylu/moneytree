@@ -382,7 +382,7 @@ per/gram
 	<br>
 	<strong>Quality:</strong><span> Indoor</span>
         <br>
-	<strong>Description:</strong><span> An internationally know bud with genetic origins from South Africa grown in a controlled environment to produce a high quality bud. </span>
+	<strong>Description:</strong><span> An internationally know strain of bud with genetic origins from South Africa. It has been grown in a controlled environment using modern indoor growing technology to produce the highest quality of bud currently possible.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
