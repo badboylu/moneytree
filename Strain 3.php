@@ -375,7 +375,7 @@ R
 </span>
 per/grams
 </span>
-</p>Strain Type: Hybrid
+</p>
 <div class="woocommerce-product-details__short-description">
 	<p>
         <strong>Strain Type:</strong><span> Indica dominant</span>
