@@ -379,9 +379,9 @@ per/pack
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Product origins:</strong><span> Europe</span>
-    <br>
-	<strong>Note:</strong><span> Flavour shall vary with each order according to product availability </span>
+	<strong>Quality:</strong><span>100% organic</span>
+        <br>
+	<strong>Description:</strong><span> An internationally know bud with genetic origins from South Africa grown in a controlled environment to produce a high quality bud. </span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
