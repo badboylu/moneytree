@@ -1571,16 +1571,16 @@ per/joint
 </span>
 </span>
 </span>
-<div class="btn-add" id="PrHomecart">
+<div class="btn-add" id="PeHomecart">
 		<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 			View cart
 		</a>	
 		</div>
 <div class="btn-add"> 
-	<button class="PreRollsHome" id="PrHome" >
+	<button class="PineappleExpressHome" id="PeHome" >
 		add to cart
 	</button>
-	</div>
+</div>
 </div>
 </div>
 </div>
