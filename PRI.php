@@ -32,7 +32,7 @@ $dBName="eebooc1cx2mejqru";
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Pre-Rolls</title>
+<title>Pre-Rolls (indoor)</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -292,7 +292,7 @@ Shop
 </span>
 </div>
 <span class="title-after_title">
-	Greenhouse
+	Indoor
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
@@ -368,16 +368,16 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60
+100
 </span>
 per/Joint
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Quality:</strong><span> Packed with greenhouse</span>
+	<strong>Quality:</strong><span> Packed with indoor</span>
         <br>
-	<strong>Description:</strong><span> A ready-made hollow cone joint manufactured by the international brand raw which has been packed with finely crushed greenhouse bud. Each joint is packed with no less than 2 grams of the highest quality sativa or indica. Due to the pandemic, measures have been implemented to exponentially lessen the risk of contamination of the product.</span>
+	<strong>Description:</strong><span> A ready-made hollow cone joint manufactured by the international brand raw which has been packed with finely crushed indoor bud. Each joint is packed with no less than 2 grams of the highest quality sativa or indica. Due to the pandemic, measures have been implemented to exponentially lessen the risk of contamination of the product.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
