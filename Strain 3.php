@@ -379,6 +379,7 @@ per/grams
 <div class="woocommerce-product-details__short-description">
 	<p>
         <strong>Strain Type:</strong><span> Indica dominant</span>
+        <br>
 	<strong>Quality:</strong><span> Indoor</span>
         <br>
 	<strong>Description:</strong><span> An internationally known strain made by crossing Afghani with Thai. It has been reported that it produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Having a pungently sweet and spicy flavor profile, it is smooth on the exhale. Most patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain on occasion features purple crystal-coated buds.</span>
