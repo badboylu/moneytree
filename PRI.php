@@ -472,15 +472,15 @@ Scroll To Top
 src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js" >
 </script>
 <script 
-src="plugtechPR.js" >
+src="plugtechPE.js" >
 </script>
 <script 
 src="totalAmountsDisplay.js" >
 </script>
 <script>
 setInterval (function addHide(){
-    pr= localStorage.getItem('cartNumberPR');
-    if(pr){
+    pe= localStorage.getItem('cartNumberPE');
+    if(pe){
     document.getElementById("added").style.display = "block";
     }else{
     document.getElementById("added").style.display = "none";
