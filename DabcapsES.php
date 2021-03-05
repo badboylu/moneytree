@@ -370,7 +370,7 @@ R
 </span>
 450
 </span>
-per Batch
+per batch of 8
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
