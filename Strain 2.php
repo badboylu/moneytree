@@ -360,7 +360,7 @@ per/gram
 	<br>
 	<strong>Quality:</strong><span> Greenhouse</span>
         <br>
-	<strong>Description:</strong><span> An internationally know bud with genetic origins from Europe grown in a greenhouse environment. Famous for producing a more body focused effect rather than a mental one.  </span>
+	<strong>Description:</strong><span> An internationally know bud with genetic origins from Europe grown in a greenhouse environment. It is accepted to be a 50/50 indica/sativa and produces a sweet citrus aroma reminiscent of orange zest. Also known as C.O.B, it got its name through Dutch growers calling it “Californian Orange” in feminized seed form. It has since found its way around the globe and is a favorite with many growers. Most users report that California Orange produces an upbeat, clear-headed effect. </span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
