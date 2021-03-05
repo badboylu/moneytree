@@ -370,16 +370,16 @@ R
 </span>
 450
 </span>
-per/Batch
+per Batch
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Mixture</span>
+	<strong>Strains used in production:</strong><span> Mixture of sativa and indica</span>
 	<br>
-	<strong>Genetic origins:</strong><span> South Africa</span>
+	<strong>Strength:</strong><span> Strong</span>
 	<br>
-	<strong>Potency:</strong><span> 97.8%</span>
+	<strong>Description:</strong><span> Dabcapsules are a brand new product that is produced locally to make cannibus edibles more healthy to consume. Using modern extraction methods, cannibus oils are extracted from sativa and indica strains and then after encapsulated into the dabcapsules. These capsules contain the full spectrum of the cannibus oil compounds which gives the full health benefits of the cannibus plant. Health benefits may include a boosted endocannabinoid system which enhances overall well being.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
