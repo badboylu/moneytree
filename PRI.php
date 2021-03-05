@@ -384,11 +384,11 @@ per/Joint
 	<div class="woocommerce-variation single_variation">
 	</div>
 	<div >
-	<div class="quantity" id="PRgrams"> 
+	<div class="quantity" id="PEgrams"> 
 	<button class ="upbutton">
 	<ion-icon type="button" class="lessGramsPreRolls" name="caret-down-outline"></ion-icon>
 	</button> 
-	<span class="gramsamountPR" >0</span>
+	<span class="gramsamountPE" >0</span>
 	<button class ="upbutton">
 	<ion-icon type="button" class="moreGramsPreRolls" name="caret-up-outline"></ion-icon>
 	</button>
@@ -398,7 +398,7 @@ per/Joint
 	</span>
 	</div>
 	<br>
-	<button class="PreRolls" id="PR">
+	<button class="PreRolls" id="PE">
 		add to cart
 	</button>
 	</div>
