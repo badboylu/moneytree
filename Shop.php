@@ -1137,7 +1137,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Orange Cali
+California orange
 </a>
 </h3>
 <div class="wrap-price">
@@ -1305,7 +1305,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Pre-Rolls (greenhouse)
+Pre-rolls (greenhouse)
 </a>
 </h3>
 <div class="wrap-price">
@@ -1384,7 +1384,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Northern Lights
+Northern lights
 </a>
 </h3>
 <div class="wrap-price">
@@ -1553,7 +1553,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Pre-Rolls (indoor)
+Pre-rolls (indoor)
 </a>
 </h3>
 <div class="wrap-price">
