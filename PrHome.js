@@ -1,5 +1,5 @@
 const cartshomePR = document.querySelectorAll('.PreRollsHome');
-var priceHomePR = 20;
+var priceHomePR = 60;
 
 cartshomePR.forEach(PreRollsHome =>{
         PreRollsHome.addEventListener('click', () => {
@@ -32,9 +32,9 @@ function addGramsNumbersHomePR() {
         let gramsNumberaddHomePR = localStorage.getItem('GramsPR'); 
         gramsNumberaddHomePR = parseInt(gramsNumberaddHomePR);
                if(gramsNumberaddHomePR) {
-                localStorage.setItem('GramsPR', gramsNumberaddHomePR + 5);
+                localStorage.setItem('GramsPR', gramsNumberaddHomePR + 1);
                }else{
-                localStorage.setItem('GramsPR', 5);
+                localStorage.setItem('GramsPR', 1);
                }
 }
 
