@@ -269,7 +269,7 @@ Flowers range
 Shop
 </a> 
 <span class="current">
-	Northern Lights
+	Northern lights
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -285,7 +285,7 @@ Shop
 </span>
 <h4 class="title" >
 <strong>
-	Northern Lights
+	Northern lights
 </strong>
 <span class="title-separator">
 <span>
@@ -301,7 +301,7 @@ Shop
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
-	Northern Lights
+	Northern lights
 </span>
 </nav>
 </div>
@@ -363,7 +363,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Northern Lights Indoor
+	Northern lights indoor
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
@@ -371,9 +371,9 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-45.00
+45
 </span>
-per/g
+per/grams
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
@@ -384,6 +384,9 @@ per/g
 	<br>
 	<strong>Potency:</strong><span> 20.4%</span>
 	</p></div>
+
+Northern Lights is an indica marijuana strain made by crossing Afghani with Thai. Northern Lights produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Consumers say this strain has a pungently sweet and spicy flavor profile that is smooth on the exhale. Medical marijuana patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain features purple and crystal-coated buds
+
 <div >
 	<div class="single_variation_wrap">
 	<div class="woocommerce-variation single_variation">
