@@ -375,15 +375,10 @@ per/J
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Greenhouse</span>
-	<br>
-	<strong>Product origins:</strong><span> South Africa</span>
-	<br>
-	<strong>Potency:</strong><span> 18% - 22%</span>
+	<strong>Quality:</strong><span> Packed with greenhouse</span>
+        <br>
+	<strong>Description:</strong><span> Josh Kesselman, an American entrepreneur, founded Raw rolling paper in 2005 which became one of the first "vegan" rolling papers to hit the market and has now become an international brand.</span>
 	</p></div>
-	<br>
-	
-	
 <div >
 	<div class="single_variation_wrap">
 	<div class="woocommerce-variation single_variation">
