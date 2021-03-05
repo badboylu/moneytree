@@ -382,9 +382,6 @@ per/grams
         <br>
 	<strong>Description:</strong><span> An internationally known strain made by crossing Afghani with Thai. It has been reported that it produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Having a pungently sweet and spicy flavor profile, it is smooth on the exhale. Most patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain on occasion features purple crystal-coated buds.</span>
 	</p></div>
-
-Northern Lights is an indica marijuana strain made by crossing Afghani with Thai. Northern Lights produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Consumers say this strain has a pungently sweet and spicy flavor profile that is smooth on the exhale. Medical marijuana patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain features purple and crystal-coated buds
-
 <div >
 	<div class="single_variation_wrap">
 	<div class="woocommerce-variation single_variation">
