@@ -32,7 +32,7 @@ $dBName="eebooc1cx2mejqru";
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Cannacaps Extra Strong</title>
+<title>Dabcapsules (strong)</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -265,7 +265,7 @@ Edibles range
 Shop
 </a> 
 <span class="current">
-	Cannacaps Extra Strong
+	Dabcapsules 
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -281,7 +281,7 @@ Shop
 </span>
 <h4 class="title" >
 <strong>
-	Cannacaps Extra Strong
+	Dabcapsules
 </strong>
 <span class="title-separator">
 <span>
@@ -297,7 +297,7 @@ Shop
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
-	Cannacaps Extra Strong
+	Dabcapsules
 </span>
 </nav>
 </div>
@@ -368,7 +368,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-450.00
+450
 </span>
 per/Batch
 </span>
