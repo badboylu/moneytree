@@ -377,7 +377,7 @@ per/Joint
 	<p>
 	<strong>Quality:</strong><span> Packed with greenhouse</span>
         <br>
-	<strong>Description:</strong><span> Josh Kesselman, an American entrepreneur, founded Raw rolling paper in 2005 which became one of the first "vegan" rolling papers to hit the market and has now become an international brand.</span>
+	<strong>Description:</strong><span> Ready made empty cone joints made by the international raw brand packed with finely crushed greenhouse bud. Each joint is packed no less than 2 grams of greenhouse sativa or indica. Due to the pandemic, measures have been implemented to exponentially lessen the risk of contamination.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
