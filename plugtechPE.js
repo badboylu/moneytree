@@ -1,7 +1,7 @@
 const cartsPE = document.querySelectorAll('.PineappleExpress');
 const moreGramsPE = document.querySelectorAll('.moreGramsPineappleExpress');
 const lessGramsPE = document.querySelectorAll('.lessGramsPineappleExpress');
-var pricePE = 110;
+var pricePE = 100;
 
 cartsPE.forEach(PineappleExpress =>{
         PineappleExpress.addEventListener('click', () => {
@@ -88,12 +88,12 @@ function addGramsNumbersPE() {
         let ifavailablePE = localStorage.getItem('GramsPE')
         ifavailablePE = parseInt(ifavailablePE);
                if(ifavailablePE) {
-                localStorage.setItem('GramsPE',(ifavailablePE) + 5);
+                localStorage.setItem('GramsPE',(ifavailablePE) + 1);
                 let gramsNumberaddPE = localStorage.getItem('GramsPE'); 
                 gramsNumberaddPE = parseInt(gramsNumberaddPE);
                 document.querySelector('.gramsamountPE').textContent =parseInt(gramsNumberaddPE);
                }else{
-                localStorage.setItem('GramsPE', 5 );       
+                localStorage.setItem('GramsPE', 1 );       
                 document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumberaddPE);
                }
 }
@@ -105,8 +105,8 @@ function minusGramsNumbersPE() {
         let gramsNumbersminusPE = localStorage.getItem('GramsPE'); 
         gramsNumbersminusPE = parseInt(gramsNumbersminusPE);
                if(gramsNumbersminusPE) {
-                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 5));
-                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -5;
+                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 1));
+                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -1;
                }else{
                 document.querySelector('.gramsamountPE').textContent = 0;   
 }
