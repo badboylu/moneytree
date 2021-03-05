@@ -381,7 +381,7 @@ per/pack
 	<p>
 	<strong>Quality:</strong><span> Organic, unprocessed and unbleached papers.</span>
         <br>
-	<strong>Description:</strong><span> An internationally know bud with genetic origins from South Africa grown in a controlled environment to produce a high quality bud. </span>
+	<strong>Description:</strong><span> Josh Kesselman, an American entrepreneur, founded Raw rolling paper in 2005 which became one of the first "vegan" rolling papers to hit the market and has now become an international brand.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
