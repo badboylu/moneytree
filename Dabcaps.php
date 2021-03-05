@@ -365,7 +365,7 @@ Dabcapsules
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-240 per batch
+240 per batch of 8
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
