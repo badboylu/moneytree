@@ -246,7 +246,7 @@ Flowers range
 Shop
 </a> 
 <span class="current">
-Orange Cali
+California Orange
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -262,7 +262,7 @@ Orange Cali
 </span>
 <h4 class="title" >
 <strong>
-Orange Cali 
+California Orange
 </strong>
 <span class="title-separator">
 <span>
@@ -278,7 +278,7 @@ Greenhouse
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
 </a><span class="breadcrumb-last"> 
-Orange Cali
+California Orange
 </span>
 </nav>
 </div>
@@ -341,7 +341,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-Orange Cali High Grade
+California Orange
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
@@ -356,7 +356,7 @@ per/gram
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strain Type:</strong><span> Indica dominant</span>
+	<strong>Strain Type:</strong><span> Hybrid</span>
 	<br>
 	<strong>Quality:</strong><span> Greenhouse</span>
         <br>
@@ -402,7 +402,7 @@ Flowers
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Orange Cali added to cart</strong></span>
+<span><strong>California Orange added to cart</strong></span>
 </div>
 </div>
 </div>
