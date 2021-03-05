@@ -359,7 +359,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Cannacaps Extra Strong 800mg
+	Dabcapsules
 </h1>
 
 <p class="price">
