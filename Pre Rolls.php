@@ -368,9 +368,9 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60.00
+60
 </span>
-per/J
+per/Joint
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
