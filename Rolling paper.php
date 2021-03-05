@@ -379,7 +379,7 @@ per/pack
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Quality:</strong><span>100% organic</span>
+	<strong>Quality:</strong><span> Organic, unprocessed and unbleached papers.</span>
         <br>
 	<strong>Description:</strong><span> An internationally know bud with genetic origins from South Africa grown in a controlled environment to produce a high quality bud. </span>
 	</p></div>
