@@ -1,5 +1,5 @@
 const cartshomePE = document.querySelectorAll('.PineappleExpressHome');
-var priceHomePE = 110;
+var priceHomePE = 100;
 
 cartshomePE.forEach(PineappleExpressHome =>{
         PineappleExpressHome.addEventListener('click', () => {
@@ -32,9 +32,9 @@ function addGramsNumbersHomePE() {
         let gramsNumberaddHomePE = localStorage.getItem('GramsPE'); 
         gramsNumberaddHomePE = parseInt(gramsNumberaddHomePE);
                if(gramsNumberaddHomePE) {
-                localStorage.setItem('GramsPE', gramsNumberaddHomePE + 5);
+                localStorage.setItem('GramsPE', gramsNumberaddHomePE + 1);
                }else{
-                localStorage.setItem('GramsPE', 5);
+                localStorage.setItem('GramsPE', 1);
                }
 }
 
