@@ -377,7 +377,7 @@ per/Joint
 	<p>
 	<strong>Quality:</strong><span> Packed with greenhouse</span>
         <br>
-	<strong>Description:</strong><span> A ready-made hollow cone joint manufactured by the international brand raw which has been packed with finely crushed greenhouse bud. Each joint is packed no less than 2 grams of highest quality sativa or indica. Due to the pandemic, measures have been implemented to exponentially lessen the risk of contamination of the product.</span>
+	<strong>Description:</strong><span> A ready-made hollow cone joint manufactured by the international brand raw which has been packed with finely crushed greenhouse bud. Each joint is packed with no less than 2 grams of the highest quality sativa or indica. Due to the pandemic, measures have been implemented to exponentially lessen the risk of contamination of the product.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
