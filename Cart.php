@@ -324,7 +324,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R20 per/Pack</span>
+                <span class = "DPcontainer3BW">R30 per/Pack</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
