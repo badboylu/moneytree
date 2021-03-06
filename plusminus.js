@@ -39,7 +39,7 @@ iconsAdd.style.cursor = 'pointer';
 iconsMinus.style.cursor = 'pointer';
 
 iconsAddBW.onclick = function() {
-var priceBW = 45;
+var priceBW = 30;
    localStorage.setItem('totalCostBW', priceBW);
    var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
    cartCostBW = parseInt(cartCostBW);
@@ -63,7 +63,7 @@ var priceBW = 45;
 };
 
 iconsMinusBW.onclick = function() {
-   var priceBW = 45;
+   var priceBW = 30;
     localStorage.setItem('totalCostBW', priceBW);
         var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
         cartCostBW = parseInt(cartCostBW);
@@ -347,7 +347,7 @@ iconsMinusNL.onclick = function() {
 };
 
 iconsAddPE.onclick = function() {
-var pricePE = 110;
+var pricePE = 100;
    localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -359,18 +359,18 @@ var pricePE = 110;
    let ifavailablePE = localStorage.getItem('GramsPE')
         ifavailablePE = parseInt(ifavailablePE);
                if(ifavailablePE) {
-                localStorage.setItem('GramsPE',(ifavailablePE) + 5);
+                localStorage.setItem('GramsPE',(ifavailablePE) + 1);
                 let gramsNumberaddPE = localStorage.getItem('GramsPE'); 
                 gramsNumberaddPE = parseInt(gramsNumberaddPE);
                 document.querySelector('.gramsamountPE').textContent =parseInt(gramsNumberaddPE);
                }else{
-                localStorage.setItem('GramsPE', 5 );       
+                localStorage.setItem('GramsPE', 1 );       
                 document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumberaddPE);
                }
 };
 
 iconsMinusPE.onclick = function() {
-   var pricePE = 110;
+   var pricePE = 100;
     localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -382,8 +382,8 @@ iconsMinusPE.onclick = function() {
    let gramsNumbersminusPE = localStorage.getItem('GramsPE'); 
         gramsNumbersminusPE = parseInt(gramsNumbersminusPE);
                if(gramsNumbersminusPE) {
-                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 5));
-                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -5;
+                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 1));
+                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -1;
                }else{
                 document.querySelector('.gramsamountPE').textContent = 0;   
         }
