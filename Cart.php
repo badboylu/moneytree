@@ -409,7 +409,7 @@ class="single-product-page single-product-content product-design-default product
 				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
 			</li>
 			<li>
-				<span class = "DPcontainer3OC">R20 per/gram</span>
+				<span class = "DPcontainer3OC">R20 per/Gram</span>
 			</li>
 			<li>
 				<div class="quantitygramsOC" id="OCgrams"> 
@@ -548,7 +548,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        grams
+                        Grams
                     </span>
                 </div>
             </div>
@@ -618,7 +618,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3">R70 per/gram</span>
+                <span class = "DPcontainer3">R70 per/Gram</span>
             </li>
             <li>
                 <div class="quantity" id="DPgrams"> 
@@ -631,7 +631,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        grams
+                        Grams
                     </span>
                 </div>
             </div>
