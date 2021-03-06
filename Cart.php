@@ -318,7 +318,7 @@ class="single-product-page single-product-content product-design-default product
 			    </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/images-3_bgewza.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
                 <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
