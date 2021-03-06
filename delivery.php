@@ -233,6 +233,8 @@ Delivery details
 <select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Johannesburg" >Johannesburg</option>
+  <option value="Midrand" >Midrand</option>
+  <option value="Pretoria" >Pretoria</option>
 </select>
 
 <div id="hidePTAtown" style="display:none">
