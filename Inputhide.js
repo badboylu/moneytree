@@ -278,13 +278,6 @@ setInterval (function showJHBSandton(){
          document.getElementById("hideJHBSouthWest").style.display = "none";
      }
  }, 1000);
-
-setInterval (function showStructuretypeJHBMidrand(){
-    var  var Town = document.getElementById('townsJHB').value;
-         if (Town=='Midrand'){
-         document.getElementById("hidecribtype").style.display = "block";
-     }
- }, 1000);
  
  setInterval (function showStructuretypeJHBRandburg(){
     var Suburb = document.getElementById('suburbsJHBRandburg').value;
@@ -533,5 +526,5 @@ setInterval (function showStructuretypeJHBSanton(){
  showJHBNorthWest();
  showJHBSouth();
  showJHBSouthWest();
-showStructuretypeJHBMidrand();
+
  
