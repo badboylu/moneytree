@@ -233,8 +233,7 @@ Delivery details
 <select name="City" id="city" form="plug" required>
   <option value="" disabled selected>Select City</option>
   <option value="Johannesburg" >Johannesburg</option>
-  <option value="Midrand" >Midrand</option>
-  <option value="Tshwane/Pretoria" >Pretoria</option>
+  <option value="Tshwane/Pretoria" >Tshwane/Pretoria</option>
 </select>
 
 <div id="hidePTAtown" style="display:none">
@@ -254,10 +253,9 @@ Delivery details
 <label>Town:</label>
 <select class="JHBtown" name="Towns" id="townsJHB" form="plug" required>
   <option value="" disabled selected>Select Town</option>
+  <option value="Midrand">Midrand</option>
   <option value="Randburg">Randburg</option>
   <option value="Sandton">Sandton</option>
-  
-  
   <option value="Null" style="display:none" >Null</option>
 </select>
 </div>
