@@ -368,7 +368,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-20
+30
 </span>
 per/pack
 </span>
