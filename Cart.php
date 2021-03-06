@@ -571,7 +571,7 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
                 <span class = "DPcontainer2PE"><strong>Pre-Rolls (indoor)</strong></span>
