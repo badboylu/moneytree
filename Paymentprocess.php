@@ -110,8 +110,8 @@ if(!mysqli_stmt_prepare($stmt, $sql4)){
 
 $cartTotal = 10.00;
 $data = array(
-    'merchant_id' => '10021306',
-    'merchant_key' => '6nblvx2g5iyj8',
+    'merchant_id' => '16487327',
+    'merchant_key' => 'grrpth5dyco9u',
     'return_url' => 'https://canibuy.co.za/process2.php',
     'cancel_url' => 'https://canibuy.co.za/process1.php',
     'email_address'=> 'support@canibuy.co.za',
