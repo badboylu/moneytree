@@ -366,7 +366,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3CC">R240 per/batch</span>
+                <span class = "DPcontainer3CC">R240 per/Batch</span>
             </li>
             <li>
                 <div class="quantitygramsCC" id="CCgrams"> 
