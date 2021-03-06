@@ -196,8 +196,7 @@ setInterval (function showJHBSandton(){
  
  setInterval (function showJHBEast(){
     var City = document.getElementById('city').value;
-    var Town = document.getElementById('townsJHB').value;
-         if (Town=='Midrand' && City=='Johannesburg'){
+         if (City=='Midrand'){
          document.getElementById("hideJHBEastsuburb").style.display = "block";
                  document.getElementById("suburbsJHBNorth").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
