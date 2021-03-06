@@ -321,10 +321,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/images-3_bgewza.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2BW"><strong>Blunt Wrap</strong></span>
+                <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R60 per/Pack</span>
+                <span class = "DPcontainer3BW">R20 per/Pack</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
@@ -363,7 +363,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2CC"><strong>Cannacaps (8 capasules)</strong></span>
+                <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3CC">R240 per/batch</span>
@@ -379,7 +379,7 @@ class="single-product-page single-product-content product-design-default product
                     <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Batch/s
+                        Batch/es
                     </span>
                 </div>
             </div>
@@ -406,7 +406,7 @@ class="single-product-page single-product-content product-design-default product
 						https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088823/_DSC6569_nk6rz5.jpg"  class = "DPcontainer1">
 					</li>
 				<li>	
-				<span class = "DPcontainer2OC"><strong>Orange Cali (High-grade)</strong></span>
+				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
 			</li>
 			<li>
 				<span class = "DPcontainer3OC">R20 per/gram</span>
@@ -422,7 +422,7 @@ class="single-product-page single-product-content product-design-default product
 		    			<ion-icon name="caret-down-outline"></ion-icon>
 		    			 </div> 
 					<span>
-						Gram/s
+						Grams
 					</span>
 				</div>
 			</div>
@@ -449,7 +449,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
+                <span class = "DPcontainer2PR"><strong>Pre-rolls (greenhouse)</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3PR">R60 per/J</span>
@@ -465,7 +465,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        J's
+                        Joint/s
                     </span>
                 </div>
             </div>
@@ -490,7 +490,7 @@ class="single-product-page single-product-content product-design-default product
                             https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg"  class = "DPcontainer1">
                         </li>
                     <li>	
-                    <span class = "DPcontainer2CCES"><strong>Cannacaps Extra Strong (8 capsules)</strong></span>
+                    <span class = "DPcontainer2CCES"><strong>Dabcapsules (strong)</strong></span>
                 </li>
                 <li>
                     <span class = "DPcontainer3CCES">R450 per/Batch</span>
@@ -506,7 +506,7 @@ class="single-product-page single-product-content product-design-default product
 		        <ion-icon name="caret-down-outline"></ion-icon>
 		        </div>
                         <span>
-                            Batch
+                            Batch/es
                         </span>
                     </div>
                 </div>
@@ -532,10 +532,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2NL"><strong>Northern Lights (Green House)</strong></span>
+                <span class = "DPcontainer2NL"><strong>Northern lights</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3NL">R60 per/Gram</span>
+                <span class = "DPcontainer3NL">R45 per/Gram</span>
             </li>
             <li>
                 <div class="quantitygramsNL" id="NLgrams"> 
@@ -574,10 +574,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Pineapple Express (Indoor)</strong></span>
+                <span class = "DPcontainer2PE"><strong>Pre-Rolls (indoor)</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R110 per/gram</span>
+                <span class = "DPcontainer3PE">R100 per/Joint</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
@@ -590,7 +590,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        gram
+                        Joint/s
                     </span>
                 </div>
             </div>
@@ -615,7 +615,7 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Durban Poison (Indoor)</strong></span>
+                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3">R70 per/gram</span>
@@ -631,7 +631,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Gram/s
+                        grams
                     </span>
                 </div>
             </div>
