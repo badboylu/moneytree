@@ -122,7 +122,7 @@ $signature = generateSignature($data);
 $data['signature'] = $signature;
 
 
-$htmlForm = '<form action="https://sandbox.payfast.co.za/eng/process?true" method="post" id="form">';
+$htmlForm = '<form action="https://www.payfast.co.za/eng/process" method="post" id="form">';
 foreach($data as $name=> $value)
 {
     $htmlForm .= '<input name="'.$name.'" type="hidden" value="'.$value.'" />';
