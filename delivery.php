@@ -234,7 +234,7 @@ Delivery details
   <option value="" disabled selected>Select City</option>
   <option value="Johannesburg" >Johannesburg</option>
   <option value="Midrand" >Midrand</option>
-  <option value="Pretoria" >Pretoria</option>
+  <option value="Tshwane/Pretoria" >Pretoria</option>
 </select>
 
 <div id="hidePTAtown" style="display:none">
