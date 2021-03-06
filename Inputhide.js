@@ -22,19 +22,21 @@ setInterval (function hideJHB(){
     var City = document.getElementById('city').value;
     var Town = document.getElementById('townsPTA').value;
          if (Town=='PretoriaEast' && City=='Tshwane/Pretoria'){
-         document.getElementById("hidePTAeastsuburb").style.display = "block";
-                 document.getElementById("suburbsPTANorthEast").removeAttribute("required");
-                 document.getElementById("suburbsPTANorthWest").removeAttribute("required");
-                 document.getElementById("suburbsPTACentral").removeAttribute("required");
-                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
-                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
+                 document.getElementById("hidePTAeastsuburb").style.display = "block";
                  document.getElementById("suburbsJHBRandburg").removeAttribute("required");
+                 document.getElementById("townsJHB").removeAttribute("required");
+                 document.getElementById("suburbsJHBSandton").removeAttribute("required");
                  document.getElementById("suburbsJHBEast").removeAttribute("required");
                  document.getElementById("suburbsJHBSouth").removeAttribute("required");
                  document.getElementById("suburbsJHBCentral").removeAttribute("required");
                  document.getElementById("suburbsJHBNorthWest").removeAttribute("required");
                  document.getElementById("suburbsJHBSouthWest").removeAttribute("required");
-                 document.getElementById("townsJHB").removeAttribute("required");
+                 document.getElementById("suburbsPTANorthEast").removeAttribute("required");
+                 document.getElementById("suburbsPTANorthWest").removeAttribute("required");
+                 document.getElementById("suburbsPTACentral").removeAttribute("required");
+                 document.getElementById("suburbsPTACentralWest").removeAttribute("required");
+                 document.getElementById("suburbsPTAeast").removeAttribute("required");
+                 document.getElementById("suburbsPTACenturion").removeAttribute("required");
 
 
 
