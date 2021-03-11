@@ -1699,15 +1699,6 @@ if(auth){
   localStorage.setItem('token', auth);
  }
 }
-
-function show(){
-let user = '<?php echo $username; ?>';
-if(user){
-  localStorage.setItem('username', user);
- }
-}
-
-show();
 test();
 </script>
 </body>
