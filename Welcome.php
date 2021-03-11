@@ -28,7 +28,7 @@ $signup=$_GET['signup'];
                         <h3>Welcome to <span style="color:orange;">canibuy</span></h3>.             
                         <p style="color:green;" >Cannibus Health Store</p>
                         <p>To enter you must acknowledge the following:</p>
-                        <p>I am over 18 years of age and I have read these terms and conditions.</p>
+                        <p>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</p>
                         <div class="page-links">
                             <p><a href="Welcome.php"><span>I don't agree<span></a></p>
                             <p><a href="Shop.php"><span style="color:green">I agree<span></a></p>
