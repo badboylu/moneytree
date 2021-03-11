@@ -5,7 +5,6 @@ $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$username = $_GET['username'];
 $authtoken = $_GET['auth'];
 ?>
 <html lang="en-US">
@@ -754,7 +753,7 @@ close
 <div class="container">
 <div class="topbar-content">
 <div class="top-bar-left"> 
-<span> <?php echo $_GET['username']; ?></span><span> </span> <span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span><span>[<a href="T1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Order Tracker</span></a>]</span>
+<span>[<a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Order Tracker</span></a>]</span>
 </div>
 <div class="top-bar-right">
 <div class="topbar-menu">
@@ -763,7 +762,7 @@ close
 <li 
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
 Cart
 </a>
 </li>
@@ -792,7 +791,7 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap">  
 <a 
-href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+href="Shop.php?auth=<?php echo $_GET['auth'];?>"
 rel="home">
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
@@ -802,7 +801,7 @@ alt="Basel" />
 </div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
 <span>
 Cart (<span>o</span>)
 </span> 
@@ -838,7 +837,7 @@ Online Shop
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
 All
 </a>
 </li>
@@ -847,7 +846,7 @@ All
 <li class="cat-item cat-item-58 ">
 <a 
 class="pf-value" 
-href="Flowers.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+href="Flowers.php?auth=<?php echo $_GET['auth'];?>"
 data-val="bags" 
 data-title="Bags" >
 Flowers
@@ -856,7 +855,7 @@ Flowers
 <li class="cat-item cat-item-63 ">
 <a 
 class="pf-value" 
-href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+href="Edibles.php?auth=<?php echo $_GET['auth'];?>"
 data-val="accessories" 
 data-title="Accessories" >
 Edibles
@@ -865,7 +864,7 @@ Edibles
 <li class="cat-item cat-item-62 ">
 <a 
 class="pf-value" 
-href="Accessories.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+href="Accessories.php?auth=<?php echo $_GET['auth'];?>"
 data-val="jewellery" 
 data-title="Jewellery" >
 Accessories
@@ -882,7 +881,7 @@ Accessories
 </a></span>
 </div>
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Item/s added to cart <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+<span><strong>Item/s added to cart <a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
 	(View Cart)
 </a>	</strong></span>
 </div>
@@ -910,7 +909,7 @@ data-source="main_loop">
 	<div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19655 status-publish first instock product_cat-bags product_tag-new product_tag-whte has-post-thumbnail featured shipping-taxable purchasable product-type-variable" data-loop="1" data-id="19655">
 	<div class="product-element-top"> 
-<a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -929,7 +928,7 @@ https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595620831
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img">  
-<a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 	width="273" 
 	height="348" 
@@ -950,7 +949,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 </div>
 <h3 class="product-title">
-<a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
 Durban Poison
 </a>
 </h3>
@@ -969,7 +968,7 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
 	View cart
 </a>	
 </div> 
