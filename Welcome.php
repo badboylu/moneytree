@@ -1,6 +1,5 @@
 <?php
-$reset=$_GET['pwdReset'];
-$signup=$_GET['signup'];
+$token= bin2hex(random_bytes(16));
 ?>
 <html lang="en">
 <head>
@@ -31,7 +30,7 @@ $signup=$_GET['signup'];
                         <p>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</p>
                         <div class="page-links">
                             <p><a href="Welcome.php"><span>I don't agree<span></a></p>
-                            <p><a href="Shop.php"><span style="color:green">I agree<span></a></p>
+                            <p><a href="Shop.php?auth=<?php echo $token; ?>"><span style="color:green">I agree<span></a></p>
                         </div>
                     </div>
                 </div>
