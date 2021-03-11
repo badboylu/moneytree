@@ -30,10 +30,8 @@ $signup=$_GET['signup'];
                         <p>You must be over 18 years old to enter this escort site. To enter you must acknowledge the following:</p>
                         <p>I am over 18 years of age. I have read these terms and conditions.</p>
                         <div class="page-links">
-                            <br>
-                            <a href="Welcome.php"><span>I don't agree<span></a>
-                            <br>
-                            <a href="Shop.php"><span style="color:green">I agree<span></a>
+                            <p><a href="Welcome.php"><span>I don't agree<span></a></p>
+                            <p><a href="Shop.php"><span style="color:green">I agree<span></a></p>
                         </div>
                     </div>
                 </div>
