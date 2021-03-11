@@ -5,20 +5,6 @@ $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
-   $sql='SELECT * FROM userauth2 WHERE token=?';
-   $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
-       exit();
-}
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $count=mysqli_stmt_num_rows($stmt);
- if (!$count>0){
-    header("Location:Signin.php?error=notloggedin");
-    exit();
-}
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <head>
@@ -93,18 +79,18 @@ href="cannacaps.html" />
             <div class="container">
             <div class="topbar-content">
             <div class="top-bar-left"> 
-            <span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span>
+            
             </div>
             <div class="top-bar-right">
             <div class="topbar-menu">
             <div class="menu-top-bar-container">
             <ul id="menu-top-bar" class="menu">
             <li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-            <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+            <a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
             Cart
             </a></li>
             <li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-            <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+            <a href="Shop.php?auth=<?php echo $_GET['auth'];?>"> 
             Shop
             </a></li></ul></div></div></div></div></div></div>
 	
@@ -115,7 +101,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+	<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"> 
 	Shop
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -225,14 +211,14 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"
  class="basel-logo basel-main-logo" rel="home"> 
 <img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
 </a></div></div>
 <div class="right-column">
 <div class="search-button basel-search-full-screen"> <a href="#"> <i class="fa fa-search"></i> </a><div class="basel-search-wrapper"><div class="basel-search-inner"> <span class="basel-close-search">close</span><form role="search" method="get" id="searchform" class="searchform  basel-ajax-search" action="https://demo.xtemos.com/basel/"  data-thumbnail="1" data-price="1" data-count="5" data-post_type="product" data-symbols_count="3" data-sku="0"><div> <label class="screen-reader-text">Search for:</label> <input type="text" class="search-field" placeholder="Search for products" value="" name="s" id="s" /> <input type="hidden" name="post_type" id="post_type" value="product"> <button type="submit" id="searchsubmit" value="Search">Search</button></div></form><div class="search-results-wrapper"><div class="basel-scroll"><div class="basel-search-results basel-scroll-content"></div></div></div></div></div></div>
 <div> 
-	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">  
+	<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">  
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -259,7 +245,7 @@ href="cannacaps.html" />
 Edibles range
 </h1> 
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"
+<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"
  rel="v:url" property="v:title">
 Shop
 </a> 
@@ -293,7 +279,7 @@ Dabcapsules
 <span class="title-after_title">
 Edibles
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
 Dabcapsules
@@ -412,7 +398,7 @@ R
 <div class="product_meta">  
 <span class="posted_in">
 Category: 
-<a href="Edibles.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" rel="tag">
+<a href="Edibles.php?auth=<?php echo $_GET['auth'];?>" rel="tag">
 Edibles
 </a>
 </span>
@@ -441,12 +427,12 @@ Edibles
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
@@ -457,7 +443,7 @@ Shop
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Cart 
