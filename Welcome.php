@@ -27,12 +27,13 @@ $signup=$_GET['signup'];
                     <div class="form-items">
                         <h3>Welcome! <br> Login to <span style="color:orange;">canibuy</span></h3>.             
                         <p style="color:green;" >Cannibus Health Store</p>
-                        <p style="color:green;" >Cannibus Health Store</p>
+                        <p>You must be over 18 years old to enter this escort site. To enter you must acknowledge the following:</p>
+                        <p>I am over 18 years of age. I have read these terms and conditions.</p>
                         <div class="page-links">
                             <br>
-                            <a href="Welcome.php"><span>Register new account<span></a>
+                            <a href="Welcome.php"><span>I don't agree<span></a>
                             <br>
-                            <a href="Shop.php"><span style="color:green">Register new account<span></a>
+                            <a href="Shop.php"><span style="color:green">I agree<span></a>
                         </div>
                     </div>
                 </div>
