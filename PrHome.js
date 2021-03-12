@@ -1,5 +1,5 @@
 const cartshomePR = document.querySelectorAll('.PreRollsHome');
-var priceHomePR = 60;
+var priceHomePR = 40;
 
 cartshomePR.forEach(PreRollsHome =>{
         PreRollsHome.addEventListener('click', () => {
