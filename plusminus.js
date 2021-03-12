@@ -39,7 +39,7 @@ iconsAdd.style.cursor = 'pointer';
 iconsMinus.style.cursor = 'pointer';
 
 iconsAddBW.onclick = function() {
-var priceBW = 30;
+var priceBW = 20;
    localStorage.setItem('totalCostBW', priceBW);
    var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
    cartCostBW = parseInt(cartCostBW);
@@ -63,7 +63,7 @@ var priceBW = 30;
 };
 
 iconsMinusBW.onclick = function() {
-   var priceBW = 30;
+   var priceBW = 20;
     localStorage.setItem('totalCostBW', priceBW);
         var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
         cartCostBW = parseInt(cartCostBW);
@@ -92,7 +92,7 @@ iconsMinusBW.onclick = function() {
 };
 
 iconsAddOC.onclick = function() {
-  var priceOC = 20;
+  var priceOC = 15;
   localStorage.setItem('totalCostOC', priceOC);
         var cartCostOC= localStorage.getItem('totalCostOC', priceOC);
         cartCostOC = parseInt(cartCostOC);
@@ -115,7 +115,7 @@ iconsAddOC.onclick = function() {
 };
 
 iconsMinusOC.onclick = function() {
-  var priceOC = 20;
+  var priceOC = 15;
   localStorage.setItem('totalCostOC', priceOC);
         var cartCostOC= localStorage.getItem('totalCostOC', priceOC);
         cartCostOC = parseInt(cartCostOC);
@@ -143,7 +143,7 @@ iconsMinusOC.onclick = function() {
 };
 
 iconsAddCC.onclick = function() {
-var priceCC = 240;
+var priceCC = 120;
     localStorage.setItem('totalCostCC', priceCC);
         var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
         cartCostCC = parseInt(cartCostCC);
@@ -166,7 +166,7 @@ var priceCC = 240;
 };
 
 iconsMinusCC.onclick = function() {
-var priceCC = 240;
+var priceCC = 120;
     localStorage.setItem('totalCostCC', priceCC);
         var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
         cartCostCC = parseInt(cartCostCC);
@@ -194,7 +194,7 @@ var priceCC = 240;
 };
 
 iconsAddPR.onclick = function() {
-var pricePR = 60;
+var pricePR = 40;
   localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -217,7 +217,7 @@ var pricePR = 60;
 };
 
 iconsMinusPR.onclick = function() {
-   var pricePR = 60;
+   var pricePR = 40;
      localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -245,7 +245,7 @@ iconsMinusPR.onclick = function() {
 };
 
 iconsAddCCES.onclick = function() {
-var priceCCES = 450;
+var priceCCES = 200;
   localStorage.setItem('totalCostCCes', priceCCes);
         var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
         cartCostCCes = parseInt(cartCostCCes);
@@ -268,7 +268,7 @@ var priceCCES = 450;
 };
 
 iconsMinusCCES.onclick = function() {
-   var priceCCES = 450;
+   var priceCCES = 200;
     localStorage.setItem('totalCostCCes', priceCCes);
         var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
         cartCostCCes = parseInt(cartCostCCes);
@@ -296,7 +296,7 @@ iconsMinusCCES.onclick = function() {
 };
 
 iconsAddNL.onclick = function() {
-var priceNL = 45;
+var priceNL = 18;
     localStorage.setItem('totalCostNL', priceNL);
         var cartCostNL= localStorage.getItem('totalCostNL', priceNL);
         cartCostNL = parseInt(cartCostNL);
@@ -319,7 +319,7 @@ var priceNL = 45;
 };
 
 iconsMinusNL.onclick = function() {
-   var priceNL = 45;
+   var priceNL = 18;
      localStorage.setItem('totalCostNL', priceNL);
         var cartCostNL= localStorage.getItem('totalCostNL', priceNL);
         cartCostNL = parseInt(cartCostNL);
@@ -347,7 +347,7 @@ iconsMinusNL.onclick = function() {
 };
 
 iconsAddPE.onclick = function() {
-var pricePE = 100;
+var pricePE = 20;
    localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -370,7 +370,7 @@ var pricePE = 100;
 };
 
 iconsMinusPE.onclick = function() {
-   var pricePE = 100;
+   var pricePE = 20;
     localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -398,7 +398,7 @@ iconsMinusPE.onclick = function() {
 };
 
 iconsAdd.onclick = function() {
-var price = 70;
+var price = 18;
   localStorage.setItem('totalCostDP', price);
         var cartCost= localStorage.getItem('totalCostDP', price);
         cartCost = parseInt(cartCost);
@@ -421,7 +421,7 @@ var price = 70;
 };
 
 iconsMinus.onclick = function() {
-   var price = 70;
+   var price = 18;
    localStorage.setItem('totalCostDP', price);
         var cartCost= localStorage.getItem('totalCostDP', price);
         cartCost = parseInt(cartCost);
