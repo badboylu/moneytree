@@ -558,10 +558,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>AK-47</strong></span>
+                <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R20 per/gram</span>
+                <span class = "DPcontainer3PE">R20 per/Gram</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
@@ -574,7 +574,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Joint/s
+                        Grams
                     </span>
                 </div>
             </div>
@@ -599,7 +599,7 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Cheese</strong></span>
+                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3">R18 per/Gram</span>
