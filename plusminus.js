@@ -359,12 +359,12 @@ var pricePE = 20;
    let ifavailablePE = localStorage.getItem('GramsPE')
         ifavailablePE = parseInt(ifavailablePE);
                if(ifavailablePE) {
-                localStorage.setItem('GramsPE',(ifavailablePE) + 1);
+                localStorage.setItem('GramsPE',(ifavailablePE) + 5);
                 let gramsNumberaddPE = localStorage.getItem('GramsPE'); 
                 gramsNumberaddPE = parseInt(gramsNumberaddPE);
                 document.querySelector('.gramsamountPE').textContent =parseInt(gramsNumberaddPE);
                }else{
-                localStorage.setItem('GramsPE', 1 );       
+                localStorage.setItem('GramsPE', 5 );       
                 document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumberaddPE);
                }
 };
@@ -382,8 +382,8 @@ iconsMinusPE.onclick = function() {
    let gramsNumbersminusPE = localStorage.getItem('GramsPE'); 
         gramsNumbersminusPE = parseInt(gramsNumbersminusPE);
                if(gramsNumbersminusPE) {
-                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 1));
-                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -1;
+                localStorage.setItem('GramsPE', gramsNumbersminusPE = (gramsNumbersminusPE - 5));
+                document.querySelector('.gramsamountPE').textContent = parseInt(gramsNumbersminusPE) -5;
                }else{
                 document.querySelector('.gramsamountPE').textContent = 0;   
         }
