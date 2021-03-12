@@ -1,7 +1,7 @@
 const cartsOC = document.querySelectorAll('.OrangeCali');
 const moreGramsOC = document.querySelectorAll('.moreGramsOrangeCali');
 const lessGramsOC = document.querySelectorAll('.lessGramsOrangeCali');
-var priceOC = 20;
+var priceOC = 15;
 
 cartsOC.forEach(OrangeCali =>{
     OrangeCali.addEventListener('click', () => {
