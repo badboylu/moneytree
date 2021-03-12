@@ -3,8 +3,8 @@ $servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $authtoken = $_GET['auth'];
+$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken = $_GET['auth'];
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <head>
@@ -351,7 +351,7 @@ Dabcapsules
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-240 per batch of 8
+120 per batch of 8
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
