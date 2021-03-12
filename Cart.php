@@ -574,7 +574,7 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
                 <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
