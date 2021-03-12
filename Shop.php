@@ -950,7 +950,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
-Durban Poison
+Cheese
 </a>
 </h3>
 <div class="wrap-price">
@@ -962,7 +962,7 @@ Durban Poison
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-70
+18
 </span>
 per/gram
 </span>
@@ -1045,9 +1045,9 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		<span class="price">
 		<span class="woocommerce-Price-amount amount">
 		<span class="woocommerce-Price-currencySymbol">
-		R
+		R120
 		</span>
-		240
+		
 		</span>
 		per/batch
 		</span>
@@ -1132,7 +1132,7 @@ California orange
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	20
+	15
 	</span>
 	per/gram
 	</span>
@@ -1300,7 +1300,7 @@ Pre-rolls (greenhouse)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60
+40
 </span>
 per/joint
 </span>
@@ -1379,7 +1379,7 @@ Northern lights
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-45
+18
 </span>
 per/gram
 </span>
@@ -1462,7 +1462,7 @@ Dabcapsules (strong)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-450
+200
 </span>
 per/batch
 </span>
@@ -1536,7 +1536,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="PRI.php?auth=<?php echo $_GET['auth'];?>">
-Pre-rolls (indoor)
+Pineapple Express
 </a>
 </h3>
 <div class="wrap-price">
@@ -1548,9 +1548,9 @@ Pre-rolls (indoor)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-100
+20
 </span>
-per/joint
+per/gram
 </span>
 </span>
 </span>
