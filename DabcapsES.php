@@ -351,7 +351,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-450
+200
 </span>
 per batch of 8
 </span>
