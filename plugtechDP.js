@@ -1,7 +1,7 @@
 const carts = document.querySelectorAll('.DurbanPoison');
 const moreGrams = document.querySelectorAll('.moreGramsDurbanPoison');
 const lessGrams = document.querySelectorAll('.lessGramsDurbanPoison');
-var price = 70;
+var price = 18;
 
 carts.forEach(DurbanPoison =>{
         DurbanPoison.addEventListener('click', () => {
