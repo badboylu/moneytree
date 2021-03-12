@@ -362,7 +362,7 @@ per/gram
 	<br>
 	<strong>Quality:</strong><span> Greenhouse</span>
         <br>
-	<strong>Description:</strong><span> An internationally know strain of bud with genetic origins from South Africa. It has been grown in a controlled environment using modern indoor growing technology to produce the highest quality of bud currently possible.</span>
+	<strong>Description:</strong><span> Pineapple Express had been a fan favorite in the Netherlands for half a decade before the Pineapple Express movie’s release. A cross between Trainwreck and Hawaiian, this tropical bud is a smooth and sweet smoke that will certainly have you chasing it at least once. This mild body numb is accompanied by a heady, happy high that leaves users feeling creative and talkative. As your body relaxes into the high your mind will start to focus and feel productive.</span>
 	</p></div>
 <div >
 	<div class="single_variation_wrap">
