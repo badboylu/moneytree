@@ -3,28 +3,10 @@ $servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $authtoken = $_GET['auth'];
-   $sql='SELECT * FROM userauth2 WHERE token=?';
-   $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
-       exit();
-}
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_store_result($stmt);
-   $count=mysqli_stmt_num_rows($stmt);
- if (!$count>0){
-    header("Location:Signin.php?error=notloggedin");
-    exit();
-}
+$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken = $_GET['auth'];
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:51 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html lang="en-US"> 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -515,5 +497,4 @@ setInterval (function addHide(){
 addHide();
 </script>
 </body>
-<!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:52 GMT -->
 </html>
