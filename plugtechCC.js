@@ -1,7 +1,7 @@
 const cartsCC = document.querySelectorAll('.cannacaps');
 const moreGramsCC = document.querySelectorAll('.moreGramsCannacaps');
 const lessGramsCC = document.querySelectorAll('.lessGramsCannacaps');
-var priceCC = 240;
+var priceCC = 120;
 
 
 
