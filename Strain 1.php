@@ -149,7 +149,7 @@ href="cannacaps.html" />
             <div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_text_column wpb_content_element vc_custom_1521125735460" ><div class="wpb_wrapper">
             <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
             <strong><span style="color: #1aada3;">
-            3.</span>Orange Cali</strong></a></h5></div></div><div class="vc_custom_1521125450949">
+            3.</span>California orange</strong></a></h5></div></div><div class="vc_custom_1521125450949">
             <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
@@ -163,7 +163,7 @@ href="cannacaps.html" />
             <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
+            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1614894404/16b5858d0e5449cd7bd2bd858da19eda_uiupom.png" 
             src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -173,7 +173,7 @@ href="cannacaps.html" />
             <div class="vc_custom_1484179872282"><a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1600436773/IMG_20200918_153419_332_cqqpki.jpg" 
+            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
             src="https://res.cloudinary.com/badboylu/image/upload/v1600436773/IMG_20200918_153419_332_cqqpki.jpg" />
             </a></div></div></div></div></div>
             <div class="vc_row wpb_row vc_row-fluid col-five vc_custom_1476734232282">
