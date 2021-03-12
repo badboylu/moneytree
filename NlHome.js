@@ -1,5 +1,5 @@
 const cartshomeNL = document.querySelectorAll('.NorthernLightsHome');
-var priceHomeNL = 45;
+var priceHomeNL = 18;
 
 cartshomeNL.forEach(NorthernLightsHome =>{
         NorthernLightsHome.addEventListener('click', () => {
