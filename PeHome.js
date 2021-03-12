@@ -1,5 +1,5 @@
 const cartshomePE = document.querySelectorAll('.PineappleExpressHome');
-var priceHomePE = 100;
+var priceHomePE = 20;
 
 cartshomePE.forEach(PineappleExpressHome =>{
         PineappleExpressHome.addEventListener('click', () => {
