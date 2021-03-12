@@ -131,7 +131,7 @@ href="cannacaps.html" />
 	<div class="wpb_column vc_column_container vc_col-sm-2">
 	<div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element vc_custom_1487879330860" >
-	 <div class="wpb_wrapper">
+	<div class="wpb_wrapper">
             <h5 style="text-align: center;">
             <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
             <strong>
