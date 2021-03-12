@@ -452,7 +452,7 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PR"><strong>Pre-rolls (greenhouse)</strong></span>
+                <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
             </li>
             <li>
                 <span class = "DPcontainer3PR">R40 per/J</span>
