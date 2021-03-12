@@ -1120,7 +1120,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 2.php?auth=<?php echo $_GET['auth'];?>">
-California orange
+California Orange
 </a>
 </h3>
 <div class="wrap-price">
@@ -1198,7 +1198,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Rolling paper.php?auth=<?php echo $_GET['auth'];?>">
-Raw rizzla
+Raw Rizzla
 </a>
 </h3>
 <div class="wrap-price">
@@ -1288,7 +1288,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Pre Rolls.php?auth=<?php echo $_GET['auth'];?>">
-Pre-rolls (greenhouse)
+Pre-rolls
 </a>
 </h3>
 <div class="wrap-price">
@@ -1367,7 +1367,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 3.php?auth=<?php echo $_GET['auth'];?>">
-Northern lights
+Northern Lights
 </a>
 </h3>
 <div class="wrap-price">
