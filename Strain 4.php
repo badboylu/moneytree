@@ -278,7 +278,7 @@ Shop
 </span>
 </div>
 <span class="title-after_title">
-	Indoor
+	Greenhouse
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 Shop
@@ -345,7 +345,7 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-	Pineapple Express Indoor
+	Pineapple Express 
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
@@ -353,9 +353,9 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-110.00
+20
 </span>
-per/g
+per/gram
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
@@ -424,7 +424,7 @@ Flowers
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa (Pty) Ltd. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
