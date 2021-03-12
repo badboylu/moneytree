@@ -1488,11 +1488,6 @@ data-loop="8"
 data-id="19730">
 <div class="product-element-top"> 
 <a href="Strain 4.php?auth=<?php echo $_GET['auth'];?>">
-<div class="product-labels labels-rounded">
-<span class="new product-label">
-New
-</span>
-</div>
 <img 
 width="273" 
 height="348" 
@@ -1521,13 +1516,13 @@ alt=""
 
 srcset=
 "https://res.cloudinary.com/badboylu/image/upload/v1595088889/_DSC6536_aeu5je.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595088889/_DSC6536_aeu5je.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595088889/_DSC6536_aeu5je.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595088889/_DSC6536_aeu5je.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595088889/_DSC6536_aeu5je.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595088889/_DSC6536_aeu5je.jpg 526w" 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595088889/_DSC6536_aeu5je.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595088889/_DSC6536_aeu5je.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595088889/_DSC6536_aeu5je.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595088889/_DSC6536_aeu5je.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595088889/_DSC6536_aeu5je.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
