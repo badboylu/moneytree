@@ -894,7 +894,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Durban Poison (Indoor)
+Durban Poison 
 </a>
 </h3>
 <div class="wrap-price">
@@ -906,7 +906,7 @@ Durban Poison (Indoor)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-70
+18
 </span>
 per/gram
 </span>
@@ -973,7 +973,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Northern Lights (Greenhouse)
+Northern Lights 
 </a>
 </h3>
 <div class="wrap-price">
@@ -994,7 +994,7 @@ out of 5
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-45
+18
 </span>
 per/gram
 </span>
@@ -1067,7 +1067,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Orange Cali (High Grade)
+California Orange
 </a>
 </h3>
 <div class="wrap-price">
@@ -1079,7 +1079,7 @@ Orange Cali (High Grade)
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	20
+	15
 	</span>
 	per/gram
 	</span>
@@ -1158,7 +1158,7 @@ Pineapple Express
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-110
+20
 </span>
 per/gram
 </span>
@@ -1188,7 +1188,7 @@ per/gram
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa (Pty) Ltd. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
