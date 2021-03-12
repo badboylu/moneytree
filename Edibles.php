@@ -913,7 +913,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		<span class="woocommerce-Price-currencySymbol">
 		R
 		</span>
-		240
+		120
 		</span>
 		per/batch
 		</span>
@@ -994,7 +994,7 @@ Dabcapsules (strong)
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-450
+200
 </span>
 per/batch
 </span>
