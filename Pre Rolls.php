@@ -352,7 +352,7 @@ Click to enlarge
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60
+40
 </span>
 per/Joint
 </span>
