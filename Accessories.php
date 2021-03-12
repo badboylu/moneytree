@@ -914,7 +914,7 @@ Raw rizzla
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	30
+	20
 	</span>
 	per/pack
 	</span>
@@ -1000,7 +1000,7 @@ Pre-Rolls
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-60
+40
 </span>
 per/joint
 </span>
