@@ -1,7 +1,7 @@
 const cartsCCes = document.querySelectorAll('.CannacapsES');
 const moreGramsCCes = document.querySelectorAll('.moreGramsCannacapsES');
 const lessGramsCCes = document.querySelectorAll('.lessGramsCannacapsES');
-var priceCCes = 450;
+var priceCCes = 200;
 
 cartsCCes.forEach(CannacapsES =>{
         CannacapsES.addEventListener('click', () => {
