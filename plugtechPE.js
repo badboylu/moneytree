@@ -1,7 +1,7 @@
 const cartsPE = document.querySelectorAll('.PineappleExpress');
 const moreGramsPE = document.querySelectorAll('.moreGramsPineappleExpress');
 const lessGramsPE = document.querySelectorAll('.lessGramsPineappleExpress');
-var pricePE = 100;
+var pricePE = 20;
 
 cartsPE.forEach(PineappleExpress =>{
         PineappleExpress.addEventListener('click', () => {
