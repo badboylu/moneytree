@@ -1515,19 +1515,19 @@ sizes="(max-width: 273px) 100vw, 273px" />
 <img 
 width="273" 
 height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
+src="https://res.cloudinary.com/badboylu/image/upload/v1595088889/_DSC6536_aeu5je.jpg" 
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 526w" 
+"https://res.cloudinary.com/badboylu/image/upload/v1595088889/_DSC6536_aeu5je.jpg 870w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg 235w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595088889/_DSC6536_aeu5je.jpg 768w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595088889/_DSC6536_aeu5je.jpg 803w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595088889/_DSC6536_aeu5je.jpg 266w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595088889/_DSC6536_aeu5je.jpg 219w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595088889/_DSC6536_aeu5je.jpg 263w, 
+https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595088889/_DSC6536_aeu5je.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
