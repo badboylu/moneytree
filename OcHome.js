@@ -1,5 +1,5 @@
 const cartshomeOC = document.querySelectorAll('.OrangeCaliHome');
-var priceHomeOC = 20;
+var priceHomeOC = 15;
 
 cartshomeOC.forEach(OrangeCaliHome =>{
     OrangeCaliHome.addEventListener('click', () => {
