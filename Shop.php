@@ -950,7 +950,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </div>
 <h3 class="product-title">
 <a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
-Cheese
+Durban Poison
 </a>
 </h3>
 <div class="wrap-price">
