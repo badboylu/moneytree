@@ -20,9 +20,9 @@ function cartNumbersPE() {
         let productNumbersHomePE = localStorage.getItem('cartNumberPE'); 
                productNumbersHomePE = parseInt(productNumbersHomePE);
                if(productNumbersHomePE in localStorage) {
-                localStorage.setItem('cartNumberPE', parseInt(productNumbersHomePE)  + 5);
+                localStorage.setItem('cartNumberPE', parseInt(productNumbersHomePE)  + 1);
                }else{
-                localStorage.setItem('cartNumberPE', 5);
+                localStorage.setItem('cartNumberPE', 1);
                
                 
 }
