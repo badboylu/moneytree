@@ -6,11 +6,7 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<!-- Mirrored from demo.xtemos.com/basel/single-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 01:45:51 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -84,7 +80,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span>
+
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
@@ -116,15 +112,15 @@ href="cannacaps.html" />
             <div class="vc_column-inner">
             <div class="wpb_wrapper">
             <div class="wpb_text_column wpb_content_element vc_custom_1487879314225" >
-            <div class="wpb_wrapper">
+           <div class="wpb_wrapper">
             <h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="index.html">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
             <strong>
             <span style="color: #1aada3;">
-            1.</span> Durban Poison (Indoor)</strong>
+            1.</span> Durban Poison</strong>
             </a></h5></div></div>
             <div class="vc_custom_1511344750662">
-            <a href="../index.html" class="vc_single_image-wrapper vc_box_border_grey">
+            <a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
             data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
@@ -135,13 +131,13 @@ href="cannacaps.html" />
             <div class="wpb_text_column wpb_content_element vc_custom_1487879330860" >
             <div class="wpb_wrapper">
             <h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../furniture/index.html">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
             <strong><span style="color: #1aada3;">
-            2.</span>Cannacaps</strong>
+            2.</span>Dabcapsules (light)</strong>
             </a></h5></div></div>
             <div class="vc_custom_1487879340170">
             <a 
-            href="../furniture/index.html" 
+            href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" 
             class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
@@ -150,10 +146,10 @@ href="cannacaps.html" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2">
             <div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_text_column wpb_content_element vc_custom_1521125735460" ><div class="wpb_wrapper">
-            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../home-fashion-new/index.html">
+            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
             <strong><span style="color: #1aada3;">
-            3.</span>Orange Cali</strong></a></h5></div></div><div class="vc_custom_1521125450949">
-            <a href="../home-fashion-new/index.html" class="vc_single_image-wrapper vc_box_border_grey">
+            3.</span>California orange</strong></a></h5></div></div><div class="vc_custom_1521125450949">
+            <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
             data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595088823/_DSC6569_nk6rz5.jpg" 
@@ -161,29 +157,31 @@ href="cannacaps.html" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
             <div class="wpb_text_column wpb_content_element vc_custom_1497366060747" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../home-beer.html"><strong><span style="color: #1aada3;">
-            4.</span>Blunt Wrap</strong></a></h5></div></div><div class="vc_custom_1497366048454">
-            <a href="../home-beer.html" class="vc_single_image-wrapper vc_box_border_grey">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
+            4.</span>Raw rizzla</strong></a></h5></div></div><div class="vc_custom_1497366048454">
+            <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" 
+            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1614894404/16b5858d0e5449cd7bd2bd858da19eda_uiupom.png" 
             src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
             <div class="wpb_text_column wpb_content_element vc_custom_1505233042256" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../home-fashion-flat/index.html"><strong><span style="color: #1aada3;">
-            5.</span>Pre-Rolls</strong></a></h5></div></div><div class="vc_custom_1484179872282"><a href="../home-fashion-flat/index.html" class="vc_single_image-wrapper vc_box_border_grey">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
+            5.</span>Pre-Rolls</strong></a></h5></div></div>
+            <div class="vc_custom_1484179872282"><a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1600436773/IMG_20200918_153419_332_cqqpki.jpg" 
+            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
             src="https://res.cloudinary.com/badboylu/image/upload/v1600436773/IMG_20200918_153419_332_cqqpki.jpg" />
             </a></div></div></div></div></div>
-            <div class="vc_row wpb_row vc_row-fluid col-five vc_custom_1476734232282"><div class="wpb_column vc_column_container vc_col-sm-2 color-scheme-dark">
+            <div class="vc_row wpb_row vc_row-fluid col-five vc_custom_1476734232282">
+            <div class="wpb_column vc_column_container vc_col-sm-2 color-scheme-dark">
             <div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_text_column wpb_content_element vc_custom_1505233031603" ><div class="wpb_wrapper">
-            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../home-sushi/index.html"><strong>
+            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong>
             <span style="color: #1aada3;">
             6. </span>Northern Lights</strong></a></h5></div></div>
-            <div class="vc_custom_1494340426796"><a href="../home-sushi/index.html" class="vc_single_image-wrapper vc_box_border_grey">
+            <div class="vc_custom_1494340426796"><a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
             data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088975/_DSC6533_vdjxdu.jpg" 
@@ -191,10 +189,10 @@ href="cannacaps.html" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
             <div class="wpb_text_column wpb_content_element vc_custom_1505232776768" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../../home-medical.html"><strong><span style="color: #1aada3;">
-            7.</span>Cannacaps Extra Strong</strong></a></h5></div></div><div class="vc_custom_1502548857766">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
+            7.</span>Dabcapsules (Strong)</strong></a></h5></div></div><div class="vc_custom_1502548857766">
             <a 
-            href="../../home-medical.html" class="vc_single_image-wrapper vc_box_border_grey">
+            href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img 
             class="basel-lasy-image" 
             data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg" 
@@ -202,9 +200,9 @@ href="cannacaps.html" />
             </a></div></div></div></div>
             <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
             <div class="wpb_text_column wpb_content_element vc_custom_1505232782803" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="../home-lingerie/index.html"><strong><span style="color: #1aada3;">
+            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
             8.</span> Pineapple Express</strong></a></h5></div></div><div class="vc_custom_1484179846825">
-            <a href="../home-lingerie/index.html" class="vc_single_image-wrapper vc_box_border_grey">
+            <a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
             <img class="basel-lasy-image" data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg" src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg" />
             </a></div></div></div></div>
         </div></div></div>
