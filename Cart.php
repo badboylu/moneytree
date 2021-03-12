@@ -308,7 +308,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R30 per/Pack</span>
+                <span class = "DPcontainer3BW">R20 per/Pack</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
@@ -350,7 +350,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3CC">R240 per/Batch</span>
+                <span class = "DPcontainer3CC">R120 per/Batch</span>
             </li>
             <li>
                 <div class="quantitygramsCC" id="CCgrams"> 
@@ -393,7 +393,7 @@ class="single-product-page single-product-content product-design-default product
 				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
 			</li>
 			<li>
-				<span class = "DPcontainer3OC">R20 per/Gram</span>
+				<span class = "DPcontainer3OC">R15 per/Gram</span>
 			</li>
 			<li>
 				<div class="quantitygramsOC" id="OCgrams"> 
@@ -436,7 +436,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2PR"><strong>Pre-rolls (greenhouse)</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PR">R60 per/J</span>
+                <span class = "DPcontainer3PR">R40 per/J</span>
             </li>
             <li>
                 <div class="quantitygramsPR" id="PRgrams"> 
@@ -477,7 +477,7 @@ class="single-product-page single-product-content product-design-default product
                     <span class = "DPcontainer2CCES"><strong>Dabcapsules (strong)</strong></span>
                 </li>
                 <li>
-                    <span class = "DPcontainer3CCES">R450 per/Batch</span>
+                    <span class = "DPcontainer3CCES">R200 per/Batch</span>
                 </li>
                 <li>
                     <div class="quantitygramsCCES" id="CCESgrams"> 
@@ -519,7 +519,7 @@ class="single-product-page single-product-content product-design-default product
                 <span class = "DPcontainer2NL"><strong>Northern lights</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3NL">R45 per/Gram</span>
+                <span class = "DPcontainer3NL">R18 per/Gram</span>
             </li>
             <li>
                 <div class="quantitygramsNL" id="NLgrams"> 
@@ -558,10 +558,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Pre-Rolls (indoor)</strong></span>
+                <span class = "DPcontainer2PE"><strong>AK-47</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R100 per/Joint</span>
+                <span class = "DPcontainer3PE">R20 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
@@ -599,10 +599,10 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
+                <span class = "DPcontainer2"><strong>Cheese</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3">R70 per/Gram</span>
+                <span class = "DPcontainer3">R18 per/Gram</span>
             </li>
             <li>
                 <div class="quantity" id="DPgrams"> 
@@ -638,7 +638,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
 		</div>
                 <span class="totalCart"><strong>Delivery</strong></span>
-                <span class="totalDelivery">R40</span>
+                <span class="totalDelivery">R30</span>
 		<br>
                 <span class="totalCart"><strong>Items</strong></span>
                 <span class="totalOrderR">R</span>
@@ -708,7 +708,7 @@ class="single-product-page single-product-content product-design-default product
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa (Pty) Ltd. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
