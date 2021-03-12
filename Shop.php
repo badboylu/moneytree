@@ -1210,7 +1210,7 @@ Raw rizzla
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	30
+	20
 	</span>
 	per/pack
 	</span>
