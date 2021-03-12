@@ -546,6 +546,7 @@ class="single-product-page single-product-content product-design-default product
 		</div>
 		</div>
 		<div class='plugfooterEnd'></div>
+		<br>
                 <form action="delivery.php" method="get" id="amount">
                 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 		<input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
