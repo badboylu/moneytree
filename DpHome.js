@@ -1,5 +1,5 @@
 const cartshome = document.querySelectorAll('.DurbanPoisonHome');
-var priceHome = 70;
+var priceHome = 18;
 
 cartshome.forEach(DurbanPoisonHome =>{
         DurbanPoisonHome.addEventListener('click', () => {
