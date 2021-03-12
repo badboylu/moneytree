@@ -20,9 +20,9 @@ function cartNumbersPE() {
         let productNumbersHomePE = localStorage.getItem('cartNumberPE'); 
                productNumbersHomePE = parseInt(productNumbersHomePE);
                if(productNumbersHomePE in localStorage) {
-                localStorage.setItem('cartNumberPE', parseInt(productNumbersHomePE)  + 1);
+                localStorage.setItem('cartNumberPE', parseInt(productNumbersHomePE)  + 5);
                }else{
-                localStorage.setItem('cartNumberPE', 1);
+                localStorage.setItem('cartNumberPE', 5);
                
                 
 }
@@ -32,9 +32,9 @@ function addGramsNumbersHomePE() {
         let gramsNumberaddHomePE = localStorage.getItem('GramsPE'); 
         gramsNumberaddHomePE = parseInt(gramsNumberaddHomePE);
                if(gramsNumberaddHomePE) {
-                localStorage.setItem('GramsPE', gramsNumberaddHomePE + 1);
+                localStorage.setItem('GramsPE', gramsNumberaddHomePE + 5);
                }else{
-                localStorage.setItem('GramsPE', 1);
+                localStorage.setItem('GramsPE', 5);
                }
 }
 
