@@ -6,9 +6,6 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $auth=$_GET['auth'];
 $user=$_GET['username'];
-$stat='Prepared';
-$date = date("Y-m-d");
-date_default_timezone_set('Africa/Johannesburg');
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
