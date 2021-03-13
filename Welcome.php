@@ -26,7 +26,7 @@ $token= bin2hex(random_bytes(16));
                     <div class="form-items">
                         <h3>Welcome to <span style="color:orange;">canibuy</span></h3>.             
                         <p style="color:green;" >Cannibus Health Store</p>
-                        <p>Backend users (<a href="Signin.php"><span>Click here<span></a>)</p>
+                        <p><small>Backend users (<a href="Signin.php"><span>Click here<span></a>)</small></p>
                         <p>To enter you must acknowledge the following:</p>
                         <p>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</p>
                         <div class="page-links">
