@@ -35,19 +35,19 @@ $dBName="eebooc1cx2mejqru";
    $date = $_GET['eDate'];
    
 
-   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? OR idOrderConfirmation=? OR idOrderConfirmation=? AND idOrderUsername=? ";
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? OR idOrderConfirmation=? OR idOrderConfirmation=? AND idOrderToken=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"ssss",$pending,$prepared,$collected,$username);
+   mysqli_stmt_bind_param($stmt,"ssss",$pending,$prepared,$collected,$authtoken);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
    
    if($check>0){
-   $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderUsername='".$username."' ";
+   $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
@@ -74,43 +74,37 @@ $dBName="eebooc1cx2mejqru";
    $ordernm[]=$row['id'];
    }
    $ordernmb=Min($ordernm); 
-
-   $query="SELECT * FROM users WHERE uidUsers='".$username."' ";
-   $result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $usermail[]=$row['emailUsers'];
-   }
-   $email=Min($usermail); 
+ 
    
-   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"sss",$prepared,$username,$order);
+   mysqli_stmt_bind_param($stmt,"sss",$prepared,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prepared=mysqli_stmt_num_rows($stmt);
    
-   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"sss",$collected,$username,$order);
+   mysqli_stmt_bind_param($stmt,"sss",$collected,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected=mysqli_stmt_num_rows($stmt);
    
-   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? AND idOrders=? ";
+   $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"sss",$pending,$username,$order);
+   mysqli_stmt_bind_param($stmt,"sss",$pending,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $pending=mysqli_stmt_num_rows($stmt);
@@ -315,7 +309,7 @@ Tracker
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa (Pty) Ltd. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
