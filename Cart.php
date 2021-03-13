@@ -6,9 +6,7 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html lang="en-US"> <!--<![endif]-->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -726,7 +724,7 @@ discounttotal = parseInt(discounttotal) + 40;
 document.getElementById("total").value =  discounttotal;
 }else{
 let total = localStorage.getItem('totalAmountNumber'); 
-total = parseInt(total) + 40;
+total = parseInt(total) + 30;
 document.getElementById("total").value = total;
 }
 }, 1000);
