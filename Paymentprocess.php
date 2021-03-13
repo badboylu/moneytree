@@ -12,14 +12,6 @@ date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $confirmedpayment1 = 'Placed';
 $confirmedpayment = 'Pending';
-$query='SELECT * FROM users WHERE uidUsers="'.$username.'" ';
-$result=mysqli_query($conn,$query);
-
-while($row=mysqli_fetch_array($result)){
- $mail[]=$row['emailUser'];
-}
-
-$email=Min($mail);
 $dp = $_GET['DPgrams'];
 $oc = $_GET['OCgrams'];
 $bw = $_GET['BWgrams'];
@@ -121,7 +113,6 @@ $data = array(
     'merchant_key' => 'grrpth5dyco9u',
     'return_url' => 'https://canibuy.co.za/process2.php',
     'cancel_url' => 'https://canibuy.co.za/process1.php',
-    'email_address'=> $email,
     'amount'=> $total,
     'item_name' => 'Canibuy Health Store',
 );
