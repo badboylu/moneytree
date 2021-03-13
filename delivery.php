@@ -645,9 +645,6 @@ Delivery details
 <div id="hideName" style="display:block">
    <label>Recipient name:</label><input type="text" name="Recipient-number" placeholder="Enter Recipient Name" required>
 </div>
-<div id="hideEmail" style="display:block">
-   <label>E-mail address:</label><input type="text" name="email" placeholder="Enter E-mail adddress" required>
-</div>
 <input type="hidden" name="NLgrams" id="NLgrams" value="">
 <input type="hidden" name="DPgrams" id="DPgrams" value="">
 <input type="hidden" name="BWgrams" id="BWgrams" value="">
