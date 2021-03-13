@@ -199,7 +199,7 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span>[<a href="O1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><span style="color:orange;">Order log</span></a>]</span>
+	
 	</div>
 	<div class="top-bar-right">
 	<div class="topbar-menu">
