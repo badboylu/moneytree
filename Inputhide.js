@@ -499,6 +499,16 @@ setInterval (function showStructuretypeJHBSanton(){
          document.getElementById("hideName").style.display = "none";
      }
  }, 1000);
+
+ setInterval (function showEmail(){
+    var Estate = document.getElementById('Cribtype').value;
+    var House = document.getElementById('Cribtype').value;
+         if (Estate=='Estate' || House=='House' || House=='Complex' || House=='Flat' || House=='Office' || House=='Mall' || House=='Shop' ){
+         document.getElementById("hideEmail").style.display = "block";
+     }else{
+         document.getElementById("hideEmail").style.display = "none";
+     }
+ }, 1000);
  
  hideJHB();
  hidePTA();
@@ -534,5 +544,6 @@ setInterval (function showStructuretypeJHBSanton(){
  showJHBSouth();
  showJHBSouthWest();
  showStructuretypeJHBMidrand();
+ showEmail();
 
  
