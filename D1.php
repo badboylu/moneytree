@@ -4,7 +4,7 @@ $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$authtoken=$_GET['auth'];
+$auth=$_GET['auth'];
 $user=$_GET['username'];
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
@@ -12,7 +12,7 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
        header("Location:Signin.php?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_bind_param($stmt,"s",$auth);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $count=mysqli_stmt_num_rows($stmt);
