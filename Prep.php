@@ -233,8 +233,8 @@ else{
                          <br>
                          </div>
                          <form action="Ordersystem.php" method="get" id="form">
-                         <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
-                         <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
+                         <input type="hidden" name="auth" value="<?php echo $_GET['auth']; ?>">
+                         <input type="hidden" name="username" value="<?php echo $_GET['username']; ?>">
                          <input type="submit" name="Next" value="Complete order" id="Blanks" "/>
                          </form>
                     </div>
