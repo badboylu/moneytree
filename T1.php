@@ -5,7 +5,6 @@ $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
-   $username = $_GET['username'];
    $prepared = 'Prepared';
    $collected = 'Collected';
    $pending = 'Pending';
@@ -85,7 +84,7 @@ $dBName="eebooc1cx2mejqru";
    mysqli_stmt_bind_param($stmt,"sss",$prepared,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $prepared=mysqli_stmt_num_rows($stmt);
+   $prepared1=mysqli_stmt_num_rows($stmt);
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
@@ -96,7 +95,7 @@ $dBName="eebooc1cx2mejqru";
    mysqli_stmt_bind_param($stmt,"sss",$collected,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $collected=mysqli_stmt_num_rows($stmt);
+   $collected1=mysqli_stmt_num_rows($stmt);
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
@@ -107,12 +106,12 @@ $dBName="eebooc1cx2mejqru";
    mysqli_stmt_bind_param($stmt,"sss",$pending,$authtoken,$order);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
-   $pending=mysqli_stmt_num_rows($stmt);
+   $pending1=mysqli_stmt_num_rows($stmt);
    }
    else{
-    $prepared='0';
-    $collected='0';
-    $pending='0';
+    $prepared1='0';
+    $collected1='0';
+    $pending1='0';
    }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
@@ -355,9 +354,9 @@ src="Form.js" >
 </script>
 <script>
 setInterval (function hideCollect(){
-var collected = ' <?php echo $collected; ?> ';
-var prepared = ' <?php echo $prepared; ?> ';
-var pending = ' <?php echo $pending; ?> ';
+var collected = ' <?php echo $collected1; ?> ';
+var prepared = ' <?php echo $prepared1; ?> ';
+var pending = ' <?php echo $pending1; ?> ';
 if (prepared>0){
  document.getElementById("preparehide1").style.display = "none";
  document.getElementById("preparehide2").style.display = "block";
