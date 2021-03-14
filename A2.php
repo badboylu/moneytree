@@ -221,40 +221,103 @@ Taxes
 Interest on Late Payments. Any amount not paid when due will bear interest from the due date until paid at a rate equal to [1]% per month ([12.68]% annually) or the maximum allowed by Law, whichever is less.
 </p>
 <p>
-Restricted Uses. [PARTY B] will not
-distribute, license, loan, or sell the Software or other content that is contained or displayed in it,
-modify, alter, or create any derivative works from the Software,
+Restricted Uses. 
+</p>
+<p>
+[PARTY B] will not distribute, license, loan, or sell the Software or other content that is contained or displayed in it,modify, alter, or create any derivative works from the Software,
 reverse engineer, decompile, decode, decrypt, disassemble, or derive any source code from the Software,
 remove, alter, or obscure any copyright, trademark, or other proprietary rights notice on or in the Software.
+</p>
+<p>
 Permitted Uses
+</p>
+<p>
 Installation. [PARTY B] may install and use the Software solely for [personal, non-commercial][internal business] use.
 Evaluation Use. If [PARTY B] has ordered an evaluation license, [PARTY B] may use the Software only for evaluation purposes and only during the applicable evaluation period. 
 Server Deployment. [PARTY B] may install [NUMBER OF SERVER COPIES] of copies of the Software on an internal file server for purposes of downloading and installing the Software on licensed computers within the same internal network.
 Home Use. [PARTY B] may install a copy of the Software on a personal or home computer, provided both copies of the Software are not used at the same time.
 Backup and Archival Copies. [PARTY B] may make one copy of the Software solely for backup or archival purposes.
-Term. This agreement begins on  Effective Date / [DATE, MONTH] and will continue until terminated (the "Term").
+</p>
+<p>
+Term. 
+</p>
+<p>
+This agreement begins on  Effective Date / [DATE, MONTH] and will continue until terminated (the "Term").
+</p>
+<p>
 Representations
+</p>
+<p>
 Mutual Representations
 Existence. The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective incorporation.
 Authority and Capacity. The parties have the authority and capacity to enter into this agreement.
-Execution and Delivery. The parties have duly executed and delivered this agreement.
-Enforceability. This agreement constitutes a legal, valid, and binding obligation, enforceable against the parties according to its terms.
-No Conflicts. Neither party is under any restriction or obligation that the party could reasonably expect might affect the party's performance of its obligations under this agreement.
-No Breach. Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under
+</p>
+<p>
+Execution and Delivery.
+</p>
+<p>
+The parties have duly executed and delivered this agreement.
+</p>
+<p>
+Enforceability.
+</p>
+<p>
+This agreement constitutes a legal, valid, and binding obligation, enforceable against the parties according to its terms.
+</p>
+<p>
+No Conflicts.
+</p>
+<p>
+Neither party is under any restriction or obligation that the party could reasonably expect might affect the party's performance of its obligations under this agreement.
+</p>
+<p>
+No Breach. 
+</p>
+<p>
+Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under
 its articles, bylaws, or any unanimous shareholders agreement,
 any Law to which it is subject,
 any judgment, Order, or decree of any Governmental Authority to which it is subject, or
 any agreement to which it is a party or by which it is bound.
-Permits, Consents, and Other Authorizations. ][Each party holds all Permits and other authorizations necessary to]
+</p>
+<p>
+Permits, Consents, and Other Authorizations. 
+</p>
+<p>
+[Each party holds all Permits and other authorizations necessary to]
 [own, lease, and operate its properties, and]
 [conduct its business as it is now carried on.]
-No Disputes or Proceedings. [Except as disclosed in the parties respective Disclosure Schedules] There are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement.
-No Bankruptcy. Neither party has taken or authorized any proceedings related to that party’s bankruptcy, insolvency, liquidation, dissolution, or winding up.
+</p>
+<p>
+No Disputes or Proceedings. 
+</p>
+<p>
+[Except as disclosed in the parties respective Disclosure Schedules] There are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement.
+</p>
+<p>
+No Bankruptcy.
+</p>
+<p>
+Neither party has taken or authorized any proceedings related to that party’s bankruptcy, insolvency, liquidation, dissolution, or winding up.
+</p>
+<p>
 [PARTY A]'s Representations
-Disclosure Schedule. [PARTY A]'s Disclosure Schedule lists any exceptions to its representations.
-Ownership of Intellectual Property. Except as disclosed in [PARTY A]'s Disclosure Schedule [PARTY A]
+</p>
+<p>
+Disclosure Schedule. 
+</p>
+<p>
+[PARTY A]'s Disclosure Schedule lists any exceptions to its representations.
+</p>
+<p>
+Ownership of Intellectual Property. 
+</p>
+<p>
+Except as disclosed in [PARTY A]'s Disclosure Schedule [PARTY A]
 is the owner of all Intellectual Property rights included in the Software and granted under in the [DELIVERABLE], and
 has the exclusive right to grant the [DELIVERABLE].
+</p>
+<p>
 Maintenance of Intellectual Property. [PARTY A] has properly maintained all its Intellectual Property rights licensed under the [DELIVERABLE], including paying all applicable registration and maintenance fees.
 No Prior Grant or Transfer. [PARTY A] has not granted and is not obligated to grant any license t>o any third party that would conflict with the DELIVERABLE] under this agreement
 No Infringement. To [PARTY A]'s Knowledge, The [Software] does not infringe the Intellectual Property rights or other rights of any third party.
