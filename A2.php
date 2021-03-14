@@ -157,251 +157,183 @@ Terms and Conditions
 
 <html>
 <p>
-Copyright © Canibuy, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibuy site and the disposal of any product users must be 18 years of age or older.
-</p>
-<p>
-BY AGREEING TO THIS AGREEMENT AND USING THE CANIBUY WEBSITE (THE “SITE”), YOU (THE “Disposal Agent”) ARE INDICATING THAT YOU ARE IN THE POSITION TO BE BOUND BY THIS CONTRACT AS WELL AS INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT and are 18 years of age or older. 
-</p>
-<p>
-<strong>
-1. GENERAL
-</strong>
-</p>
-<p>
-1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new Disposal Agent agreement and its terms and conditions.
-</p>
-<p>
-1.2 This agreement herein applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the disposal of the products or otherwise.
-</p>
-<p>
-1.3 The headings of the clauses in the conditions is provided for convenience and ease of reference only and will not be used to interpret, modify or amplify the terms of the conditions.
-</p>
-<p>
-1.4 No failure or delay by Canibuy to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this Disposal Agent agreement or prejudice our right to take subsequent action against the Agent.
-</p>
-<p>
-1.5 This Disposal Agent agreement applies exclusively to your access to the site as well as the use of this Site including but not limited to disposing of Canibuy products. This agreement does not alter in any way, the terms or conditions of any other agreement you may have with Canibuy for the service of disposing of products or otherwise.
-</p>
-<p>
-<strong>
-2. INTELLECTUAL PROPERTY RIGHTS
-</strong>
-</p>
-<p>
-2.1 All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to Canibuy and as such are protected from infringement by local and international legislation and treaties.
-</p>
-<p>
-<strong>
-3. LICENSES AND SITE ACCESS
-</strong>
-</p>
-<p>
-3.1 By signing up to Canibuy gaining access to the site, you agree to become a Canibuy independent subcontractor obligated to dispose products for Canibuy at no compensation and are given the title of Disposal Agent.
-</p>
-<p>
-3.2 By signing up to Canibuy and gaining access to the site, you agree to become a participant in the Canibuy website development experiment until notice is give by Canibuy indicating the website development experiment has been concluded.
-</p>
-<p>
-3.3 Canibuy grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the products to be disposed; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of Canibuy or any third party.
-</p>
-<p>
-3.4 You may not use, frame or utilize framing techniques to enclose any Canibuy trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without Canibuy‘s express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing a Canibuy name, trademark or product name without Canibuy‘s express written consent.
-</p>
-<p>
-<strong>
-4. PRODUCT DISPOSAL
-</strong>
-</p>
-<p>
-4.1 Canibuy makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the Disposal Agent. The product disposal methods employed by Disposal Agents are not under the control of Canibuy and Canibuy is not responsible for the illegal use and or application of the products to be disposed of.
-</p>
-<p>
-<strong>
-5. DISPOSAL AGENT CONDUCT
-</strong>
-</p>
-<p>
-5.1.1 In using this Site, and after receiving products to dispose of, you agree:
-</p>
-<p>
-5.1.2 Not to violate any of the agreed upon terms and conditions stated herein this agreement.
-</p>
-<p>
-5.1.3 Not to disrupt or interfere with the security of, or otherwise abuse, the Site, or any services, system resources, accounts, servers or networks connected to or accessible through the Site or affiliated.
-</p>
-<p>
-5.1.4 Not to violate, or attempt to violate the security of Canibuy. Violations of system or network security may result in civil or criminal liability. Canibuy will investigate occurrences, which may involve such violations and may involve, and cooperate with, law enforcement authorities in prosecuting disposal agents who are involved in such violations.
-</p>
-<p>
-5.2 In addition, disposal agents agree that they are solely responsible for their actions of disposing products for Canibuy and that they will comply with all applicable local, national and international laws and regulations in this regard.
-</p>
-<p>
-<strong>
-6. INDEMNIFICATION
-</strong>
-</p>
-<p>
-6.1 Disposal Agents shall remain solely liable for the safe and legal disposal of any products delivered by Canibuy.
-</p>
-<p>
-6.2 Disposal Agents agree to indemnify and hold harmless Canibuy from any claim, action, demand, loss or damages (including attorneys’ fees) made or incurred by any third party arising out of or relating to your conduct, your violation of this Disposal Agent agreement, or your violation of any rights of a third party.
-</p>
-<p>
-<strong>
-7. SUBMISSIONS
-</strong>
-</p>
-<p>
-7.1 Disposal Agents agree that any materials, including but not limited to questions, comments, suggestions, ideas, plans, notes, drawings, original or creative materials or other information, provided by Agents in the form of email or submissions to Canibuy, or postings on this Site, are non-confidential and shall become the sole property of Canibuy. Canibuy shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use of these materials for any purpose, commercial or otherwise, without acknowledgment or compensation to Agents. The submission of any materials to Canibuy irrevocably waives any and all “moral rights” in such materials, including the rights of paternity and integrity.
-</p>
-<p>
-<strong>
-8. EMAIL DISCLAIMER
-</strong>
-</p>
-<p>
-8.1 The information in all e-mail messages (document and attachments) sent by an employee / electronic agent / a legal member of Canibuy is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
-</p>
-<p>
-8.2 Internet communications cannot be guaranteed to be secure or error-free. Neither Canibuy nor the sender accepts liability for any errors or omissions in the contents of messages which arise as a result of email transmission. If verification is required, please request a hard copy version. Also take note that email can possibly contain viruses and that the recipient is responsible for checking and deleting viruses. In no event will Canibuy or the sender be liable to anyone for any indirect, special, consequential or direct damages arising from the transmission of email messages, the opening of email messages and their attachments, or any use thereof whatsoever.
-</p>
-<p>
-8.3 No employee or Disposal Agent is authorised to conclude a binding agreement on behalf of Canibuy by email without the express written confirmation of a director of Canibuy. Nothing contained in said email shall be construed as a legally binding agreement or an offer to contract.
-</p>
-<p>
-<strong>
-9. ACCEPTANCE OF FUNDS
-</strong>
-</p>
-<p>
-9.1 Disposal Agents acknowledge that Canibuy is not offering any of the displayed products on the site for sale and the Service Agents are providing to Canibuy upon receiving products is a waste disposal service of the products which is not a sale of the products for any form of use other than to dispose of the products.
-</p>
-<p>
-9.2 Disposal Agents acknowledge that any funds paid to Canibuy by the Disposal Agent through the payment method/s on the site is not a purchase of any product or service but a donation to the Canibuy cause for cannibus health awareness.
-</p>
-<p>
-<strong>
-10. PROHIBITED TRANSACTIONS
-</strong>
-</p>
-<p>
-10.1 Disposal Agents agree that on receiving products from Canibuy, you will disposed the products using methods safe enough not to cause harm to another person or to the Disposal Agent.
-</p>
-<p>
-10.2 Disposal Agents agree that products received from Canibuy for disposal shall be disposed of at the non-public premises.
-</p>
-<p>
-<strong>
-11. DELIVERY
-</strong>
-</p>
-<p>
-11.1 Disposal Agents understand that Canibuy will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
-</p>
-<p>
-11.2 Disposal Agents understand that Canibuy will deliver products to Agents at any time and date. Data gathered from the site may be used to facilitate the delivery of the products to be Disposed.
-</p>
-<p>
-11.3 Disposal Agents understand that the website may be used to facilitate the delivery of the products to Agents.
-</p>
-<p>
-11.4 Disposal Agents will be informed when delivery of products to be disposed of have arrived at the Disposal Agents location.
-</p>
-<p>
-<strong>
-12. DISCLAIMER OF WARRANTIES
-</strong>
-</p>
-<p>
-12.1 YOU UNDERSTAND AND AGREE THAT THIS SITE AND THE INFORMATION, SERVICES, PRODUCTS AND MATERIALS AVAILABLE THROUGH IT ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. YOU EXPRESSLY AGREE THAT USE OF THIS SITE IS AT YOUR SOLE RISK.
-</p>
-<p>
-12.2 TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CANIBUY AND ITS AFFILIATES DISCLAIM ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF TITLE, OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION PROVIDED BY CANIBUY OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PROVIDERS, MERCHANTS, SPONSORS, LICENSORS OR THE LIKE SHALL CREATE A WARRANTY; NOR SHALL YOU RELY ON ANY SUCH INFORMATION OR ADVICE.
-</p>
-<p>
-12.3 YOU EXPRESSLY AGREE THAT USE OF THIS SITE, INCLUDING ALL CONTENT, DATA OR SOFTWARE DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SITE, IS AT YOUR SOLE RISK. YOU UNDERSTAND AND AGREE THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH CONTENT, DATA AND/OR SOFTWARE.
-</p>
-<p>
-12.4 CANIBUY DOES NOT MAKE ANY WARRANTY THAT THE SITE OR CONTENT WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. PAYFAST DOES NOT REPRESENT OR WARRANT THAT MATERIALS IN THIS SITE OR INFORMATION PROVIDED BY PAYFAST VIA EMAIL OR OTHER MEANS, ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE. NOR DOES PAYFAST MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF PAYFAST OR ITS CONTENT OR AS TO THE ACCURACY, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH USE OF THE SITE.
-</p>
-<p>
-12.5 CANIBUY ASSUMES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED BY A DISPOSAL AGENT, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA FROM DELAYS, NONDELIVERIES OF CONTENT OR EMAIL, ERRORS, SYSTEM DOWN TIME, MISDELIVERIES OF CONTENT OR EMAIL, NETWORK OR SYSTEM OUTAGES, FILE CORRUPTION OR SERVICE INTERRUPTIONS CAUSED BY THE NEGLIGENCE OF CANIBUY, ITS AFFILIATES, ITS LICENSORS OR A DISPOSAL AGENT’S OWN ERRORS AND/OR OMISSIONS.
-</p>
-<p>
-12.6 CANIBUY DISCLAIMS ANY WARRANTY OR REPRESENTATION THAT CONFIDENTIALITY OF INFORMATION TRANSMITTED THROUGH THIS WEB SITE WILL BE MAINTAINED.
-</p>
-<p>
-12.7 ALL THE INFORMATION APPEARING ON THIS SITE IS PROVIDED WITHOUT A REPRESENTATION OR WARRANTY WHATSOEVER, WHETHER EXPRESSED OR IMPLIED, AND CANIBUY DISCLAIMS ANY LIABILITY TO THE DISPOSAL AGENT IN THIS REGARD.
-</p>
-<p>
-<strong>
-13. LIMITATION OF LIABILITY
-</strong>
-</p>
-<p>
-13.1 Canibuy has taken reasonable steps as far as is possible, to ensure the accuracy and completeness of the content shown on this site, to ensure that the Disposal Agent doesn’t suffer any loss or damages as a result of the use of this site.
-</p>
-<p>
-13.2 UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL CANIBUY OR ITS PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS OR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING FOR CANIBUY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM OR IN CONNECTION WITH THE USE OR INABILITY TO USE CANIBUY OR ANY CONTENT PROVIDED BY OR THROUGH THIS SITE, OR RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, OR OTHER INFORMATION THAT IS SENT OR RECEIVED, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF CANIBUY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-</p>
-<p>
-13.3 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES DISPOSAL AGENT USER NAME AND PASSWORD WITH THEIR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH CANIBUY DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
-</p>
-<p>
-13.4 CANIBUY SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE PRODUCTS THAT ARE TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT WHEN THEY ACCESS THE SITE, AGENTS ARE PARTICIPATING IN THE CANIBUY DEMONSTRATIONAL WEBSITE EXPERIMENT WHICH HAS A PURPOSE OF DATA GATHERING AS WELL AS A PURPOSE SHOWCASE THE SOFTWARE DEVELOPMENT CAPABILITIES OF CANIBUY AND IS NOT AN ONLINE STORE THAT SELLS THE PRODUCTS DISPLAYED THERE.
-</p>
 <p>
-13.5 Canibuy shall not be liable for any fraud, deception or misrepresentations by Disposal Agents of the Site's services in any capacity whatsoever.
+This Software License Agreement is made on [AGREEMENT DATE] between [LICENSOR NAME], a [CORPORATE JURISDICTION] corporation with its principal place of business at [LICENSOR ADDRESS] ("[PARTY A]") and [LICENSEE NAME], a [CORPORATE JURISDICTION] corporation with its principal place of business at [LICENSEE ADDRESS] ("[PARTY B]").
 </p>
 <p>
-13.6 In no event shall Canibuy be liable for any act or omission of any third party (such as, for example, any provider of telecommunications services, internet access or computer equipment or software) or for any circumstances beyond our control (such as, for example, a fire, flood, or other natural disaster, war, riot, strike, act of civil or military authority, equipment failure, computer virus, or failure or interruption of electrical, telecommunications or other utility services).
+The parties agree to the terms of this agreement.
 </p>
 <p>
-13.7 Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, in such jurisdictions, liability is limited to the fullest extent permitted by law.
+License Grant
 </p>
 <p>
-<strong>
-14. DISPOSAL AGENT’S LIABILITY TO CANIBUY
-</strong>
+Software License. [PARTY A] hereby grants to [PARTY B] [an exclusive / a non-exclusive], [transferable / non-transferable], [sublicensable / non-sublicensable], [revocable / irrevocable] license (the "[DELIVERABLE]") to use the Software.
 </p>
 <p>
-14.1 In the event that Canibuy takes action against you for breach of these terms of use, you agree to reimburse Canibuy for all legal costs, including all fees related to evidence gathering and collection commission, on a scale as between attorney and own client.
+No Other Rights. [PARTY A] reserves for itself all other rights and interest not explicitly granted under this agreement.
 </p>
 <p>
-<strong>
-15. APPLICABLE LAW
-</strong>
+Software. 
 </p>
 <p>
-15.1 The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
+"Software" means [SHORT DESCRIPTION OF SOFTWARE] the software described in the [ATTACHMENT], attached to this agreement.
 </p>
 <p>
-<strong>
-16. TERMINATION
-</strong>
+Make Software Available for Use. 
 </p>
 <p>
-16.1 Notwithstanding any of these terms and conditions, Canibuy reserves the right, without notice and in its sole discretion, to terminate your license to use this Site, and to block or prevent future access to and use of this Site.
+On the later of the Effective Date and [PARTY B]'s first payment for the Software, [PARTY A] will make the Software available to [PARTY B] in an electronic, downloadable format from [PARTY A]'s website, at [INSERT URL OF WEBSITE].
 </p>
 <p>
-<strong>
-17. SEVERABILITY
-</strong>
+Training and Support Services
 </p>
 <p>
-17.1 If any provision of this Disposal Agent agreement is held to be invalid, void or for any reason unenforceable, then that provision shall be deemed severable from this Disposal Agent agreement and shall not affect the validity and enforceability of any remaining provisions.
+[PARTY A] shall, at [PARTY A]'s expense, provide [PARTY B]'s employees with the initial training services necessary and desirable to operate the Software, as further described in the [ATTACHMENT], attached to this agreement, at [PARTY B]'s offices and [on days and times the parties agree to in writing.]
 </p>
 <p>
-<strong>
-18. TERMS
-</strong>
+Support
 </p>
 <p>
-18.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
+For the [12] month period beginning on the Effective Date, and at [PARTY A]'s own expense, [PARTY A] shall provide [PARTY B] with 
+telephone or electronic support during [PARTY A]'s normal business hours in order to help [PARTY B] locate and correct problems with the Software, and
+internet-based support system generally available seven days a week, twenty-four hours a day. 
+Renewed Support. After the initial [12] month support period, [PARTY B] may elect to renew [PARTY A]'s support services under this paragraph [SUPPORT] for additional [12] month periods, at [PARTY A]'s then-current service rates.
+Updates and Maintenance Services
+Updates. [PARTY A] shall provide [PARTY B], at [PARTY A]'s sole expense, with all updates, extensions, enhancement, modifications, and other changes [PARTY A] makes or adds to the Software and which [PARTY A] offers to other licensees of the Software.
+Fixes and Patches. [PARTY A] shall provide [PARTY B], at [PARTY A]'s sole expense, with bug fixes and code corrections to correct Software malfunctions and defects in order to bring the Software into substantial conformity with its operating specifications.
+Exceptions. [PARTY A] may, but will not be required to, provide these maintenance services if [PARTY B] has modified the Software or is in default.
 </p>
 <p>
-18.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of Canibuy.
+License Fees. 
 </p>
+<p>
+[PARTY B] will pay [PARTY A] the license fee of $[data-name="fee" data-type="money">LICENSE FEE] / listed in [ATTACHMENT] (the "License Fee").
+Payment. [PARTY B] will pay the License Fee to [PARTY A] (a) in full, (b) due on [DATE, MONTH], (c) in immediately available funds, and to the account [PARTY A] lists immediately below:
+</p>
+<p>
+Account Number:
+</p>
+<p>
+Taxes
+</p>
+<p>
+[PARTY B] will pay all Taxes applicable to payments between the parties under this agreement. 
+Interest on Late Payments. Any amount not paid when due will bear interest from the due date until paid at a rate equal to [1]% per month ([12.68]% annually) or the maximum allowed by Law, whichever is less.
+</p>
+<p>
+Restricted Uses. [PARTY B] will not
+distribute, license, loan, or sell the Software or other content that is contained or displayed in it,
+modify, alter, or create any derivative works from the Software,
+reverse engineer, decompile, decode, decrypt, disassemble, or derive any source code from the Software,
+remove, alter, or obscure any copyright, trademark, or other proprietary rights notice on or in the Software.
+Permitted Uses
+Installation. [PARTY B] may install and use the Software solely for [personal, non-commercial][internal business] use.
+Evaluation Use. If [PARTY B] has ordered an evaluation license, [PARTY B] may use the Software only for evaluation purposes and only during the applicable evaluation period. 
+Server Deployment. [PARTY B] may install [NUMBER OF SERVER COPIES] of copies of the Software on an internal file server for purposes of downloading and installing the Software on licensed computers within the same internal network.
+Home Use. [PARTY B] may install a copy of the Software on a personal or home computer, provided both copies of the Software are not used at the same time.
+Backup and Archival Copies. [PARTY B] may make one copy of the Software solely for backup or archival purposes.
+Term. This agreement begins on  Effective Date / [DATE, MONTH] and will continue until terminated (the "Term").
+Representations
+Mutual Representations
+Existence. The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective incorporation.
+Authority and Capacity. The parties have the authority and capacity to enter into this agreement.
+Execution and Delivery. The parties have duly executed and delivered this agreement.
+Enforceability. This agreement constitutes a legal, valid, and binding obligation, enforceable against the parties according to its terms.
+No Conflicts. Neither party is under any restriction or obligation that the party could reasonably expect might affect the party's performance of its obligations under this agreement.
+No Breach. Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under
+its articles, bylaws, or any unanimous shareholders agreement,
+any Law to which it is subject,
+any judgment, Order, or decree of any Governmental Authority to which it is subject, or
+any agreement to which it is a party or by which it is bound.
+Permits, Consents, and Other Authorizations. ][Each party holds all Permits and other authorizations necessary to]
+[own, lease, and operate its properties, and]
+[conduct its business as it is now carried on.]
+No Disputes or Proceedings. [Except as disclosed in the parties respective Disclosure Schedules] There are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement.
+No Bankruptcy. Neither party has taken or authorized any proceedings related to that party’s bankruptcy, insolvency, liquidation, dissolution, or winding up.
+[PARTY A]'s Representations
+Disclosure Schedule. [PARTY A]'s Disclosure Schedule lists any exceptions to its representations.
+Ownership of Intellectual Property. Except as disclosed in [PARTY A]'s Disclosure Schedule [PARTY A]
+is the owner of all Intellectual Property rights included in the Software and granted under in the [DELIVERABLE], and
+has the exclusive right to grant the [DELIVERABLE].
+Maintenance of Intellectual Property. [PARTY A] has properly maintained all its Intellectual Property rights licensed under the [DELIVERABLE], including paying all applicable registration and maintenance fees.
+No Prior Grant or Transfer. [PARTY A] has not granted and is not obligated to grant any license t>o any third party that would conflict with the DELIVERABLE] under this agreement
+No Infringement. To [PARTY A]'s Knowledge, The [Software] does not infringe the Intellectual Property rights or other rights of any third party.
+No Third Party Infringement. Except as disclosed in [PARTY A]'s Disclosure Schedule To [PARTY A]'s Knowledge, no third party is infringing its Intellectual Property rights in the [Software].
+Not in Public Domain. The [Software] is not in the public domain.
+No Warranty
+"As-Is". The [Licensed] Software is provided "as is," with all faults, defects, bugs, and errors.
+No Warranty. Unless otherwise listed in this agreement,
+[PARTY A] does not make any warranty regarding the [Licensed] Software, which includes that 
+[PARTY A] disclaims to the [fullest] extent authorized by Law any and all [other] warranties, whether express or implied, including any implied warranties of [title, non-infringement, quiet enjoyment, integration,] merchantability or fitness for a particular purpose.
+Intellectual Property. [PARTY A] will retain exclusive interest in and ownership of its Intellectual Property rights in and to the Software and expressly reserves all rights not expressly granted under this agreement.
+Compliance with Laws. Each party will
+comply with all applicable Laws relating to [SUBJECT MATTER OF AGREEMENT], and
+notify the other party if it becomes aware of any non-compliance in connection with this section.
+Confidentiality Obligations. The parties continue to be bound by the terms of the non-disclosure agreement between the parties, dated [DATE] and attached to this agreement on [ATTACHMENT].
+Publicity
+Consent. Neither party will use the other party's name, logo, or trademarks, or issue any press release or public announcement regarding this agreement, without the other party's written consent, unless specifically permitted under this agreement or required by Law.
+Cooperation. The parties will cooperate to draft all appropriate press releases and other public announcements relating to the subject matter of this agreement and the relationship between the parties.
+No Unreasonable Delay. The parties will not unreasonably withhold or delay their consent to press releases or public announcements.
+Termination
+Termination on Notice. Either party may terminate this agreement for any reason on [TERMINATION NOTICE BUSINESS DAYS] Business Days’ notice to the other party.
+Termination for Material Breach. Each party may terminate this agreement with immediate effect by delivering notice of the termination to the other party, if
+the other party fails to perform, has made or makes any inaccuracy in, or otherwise materially breaches, any of its obligations, covenants, or representations, and
+the failure, inaccuracy, or breach continues for a period of [BREACH CONTINUATION DAYS] Business Days' after the injured party delivers notice to the breaching party reasonably detailing the breach.
+Effect of Termination
+Payment Obligations. On the expiration or termination of this agreement, each party shall
+pay any amounts it owes to the other party, including payment obligations for services already rendered, work already performed, goods already delivered, or expenses already incurred, and
+refund any payments received but not yet earned, including payments for services not rendered, work not performed, or goods not delivered, expenses forwarded.
+Termination of License Grant. On the expiration or termination of this agreement the [DELIVERABLE] granted under this agreement will terminate with immediate effect.
+Return of Property. On termination or expiration of this agreement, or on [PARTY A]'s request, [PARTY B] will
+return to [PARTY A] all originals of the information and other property, including Intellectual Property,> it received from [PARTY A],
+[destroy all copies of such ]information and other property[it has in its possession or control, and]]
+on [PARTY A]'s request, certify to [PARTY A] in writing that it destroyed all such copies[.]
+Indemnification
+Indemnification by [PARTY B]. [PARTY B] [(as an indemnifying party) ]shall indemnify [PARTY A] [(as an indemnified party)] against all losses and expenses in connection with any proceeding arising out of
+[PARTY B]'s use of the Software, and
+[PARTY B]'s unauthorized customization, modification, or other alterations to the Software, including claims that its customization, modification, or other alterations infringe a third party's Intellectual Property rights, 
+Mutual Indemnification. Each party (as an indemnifying party) shall indemnify the other (as an indemnified party) against all losses in connection with any proceeding arising out of the indemnifying party's willful misconduct or gross negligence.
+Notice and Failure to Notify
+Notice Requirement. Before bringing a claim for indemnification, the indemnified party shall
+notify the indemnifying party of the indemnifiable proceeding, and
+deliver to the indemnifying party all legal pleadings and other documents reasonably necessary to indemnify or defend the indemnifiable proceeding.
+Failure to Notify. If the indemnified party fails to notify the indemnifying party of the indemnifiable proceeding, the indemnifying will be relieved of its indemnification obligations to the extent it was prejudiced by the indemnified party's failure.
+Exclusive Remedy. The parties' right to indemnification is the exclusive remedy available in connection with the indemnifiable proceedings described in this section [INDEMNIFICATION].
+Limitation on Liability. Neither party will be liable for breach-of-contract damages that are remote or speculative, or that the breaching party could not reasonably have foreseen on entry into this agreement.
+General Provisions
+Entire Agreement. The parties intend that this agreement, together with all attachments, schedules, exhibits, and other documents that both are referenced in this agreement and refer to this agreement,
+represent the final expression of the parties' intent relating to the subject matter of this agreement,
+contain all the terms the parties agreed to relating to the subject matter, and
+replace all of the parties' previous discussions, understandings, and agreements relating to the subject matter of this agreement.
+Counterparts
+Signed in Counterparts. This agreement may be signed in any number of counterparts.
+All Counterparts Original. Each counterpart is an original.
+Counterparts Form One Document. Together, all counterparts form one single document.
+Amendment. This agreement can be amended only by a writing signed by both parties.
+Assignment. Neither party may assign this agreement or any of their rights or obligations under this agreement without the other party's written consent.
+Notices
+Method of Notice. The parties will give all notices and communications between the parties in writing by (i) personal delivery, (ii) a nationally-recognized, next-day courier service, (iii) first-class registered or certified mail, postage prepaid to the address that a party has notified to be that party's address for the purposes of this section.
+Receipt of Notice. A notice given under this agreement will be effective on
+the other party's receipt of it, or
+if mailed, the earlier of the other party's receipt of it and the fifth business day after mailing it. 
+Governing Law and Consent to Jurisdiction and Venue
+Governing Law. This agreement, and any dispute arising out of the [SUBJECT MATTER OF THE AGREEMENT], shall be governed by the laws of the State of [GOVERNING LAW STATE].
+Consent to Jurisdiction. Each party hereby irrevocably consents to the [exclusive, non-exclusive] jurisdiction and venue of any [state or federal] court located within [VENUE COUNTY] County, State of [VENUE STATE], in connection with any matter arising out of this [agreement / plan] or the transactions contemplated under this [agreement / plan].
+Consent to Service. Each party hereby irrevocably
+agrees that process may be served on it in any manner authorized by the Laws of the State of [GOVERNING LAW STATE], and 
+waives any objection which it might otherwise have to service of process under the Laws of the State of [GOVERNING LAW STATE].
+Dispute Resolution
+Arbitration. Any dispute or controversy arising out of this agreement and [SUBJECT MATTER OF THE AGREEMENT] will be settled by arbitration in [STATE], according to the rules of the American Arbitration Association then in effect, and by [NUMBER OF ARBITRATORS] arbitrators[s].
+Judgment. Judgment may be entered on the arbitrator's award in any court having jurisdiction.
+Arbitrator's Authority. The arbitrator will not have the power to award any punitive [or consequential] damages.
+Waiver
+Affirmative Waivers. Neither party's failure or neglect to enforce any rights under this agreement will be deemed to be a waiver of that party's rights.
+Written Waivers. A waiver or extension is only effective if it is in writing and signed by the party granting it.
+No General Waivers. A party's failure or neglect to enforce any of its rights under this agreement will not be deemed to be a waiver of that or any other of its rights.
+No Course of Dealing. No single or partial exercise of any right or remedy will preclude any other or further exercise of any right or remedy.
+Severability. If any part of this agreement is declared unenforceable or invalid, the remainder will continue to be valid and enforceable.
+This agreement has been signed by the parties.
+
 </p>
 </html>
 
