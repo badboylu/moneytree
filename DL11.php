@@ -4,6 +4,8 @@ $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken=$_GET['auth'];
+$user=$_GET['username'];
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
