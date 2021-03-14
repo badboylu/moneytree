@@ -224,7 +224,9 @@ $count1=mysqli_num_rows($result1);
                          <br>
                          <br>
                          </div>
-                         <form action="DL99.php" method="post" id="form">
+                         <form action="DL99.php" method="get" id="form">
+                         <input type="hidden" name="auth" value="<?php echo $_GET['auth']; ?>">
+                         <input type="hidden" name="username" value="<?php echo $_GET['username']; ?>">
                          <input type="submit" name="Receive" value="Receive order" id="Blanks" "/>
                          </form>
                     </div>
