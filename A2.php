@@ -225,45 +225,39 @@ On the later of the Effective Date the agreement is signed by Licesor and End-us
 Training and Support Services
 </p>
 <p>
-[PARTY A] shall, at [PARTY A]'s expense, provide [PARTY B]'s employees with the initial training services necessary and desirable to operate the Software, as further described in the [ATTACHMENT], attached to this agreement, at [PARTY B]'s offices and [on days and times the parties agree to in writing.]
+Licensor shall, at Licensor's expense, provide End-user's with the initial training services necessary and desirable to use canibuy.co.za backend user interface by means of on-site demonstration and training manuals.
 </p>
 <p>
-Support
-</p>
-<p>
-For the [12] month period beginning on the Effective Date, and at [PARTY A]'s own expense, [PARTY A] shall provide [PARTY B] with 
-telephone or electronic support during [PARTY A]'s normal business hours in order to help [PARTY B] locate and correct problems with the Software, and
-internet-based support system generally available seven days a week, twenty-four hours a day. 
-Renewed Support. After the initial [12] month support period, [PARTY B] may elect to renew [PARTY A]'s support services under this paragraph [SUPPORT] for additional [12] month periods, at [PARTY A]'s then-current service rates.
 Updates and Maintenance Services
-Updates. [PARTY A] shall provide [PARTY B], at [PARTY A]'s sole expense, with all updates, extensions, enhancement, modifications, and other changes [PARTY A] makes or adds to the Software and which [PARTY A] offers to other licensees of the Software.
-Fixes and Patches. [PARTY A] shall provide [PARTY B], at [PARTY A]'s sole expense, with bug fixes and code corrections to correct Software malfunctions and defects in order to bring the Software into substantial conformity with its operating specifications.
-Exceptions. [PARTY A] may, but will not be required to, provide these maintenance services if [PARTY B] has modified the Software or is in default.
+</p>
+<p>
+Licensor shall provide End-user, at Licensor's sole expense, with all updates, extensions, enhancement, modifications, and other changes Licensor makes or adds to back-end user userinterface. Licensor shall provide End-user, at Licensor's sole expense, with bug fixes and code corrections to correct backend Software malfunctions and defects in order to bring the Software into substantial conformity with its operating specifications.
+</p>
+<p>
+Exceptions. 
+</p>
+<p>
+Licensor may, but will not be required to, provide these maintenance services if End-user has modified the Software.
 </p>
 <p>
 License Fees. 
 </p>
 <p>
-[PARTY B] will pay [PARTY A] the license fee of $[data-name="fee" data-type="money">LICENSE FEE] / listed in [ATTACHMENT] (the "License Fee").
-Payment. [PARTY B] will pay the License Fee to [PARTY A] (a) in full, (b) due on [DATE, MONTH], (c) in immediately available funds, and to the account [PARTY A] lists immediately below:
+End-user will pay licensor the license fee of RXXXXXXX.
+</p>
+<p>
+End-user will pay the License Fee to Licensor (a) in full, (b) periodically (c) in immediately available funds, and to the account [PARTY A] lists immediately below:
 </p>
 <p>
 Account Number:
 </p>
 <p>
-Taxes
-</p>
-<p>
-[PARTY B] will pay all Taxes applicable to payments between the parties under this agreement. 
-Interest on Late Payments. Any amount not paid when due will bear interest from the due date until paid at a rate equal to [1]% per month ([12.68]% annually) or the maximum allowed by Law, whichever is less.
-</p>
-<p>
 Restricted Uses. 
 </p>
 <p>
-[PARTY B] will not distribute, license, loan, or sell the Software or other content that is contained or displayed in it,modify, alter, or create any derivative works from the Software,
-reverse engineer, decompile, decode, decrypt, disassemble, or derive any source code from the Software,
-remove, alter, or obscure any copyright, trademark, or other proprietary rights notice on or in the Software.
+End-user will not distribute, license, loan, or sell the Software or other content that is contained or displayed in it,modify, alter, or create any derivative works from the canibuy.co.za backend Software,
+reverse engineer, decompile, decode, decrypt, disassemble, or derive any source code from the canibuy.co.za backend Software,
+remove, alter, or obscure any copyright, trademark, or other proprietary rights notice on the canibuy.co.za backend Software.
 </p>
 <p>
 Permitted Uses
