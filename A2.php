@@ -216,7 +216,7 @@ The parties agree to the terms of this agreement.
 Grant of access
 </p>
 <p>
-Licensor hereby grants to End-user access to use the canibuy.co.za back-end distribution functions.  
+Licensor hereby grants to End-user exclusive access to use the canibuy.co.za domain.  
 </p>
 <p>
 On the later of the Effective Date the agreement is signed by Licesor and End-user, Licesor shall grant access of the canibuy.co.za back-end distribution functions to End-user.
@@ -301,48 +301,13 @@ Neither party is under any restriction or obligation that the party could reason
 No Breach. 
 </p>
 <p>
-Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under
-its articles, bylaws, or any unanimous shareholders agreement,
-any Law to which it is subject,
-any judgment, Order, or decree of any Governmental Authority to which it is subject, or
-any agreement to which it is a party or by which it is bound.
-</p>
-<p>
-Permits, Consents, and Other Authorizations. 
-</p>
-<p>
-[Each party holds all Permits and other authorizations necessary to]
-[own, lease, and operate its properties, and]
-[conduct its business as it is now carried on.]
-</p>
-<p>
-No Disputes or Proceedings. 
-</p>
-<p>
-[Except as disclosed in the parties respective Disclosure Schedules] There are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement.
-</p>
-<p>
-No Bankruptcy.
-</p>
-<p>
-Neither party has taken or authorized any proceedings related to that party’s bankruptcy, insolvency, liquidation, dissolution, or winding up.
-</p>
-<p>
-[PARTY A]'s Representations
-</p>
-<p>
-Disclosure Schedule. 
-</p>
-<p>
-[PARTY A]'s Disclosure Schedule lists any exceptions to its representations.
+Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under its articles, bylaws, or any unanimous shareholders agreement, any Law to which it is subject, any judgment, Order, or decree of any Governmental Authority to which it is subject and any agreement to which it is a party or by which it is bound.
 </p>
 <p>
 Ownership of Intellectual Property. 
 </p>
 <p>
-Except as disclosed in [PARTY A]'s Disclosure Schedule [PARTY A]
-is the owner of all Intellectual Property rights included in the Software and granted under in the [DELIVERABLE], and
-has the exclusive right to grant the [DELIVERABLE].
+Licensor is the owner of all Intellectual Property rights included in the canibuy.co.za domain and has the exclusive right to grant the permision to use the domain to the End-user.
 </p>
 <p>
 Maintenance of Intellectual Property. 
