@@ -318,85 +318,187 @@ is the owner of all Intellectual Property rights included in the Software and gr
 has the exclusive right to grant the [DELIVERABLE].
 </p>
 <p>
-Maintenance of Intellectual Property. [PARTY A] has properly maintained all its Intellectual Property rights licensed under the [DELIVERABLE], including paying all applicable registration and maintenance fees.
-No Prior Grant or Transfer. [PARTY A] has not granted and is not obligated to grant any license t>o any third party that would conflict with the DELIVERABLE] under this agreement
-No Infringement. To [PARTY A]'s Knowledge, The [Software] does not infringe the Intellectual Property rights or other rights of any third party.
-No Third Party Infringement. Except as disclosed in [PARTY A]'s Disclosure Schedule To [PARTY A]'s Knowledge, no third party is infringing its Intellectual Property rights in the [Software].
-Not in Public Domain. The [Software] is not in the public domain.
+Maintenance of Intellectual Property. 
+</p>
+<p>
+[PARTY A] has properly maintained all its Intellectual Property rights licensed under the [DELIVERABLE], including paying all applicable registration and maintenance fees.
+</p>
+<p>
+No Prior Grant or Transfer.
+</p>
+<p>
+[PARTY A] has not granted and is not obligated to grant any license to any third party that would conflict with the [DELIVERABLE] under this agreement.
+</p>
+<p>
+No Infringement. 
+</p>
+<p>
+To [PARTY A]'s Knowledge, The [Software] does not infringe the Intellectual Property rights or other rights of any third party.
+</p>
+<p>
+No Third Party Infringement.
+</p>
+<p>
+Except as disclosed in [PARTY A]'s Disclosure Schedule To [PARTY A]'s Knowledge, no third party is infringing its Intellectual Property rights in the [Software].
+</p>
+<p>
+Not in Public Domain. 
+</p>
+<p>
+The [Software] is not in the public domain.
+</p>
+<p>
 No Warranty
-"As-Is". The [Licensed] Software is provided "as is," with all faults, defects, bugs, and errors.
-No Warranty. Unless otherwise listed in this agreement,
+</p>
+<p>
+"As-Is". The [Licensed] Software is provided "as is," with all faults, defects, bugs, and errors. Unless otherwise listed in this agreement,
 [PARTY A] does not make any warranty regarding the [Licensed] Software, which includes that 
 [PARTY A] disclaims to the [fullest] extent authorized by Law any and all [other] warranties, whether express or implied, including any implied warranties of [title, non-infringement, quiet enjoyment, integration,] merchantability or fitness for a particular purpose.
-Intellectual Property. [PARTY A] will retain exclusive interest in and ownership of its Intellectual Property rights in and to the Software and expressly reserves all rights not expressly granted under this agreement.
-Compliance with Laws. Each party will
-comply with all applicable Laws relating to [SUBJECT MATTER OF AGREEMENT], and
+</p>
+<p>
+Intellectual Property. 
+</p>
+<p>
+[PARTY A] will retain exclusive interest in and ownership of its Intellectual Property rights in and to the Software and expressly reserves all rights not expressly granted under this agreement.
+</p>
+<p>
+Compliance with Laws. 
+</p>
+<p>
+Each party will comply with all applicable Laws relating to [SUBJECT MATTER OF AGREEMENT], and
 notify the other party if it becomes aware of any non-compliance in connection with this section.
-Confidentiality Obligations. The parties continue to be bound by the terms of the non-disclosure agreement between the parties, dated [DATE] and attached to this agreement on [ATTACHMENT].
+</p>
+<p>
+Confidentiality Obligations. 
+</p>
+<p>
+The parties continue to be bound by the terms of the non-disclosure agreement between the parties, dated [DATE] and attached to this agreement on [ATTACHMENT].
+</p>
+<p>
 Publicity
-Consent. Neither party will use the other party's name, logo, or trademarks, or issue any press release or public announcement regarding this agreement, without the other party's written consent, unless specifically permitted under this agreement or required by Law.
-Cooperation. The parties will cooperate to draft all appropriate press releases and other public announcements relating to the subject matter of this agreement and the relationship between the parties.
-No Unreasonable Delay. The parties will not unreasonably withhold or delay their consent to press releases or public announcements.
+</p>
+<p>
+Consent. 
+</p>
+<p>
+Neither party will use the other party's name, logo, or trademarks, or issue any press release or public announcement regarding this agreement, without the other party's written consent, unless specifically permitted under this agreement or required by Law.
+</p>
+<p>
+Cooperation. 
+</p>
+<p>
+The parties will cooperate to draft all appropriate press releases and other public announcements relating to the subject matter of this agreement and the relationship between the parties.
+</p>
+<p>
 Termination
-Termination on Notice. Either party may terminate this agreement for any reason on [TERMINATION NOTICE BUSINESS DAYS] Business Days’ notice to the other party.
-Termination for Material Breach. Each party may terminate this agreement with immediate effect by delivering notice of the termination to the other party, if
-the other party fails to perform, has made or makes any inaccuracy in, or otherwise materially breaches, any of its obligations, covenants, or representations, and
-the failure, inaccuracy, or breach continues for a period of [BREACH CONTINUATION DAYS] Business Days' after the injured party delivers notice to the breaching party reasonably detailing the breach.
-Effect of Termination
-Payment Obligations. On the expiration or termination of this agreement, each party shall
-pay any amounts it owes to the other party, including payment obligations for services already rendered, work already performed, goods already delivered, or expenses already incurred, and
+</p>
+<p>
+Termination on Notice. 
+</p>
+<p>
+Either party may terminate this agreement for any reason on [TERMINATION NOTICE BUSINESS DAYS] Business Days’ notice to the other party.
+</p>
+<p>
+Payment Obligations. 
+</p>
+<p>
+On the expiration or termination of this agreement, each party shall pay any amounts it owes to the other party, including payment obligations for services already rendered, work already performed, goods already delivered, or expenses already incurred, and
 refund any payments received but not yet earned, including payments for services not rendered, work not performed, or goods not delivered, expenses forwarded.
-Termination of License Grant. On the expiration or termination of this agreement the [DELIVERABLE] granted under this agreement will terminate with immediate effect.
-Return of Property. On termination or expiration of this agreement, or on [PARTY A]'s request, [PARTY B] will
-return to [PARTY A] all originals of the information and other property, including Intellectual Property,> it received from [PARTY A],
-[destroy all copies of such ]information and other property[it has in its possession or control, and]]
-on [PARTY A]'s request, certify to [PARTY A] in writing that it destroyed all such copies[.]
+</p>
+<p>
+Termination of License Grant. 
+</p>
+<p>
+On the expiration or termination of this agreement the [DELIVERABLE] granted under this agreement will terminate with immediate effect.
+</p>
+<p>
 Indemnification
+</p>
+<p>
 Indemnification by [PARTY B]. [PARTY B] [(as an indemnifying party) ]shall indemnify [PARTY A] [(as an indemnified party)] against all losses and expenses in connection with any proceeding arising out of
 [PARTY B]'s use of the Software, and
 [PARTY B]'s unauthorized customization, modification, or other alterations to the Software, including claims that its customization, modification, or other alterations infringe a third party's Intellectual Property rights, 
-Mutual Indemnification. Each party (as an indemnifying party) shall indemnify the other (as an indemnified party) against all losses in connection with any proceeding arising out of the indemnifying party's willful misconduct or gross negligence.
-Notice and Failure to Notify
-Notice Requirement. Before bringing a claim for indemnification, the indemnified party shall
-notify the indemnifying party of the indemnifiable proceeding, and
-deliver to the indemnifying party all legal pleadings and other documents reasonably necessary to indemnify or defend the indemnifiable proceeding.
-Failure to Notify. If the indemnified party fails to notify the indemnifying party of the indemnifiable proceeding, the indemnifying will be relieved of its indemnification obligations to the extent it was prejudiced by the indemnified party's failure.
-Exclusive Remedy. The parties' right to indemnification is the exclusive remedy available in connection with the indemnifiable proceedings described in this section [INDEMNIFICATION].
-Limitation on Liability. Neither party will be liable for breach-of-contract damages that are remote or speculative, or that the breaching party could not reasonably have foreseen on entry into this agreement.
+</p>
+<p>
+Each party (as an indemnifying party) shall indemnify the other (as an indemnified party) against all losses in connection with any proceeding arising out of the indemnifying party's willful misconduct or gross negligence.
+</p>
+<p>
+Limitation on Liability. 
+</p>
+<p>
+Neither party will be liable for breach-of-contract damages that are remote or speculative, or that the breaching party could not reasonably have foreseen on entry into this agreement.
+</p>
+<p>
 General Provisions
-Entire Agreement. The parties intend that this agreement, together with all attachments, schedules, exhibits, and other documents that both are referenced in this agreement and refer to this agreement,
+</p>
+<p>
+The parties intend that this agreement, together with all attachments, schedules, exhibits, and other documents that both are referenced in this agreement and refer to this agreement,
 represent the final expression of the parties' intent relating to the subject matter of this agreement,
 contain all the terms the parties agreed to relating to the subject matter, and
 replace all of the parties' previous discussions, understandings, and agreements relating to the subject matter of this agreement.
-Counterparts
-Signed in Counterparts. This agreement may be signed in any number of counterparts.
-All Counterparts Original. Each counterpart is an original.
-Counterparts Form One Document. Together, all counterparts form one single document.
-Amendment. This agreement can be amended only by a writing signed by both parties.
-Assignment. Neither party may assign this agreement or any of their rights or obligations under this agreement without the other party's written consent.
+</p>
+<p>
+Amendment. 
+</p>
+<p>
+This agreement can be amended only by a writing signed by both parties.
+</p>
+<p>
+Assignment. 
+</p>
+<p>
+Neither party may assign this agreement or any of their rights or obligations under this agreement without the other party's written consent.
+</p>
+<p>
 Notices
-Method of Notice. The parties will give all notices and communications between the parties in writing by (i) personal delivery, (ii) a nationally-recognized, next-day courier service, (iii) first-class registered or certified mail, postage prepaid to the address that a party has notified to be that party's address for the purposes of this section.
-Receipt of Notice. A notice given under this agreement will be effective on
+</p>
+<p>
+The parties will give all notices and communications between the parties in writing by (i) personal delivery, (ii) a nationally-recognized, next-day courier service, (iii) first-class registered or certified mail, postage prepaid to the address that a party has notified to be that party's address for the purposes of this section.
+</p>
+<p>
+Receipt of Notice. 
+</p>
+<p>
+A notice given under this agreement will be effective on
 the other party's receipt of it, or
 if mailed, the earlier of the other party's receipt of it and the fifth business day after mailing it. 
-Governing Law and Consent to Jurisdiction and Venue
-Governing Law. This agreement, and any dispute arising out of the [SUBJECT MATTER OF THE AGREEMENT], shall be governed by the laws of the State of [GOVERNING LAW STATE].
-Consent to Jurisdiction. Each party hereby irrevocably consents to the [exclusive, non-exclusive] jurisdiction and venue of any [state or federal] court located within [VENUE COUNTY] County, State of [VENUE STATE], in connection with any matter arising out of this [agreement / plan] or the transactions contemplated under this [agreement / plan].
-Consent to Service. Each party hereby irrevocably
+</p>
+<p>
+Governing Law and Consent to Jurisdiction
+</p>
+<p>
+This agreement, and any dispute arising out of the [SUBJECT MATTER OF THE AGREEMENT], shall be governed by the laws of the State of [GOVERNING LAW STATE].
+Each party hereby irrevocably consents to the [exclusive, non-exclusive] jurisdiction and venue of any [state or federal] court located within [VENUE COUNTY] County, State of [VENUE STATE], in connection with any matter arising out of this [agreement / plan] or the transactions contemplated under this [agreement / plan].
+</p>
+<p>
+Consent to Service. 
+</p>
+<p>
+Each party hereby irrevocably
 agrees that process may be served on it in any manner authorized by the Laws of the State of [GOVERNING LAW STATE], and 
 waives any objection which it might otherwise have to service of process under the Laws of the State of [GOVERNING LAW STATE].
+</p>
+<p>
 Dispute Resolution
-Arbitration. Any dispute or controversy arising out of this agreement and [SUBJECT MATTER OF THE AGREEMENT] will be settled by arbitration in [STATE], according to the rules of the American Arbitration Association then in effect, and by [NUMBER OF ARBITRATORS] arbitrators[s].
+</p>
+<p>
+Any dispute or controversy arising out of this agreement and [SUBJECT MATTER OF THE AGREEMENT] will be settled by arbitration in [STATE], according to the rules of the American Arbitration Association then in effect, and by [NUMBER OF ARBITRATORS] arbitrators[s].
 Judgment. Judgment may be entered on the arbitrator's award in any court having jurisdiction.
 Arbitrator's Authority. The arbitrator will not have the power to award any punitive [or consequential] damages.
+</p>
+<p>
 Waiver
-Affirmative Waivers. Neither party's failure or neglect to enforce any rights under this agreement will be deemed to be a waiver of that party's rights.
-Written Waivers. A waiver or extension is only effective if it is in writing and signed by the party granting it.
-No General Waivers. A party's failure or neglect to enforce any of its rights under this agreement will not be deemed to be a waiver of that or any other of its rights.
-No Course of Dealing. No single or partial exercise of any right or remedy will preclude any other or further exercise of any right or remedy.
-Severability. If any part of this agreement is declared unenforceable or invalid, the remainder will continue to be valid and enforceable.
+</p>
+<p>
+Neither party's failure or neglect to enforce any rights under this agreement will be deemed to be a waiver of that party's rights.
+</p>
+<p>
+Severability. 
+</p>
+<p>
+If any part of this agreement is declared unenforceable or invalid, the remainder will continue to be valid and enforceable.
 This agreement has been signed by the parties.
-
+</p>
 </p>
 </html>
 
