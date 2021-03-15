@@ -263,17 +263,13 @@ remove, alter, or obscure any copyright, trademark, or other proprietary rights 
 Permitted Uses
 </p>
 <p>
-Installation. [PARTY B] may install and use the Software solely for [personal, non-commercial][internal business] use.
-Evaluation Use. If [PARTY B] has ordered an evaluation license, [PARTY B] may use the Software only for evaluation purposes and only during the applicable evaluation period. 
-Server Deployment. [PARTY B] may install [NUMBER OF SERVER COPIES] of copies of the Software on an internal file server for purposes of downloading and installing the Software on licensed computers within the same internal network.
-Home Use. [PARTY B] may install a copy of the Software on a personal or home computer, provided both copies of the Software are not used at the same time.
-Backup and Archival Copies. [PARTY B] may make one copy of the Software solely for backup or archival purposes.
+End-user shall use the Software solely for the co-ordination of End-user distribution system.
 </p>
 <p>
-Term. 
+Term of license. 
 </p>
 <p>
-This agreement begins on  Effective Date / [DATE, MONTH] and will continue until terminated (the "Term").
+This agreement begins on Effective Date and will continue until terminated by Licensor or End-user.
 </p>
 <p>
 Representations
