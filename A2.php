@@ -153,12 +153,46 @@ Terms and Conditions
 </nav>
 </div>
 </div>
-
-
 <html>
 <p>
 <p>
-This Software License Agreement is made on [AGREEMENT DATE] between [LICENSOR NAME], a [CORPORATE JURISDICTION] corporation with its principal place of business at [LICENSOR ADDRESS] ("[PARTY A]") and [LICENSEE NAME], a [CORPORATE JURISDICTION] corporation with its principal place of business at [LICENSEE ADDRESS] ("[PARTY B]").
+This Software License Agreement is made on ____/____/______ between 
+</p>
+<p>
+______________________ (Licensor name), with  identity number
+</p>
+<p>
+______________________ [Licensor ID number],
+</p>
+<p>
+owner of the canibuy.co.za domain with its principal place of business at 
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________  
+</p>
+<p>
+("Licensor") 
+</p>
+<p>
+and ____________________________ (User name/company name), 
+</p>
+<p>
+with the principal place of business at
+</p>
+<p>
+[LICENSEE ADDRESS] ("[PARTY B]").
 </p>
 <p>
 The parties agree to the terms of this agreement.
