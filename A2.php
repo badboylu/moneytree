@@ -159,7 +159,7 @@ Terms and Conditions
 This Software License Agreement is made on ____/____/______ between 
 </p>
 <p>
-______________________ (Licensor name), with  identity number
+______________________ (Licensor), with  identity number
 </p>
 <p>
 ______________________ [Licensor ID number],
@@ -183,40 +183,43 @@ ____________________________________
 ____________________________________  
 </p>
 <p>
-("Licensor") 
+("Licensor address") 
 </p>
 <p>
-and ____________________________ (User name/company name), 
+and ____________________________ (End-user), 
 </p>
 <p>
 with the principal place of business at
 </p>
 <p>
-[LICENSEE ADDRESS] ("[PARTY B]").
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________
+</p>
+<p>
+____________________________________  
+</p>
+<p>
+("End-user address").
 </p>
 <p>
 The parties agree to the terms of this agreement.
 </p>
 <p>
-License Grant
+Grant of access
 </p>
 <p>
-Software License. [PARTY A] hereby grants to [PARTY B] [an exclusive / a non-exclusive], [transferable / non-transferable], [sublicensable / non-sublicensable], [revocable / irrevocable] license (the "[DELIVERABLE]") to use the Software.
+Licensor hereby grants to End-user access to use the canibuy.co.za back-end distribution functions.  
 </p>
 <p>
-No Other Rights. [PARTY A] reserves for itself all other rights and interest not explicitly granted under this agreement.
-</p>
-<p>
-Software. 
-</p>
-<p>
-"Software" means [SHORT DESCRIPTION OF SOFTWARE] the software described in the [ATTACHMENT], attached to this agreement.
-</p>
-<p>
-Make Software Available for Use. 
-</p>
-<p>
-On the later of the Effective Date and [PARTY B]'s first payment for the Software, [PARTY A] will make the Software available to [PARTY B] in an electronic, downloadable format from [PARTY A]'s website, at [INSERT URL OF WEBSITE].
+On the later of the Effective Date the agreement is signed by Licesor and End-user, Licesor shall grant access of the canibuy.co.za back-end distribution functions to End-user.
 </p>
 <p>
 Training and Support Services
