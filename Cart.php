@@ -3,10 +3,13 @@ $servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
-$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$authtoken = $_GET['auth'];
+   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+   $username = $_GET['username'];
+   $authtoken = $_GET['auth'];
 ?>
-<html lang="en-US"> <!--<![endif]-->
+<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -83,7 +86,8 @@ href="cannacaps.html" />
 	<div class="topbar-wrapp color-scheme-light">
 	<div class="container">
 	<div class="topbar-content">
-	<div class="top-bar-left">
+	<div class="top-bar-left"> 
+	<span> <?php echo $_GET['username']; ?></span><span> </span><span>[<a href="Logout.php?&auth=<?php echo $_GET['auth'];?>"><span style="color:red;"> Log out</span></a>]</span>
 
 	</div>
 	<div class="top-bar-right">
@@ -91,23 +95,24 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	Shop
 	</a></li></ul></div></div></div></div></div></div>
 	
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
 	<div class="container">
 	<div class="wrapp-header">
+	
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a href="Shop.php?auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo"
  rel="home"> 
-<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
+<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" />  
 </a></div></div>
 <div class="right-column">
 <div >
 <div >
-	<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
+	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -145,7 +150,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Cart 
+Cart <?php $_GET['promo'] ?>
 </strong>
 <span class="title-separator">
 <span>
@@ -158,7 +163,7 @@ Cart
 <span class="title-after_title">
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
 Cart
@@ -193,10 +198,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
+                <span class = "DPcontainer2BW"><strong>Milk Chocolates</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R20 per/Pack</span>
+                <span class = "DPcontainer3BW">R30 per/Box</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
@@ -209,7 +214,7 @@ class="single-product-page single-product-content product-design-default product
                     <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span class="gramsamountBW1">
-                        Pack/s
+                        Box/s
                     </span>
                 </div>
             </div>
@@ -235,10 +240,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
+                <span class = "DPcontainer2CC"><strong>CBD oil capsules</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3CC">R120 per/Batch</span>
+                <span class = "DPcontainer3CC">R240 per/Batch</span>
             </li>
             <li>
                 <div class="quantitygramsCC" id="CCgrams"> 
@@ -278,10 +283,10 @@ class="single-product-page single-product-content product-design-default product
 						https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088823/_DSC6569_nk6rz5.jpg"  class = "DPcontainer1">
 					</li>
 				<li>	
-				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
+				<span class = "DPcontainer2OC"><strong>Pink Roses</strong></span>
 			</li>
 			<li>
-				<span class = "DPcontainer3OC">R15 per/Gram</span>
+				<span class = "DPcontainer3OC">R20 per/Rose</span>
 			</li>
 			<li>
 				<div class="quantitygramsOC" id="OCgrams"> 
@@ -294,7 +299,7 @@ class="single-product-page single-product-content product-design-default product
 		    			<ion-icon name="caret-down-outline"></ion-icon>
 		    			 </div> 
 					<span>
-						Grams
+						Roses
 					</span>
 				</div>
 			</div>
@@ -321,10 +326,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
+                <span class = "DPcontainer2PR"><strong>Dark Chocolates</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PR">R40 per/J</span>
+                <span class = "DPcontainer3PR">R60 per/Box</span>
             </li>
             <li>
                 <div class="quantitygramsPR" id="PRgrams"> 
@@ -337,7 +342,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Joint/s
+                        Box/es
                     </span>
                 </div>
             </div>
@@ -362,10 +367,10 @@ class="single-product-page single-product-content product-design-default product
                             https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg"  class = "DPcontainer1">
                         </li>
                     <li>	
-                    <span class = "DPcontainer2CCES"><strong>Dabcapsules (strong)</strong></span>
+                    <span class = "DPcontainer2CCES"><strong>CBD oil capsules (strong)</strong></span>
                 </li>
                 <li>
-                    <span class = "DPcontainer3CCES">R200 per/Batch</span>
+                    <span class = "DPcontainer3CCES">R450 per/Batch</span>
                 </li>
                 <li>
                     <div class="quantitygramsCCES" id="CCESgrams"> 
@@ -404,10 +409,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2NL"><strong>Northern lights</strong></span>
+                <span class = "DPcontainer2NL"><strong>Sunflowers</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3NL">R18 per/Gram</span>
+                <span class = "DPcontainer3NL">R45 per/Flower</span>
             </li>
             <li>
                 <div class="quantitygramsNL" id="NLgrams"> 
@@ -420,7 +425,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Grams
+                        Flowers
                     </span>
                 </div>
             </div>
@@ -443,13 +448,13 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
+                <span class = "DPcontainer2PE"><strong>Mugs</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R20 per/Gram</span>
+                <span class = "DPcontainer3PE">R100 per/Mugt</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
@@ -462,7 +467,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Grams
+                        Mug/s
                     </span>
                 </div>
             </div>
@@ -487,10 +492,10 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
+                <span class = "DPcontainer2"><strong>Red Roses</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3">R18 per/Gram</span>
+                <span class = "DPcontainer3">R70 per/Rose</span>
             </li>
             <li>
                 <div class="quantity" id="DPgrams"> 
@@ -503,7 +508,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Grams
+                        Roses
                     </span>
                 </div>
             </div>
@@ -526,7 +531,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
 		</div>
                 <span class="totalCart"><strong>Delivery</strong></span>
-                <span class="totalDelivery">R30</span>
+                <span class="totalDelivery">R40</span>
 		<br>
                 <span class="totalCart"><strong>Items</strong></span>
                 <span class="totalOrderR">R</span>
@@ -544,7 +549,19 @@ class="single-product-page single-product-content product-design-default product
 		</div>
 		</div>
 		<div class='plugfooterEnd'></div>
+		
 		<br>
+                <input type="text" class="promo" name="" placeholder="Enter promo code here" id="promocode">
+		<br>
+		<div style="display:none" id="wrongcode" >
+                <span style="color:red">*invalid promotion code</span>
+		</div>
+                <button class="promobutton" onclick='addpromo()'>
+		Apply
+	        </button>
+		<br>
+                <div class='plugfooterEnd'></div>
+                <br>
                 <form action="delivery.php" method="get" id="amount">
                 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 		<input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
@@ -584,12 +601,12 @@ class="single-product-page single-product-content product-design-default product
 <span>
 Kahrent Technology
 </span>
-Africa (Pty) Ltd. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
+Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. Terms and conditions <a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
 Shop 
 </span> </a></div>
@@ -611,6 +628,8 @@ Scroll To Top
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button><div class="pswp__caption"><div class="pswp__caption__center">
 </div></div></div></div></div> 
 
+<script src="159ee3662dfb9514a247e01325dcd82e.js" data-minify="1" defer>
+</script>
 <script 
 src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js" >
 </script>
@@ -722,7 +741,7 @@ discounttotal = parseInt(discounttotal) + 40;
 document.getElementById("total").value =  discounttotal;
 }else{
 let total = localStorage.getItem('totalAmountNumber'); 
-total = parseInt(total) + 30;
+total = parseInt(total) + 40;
 document.getElementById("total").value = total;
 }
 }, 1000);
