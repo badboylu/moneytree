@@ -195,10 +195,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2BW"><strong>Milk Chocolates</strong></span>
+                <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R30 per/Box</span>
+                <span class = "DPcontainer3BW">R20 per/Pack</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
@@ -211,7 +211,7 @@ class="single-product-page single-product-content product-design-default product
                     <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span class="gramsamountBW1">
-                        Box/s
+                        Pack/s
                     </span>
                 </div>
             </div>
@@ -237,10 +237,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2CC"><strong>CBD oil capsules</strong></span>
+                <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3CC">R240 per/Batch</span>
+                <span class = "DPcontainer3CC">R120 per/Batch</span>
             </li>
             <li>
                 <div class="quantitygramsCC" id="CCgrams"> 
@@ -280,10 +280,10 @@ class="single-product-page single-product-content product-design-default product
 						https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088823/_DSC6569_nk6rz5.jpg"  class = "DPcontainer1">
 					</li>
 				<li>	
-				<span class = "DPcontainer2OC"><strong>Pink Roses</strong></span>
+				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
 			</li>
 			<li>
-				<span class = "DPcontainer3OC">R20 per/Rose</span>
+				<span class = "DPcontainer3OC">R15 per/Gram</span>
 			</li>
 			<li>
 				<div class="quantitygramsOC" id="OCgrams"> 
@@ -296,7 +296,7 @@ class="single-product-page single-product-content product-design-default product
 		    			<ion-icon name="caret-down-outline"></ion-icon>
 		    			 </div> 
 					<span>
-						Roses
+						Grams
 					</span>
 				</div>
 			</div>
@@ -323,10 +323,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PR"><strong>Dark Chocolates</strong></span>
+                <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PR">R60 per/Box</span>
+                <span class = "DPcontainer3PR">R40 per/J</span>
             </li>
             <li>
                 <div class="quantitygramsPR" id="PRgrams"> 
@@ -339,7 +339,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Box/es
+                        Joint/s
                     </span>
                 </div>
             </div>
@@ -364,10 +364,10 @@ class="single-product-page single-product-content product-design-default product
                             https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg"  class = "DPcontainer1">
                         </li>
                     <li>	
-                    <span class = "DPcontainer2CCES"><strong>CBD oil capsules (strong)</strong></span>
+                    <span class = "DPcontainer2CCES"><strong>Dabcapsules (strong)</strong></span>
                 </li>
                 <li>
-                    <span class = "DPcontainer3CCES">R450 per/Batch</span>
+                    <span class = "DPcontainer3CCES">R200 per/Batch</span>
                 </li>
                 <li>
                     <div class="quantitygramsCCES" id="CCESgrams"> 
@@ -406,10 +406,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2NL"><strong>Sunflowers</strong></span>
+                <span class = "DPcontainer2NL"><strong>Northern lights</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3NL">R45 per/Flower</span>
+                <span class = "DPcontainer3NL">R18 per/Gram</span>
             </li>
             <li>
                 <div class="quantitygramsNL" id="NLgrams"> 
@@ -422,7 +422,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Flowers
+                        Grams
                     </span>
                 </div>
             </div>
@@ -445,13 +445,13 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Mugs</strong></span>
+                <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R100 per/Mugt</span>
+                <span class = "DPcontainer3PE">R20 per/Gram</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
@@ -464,7 +464,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Mug/s
+                        Grams
                     </span>
                 </div>
             </div>
@@ -489,10 +489,10 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Red Roses</strong></span>
+                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3">R70 per/Rose</span>
+                <span class = "DPcontainer3">R18 per/Gram</span>
             </li>
             <li>
                 <div class="quantity" id="DPgrams"> 
@@ -505,7 +505,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Roses
+                        Grams
                     </span>
                 </div>
             </div>
