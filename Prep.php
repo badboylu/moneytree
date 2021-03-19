@@ -111,7 +111,7 @@ else{
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="PH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
@@ -144,9 +144,6 @@ else{
                             
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
