@@ -83,7 +83,7 @@ $row=mysqli_fetch_array($result);
     <!-- Page Body Start-->
     <div class="page-body-wrapper">
 
-        <!-- Page Sidebar Start-->
+       <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
                 <div class="logo-wrapper"></div>
@@ -96,7 +96,7 @@ $row=mysqli_fetch_array($result);
                     <p>Delivery Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="DLH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
                         <ul class="sidebar-submenu">
                             <li>
@@ -131,13 +131,10 @@ $row=mysqli_fetch_array($result);
 
                     <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
-                            
+                            <li><a href="#"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="#"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
