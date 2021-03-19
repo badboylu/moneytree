@@ -115,7 +115,6 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="reports.html"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
                     <li><a class="sidebar-header" href="login.html"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
