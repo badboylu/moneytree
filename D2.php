@@ -94,27 +94,21 @@ $count=mysqli_num_rows($result);
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Delivery Agent</p>
+                    <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Active deliveries</span> 
+                                <a href="Prep.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Pending orders</span> 
                                 </a>
                           
                             </li>
                             <li>
-                                <a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Delivery protocol</span> 
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending collections</span> 
+                                <a href="D2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending orders</span> 
                                 </a>
                                 
                             </li>
@@ -125,7 +119,7 @@ $count=mysqli_num_rows($result);
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection protocol</a></li>
+                            <li><a href="C1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection codes</a></li>
                             
                         </ul>
                     </li>
@@ -136,16 +130,12 @@ $count=mysqli_num_rows($result);
                             
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- Page Sidebar Ends-->
-
         <!-- Right sidebar Start-->
         
         <!-- Right sidebar Ends-->
