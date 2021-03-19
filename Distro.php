@@ -280,17 +280,6 @@
                             </div>
                         </div>
                     </div>
-                            <div class="card-body">
-                                <div class="market-chart"></div>
-                                <div class="code-box-copy">
-                                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                                    <pre><code class="language-html" id="example-head">&lt;!-- Cod Box Copy begin --&gt;
-&lt;div class="market-chart"&gt;&lt;/div&gt;
-&lt;!-- Cod Box Copy end --&gt;</code></pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
