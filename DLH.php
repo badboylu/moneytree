@@ -150,13 +150,10 @@ $count2=mysqli_num_rows($result2);
 
                     <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
-                            
+                            <li><a href="#"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="#"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
