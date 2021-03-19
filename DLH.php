@@ -188,22 +188,6 @@ $count2=mysqli_num_rows($result2);
             <!-- Container-fluid Ends-->
 
             <!-- Container-fluid starts-->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden widget-cards">
-                            <div class="bg-warning card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Earnings</span>
-                                        <h3 class="mb-0">R <span class="counter"><span class="paythem"></span></span><small> Today</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden  widget-cards">
                             <div class="bg-secondary card-body">
