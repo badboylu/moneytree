@@ -150,9 +150,6 @@ $count2=mysqli_num_rows($result2);
                             
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
