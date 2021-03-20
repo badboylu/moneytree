@@ -158,8 +158,10 @@ Terms and Conditions
 The Cannabis Health and Awareness NPO
 </p>
 <p>
-Donate to the inception on the Cannabis Health and Awareness non-profit organisation and make history.
+Donate to the Cannabis Health and Awareness non-profit organisation and join the revolution that is making history. On the 1st of September 2020, the South African parliament passed the Cannabis for personal purposes bill which changed the way the law view cannabis as an illegal drug to a medicinal plant. This bill outlined they way cannabis was to be cultivated, used and trafficked.
 </p>
+<p>
+As the bill is only 7 months in effect to this date, it is a relatively new bill and majority of citizens have little to no comprehensive knowledge about the bill and it's regulations on cannabis. 
 </p>
 </html>
 
