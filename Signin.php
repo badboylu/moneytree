@@ -26,7 +26,7 @@ $signup=$_GET['signup'];
                 <div class="form-content">
                     <div class="form-items">
                         <h3>Welcome! <br> Login to <span style="color:orange;">canibuy</span></h3>
-                        <p style="color:green;" >Cannibus Health Store</p>
+                        <p style="color:green;" >Cannabis Disposal Agency</p>
                         
                         <form action="logintest.php" method="post">
                             <input id="uid" class="form-control" type="text" name="uid" placeholder="Username/E-mail" required>
