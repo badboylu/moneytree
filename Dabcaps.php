@@ -213,7 +213,9 @@ href="cannacaps.html" />
 <div class="basel-logo-wrap"> 
 <a href="Shop.php?auth=<?php echo $_GET['auth'];?>"
  class="basel-logo basel-main-logo" rel="home"> 
-<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
+<img  
+src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
+alt="Canibuy logo" />
 </a></div></div>
 <div class="right-column">
 
