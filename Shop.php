@@ -795,7 +795,7 @@ href="Shop.php?auth=<?php echo $_GET['auth'];?>"
 rel="home">
 <img  
 src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
-alt="Basel" /> 
+alt="Canibuy logo" /> 
 </a>
 </div>
 </div>
