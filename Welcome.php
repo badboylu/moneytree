@@ -26,12 +26,13 @@ $token= bin2hex(random_bytes(16));
                     <div class="form-items">
                         <h3>Welcome to <span style="color:orange;">canibuy</span></h3>.             
                         <p style="color:green;" >Cannabis Disposal Agency</p>
+                        <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO</small></p>
                         <p><small>Backend users (<a href="Signin.php"><span>Click here<span></a>)</small></p>
-                        <p>To enter you must acknowledge the following:</p>
-                        <p>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</p>
+                        <p><small>To enter you must acknowledge the following:</small></p>
+                        <p><small>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</small></p>
                         <div class="page-links">
-                            <p><a href="Welcome.php"><span>I don't agree<span></a></p>
-                            <p><a href="Shop.php?auth=<?php echo $token; ?>"><span style="color:green">I agree<span></a></p>
+                            <p><a href="Welcome.php"><span><small>I don't agree</small><span></a></p>
+                            <p><a href="Shop.php?auth=<?php echo $token; ?>"><span style="color:green"><small>I agree</small><span></a></p>
                         </div>
                     </div>
                 </div>
