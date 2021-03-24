@@ -5,6 +5,7 @@ $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $date = date("Y-m-d");
 $time = date("H:i:s");
+$timeChange = date('H:i:s',strtotime('+1 hour +30 minutes +45 seconds',strtotime($time)));
 date_default_timezone_set('Africa/Johannesburg');
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
@@ -283,7 +284,7 @@ Tracker
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
 <P id="timehide1"><strong> Placement time:</strong> [<?php echo $date; ?>][<?php echo $time; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placement time:</strong>N/A</p>
-<P id="etahide1"><strong> Estimated time of arrival:</strong> <?php echo 'ETA'; ?> </p>
+<P id="etahide1"><strong> Estimated time of arrival:</strong> <?php echo $timeChange; ?> </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
