@@ -278,8 +278,8 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Time order placed:</strong> <?php echo 'Arrival time'; ?> </p>
-<P id="timehide2" style="display:none" ><strong> Time order placed:</strong>N/A</p>
+<P id="timehide1"><strong> Placement time:</strong> <?php echo 'Time placed'; ?> </p>
+<P id="timehide2" style="display:none" ><strong> Placement time:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> <?php echo 'ETA'; ?> </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
