@@ -5,7 +5,7 @@ $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $date = date("Y-m-d");
 $time = date("H:i");
-$timeChange = date('H:i',strtotime('+1 hour +30 minutes',strtotime($time)));
+$timeChange = date('H:i',strtotime('+2 hour +1 minutes',strtotime($time)));
 date_default_timezone_set('Africa/Johannesburg');
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
