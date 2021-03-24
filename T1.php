@@ -3,11 +3,14 @@ $servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
-   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-   $authtoken = $_GET['auth'];
-   $prepared = 'Prepared';
-   $collected = 'Collected';
-   $pending = 'Pending';
+$date = date("Y-m-d");
+$time = date("H:i:s");
+date_default_timezone_set('Africa/Johannesburg');
+$conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
+$authtoken = $_GET['auth'];
+$prepared = 'Prepared';
+$collected = 'Collected';
+$pending = 'Pending';
    
    $total = $_GET['eTotal'];
    $city = $_GET['eCity'];
@@ -278,7 +281,7 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placement time:</strong> <?php echo 'Time placed'; ?> </p>
+<P id="timehide1"><strong> Placement time:</strong> [<?php echo $date; ?>][<?php echo $time; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placement time:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> <?php echo 'ETA'; ?> </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
