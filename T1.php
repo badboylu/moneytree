@@ -283,9 +283,9 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo $date; ?>][<?php echo $timeChange; ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo $date; ?>] [<?php echo $timeChange; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
-<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>][<?php echo $timeChange2; ?>] </p>
+<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo $timeChange2; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
