@@ -4,9 +4,6 @@ $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $date = date("Y-m-d");
-$time = date("H:i");
-$timeChange = date('H:i',strtotime('+2 hour',strtotime($time)));
-$timeChange2 = date('H:i',strtotime('+3 hour',strtotime($time)));
 date_default_timezone_set('Africa/Johannesburg');
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
@@ -292,9 +289,9 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo 'test'; ?>] [<?php echo $timeplaced; ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo 'test'; ?>] [<?php echo 'test'; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
-<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo $timeChange2; ?>] </p>
+<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo 'test'; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
