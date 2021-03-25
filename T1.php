@@ -118,14 +118,14 @@ $pending = 'Pending';
     $collected1='0';
     $pending1='0';
    }
-$query='SELECT * FROM address WHERE idPrepperToken="'.$collect.'" ';
+$query='SELECT * FROM address WHERE idOrderCustiCode="'.$code.'" ';
 $result=mysqli_query($conn,$query);
 
 while($row=mysqli_fetch_array($result)){
- $ordernumber[]=$row['idOrderID'];
+ $time[]=$row['idTime'];
 }
 
-$authcode=Min($ordernumber);
+$timeplaced=Min($time);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -291,7 +291,7 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo $date; ?>] [<?php echo $timeChange; ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo $date; ?>] [<?php echo $timeplaced; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo $timeChange2; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
