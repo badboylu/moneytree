@@ -125,7 +125,6 @@ $sql='SELECT idTime FROM address WHERE idOrderCustiCode="'.$code.'"';
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $timeplaced);
-   echo date('d-m-Y');
    date_format($timeplaced,'H:i:s');
    echo $timeplaced;
 ?>
