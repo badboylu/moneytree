@@ -117,7 +117,6 @@ $pending = 'Pending';
     $pending1='0';
    }
 
-
    $sql='SELECT idTime FROM address WHERE idOrderCustiCode="'.$code.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -126,13 +125,20 @@ $pending = 'Pending';
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
-while (mysqli_stmt_fetch($stmt)) { 
-if(!$hash){
-echo'nothing';
-}else{
-$timeplaced=$hash;
+   while (mysqli_stmt_fetch($stmt)) { 
+    $timeplaced=$hash;
 }
-echo $timeplaced;
+
+$sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL2");
+       exit();
+}
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_bind_result($stmt, $hash1);
+   while (mysqli_stmt_fetch($stmt)) { 
+    $dateplaced=$hash1;
 }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
@@ -299,9 +305,9 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo $date; ?>] [<?php echo 'test'; ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo $dateplaced; ?>] [<?php echo $timeplaced; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
-<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo 'test'; ?>] </p>
+<P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $dateplaced; ?>] [<?php echo 'test'; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
 <p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
 <p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
