@@ -140,6 +140,7 @@ $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
    while (mysqli_stmt_fetch($stmt)) { 
     $dateplaced=$hash1;
 }
+echo date('H:i', strtotime($timeplaced));
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
