@@ -130,11 +130,9 @@ while (mysqli_stmt_fetch($stmt)) {
 if(!$hash){
 echo'nothing';
 }else{
-echo'something';
-echo $hash;
-echo'something';
-$timeChange = date('H:i:s',strtotime('+2 hour',strtotime($hash)));
+$timeplaced=$hash;
 }
+echo $timeplaced;
 }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
