@@ -118,6 +118,14 @@ $pending = 'Pending';
     $collected1='0';
     $pending1='0';
    }
+$query='SELECT * FROM address WHERE idPrepperToken="'.$collect.'" ';
+$result=mysqli_query($conn,$query);
+
+while($row=mysqli_fetch_array($result)){
+ $ordernumber[]=$row['idOrderID'];
+}
+
+$authcode=Min($ordernumber);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
