@@ -117,15 +117,6 @@ $pending = 'Pending';
     $pending1='0';
    }
 
-$sql='SELECT idTime FROM address WHERE idOrderCustiCode="'.$code.'"';
-   $stmt=mysqli_stmt_init($conn);
- if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL7");
-       exit();
-}
-   mysqli_stmt_execute($stmt);
-   mysqli_stmt_bind_result($stmt, $timeplaced);
-   echo date_format('H:i:s',$timeplaced);
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
