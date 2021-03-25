@@ -132,6 +132,8 @@ echo'nothing';
 }else{
 echo'something';
 echo $hash;
+echo'something';
+$timeChange = date('H:i:s',strtotime('+2 hour',strtotime($hash)));
 }
 }
 ?>
