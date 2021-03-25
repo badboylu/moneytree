@@ -4,6 +4,7 @@ $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
 $date = date("Y-m-d");
+$time = date("H:i");
 date_default_timezone_set('Africa/Johannesburg');
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
@@ -289,7 +290,7 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo 'test'; ?>] [<?php echo 'test'; ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo $time; ?>] [<?php echo 'test'; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $date; ?>] [<?php echo 'test'; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
