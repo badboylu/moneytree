@@ -126,7 +126,7 @@ $pending = 'Pending';
 }
    mysqli_stmt_execute($stmt);
    mysqli_stmt_bind_result($stmt, $hash);
-if(!hash){
+if(!$hash){
 echo'nothing';
 }else{
 echo'something';
