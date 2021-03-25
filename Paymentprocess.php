@@ -7,7 +7,8 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $preppertoken= bin2hex(random_bytes(3));
 $custitoken= bin2hex(random_bytes(3));
 $date = date("Y-m-d");
-$time = date("H:i:s");
+$time = date("H:i");
+$timeChange = date('H:i',strtotime('+2 hour',strtotime($time)));
 date_default_timezone_set('Africa/Johannesburg');
 $authtoken = $_GET['auth'];
 $confirmedpayment1 = 'Placed';
@@ -45,7 +46,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:Signin.php?error=sqlerror111");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"iiiiiiiissssiss",$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$time,$date,$total,$custitoken,$preppertoken);
+     mysqli_stmt_bind_param($stmt,"iiiiiiiissssiss",$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$timeChange,$date,$total,$custitoken,$preppertoken);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
@@ -56,7 +57,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:Signin.php?error=sqlerror222");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$time,$date,$authtoken,$confirmedpayment1,$custitoken);
+     mysqli_stmt_bind_param($stmt,"sssssssssssssssssss",$province,$city,$town,$suburb,$structure,$building,$estate,$complex,$mall,$shop,$street,$unitnumber,$housenumber,$contactnumber,$timeChange,$date,$authtoken,$confirmedpayment1,$custitoken);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
