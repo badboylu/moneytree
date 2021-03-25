@@ -117,10 +117,11 @@ $pending = 'Pending';
     $pending1='0';
    }
 
-$query="SELECT idTime FROM address WHERE idOrderCustiCode='".$code."' ";
+
+   $sql='SELECT idTime FROM address WHERE idOrderCustiCode="'.$code.'"';
    $stmt=mysqli_stmt_init($conn);
-   if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=Time");
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL2");
        exit();
 }
    mysqli_stmt_execute($stmt);
