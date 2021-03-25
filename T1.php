@@ -118,7 +118,7 @@ $pending = 'Pending';
    }
 
 
-   $sql='SELECT idCrib FROM address WHERE idOrderCustiCode="'.$code.'"';
+   $sql='SELECT idTime FROM address WHERE idOrderCustiCode="'.$code.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL2");
@@ -131,6 +131,7 @@ if(!$hash){
 echo'nothing';
 }else{
 echo'something';
+echo $hash;
 }
 }
 ?>
