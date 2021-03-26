@@ -47,7 +47,7 @@ $pending = 'Pending';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
-   
+   echo $check;
    if($check>0){
    $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
@@ -140,7 +140,6 @@ $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
    while (mysqli_stmt_fetch($stmt)) { 
     $dateplaced=$hash1;
 }
-echo date('H:i', strtotime($timeplaced));
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
