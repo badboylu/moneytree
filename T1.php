@@ -46,7 +46,6 @@ $pending = 'Pending';
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-   echo $order;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
@@ -118,6 +117,7 @@ $pending = 'Pending';
    mysqli_stmt_bind_result($stmt, $hash);
    while (mysqli_stmt_fetch($stmt)) { 
     $timeplaced=$hash;
+    $timeplacedReal=date("H:i",$timeplaced);
 }
 
 $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
@@ -131,7 +131,6 @@ $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
    while (mysqli_stmt_fetch($stmt)) { 
     $dateplaced=$hash1;
 
-$timeplacedReal=date("H:i",$timeplaced);
 }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
