@@ -43,7 +43,7 @@ $pending = 'Pending';
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"sssss",$authtoken,$prepared,$pending,$collected);
+   mysqli_stmt_bind_param($stmt,"ssss",$authtoken,$prepared,$pending,$collected);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
