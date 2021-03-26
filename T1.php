@@ -47,7 +47,6 @@ $pending = 'Pending';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
-   echo $check;
    if($check>0){
    $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
@@ -55,28 +54,28 @@ $pending = 'Pending';
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-   
+   echo  $order;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordertoken[]=$row['idOrderToken'];
    }
    $token=Min($ordertoken); 
-
+   echo  $token;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $custitoken[]=$row['idOrderCustiCode'];
    }
    $code=Min($custitoken); 
-
+   echo  $code;
    $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernm[]=$row['id'];
    }
    $ordernmb=Min($ordernm); 
- 
+   echo  $ordernmb;
    
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
@@ -88,7 +87,7 @@ $pending = 'Pending';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $prepared1=mysqli_stmt_num_rows($stmt);
-   
+   echo  $prepared1;
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -99,7 +98,7 @@ $pending = 'Pending';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $collected1=mysqli_stmt_num_rows($stmt);
-   
+   echo  $collected1;
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -110,6 +109,7 @@ $pending = 'Pending';
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $pending1=mysqli_stmt_num_rows($stmt);
+   echo  $pending1;
    }
    else{
     $prepared1='0';
