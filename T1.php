@@ -36,13 +36,14 @@ $pending = 'Pending';
    $contact = $_GET['eContact'];
    $date = $_GET['eDate'];
    
-
-   $query="SELECT * FROM deliverytoken WHERE idUsername='Pending' AND idOrderID='".$authtoken."' ";
+   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
-   $check=mysqli_num_rows($result);
+   while($row=mysqli_fetch_array($result)){
+   $orderstat[]=$row['idOrderConfirmation'];
    echo $check;
+   }
    if($check>0){
-   $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderToken='".$authtoken."' ";
+   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
