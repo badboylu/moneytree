@@ -36,6 +36,8 @@ $pending = 'Pending';
    
    $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
+   $count=mysqli_num_rows($result);
+   if($count>0){
    while($row=mysqli_fetch_array($result)){
    $check[]=$row['idOrderConfirmation'];
    }
@@ -102,6 +104,11 @@ $pending = 'Pending';
   
    }
    else{
+    $prepared1='0';
+    $collected1='0';
+    $pending1='0';
+   }
+   }else{
     $prepared1='0';
     $collected1='0';
     $pending1='0';
