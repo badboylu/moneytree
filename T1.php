@@ -48,7 +48,7 @@ $pending = 'Pending';
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-  
+   echo $order;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
@@ -70,7 +70,6 @@ $pending = 'Pending';
    }
    $ordernmb=Min($ordernm); 
   
-   
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
