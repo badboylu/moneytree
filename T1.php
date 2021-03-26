@@ -37,7 +37,7 @@ $pending = 'Pending';
    $date = $_GET['eDate'];
    
 
-   $query="SELECT * FROM oders WHERE idOrderConfirmation='Pending' OR idOrderConfirmation='Prepared' OR idOrderConfirmation='Collected' AND idOrderToken='".$authtoken."' ";
+   $query="SELECT * FROM deliverytoken WHERE idUsername='Pending' AND idOrderID='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
    $check=mysqli_num_rows($result);
    echo $check;
