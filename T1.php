@@ -129,7 +129,8 @@ $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
    mysqli_stmt_bind_result($stmt, $hash1);
    while (mysqli_stmt_fetch($stmt)) { 
     $dateplaced=$hash1;
-
+	   
+$timeplacedReal=strtotime('H:i', $timeplaced);
 }
 ?>
 <!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
@@ -296,7 +297,7 @@ Tracker
 <P id="OD2" style="display:none" ><strong> Order number:</strong>N/A</p>
 <P id="codehide1"><strong> Collection code:</strong> <?php echo $code; ?> </p>
 <P id="codehide2" style="display:none" ><strong> Collection code:</strong>N/A</p>
-<P id="timehide1"><strong> Placed:</strong> [<?php echo $dateplaced; ?>] [<?php echo(date("h:i", $timeplaced)); ?>]</p>
+<P id="timehide1"><strong> Placed:</strong> [<?php echo $dateplaced; ?>] [<?php echo $timeplacedReal; ?>]</p>
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $dateplaced; ?>] [<?php echo 'test'; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
