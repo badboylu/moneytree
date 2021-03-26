@@ -117,7 +117,6 @@ $pending = 'Pending';
    mysqli_stmt_bind_result($stmt, $hash);
    while (mysqli_stmt_fetch($stmt)) { 
     $timeplaced=$hash;
-    $timeplacedtest=date('H:i',$timeplaced);
 }
 
 $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
