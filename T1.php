@@ -37,13 +37,13 @@ $pending = 'Pending';
    $date = $_GET['eDate'];
    
 
-   $sql="SELECT * FROM oders WHERE idOrderToken=? ";
+   $sql="SELECT * FROM oders WHERE idOrderToken=? AND idOrderConfirmation=? OR idOrderConfirmation=? OR idOrderConfirmation=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:register.html?error=SQL1");
        exit();
    }
-   mysqli_stmt_bind_param($stmt,"s",$authtoken);
+   mysqli_stmt_bind_param($stmt,"sssss",$authtoken,$prepared,$pending,$collected);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $check=mysqli_stmt_num_rows($stmt);
