@@ -3,8 +3,6 @@ $servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dBUsername="fn5xp8yu9vmphif8";
 $dBPassword="j0oarzobzrwqy40b";
 $dBName="eebooc1cx2mejqru";
-$date = date('d-m-Y');
-$time = date('H:i');
 date_default_timezone_set('Africa/Johannesburg');
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
