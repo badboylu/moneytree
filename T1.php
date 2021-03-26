@@ -40,7 +40,7 @@ $pending = 'Pending';
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $check[]=$row['idOrderConfirmation'];
-   echo $check;
+   echo $row['idOrderConfirmation'];
    }
    if($check>0){
    $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
