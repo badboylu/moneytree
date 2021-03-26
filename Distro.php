@@ -294,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
+                      <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden  widget-cards">
                             <div class="bg-secondary card-body">
                                 <div class="media static-top-widget row">
