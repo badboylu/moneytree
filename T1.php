@@ -54,7 +54,7 @@ $pending = 'Pending';
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-   echo  $order;
+   echo  $authtoken;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
