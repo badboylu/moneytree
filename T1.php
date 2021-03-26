@@ -302,15 +302,15 @@ Tracker
 <P id="timehide2" style="display:none" ><strong> Placed:</strong>N/A</p>
 <P id="etahide1"><strong> Estimated time of arrival:</strong> [<?php echo $dateplaced; ?>] [<?php echo $timeChange; ?>] </p>
 <P id="etahide2" style="display:none" ><strong> Estimated time of arrival:</strong>N/A</p>
-<p id="preparehide1"><strong> Order preparation: </strong> <span style="color:orange">Pending </span> </p>
-<p id="preparehide2" style="display:none"><strong> Order preparation: </strong> <span style="color:green"> Prepared </span> </p>
-<p id="preparehide3" style="display:none"><strong> Order preparation: </strong> <span> N/A </span> </p>
-<p id="collecthide1"><strong> Order collection: </strong> <span style="color:orange"> Pending </span> </p>
-<p id="collecthide2" style="display:none" ><strong> Order collection: </strong> <span style="color:green"> Collected by driver </span> </p>
-<p id="collecthide3" style="display:none" ><strong> Order collection: </strong> <span> N/A </span> </p>
-<p id="deliveryhide1"><strong> Order delivery: </strong> <span style="color:orange"> Pending </span> </p>
-<p id="deliveryhide2" style="display:none" ><strong> Order delivery: </strong> <span style="color:green"> En-route </span> </p>
-<p id="deliveryhide3" style="display:none" ><strong> Order delivery: </strong> <span> N/A </span> </p>
+<p id="preparehide1"><strong> Preparation status: </strong> <span style="color:orange">Pending </span> </p>
+<p id="preparehide2" style="display:none"><strong> Preparation status: </strong> <span style="color:green"> Packaged </span> </p>
+<p id="preparehide3" style="display:none"><strong> Preparation status: </strong> <span> N/A </span> </p>
+<p id="collecthide1"><strong> Pick-up status: </strong> <span style="color:orange"> Pending </span> </p>
+<p id="collecthide2" style="display:none" ><strong> Pick-up status: </strong> <span style="color:green"> Collected </span> </p>
+<p id="collecthide3" style="display:none" ><strong> Pick-up status: </strong> <span> N/A </span> </p>
+<p id="deliveryhide1"><strong> Location status: </strong> <span style="color:orange"> @Distro point </span> </p>
+<p id="deliveryhide2" style="display:none" ><strong> Location status: </strong> <span style="color:green"> En-route </span> </p>
+<p id="deliveryhide3" style="display:none" ><strong> Location status: </strong> <span> N/A </span> </p>
 <br>
 	<button onclick='refreshPage()'>
 		Update
