@@ -40,10 +40,9 @@ $pending = 'Pending';
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $check[]=$row['idOrderConfirmation'];
-   echo $row['idOrderConfirmation'];
    }
    if($check='Pending'||$check='Collected'||$check='Prepared'){
-   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
+   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' AND idOrderConfirmation='".$pending."' OR idOrderConfirmation='".$collected."' OR idOrderConfirmation='".$prepared."'";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
