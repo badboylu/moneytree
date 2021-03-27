@@ -371,7 +371,7 @@
                                         <tr>
                                             <th scope="col">Products</th>
                                             <th scope="col">Quantity disposed</th>
-                                            <th scope="col">Generated donations</th>
+                                            <th scope="col">Quantity in-stock</th>
                                   
                                         </tr>
                                         </thead>
@@ -381,7 +381,7 @@
                                       
                                             <td class="font-danger">Durban Poison</td>
                                             <td class="digits"><span>700</span><span> grams</span></td>
-                                            <td class="digits"><span>R</span><span> 126000</span>  </td>
+                                            <td class="digits"><span>2500</span><span> grams</span>  </td>
                                         </tr>
                                         <tr>
                                             
