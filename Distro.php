@@ -400,68 +400,7 @@
                                     </table>
                                     <a href="order.html" class="btn btn-primary">View All Orders</a>
                                 </div>
-                                <div class="col-xl-6 xl-100">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Stock</h5>
-                                <div class="card-header-right">
-                                    <ul class="list-unstyled card-option">
-                                        <li><i class="icofont icofont-simple-left"></i></li>
-                                        <li><i class="view-html fa fa-code"></i></li>
-                                        <li><i class="icofont icofont-maximize full-card"></i></li>
-                                        <li><i class="icofont icofont-minus minimize-card"></i></li>
-                                        <li><i class="icofont icofont-refresh reload-card"></i></li>
-                                        <li><i class="icofont icofont-error close-card"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="user-status table-responsive latest-order-table">
-                                    <table class="table table-bordernone">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col">Products</th>
-                                            <th scope="col">Quantity disposed</th>
-                                            <th scope="col">Generated donations</th>
-                                  
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                     
-                                      
-                                            <td class="font-danger">Durban Poison</td>
-                                            <td class="digits"><span>700</span><span> grams</span></td>
-                                            <td class="digits"><span>R</span><span> 126000</span>  </td>
-                                        </tr>
-                                        <tr>
-                                            
-                                            <td class="digits">$90.00</td>
-                                            <td class="font-secondary">Ewallets</td>
-                                            <td class="digits">Delivered</td>
-                                        </tr>
-                                        <tr>
-                                            
-                                            <td class="digits">$240.00</td>
-                                            <td class="font-warning">Cash</td>
-                                            <td class="digits">Delivered</td>
-                                        </tr>
-                                        <tr>
-                                            
-                                            <td class="digits">$120.00</td>
-                                            <td class="font-primary">Direct Deposit</td>
-                                            <td class="digits">$6523</td>
-                                        </tr>
-                                        <tr>
-                                            
-                                            <td class="digits">$50.00</td>
-                                            <td class="font-primary">Bank Transfers</td>
-                                            <td class="digits">Delivered</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                    <a href="order.html" class="btn btn-primary">View All Orders</a>
-                                </div>
+                               
                                 <div class="code-box-copy">
                                     <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head1" title="" data-original-title="Copy"><i class="icofont icofont-copy-alt"></i></button>
                                     <pre class=" language-html"><code class=" language-html" id="example-head1">
