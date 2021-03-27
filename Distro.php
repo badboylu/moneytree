@@ -115,6 +115,17 @@
                             </li>
                         </ul>
                     </li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Stock management</span></a>
+                     <ul class="sidebar-submenu">
+                            <li><a href="#"><i class="fa fa-circle"></i>Recieve</a></li>
+                     </ul>  
+                    </li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
+                        <ul class="sidebar-submenu">
+                            <li><a href="#"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="#"><i class="fa fa-circle"></i>Monthly</a></li>
+                        </ul>
+                    </li>
                     <li><a class="sidebar-header" href="login.html"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
