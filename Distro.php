@@ -341,7 +341,7 @@
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Disposed Products</h5>
+                                <h5>Performance highlight</h5>
                                 <div class="card-header-right">
                                     <ul class="list-unstyled card-option">
                                         <li><i class="icofont icofont-simple-left"></i></li>
@@ -366,32 +366,32 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td>1</td>
-                                            
+                                     
+                                      
                                             <td class="font-danger">Durban Poison</td>
                                             <td class="digits"><span>700</span><span> grams</span></td>
                                             <td class="digits"><span>R</span><span> 126000</span>  </td>
                                         </tr>
                                         <tr>
-                                            <td>2</td>
+                                            
                                             <td class="digits">$90.00</td>
                                             <td class="font-secondary">Ewallets</td>
                                             <td class="digits">Delivered</td>
                                         </tr>
                                         <tr>
-                                            <td>3</td>
+                                            
                                             <td class="digits">$240.00</td>
                                             <td class="font-warning">Cash</td>
                                             <td class="digits">Delivered</td>
                                         </tr>
                                         <tr>
-                                            <td>4</td>
+                                            
                                             <td class="digits">$120.00</td>
                                             <td class="font-primary">Direct Deposit</td>
                                             <td class="digits">$6523</td>
                                         </tr>
                                         <tr>
-                                            <td>5</td>
+                                            
                                             <td class="digits">$50.00</td>
                                             <td class="font-primary">Bank Transfers</td>
                                             <td class="digits">Delivered</td>
