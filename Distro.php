@@ -341,7 +341,7 @@
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Latest Orders</h5>
+                                <h5>Disposed Products</h5>
                                 <div class="card-header-right">
                                     <ul class="list-unstyled card-option">
                                         <li><i class="icofont icofont-simple-left"></i></li>
@@ -358,18 +358,19 @@
                                     <table class="table table-bordernone">
                                         <thead>
                                         <tr>
-                                            <th scope="col">Order ID</th>
-                                            <th scope="col">Order Total</th>
-                                            <th scope="col">Payment Method</th>
-                                            <th scope="col">Status</th>
+                                            <th scope="col">Products</th>
+                                            <th scope="col">Quantity disposed</th>
+                                            <th scope="col">Generated donations</th>
+                                  
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td class="digits">$120.00</td>
-                                            <td class="font-danger">Bank Transfers</td>
-                                            <td class="digits">On Way</td>
+                                            
+                                            <td class="font-danger">Durban Poison</td>
+                                            <td class="digits"><span>700</span><span> grams</span></td>
+                                            <td class="digits"><span>R</span><span> 126000</span>  </td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
