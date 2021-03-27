@@ -48,8 +48,7 @@ $signup=$_GET['signup'];
                         </form>
                       
                         <div class="page-links">
-                            <br>
-                            <a href="register.php"><span style="color:green">Register new account<span></a>
+                            
                         </div>
                     </div>
                 </div>
