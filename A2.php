@@ -100,9 +100,7 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="#" class="basel-logo basel-main-logo" rel="home"> 
-<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
-</a></div></div>
+</div></div>
 <div class="right-column">
 <div >
 <div >
@@ -131,7 +129,7 @@ href="cannacaps.html" />
 <span class="left-line">
 </span>
 <h4 class="title" >
-<strong>The cannabis health and awareness NPO
+<strong>The Cannabis Health and Awareness NPO
 </strong>
 <span class="title-separator">
 <span>
@@ -155,34 +153,33 @@ A nonprofit organisation
 Who we are and what we're about
 </p>
 <p>
-The objective of the Cannabis Health and Awareness NPO is to inform and help people 
-that are residing in South Africa abide by the Cannabis for Private Purposes bill of 2020 regulations. 
+The objective of the Cannabis Health and Awareness nonprofit organisation is to inform and help people residing in South Africa abide by the new Cannabis for Private Purposes bill of 2020. 
 </p>
 <p>
-We have identified a problem that has recently arisen due to the newly gazetted bill regarding the 
-cultivation and use of cannabis or cannabis products in South Africa. 
-The problem we have identified is that as the bill is only 7 months in effect, people are unaware of 
-the allowances and restrictions that are put into effect by the bill. This has put people who are 
-cultivating the cannabis plant in jeopardy of having cannabis above the allowed limits. This then puts 
+A problem that has recently arisen due to the newly gazetted bill regarding the 
+cultivation and use of cannabis or cannabis products. As the bill is only 7 months in effect, people are unaware of 
+the allowances and/or restrictions that are in effect due to gazetted bill. 
+</p>
+<p>
+This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations. This then puts 
 them at risk of breaking the law and facing criminal charges.
 </p>
 <p>
-Our initiative shall be the mechanism that shall educate cannabis cultivators residing in South Africa as 
-well as offer a safe way for cannabis cultivators to dispose of the excess cannabis that they may have 
+Our initiative has two objects. The objective to be the mechanism that educates cannabis cultivators residing in South Africa on the Cannabis for Private Purposes bill of 2020 regulations as 
+well as the objective to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
 cultivated. 
 </p>
 <p>
-The Cannabis Health and Awareness NPO has secured an exclusive license to the canibuy.co.za domain and software, an online platform that shall enable the organisation 
+The Cannabis Health and Awareness NPO has secured an exclusive license to the canibuy.co.za domain and backend software to facilitate it's objectives. The online digital platform shall enable the organisation 
 to safely dispose excess cannabis and cannabis products for people all over South Africa.
 </p>
 <p>
-The value added benefit to the people shall be an enhanced knowledge base on the different health 
-benefits of the plant, the knowledge of the Cannabis for Private Purposes bill of 2020 regulations as 
-well as the offered service of the safe disposal of excess cannabis cultivated.
+The value added benefit to the people shall be knowledge and understanding of the Cannabis for Private Purposes bill of 2020 as 
+well as the ability to safely dispose of excess cannabis cultivated.
 </p>
 <p>
-Our vision as the cannabis health and awareness NPO is to keep people in good standing with the 
-law as well as to educate them on the different health benefits of the plant.
+Our aim as the Cannabis Health and Awareness NPO is to assist the people of South Africa in keeping up good standing with the 
+law by educate them and offering our disposal services.
 </p>
 </html>
 
