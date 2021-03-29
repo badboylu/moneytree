@@ -156,11 +156,23 @@ Who we are and what we're about
 The Cannabis Health and Awareness NPO
 </p>
 <p>
-Donate to the Cannabis Health and Awareness non-profit organisation and join the revolution that is making history. On the 1st of September 2020, the South African parliament passed the Cannabis for personal purposes bill which changed the way the law view cannabis as an illegal drug to a medicinal plant. This bill outlined they way cannabis was to be cultivated, used and trafficked.
-</p>
-<p>
-As the bill is only 7 months in effect to this date, it is a relatively new bill and majority of citizens have little to no comprehensive knowledge about the bill and it's regulations on cannabis. 
-</p>
+The objective of the Cannabis Health and Awareness NPO to be formed is to inform and help people 
+that are residing in South Africa abide by the Cannabis for Private Purposes bill of 2020 regulations. 
+We have identified a problem that has recently arisen due to the newly gazetted bill regarding the 
+cultivation and use of cannabis or cannabis products in South Africa. 
+The problem we have identified is that as the bill is only 7 months in effect, people are unaware of 
+the allowances and restrictions that are put into effect by the bill. This has put people who are 
+cultivating the cannabis plant in jeopardy of having cannabis above the allowed limits. This then puts 
+them at risk of breaking the law and facing criminal charges.
+Our NPO shall be the mechanism that shall educate cannabis cultivators residing in South Africa as 
+well as offer a safe way for cannabis cultivators to dispose of the excess cannabis that they may have 
+cultivated. The NPO has secured an exclusive license to an online platform that shall enable the NPO 
+to safely dispose excess cannabis and cannabis products for people all over South Africa.
+The value added benefit to the people shall be an enhanced knowledge base on the different health 
+benefits of the plant, the knowledge of the Cannabis for Private Purposes bill of 2020 regulations as 
+well as the offered service of the safe disposal of excess cannabis cultivated.
+Our vision as the cannabis health and awareness NPO is to keep people in good standing with the 
+law as well as to educate them on the different health benefits of the plant.</p>
 </html>
 
 
