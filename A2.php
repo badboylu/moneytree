@@ -8,7 +8,7 @@
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Legal</title>
+<title>About us</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -131,8 +131,7 @@ href="cannacaps.html" />
 <span class="left-line">
 </span>
 <h4 class="title" >
-<strong>
-Legal
+<strong>The cannabis health and awareness NPO
 </strong>
 <span class="title-separator">
 <span>
@@ -143,12 +142,11 @@ Legal
 </span>
 </div>
 <span class="title-after_title">
-Terms and Conditions
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="">
-Legal
+A nonprofit organisation
 </a><span class="breadcrumb-last"> 
-Terms and Conditions
+Who we are and what we're about
 </span>
 </nav>
 </div>
