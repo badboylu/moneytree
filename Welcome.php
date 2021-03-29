@@ -26,7 +26,7 @@ $token= bin2hex(random_bytes(16));
                     <div class="form-items">
                         <h3>Welcome to <span style="color:orange;">canibuy</span></h3>.             
                         <p style="color:green;" >Cannabis Disposal Agency</p>
-                        <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="#"><span>about us<span></a>]</small></p>
+                        <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="A2.php"><span>about us<span></a>]</small></p>
                         <p><small>How it works [<a href="#"><span>info<span></a>]</small></p>
                         <p><small>Backend users [<a href="Signin.php"><span>click here<span></a>]</small></p>
                         <p><small>To enter you must acknowledge the following:</small></p>
