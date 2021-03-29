@@ -153,33 +153,32 @@ A nonprofit organisation
 Who we are and what we're about
 </p>
 <p>
-The objective of the Cannabis Health and Awareness nonprofit organisation is to inform and help people residing in South Africa abide by the new Cannabis for Private Purposes bill of 2020. 
+The Cannabis Health and Awareness nonprofit organisation was initialised to assist people residing in South Africa abide by the new Cannabis for Private Purposes Bill of 2020. 
 </p>
 <p>
-A problem that has recently arisen due to the newly gazetted bill regarding the 
-cultivation and use of cannabis or cannabis products. As the bill is only 7 months in effect, people are unaware of 
-the allowances and/or restrictions that are in effect due to gazetted bill. 
+A problem has recently arisen due to the newly gazetted bill regarding the 
+cultivation and use of cannabis or cannabis products. As the bill is relatively new in effect, people are unaware of 
+the allowances and/or restrictions that they are obligated to adhere to due to the newly gazetted bill. 
 </p>
 <p>
-This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations. This then puts 
-them at risk of breaking the law and facing criminal charges.
+This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations. Violating the gazetted Bill's regulations puts 
+them at risk of facing criminal charges.
 </p>
 <p>
-Our initiative has two objects. The objective to be the mechanism that educates cannabis cultivators residing in South Africa on the Cannabis for Private Purposes bill of 2020 regulations as 
+Our initiative has two objects. The objective to be the mechanism that educates cannabis cultivators residing in South Africa on the Cannabis for Private Purposes Bill of 2020 as 
 well as the objective to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
 cultivated. 
 </p>
-<p>
-The Cannabis Health and Awareness NPO has secured an exclusive license to the canibuy.co.za domain and backend software to facilitate it's objectives. The online digital platform shall enable the organisation 
+<p>The organisation has been fortunate to have successfully secured an exclusive license to the canibuy.co.za domain and backend software to facilitate it's objectives. The online digital platform shall enable the organisation 
 to safely dispose excess cannabis and cannabis products for people all over South Africa.
 </p>
 <p>
-The value added benefit to the people shall be knowledge and understanding of the Cannabis for Private Purposes bill of 2020 as 
-well as the ability to safely dispose of excess cannabis cultivated.
+The value added benefit to the people shall be knowledge and understanding of the Cannabis for Private Purposes Bill of 2020 as 
+well as the given ability to safely dispose of excess cannabis cultivated.
 </p>
 <p>
 Our aim as the Cannabis Health and Awareness NPO is to assist the people of South Africa in keeping up good standing with the 
-law by educate them and offering our disposal services.
+law by educating and offering our disposal services to the people.
 </p>
 </html>
 
