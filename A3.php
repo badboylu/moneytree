@@ -157,55 +157,55 @@ As the Cannabis Health and Awareness NPO with the objective to assist people res
 How does the canibuy platform operate?
 </strong></p>
 <p>
-1. Donations
+Step 1. Donations
 </p>
 <p>
 The Cannabis Health and Awareness NPO has partnered with an organisation that assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products and seek to donate the excess to the NPO.
 </p>
 <p>
-2. Storage
+Step 2. Storage
 </p>
 <p>
-The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to the Cannabis Health and Awareness NPO's disposal agents for disposing.
+The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to the NPO's disposal agents for disposing.
 </p>
 <p>
-3. Recruitment 
+Step 3. Recruitment 
 </p>
 <p>
-When a person accepts the Cannabis Health and Awareness NPO terms and conditions, they join the NPO as disposal agents with a job description to safely dispose of any cannabis material or products for the NPO.
+When a person accepts the NPO's terms and conditions on the welcome page, they join the NPO as a disposal agent mandated to safely dispose of any cannabis material or products for the NPO.
 </p>
 <p>
-4. Indication
+Step 4. Indication
 </p>
 <p>
-Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposal services. Indication of readiness to dispose may be done through the canibuy platform or by an email sent to the NPO indicating readiness to dispose.
+Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposal services. Indication of readiness to dispose may be done through the canibuy platform or by an email.
 </p>
 <p>
-5. Notification
+Step 5. Notification
 </p>
 <p>
-Once the canibuy system has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
+Once the canibuy algorithm has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
 </p>
 <p>
-6. Arrival
+Step 6. Arrival
 </p>
 <p>
 On the arrival of the delivery agent, the disposal agent shall be notified by a caller agent that the package has arrived at the requested location.
 </p>
 <p>
-7. Delivery 
+Step 7. Delivery 
 </p>
 <p>
 To receive the package from the delivery agent, the disposal agent is required to confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
 </p>
 <p>
-8. Disposal
+Step 8. Disposal
 </p>
 <p>
-After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions.
+After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions agreed upon.
 </p>
 <p>
-9. Fund raising
+Step 9. Fund raising
 </p>
 <p>
 The NPO is raising funds for the growth of the NPO through donations that disposal agents may opt to make to the NPO. Any transaction done through the canibuy platform shall be taken as a donation made to the Cannabis Health and Awareness NPO. 
