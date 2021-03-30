@@ -157,52 +157,58 @@ As the Cannabis Health and Awareness NPO with the objective to assist people res
 How does the canibuy platform operate?
 </strong></p>
 <p>
-1. Donated cannabis and cannabis products to the NPO
+1. Donations
 </p>
 <p>
-The Cannabis Health and Awareness NPO has partnered with an organisation that assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products.
+The Cannabis Health and Awareness NPO has partnered with an organisation that will assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products and seek to donate the excess to the NPO.
 </p>
 <p>
-2. Storage of donated cannabis and cannabis products
+2. Storage
 </p>
 <p>
 The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to the Cannabis Health and Awareness NPO's disposal agents for disposing.
 </p>
 <p>
-3. Joining the Cannabis Health and Awareness NPO as a disposal agent
+3. Recruitment 
 </p>
 <p>
 When a person accepts the Cannabis Health and Awareness NPO terms and conditions, they join the NPO as disposal agents with a job description to safely dispose of any cannabis material or products for the NPO.
 </p>
 <p>
-4. Giving notice to the NPO
+4. Indication
 </p>
 <p>
-Disposal agents must give notice to the NPO to signal readiness to execute the obligated disposing services. This may be done through the canibuy platform or by email.
+Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposing services. This may be done through the canibuy platform or by email.
 </p>
 <p>
-5. Notification of confirmation
+5. Notification
 </p>
 <p>
-Once the canibuy system has verified the notification from agent, the agent shall be presented with details of delivery such as delivery collection code's and estimated times of arrival times to indicate to the agent when they will recieve the package of material that must be disposed of.
+Once the canibuy system has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve the package.
 </p>
 <p>
-6. Arrival of package
+6. Arrival
 </p>
 <p>
-On the arrival of the delivery agent, disposal agent shall notified by caller agent that the package has arrived at the requested location.
+On the arrival of the delivery agent, the disposal agent shall be notified by a caller agent that the package has arrived at the requested location.
 </p>
 <p>
-7. Delivery of package
+7. Delivery 
 </p>
 <p>
-To receive the package from the delivery agent, disposal agent must confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
+To receive the package from the delivery agent, the disposal agent must confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
 </p>
 <p>
-8. Disposal of the material delivered
+8. Disposal
 </p>
 <p>
-After delivery of material from the NPO, it is the disposal agent duty to execute the disposal of the material as defined in the terms and conditions.
+After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions.
+</p>
+<p>
+8. Fund raising
+</p>
+<p>
+The NPO is raising funds for the growth of the NPO through donations that disposal agents may opt to do. Any transaction done through the canibuy platform shall be a donation made to the Cannabis Health and Awareness NPO. 
 </p>
 <p>
 
