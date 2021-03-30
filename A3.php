@@ -187,6 +187,24 @@ Disposal agents must give notice to the NPO to signal readiness to execute the o
 Once the canibuy system has verified the notification from agent, the agent shall be presented with details of delivery such as delivery collection code's and estimated times of arrival times to indicate to the agent when they will recieve the package of material that must be disposed of.
 </p>
 <p>
+6. Arrival of package
+</p>
+<p>
+On the arrival of the delivery agent, disposal agent shall notified by caller agent that the package has arrived at the requested location.
+</p>
+<p>
+7. Delivery of package
+</p>
+<p>
+To receive the package from the delivery agent, disposal agent must confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
+</p>
+<p>
+8. Disposal of the material delivered
+</p>
+<p>
+After delivery of material from the NPO, it is the disposal agent duty to execute the disposal of the material as defined in the terms and conditions.
+</p>
+<p>
 
 </p>
 </div></div></div></div></div></div></div></article></div></div></div></div>
