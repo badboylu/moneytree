@@ -179,7 +179,7 @@ well as the attained ability to safely dispose of excess cannabis cultivated.
 Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating the law by educating the people and offering our key disposal services.
 </p>
 <p>
-The Cannabis for Private Purposes Bill of 2020 [<a href="#.php"><span>Download</span></a>]
+The Cannabis for Private Purposes Bill of 2020 [<a href="https://www.parliament.gov.za/storage/app/media/Bills/2020/B19_2020_Cannabis_for_Private_Purposes_Bill/B19_2020_Cannabis_for_Private_Purposes_Bill.pdf"><span>Download</span></a>]
 </p>
 </html>
 
