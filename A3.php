@@ -147,15 +147,15 @@ href="cannacaps.html" />
 </div>
 </div>
 <html>
-<p>
+<p><strong>
 What is the purpose of the canibuy platform?
-</p>
+</strong></p>
 <p>
 As the Cannabis Health and Awareness NPO with the objective to assist people residing in South Africa to abide by the new Cannabis for Private Purposes Bill of 2020, we use the canibuy platform to spread awareness, dispose cannabis and raise funds for the organisation. 
 </p>
-<p>
+<p><strong>
 How does the canibuy platform operate?
-</p>
+</strong></p>
 <p>
 1. Donated cannabis and cannabis products to the NPO
 </p>
