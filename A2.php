@@ -165,7 +165,7 @@ This has put people who are cultivating the cannabis plant at risk of having can
 them at risk of facing criminal charges.
 </p>
 <p>
-Our initiative has two main objects. The first objective is to be the mechanism that educates the people on the Cannabis for Private Purposes Bill of 2020 and the second objective is to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
+Our initiative has two main objectives. The first objective is to be the mechanism that educates the people on the Cannabis for Private Purposes Bill of 2020 and the second objective is to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
 cultivated. 
 </p>
 <p>The organisation has been fortunate to have successfully secured a long term and exclusive license to the canibuy.co.za domain and it's backend software to facilitate the organisation's objectives. The online digital platform enables the organisation 
