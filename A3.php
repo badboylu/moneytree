@@ -174,6 +174,12 @@ The gathered cannabis and products to be disposed of are stored at distribution 
 <p>
 When a person accepts the Cannabis Health and Awareness NPO terms and conditions, they join the NPO as disposal agents with a job description to safely dispose of any cannabis material or products for the NPO.
 </p>
+<p>
+4. Giving notice to the NPO
+</p>
+<p>
+Disposal agents must give notice to the NPO to signal readiness for disposing. This may be done through the canibuy platform or by email.
+</p>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
