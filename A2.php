@@ -165,18 +165,18 @@ This has put people who are cultivating the cannabis plant at risk of having can
 them at risk of facing criminal charges.
 </p>
 <p>
-Our initiative has two main objects. The first objective is to be the mechanism that educates cannabis cultivators on the Cannabis for Private Purposes Bill of 2020 and the second objective us to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
+Our initiative has two main objects. The first objective is to be the mechanism that educates the people on the Cannabis for Private Purposes Bill of 2020 and the second objective is to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
 cultivated. 
 </p>
 <p>The organisation has been fortunate to have successfully secured a long term and exclusive license to the canibuy.co.za domain and it's backend software to facilitate the organisation's objectives. The online digital platform enables the organisation 
-to safely dispose excess cannabis and cannabis products for the people.
+to safely dispose excess cannabis and cannabis products for the people efficiently.
 </p>
 <p>
 The value added benefit to the people is the attained knowledge and understanding of the Cannabis for Private Purposes Bill of 2020 as 
 well as the attained ability to safely dispose of excess cannabis cultivated.
 </p>
 <p>
-Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating the law by educating the people and offering a key disposal service to the people.
+Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating the law by educating the people and offering our key disposal services.
 </p>
 </html>
 
