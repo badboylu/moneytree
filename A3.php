@@ -178,13 +178,13 @@ When a person accepts the Cannabis Health and Awareness NPO terms and conditions
 4. Indication
 </p>
 <p>
-Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposing services. This may be done through the canibuy platform or by email.
+Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposal services. Indication of readiness to dispose may be done through the canibuy platform or by an email sent to the NPO indicating readiness to dispose.
 </p>
 <p>
 5. Notification
 </p>
 <p>
-Once the canibuy system has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve the package.
+Once the canibuy system has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
 </p>
 <p>
 6. Arrival
@@ -196,7 +196,7 @@ On the arrival of the delivery agent, the disposal agent shall be notified by a 
 7. Delivery 
 </p>
 <p>
-To receive the package from the delivery agent, the disposal agent must confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
+To receive the package from the delivery agent, the disposal agent is required to confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
 </p>
 <p>
 8. Disposal
@@ -205,10 +205,10 @@ To receive the package from the delivery agent, the disposal agent must confirm 
 After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions.
 </p>
 <p>
-8. Fund raising
+9. Fund raising
 </p>
 <p>
-The NPO is raising funds for the growth of the NPO through donations that disposal agents may opt to do. Any transaction done through the canibuy platform shall be a donation made to the Cannabis Health and Awareness NPO. 
+The NPO is raising funds for the growth of the NPO through donations that disposal agents may opt to make to the NPO. Any transaction done through the canibuy platform shall be taken as a donation made to the Cannabis Health and Awareness NPO. 
 </p>
 <p>
 
