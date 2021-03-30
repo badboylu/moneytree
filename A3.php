@@ -162,8 +162,12 @@ How does the canibuy platform operate?
 <p>
 The Cannabis Health and Awareness NPO has partnered with an organisation that assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products.
 </p>
-
-
+<p>
+2. Storage of donated cannabis and cannabis products
+</p>
+<p>
+The gathered cannabis and products to be disposed of are stored at distribution points across designated area in South Africa to be distributed to canibuy disposal agents for disposing.
+</p>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
 <footer class="footer-container color-scheme-light">
