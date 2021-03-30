@@ -129,8 +129,7 @@ href="cannacaps.html" />
 <span class="left-line">
 </span>
 <h4 class="title" >
-<strong>The Cannabis Health and Awareness NPO
-</strong>
+<strong>How we operate</strong>
 <span class="title-separator">
 <span>
 </span>
@@ -142,7 +141,6 @@ href="cannacaps.html" />
 <span class="title-after_title">
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="">
-A nonprofit organisation
 </a><span class="breadcrumb-last"> 
 </span>
 </nav>
@@ -150,38 +148,20 @@ A nonprofit organisation
 </div>
 <html>
 <p>
-Who we are and what we're about
+What is the purpose of the canibuy platform?
 </p>
 <p>
-The Cannabis Health and Awareness nonprofit organisation was initialised to assist people residing in South Africa abide by the new Cannabis for Private Purposes Bill of 2020. 
+As the Cannabis Health and Awareness NPO with the objective to assist people residing in South Africa to abide by the new Cannabis for Private Purposes Bill of 2020, we use the canibuy platform to spread awareness, dispose cannabis and raise funds for the organisation. 
 </p>
 <p>
-A problem has recently arisen due to the newly gazetted Bill regarding the 
-cultivation and use of cannabis or cannabis products. As the Bill is relatively new in effect, people are unaware of 
-the allowances and/or restrictions that they are obligated to adhere to. 
+How does the canibuy platform operate?
 </p>
 <p>
-This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations according to section 1 to 4 in the Cannabis for Private Purposes Bill of 2020. Violating the gazetted Bill's regulations puts 
-them at risk of facing criminal charges.
+1. Donated cannabis and cannabis products to the NPO
 </p>
 <p>
-Our initiative has two main objects. The first objective is to be the mechanism that educates the people on the Cannabis for Private Purposes Bill of 2020 and the second objective is to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
-cultivated. 
+The Cannabis Health and Awareness NPO has partnered with an organisation that assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products.
 </p>
-<p>The organisation has been fortunate to have successfully secured a long term and exclusive license to the canibuy.co.za domain and it's backend software to facilitate the organisation's objectives. The online digital platform enables the organisation 
-to safely dispose excess cannabis and cannabis products for the people efficiently.
-</p>
-<p>
-The value added benefit to the people is the attained knowledge and understanding of the Cannabis for Private Purposes Bill of 2020 as 
-well as the attained ability to safely dispose of excess cannabis cultivated.
-</p>
-<p>
-Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating the law by educating the people and offering our key disposal services.
-</p>
-<p>
-The Cannabis for Private Purposes Bill of 2020 [<a href="https://www.parliament.gov.za/storage/app/media/Bills/2020/B19_2020_Cannabis_for_Private_Purposes_Bill/B19_2020_Cannabis_for_Private_Purposes_Bill.pdf"><span>Download</span></a>]
-</p>
-</html>
 
 
 </div></div></div></div></div></div></div></article></div></div></div></div>
