@@ -161,22 +161,22 @@ cultivation and use of cannabis or cannabis products. As the Bill is relatively 
 the allowances and/or restrictions that they are obligated to adhere to. 
 </p>
 <p>
-This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations. Violating the gazetted Bill's regulations puts 
+This has put people who are cultivating the cannabis plant at risk of having cannabis or cannabis products above the allowed limitations according to section 1 to 4 in the Cannabis for Private Purposes Bill of 2020. Violating the gazetted Bill's regulations puts 
 them at risk of facing criminal charges.
 </p>
 <p>
 Our initiative has two main objects. The first objective is to be the mechanism that educates cannabis cultivators on the Cannabis for Private Purposes Bill of 2020 and the second objective us to offer a safe way for cannabis cultivators to dispose of excess cannabis that they may have 
 cultivated. 
 </p>
-<p>The organisation has been fortunate to have successfully secured a long term exclusive license to the canibuy.co.za domain and backend software to facilitate it's objectives. The online digital platform shall enable the organisation 
+<p>The organisation has been fortunate to have successfully secured a long term and exclusive license to the canibuy.co.za domain and it's backend software to facilitate the organisation's objectives. The online digital platform enables the organisation 
 to safely dispose excess cannabis and cannabis products for the people.
 </p>
 <p>
-The value added benefit to the people is knowledge and understanding of the Cannabis for Private Purposes Bill of 2020 as 
+The value added benefit to the people is the attained knowledge and understanding of the Cannabis for Private Purposes Bill of 2020 as 
 well as the attained ability to safely dispose of excess cannabis cultivated.
 </p>
 <p>
-Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating of the law by educating and offering a disposal services to the people.
+Our aim as the Cannabis Health and Awareness NPO is to prevent the people of South Africa from involuntary violating the law by educating the people and offering a key disposal service to the people.
 </p>
 </html>
 
