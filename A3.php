@@ -178,7 +178,16 @@ When a person accepts the Cannabis Health and Awareness NPO terms and conditions
 4. Giving notice to the NPO
 </p>
 <p>
-Disposal agents must give notice to the NPO to signal readiness for disposing. This may be done through the canibuy platform or by email.
+Disposal agents must give notice to the NPO to signal readiness to execute the obligated disposing services. This may be done through the canibuy platform or by email.
+</p>
+<p>
+5. Notification of confirmation
+</p>
+<p>
+Once the canibuy system has verified the notification from agent, the agent shall be presented with details of delivery such as delivery collection code's and estimated times of arrival times to indicate to the agent when they will recieve the package of material that must be disposed of.
+</p>
+<p>
+
 </p>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
