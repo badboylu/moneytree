@@ -160,7 +160,7 @@ How does the canibuy platform operate?
 1. Donations
 </p>
 <p>
-The Cannabis Health and Awareness NPO has partnered with an organisation that will assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products and seek to donate the excess to the NPO.
+The Cannabis Health and Awareness NPO has partnered with an organisation that assists the NPO in gathering excess cannabis and cannabis products from people that have involuntarily cultivated excessive amounts of cannabis or produced an excessive amount of cannabis products and seek to donate the excess to the NPO.
 </p>
 <p>
 2. Storage
