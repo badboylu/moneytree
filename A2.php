@@ -192,11 +192,11 @@ Our aim as the Cannabis Health and Awareness NPO is to prevent the people of Sou
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by 
+2021 Created by 
 <span>
 Kahrent Technology
 </span>
-Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">(here)</a>. 
+Africa. 
 </div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
