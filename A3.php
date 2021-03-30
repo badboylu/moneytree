@@ -166,7 +166,13 @@ The Cannabis Health and Awareness NPO has partnered with an organisation that as
 2. Storage of donated cannabis and cannabis products
 </p>
 <p>
-The gathered cannabis and products to be disposed of are stored at distribution points across designated area in South Africa to be distributed to canibuy disposal agents for disposing.
+The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to the Cannabis Health and Awareness NPO's disposal agents for disposing.
+</p>
+<p>
+3. Joining the Cannabis Health and Awareness NPO as a disposal agent
+</p>
+<p>
+When a person accepts the Cannabis Health and Awareness NPO terms and conditions, they join the NPO as disposal agents with a job description to safely dispose of any cannabis material or products for the NPO.
 </p>
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
