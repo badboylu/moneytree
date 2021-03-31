@@ -178,13 +178,13 @@ When a person accepts the NPO's terms and conditions on the welcome page, they j
 Step 4. Indication
 </p>
 <p>
-Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposal services. Indication of readiness to dispose may be done through the canibuy platform or by an email.
+Disposal agents must indicate to the NPO to signal readiness to execute the obligated disposal services. Indication of readiness to dispose may be done through the canibuy platform or by email.
 </p>
 <p>
 Step 5. Notification
 </p>
 <p>
-Once the canibuy algorithm has verified the indication from the disposal agent, the disposal agent shall be presented with details of delivery details such as a collection code and a estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
+Once the canibuy algorithm has verified the indication from the disposal agent, the disposal agent shall be presented with delivery details such as a collection code and an estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
 </p>
 <p>
 Step 6. Arrival
@@ -196,13 +196,13 @@ On the arrival of the delivery agent, the disposal agent shall be notified by a 
 Step 7. Delivery 
 </p>
 <p>
-To receive the package from the delivery agent, the disposal agent is required to confirm their identity by giving the delivery agent the collection code which is provided in the notification of confirmation email sent and on the canibuy platform user interface.
+To receive the package from the delivery agent, the disposal agent is required to confirm their identity by giving the delivery agent the collection code which is provided in the confirmation email sent and may be seen on the canibuy platform user interface.
 </p>
 <p>
 Step 8. Disposal
 </p>
 <p>
-After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions agreed upon.
+After receiving delivery of material from the NPO, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions.
 </p>
 <p>
 Step 9. Fund raising
