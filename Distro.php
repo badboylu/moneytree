@@ -25,7 +25,6 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    if(!$resultCheck){
    $resultCheck=0;
    }
-?>
 $sql="SELECT idPrepper FROM prepperuser WHERE idLocation=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -39,6 +38,8 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    if(!$resultCheckPrep){
    $resultCheckPrep=0;
    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
