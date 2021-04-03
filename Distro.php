@@ -26,6 +26,19 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    $resultCheck=0;
    }
 ?>
+$sql="SELECT idPrepper FROM prepperuser WHERE idLocation=?";
+$stmt=mysqli_stmt_init($conn);
+  if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:RP2.php?error=SQL1");
+       exit();
+}
+mysqli_stmt_bind_param($stmt,"s",$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $resultCheckPrep=mysqli_stmt_num_rows($stmt);
+   if(!$resultCheckPrep){
+   $resultCheckPrep=0;
+   }
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -298,8 +311,8 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Active Preparation Agents</span>
-                                        <h3 class="mb-0"><span class="counter">45631</span><small> This Month</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Preparation Agents</span>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheckPrep; ?></span><small> Active</small></h3>
                                     </div>
                                 </div>
                             </div>
