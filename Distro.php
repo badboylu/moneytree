@@ -245,7 +245,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3>Dashboard
-                                    <small>Canibuy Admin panel Testing:<?php echo $locae ?></small>
+                                    <small>Distro panel</small>
                                 <p></p>
                                 </h3>
                             </div>
