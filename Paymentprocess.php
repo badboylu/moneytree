@@ -41,6 +41,8 @@ $total = $_GET['totalamount'];
 
 if($suburb='Menlyn'){
 $username='Gauteng-Pretoria-PretoriaEast';
+}else{
+$username='';
 }
 
 $sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode,idUsername) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
