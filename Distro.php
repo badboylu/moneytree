@@ -313,7 +313,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Driver Agents</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheck; ?></span><small>Active</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheck; ?></span><small> Active</small></h3>
                                     </div>
                                 </div>
                             </div>
