@@ -38,6 +38,20 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    if(!$resultCheckPrep){
    $resultCheckPrep=0;
    }
+
+$sql='SELECT * FROM oders WHERE idOrderConfirmation='Pending' AND idUsername=? ';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQL1");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"s",$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $pending=mysqli_stmt_num_rows($stmt);
+   if(!$pending){
+   $pending=0;
+   }
 ?>
 
 <!DOCTYPE html>
@@ -272,7 +286,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Pending orders</span>
-                                        <h3 class="mb-0"><span class="counter">9856</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $pending; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
