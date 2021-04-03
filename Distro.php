@@ -436,86 +436,38 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                         </tr>
                                         <tr>
                                             
-                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="font-danger">Dabcapsules (light)</td>
                                             <td class="digits"><span>40</span><span> batch/es</span></td>
                                             <td class="digits"><span>140</span><span> batch/es</span>  </td>
                                             <td class="digits"><span>Mid</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="font-danger">Dabcapsules (strong)</td>
                                             <td class="digits"><span>40</span><span> batch/es</span></td>
                                             <td class="digits"><span>140</span><span> batch/es</span>  </td>
                                             <td class="digits"><span>Mid</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="font-danger">Dabcapsules Strong</td>
-                                            <td class="digits"><span>40</span><span> batch/es</span></td>
-                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
-                                            <td class="digits"><span>Mid</span></td>
+                                            <td class="font-danger">Raw Rizzla</td>
+                                            <td class="digits"><span>300</span><span> pack/s</span></td>
+                                            <td class="digits"><span>1200</span><span> pack/s</span>  </td>
+                                            <td class="digits"><span>good</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="font-danger">Dabcapsules Strong</td>
-                                            <td class="digits"><span>40</span><span> batch/es</span></td>
-                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
-                                            <td class="digits"><span>Mid</span></td>
+                                            <td class="font-danger">Pre-Rolls</td>
+                                            <td class="digits"><span>430</span><span> Joints</span></td>
+                                            <td class="digits"><span>3000</span><span> Joints</span>  </td>
+                                            <td class="digits"><span>Good</span></td>
                                         </tr>
                                         </tbody>
                                     </table>
                                     
                                 </div>
                                
-                                <div class="code-box-copy">
-                                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head1" title="" data-original-title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                                    <pre class=" language-html"><code class=" language-html" id="example-head1">
-&lt;div class="user-status table-responsive latest-order-table"&gt;
-    &lt;table class="table table-bordernone"&gt;
-        &lt;thead&gt;
-            &lt;tr&gt;
-                &lt;th scope="col"&gt;Order ID&lt;/th&gt;
-                &lt;th scope="col"&gt;Order Total&lt;/th&gt;
-                &lt;th scope="col"&gt;Payment Method&lt;/th&gt;
-                &lt;th scope="col"&gt;Status&lt;/th&gt;
-            &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-            &lt;tr&gt;
-                &lt;td&gt;1&lt;/td&gt;
-                &lt;td class="digits"&gt;$120.00&lt;/td&gt;
-                &lt;td class="font-secondary"&gt;Bank Transfers&lt;/td&gt;
-                &lt;td class="digits"&gt;Delivered&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt;2&lt;/td&gt;
-                &lt;td class="digits"&gt;$90.00&lt;/td&gt;
-                &lt;td class="font-secondary"&gt;Ewallets&lt;/td&gt;
-                &lt;td class="digits"&gt;Delivered&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt;3&lt;/td&gt;
-                &lt;td class="digits"&gt;$240.00&lt;/td&gt;
-                &lt;td class="font-secondary"&gt;Cash&lt;/td&gt;
-                &lt;td class="digits"&gt;Delivered&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt;4&lt;/td&gt;
-                &lt;td class="digits"&gt;$120.00&lt;/td&gt;
-                &lt;td class="font-primary"&gt;Direct Deposit&lt;/td&gt;
-                &lt;td class="digits"&gt;Delivered&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt;5&lt;/td&gt;
-                &lt;td class="digits"&gt;$50.00&lt;/td&gt;
-                &lt;td class="font-primary"&gt;Bank Transfers&lt;/td&gt;
-                &lt;td class="digits"&gt;Delivered&lt;/td&gt;
-            &lt;/tr&gt;
-        &lt;/tbody&gt;
-    &lt;/table&gt;
-&lt;/div&gt;
-                                    </code></pre>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
