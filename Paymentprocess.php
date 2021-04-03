@@ -45,7 +45,7 @@ $username='Gauteng-Pretoria-PretoriaEast';
 $username='';
 }
 
-$sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode,idUsername) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+$sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode,idOrderUsername) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
