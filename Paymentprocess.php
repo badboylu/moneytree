@@ -39,14 +39,18 @@ $unitnumber = $_GET['Unit-number'];
 $contactnumber = $_GET['Contact-number'];
 $total = $_GET['totalamount'];
 
-$sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+if($suburb='Menlyn'){
+$username='Gauteng-';
+}
+
+$sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode,idUsername) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 $stmt=mysqli_stmt_init($conn);
 
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=sqlerror111");
        exit();
 }
-     mysqli_stmt_bind_param($stmt,"iiiiiiiissssiss",$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$timeChange,$date,$total,$custitoken,$preppertoken);
+     mysqli_stmt_bind_param($stmt,"iiiiiiiissssisss",$dp,$cc,$oc,$bw,$pr,$nl,$cces,$pe,$confirmedpayment1,$authtoken,$timeChange,$date,$total,$custitoken,$preppertoken,$username);
      mysqli_stmt_execute($stmt);
      mysqli_stmt_close($stmt);
 
