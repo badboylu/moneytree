@@ -40,7 +40,7 @@ $contactnumber = $_GET['Contact-number'];
 $total = $_GET['totalamount'];
 
 if($suburb='Menlyn'){
-$username='Gauteng-';
+$username='Gauteng-Pretoria-PretoriaEast';
 }
 
 $sql="INSERT INTO oders (idOrderDPgrams,idOrderCCbatches,idOrderOCgrams,idOrderBWgrams, idOrderPRjays, idOrderNLgrams, idOrderCCESbatches, idOrderPEgrams, idOrderConfirmation, idOrderToken, idOrderTime, idOrderDate,idOrderTotal,idOrderCustiCode,idOrderCode,idUsername) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
