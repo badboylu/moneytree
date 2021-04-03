@@ -377,6 +377,20 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-3 col-md-6 xl-50">
+                        <div class="card o-hidden widget-cards">
+                            <div class="bg-primary card-body">
+                                <div class="media static-top-widget row">
+                                    <div class="icons-widgets col-4">
+                                        <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
+                                    </div>
+                                    <div class="media-body col-8"><span class="m-0">Late deliveries</span>
+                                        <h3 class="mb-0"><span class="counter">893</span><small> Today</small></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
