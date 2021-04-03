@@ -400,6 +400,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                             <th scope="col">Products</th>
                                             <th scope="col">Quantity disposed</th>
                                             <th scope="col">Quantity in-stock</th>
+                                            <th scope="col">Stock status</th>
                                   
                                         </tr>
                                         </thead>
@@ -410,34 +411,60 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
                                             <td class="font-danger">Durban Poison</td>
                                             <td class="digits"><span>700</span><span> grams</span></td>
                                             <td class="digits"><span>2500</span><span> grams</span>  </td>
+                                            <td class="digits"><span>High</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="digits">$90.00</td>
-                                            <td class="font-secondary">Ewallets</td>
-                                            <td class="digits">Delivered</td>
+                                            <td class="font-danger">California Orange</td>
+                                            <td class="digits"><span>2700</span><span> grams</span></td>
+                                            <td class="digits"><span>500</span><span> grams</span>  </td>
+                                            <td class="digits"><span>Low</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="digits">$240.00</td>
-                                            <td class="font-warning">Cash</td>
-                                            <td class="digits">Delivered</td>
+                                            <td class="font-danger">Northern Lights</td>
+                                            <td class="digits"><span>540</span><span> grams</span></td>
+                                            <td class="digits"><span>1000</span><span> grams</span>  </td>
+                                            <td class="digits"><span>Mid</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="digits">$120.00</td>
-                                            <td class="font-primary">Direct Deposit</td>
-                                            <td class="digits">$6523</td>
+                                            <td class="font-danger">Pineapple Express</td>
+                                            <td class="digits"><span>4500</span><span> grams</span></td>
+                                            <td class="digits"><span>10000</span><span> grams</span>  </td>
+                                            <td class="digits"><span>Good</span></td>
                                         </tr>
                                         <tr>
                                             
-                                            <td class="digits">$50.00</td>
-                                            <td class="font-primary">Bank Transfers</td>
-                                            <td class="digits">Delivered</td>
+                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="digits"><span>40</span><span> batch/es</span></td>
+                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
+                                            <td class="digits"><span>Mid</span></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="digits"><span>40</span><span> batch/es</span></td>
+                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
+                                            <td class="digits"><span>Mid</span></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="digits"><span>40</span><span> batch/es</span></td>
+                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
+                                            <td class="digits"><span>Mid</span></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td class="font-danger">Dabcapsules Strong</td>
+                                            <td class="digits"><span>40</span><span> batch/es</span></td>
+                                            <td class="digits"><span>140</span><span> batch/es</span>  </td>
+                                            <td class="digits"><span>Mid</span></td>
                                         </tr>
                                         </tbody>
                                     </table>
-                                    <a href="order.html" class="btn btn-primary">View All Orders</a>
+                                    
                                 </div>
                                
                                 <div class="code-box-copy">
