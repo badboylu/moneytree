@@ -40,7 +40,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    $resultCheckPrep=0;
    }
 
-$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idUsername=? ';
+$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL1");
