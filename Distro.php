@@ -12,6 +12,19 @@
    $location[]=$row['idLocation'];
   }
   $locae=Min($location);
+  $sql="SELECT idDriver FROM driveruser WHERE idLocation=?";
+$stmt=mysqli_stmt_init($conn);
+  if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:RDR2.php?error=SQL1");
+       exit();
+}
+mysqli_stmt_bind_param($stmt,"s",$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $resultCheck=mysqli_stmt_num_rows($stmt);
+   if(!$resultCheck){
+   $resultCheck=0;
+   }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -299,8 +312,8 @@
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Active Driver Agents</span>
-                                        <h3 class="mb-0"><span class="counter">45631</span><small> This Month</small></h3>
+                                    <div class="media-body col-8"><span class="m-0">Driver Agents</span>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheck; ?></span><small>Active</small></h3>
                                     </div>
                                 </div>
                             </div>
