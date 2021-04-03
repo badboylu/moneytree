@@ -6,6 +6,7 @@
   $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
   $authtoken = $_GET['auth'];
   $username = $_GET['username'];
+  $pending = 'Pending';
   $query='SELECT * FROM distrouser WHERE idDistro="'.$username.'" ';
   $result=mysqli_query($conn,$query);
   while($row=mysqli_fetch_array($result)){
@@ -39,13 +40,13 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
    $resultCheckPrep=0;
    }
 
-$sql='SELECT * FROM oders WHERE idOrderConfirmation='Pending' AND idUsername=? ';
+$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idUsername=? ';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=SQL1");
        exit();
 }
-   mysqli_stmt_bind_param($stmt,"s",$locae);
+   mysqli_stmt_bind_param($stmt,"ss",$pending,$locae);
    mysqli_stmt_execute($stmt);
    mysqli_stmt_store_result($stmt);
    $pending=mysqli_stmt_num_rows($stmt);
