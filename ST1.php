@@ -20,26 +20,6 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-$query="SELECT * FROM address WHERE idOrderConfirmation='Pending'";
-$result=mysqli_query($conn,$query);
-$count=mysqli_num_rows($result);
-
-$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Lunga'";
-$result1=mysqli_query($conn,$query1);
-$count1=mysqli_num_rows($result1);
-
-if(!$count1){
- $count1='0';
-  }
-
-$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Delivered'";
-$result2=mysqli_query($conn,$query2);
-$count2=mysqli_num_rows($result2);
-
-if(!$count2){
- $count2='0';
-  }
-
 ?>
 <html lang="en">
 <head>
@@ -52,7 +32,7 @@ if(!$count2){
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Delivery Agent</title>
+    <title>Distribution Agent</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -100,56 +80,47 @@ if(!$count2){
        <!-- Page Sidebar Start-->
         <div class="page-sidebar">
             <div class="main-header-left d-none d-lg-block">
-                <div class="logo-wrapper"></div>
-            </div>
+             </div>
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
-                    <div>
-                    </div>
-                    <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Delivery Agent</p>
+                    <h6 class="mt-3 f-14"><?php echo $username ?></h6>
+                     <p><?php echo $locae ?></p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
+                    <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Agents</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Active deliveries</span> 
+                                <a href="#"><i class="fa fa-circle"></i>
+                                    <span>Prepper</span>
                                 </a>
-                          
                             </li>
-                            <li>
-                                <a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Delivery protocol</span> 
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending collections</span> 
-                                </a>
-                                
-                            </li>
+                           
                         </ul>
                     </li>
-                    
-                    
-                    
-                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection protocol</a></li>
+                            <li>
+                                <a href="RP.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
+                                    <span>Add Prepper</span> 
+                                </a>
+                            </li>
                             
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Stock management</span></a>
+                     <ul class="sidebar-submenu">
+                            <li><a href="ST1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Recieve</a></li>
+                            <li><a href="#"><i class="fa fa-circle"></i>Stock log</a></li>
+                     </ul>  
+                    </li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
                         <ul class="sidebar-submenu">
                             <li><a href="#"><i class="fa fa-circle"></i>Daily</a></li>
                              <li><a href="#"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
-                    <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
+                    <li><a class="sidebar-header" href="login.html"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
@@ -168,8 +139,8 @@ if(!$count2){
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy delivery
-                                    <small>Delivery management</small>
+                                <h3>Stock
+                                    <small>Receiving</small>
                                 </h3>
                             </div>
                         </div>
@@ -192,51 +163,51 @@ if(!$count2){
                     <div class="card-body vendor-table" >
                          <div id="hideON">
                          <br>
-                         <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
+                         <strong><span> </strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideDP">
-                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideOC">
-                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCC">
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePR">
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideNL">
-                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCCES">
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePE">
-                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
-                         <form action="Deliver.php" method="get" id="form">
+                         <form action="#" method="get" id="form">
                          <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Verify" id="Blanks">
                          <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
