@@ -151,7 +151,7 @@ $timeChange=date('H:i',strtotime('+2 hour',strtotime($timeplaced)));
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Order Tracker</title>
+<title>Delivery status</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
