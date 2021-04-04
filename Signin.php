@@ -25,7 +25,7 @@ $signup=$_GET['signup'];
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Welcome! <br> Login to <span style="color:orange;">canibuy</span></h3>
+                        <h3>Welcome! <br> Login to <span style="color:orange;">backend account</span></h3>
                         <p style="color:green;" >Cannabis Disposal Agency</p>
                         <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO</small></p>
                         
