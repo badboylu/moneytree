@@ -9,6 +9,7 @@
   $pending = 'Pending';
   $prepared = 'Prepared';
   $collected = 'Collected';
+  $delivered = 'Delivered';
   $query='SELECT * FROM distrouser WHERE idDistro="'.$username.'" ';
   $result=mysqli_query($conn,$query);
   while($row=mysqli_fetch_array($result)){
@@ -82,6 +83,20 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
    $collected=mysqli_stmt_num_rows($stmt);
    if(!$collected){
    $collected=0;
+   }
+
+$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQLcoll");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"ss",$delivered,$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $delivered=mysqli_stmt_num_rows($stmt);
+   if(!$delivered){
+   $delivered=0;
    }
 ?>
 
@@ -388,7 +403,7 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Delivered orders</span>
-                                        <h3 class="mb-0"><span class="counter">6659</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $delivered; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
