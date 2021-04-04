@@ -98,6 +98,7 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
    if(!$delivered){
    $delivered=0;
    }
+$totalearnings=$delivered*60;
 ?>
 
 <!DOCTYPE html>
@@ -417,7 +418,7 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Distro earnings</span>
-                                        <h3 class="mb-0">R <span class="counter">6659</span><small> Today</small></h3>
+                                        <h3 class="mb-0">R <span class="counter"><?php echo $totalearnings; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
