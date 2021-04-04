@@ -245,9 +245,7 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
-<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
-</a></div></div>
+</div></div>
 <div class="right-column">
 <div >
 <div >
@@ -277,7 +275,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker 
+Delivery status
 </strong>
 <span class="title-separator">
 <span>
