@@ -828,7 +828,10 @@ class="page-title page-title-default title-size-small title-design-centered colo
 style="">
 <div class="container"> 
 <div class="nav-shop">
+<div  
+class="basel-show-categories">
 
+</div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
 <a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
