@@ -603,7 +603,7 @@ Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=
 <div class="basel-toolbar-shop basel-toolbar-item"> 
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
-Shop 
+Items
 </span> </a></div>
 <div class="king"> 
 <img src="https://img.icons8.com/ios-glyphs/30/000000/medieval-crown.png"/>
