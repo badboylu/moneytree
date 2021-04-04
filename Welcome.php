@@ -33,7 +33,7 @@ $token= bin2hex(random_bytes(16));
                         <p><small>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</small></p>
                         <div class="page-links">
                             <p><a href="Welcome.php"><span><small>I don't agree</small><span></a></p>
-                            <p><a href="Shop.php?auth=<?php echo $token; ?>"><span style="color:green"><small>I agree</small><span></a></p>
+                            <p><a href="Items.php?auth=<?php echo $token; ?>"><span style="color:green"><small>I agree</small><span></a></p>
                         </div>
                     </div>
                 </div>
