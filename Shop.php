@@ -1601,7 +1601,7 @@ Africa (Pty) Ltd. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(h
 <a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
-Cart 
+Donate
 </span> </a></div></div> 
 </div>
 
