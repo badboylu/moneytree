@@ -433,7 +433,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Cancelled deliveries</span>
-                                        <h3 class="mb-0"><span class="counter">893</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span>893</span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
