@@ -7,6 +7,8 @@
   $authtoken = $_GET['auth'];
   $username = $_GET['username'];
   $pending = 'Pending';
+  $prepared = 'Prepared';
+  $collected = 'Collected';
   $query='SELECT * FROM distrouser WHERE idDistro="'.$username.'" ';
   $result=mysqli_query($conn,$query);
   while($row=mysqli_fetch_array($result)){
@@ -43,7 +45,7 @@ mysqli_stmt_bind_param($stmt,"s",$locae);
 $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
-       header("Location:Signin.php?error=SQL1");
+       header("Location:Signin.php?error=SQLpend");
        exit();
 }
    mysqli_stmt_bind_param($stmt,"ss",$pending,$locae);
@@ -52,6 +54,34 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
    $pending=mysqli_stmt_num_rows($stmt);
    if(!$pending){
    $pending=0;
+   }
+
+$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQLprep");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"ss",$prepared,$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $prepared=mysqli_stmt_num_rows($stmt);
+   if(!$prepared){
+   $prepared=0;
+   }
+
+$sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
+   $stmt=mysqli_stmt_init($conn);
+ if(!mysqli_stmt_prepare($stmt,$sql)){
+       header("Location:Signin.php?error=SQLcoll");
+       exit();
+}
+   mysqli_stmt_bind_param($stmt,"ss",$collected,$locae);
+   mysqli_stmt_execute($stmt);
+   mysqli_stmt_store_result($stmt);
+   $collected=mysqli_stmt_num_rows($stmt);
+   if(!$collected){
+   $collected=0;
    }
 ?>
 
@@ -301,7 +331,7 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Prepared orders</span>
-                                        <h3 class="mb-0"><span class="counter">9856</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $prepared; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -315,7 +345,7 @@ $sql='SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderUsername=? ';
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Collected orders</span>
-                                        <h3 class="mb-0"><span class="counter">9856</span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php echo $collected; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
