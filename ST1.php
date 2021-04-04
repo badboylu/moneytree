@@ -158,57 +158,57 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order delivery</h5>
+                        <h5>Receiving</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
                          <br>
-                         <strong><span> </strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideDP">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideOC">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideBW">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCC">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePR">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideNL">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCCES">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePE">
-                         <strong><span> </strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
+                         <strong><span> </strong><span> </span> </span>
                          <br>
                          <br>
                          </div>
                          <form action="#" method="get" id="form">
-                         <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
+                         <label><strong>Received verification code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Verify" id="Blanks">
                          <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
                          <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
