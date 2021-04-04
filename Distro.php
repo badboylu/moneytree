@@ -333,7 +333,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Pending orders</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $pending; ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $pending; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +347,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Prepared orders</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $prepared; ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $prepared; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -361,7 +361,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Collected orders</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $collected; ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $collected; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -375,7 +375,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Preparation Agents</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheckPrep; ?></span><small> Active</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $resultCheckPrep; ?></span><small> Active</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -389,7 +389,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Driver Agents</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $resultCheck; ?></span><small> Active</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $resultCheck; ?></span><small> Active</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +404,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Delivered orders</span>
-                                        <h3 class="mb-0"><span class="counter"><?php echo $delivered; ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span><?php echo $delivered; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -418,7 +418,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Distro earnings</span>
-                                        <h3 class="mb-0">R <span class="counter"><?php echo $totalearnings; ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0">R <span><?php echo $totalearnings; ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -447,7 +447,7 @@ $totalearnings=$delivered*60;
                                         <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Late deliveries</span>
-                                        <h3 class="mb-0"><span class="counter">893</span><small> Today</small></h3>
+                                    <h3 class="mb-0"><span>893</span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
