@@ -793,9 +793,6 @@ class="menu">
 <a 
 href="Shop.php?auth=<?php echo $_GET['auth'];?>"
 rel="home">
-<img  
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
-alt="Canibuy logo" /> 
 </a>
 </div>
 </div>
@@ -831,10 +828,7 @@ class="page-title page-title-default title-size-small title-design-centered colo
 style="">
 <div class="container"> 
 <div class="nav-shop">
-<div  
-class="basel-show-categories">
-Online Shop
-</div>
+
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
 <a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
