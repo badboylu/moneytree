@@ -16,7 +16,7 @@ $authtoken = $_GET['auth'];
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Cart </title>
+<title>Donations</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -93,7 +93,7 @@ href="cannacaps.html" />
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
 	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-	Shop
+	
 	</a></li></ul></div></div></div></div></div></div>
 	
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
@@ -102,12 +102,7 @@ href="cannacaps.html" />
 	
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo"
- rel="home"> 
-<img  
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
-alt="Canibuy logo" /> 
-</a></div></div>
+</div></div>
 <div class="right-column">
 <div >
 <div >
@@ -149,7 +144,7 @@ alt="Canibuy logo" />
 </span>
 <h4 class="title" >
 <strong>
-Cart <?php $_GET['promo'] ?>
+Donation gateway
 </strong>
 <span class="title-separator">
 <span>
@@ -163,9 +158,9 @@ Cart <?php $_GET['promo'] ?>
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-Shop
+
 </a><span class="breadcrumb-last"> 
-Cart
+Donation gateway
 </span>
 </nav>
 </div>
