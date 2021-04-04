@@ -830,7 +830,7 @@ style="">
 <div class="nav-shop">
 <div  
 class="basel-show-categories">
-
+Items
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
