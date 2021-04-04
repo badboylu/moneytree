@@ -90,7 +90,7 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -104,7 +104,7 @@ href="cannacaps.html" />
 <div class="right-column">
 <div >
 <div >
-	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	<a href="Donor.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -155,7 +155,7 @@ Donations
 <span class="title-after_title">
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 
 </a><span class="breadcrumb-last"> 
 Donation gateway
@@ -599,7 +599,7 @@ Africa. Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
 Items
 </span> </a></div>
