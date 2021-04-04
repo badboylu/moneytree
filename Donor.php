@@ -142,7 +142,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Donation gateway
+Donations
 </strong>
 <span class="title-separator">
 <span>
