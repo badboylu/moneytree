@@ -762,7 +762,7 @@ close
 <li 
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
+<a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
 Cart
 </a>
 </li>
@@ -791,14 +791,14 @@ class="menu">
 <div class="site-logo">
 <div class="basel-logo-wrap">  
 <a 
-href="Shop.php?auth=<?php echo $_GET['auth'];?>"
+href="Items.php?auth=<?php echo $_GET['auth'];?>"
 rel="home">
 </a>
 </div>
 </div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
-<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
+<a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
 <span>
 Cart (<span>o</span>)
 </span> 
@@ -834,7 +834,7 @@ Selection
 </div>
 <ul class="basel-product-categories">
 <li class="cat-link shop-all-link">
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
 All
 </a>
 </li>
@@ -878,7 +878,7 @@ Accessories
 </a></span>
 </div>
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Item/s added to cart <a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
+<span><strong>Item/s added to cart <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
 	(View Cart)
 </a>	</strong></span>
 </div>
@@ -965,13 +965,13 @@ per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
-<a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
-	View cart
+<a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
+	Indicate
 </a>	
 </div> 
 <div class="btn-add" id="DpHome"> 
 	<button class="DurbanPoisonHome" >
-		add to cart
+		Select
 	</button>
 </div>
 </div>
@@ -985,11 +985,6 @@ data-loop="2"
 data-id="19616">
 <div class="product-element-top"> 
 <a href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-<div class="product-labels labels-rounded">
-<span class="new product-label">
-New
-</span>
-</div>
 <img 
 width="273" 
 height="348" 
@@ -1050,13 +1045,13 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
-			<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-				View cart
+			<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
+				Indicate
 			</a>	
 			</div>
 		<div class="btn-add" id="CcHome"> 
 			<button class="cannacapsHome">
-				add to cart
+				Select
 			</button>
 		</div>
 		</div>
@@ -1135,13 +1130,13 @@ California Orange
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
+			Indicate
 		</a>	
 		</div> 
 		<div class="btn-add" id="OcHome"> 
 			<button class="OrangeCaliHome" >
-				add to cart
+				Select
 			</button>
 		</div>
 	</div>
@@ -1213,13 +1208,13 @@ Raw Rizzla
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
+			Indicate
 		</a>	
 		</div>
 	<div class="btn-add"> 
 		<button class="BluntWrapHome" id="BwHome">
-			add to cart
+			Select
 		</button>
 	</div>
 	</div>
@@ -1239,11 +1234,6 @@ data-loop="5"
 data-id="19730">
 <div class="product-element-top"> 
 <a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-<div class="product-labels labels-rounded">
-<span class="new product-label">
-New
-</span>
-</div>
 <img 
 width="273" 
 height="348" 
@@ -1303,13 +1293,13 @@ per/joint
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
+			Indicate
 		</a>	
 		</div>
 <div class="btn-add"> 
 	<button class="PreRollsHome" id="PrHome" >
-		add to cart
+		Select
 	</button>
 </div>
 </div>
@@ -1383,12 +1373,12 @@ per/gram
 </span>
 <div class="btn-add" id="NlHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+			Indicate
 		</a>	
 		</div>
 <div class="btn-add"> 
 	<button class="NorthernLightsHome" id="NlHome" >
-		add to cart
+		Select
 	</button>
 </div>
 </div>
@@ -1403,11 +1393,6 @@ data-loop="7"
 data-id="19564">
 <div class="product-element-top"> 
 <a href="DabcapsES.php?auth=<?php echo $_GET['auth'];?>">
-<div class="product-labels labels-rounded">
-<span class="new product-label">
-New
-</span>
-</div>
 <img 
 width="273" 
 height="348" 
@@ -1466,12 +1451,12 @@ per/batch
 </span>
 <div class="btn-add" id="CCesHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+			Indicate
 		</a>	
 		</div>
 <div class="btn-add"> 
 	<button class="CannacapsESHome" id="CCesHome" >
-		add to cart
+		Select
 	</button>
 </div>
 </div>
@@ -1548,12 +1533,12 @@ per/gram
 </span>
 <div class="btn-add" id="PeHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			View cart
+			Indicate
 		</a>	
 		</div>
 <div class="btn-add"> 
 	<button class="PineappleExpressHome" id="PeHome" >
-		add to cart
+		Select
 	</button>
 </div>
 </div>
@@ -1598,7 +1583,7 @@ Africa (Pty) Ltd. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(h
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Donate
