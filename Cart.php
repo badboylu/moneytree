@@ -6,9 +6,7 @@ $dBName="eebooc1cx2mejqru";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html class="ie ie8" lang="en-US"> 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -576,7 +574,7 @@ class="single-product-page single-product-content product-design-default product
 <div id="Cartemptyimg"> 
      <div class="emptycartdisplay">
      <h4 class="title">
-        Cart is empty
+        Empty
      </H4>
      </div>
      <div style="margin-left: auto;  margin-right: auto;  width: 50%; padding-bottom: 40px;">
