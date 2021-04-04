@@ -182,30 +182,22 @@ $totalearnings=$delivered*60;
                                     <span>Prepper</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Driver</span>
-                                </a>
-                            </li>
+                           
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="RP.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
+                                <a href="RP.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
                                     <span>Add Prepper</span> 
                                 </a>
                             </li>
-                            <li>
-                                <a href="RDR.php?location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
-                                    <span>Add Driver</span> 
-                                </a>
-                            </li>
+                            
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Stock management</span></a>
                      <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Recieve</a></li>
+                            <li><a href="ST1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Recieve</a></li>
                             <li><a href="#"><i class="fa fa-circle"></i>Stock log</a></li>
                      </ul>  
                     </li>
