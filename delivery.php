@@ -652,7 +652,7 @@ Delivery details
 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
 <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
 <input type="hidden" name="totalamount" value="<?php echo $_GET['totalamount'] ?>">
-<input type="submit" name="Pay" value="Indicate">
+<input type="submit" name="Pay" value="Submit">
 </form> 
 </div></div></div></div></div></div></div></article></div></div></div></div>
 
