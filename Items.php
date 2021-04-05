@@ -966,7 +966,7 @@ per/gram
 </span>
 <div class="btn-add" id="DpHomecart">
 <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
-	Indicate
+	Donate
 </a>	
 </div> 
 <div class="btn-add" id="DpHome"> 
@@ -1046,7 +1046,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		<div class="btn-add" id="CcHomecart">
 			<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-				Indicate
+				Donate
 			</a>	
 			</div>
 		<div class="btn-add" id="CcHome"> 
@@ -1131,7 +1131,7 @@ California Orange
 	</span>
 	<div class="btn-add" id="OcHomecart">
 		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div> 
 		<div class="btn-add" id="OcHome"> 
@@ -1209,7 +1209,7 @@ Raw Rizzla
 	</span>
 <div class="btn-add" id="BwHomecart">
 		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div>
 	<div class="btn-add"> 
@@ -1294,7 +1294,7 @@ per/joint
 </span>
 <div class="btn-add" id="PrHomecart">
 		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div>
 <div class="btn-add"> 
@@ -1373,7 +1373,7 @@ per/gram
 </span>
 <div class="btn-add" id="NlHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div>
 <div class="btn-add"> 
@@ -1451,7 +1451,7 @@ per/batch
 </span>
 <div class="btn-add" id="CCesHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div>
 <div class="btn-add"> 
@@ -1533,7 +1533,7 @@ per/gram
 </span>
 <div class="btn-add" id="PeHomecart">
 		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Indicate
+			Donate
 		</a>	
 		</div>
 <div class="btn-add"> 
