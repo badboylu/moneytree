@@ -8,9 +8,7 @@ $dBName="eebooc1cx2mejqru";
    $username = $_GET['username'];
    
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html class="ie ie8" lang="en-US"> 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -99,8 +97,8 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
-	Shop
+	<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
+	Items
 	</a></li></ul></div></div></div></div></div></div>
 	
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
@@ -112,9 +110,7 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
-<img  src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" alt="Basel" /> 
-</a></div></div>
+</div></div>
 <div class="right-column">
 <div >
 <div >
@@ -157,8 +153,8 @@ Contact us
 <span class="title-after_title">
 
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
-Shop
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
+Items
 </a><span class="breadcrumb-last"> 
 Contact us 
 </span>
@@ -193,9 +189,9 @@ Africa. Terms and conditions <a href="A1.php">(here)</a></div></div></div></div>
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
-Shop 
+Items
 </span> </a></div>
 <div class="king"> 
 <img src="https://img.icons8.com/ios-glyphs/30/000000/medieval-crown.png"/>
