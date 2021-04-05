@@ -763,7 +763,7 @@ close
 id="menu-item-20484" 
 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
 <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
-Cart
+Donate
 </a>
 </li>
 </ul>
@@ -800,7 +800,7 @@ rel="home">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
 <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
 <span>
-Cart (<span>o</span>)
+Donate (<span>o</span>)
 </span> 
 <span class="basel-cart-totals"> 
 	<span class="basel-cart-numberCart">
@@ -878,8 +878,8 @@ Accessories
 </a></span>
 </div>
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Item/s added to cart <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
-	(View Cart)
+<span><strong>Item/s selected <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
+	(Donate)
 </a>	</strong></span>
 </div>
 <div class="row">
