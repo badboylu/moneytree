@@ -413,7 +413,7 @@ Flowers
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>California Orange added to cart</strong></span>
+<span><strong>California Orange selected</strong></span>
 </div>
 </div>
 </div>
