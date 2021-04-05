@@ -161,7 +161,7 @@ Contact us
 </nav>
 </div>
 </div>
-<p>For any suggestions, queries or complaints please send an email to the address below and we will reply. Thank you</span></p>
+<p>For any suggestions, queries, complaints or to indicate readiness to dispose please send an email to the address below and we will reply to you asap. Thank you</span></p>
 <p><strong>E-mail:</strong><span> support@canibuy.site</span></p>
 <br>
 <br>
@@ -180,7 +180,7 @@ Contact us
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by 
+2021 Created by 
 <span>
 Kahrent Technology
 </span>
