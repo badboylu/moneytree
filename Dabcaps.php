@@ -86,12 +86,12 @@ href="cannacaps.html" />
             <div class="menu-top-bar-container">
             <ul id="menu-top-bar" class="menu">
             <li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-            <a href="Cart.php?auth=<?php echo $_GET['auth'];?>"> 
-            Cart
+            <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
+            Donate
             </a></li>
             <li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-            <a href="Shop.php?auth=<?php echo $_GET['auth'];?>"> 
-            Shop
+            <a href="Items.php?auth=<?php echo $_GET['auth'];?>"> 
+            Items
             </a></li></ul></div></div></div></div></div></div>
 	
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
@@ -101,8 +101,8 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"> 
-	Shop
+	<a href="Items.php?auth=<?php echo $_GET['auth'];?>"> 
+	Items
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
         <div class="container">
@@ -211,16 +211,11 @@ href="cannacaps.html" />
 </div>
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"
- class="basel-logo basel-main-logo" rel="home"> 
-<img  
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_350/v1595757623/website_logo_head_aswjjx.jpg" 
-alt="Canibuy logo" />
-</a></div></div>
+</div></div>
 <div class="right-column">
 
 <div> 
-	<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">  
+	<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">  
 	<span class="basel-cart-totals"> 
 		<span class="basel-cart-numberCart">
 		0
@@ -247,9 +242,9 @@ alt="Canibuy logo" />
 Edibles range
 </h1> 
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>"
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>"
  rel="v:url" property="v:title">
-Shop
+Items
 </a> 
 <span class="current">
 Dabcapsules
@@ -281,8 +276,8 @@ Dabcapsules
 <span class="title-after_title">
 Edibles
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
-Shop
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
+Items
 </a><span class="breadcrumb-last"> 
 Dabcapsules
 </span>
@@ -388,7 +383,7 @@ R
 		</div>
 		<br>
 		<button class="cannacaps" id="CC">
-			add to cart
+			SELECT
 		</button>
 		</div>
 		</div>
@@ -409,7 +404,7 @@ Edibles
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Dabcaps added to cart</strong></span>
+<span><strong>Dabcaps selected</strong></span>
 </div>
 </div>
 </div>
@@ -434,9 +429,9 @@ Africa (Pty) Ltd. Contact us <a href="C.php?auth=<?php echo $_GET['auth'];?>">(h
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
-Shop 
+Items
 </span> </a></div>
 <div class="king"> 
 <img src="https://img.icons8.com/ios-glyphs/30/000000/medieval-crown.png"/>
@@ -445,10 +440,10 @@ Shop
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
+<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
-Cart 
+Donate
 </span> </a></div></div> 
 </div>
 <a href="#" class="scrollToTop basel-tooltip">
