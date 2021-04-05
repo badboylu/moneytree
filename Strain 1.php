@@ -88,11 +88,11 @@ href="cannacaps.html" />
 	<div class="menu-top-bar-container">
 	<ul id="menu-top-bar" class="menu">
 	<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
-	<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	<a href="Donor.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	
 	</a></li>
 	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
-	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 	
 	</a></li></ul></div></div></div></div></div></div>
 	
@@ -103,7 +103,7 @@ href="cannacaps.html" />
 	<div class="menu-main-navigation-container">
 	<ul id="menu-main-navigation" class="menu">
 	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
+	<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"> 
 	Items
 	</a>
 	<div class="sub-menu-dropdown color-scheme-dark">
@@ -217,7 +217,7 @@ href="cannacaps.html" />
 <div class="right-column">
 <div> 
 	<span class="basel-cart-totals"> 
-                <a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+                <a href="Donor.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 		<span class="basel-cart-numberCart">
 		0
 		</span> 
@@ -245,7 +245,7 @@ href="cannacaps.html" />
 Flowers range
 </h1>
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Items
 </a> 
 <span class="current">
@@ -278,7 +278,7 @@ Items
 <span class="title-after_title">
 	Greenhouse
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 Shop
 </a><span class="breadcrumb-last"> 
 	Durban Poison
@@ -383,7 +383,7 @@ per/gram
 	</div>
 	<br>
 	<button class="DurbanPoison" id="DP">
-		add to cart
+		SELECT
 	</button>
 	</div>
 	</div>
@@ -426,7 +426,7 @@ Africa (Pty) Ltd. Contact us <a href="C.php?username=<?php echo $_GET['username'
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
 <div class="basel-toolbar-shop basel-toolbar-item"> 
-<a href="Shop.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <span class="basel-toolbar-label"> 
 Items
 </span> </a></div>
@@ -437,7 +437,7 @@ Items
 <img src="https://img.icons8.com/pastel-glyph/30/000000/like--v1.png"/>
 </div>
 <div> 
-<a href="Cart.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Donor.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
 <img src="https://img.icons8.com/android/21/000000/shopping-cart.png"/>
 <span class="basel-toolbar-label">
 Donate
