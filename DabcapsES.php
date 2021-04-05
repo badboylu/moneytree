@@ -400,7 +400,7 @@ Edibles
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Dabcaps (Extra Strong) selected</strong></span>
+<span><strong>Dabcaps (strong) selected</strong></span>
 </div>
 </div>
 </div>
