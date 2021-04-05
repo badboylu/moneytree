@@ -873,8 +873,8 @@ Accessories
 </div>
 <div class="container">
 <div class="Added2" style="display:block;" >
-<span><span style="color:red">Covid-19 </span>protocol adherence. For more info click <a href="https://sacoronavirus.co.za"> 
-	<span style="color:white">(here)</span>
+<span><span style="color:red">Covid-19 protocol</span><a href="https://sacoronavirus.co.za"> 
+	<span style="color:white">(info)</span>
 </a></span>
 </div>
 <div class="Added" id="added" style="display:none;" >
