@@ -76,25 +76,30 @@
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14">Lunga</h6>
-                    <p>canibuy site builder</p>
+                    <p>Director</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="Owner.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Agents</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Admin</span>
+                                <a href="#">
+                                    <span>Caller</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-circle"></i>
+                                <a href="#">
+                                    <span>Distro</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
                                     <span>Driver</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Distro</span>
+                           <li>
+                                <a href="#">
+                                    <span>Alfa Distro</span>
                                 </a>
                             </li>
                         </ul>
