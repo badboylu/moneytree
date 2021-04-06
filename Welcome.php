@@ -28,7 +28,7 @@ $token= bin2hex(random_bytes(16));
                         <p style="color:green;" >Cannabis Disposal Agency</p>
                         <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="A2.php"><span>about us<span></a>]</small></p>
                         <p style="color:grey;" ><small>How we operate [<a href="A3.php"><span>info<span></a>]</small></p>
-                        <p style="color:grey;" ><small>Operations login[<a href="Signin.php"><span>click here<span></a>]</small></p>
+                        <p style="color:grey;" ><small>Operations login [<a href="Signin.php"><span>click here<span></a>]</small></p>
                         <p><small>To enter you must acknowledge the following:</small></p>
                         <p><small>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</small></p>
                         <div class="page-links">
