@@ -102,8 +102,23 @@
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="RD.php"><i class="fa fa-circle"></i>
+                                <a href="#">
+                                    <span>Add Caller</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="RD.php">
                                     <span>Add Distro</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Add Driver</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Add Alfa Distro</span> 
                                 </a>
                             </li>
                         </ul>
