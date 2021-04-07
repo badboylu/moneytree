@@ -107,7 +107,7 @@
                     <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
                         <ul class="sidebar-submenu">
                             <li>
-                                <a href="#">
+                                <a href="RC.php">
                                     <span>Add Caller</span> 
                                 </a>
                             </li>
@@ -117,12 +117,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="RDR.php">
                                     <span>Add Driver</span> 
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="RAD.php">
                                     <span>Add Alfa Distro</span> 
                                 </a>
                             </li>
