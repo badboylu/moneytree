@@ -24,7 +24,7 @@ $auth=$_GET['error'];
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Recruite Distribution Agent</h3>
+                        <h3>Recruite Caller Agent</h3>
                     
 <form action="RD1.php" method="get">
 <div><label>Enter Agent's e-mail address:</label></div>
