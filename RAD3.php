@@ -13,7 +13,7 @@ date_default_timezone_set('Africa/Johannesburg');
 $date=date("Y-m-d");
 
 
-$sql="SELECT idAlfa FROM alfadistrouser WHERE idAlfa=?";
+$sql="SELECT idAlfa FROM alfauser WHERE idAlfa=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RAD2.php?error=SQL1");
@@ -27,7 +27,7 @@ mysqli_stmt_bind_param($stmt,"s",$username);
        header("Location:RAD2.php?error=usernameexists");
        exit();
 } 
-$sql="SELECT idEmail FROM alfadistrouser WHERE idEmail=?";
+$sql="SELECT idEmail FROM alfauser WHERE idEmail=?";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RAD2.php?error=SQL2");
@@ -57,7 +57,7 @@ $stmt=mysqli_stmt_init($conn);
        header("Location:RAD2.php?error=invalidpwd");
        exit();
 }
-    $sql="INSERT INTO alfadistrouser (idAlfa, idEmail, idPassword, idDate) VALUES(?,?,?,?)";
+    $sql="INSERT INTO alfauser (idAlfa, idEmail, idPassword, idDate) VALUES(?,?,?,?)";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RAD2.php?error=SQL3");
