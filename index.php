@@ -1,2 +1,2 @@
-<?php header('Location: https://canibuy.co.za/Welcome.php');
+<?php header('Location: https://canibu.herokuapp.com/Welcome.php');
 ?>
