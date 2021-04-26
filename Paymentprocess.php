@@ -118,8 +118,8 @@ $cartTotal = 10.00;
 $data = array(
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'return_url' => 'https://canibuy.co.za/process2.php',
-    'cancel_url' => 'https://canibuy.co.za/process1.php',
+    'return_url' => 'https://canibu.herokuapp.com/process2.php',
+    'cancel_url' => 'https://canibu.herokuapp.com/process1.php',
     'amount'=> $total,
     'item_name' => 'Canibuy Health Store',
 );
