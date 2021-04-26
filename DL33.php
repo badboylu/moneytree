@@ -1,8 +1,8 @@
 <?php
-$servername="dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dBUsername="fn5xp8yu9vmphif8";
-$dBPassword="j0oarzobzrwqy40b";
-$dBName="eebooc1cx2mejqru";
+ $servername="jhdjjtqo9w5bzq2t.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+ $dBUsername="db361uh5fgdhosa8";
+ $dBPassword="c17zbecid7wripme";
+ $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
