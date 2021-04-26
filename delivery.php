@@ -30,8 +30,8 @@ $cartTotal = 10.00;
 $data = array(
     'merchant_id' => '10000100',
     'merchant_key' => '46f0cd694581a',
-    'return_url' => 'https://canibuy.co.za/Shop.php',
-    'cancel_url' => 'https://canibuy.co.za/Cart.php',
+    'return_url' => 'https://canibu.herokuapp.com/Shop.php',
+    'cancel_url' => 'https://canibu.herokuapp.com/F1.php',
     'notify_url' => 'https://canibuy.co.za/Orderget.php',
     'name_first' => 'Test2',
     'name_last'  => 'Last Name',
@@ -209,7 +209,7 @@ Delivery details
 </div>
 </div>
 
-<form action="https://canibuy.co.za/Paymentprocess.php" method="get" id="plug" name="moneytree">
+<form action="https://canibu.herokuapp.co.za/Paymentprocess.php" method="get" id="plug" name="moneytree">
    <label for="Country">Country:</label><input type="text" name="Country" value="South Africa" readonly>
    <label>Province:</label><input type="text" name="Province" value="Gauteng" readonly>
    <label>City:</label>
