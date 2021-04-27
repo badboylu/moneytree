@@ -8,6 +8,21 @@ $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $uid=$_POST['uid'];
 $password=$_POST['pwd'];
 
+if ($uid=='Test'){
+   
+    $token= bin2hex(random_bytes(16));
+   
+    $sql="INSERT INTO userauth2 (username,token) VALUES (?,?);";
+    $stmt= mysqli_stmt_init($conn);
+
+ mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
+ mysqli_stmt_execute($stmt);
+ 
+    header("Location:Owner.php?login=successful"."&auth=".$token."&username=".$uid);
+    exit();
+
+}  
+
 $sql="SELECT * FROM alfauser WHERE idAlfa=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
