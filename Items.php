@@ -16,7 +16,7 @@ $authtoken = $_GET['auth'];
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="../xmlrpc.html">
 	<title>
-		Canibuy
+		canibu
 	</title>
 	<link rel="stylesheet" href="c7c58cca0fc9c8acb3530bf8cbf53297.css" data-minify="1" />
         <link rel="stylesheet" href="plugIcons.css" />
