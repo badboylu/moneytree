@@ -1,2 +1,2 @@
-<?php header('Location: https://canibu.co.za/Welcome.php');
+<?php header('Location: https://canibu.co.za/Port.php');
 ?>
