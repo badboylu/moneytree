@@ -116,7 +116,7 @@ function minusGramsNumbers() {
 setInterval (function onloaddisplaytotalprice (){
         let displayedtotal = localStorage.getItem('totalAmountDP');
         if(displayedtotal){
-                document.querySelector('.totalcart').textContent = displayedtotal;
+                document.querySelector('.totalcartDP').textContent = displayedtotal;
         }; 
 }, 1000);
 
