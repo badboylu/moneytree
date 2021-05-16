@@ -83,20 +83,20 @@
     width: 100px;
 }
 .DPcontainer2{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3{
-    padding-left: 20%;
+    padding-left: 50px;
 }
 .quantitygrams{
-    padding-left: 80%;
+    padding-left: 50px;
 }
-.totalcart{
-    padding-left: 100%;
+.totalcartDP{
+    float: right;
+    padding-left: 0px;
 }
 .Rands{
-    float: right;
-    padding-left: 170px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -133,20 +133,20 @@
     width: 100px;
 }
 .DPcontainer2CC{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3CC{
-    padding-left: 100%;
+    padding-left: 48px;
 }
 .quantitygramsCC{
-    padding-left: 150%;
+    padding-left: 50px;
 }
 .totalcartCC{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsCC{
-    float: right;
-    padding-left: 233px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -181,20 +181,20 @@
     width: 100px;
 }
 .DPcontainer2OC{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3OC{
-    padding-left: 20%;
+    padding-left: 42px;
 }
 .quantitygramsOC{
-    padding-right: 0%;
+    padding-left: 50px;
 }
 .totalcartOC{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsOC{
-    float: right;
-    padding-left: 160px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -230,20 +230,20 @@
     width: 100px;
 }
 .DPcontainer2BW{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3BW{
-    padding-left: 120%;
+    padding-left: 24px;
 }
 .quantitygramsBW{
-    padding-left: 180%;
+    padding-left: 50px;
 }
 .totalcartBW{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsBW{
-    float: right;
-    padding-left: 260px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -278,20 +278,20 @@
     width: 100px;
 }
 .DPcontainer2PR{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3PR{
-    padding-left: 120%;
+    padding-left: 97px;
 }
 .quantitygramsPR{
-    padding-left: 220%;
+    padding-left: 50px;
 }
 .totalcartPR{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsPR{
-    float: right;
-    padding-left: 260px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -326,20 +326,20 @@
     width: 100px;
 }
 .DPcontainer2NL{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3NL{
-    padding-left: 120%;
+    padding-left: 20px;
 }
 .quantitygramsNL{
-    padding-left: 180%;
+    padding-left: 50px;
 }
 .totalcartNL{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsNL{
-    float: right;
-    padding-left: 258px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -374,20 +374,20 @@
     width: 100px;
 }
 .DPcontainer2CCES{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3CCES{
-    padding-left: 30%;
+    padding-left: 76px;
 }
 .quantitygramsCCES{
-    padding-left: 0%;
+    padding-left: 50px;
 }
 .totalcartCCes{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsCCES{
-    float: right;
-    padding-left: 100px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -422,20 +422,20 @@
     width: 100px;
 }
 .DPcontainer2PE{
-    padding-left: 5%;
+    padding-left: 5px;
 }
 .DPcontainer3PE{
-    padding-left: 100%;
+    padding-left: 17px;
 }
 .quantitygramsPE{
-    padding-left: 160%;
+    padding-left: 50px;
 }
 .totalcartPE{
-    padding-left: 100%;
+    float: right;
+    padding-left: 0px;
 }
 .RandsPE{
-    float: right;
-    padding-left: 190px;
+    padding-left: 65px;
 }
 .upbutton{
     background-color: white;
@@ -508,29 +508,4 @@
     white-space: nowrap;
 }
 
-@media all screen  and (min-width : 1224px) {
-.totalOrderR{
-    float: left;
-    padding-left: 0%;
-    display: inline-block;
-}
-.totalOrderR1{
-    float: left;
-    padding-left: 0%;
-    display: inline-block;
-}
-}
 
-
-@media all screen  and (min-width : 1824px) {
-.totalOrderR{
-    float: left;
-    padding-left: 0%;
-    display: inline-block;
-}
-.totalOrderR1{
-    float: left;
-    padding-left: 0%;
-    display: inline-block;
-}
-}
