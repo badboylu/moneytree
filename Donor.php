@@ -507,7 +507,7 @@ class="single-product-page single-product-content product-design-default product
         </li>
         <li>
             <span class="Rands">R</span>
-                    <a class="totalcart" ></a>
+                    <a class="totalcartDP" ></a>
                 </li>
                     </ul>
                     </div>
