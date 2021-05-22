@@ -789,13 +789,10 @@ class="menu">
 </div>
 </div>
 <div class="site-logo">
-<div class="basel-logo-wrap">  
-<a 
-href="Items.php?auth=<?php echo $_GET['auth'];?>"
-rel="home">
-</a>
-</div>
-</div>
+<div class="basel-logo-wrap"> 
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
+<img  src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" alt="Basel" /> 
+</a></div></div>
 <div class="right-column">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
 <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
