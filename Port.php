@@ -26,6 +26,13 @@ $token= bin2hex(random_bytes(16));
                     <div class="form-items">
                         <h3>Welcome to <span style="color:orange;">canibu</span></h3>.             
                         <p style="color:green;" >Cannabis Disposal Agency</p>
+<p> 
+<div style="display: flex; justify-content: center;">
+<img  
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1619180869/download_qiezgo.jpg"  
+alt="" /> 
+</div>
+</p>
                         <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="A2.php"><span>about us<span></a>]</small></p>
                         <p style="color:grey;" ><small>How we operate [<a href="A3.php"><span>info<span></a>]</small></p>
                         <p style="color:grey;" ><small>Operations login [<a href="Signin.php"><span>click here<span></a>]</small></p>
