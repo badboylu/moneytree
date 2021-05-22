@@ -907,18 +907,18 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 <img 
 width="273" 
 height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg" 
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1621681101/images_6_u64kyv.jpg" 
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595620831/7971626662cb443750f9968611243f91_ontqyv.jpg 526w" 
+"https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_348,w_273/v1621681101/images_6_u64kyv.jpg 870w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_300,w_235/v1621681101/images_6_u64kyv.jpg 235w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_980,w_768/v1621681101/images_6_u64kyv.jpg 768w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_1024,w_803/v1621681101/images_6_u64kyv.jpg 803w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_340,w_266/v1621681101/images_6_u64kyv.jpg 266w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_280,w_219/v1621681101/images_6_u64kyv.jpg 219w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_336,w_263/v1621681101/images_6_u64kyv.jpg 263w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_671,w_526/v1621681101/images_6_u64kyv.jpg 526w" 
 sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 <div class="hover-img">  
