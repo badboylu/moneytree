@@ -29,7 +29,7 @@ $token= bin2hex(random_bytes(16));
 <p> 
 <div style="display: flex; justify-content: center;">
 <img  
-src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_300/v1621676015/1200px-SAPS_badge.svg_hiit7p.png"  
+src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png"  
 alt="" /> 
 </div>
 </p>
