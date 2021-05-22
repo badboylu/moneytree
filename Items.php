@@ -925,19 +925,19 @@ sizes="(max-width: 273px) 100vw, 273px" />
 <a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 	width="273" 
-	height="348" 
-	src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
+	height="348"
+	src="https://res.cloudinary.com/ddjrcafre/image/upload/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" 
 	class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 	alt="" 
 	srcset=
-	"https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg 870w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088623/_DSC6572_zun5in.jpg 235w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595088623/_DSC6572_zun5in.jpg 768w,
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595088623/_DSC6572_zun5in.jpg 803w,
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088623/_DSC6572_zun5in.jpg 266w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595088623/_DSC6572_zun5in.jpg 219w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595088623/_DSC6572_zun5in.jpg 263w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595088623/_DSC6572_zun5in.jpg 526w" 
+	"https://res.cloudinary.com/ddjrcafre/image/upload/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 870w, 
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_300,w_235/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 235w, 
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_980,w_768/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 768w,
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_1024,w_803/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 803w,
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_340,w_266/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 266w, 
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_280,w_219/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 219w, 
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_336,w_263/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 263w, 
+	https://res.cloudinary.com/ddjrcafre/image/upload/c_fit,h_671,w_526/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 526w" 
 	sizes="(max-width: 273px) 100vw, 273px" /> 
 </a>
 </div>
