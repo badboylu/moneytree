@@ -33,7 +33,7 @@ src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015
 alt="" /> 
 </div>
 </p>
-                        <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="A2.php"><span>about us<span></a>]</small></p>
+                        <p style="color:grey;" ><small>Powered by the SAPS</small></p>
                         <p style="color:grey;" ><small>How we operate [<a href="A3.php"><span>info<span></a>]</small></p>
                         <p style="color:grey;" ><small>Operations login [<a href="Signin.php"><span>click here<span></a>]</small></p>
                         <p><small>To enter you must acknowledge the following:</small></p>
