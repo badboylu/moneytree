@@ -81,10 +81,25 @@ href="cannacaps.html" />
 	<div class="container">
 	<div class="topbar-content">
 	<div class="top-bar-left"> 
-	<span>[<a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Delivery status </span></a>]</span>
+        <span>[<a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Delivery status </span></a>]</span>
 	</div>
 	<div class="top-bar-right">
+	<div class="topbar-menu">
+	<div class="menu-top-bar-container">
+	<ul id="menu-top-bar" class="menu">
+	<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20484 menu-item-design-default item-event-hover">
+	<a href="Donor.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	Donate
+	</a></li>
+	<li id="menu-item-20488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20488 menu-item-design-default item-event-hover">
+	<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+	Items
+	</a></li></ul></div></div></div></div></div></div>
 	
+	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
+	<div class="container">
+	<div class="wrapp-header">
+       
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
 <a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
