@@ -24,7 +24,7 @@ $token= bin2hex(random_bytes(16));
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Welcome to <span style="color:orange;">canibu</span></h3>.             
+                        <h3>Welcome to <span style="color:orange;">canibu</span></h3>           
                         <p style="color:green;" >Cannabis Disposal Agency</p>
 <p> 
 <div style="display: flex; justify-content: center;">
