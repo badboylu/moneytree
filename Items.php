@@ -903,7 +903,7 @@ data-source="main_loop">
 	<div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19655 status-publish first instock product_cat-bags product_tag-new product_tag-whte has-post-thumbnail featured shipping-taxable purchasable product-type-variable" data-loop="1" data-id="19655">
 	<div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchA.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -923,7 +923,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchA.php?auth=<?php echo $_GET['auth'];?>">
 Batch A
 </a>
 </h3>
@@ -961,7 +961,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="2" 
 data-id="19616">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchB.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -981,7 +981,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-	<a href="Dabcaps.php?auth=<?php echo $_GET['auth'];?>">
+	<a href="BatchB.php?auth=<?php echo $_GET['auth'];?>">
 	Batch B
 	</a>
 	</h3>
@@ -1020,7 +1020,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="3" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchC.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1040,7 +1040,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Strain 2.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchC.php?auth=<?php echo $_GET['auth'];?>">
 Batch C
 </a>
 </h3>
