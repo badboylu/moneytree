@@ -1077,49 +1077,28 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="4" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Rolling paper.php?auth=<?php echo $_GET['auth'];?>">
-	<img 
-	width="273" 
-	height="348" 
-	src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/c177f55fd859e75110685bada3090dd4_eb54cz.jpg" 
-	class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
-	alt="" 
-	srcset=
-	"https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 870w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 235w,
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 768w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 803w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 266w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 219w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 263w, 
-	https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595626087/30fd9885650be4948afedb9ab15ab0e9_w1vb1k.jpg 526w" 
-sizes="(max-width: 273px) 100vw, 273px" /> 
-</a>
-<div class="hover-img"> 
-<a href="Rolling paper.php?auth=<?php echo $_GET['auth'];?>">
-	<img 
-	width="273" 
-	height="348" 
-	src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1596059294/Rizzla_usrybh.jpg" 
+<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<img 
+width="273" 
+height="348" 
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" 
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 235w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 768w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg 263w,
-https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg
- 526w" 
-sizes="(max-width: 273px) 100vw, 273px" /> 
+"https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_348,w_273/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 870w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_300,w_235/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 235w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_980,w_768/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 768w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_1024,w_803/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 803w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_340,w_266/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 266w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_280,w_219/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 219w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_336,w_263/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 263w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_671,w_526/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 526w" 
+sizes="(max-width: 273px) 100vw, 273px" />
 </a>
-</div>
 </div>
 <h3 class="product-title">
 <a href="Rolling paper.php?auth=<?php echo $_GET['auth'];?>">
-Raw Rizzla
+Batch D
 </a>
 </h3>
 <div class="wrap-price">
@@ -1131,9 +1110,9 @@ Raw Rizzla
 	<span class="woocommerce-Price-currencySymbol">
 	R
 	</span>
-	20
+	30
 	</span>
-	per/pack
+	per/gram
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
@@ -1162,49 +1141,28 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
+<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg" 
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" 
 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
 alt="" 
 srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1596008969/b8d0de7cacaf88b8b43d5413142c274d_asslru.jpg 526w" 
-sizes="(max-width: 273px) 100vw, 273px" /> 
+"https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_348,w_273/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 870w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_300,w_235/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 235w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_980,w_768/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 768w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_1024,w_803/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 803w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_340,w_266/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 266w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_280,w_219/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 219w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_336,w_263/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 263w, 
+https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,h_671,w_526/v1621676015/1200px-SAPS_badge.svg_hiit7p.png 526w" 
+sizes="(max-width: 273px) 100vw, 273px" />
 </a>
-<div class="hover-img"> 
-<a href="Pre Rolls.php?auth=<?php echo $_GET['auth'];?>">
-<img 
-width="273" 
-height="348" 
-src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
-class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" 
-alt="" 
-
-srcset=
-"https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1612773186/IMG_20210204_140203_317_hprh8d.jpg 526w" 
-sizes="(max-width: 273px) 100vw, 273px" /> 
-</a>
-</div>
 </div>
 <h3 class="product-title">
 <a href="Pre Rolls.php?auth=<?php echo $_GET['auth'];?>">
-Pre-rolls
+Batch E
 </a>
 </h3>
 <div class="wrap-price">
@@ -1216,9 +1174,9 @@ Pre-rolls
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-40
+30
 </span>
-per/joint
+per/gram
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
