@@ -246,10 +246,10 @@ R
 </p>
 <div class="woocommerce-product-details__short-description">
 	<p>
-	<strong>Strains used in production:</strong><span> Mixture of sativa and indica</span>
+	<strong>Strain Type:</strong><span> Sativa</span>
 	<br>
-	<strong>Strength:</strong><span> Light</span>
-	</p></div>
+	<strong>Quality:</strong><span> Greenhouse</span>
+       	</p></div>
 <div >
 	<div >
 		
