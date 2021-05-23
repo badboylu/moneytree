@@ -1077,7 +1077,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="4" 
 data-id="19515">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchD.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1097,7 +1097,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Rolling paper.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchD.php?auth=<?php echo $_GET['auth'];?>">
 Batch D
 </a>
 </h3>
@@ -1141,7 +1141,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="5" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchE.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1161,7 +1161,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Pre Rolls.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchE.php?auth=<?php echo $_GET['auth'];?>">
 Batch E
 </a>
 </h3>
@@ -1198,7 +1198,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 typ
 data-loop="6" 
 data-id="19689">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchF.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1218,7 +1218,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Strain 3.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchF.php?auth=<?php echo $_GET['auth'];?>">
 Batch F
 </a>
 </h3>
@@ -1257,7 +1257,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 las
 data-loop="7" 
 data-id="19564">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchG.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1277,7 +1277,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="DabcapsES.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchG.php?auth=<?php echo $_GET['auth'];?>">
 Batch G
 </a>
 </h3>
@@ -1315,7 +1315,7 @@ class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 fir
 data-loop="8" 
 data-id="19730">
 <div class="product-element-top"> 
-<a href="Strain 1.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchH.php?auth=<?php echo $_GET['auth'];?>">
 <img 
 width="273" 
 height="348" 
@@ -1335,7 +1335,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 </a>
 </div>
 <h3 class="product-title">
-<a href="Strain 4.php?auth=<?php echo $_GET['auth'];?>">
+<a href="BatchH.php?auth=<?php echo $_GET['auth'];?>">
 Batch H
 </a>
 </h3>
@@ -1388,7 +1388,7 @@ per/gram
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by 
+2021 Created by 
 <span>
 Kahrent Technology
 </span>
