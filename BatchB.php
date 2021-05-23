@@ -6,7 +6,7 @@
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -14,7 +14,7 @@ $authtoken = $_GET['auth'];
 href="http://gmpg.org/xfn/11">
 <link rel="pingback" 
 href="Backend/xmlrpc.html">
-<title>Dabcapsule (light)</title>
+<title>Batch B</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -52,7 +52,9 @@ href="../../xmlrpc0db0.html?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" 
 href="../../wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 5.3.2" /><meta name="generator" content="WooCommerce 3.9.2" /><link rel="canonical" 
 href="cannacaps.html" />
-<link rel='shortlink' href='../../indexa726.html?p=19922' /><meta name="theme-color" content=""><link rel="shortcut icon" href="../wp-content/themes/basel/images/icons/favicon.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="../wp-content/themes/basel/images/icons/apple-touch-icon-152x152-precomposed.png">
+<link rel='shortlink' href='../../indexa726.html?p=19922' /><meta name="theme-color" content="">
+<link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
 	
 	<style>
 	.basel-promo-popup{max-width:900px}.site-logo{width:20%}.site-logo img{max-width:196px;max-height:95px}.widgetarea-head,.main-nav{width:40%}.right-column{width:40%}.basel-woocommerce-layered-nav .basel-scroll{max-height:181px}.header-banner{height:40px}.header-banner-display .website-wrapper{margin-top:40px}.topbar-menu ul>li{line-height:42px}.topbar-wrapp,.topbar-content:before{height:42px}.sticky-header-prepared.basel-top-bar-on .header-shop,.sticky-header-prepared.basel-top-bar-on .header-split,.enable-sticky-header.basel-header-overlap.basel-top-bar-on .main-header{top:42px}.site-logo img{max-height:95px}.act-scroll .site-logo img,.header-clone .site-logo img{max-height:60px}.header-clone .main-nav .menu>li>a{height:60px;line-height:60px}.sticky-header-real:not(.global-header-menu-top) .switch-logo-enable .basel-logo{height:95px}.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo{height:60px}.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable{transform:translateY(-60px);-webkit-transform:translateY(-60px)}.main-nav .menu>li>a{height:95px;line-height:95px}.act-scroll .main-nav .menu>li>a{height:60px;line-height:60px}.header-shop .right-column .header-links{height:95px;line-height:95px}.header-shop.act-scroll .right-column .header-links{height:60px;line-height:60px}.basel-header-overlap .title-size-default,.basel-header-overlap .title-size-small,.basel-header-overlap .title-shop.without-title.title-size-default,.basel-header-overlap .title-shop.without-title.title-size-small{padding-top:135px}.basel-header-overlap .title-shop.without-title.title-size-large,.basel-header-overlap .title-size-large{padding-top:215px}@media (max-width:991px){.header-banner{height:40px}.header-banner-display .website-wrapper{margin-top:40px}.topbar-menu ul>li{line-height:38px}.topbar-wrapp,.topbar-content:before{height:38px}.sticky-header-prepared.basel-top-bar-on .header-shop,.sticky-header-prepared.basel-top-bar-on .header-split,.enable-sticky-header.basel-header-overlap.basel-top-bar-on .main-header{top:38px}.main-header .wrapp-header{min-height:60px}.site-logo img{max-height:60px}.act-scroll .site-logo img,.header-clone .site-logo img{max-height:60px}.main-header .switch-logo-enable .basel-logo{height:60px}.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo{height:60px}.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable{transform:translateY(-60px);-webkit-transform:translateY(-60px)}.basel-header-overlap .title-size-default,.basel-header-overlap .title-size-small,.basel-header-overlap .title-shop.without-title.title-size-default,.basel-header-overlap .title-shop.without-title.title-size-small{padding-top:80px}.basel-header-overlap .title-shop.without-title.title-size-large,.basel-header-overlap .title-size-large{padding-top:120px}}.product-category-thumbnail img,.category-grid-item .category-link{width:100%}.product-grid-item .product-element-top>a img,.basel-hover-alt .hover-img img,.product-list-image .hover-img img{width:100%}#product-28083 .product-images .image-action-zoom figure img[src$=".png"],#product-28083 .product-images .image-action-zoom .owl-item,#product-28084 .product-images .image-action-zoom figure img[src$=".png"],#product-28084 .product-images .image-action-zoom .owl-item,#product-28085 .product-images .image-action-zoom figure img[src$=".png"],#product-28085 .product-images .image-action-zoom .owl-item,#product-28078 .product-images .image-action-zoom figure img[src$=".png"],#product-28078 .product-images .image-action-zoom .owl-item{background:#fff}.basel-product-categories>li.cat-item-109{display:none}.main-header form.has-categories-dropdown .search-by-category ul .children{display:none}.col-five>.vc_col-sm-2{width:20%}iframe[name='google_conversion_frame']{height:0!important;width:0!important;line-height:0!important;font-size:0!important;margin-top:-13px;float:left}.dropdown-scroll>.sub-menu-dropdown{height:540px;overflow:hidden}.header-spacing+.header-menu-top{margin-top:-40px}.woocommerce-ordering.with-list .selected-order{font-weight:700}.header-categories .main-nav .menu li.menu-item-design-full-width>.sub-menu-dropdown{margin-top:-78px}.hide-pag .owl-pagination,.hide-pag .owl-buttons{display:none}.color-scheme-light .testimonial .testimonial-content footer>span{color:rgba(255,255,255,.8)}.color-scheme-light .owl-theme:hover .owl-controls.clickable .owl-buttons div.disabled{color:rgba(255,255,255,.6)}.color-scheme-light .owl-theme .owl-controls .owl-buttons div{color:rgba(255,255,255,.8)}.color-scheme-light .owl-theme .owl-controls.clickable .owl-buttons div:hover{color:rgba(255,255,255,1)}.color-scheme-light .owl-theme .owl-controls .owl-page span{background-color:rgba(255,255,255,.6)}.color-scheme-light .owl-theme .owl-controls .owl-page.active span,.color-scheme-light .owl-theme .owl-controls.clickable .owl-page:hover span{background-color:#fff}.basel-buttons .product-compare-button>a,.single-product-content .entry-summary .button.compare,.basel-hover-base .basel-add-btn>a,.basel-hover-base .product-compare-button a{text-transform:none}.rtl .has-border,.rtl .has-border>.vc_column-inner{border:none!important}.related-and-upsells .product-grid-item .hover-img img{width:100%}.hidden-nav-button{display:none!important}.dropdown-scroll .wpb_single_image{border:2px solid #f7f7f7}.page-id-25728 .dropdown-scroll .wpb_single_image,.page-id-23954 .dropdown-scroll .wpb_single_image{border:2px solid rgba(255,255,255,.1)}.widget_product_categories .cat-item-109 .cat-item:nth-child(even){display:none}@media (max-width:1024px) and (min-width:991px){.header-categories .categories-menu-dropdown .sub-menu-dropdown{width:680px}}@media (max-width:991px){.sticky-footer-on .footer-container{visibility:visible}}.menu-item-19907>.sub-menu-dropdown{background-size:contain}.woocommerce-checkout-review-order-table td{width:50%}.basel-dark .cart-widget-side .widget_shopping_cart .buttons a:not(.checkout){border-color:#333;background-color:#333}.basel-dark .cart-widget-side .widget_shopping_cart .buttons a:not(.checkout):hover{opacity:.7}.blazy-image-loading{position:relative}.blazy-image-loading:after{position:absolute;top:50%;margin-top:-15px;margin-left:-15px;opacity:.3;left:50%;content:" ";width:35px;height:35px;display:inline-block;vertical-align:middle;border:1px solid #000;border-radius:50%;border-left-color:transparent!important;border-right-color:transparent!important;-webkit-animation:load-spin 450ms infinite linear;animation:load-spin 450ms infinite linear}.color-scheme-light .color-scheme-dark .product-grid-item .product-title>a{color:#252222}.woocommerce-password-strength:empty{margin:0;padding:0}.basel-pagination:before{content:'';display:block;clear:both}.basel-hover-button .basel-buttons .product-compare-button>a:before,.basel-hover-button .basel-buttons .quick-view>a:before,.basel-hover-info .basel-buttons .product-compare-button>a:before,.basel-hover-info .basel-buttons .quick-view>a:before{border-color:#FFF!important}.single-product .site-content>.woocommerce-message{display:none}.basel-entry-meta li.modified-date{display:none!important}.owl-carousel .blog-design-masonry.has-post-thumbnail .post-date{left:10px}.instagram-widget.instagram-slider .instagram-pics li{-webkit-flex-basis:100%;-ms-flex-basis:100%;flex-basis:100%;max-width:100%}.slick-slide.active-thumb{transition:none!important}.basel-font-weight-600{font-weight:600}.basel-wishlist-share>span{margin-top:5px}.browser-Firefox .wrapp-header{height:0}.global-header-vertical .main-page-wrapper{margin-top:0;padding-top:0}@media (min-width:992px){.buy-basel{position:fixed;bottom:40px;left:40px;background-color:#000;color:#fff;padding:10px 20px;border-radius:30px;text-transform:uppercase;transition:all .3s ease;z-index:1000}.buy-basel img{margin-right:10px;margin-bottom:1px}.buy-basel:hover,.buy-basel:focus{background-color:#97ca58;color:#fff;text-decoration:none;border-color:#000}.rtl .buy-basel{left:auto;right:40px}.rtl .buy-basel img{margin-right:0;margin-left:10px}}@media (min-width:768px) and (max-width:991px){.buy-basel{display:none}.swatch-on-grid .basel-tooltip-label{display:none}.dropdown-scroll>.sub-menu-dropdown{display:none}.basel-back-btn>span:before,.basel-products-nav .product-btn>a span:before{top:0}.shop-loop-head{width:100%}.single-product-content .product-images .thumbs-position-left .thumbnails{margin-top:4px}body .basel-parallax{background-attachment:scroll!important}}@media (min-width:481px) and (max-width:767px){.buy-basel{display:none}.swatch-on-grid .basel-tooltip-label{display:none}.dropdown-scroll>.sub-menu-dropdown{display:none}.basel-back-btn>span:before,.basel-products-nav .product-btn>a span:before{top:0}.single-product-content .product-images .thumbs-position-left .thumbnails{margin-top:4px}body .basel-parallax{background-attachment:scroll!important}.basel-text-block-wrapper .basel-text-block{max-width:100%}}@media (max-width:480px){.buy-basel{display:none}.swatch-on-grid .basel-tooltip-label{display:none}.dropdown-scroll>.sub-menu-dropdown{display:none}.basel-back-btn>span:before,.basel-products-nav .product-btn>a span:before{top:0}.single-product-content .product-images .thumbs-position-left .thumbnails{margin-top:4px}body .basel-parallax{background-attachment:scroll!important}.basel-text-block-wrapper .basel-text-block{max-width:100%}}
@@ -79,7 +81,7 @@ href="cannacaps.html" />
             <div class="container">
             <div class="topbar-content">
             <div class="top-bar-left"> 
-            
+            <span>[<a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Delivery status </span></a>]</span>
             </div>
             <div class="top-bar-right">
             <div class="topbar-menu">
@@ -97,121 +99,12 @@ href="cannacaps.html" />
 	<header class="main-header header-has-no-bg header-shop icons-design-line color-scheme-dark">
 	<div class="container">
 	<div class="wrapp-header">
-	<div class="main-nav site-navigation basel-navigation menu-left" role="navigation">
-	<div class="menu-main-navigation-container">
-	<ul id="menu-main-navigation" class="menu">
-	<li id="menu-item-19422" class="dropdown-scroll menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19422 menu-item-design-sized item-event-hover menu-item-has-children">
-	<a href="Items.php?auth=<?php echo $_GET['auth'];?>"> 
-	Items
-	</a>
-	<div class="sub-menu-dropdown color-scheme-dark">
-        <div class="container">
-            <div class="vc_row wpb_row vc_row-fluid col-five vc_custom_1475533876817">
-            <div class="wpb_column vc_column_container vc_col-sm-2 color-scheme-dark">
-            <div class="vc_column-inner">
-            <div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1487879314225" >
-            <div class="wpb_wrapper">
-            <h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-            <strong>
-            <span style="color: #1aada3;">
-            1.</span> Durban Poison</strong>
-            </a></h5></div></div>
-            <div class="vc_custom_1511344750662">
-            <a href="Strain 1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2">
-            <div class="vc_column-inner"><div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1487879330860" >
-            <div class="wpb_wrapper">
-            <h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-            <strong><span style="color: #1aada3;">
-            2.</span>Dabcapsules (light)</strong>
-            </a></h5></div></div>
-            <div class="vc_custom_1487879340170">
-            <a 
-            href="Dabcaps.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" 
-            class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2">
-            <div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_text_column wpb_content_element vc_custom_1521125735460" ><div class="wpb_wrapper">
-            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">
-            <strong><span style="color: #1aada3;">
-            3.</span>California orange</strong></a></h5></div></div><div class="vc_custom_1521125450949">
-            <a href="Strain 2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595088823/_DSC6569_nk6rz5.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1595088823/_DSC6569_nk6rz5.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1497366060747" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
-            4.</span>Raw rizzla</strong></a></h5></div></div><div class="vc_custom_1497366048454">
-            <a href="Rolling paper.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1614894404/16b5858d0e5449cd7bd2bd858da19eda_uiupom.png" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1600203458/images-3_bgewza.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1505233042256" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
-            5.</span>Pre-Rolls</strong></a></h5></div></div>
-            <div class="vc_custom_1484179872282"><a href="Pre Rolls.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1612773186/IMG_20210204_140203_317_hprh8d.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1600436773/IMG_20200918_153419_332_cqqpki.jpg" />
-            </a></div></div></div></div></div>
-            <div class="vc_row wpb_row vc_row-fluid col-five vc_custom_1476734232282">
-            <div class="wpb_column vc_column_container vc_col-sm-2 color-scheme-dark">
-            <div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_text_column wpb_content_element vc_custom_1505233031603" ><div class="wpb_wrapper">
-            <h5 style="text-align: center;"><a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong>
-            <span style="color: #1aada3;">
-            6. </span>Northern Lights</strong></a></h5></div></div>
-            <div class="vc_custom_1494340426796"><a href="Strain 3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088975/_DSC6533_vdjxdu.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088975/_DSC6533_vdjxdu.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1505232776768" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
-            7.</span>Dabcapsules (Strong)</strong></a></h5></div></div><div class="vc_custom_1502548857766">
-            <a 
-            href="DabcapsES.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img 
-            class="basel-lasy-image" 
-            data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg" 
-            src="https://res.cloudinary.com/badboylu/image/upload/v1595155752/_DSC6512_jsmovp.jpg" />
-            </a></div></div></div></div>
-            <div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
-            <div class="wpb_text_column wpb_content_element vc_custom_1505232782803" ><div class="wpb_wrapper"><h5 style="text-align: center;">
-            <a style="color: #1b1919; text-transform: uppercase; letter-spacing: 0.3px;" href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><strong><span style="color: #1aada3;">
-            8.</span> Pineapple Express</strong></a></h5></div></div><div class="vc_custom_1484179846825">
-            <a href="Strain 4.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="vc_single_image-wrapper vc_box_border_grey">
-            <img class="basel-lasy-image" data-blazy-src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg" src="https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088889/_DSC6536_aeu5je.jpg" />
-            </a></div></div></div></div>
-        </div></div></div>
-<style>.menu-item-19422>.sub-menu-dropdown{min-height:10px;width:1125px}</style></li>
-</ul>
-</div>
-</div>
+	
 <div class="site-logo">
 <div class="basel-logo-wrap"> 
-</div></div>
+<a href="Items.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>" class="basel-logo basel-main-logo" rel="home"> 
+<img  src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" alt="Basel" /> 
+</a></div></div>
 <div class="right-column">
 
 <div> 
@@ -239,7 +132,7 @@ href="cannacaps.html" />
 <header class="entry-header">
 <h1 class="entry-title">
 </h1>
-Edibles range
+Batch B
 </h1> 
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
 <a href="Items.php?auth=<?php echo $_GET['auth'];?>"
@@ -247,7 +140,7 @@ Edibles range
 Items
 </a> 
 <span class="current">
-Dabcapsules
+Chronic
 </span></div></header></div></div>
 <div class="container">
 <div class="row">
@@ -263,7 +156,7 @@ Dabcapsules
 </span>
 <h4 class="title" >
 <strong>
-Dabcapsules 
+Chronic 
 </strong>
 <span class="title-separator">
 <span>
@@ -274,12 +167,12 @@ Dabcapsules
 </span>
 </div>
 <span class="title-after_title">
-Edibles
+Greenhouse
 </span></div><div class="woocommerce"><div class="single-product" data-product-page-preselected-id="0"><div class="single-breadcrumbs-wrapper"><div class="container"> <a href="javascript:baselThemeModule.backHistory()" class="basel-back-btn basel-tooltip"><span>Back</span></a><nav class="woocommerce-breadcrumb">
 <a href="Items.php?auth=<?php echo $_GET['auth'];?>">
 Items
 </a><span class="breadcrumb-last"> 
-Dabcapsules
+Chronic
 </span>
 </nav>
 </div>
@@ -296,34 +189,34 @@ class="single-product-page single-product-content product-design-default product
 <div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images images row thumbs-position-left image-action-zoom" style="opacity: 0; transition: opacity .25s ease-in-out;">
 <div class="col-md-9 col-md-push-3">
 <figure class="woocommerce-product-gallery__wrapper owl-carousel">
-<figure data-thumb="
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg" 
-class="woocommerce-product-gallery__image">
-<a href="https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg">
-<img width="870" height="1110" 
-src="https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg" 
-class="attachment-woocommerce_single size-woocommerce_single" 
-alt="" 
-title="woman (22)" 
-data-caption="" 
-data-src="https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg" 
-data-large_image="https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg" 
-data-large_image_width="870" 
-data-large_image_height="1110" 
-srcset="
-https://res.cloudinary.com/badboylu/image/upload/v1595155865/cannacaps.jpg 870w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_697,w_546/v1595155865/cannacaps.jpg 546w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg 273w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1595155865/cannacaps.jpg 235w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_980,w_768/v1595155865/cannacaps.jpg 768w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_1024,w_803/v1595155865/cannacaps.jpg 803w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_340,w_266/v1595155865/cannacaps.jpg 266w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_280,w_219/v1595155865/cannacaps.jpg 219w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_336,w_263/v1595155865/cannacaps.jpg 263w, 
-https://res.cloudinary.com/badboylu/image/upload/c_scale,h_671,w_526/v1595155865/cannacaps.jpg 526w" 
-sizes="(max-width: 870px) 100vw, 870px" />
-</a>
-</figure>
+	<figure data-thumb="
+	https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
+	class="woocommerce-product-gallery__image">
+	<a href="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg">
+	<img width="870" height="1110" 
+	src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
+	class="attachment-woocommerce_single size-woocommerce_single" 
+	alt="" 
+	title="woman (22)" 
+	data-caption="" 
+	data-src="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
+	data-large_image="https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg" 
+	data-large_image_width="3315" 
+	data-large_image_height="1528" 
+	srcset="
+	https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg 870w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_697,w_546/v1595088623/_DSC6572_zun5in.jpg 546w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_348,w_273/v1595088623/_DSC6572_zun5in.jpg 273w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088623/_DSC6572_zun5in.jpg 235w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_980,w_768/v1595088623/_DSC6572_zun5in.jpg 768w,
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_1024,w_803/v1595088623/_DSC6572_zun5in.jpg 803w,
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088623/_DSC6572_zun5in.jpg 266w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_280,w_219/v1595088623/_DSC6572_zun5in.jpg 219w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_336,w_263/v1595088623/_DSC6572_zun5in.jpg 263w, 
+	https://res.cloudinary.com/badboylu/image/upload/c_fit,h_671,w_526/v1595088623/_DSC6572_zun5in.jpg 526w" 
+	sizes="(max-width: 870px) 100vw, 870px" />
+	</a>
+	</figure>
 </figure>
 <div class="basel-show-product-gallery-wrap">
 <a href="#" class="basel-show-product-gallery basel-tooltip">
@@ -341,14 +234,14 @@ Click to enlarge
 <div class="summary-inner ">
 <div class="basel-scroll-content">
 <h1 itemprop="name" class="product_title entry-title">
-Dabcapsules
+Chronic
 </h1>
 <p class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
 R
 </span>
-120 per batch of 8
+30 per/gram
 </span>
 </p>
 <div class="woocommerce-product-details__short-description">
@@ -356,8 +249,6 @@ R
 	<strong>Strains used in production:</strong><span> Mixture of sativa and indica</span>
 	<br>
 	<strong>Strength:</strong><span> Light</span>
-	<br>
-	<strong>Description:</strong><span> Dabcapsules are a brand new product that is produced locally to make cannibus edibles more healthy to consume. Using modern extraction methods, cannibus oils are extracted from sativa and indica strains and then after encapsulated into the dabcapsules. These capsules contain the full spectrum of the cannibus oil compounds which gives the full health benefits of the cannibus plant. Health benefits may include a boosted endocannabinoid system which enhances overall well being.</span>
 	</p></div>
 <div >
 	<div >
@@ -378,7 +269,7 @@ R
 		</button>
 		
 		<span>
-			Batch/s
+			Grams
 		</span>
 		</div>
 		<br>
@@ -390,21 +281,11 @@ R
 		</div>
 
 </div>
-<br>
-<br>
-<div class="product_meta">  
-<span class="posted_in">
-Category: 
-<a href="Edibles.php?auth=<?php echo $_GET['auth'];?>" rel="tag">
-Edibles
-</a>
-</span>
-</div>
 </div></div></div></div></div></div></div>
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Dabcaps selected</strong></span>
+<span><strong>Batch B selected [<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">Donate</a>] </strong></span>
 </div>
 </div>
 </div>
@@ -420,7 +301,7 @@ Edibles
 	<div class="col-left"> 
 	<i class="fa fa-copyright">
 	</i> 
-	2020 Created by 
+	2021 Created by 
 <span>
 Kahrent Technology
 </span>
