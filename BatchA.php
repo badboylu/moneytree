@@ -253,9 +253,7 @@ per/gram
 	<strong>Strain Type:</strong><span> Sativa</span>
 	<br>
 	<strong>Quality:</strong><span> Greenhouse</span>
-        <br>
-	<strong>Description:</strong><span> An internationally know strain of bud with genetic origins from South Africa. It has been grown in a controlled environment using modern indoor growing technology to produce the highest quality of bud currently possible.</span>
-	</p></div>
+       	</p></div>
 <div >
 	<div class="single_variation_wrap">
 	<div class="woocommerce-variation single_variation">
@@ -281,12 +279,11 @@ per/gram
 	</div>
 	</div>
 	</div>
-<br>
 </div></div></div></div></div></div></div>
 
 <div class="container">
 <div class="Added" id="added" style="display:none;" >
-<span><strong>Durban Poison selected</strong></span>
+<span><strong>Batch A selected [<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">Donate</a>] </strong></span>
 </div>
 </div>
 </div>
