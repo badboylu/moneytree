@@ -167,13 +167,13 @@ The SAPS cannabis waste material is collected and processed for disposal.
 Step 2. Storage
 </p>
 <p>
-The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to the NPO's disposal agents for disposing.
+The gathered cannabis and products to be disposed of are stored at distribution points across designated locations in South Africa to be then distributed to disposal agents for disposing.
 </p>
 <p>
 Step 3. Recruitment 
 </p>
 <p>
-When a person accepts the NPO's terms and conditions on the welcome page, they join the SAPS initiative as a disposal agent mandated to safely dispose of any cannabis material or products for the organisation.
+When a person accepts the canibu terms and conditions, they join the SAPS initiative as a disposal agent obliged to safely dispose of any cannabis material for the organisation.
 </p>
 <p>
 Step 4. Indication
@@ -185,7 +185,7 @@ Disposal agents must indicate to the SAPS to signal readiness to execute the obl
 Step 5. Notification
 </p>
 <p>
-Once the canibu algorithm has verified the indication from the disposal agent, the disposal agent shall be presented with delivery details such as a collection code and an estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
+Once the canibu platform has verified the indication from the disposal agent, the disposal agent shall be presented with delivery details such as a collection code and an estimated time of arrival to indicate to the disposal agent when they may expect to recieve their package.
 </p>
 <p>
 Step 6. Arrival
@@ -203,7 +203,7 @@ To receive the package from the delivery agent, the disposal agent is required t
 Step 8. Disposal
 </p>
 <p>
-After receiving delivery of material from the SAPS, it is the disposal agent's duty to execute the disposal of the material as defined in the terms and conditions.
+After receiving delivery of material from the SAPS, it is the disposal agent's obligation to dispose of the material as defined in the terms and conditions.
 </p>
 <p>
 Step 9. Fund raising
