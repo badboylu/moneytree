@@ -934,11 +934,8 @@ Batch A
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
-R
 </span>
-30
 </span>
-per/gram
 </span>
 </span>
 <div class="btn-add" id="DpHomecart">
@@ -992,11 +989,11 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		<span class="price">
 		<span class="woocommerce-Price-amount amount">
 		<span class="woocommerce-Price-currencySymbol">
-		R30
+		
 		</span>
 		
 		</span>
-		per/gram
+		
 		</span>
 		</span>
 		<div class="btn-add" id="CcHomecart">
@@ -1051,11 +1048,11 @@ Batch C
 	<span class="price">
 	<span class="woocommerce-Price-amount amount">
 	<span class="woocommerce-Price-currencySymbol">
-	R
+	
 	</span>
-	30
+	
 	</span>
-	per/gram
+	
 	</span>
 	</span>
 	<div class="btn-add" id="OcHomecart">
@@ -1108,11 +1105,11 @@ Batch D
 	<span class="price">
 	<span class="woocommerce-Price-amount amount">
 	<span class="woocommerce-Price-currencySymbol">
-	R
+	
 	</span>
-	30
+	
 	</span>
-	per/gram
+	
 	</span>
 	</span>
 <div class="btn-add" id="BwHomecart">
@@ -1172,11 +1169,11 @@ Batch E
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
-R
+
 </span>
-30
+
 </span>
-per/gram
+
 </span>
 </span>
 <div class="btn-add" id="PrHomecart">
@@ -1229,11 +1226,11 @@ Batch F
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
-R
+
 </span>
-30
+
 </span>
-per/gram
+
 </span>
 </span>
 <div class="btn-add" id="NlHomecart">
@@ -1288,11 +1285,11 @@ Batch G
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
-R
+
 </span>
-30
+
 </span>
-per/gram
+
 </span>
 </span>
 <div class="btn-add" id="CCesHomecart">
@@ -1346,11 +1343,11 @@ Batch H
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
-R
+
 </span>
-30
+
 </span>
-per/gram
+
 </span>
 </span>
 </span>
