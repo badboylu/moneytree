@@ -991,7 +991,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add"> 
-	        <a href="BatchA.php"><button class="DurbanPoisonHome" >
+	        <a href="BatchB.php"><button class="DurbanPoisonHome" >
 		View
 	        </button></a>
                 </div>
@@ -1045,7 +1045,7 @@ Batch C
 	</span>
 	</span>
 	<div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchC.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
         </div>
@@ -1097,7 +1097,7 @@ Batch D
 	</span>
 	</span>
         <div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchD.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
         </div>
@@ -1156,7 +1156,7 @@ Batch E
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchE.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
 </div>
@@ -1208,7 +1208,7 @@ Batch F
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchF.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
 </div>
@@ -1262,7 +1262,7 @@ Batch G
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchG.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
 </div>
@@ -1315,7 +1315,7 @@ Batch H
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+	<a href="BatchH.php"><button class="DurbanPoisonHome" >
 		View
 	</button></a>
 </div>
