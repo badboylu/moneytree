@@ -938,15 +938,10 @@ Batch A
 </span>
 </span>
 </span>
-<div class="btn-add" id="DpHomecart">
-<a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
-	Donate
-</a>	
-</div> 
-<div class="btn-add" id="DpHome"> 
-	<button class="DurbanPoisonHome" >
-		Select
-	</button>
+<div class="btn-add"> 
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
 </div>
 </div>
 </div>
