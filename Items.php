@@ -1301,9 +1301,9 @@ Batch H
 </a>
 </h3>
 <div class="wrap-price">
-<div class="wrap-price">
 <div class="wrapp-swap">
 <div class="swap-elements"> 
+<span class="price">
 <span class="price">
 <span class="woocommerce-Price-amount amount">
 <span class="woocommerce-Price-currencySymbol">
@@ -1312,7 +1312,6 @@ Batch H
 
 </span>
 
-</span>
 </span>
 </span>
 <div class="btn-add"> 
