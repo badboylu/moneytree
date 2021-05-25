@@ -169,7 +169,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 1.1 This agreement herein may be changed without notice. Your continued use of this Site after any such changes constitutes your acceptance of the new Disposal Agent agreement and its terms and conditions.
 </p>
 <p>
-1.2 This agreement herein applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with the SAPS for the disposal of cannabis waste material or otherwise.
+1.2 This agreement herein applies exclusively to your access to, and use of, this Site and does not alter in any way, the terms or conditions of any other agreement you may have with the SAPS.
 </p>
 <p>
 1.3 The headings of the clauses in the conditions is provided for convenience and ease of reference only and will not be used to interpret, modify or amplify the terms of the conditions.
@@ -178,7 +178,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 1.4 No failure or delay by the SAPS to exercise any of its rights will be construed as a waiver of any such right, whether this is done expressly or implied, nor will it affect the validity of any part of this Disposal Agent agreement or prejudice our right to take subsequent action against the Agent.
 </p>
 <p>
-1.5 This Disposal Agent agreement applies exclusively to your access to the site as well as the use of this Site including but not limited to the disposing of SAPS cannabis waste material. This agreement does not alter in any way, the terms or conditions of any other agreement you may have with the SAPS for the service of disposing of cannabis waste material.
+1.5 This Disposal Agent agreement applies exclusively to your access to the site as well as the use of this Site including but not limited to the disposing of SAPS cannabis waste material.
 </p>
 <p>
 <strong>
@@ -186,7 +186,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-2.1 All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of, or are licensed to the SAPS and as such are protected from infringement by local and international legislation and treaties.
+2.1 All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements are licensed to the SAPS and as such are protected from infringement by local and international legislation and treaties.
 </p>
 <p>
 <strong>
@@ -194,24 +194,24 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-3.1 By agreeing to the term and conditions of this contract and thenafter gaining access to the site, you agree to become an SAPS independent subcontractor obligated to dispose products for the SAPS at no compensation and are given the title of Disposal Agent.
+3.1 By agreeing to the term and conditions of this contract and thenafter gaining access to the site, you agree to become an SAPS independent subcontractor obligated to dispose cannabis waste material for the SAPS in at no monetary compensation and are given the title of Disposal Agent.
 </p>
 <p>
-3.2 By agreeing to the term and conditions of this contract and thenafter gaining access to the site, you agree to become a participant in the SAPS web application study until notice is give by the SAPS indicating the website development experiment has been concluded.
+3.2 By agreeing to the term and conditions of this contract and thenafter gaining access to the site, you agree to become a participant in the SAPS web application study conducted through the site until notice is give by the SAPS indicating the study has been concluded.
 </p>
 <p>
 3.3 The SAPS grants you a limited license to make use of the Site. Such grant does not include, without limitation: (a) any resale of the cannabis waste material to be disposed of; (b) making derivative uses of the Site and its contents; or (c) use of any data mining, robots or similar data gathering and extraction methods. Except as noted above, you are not conveyed any right or license by implication, estoppel or otherwise in or under any patent, trademark, copyright or proprietary right of the SAPS or any third party.
 </p>
 <p>
-3.4 You may not use, frame or utilize framing techniques to enclose any Canibu site trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without an authorised SAPS personnel's express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing the Canibu site name, trademark or product name without an authorised SAPS personnel's express written consent.
+3.4 You may not use, frame or utilize framing techniques to enclose any Canibu site trademark, logo or other proprietary information (including the images found at this Site, the content of any text or the layout/design of any page or form contained on a page) without an authorised SAPS personnel's express written consent. Further, you may not use any meta tags or any other “hidden text” utilizing the Canibu site name or trademark without an authorised SAPS personnel's express written consent.
 </p>
 <p>
 <strong>
-4. PRODUCT DISPOSAL
+4. SAPS CANNABIS WASTE DISPOSAL
 </strong>
 </p>
 <p>
-4.1 The SAPS makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any products by the Disposal Agent. The product disposal methods employed by Disposal Agents are not under the control of the SAPS and furthermore the SAPS is not responsible for the illegal use and or application of the products to be disposed of.
+4.1 The SAPS makes no claim or representation regarding, and accepts no responsibility for, the safe handling and disposal of any cannabis waste material by the Disposal Agent. The disposal methods employed by Disposal Agents are not under the control of the SAPS and furthermore the SAPS is not responsible for the illegal use and/or application of the cannabis waste material to be disposed of.
 </p>
 <p>
 <strong>
@@ -219,7 +219,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-5.1.1 In using this Site, and after receiving products to dispose of, you agree:
+5.1.1 In using this Site, and after receiving cannabis waste material to dispose of, you agree:
 </p>
 <p>
 5.1.2 Not to violate any of the agreed upon terms and conditions stated herein this agreement.
@@ -231,7 +231,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 5.1.4 Not to violate, or attempt to violate the security of Canibu site. Violations of system or network security may result in civil or criminal liability. The SAPS will investigate occurrences, which may involve such violations and may result in the prosecution of the disposal agents who are involved in such violations.
 </p>
 <p>
-5.2 In addition, disposal agents agree that they are solely responsible for their actions of disposing products for the SAPS and that they will comply with all applicable local, national and international laws and regulations in this regard.
+5.2 In addition, disposal agents agree that they are solely responsible for their actions in disposing cannabis waste material for the SAPS and that they will comply with all applicable local, national and international laws and regulations in this regard.
 </p>
 <p>
 <strong>
@@ -239,7 +239,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-6.1 Disposal Agents shall remain solely liable for the safe and legal disposal of any products delivered by the SAPS.
+6.1 Disposal Agents shall remain solely liable for the safe and legal disposal of any cannabis waste material delivered by the SAPS.
 </p>
 <p>
 6.2 Disposal Agents agree to indemnify and hold harmless the SAPS from any claim, action, demand, loss or damages (including attorneys’ fees) made or incurred by any third party arising out of or relating to your conduct, your violation of this Disposal Agent agreement, or your violation of any rights of a third party.
@@ -258,7 +258,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-8.1 The information in all e-mail messages (document and attachments) sent by an employee / electronic agent / a legal member of the SAPS is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
+8.1 The information in all e-mail messages (document and attachments) sent by an employee or a legal member of the SAPS is confidential and may be legally privileged. The information transmitted is intended only for the person(s) or entity to which it is addressed. If you are not the intended recipient(s), please notify the sender immediately and then delete this email (document and attachments). Do not disclose the contents of this email (document and attachments) to any other person, nor make any copies thereof.
 </p>
 <p>
 8.2 Internet communications cannot be guaranteed to be secure or error-free. Neither the SAPS nor the sender accepts liability for any errors or omissions in the contents of messages which arise as a result of email transmission. Also take note that emails can possibly contain viruses and that the recipient is responsible for checking and deleting viruses. In no event will the SAPS or the sender be liable to anyone for any indirect, special, consequential or direct damages arising from the transmission of email messages, the opening of email messages and their attachments, or any use thereof whatsoever.
@@ -272,10 +272,10 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-9.1 Disposal Agents acknowledge that the SAPS is not offering any of the displayed products on the site for sale and the Service Agents are providing to the SAPS upon receiving the SAPS cannabis waste material is the disposal service of the material. It must be acknowledged that there is no sale of cannabis material in any form.
+9.1 Disposal Agent acknowledges that the SAPS is not offering any of the displayed items on the site for sale and the Disposal Agents are providing to the SAPS upon receiving the SAPS cannabis waste material the service of disposing of the cannabis waste material.
 </p>
 <p>
-9.2 Disposal Agents acknowledge that any funds paid to the SAPS by the Disposal Agent through the payment method/s on the Canibu site is not a purchase of any product or service but a donation to the the SAPS.
+9.2 Disposal Agent acknowledges that any funds paid to the SAPS by the Disposal Agent through the payment method/s on the Canibu site is taken as a willing donation to the the SAPS.
 </p>
 <p>
 <strong>
@@ -283,10 +283,10 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-10.1 Disposal Agents agree that on receiving products from the SAPS, you will disposed the products using methods safe enough not to cause harm to another person or to the Disposal Agent.
+10.1 Disposal Agent agrees that on receiving products from the SAPS, they will disposed the cannabis waste material using methods safe enough not to cause harm to another person or to the Disposal Agent.
 </p>
 <p>
-10.2 Disposal Agents agree that products received from the SAPS for disposal shall be disposed of at the non-public premises.
+10.2 Disposal Agent agrees that products received from the SAPS for disposal, they shall be dispose the cannabis waste material at non-public premises only.
 </p>
 <p>
 <strong>
@@ -294,16 +294,16 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-11.1 Disposal Agents understand that the SAPS will charge fees to them for the delivery of the products to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees which may occur now or in the future.
+11.1 Disposal Agent understand that the SAPS will charge fees to them for the delivery of the cannabis waste material to be disposed of. These fees are available on the Site and may change from time to time. Your acceptance of this agreement indicates your acceptance of these fees and any change to these fees may occur at any date and time without notice.
 </p>
 <p>
-11.2 Disposal Agents understand that the SAPS will deliver products to Agents at any time and date. Data gathered from the site may be used to facilitate the delivery of the products to be Disposed.
+11.2 Disposal Agents understand that the SAPS will deliver cannabis waste material to Agents at any time and date. Data gathered from the site may be used to facilitate the delivery of the products to be Disposed of.
 </p>
 <p>
-11.3 Disposal Agents understand that the Canibu platform may be used to facilitate the delivery of the products to Agents.
+11.3 Disposal Agents understand that the Canibu platform is used to facilitate the delivery of the products to Agents.
 </p>
 <p>
-11.4 Disposal Agents will be informed when delivery of products to be disposed of have arrived at the Disposal Agents location.
+11.4 Disposal Agents will be informed when delivery of products to be disposed of have arrived at the Disposal Agents stated location.
 </p>
 <p>
 <strong>
@@ -346,7 +346,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 13.3 THE SAPS SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS IN CONNECTION WITH ANY ACTIONS OR TRANSACTIONS BY AN INDIVIDUAL THAT USES DISPOSAL AGENT USER NAME AND PASSWORD WITH THEIR CONSENT OR KNOWLEDGE OR ANY CAUSE OVER WHICH THE SAPS DOES NOT HAVE DIRECT CONTROL, INCLUDING, BUT NOT LIMITED TO, PROBLEMS ATTRIBUTABLE TO COMPUTER HARDWARE OR SOFTWARE (INCLUDING COMPUTER VIRUSES), TELEPHONES (OR OTHER COMMUNICATIONS EQUIPMENT), OR INTERNET SERVICE PROVIDERS.
 </p>
 <p>
-13.4 THE SAPS SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE PRODUCTS THAT ARE TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT WHEN THEY ACCESS THE SITE, AGENTS ARE PARTICIPATING IN THE CANIBU STUDY WHICH HAS A PURPOSE OF DATA GATHERING AS WELL AS A PURPOSE SHOWCASE THE SOFTWARE DEVELOPMENT CAPABILITIES OF KAHRENT TECHNOLOGY (PTY) LTD.
+13.4 THE SAPS SHALL HAVE NO LIABILITY TO DISPOSAL AGENTS OR THIRD PARTIES IN CONNECTION WITH ANY THE CANNABUS WASTE MATERIAL TO BE DISPOSED OF BEING MISUSED OR MISHANDLED BY DISPOSAL AGENTS. IT IS EXPRESSLY UNDERSTOOD THAT THE DISPOSAL AGENTS IS AWARE THAT WHEN THEY ACCESS THE SITE, AGENTS ARE PARTICIPATING IN THE CANIBU STUDY WHICH HAS A PURPOSE OF DATA GATHERING AS WELL AS A PURPOSE TO SHOWCASE THE SOFTWARE DEVELOPMENT CAPABILITIES OF KAHRENT TECHNOLOGY (PTY) LTD.
 <
 <p>
 13.5 The SAPS shall not be liable for any fraud, deception or misrepresentations by Disposal Agents of the Site's services in any capacity whatsoever.
@@ -371,7 +371,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </strong>
 </p>
 <p>
-15.1 The terms and conditions pertaining to any products or services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of the service offered on this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such products or services.
+15.1 The terms and conditions pertaining to any services appearing on this site or pages shall be governed and interpreted in accordance with the laws of the Republic of South Africa. Use of this site or pages will constitute the Disposal Agents consent and submission to the jurisdiction of the South African courts regarding all proceedings, transactions, applications or the like instituted by either party against the other, arising from any of the terms and conditions pertaining to this site or such services.
 </p>
 <p>
 <strong>
@@ -398,7 +398,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 18.1 The terms “Disposal Agent”,“You” and “Agent” are used interchangeably and refer to all individuals and/or entities accessing this web site as Disposal Agents for any reason.
 </p>
 <p>
-18.2 The terms “we” and “Canibuy” are used interchangeably and refer to Canibuy itself and all individuals and/or entities acting directly on behalf of the SAPS.
+18.2 The terms “we” and “Canibu” are used interchangeably and refer to the canibu.co.za online platform.
 </p>
 <p>
 18.3 The terms “SAPS” is used to refer to the South Aftican Police Service.
