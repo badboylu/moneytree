@@ -1,5 +1,4 @@
 <?php
-   
  $servername="jhdjjtqo9w5bzq2t.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
  $dBUsername="db361uh5fgdhosa8";
  $dBPassword="c17zbecid7wripme";
@@ -991,16 +990,11 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		
 		</span>
 		</span>
-		<div class="btn-add" id="CcHomecart">
-			<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-				Donate
-			</a>	
-			</div>
-		<div class="btn-add" id="CcHome"> 
-			<button class="cannacapsHome">
-				Select
-			</button>
-		</div>
+		<div class="btn-add"> 
+	        <a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	        </button></a>
+                </div>
 		</div>
 		</div>
 		</div>
@@ -1050,16 +1044,11 @@ Batch C
 	
 	</span>
 	</span>
-	<div class="btn-add" id="OcHomecart">
-		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div> 
-		<div class="btn-add" id="OcHome"> 
-			<button class="OrangeCaliHome" >
-				Select
-			</button>
-		</div>
+	<div class="btn-add"> 
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
+        </div>
 	</div>
 	</div>
 	</div>
@@ -1107,16 +1096,11 @@ Batch D
 	
 	</span>
 	</span>
-<div class="btn-add" id="BwHomecart">
-		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div>
-	<div class="btn-add"> 
-		<button class="BluntWrapHome" id="BwHome">
-			Select
-		</button>
-	</div>
+        <div class="btn-add"> 
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
+        </div>
 	</div>
 	</div>
 	</div>
@@ -1171,15 +1155,10 @@ Batch E
 
 </span>
 </span>
-<div class="btn-add" id="PrHomecart">
-		<a href="Donor.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div>
 <div class="btn-add"> 
-	<button class="PreRollsHome" id="PrHome" >
-		Select
-	</button>
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
 </div>
 </div>
 </div>
@@ -1228,15 +1207,10 @@ Batch F
 
 </span>
 </span>
-<div class="btn-add" id="NlHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div>
 <div class="btn-add"> 
-	<button class="NorthernLightsHome" id="NlHome" >
-		Select
-	</button>
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
 </div>
 </div>
 </div>
@@ -1287,15 +1261,10 @@ Batch G
 
 </span>
 </span>
-<div class="btn-add" id="CCesHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div>
 <div class="btn-add"> 
-	<button class="CannacapsESHome" id="CCesHome" >
-		Select
-	</button>
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
 </div>
 </div>
 </div>
@@ -1346,15 +1315,10 @@ Batch H
 </span>
 </span>
 </span>
-<div class="btn-add" id="PeHomecart">
-		<a href="Cart.php?auth=<?php echo $_GET['auth'];?>">
-			Donate
-		</a>	
-		</div>
 <div class="btn-add"> 
-	<button class="PineappleExpressHome" id="PeHome" >
-		Select
-	</button>
+	<a href="BatchA.php"><button class="DurbanPoisonHome" >
+		View
+	</button></a>
 </div>
 </div>
 </div>
