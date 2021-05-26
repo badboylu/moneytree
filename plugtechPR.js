@@ -1,7 +1,7 @@
 const cartsPR = document.querySelectorAll('.PreRolls');
 const moreGramsPR = document.querySelectorAll('.moreGramsPreRolls');
 const lessGramsPR = document.querySelectorAll('.lessGramsPreRolls');
-var pricePR = 40;
+var pricePR = 30;
 
 cartsPR.forEach(PreRolls =>{
         PreRolls.addEventListener('click', () => {
@@ -88,12 +88,12 @@ function addGramsNumbersPR() {
         let ifavailablePR = localStorage.getItem('GramsPR')
         ifavailablePR = parseInt(ifavailablePR);
                if(ifavailablePR) {
-                localStorage.setItem('GramsPR',(ifavailablePR) + 1);
+                localStorage.setItem('GramsPR',(ifavailablePR) + 5);
                 let gramsNumberaddPR = localStorage.getItem('GramsPR'); 
                 gramsNumberaddPR = parseInt(gramsNumberaddPR);
                 document.querySelector('.gramsamountPR').textContent =parseInt(gramsNumberaddPR);
                }else{
-                localStorage.setItem('GramsPR', 1 );       
+                localStorage.setItem('GramsPR', 5 );       
                 document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumberaddPR);
                }
 }
@@ -105,8 +105,8 @@ function minusGramsNumbersPR() {
         let gramsNumbersminusPR = localStorage.getItem('GramsPR'); 
         gramsNumbersminusPR = parseInt(gramsNumbersminusPR);
                if(gramsNumbersminusPR) {
-                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 1));
-                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -1;
+                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 5));
+                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -5;
                }else{
                 document.querySelector('.gramsamountPR').textContent = 0;   
 }
