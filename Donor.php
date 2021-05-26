@@ -234,13 +234,13 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1595155865/cannacaps.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2CC"><strong>Dabcapsules (light)</strong></span>
+                <span class = "DPcontainer2CC"><strong>Batch B</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3CC">R120 per/Batch</span>
+                <span class = "DPcontainer3CC">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsCC" id="CCgrams"> 
@@ -489,10 +489,10 @@ class="single-product-page single-product-content product-design-default product
                         <img src="https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088623/_DSC6572_zun5in.jpg" class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2"><strong>Durban Poison</strong></span>
+                <span class = "DPcontainer2"><strong>Batch A</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3">R18 per/Gram</span>
+                <span class = "DPcontainer3">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantity" id="DPgrams"> 
