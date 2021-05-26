@@ -39,7 +39,7 @@ iconsAdd.style.cursor = 'pointer';
 iconsMinus.style.cursor = 'pointer';
 
 iconsAddBW.onclick = function() {
-var priceBW = 20;
+var priceBW = 30;
    localStorage.setItem('totalCostBW', priceBW);
    var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
    cartCostBW = parseInt(cartCostBW);
@@ -52,18 +52,18 @@ var priceBW = 20;
    let ifavailableBW = localStorage.getItem('PacksBW')
         ifavailableBW = parseInt(ifavailableBW);
                if(ifavailableBW) {
-                localStorage.setItem('PacksBW',(ifavailableBW) + 1);
+                localStorage.setItem('PacksBW',(ifavailableBW) + 5);
                 let gramsNumberaddBW = localStorage.getItem('PacksBW'); 
                 gramsNumberaddBW = parseInt(gramsNumberaddBW);
                 document.querySelector('.gramsamountBW').textContent =parseInt(gramsNumberaddBW);
                }else{
-                localStorage.setItem('PacksBW', 1 );       
+                localStorage.setItem('PacksBW', 5 );       
                 document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumberaddBW);
                }
 };
 
 iconsMinusBW.onclick = function() {
-   var priceBW = 20;
+   var priceBW = 30;
     localStorage.setItem('totalCostBW', priceBW);
         var cartCostBW= localStorage.getItem('totalCostBW', priceBW);
         cartCostBW = parseInt(cartCostBW);
@@ -75,8 +75,8 @@ iconsMinusBW.onclick = function() {
    let gramsNumbersminusBW = localStorage.getItem('PacksBW'); 
         gramsNumbersminusBW = parseInt(gramsNumbersminusBW);
                if(gramsNumbersminusBW) {
-                localStorage.setItem('PacksBW', gramsNumbersminusBW = (gramsNumbersminusBW - 1));
-                document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumbersminusBW) -1;
+                localStorage.setItem('PacksBW', gramsNumbersminusBW = (gramsNumbersminusBW - 5));
+                document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumbersminusBW) -5;
                }else{
                 document.querySelector('.gramsamountBW').textContent = 0;   
 }
@@ -92,7 +92,7 @@ iconsMinusBW.onclick = function() {
 };
 
 iconsAddOC.onclick = function() {
-  var priceOC = 15;
+  var priceOC = 30;
   localStorage.setItem('totalCostOC', priceOC);
         var cartCostOC= localStorage.getItem('totalCostOC', priceOC);
         cartCostOC = parseInt(cartCostOC);
@@ -115,7 +115,7 @@ iconsAddOC.onclick = function() {
 };
 
 iconsMinusOC.onclick = function() {
-  var priceOC = 15;
+  var priceOC = 30;
   localStorage.setItem('totalCostOC', priceOC);
         var cartCostOC= localStorage.getItem('totalCostOC', priceOC);
         cartCostOC = parseInt(cartCostOC);
@@ -143,7 +143,7 @@ iconsMinusOC.onclick = function() {
 };
 
 iconsAddCC.onclick = function() {
-var priceCC = 120;
+var priceCC = 30;
     localStorage.setItem('totalCostCC', priceCC);
         var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
         cartCostCC = parseInt(cartCostCC);
@@ -155,18 +155,18 @@ var priceCC = 120;
     let ifavailableCC = localStorage.getItem('BatchCC')
         ifavailableCC = parseInt(ifavailableCC);
                if(ifavailableCC) {
-                localStorage.setItem('BatchCC',(ifavailableCC) + 1);
+                localStorage.setItem('BatchCC',(ifavailableCC) + 5);
                 let gramsNumberaddCC = localStorage.getItem('BatchCC'); 
                 gramsNumberaddCC = parseInt(gramsNumberaddCC);
                 document.querySelector('.gramsamountCC').textContent =parseInt(gramsNumberaddCC);
                }else{
-                localStorage.setItem('BatchCC', 1 );       
+                localStorage.setItem('BatchCC', 5 );       
                 document.querySelector('.gramsamountCC').textContent = parseInt(gramsNumberaddCC);
                }
 };
 
 iconsMinusCC.onclick = function() {
-var priceCC = 120;
+var priceCC = 30;
     localStorage.setItem('totalCostCC', priceCC);
         var cartCostCC= localStorage.getItem('totalCostCC', priceCC);
         cartCostCC = parseInt(cartCostCC);
@@ -178,8 +178,8 @@ var priceCC = 120;
     let gramsNumbersminusCC = localStorage.getItem('BatchCC'); 
         gramsNumbersminusCC = parseInt(gramsNumbersminusCC);
                if(gramsNumbersminusCC) {
-                localStorage.setItem('BatchCC', gramsNumbersminusCC = (gramsNumbersminusCC - 1));
-                document.querySelector('.gramsamountCC').textContent = parseInt(gramsNumbersminusCC) -1;
+                localStorage.setItem('BatchCC', gramsNumbersminusCC = (gramsNumbersminusCC - 5));
+                document.querySelector('.gramsamountCC').textContent = parseInt(gramsNumbersminusCC) -5;
                }else{
                 document.querySelector('.gramsamountCC').textContent = 0;   
         }
@@ -194,7 +194,7 @@ var priceCC = 120;
 };
 
 iconsAddPR.onclick = function() {
-var pricePR = 40;
+var pricePR = 30;
   localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -206,18 +206,18 @@ var pricePR = 40;
     let ifavailablePR = localStorage.getItem('GramsPR')
         ifavailablePR = parseInt(ifavailablePR);
                if(ifavailablePR) {
-                localStorage.setItem('GramsPR',(ifavailablePR) + 1);
+                localStorage.setItem('GramsPR',(ifavailablePR) + 5);
                 let gramsNumberaddPR = localStorage.getItem('GramsPR'); 
                 gramsNumberaddPR = parseInt(gramsNumberaddPR);
                 document.querySelector('.gramsamountPR').textContent =parseInt(gramsNumberaddPR);
                }else{
-                localStorage.setItem('GramsPR', 1 );       
+                localStorage.setItem('GramsPR', 5 );       
                 document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumberaddPR);
                }
 };
 
 iconsMinusPR.onclick = function() {
-   var pricePR = 40;
+   var pricePR = 30;
      localStorage.setItem('totalCostPR', pricePR);
         var cartCostPR= localStorage.getItem('totalCostPR', pricePR);
         cartCostPR = parseInt(cartCostPR);
@@ -229,8 +229,8 @@ iconsMinusPR.onclick = function() {
     let gramsNumbersminusPR = localStorage.getItem('GramsPR'); 
         gramsNumbersminusPR = parseInt(gramsNumbersminusPR);
                if(gramsNumbersminusPR) {
-                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 1));
-                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -1;
+                localStorage.setItem('GramsPR', gramsNumbersminusPR = (gramsNumbersminusPR - 5));
+                document.querySelector('.gramsamountPR').textContent = parseInt(gramsNumbersminusPR) -5;
                }else{
                 document.querySelector('.gramsamountPR').textContent = 0;   
         }
@@ -245,7 +245,7 @@ iconsMinusPR.onclick = function() {
 };
 
 iconsAddCCES.onclick = function() {
-var priceCCES = 200;
+var priceCCES = 30;
   localStorage.setItem('totalCostCCes', priceCCes);
         var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
         cartCostCCes = parseInt(cartCostCCes);
@@ -257,18 +257,18 @@ var priceCCES = 200;
    let ifavailableCCes = localStorage.getItem('GramsCCes')
         ifavailableCCes = parseInt(ifavailableCCes);
                if(ifavailableCCes) {
-                localStorage.setItem('GramsCCes',(ifavailableCCes) + 1);
+                localStorage.setItem('GramsCCes',(ifavailableCCes) + 5);
                 let gramsNumberaddCCes = localStorage.getItem('GramsCCes'); 
                 gramsNumberaddCCes = parseInt(gramsNumberaddCCes);
                 document.querySelector('.gramsamountCCes').textContent =parseInt(gramsNumberaddCCes);
                }else{
-                localStorage.setItem('GramsCCes', 1 );       
+                localStorage.setItem('GramsCCes', 5 );       
                 document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumberaddCCes);
                }
 };
 
 iconsMinusCCES.onclick = function() {
-   var priceCCES = 200;
+   var priceCCES = 30;
     localStorage.setItem('totalCostCCes', priceCCes);
         var cartCostCCes= localStorage.getItem('totalCostCCes', priceCCes);
         cartCostCCes = parseInt(cartCostCCes);
@@ -280,8 +280,8 @@ iconsMinusCCES.onclick = function() {
     let gramsNumbersminusCCes = localStorage.getItem('GramsCCes'); 
         gramsNumbersminusCCes = parseInt(gramsNumbersminusCCes);
                if(gramsNumbersminusCCes) {
-                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 1));
-                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -1;
+                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 5));
+                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -5;
                }else{
                 document.querySelector('.gramsamountCCes').textContent = 0;   
         }
@@ -296,7 +296,7 @@ iconsMinusCCES.onclick = function() {
 };
 
 iconsAddNL.onclick = function() {
-var priceNL = 18;
+var priceNL = 30;
     localStorage.setItem('totalCostNL', priceNL);
         var cartCostNL= localStorage.getItem('totalCostNL', priceNL);
         cartCostNL = parseInt(cartCostNL);
@@ -319,7 +319,7 @@ var priceNL = 18;
 };
 
 iconsMinusNL.onclick = function() {
-   var priceNL = 18;
+   var priceNL = 30;
      localStorage.setItem('totalCostNL', priceNL);
         var cartCostNL= localStorage.getItem('totalCostNL', priceNL);
         cartCostNL = parseInt(cartCostNL);
@@ -347,7 +347,7 @@ iconsMinusNL.onclick = function() {
 };
 
 iconsAddPE.onclick = function() {
-var pricePE = 20;
+var pricePE = 30;
    localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -370,7 +370,7 @@ var pricePE = 20;
 };
 
 iconsMinusPE.onclick = function() {
-   var pricePE = 20;
+   var pricePE = 30;
     localStorage.setItem('totalCostPE', pricePE);
         var cartCostPE= localStorage.getItem('totalCostPE', pricePE);
         cartCostPE = parseInt(cartCostPE);
@@ -398,7 +398,7 @@ iconsMinusPE.onclick = function() {
 };
 
 iconsAdd.onclick = function() {
-var price = 18;
+var price = 30;
   localStorage.setItem('totalCostDP', price);
         var cartCost= localStorage.getItem('totalCostDP', price);
         cartCost = parseInt(cartCost);
@@ -421,7 +421,7 @@ var price = 18;
 };
 
 iconsMinus.onclick = function() {
-   var price = 18;
+   var price = 30;
    localStorage.setItem('totalCostDP', price);
         var cartCost= localStorage.getItem('totalCostDP', price);
         cartCost = parseInt(cartCost);
