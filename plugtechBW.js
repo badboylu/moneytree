@@ -1,7 +1,7 @@
 const cartsBW = document.querySelectorAll('.BluntWrap');
 const moreGramsBW = document.querySelectorAll('.moreGramsBluntWrap');
 const lessGramsBW = document.querySelectorAll('.lessGramsBluntWrap');
-var priceBW = 20;
+var priceBW = 30;
 
 cartsBW.forEach(BluntWrap =>{
     BluntWrap.addEventListener('click', () => {
@@ -89,12 +89,12 @@ function addGramsNumbersBW() {
         let ifavailableBW = localStorage.getItem('PacksBW')
         ifavailableBW = parseInt(ifavailableBW);
                if(ifavailableBW) {
-                localStorage.setItem('PacksBW',(ifavailableBW) + 1);
+                localStorage.setItem('PacksBW',(ifavailableBW) + 5);
                 let gramsNumberaddBW = localStorage.getItem('PacksBW'); 
                 gramsNumberaddBW = parseInt(gramsNumberaddBW);
                 document.querySelector('.gramsamountBW').textContent =parseInt(gramsNumberaddBW);
                }else{
-                localStorage.setItem('PacksBW', 1 );       
+                localStorage.setItem('PacksBW', 5 );       
                 document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumberaddBW);
                }
 }
@@ -106,8 +106,8 @@ function minusGramsNumbersBW() {
         let gramsNumbersminusBW = localStorage.getItem('PacksBW'); 
         gramsNumbersminusBW = parseInt(gramsNumbersminusBW);
                if(gramsNumbersminusBW) {
-                localStorage.setItem('PacksBW', gramsNumbersminusBW = (gramsNumbersminusBW - 1));
-                document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumbersminusBW) -1;
+                localStorage.setItem('PacksBW', gramsNumbersminusBW = (gramsNumbersminusBW - 5));
+                document.querySelector('.gramsamountBW').textContent = parseInt(gramsNumbersminusBW) -5;
                }else{
                 document.querySelector('.gramsamountBW').textContent = 0;   
 }
