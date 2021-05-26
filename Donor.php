@@ -320,13 +320,13 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_300,w_235/v1612773186/IMG_20210204_140203_317_hprh8d.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/v1595088823/_DSC6569_nk6rz5.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PR"><strong>Pre-rolls</strong></span>
+                <span class = "DPcontainer2PR"><strong>Batch E</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PR">R40 per/J</span>
+                <span class = "DPcontainer3PR">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsPR" id="PRgrams"> 
@@ -339,7 +339,7 @@ class="single-product-page single-product-content product-design-default product
 		    <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Joint/s
+                        Grams
                     </span>
                 </div>
             </div>
