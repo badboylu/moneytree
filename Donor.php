@@ -361,13 +361,13 @@ class="single-product-page single-product-content product-design-default product
                             </div>
                             <li> 
                             <img src="
-                            https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595155752/_DSC6512_jsmovp.jpg"  class = "DPcontainer1">
+                            https://res.cloudinary.com/badboylu/image/upload/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                         </li>
                     <li>	
-                    <span class = "DPcontainer2CCES"><strong>Dabcapsules (strong)</strong></span>
+                    <span class = "DPcontainer2CCES"><strong>Batch G</strong></span>
                 </li>
                 <li>
-                    <span class = "DPcontainer3CCES">R200 per/Batch</span>
+                    <span class = "DPcontainer3CCES">R30 per/gram</span>
                 </li>
                 <li>
                     <div class="quantitygramsCCES" id="CCESgrams"> 
@@ -380,7 +380,7 @@ class="single-product-page single-product-content product-design-default product
 		        <ion-icon name="caret-down-outline"></ion-icon>
 		        </div>
                         <span>
-                            Batch/es
+                            Grams
                         </span>
                     </div>
                 </div>
@@ -448,10 +448,10 @@ class="single-product-page single-product-content product-design-default product
                         https://res.cloudinary.com/badboylu/image/upload/c_fit,h_300,w_235/v1595088889/_DSC6536_aeu5je.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2PE"><strong>Pineapple Express</strong></span>
+                <span class = "DPcontainer2PE"><strong>Batch H</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3PE">R20 per/Gram</span>
+                <span class = "DPcontainer3PE">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsPE" id="PEgrams"> 
