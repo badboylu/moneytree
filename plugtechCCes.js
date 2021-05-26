@@ -1,7 +1,7 @@
 const cartsCCes = document.querySelectorAll('.CannacapsES');
 const moreGramsCCes = document.querySelectorAll('.moreGramsCannacapsES');
 const lessGramsCCes = document.querySelectorAll('.lessGramsCannacapsES');
-var priceCCes = 200;
+var priceCCes = 30;
 
 cartsCCes.forEach(CannacapsES =>{
         CannacapsES.addEventListener('click', () => {
@@ -88,12 +88,12 @@ function addGramsNumbersCCes() {
         let ifavailableCCes = localStorage.getItem('GramsCCes')
         ifavailableCCes = parseInt(ifavailableCCes);
                if(ifavailableCCes) {
-                localStorage.setItem('GramsCCes',(ifavailableCCes) + 1);
+                localStorage.setItem('GramsCCes',(ifavailableCCes) + 5);
                 let gramsNumberaddCCes = localStorage.getItem('GramsCCes'); 
                 gramsNumberaddCCes = parseInt(gramsNumberaddCCes);
                 document.querySelector('.gramsamountCCes').textContent =parseInt(gramsNumberaddCCes);
                }else{
-                localStorage.setItem('GramsCCes', 1 );       
+                localStorage.setItem('GramsCCes', 5 );       
                 document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumberaddCCes);
                }
 }
@@ -105,8 +105,8 @@ function minusGramsNumbersCCes() {
         let gramsNumbersminusCCes = localStorage.getItem('GramsCCes'); 
         gramsNumbersminusCCes = parseInt(gramsNumbersminusCCes);
                if(gramsNumbersminusCCes) {
-                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 1));
-                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -1;
+                localStorage.setItem('GramsCCes', gramsNumbersminusCCes = (gramsNumbersminusCCes - 5));
+                document.querySelector('.gramsamountCCes').textContent = parseInt(gramsNumbersminusCCee) -5;
                }else{
                 document.querySelector('.gramsamountCCes').textContent = 0;   
 }
