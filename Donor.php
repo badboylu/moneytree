@@ -253,7 +253,7 @@ class="single-product-page single-product-content product-design-default product
                     <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span>
-                        Batch/es
+                        Grams
                     </span>
                 </div>
             </div>
@@ -280,10 +280,10 @@ class="single-product-page single-product-content product-design-default product
 						https://res.cloudinary.com/badboylu/image/upload/c_thumb,h_600,w_1302/v1595088823/_DSC6569_nk6rz5.jpg"  class = "DPcontainer1">
 					</li>
 				<li>	
-				<span class = "DPcontainer2OC"><strong>California orange</strong></span>
+				<span class = "DPcontainer2OC"><strong>Batch C</strong></span>
 			</li>
 			<li>
-				<span class = "DPcontainer3OC">R15 per/Gram</span>
+				<span class = "DPcontainer3OC">R30 per/gram</span>
 			</li>
 			<li>
 				<div class="quantitygramsOC" id="OCgrams"> 
