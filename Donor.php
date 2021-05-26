@@ -403,13 +403,13 @@ class="single-product-page single-product-content product-design-default product
                         </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_fit,h_340,w_266/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/v1595088975/_DSC6533_vdjxdu.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2NL"><strong>Northern lights</strong></span>
+                <span class = "DPcontainer2NL"><strong>Batch F</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3NL">R18 per/Gram</span>
+                <span class = "DPcontainer3NL">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsNL" id="NLgrams"> 
