@@ -192,13 +192,13 @@ class="single-product-page single-product-content product-design-default product
 			    </div>
                         <li> 
                         <img src="
-                        https://res.cloudinary.com/badboylu/image/upload/c_scale,h_348,w_273/v1600203458/16b5858d0e5449cd7bd2bd858da19eda_uiupom.jpg"  class = "DPcontainer1">
+                        https://res.cloudinary.com/badboylu/image/upload/v1595088623/_DSC6572_zun5in.jpg"  class = "DPcontainer1">
                     </li>
                 <li>	
-                <span class = "DPcontainer2BW"><strong>Raw Rolling Paper</strong></span>
+                <span class = "DPcontainer2BW"><strong>Batch D</strong></span>
             </li>
             <li>
-                <span class = "DPcontainer3BW">R20 per/Pack</span>
+                <span class = "DPcontainer3BW">R30 per/gram</span>
             </li>
             <li>
                 <div class="quantitygramsBW" id="BWgrams"> 
@@ -211,7 +211,7 @@ class="single-product-page single-product-content product-design-default product
                     <ion-icon name="caret-down-outline"></ion-icon>
 		    </div>
                     <span class="gramsamountBW1">
-                        Pack/s
+                        Grams
                     </span>
                 </div>
             </div>
