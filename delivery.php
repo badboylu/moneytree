@@ -159,7 +159,7 @@ href="cannacaps.html" />
 		</span>
 		<span class="woocommerce-Price-amount amount">
 		<span class="woocommerce-Price-currencySymbol">
-		</span><span> </span><?php echo $_GET['totalamount'];?></span></span> 
+		</span><span> </span><span class="totalpricedelivery"></span></span></span> 
         </span> 
 	</a>
 	</div>
@@ -712,6 +712,9 @@ src="Inputhide.js" >
 </script>
 <script 
 src="Form.js" >
+</script>
+<script 
+src="Deliverypricedisplay.js" >
 </script>
 </body>
 </html>
