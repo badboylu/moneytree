@@ -120,7 +120,7 @@ $data = array(
     'merchant_key' => '46f0cd694581a',
     'return_url' => 'https://canibu.co.za/process2.php',
     'cancel_url' => 'https://canibu.co.za/process1.php',
-    'amount'=> '<span class="totalpricedelivery"></span>',
+    'amount'=> $total,
     'item_name' => 'Canibu Health Store',
 );
 $signature = generateSignature($data);
