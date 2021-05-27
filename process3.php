@@ -17,6 +17,11 @@ while($row2=mysqli_fetch_array($result2)){
  $token2[]=$row2['idOrder'];
 }
 $ordertoken2=Max($token2);
+
+$sql='DELETE FROM oders WHERE idOrderToken="'.$authtoken.'" AND idOrders="'.$ordertoken.'"';
+mysqli_query($conn, $sql);
+$sql3='DELETE FROM deliverytoken WHERE idOrderID="'.$authtoken.'" AND idOrder="'.$ordertoken2.'"';
+mysqli_query($conn, $sql3);
 ?>
 <html>
 <form action="F1.php" method="get" id="form">
