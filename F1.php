@@ -134,7 +134,7 @@ href="cannacaps.html" />
 </span>
 <h4 class="title" >
 <strong>
-Order Tracker
+Order cancelled
 </strong>
 <span class="title-separator">
 <span>
