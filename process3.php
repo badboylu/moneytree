@@ -5,6 +5,18 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
+$query='SELECT * FROM oders WHERE idOrderToken="'.$authtoken.'" ';
+$result=mysqli_query($conn,$query);
+while($row=mysqli_fetch_array($result)){
+ $token[]=$row['idOrders'];
+}
+$ordertoken=Max($token);
+$query2='SELECT * FROM deliverytoken WHERE idOrderID="'.$authtoken.'" ';
+$result2=mysqli_query($conn,$query2);
+while($row2=mysqli_fetch_array($result2)){
+ $token2[]=$row2['idOrder'];
+}
+$ordertoken2=Max($token2);
 ?>
 <html>
 <form action="F1.php" method="get" id="form">
