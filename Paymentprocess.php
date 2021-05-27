@@ -138,7 +138,7 @@ echo $htmlForm;
 <html>
 <script>
 function set(){
-localStorage.setItem('eTotal', "<?php echo $total; ?>");
+localStorage.setItem('eTotal', "<span class="totalpricedelivery"></span>");
 localStorage.setItem('eCity', "<?php echo $city; ?>");
 localStorage.setItem('eTown', "<?php echo $town; ?>");
 localStorage.setItem('eSuburb', "<?php echo $suburb; ?>");
@@ -165,6 +165,9 @@ localStorage.setItem('username', "<?php echo $username; ?>");
 localStorage.setItem('token', "<?php echo $authtoken; ?>");
 }
 set();
+</script>
+<script 
+src="Deliverypricedisplay.js" >
 </script>
 </html>
 <?php
