@@ -5,7 +5,8 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
-$query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
+$authtoken = "Collected";
+$query="SELECT * FROM deliverytoken WHERE idPrepperToken='".$collected."'";
 $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernm[]=$row['id'];
