@@ -133,16 +133,16 @@ $result=mysqli_query($conn,$query);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Collection protocol
+                                <h3>Order log
                                     <small>Delivery Agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Order database</li>
-                                <li class="breadcrumb-item active"> Data</li>
+                                
+                                <li class="breadcrumb-item">Order log</li>
+                                
                             </ol>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ $result=mysqli_query($conn,$query);
                             </tbody>
                         </table>
                                 <br>
-                                <button onclick='refreshPage()'>
+                                <button onclick='refreshPage();'>
 		                Update
 	                        </button>
                     </div>
@@ -198,7 +198,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 Plug Tech Creations.</p>
+                        <p class="mb-0">Copyright 2021 Kahrent Technology Africa Creations.</p>
                     </div>
                    
                 </div>
