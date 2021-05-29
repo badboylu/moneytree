@@ -122,7 +122,7 @@ $result=mysqli_query($conn,$query);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Collection protocol
+                                <h3>Collection codes
                                     <small>Distribution Agent</small>
                                 </h3>
                             </div>
