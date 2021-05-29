@@ -134,7 +134,7 @@ $result=mysqli_query($conn,$query);
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3>Collection protocol
-                                    <small>Distribution Agent</small>
+                                    <small>Delivery Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="4000px">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Collection codes</h5>
+                        <h5>Orders to deliver</h5>
                     </div>
                     <div class="card-body vendor-table">
                         <table class="display" id="basic-1">
@@ -174,7 +174,7 @@ $result=mysqli_query($conn,$query);
                                 
                                 <td><?php echo $rows['idLog']; ?> </td>
                                 <td><?php echo $rows['idOrderStat']; ?></td>
-                                <td>[<a href="L1.php?OD=<?php echo $rows['idOrderStat']; ?>">view</a>]</td>
+                                <td>[<a href="L1.php?OD=<?php echo $rows['idLog']; ?>">view</a>]</td>
                                 
                                 
 
@@ -183,9 +183,9 @@ $result=mysqli_query($conn,$query);
                             </tbody>
                         </table>
                                 <br>
-                                <form action="TokenReset.php" method="post" id="form">
-                                <input type="submit" name="Next" value="Clear records" id="Blanks" "/>
-                                </form>
+                                <button onclick='refreshPage()'>
+		                Update
+	                        </button>
                     </div>
                 </div>
             </div>
