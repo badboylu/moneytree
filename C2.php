@@ -5,18 +5,7 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
-$authtoken = "Collected";
-$query="SELECT * FROM deliverytoken WHERE idPrepperToken='".$collected."'";
-$result=mysqli_query($conn,$query);
-   while($row=mysqli_fetch_array($result)){
-   $ordernm[]=$row['id'];
-   }
-$query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
-$result=mysqli_query($conn,$query);
-   if($count>0){
-   while($row=mysqli_fetch_array($result)){
-   $check[]=$row['idOrderConfirmation'];
-   }
+$collected = "Collected";
 ?>
 <html lang="en">
 <head>
@@ -177,18 +166,26 @@ $result=mysqli_query($conn,$query);
                             </tr>
                             </thead>
                             <tbody>
-                            <?php 
-                            while($rows=mysqli_fetch_assoc($result)){
-                            ?>
+                            
                             <tr>
-                                
-                                <td><?php echo $rows['id']; ?>Testing</td>
-                                <td><?php echo $rows['idPrepperToken']; ?>Testing</td>
-                                
+                            <?php 
+                            $query="SELECT * FROM deliverytoken WHERE idPrepperToken='".$collected."'";
+                            $result=mysqli_query($conn,$query);
+                            while($row=mysqli_fetch_array($result)){
+                            ?>
+                                <td><?php echo $row['id'];</td>
+                            <?php } ?>
+                            <?php 
+                            $query="SELECT * FROM oders WHERE idOrderConfirmation='".$collected."' ";
+                            $result=mysqli_query($conn,$query);
+                            while($row=mysqli_fetch_array($result)){
+                            ?>
+                                <td><?php echo $row['idOrderConfirmation']; ?></td>
+                            <?php } ?>
                                 
 
                             </tr>
-                            <?php } ?>
+                            
                             </tbody>
                         </table>
                                 <br>
