@@ -6,6 +6,8 @@
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $collected = "Collected";
+$query="select * from deliverytoken";
+$result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
 <head>
@@ -131,8 +133,8 @@ $collected = "Collected";
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Order log
-                                    <small>Delivery Agent</small>
+                                <h3>Collection protocol
+                                    <small>Distribution Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -152,34 +154,31 @@ $collected = "Collected";
             <div class="container-fluid" width="4000px">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order log</h5>
+                        <h5>Collection codes</h5>
                     </div>
                     <div class="card-body vendor-table">
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
-                                <th>[Order#]</th>
-                                <th>[Status]</th>
-                                <th>[Location]</th>
+                                <th>Order I.D</th>
+                                <th>collection code</th>
                                 
                                
                             </tr>
                             </thead>
                             <tbody>
-                            
-                            <tr>
                             <?php 
-                            $query="SELECT * FROM deliverytoken WHERE idPrepperToken='".$collected."'";
-                            $result=mysqli_query($conn,$query);
-                            while($row=mysqli_fetch_array($result)){
+                            while($rows=mysqli_fetch_assoc($result)){
                             ?>
-                                <td><?php echo $row['id'];</td>
-                            <?php } ?>
-                            
+                            <tr>
+                                
+                                <td><?php echo $rows['id']; ?> </td>
+                                <td><?php echo $rows['idPrepperToken']; ?></td>
+                                
                                 
 
                             </tr>
-                            
+                            <?php } ?>
                             </tbody>
                         </table>
                                 <br>
