@@ -938,7 +938,7 @@ Batch A
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchA.php"><button>
+	<a href="BatchA.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
 </div>
@@ -991,7 +991,7 @@ sizes="(max-width: 273px) 100vw, 273px" />
 		</span>
 		</span>
 		<div class="btn-add"> 
-	        <a href="BatchB.php"><button>
+	        <a href="BatchB.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	        </button></a>
                 </div>
@@ -1045,7 +1045,7 @@ Batch C
 	</span>
 	</span>
 	<div class="btn-add"> 
-	<a href="BatchC.php"><button>
+	<a href="BatchC.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
         </div>
@@ -1097,7 +1097,7 @@ Batch D
 	</span>
 	</span>
         <div class="btn-add"> 
-	<a href="BatchD.php"><button>
+	<a href="BatchD.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
         </div>
@@ -1156,7 +1156,7 @@ Batch E
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchE.php"><button>
+	<a href="BatchE.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
 </div>
@@ -1208,7 +1208,7 @@ Batch F
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchF.php"><button>
+	<a href="BatchF.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
 </div>
@@ -1262,7 +1262,7 @@ Batch G
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchG.php"><button>
+	<a href="BatchG.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
 </div>
@@ -1315,7 +1315,7 @@ Batch H
 </span>
 </span>
 <div class="btn-add"> 
-	<a href="BatchH.php"><button>
+	<a href="BatchH.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
 </div>
