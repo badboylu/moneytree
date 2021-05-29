@@ -172,10 +172,9 @@ $count=mysqli_num_rows($result);
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
-                         <br>
+                         
                          <span></span>
-                         <br>
-                         <br>
+                         
                          </div>
                          
                          <form action="PH.php" method="get" id="form">
