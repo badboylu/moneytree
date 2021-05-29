@@ -31,7 +31,7 @@
 }
 
 .website-logo .logo {
-    background-image: url("../images/logo-light.svg");
+    background-image: url("https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png");
 }
 
 .website-logo .logo img {
@@ -43,7 +43,7 @@
 }
 
 .website-logo-inside .logo {
-    background-image: url("../images/logo-light.svg");
+    background-image: url("https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png");
 }
 
 .website-logo-inside .logo img {
