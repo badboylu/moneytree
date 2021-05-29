@@ -595,7 +595,7 @@ class="single-product-page single-product-content product-design-default product
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2020 Created by 
+2021 Created by 
 <span>
 Kahrent Technology
 </span>
