@@ -4,7 +4,6 @@
  $dBPassword="c17zbecid7wripme";
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
-$username = $_GET['username'];
 $authtoken = $_GET['auth'];
 $query='SELECT * FROM oders WHERE idOrderToken="'.$authtoken.'" ';
 $result=mysqli_query($conn,$query);
@@ -20,13 +19,10 @@ while($row2=mysqli_fetch_array($result2)){
 $ordertoken2=Max($token2);
 $sql="UPDATE oders SET idOrderConfirmation='Pending' WHERE idOrderToken='".$authtoken."' AND idOrders='".$ordertoken."' ";
 mysqli_query($conn,$sql);
-$sql2="UPDATE orderlog SET idOrderStat='Pending' WHERE idPrepperToken='".$authtoken."' ";
-mysqli_query($conn,$sql2);
 ?>
 
 <html>
 <form action="T1.php" method="get" id="form">
-<input type="hidden" name="username" value="" id="user">
 <input type="hidden" name="auth" value="" id="auth">
 <input type="hidden" name="eTotal" value="" id="eTotal">
 <input type="hidden" name="eCity" value="" id="eCity">
@@ -54,10 +50,6 @@ mysqli_query($conn,$sql2);
 <input type="hidden" name="eDate" value="" id="eDate">
 </form>
 <script>
-function user(){
-let user = localStorage.getItem('username');
-document.getElementById("user").value = user;
-}
 function auth(){
 let auth = localStorage.getItem('token');
 document.getElementById("auth").value = auth ;
@@ -157,7 +149,6 @@ function date(){
 let date = localStorage.getItem('eDate');
 document.getElementById("eDate").value = date ;
 }
-user();
 auth();
 total();
 city();
