@@ -6,7 +6,7 @@
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $collected = "Collected";
-$query="select * from deliverytoken";
+$query="SELECT * FROM orderlog WHERE idOrderStat='".$collected."' ";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
@@ -160,9 +160,9 @@ $result=mysqli_query($conn,$query);
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
-                                <th>Order I.D</th>
-                                <th>collection code</th>
-                                
+                                <th>[Order#]</th>
+                                <th>[Status]</th>
+                                <th>[Location]</th>
                                
                             </tr>
                             </thead>
@@ -172,8 +172,9 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['id']; ?> </td>
-                                <td><?php echo $rows['idPrepperToken']; ?></td>
+                                <td><?php echo $rows['idLog']; ?> </td>
+                                <td><?php echo $rows['idOrderStat']; ?></td>
+                                <td>[<a href="L1.php?OD=<?php echo $rows['idOrderStat']; ?>">view</a>]</td>
                                 
                                 
 
