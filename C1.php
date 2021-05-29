@@ -129,9 +129,9 @@ $result=mysqli_query($conn,$query);
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="adminCIB.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item">Order database</li>
-                                <li class="breadcrumb-item active"> Data</li>
+                                
+                                <li class="breadcrumb-item">Order log</li>
+                                
                             </ol>
                         </div>
                     </div>
