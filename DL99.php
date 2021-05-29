@@ -43,8 +43,8 @@ $count1=mysqli_num_rows($result1);
     <meta name="description" content="Multikart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Multikart admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
     <title>Delivery Agent</title>
 
     <!-- Google font-->
@@ -106,24 +106,14 @@ $count1=mysqli_num_rows($result1);
                     <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
                         <ul class="sidebar-submenu">
-                            <li>
-                                <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Active deliveries</span> 
-                                </a>
-                          
-                            </li>
+                            
                             <li>
                                 <a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Delivery protocol</span> 
+                                    <span>Deliver order</span> 
                                 </a>
                                 
                             </li>
-                            <li>
-                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending collections</span> 
-                                </a>
-                                
-                            </li>
+                            
                         </ul>
                     </li>
                     
@@ -131,15 +121,21 @@ $count1=mysqli_num_rows($result1);
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection protocol</a></li>
+                            <li>
+                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending collections</span> 
+                                </a>
+                                
+                            </li>
+                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collect order</a></li>
                             
                         </ul>
                     </li>
 
-                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Daily</a></li>
-                             <li><a href="#"><i class="fa fa-circle"></i>Monthly</a></li>
+                            <li><a href="C2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="C3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
@@ -161,7 +157,7 @@ $count1=mysqli_num_rows($result1);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy delivery
+                                <h3>Canibu delivery
                                     <small>Delivery management</small>
                                 </h3>
                             </div>
@@ -180,55 +176,15 @@ $count1=mysqli_num_rows($result1);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order collect protocol</h5>
+                        <h5>Collect order</h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
-                         <br>
-                         <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
-                         <br>
-                         <br>
+                         
+                         <strong><span></strong><span></span>
+                         
                          </div>
-                         <div id="hideDP">
-                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideOC">
-                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCC">
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePR">
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideNL">
-                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCCES">
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePE">
-                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
+                         
                          <form action="Collect.php" method="get" >
                          <label><strong>Collection code: </strong></label> <span> </span> 
                          <input type="text" name="Collect" placeholder="Enter code here" required>
