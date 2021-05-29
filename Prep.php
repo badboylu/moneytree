@@ -150,7 +150,7 @@ else{
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy distribution
+                                <h3>Canibu distribution
                                     <small>Distribution management</small>
                                 </h3>
                             </div>
