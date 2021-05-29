@@ -5,8 +5,17 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
-$query="select * from deliverytoken";
+$query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
 $result=mysqli_query($conn,$query);
+   while($row=mysqli_fetch_array($result)){
+   $ordernm[]=$row['id'];
+   }
+$query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
+$result=mysqli_query($conn,$query);
+   if($count>0){
+   while($row=mysqli_fetch_array($result)){
+   $check[]=$row['idOrderConfirmation'];
+   }
 ?>
 <html lang="en">
 <head>
