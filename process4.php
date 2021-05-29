@@ -5,14 +5,6 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
-$query='SELECT * FROM oders WHERE idOrderToken="'.$authtoken.'" ';
-$result=mysqli_query($conn,$query);
-while($row=mysqli_fetch_array($result)){
- $token[]=$row['idOrders'];
-}
-$ordertoken=Max($token);
-$sql="UPDATE oders SET idOrderConfirmation='Pending' WHERE idOrderToken='".$authtoken."' AND idOrders='".$ordertoken."' ";
-mysqli_query($conn,$sql);
 ?>
 
 <html>
