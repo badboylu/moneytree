@@ -44,8 +44,8 @@ else if($count1>2){
     <meta name="description" content="Multikart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Multikart admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
     <title>Delivery Agent</title>
 
     <!-- Google font-->
@@ -104,27 +104,17 @@ else if($count1>2){
                     <p>Delivery Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="DLH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
                         <ul class="sidebar-submenu">
-                            <li>
-                                <a href="Driver.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Active deliveries</span> 
-                                </a>
-                          
-                            </li>
+                            
                             <li>
                                 <a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Delivery protocol</span> 
+                                    <span>Deliver order</span> 
                                 </a>
                                 
                             </li>
-                            <li>
-                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending collections</span> 
-                                </a>
-                                
-                            </li>
+                            
                         </ul>
                     </li>
                     
@@ -132,20 +122,23 @@ else if($count1>2){
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection protocol</a></li>
+                            <li>
+                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending collections</span> 
+                                </a>
+                                
+                            </li>
+                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collect order</a></li>
                             
                         </ul>
                     </li>
 
-                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
-                            
+                            <li><a href="C2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="C3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
