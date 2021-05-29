@@ -177,42 +177,42 @@ else{
                          <br>
                          <br>
                          <div id="hideDP">
-                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideOC">
-                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> packs</span>
+                         <strong><span>Batch A:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCC">
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
+                         <strong><span>Batch B:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideOC">
+                         <strong><span>Batch C:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
+                         <br>
+                         <br>
+                         </div>
+                         <div id="hideBW">
+                         <strong><span>Batch D:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePR">
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
+                         <strong><span>Batch E:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideNL">
-                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
+                         <strong><span>Batch F:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hideCCES">
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
+                         <strong><span>Batch G:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> grams</span>
                          <br>
                          <br>
                          </div>
                          <div id="hidePE">
-                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
+                         <strong><span>Batch H:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
                          <br>
                          <br>
                          </div>
