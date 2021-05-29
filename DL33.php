@@ -164,7 +164,7 @@ if(!$count2){
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibuy delivery
+                                <h3>Canibu delivery
                                     <small>Delivery management</small>
                                 </h3>
                             </div>
@@ -187,51 +187,11 @@ if(!$count2){
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
-                         <br>
-                         <strong><span>Order number:</strong><span> </span>[000<?php print_r($row['idOrders']); ?>]</span>
-                         <br>
-                         <br>
+                         
+                         <strong><span></strong><span> </span></span>
+                         
                          </div>
-                         <div id="hideDP">
-                         <strong><span>Durban Poison:</strong><span> </span><?php print_r($row['idOrderDPgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideOC">
-                         <strong><span>Orange Cali:</strong><span> </span><?php print_r($row['idOrderOCgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideBW">
-                         <strong><span>Blunt wrap:</strong><span> </span><?php print_r($row['idOrderBWgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCC">
-                         <strong><span>Dabcaps:</strong><span> </span><?php print_r($row['idOrderCCbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePR">
-                         <strong><span>Pre-Rolls:</strong><span> </span><?php print_r($row['idOrderPRjays']); ?> Joints</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideNL">
-                         <strong><span>Northern Lights:</strong><span> </span><?php print_r($row['idOrderNLgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hideCCES">
-                         <strong><span>DabcapsES:</strong><span> </span><?php print_r($row['idOrderCCESbatches']); ?> batches</span>
-                         <br>
-                         <br>
-                         </div>
-                         <div id="hidePE">
-                         <strong><span>Pineapple Express:</strong><span> </span><?php print_r($row['idOrderPEgrams']); ?> grams</span>
-                         <br>
-                         <br>
-                         </div>
+                         
                          <form action="Deliver.php" method="get" id="form">
                          <label><strong>Delivery code: </strong></label> <span> </span> <input type="text" name="Deliver" placeholder="Enter code here" required>
                          <input type="submit" name="Delivered" value="Verify" id="Blanks">
