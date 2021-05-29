@@ -175,13 +175,7 @@ $collected = "Collected";
                             ?>
                                 <td><?php echo $row['id'];</td>
                             <?php } ?>
-                            <?php 
-                            $query="SELECT * FROM oders WHERE idOrderConfirmation='".$collected."' ";
-                            $result=mysqli_query($conn,$query);
-                            while($row=mysqli_fetch_array($result)){
-                            ?>
-                                <td><?php echo $row['idOrderConfirmation']; ?></td>
-                            <?php } ?>
+                            
                                 
 
                             </tr>
