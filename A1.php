@@ -157,7 +157,7 @@ Terms and Conditions
 
 <html>
 <p>
-Copyright © Canibu, registration number <strong>2021/661320/07</strong>, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibu site and the disposal of any cannabis waste material, users must be 18 years of age or older.
+Copyright © Canibu, company registration number <strong>2021/661320/07</strong>, Johannesburg, South Africa. All rights not expressly granted, are reserved. To obtain permission for the use of the Canibu site and the disposal of any cannabis waste material, users must be 18 years of age or older.
 </p>
 <p>
 BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU (THE “Disposal Agent”) ARE INDICATING THAT YOU ARE IN THE POSITION TO BE BOUND BY THIS CONTRACT AS WELL AS INDICATING YOUR ACCEPTANCE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS DISPOSAL AGENT AGREEMENT and are 18 years of age or older. 
