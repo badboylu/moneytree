@@ -796,7 +796,7 @@ class="menu">
 <div class="shopping-cart basel-cart-design-1 basel-cart-icon cart-widget-opener"> 
 <a href="Donor.php?auth=<?php echo $_GET['auth'];?>"> 
 <span>
-Donate (<span>o</span>)
+Donation gateway (<span>o</span>)
 </span> 
 <span class="basel-cart-totals"> 
 	<span class="basel-cart-numberCart">
