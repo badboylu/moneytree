@@ -823,48 +823,7 @@ Donate (<span>o</span>)
 class="page-title page-title-default title-size-small title-design-centered color-scheme-light without-title title-shop" 
 style="">
 <div class="container"> 
-<div class="nav-shop">
-<div  
-class="basel-show-categories">
-Selection
-</div>
-<ul class="basel-product-categories">
-<li class="cat-link shop-all-link">
-<a href="Items.php?auth=<?php echo $_GET['auth'];?>">
-All
-</a>
-</li>
-<li class="cat-item cat-item-163 wc-default-cat">
-</li>
-<li class="cat-item cat-item-58 ">
-<a 
-class="pf-value" 
-href="Flowers.php?auth=<?php echo $_GET['auth'];?>"
-data-val="bags" 
-data-title="Bags" >
-Flowers
-</a>
-</li>
-<li class="cat-item cat-item-63 ">
-<a 
-class="pf-value" 
-href="Edibles.php?auth=<?php echo $_GET['auth'];?>"
-data-val="accessories" 
-data-title="Accessories" >
-Edibles
-</a>
-</li>
-<li class="cat-item cat-item-62 ">
-<a 
-class="pf-value" 
-href="Accessories.php?auth=<?php echo $_GET['auth'];?>"
-data-val="jewellery" 
-data-title="Jewellery" >
-Accessories
-</a>
-</li>
-</ul>
-</div>
+
 </div>
 </div>
 <div class="container">
