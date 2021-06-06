@@ -165,7 +165,7 @@ $authtoken = $_GET['auth'];
 .page-title-default{background-color:black;background-size:cover}
 .topbar-wrapp{background-color:midnightblue}
 .main-header{border-color:#f5f5f5;border-style:solid;border-bottom-width:2pxpx}
-.footer-container{background-color:midnightblue}body,p,
+.footer-container{background-color:black}body,p,
 .widget_nav_mega_menu 
 .menu>li>a,
 .mega-navigation 
