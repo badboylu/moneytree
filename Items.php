@@ -163,7 +163,7 @@ $authtoken = $_GET['auth'];
 <meta name="generator" content="Powered by Slider Revolution 6.1.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <style data-type="basel-dynamic-css">
 .page-title-default{background-color:black;background-size:cover}
-.topbar-wrapp{background-color:yellow}
+.topbar-wrapp{background-color:gold}
 .main-header{border-color:#f5f5f5;border-style:solid;border-bottom-width:2pxpx}
 .footer-container{background-color:black}body,p,
 .widget_nav_mega_menu 
