@@ -752,7 +752,7 @@ close
 <div class="container">
 <div class="topbar-content">
 <div class="top-bar-left"> 
-<span>[<a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:orange;"> Delivery status </span></a>]</span>
+<span><a href="T1.php?auth=<?php echo $_GET['auth'];?>"><span style="color:blue;">[Delivery status]</span></a></span>
 </div>
 <div class="top-bar-right">
 <div class="topbar-menu">
