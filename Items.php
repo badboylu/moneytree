@@ -1067,10 +1067,6 @@ Batch D
 
 </div>
 </div>
-<div class="clearfix visible-xs-block">
-</div>
-<div class="clearfix visible-md-block visible-lg-block">
-</div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19730 status-publish first instock product_cat-accessories product_tag-basic product_tag-new has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
 data-loop="5" 
