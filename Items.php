@@ -1064,9 +1064,6 @@ Batch D
 	</div>
 	</div>
         </div>
-
-</div>
-</div>
 <div 
 class="product-grid-item basel-hover-alt product  col-md-3 col-sm-4 col-xs-6 first  type-product post-19730 status-publish first instock product_cat-accessories product_tag-basic product_tag-new has-post-thumbnail featured shipping-taxable purchasable product-type-variable" 
 data-loop="5" 
@@ -1273,6 +1270,8 @@ Batch H
 	<a href="BatchH.php?auth=<?php echo $_GET['auth'];?>"><button>
 		View
 	</button></a>
+</div>
+</div>
 </div>
 </div>
 </div>
