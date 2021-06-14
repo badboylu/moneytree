@@ -303,7 +303,7 @@ per/gram
 <span>
 Powered by the SAPS [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
 </span>
-<br>Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">[here]</a></div></div></div></div></footer></div>
+<br>Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">[Here]</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
