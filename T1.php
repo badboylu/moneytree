@@ -419,6 +419,13 @@ else{
  document.getElementById("collecthide3").style.display = "block";
  document.getElementById("deliveryhide3").style.display = "block";
  document.getElementById("preparehide3").style.display = "block";
+
+document.getElementById("timehide1").style.display = "none";
+document.getElementById("timehide2").style.display = "block";
+
+document.getElementById("etahide1").style.display = "none";
+document.getElementById("etahide2").style.display = "block";
+
 }
 }, 1000);
 
