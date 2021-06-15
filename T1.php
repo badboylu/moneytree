@@ -41,7 +41,7 @@ $pending = 'Pending';
    while($row=mysqli_fetch_array($result)){
    $check[]=$row['idOrderConfirmation'];
    }
-   echo $check;
+   
    if($check='Pending'||$check='Collected'||$check='Prepared'){
    $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."'";
    $result=mysqli_query($conn,$query);
@@ -56,14 +56,14 @@ $pending = 'Pending';
    $ordertoken[]=$row['idOrderToken'];
    }
    $token=Min($ordertoken); 
-   echo $token;
+   
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $custitoken[]=$row['idOrderCustiCode'];
    }
    $code=Min($custitoken); 
-   echo $code;
+   
    $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
@@ -71,6 +71,9 @@ $pending = 'Pending';
    }
    $ordernmb=Min($ordernm); 
    echo $ordernmb;
+   echo $prepared1;
+   echo $pending1;
+   echo $collected1;
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
