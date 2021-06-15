@@ -743,8 +743,5 @@ document.getElementById("total").value = total;
 }, 1000);
 setTotal();
 </script>
-
-
-
 </body>
 </html>
