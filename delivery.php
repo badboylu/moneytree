@@ -654,7 +654,7 @@ Delivery details
 <input type="hidden" name="CCESgrams" id="CCESgrams" value="">
 <input type="hidden" name="PEgrams" id="PEgrams" value="">
 <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
-<input type="hidden" name="totalamount" id="total" value="">
+<input type="hidden" name="totalamount" value="<?php echo $total ?>">
 <input type="submit" name="Pay" value="Submit">
 </form> 
 </div></div></div></div></div></div></div></article></div></div></div></div>
