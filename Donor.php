@@ -531,15 +531,15 @@ class="single-product-page single-product-content product-design-default product
                 <span class="totalDelivery">R30</span>
 		<br>
                 <span class="totalCart"><strong>Items</strong></span>
-                <span class="totalOrderR">R</span>
                 <span class="totalOrder"></span>
+                <span class="totalOrderR">R</span>
                         </div>
                         <div class='plugfooterEnd'></div>
                 <div class="totalsRow">
                 <span class="totalCart"><strong>Total</strong></span>
+                <span class="totalOrder1"></span>
                 <span class="totalOrderR1">R</span>
 		<div id="nodiscount">
-                <span class="totalOrder1"></span>
 		</div>
 		<div style="display:none" id="yesdiscount" >
                 <span class="totalOrder2">testing</span>
