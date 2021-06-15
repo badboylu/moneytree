@@ -718,7 +718,7 @@ setInterval (function discountdisplay(){
  let check = localStorage.getItem('discount'); 
  if(check){
  let display = localStorage.getItem('discount');
- display = parseInt(display) + 40;
+ display = parseInt(display) + 15;
  document.getElementById("promo").style.display = "block";
  document.getElementById("yesdiscount").style.display = "block";
  document.getElementById("nodiscount").style.display = "none";
@@ -733,11 +733,11 @@ setInterval (function setTotal(){
 let check = localStorage.getItem('discount');
 if(check){
 let discounttotal = localStorage.getItem('discount'); 
-discounttotal = parseInt(discounttotal) + 40;
+discounttotal = parseInt(discounttotal) + 15;
 document.getElementById("total").value =  discounttotal;
 }else{
 let total = localStorage.getItem('totalAmountNumber'); 
-total = parseInt(total) + 40;
+total = parseInt(total) + 15;
 document.getElementById("total").value = total;
 }
 }, 1000);
