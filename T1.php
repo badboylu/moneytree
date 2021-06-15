@@ -33,7 +33,7 @@ $pending = 'Pending';
    $pe = $_GET['ePE'];
    $contact = $_GET['eContact'];
    $date = $_GET['eDate'];
-   
+
    $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
    $count=mysqli_num_rows($result);
@@ -41,39 +41,31 @@ $pending = 'Pending';
    while($row=mysqli_fetch_array($result)){
    $check[]=$row['idOrderConfirmation'];
    }
-   
    if($check='Pending'||$check='Collected'||$check='Prepared'){
-   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."'";
+   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' AND idOrderConfirmation='".$pending."' OR idOrderConfirmation='".$prepared."' OR idOrderConfirmation='".$collected."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
    }
    $order=Min($ordernumbers);
-   echo $order;
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordertoken[]=$row['idOrderToken'];
    }
    $token=Min($ordertoken); 
-   
    $query="SELECT * FROM oders WHERE idOrders='".$order."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $custitoken[]=$row['idOrderCustiCode'];
    }
    $code=Min($custitoken); 
-   
    $query="SELECT * FROM deliverytoken WHERE idOrderID='".$token."' AND idCustomerToken='".$code."' ";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernm[]=$row['id'];
    }
    $ordernmb=Min($ordernm); 
-   echo $ordernmb;
-   echo $prepared1;
-   echo $pending1;
-   echo $collected1;
    $sql="SELECT * FROM oders WHERE idOrderConfirmation=? AND idOrderToken=? AND idOrders=? ";
    $stmt=mysqli_stmt_init($conn);
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -112,7 +104,6 @@ $pending = 'Pending';
     $prepared1='0';
     $collected1='0';
     $pending1='0';
-   }
    }else{
     $prepared1='0';
     $collected1='0';
@@ -141,14 +132,11 @@ $sql='SELECT idDate FROM address WHERE idOrderCustiCode="'.$code.'"';
    mysqli_stmt_bind_result($stmt, $hash1);
    while (mysqli_stmt_fetch($stmt)) { 
     $dateplaced=$hash1;
-	   
-$timeplacedReal= date('H:i', strtotime($timeplaced));
-$timeChange=date('H:i',strtotime('+45 minutes',strtotime($timeplaced)));
+    $timeplacedReal= date('H:i', strtotime($timeplaced));
+    $timeChange=date('H:i',strtotime('+45 minutes',strtotime($timeplaced)));
 }
 ?>
-<!DOCTYPE html> <!--[if IE 8]><html class="ie ie8" lang="en-US"> <![endif]--> <!--[if !(IE 7) & !(IE 8)]><!--><html lang="en-US"> <!--<![endif]-->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
