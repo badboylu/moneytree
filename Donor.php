@@ -528,7 +528,7 @@ class="single-product-page single-product-content product-design-default product
 		<br>
 		</div>
                 <span class="totalCart"><strong>Delivery</strong></span>
-                <span class="totalDelivery">R30</span>
+                <span class="totalDelivery">R15</span>
 		<br>
                 <span class="totalCart"><strong>Items</strong></span>
                 <span class="totalOrder"></span>
