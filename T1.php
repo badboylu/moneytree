@@ -9,7 +9,7 @@ $authtoken = $_GET['auth'];
 $prepared = 'Prepared';
 $collected = 'Collected';
 $pending = 'Pending';
-   
+$placed = 'Placed';
    $total = $_GET['eTotal'];
    $city = $_GET['eCity'];
    $town = $_GET['eTown'];
@@ -33,7 +33,8 @@ $pending = 'Pending';
    $pe = $_GET['ePE'];
    $contact = $_GET['eContact'];
    $date = $_GET['eDate'];
-   
+   $query="DELETE FROM oders WHERE idOrderConfirmation='".$placed."' ";
+   $result=mysqli_query($conn,$query);
    $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' ";
    $result=mysqli_query($conn,$query);
    $count=mysqli_num_rows($result);
@@ -42,7 +43,7 @@ $pending = 'Pending';
    $check[]=$row['idOrderConfirmation'];
    }
    if($check='Pending'||$check='Collected'||$check='Prepared'){
-   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."' AND idOrderConfirmation='".$pending."' OR idOrderConfirmation='".$prepared."' OR idOrderConfirmation='".$collected."' ";
+   $query="SELECT * FROM oders WHERE idOrderToken='".$authtoken."'";
    $result=mysqli_query($conn,$query);
    while($row=mysqli_fetch_array($result)){
    $ordernumbers[]=$row['idOrders'];
