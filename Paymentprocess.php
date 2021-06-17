@@ -170,4 +170,12 @@ set();
 src="Deliverypricedisplay.js" >
 </script>
 </html>
-
+<?php
+echo'
+<script>
+function submit(){
+document.getElementById("form").submit();
+}
+submit();
+</script>';
+?>
