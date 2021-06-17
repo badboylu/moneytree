@@ -184,11 +184,11 @@ Contact us
 <div class="col-left"> 
 <i class="fa fa-copyright">
 </i> 
-2021 Created by 
+2021 
 <span>
-Kahrent Technology
+Powered by the SAPS [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
 </span>
-Africa. Terms and conditions <a href="A1.php">(here)</a></div></div></div></div></footer></div>
+</div></div></div></div></footer></div>
 <div class="basel-close-side">
 </div>
 <div class="basel-toolbar icons-design-line basel-toolbar-label-show">
