@@ -152,7 +152,7 @@ href="cannacaps.html" />
 What is the purpose of the canibu platform?
 </strong></p>
 <p>
-The South African police service with the objective to assist people residing in South Africa to abide by the new Cannabis for Private Purposes Bill of 2020, has employed the use of the canibu platform to spread awareness, dispose seized cannabis and raise funds for the organization to help enhance service delivery to the community. 
+The South African police service with the objective to assist people residing in South Africa to abide by the new Cannabis for Private Purposes Bill of 2020, has employed the use of the canibu platform which was developed within the Technology innovation agency with the purpose to spread awareness, dispose seized cannabis and raise funds for the organization to help enhance service delivery to the community. 
 </p>
 <p><strong>
 How does the canibu platform operate?
