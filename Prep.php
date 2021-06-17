@@ -27,6 +27,14 @@ else{
     header("Location:D2.php?username=".$user."&auth=".$authtoken."");
     exit();
 }
+echo $row['idOrderDPgrams'];
+echo $row['idOrderCCbatches'];
+echo $row['idOrderOCgrams'];
+echo $row['idOrderBWgrams'];
+echo $row['idOrderPRjays'];
+echo $row['idOrderCCESbatches'];
+echo $row['idOrderNLgrams'];
+echo $row['idOrderPEgrams'];
 ?>
 <html lang="en">
 
