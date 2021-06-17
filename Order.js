@@ -7,13 +7,6 @@ var  orderCC = localStorage.getItem('BatchCC');
 var  orderCCES = localStorage.getItem('GramsCCes');
 var  orderPE = localStorage.getItem('GramsPE');
 var cartCost = localStorage.getItem('totalAmountNumber');
-if(cartCost == null){
-  cartCost = 0;
-  document.getElementById("total").value = cartCost;
-}else if(cartCost){
-  cartCost = parseInt(cartCost);
-  document.getElementById("total").value = cartCost + 30;
-}
 if(orderNL == null){
   orderNL = 0;
   document.getElementById("NLgrams").value = orderNL;
