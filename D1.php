@@ -94,7 +94,7 @@ $count=mysqli_num_rows($result);
                     <p>Distribution Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="PH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
                     <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
                         <ul class="sidebar-submenu">
                             <li>
@@ -181,7 +181,7 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 Plug Tech Creations.</p>
+                        <p class="mb-0">© 2021 Powered by the SAPS and TIA</p>
                     </div>
                    
                 </div>
@@ -241,6 +241,4 @@ function hideOrder(){
 hideOrder();
 </script>
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
 </html>
