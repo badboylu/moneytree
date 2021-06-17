@@ -223,7 +223,7 @@ else{
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 Plug Tech Creations.</p>
+                        <p class="mb-0">© 2021 Powered by the SAPS and TIA</p>
                     </div>
                    
                 </div>
@@ -305,6 +305,4 @@ if(PE == 0){
 hideOrder();
 </script>
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
 </html>
