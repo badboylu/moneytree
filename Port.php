@@ -33,7 +33,7 @@ src="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015
 alt="" /> 
 </div>
 </p>
-                        <p style="color:grey;" ><small>Powered by the <a href="https://www.saps.gov.za">SAPS</a> and <a href="https://www.tia.org.za">TIA</a></small></p>
+                        <p style="color:grey;" ><small>Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></small></p>
                         <p style="color:grey;" ><small>About us [<a href="A3.php"><span>info<span></a>]</small></p>
                         <p style="color:grey;" ><small>Operations login [<a href="Signin.php"><span>click here<span></a>]</small></p>
                         <p><small>To enter you must acknowledge the following:</small></p>
