@@ -422,7 +422,7 @@ BY AGREEING TO THIS AGREEMENT AND USING THE CANIBU WEBSITE (THE “SITE”), YOU
 </i> 
 2021 
 <span>
-Powered by the SAPS and TIA [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions
+Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a> [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions
 </span>
 <br>Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">[Here]</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
