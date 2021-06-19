@@ -9,19 +9,19 @@
    $date = date("Y-m-d");
    date_default_timezone_set('Africa/Johannesburg');
    
-$query3="SELECT * FROM oders WHERE idOrderConfirmation='Pending'";
+$query3="SELECT * FROM oders WHERE idOrderConfirmation='Pending' AND idOrderDate='".$date."'";
 $result3=mysqli_query($conn,$query3);
 $count3=mysqli_num_rows($result3);
  if (!$count3){
     $count3='0';
 }
-$query1="SELECT * FROM deliverytoken WHERE idUsername='".$prepper."'";
+$query1="SELECT * FROM deliverytoken WHERE idUsername='".$prepper."' AND idDate='".$date."'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
   if (!$count1){
     $count1='0';
 }
-$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' OR idPrepperToken='Delivered' ";
+$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' OR idPrepperToken='Delivered' AND idDate='".$date."'";
 $result2=mysqli_query($conn,$query2);
 $count2=mysqli_num_rows($result2);
   if (!$count2){
@@ -296,6 +296,4 @@ pay();
 </script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:31:08 GMT -->
 </html>
