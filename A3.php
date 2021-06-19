@@ -227,7 +227,7 @@ SAPS is raising funds for the enhancement of service delivery through donations 
 </i> 
 2021 
 <span>
-Powered by the SAPS and TIA<br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
+Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a><br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
 </span>
 <br>Contact us <a href="C.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">[Here]</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
