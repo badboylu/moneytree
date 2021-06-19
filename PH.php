@@ -221,7 +221,7 @@ $count5=$count2+$count4;
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">© 2021 Powered by the SAPS and TIA</p>
+                        <p class="mb-0">© 2021 Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></p>
                     </div>
                     <div class="col-md-6">
                         <p class="pull-right mb-0"></p>
