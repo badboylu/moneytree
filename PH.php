@@ -9,19 +9,19 @@
    $date = date("Y-m-d");
    date_default_timezone_set('Africa/Johannesburg');
    
-$query3="SELECT * FROM oders WHERE idOrderConfirmation='Pending' AND WHERE idOrderDate='".$date."'";
+$query3="SELECT * FROM oders WHERE idOrderConfirmation='Pending' AND idOrderDate='".$date."'";
 $result3=mysqli_query($conn,$query3);
 $count3=mysqli_num_rows($result3);
  if (!$count3){
     $count3='0';
 }
-$query1="SELECT * FROM deliverytoken WHERE idUsername='".$prepper."' AND WHERE idDate='".$date."'";
+$query1="SELECT * FROM deliverytoken WHERE idDate='".$date."' AND idUsername='".$prepper."'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
   if (!$count1){
     $count1='0';
 }
-$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' OR idPrepperToken='Delivered' AND WHERE idDate='".$date."'";
+$query2="SELECT * FROM deliverytoken WHERE idDate='".$date."' AND idPrepperToken='Collected' OR idPrepperToken='Delivered'";
 $result2=mysqli_query($conn,$query2);
 $count2=mysqli_num_rows($result2);
   if (!$count2){
