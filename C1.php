@@ -5,7 +5,9 @@
  $dBName="uozxi82sks708ppq";
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
-$query="select * from deliverytoken";
+$date = date("Y-m-d");
+date_default_timezone_set('Africa/Johannesburg');
+$query="select * from deliverytoken WHERE idDate='".$date."'";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
@@ -186,7 +188,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2021 Kahrent Technology Africa</p>
+                        <p class="mb-0">© 2021 Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></p>
                     </div>
                    
                 </div>
@@ -229,6 +231,4 @@ $result=mysqli_query($conn,$query);
 <script src="admin-script.js"></script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
 </html>
