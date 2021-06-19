@@ -132,7 +132,7 @@ $result=mysqli_query($conn,$query);
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
                                 
-                                <li class="breadcrumb-item">Order log</li>
+                                <li class="breadcrumb-item">collection log</li>
                                 
                             </ol>
                         </div>
@@ -145,7 +145,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="4000px">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Collection codes</h5>
+                        <h5>Driver collection log</h5>
                     </div>
                     <div class="card-body vendor-table">
                         <table class="display" id="basic-1">
