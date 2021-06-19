@@ -1299,7 +1299,7 @@ Batch H
 </i> 
 2021 
 <span>
-Powered by the SAPS and the TIA [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
+Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a> [<a href="A3.php?auth=<?php echo $_GET['auth'];?>">About us</a>]<br>Terms and conditions [<a href="A1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">Here</a>]
 </span>
 <br>Contact us [<a href="C.php?auth=<?php echo $_GET['auth'];?>">Here</a>]</a></div></div></div></div></footer></div>
 <div class="basel-close-side">
