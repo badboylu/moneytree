@@ -151,8 +151,8 @@ $result=mysqli_query($conn,$query);
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
-                                <th>Order I.D</th>
-                                <th>collection code</th>
+                                <th>Order#</th>
+                                <th>Collection code</th>
                                 
                                
                             </tr>
