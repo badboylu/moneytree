@@ -21,11 +21,15 @@ $count1=mysqli_num_rows($result1);
   if (!$count1){
     $count1='0';
 }
-$query2="SELECT * FROM deliverytoken WHERE idDate='".$date."' AND idPrepperToken='Collected' OR idPrepperToken='Delivered'";
+$query2="SELECT * FROM deliverytoken WHERE idDate='".$date."' AND idPrepperToken='Collected'";
 $result2=mysqli_query($conn,$query2);
 $count2=mysqli_num_rows($result2);
-  if (!$count2){
-    $count2='0';
+$query4="SELECT * FROM deliverytoken WHERE idDate='".$date."' AND idPrepperToken='Delivered'";
+$result4=mysqli_query($conn,$query4);
+$count4=mysqli_num_rows($result4);
+$count5=$count2+$count4;
+  if (!$count5){
+    $count4='0';
 }
 ?>
 <!DOCTYPE html>
@@ -200,7 +204,7 @@ $count2=mysqli_num_rows($result2);
                                         <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
                                     </div>
                                     <div class="media-body col-8"><span class="m-0">Orders distributed</span>
-                                        <h3 class="mb-0"><span class="counter"><?php print_r($count2); ?></span><small> Today</small></h3>
+                                        <h3 class="mb-0"><span class="counter"><?php print_r($count5); ?></span><small> Today</small></h3>
                                     </div>
                                 </div>
                             </div>
