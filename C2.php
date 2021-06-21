@@ -171,7 +171,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td>00<?php echo $rows['idLog']; ?> </td>
+                                <td>00<?php echo $rows['idOrderNumber']; ?> </td>
                                 <td><?php echo $rows['idOrderStat']; ?></td>
                                 <td>[<a href="L1.php?OD=<?php echo $rows['idLog']; ?>">view</a>]</td>
                                 
