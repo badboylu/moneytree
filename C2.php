@@ -78,21 +78,17 @@ $result=mysqli_query($conn,$query);
                     <p>Delivery Agent</p>
                 </div>
                 <ul class="sidebar-menu">
-                    <li><a class="sidebar-header" href="PH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order Preparation</span></a>
+                    <li><a class="sidebar-header" href="DLH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Order delivery</span></a>
                         <ul class="sidebar-submenu">
+                            
                             <li>
-                                <a href="Prep.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Pending orders</span> 
-                                </a>
-                          
-                            </li>
-                            <li>
-                                <a href="D2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
-                                    <span>Scan pending orders</span> 
+                                <a href="DL33.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Deliver order</span> 
                                 </a>
                                 
                             </li>
+                            
                         </ul>
                     </li>
                     
@@ -100,20 +96,23 @@ $result=mysqli_query($conn,$query);
                     
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Order collection</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="C1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collection codes</a></li>
+                            <li>
+                                <a href="DL01.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>
+                                    <span>Scan pending collections</span> 
+                                </a>
+                                
+                            </li>
+                            <li><a href="DL99.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Collect order</a></li>
                             
                         </ul>
                     </li>
 
-                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>History</span></a>
+                    <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#"><i class="fa fa-circle"></i>Transactions</a></li>
-                            
+                            <li><a href="C2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Daily</a></li>
+                             <li><a href="C3.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i class="fa fa-circle"></i>Monthly</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="sidebar-header" href="#"><i data-feather="bar-chart"></i><span>Reports</span></a></li>
-                    
                     <li><a class="sidebar-header" href="Logout.php"><i data-feather="log-in"></i><span>Logout</span></a>
                     </li>
                 </ul>
@@ -172,7 +171,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['idLog']; ?> </td>
+                                <td>00<?php echo $rows['idLog']; ?> </td>
                                 <td><?php echo $rows['idOrderStat']; ?></td>
                                 <td>[<a href="L1.php?OD=<?php echo $rows['idLog']; ?>">view</a>]</td>
                                 
