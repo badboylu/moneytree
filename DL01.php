@@ -24,7 +24,7 @@ $query="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
 $result=mysqli_query($conn,$query);
 $count=mysqli_num_rows($result);
    if ($count>0){
-         header("Location:DL11.php?username=".$user."&auth=".$authtoken."");
+         header("Location:DL99.php?username=".$user."&auth=".$authtoken."");
          exit();
    }
 ?>
