@@ -6,7 +6,10 @@
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $collected = "Collected";
-$query="SELECT * FROM orderlog WHERE idOrderStat='".$collected."' ";
+$date = date("Y-m-d");
+date_default_timezone_set('Africa/Johannesburg');
+
+$query="SELECT * FROM orderlog WHERE idOrderStat='".$collected."' AND idDate='".$date."'";
 $result=mysqli_query($conn,$query);
 ?>
 <html lang="en">
