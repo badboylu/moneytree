@@ -6,6 +6,9 @@
    $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
    $authtoken = $_GET['auth'];
    $distro = $_GET['username'];
+   $date = date("Y-m-d");
+   date_default_timezone_set('Africa/Johannesburg');
+
    $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -20,19 +23,19 @@
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
-$query3="SELECT * FROM oders WHERE idOrderConfirmation='Prepared'";
+$query3="SELECT * FROM oders WHERE idOrderConfirmation='Prepared' AND idOrderDate='".$date."'";
 $result3=mysqli_query($conn,$query3);
 $count3=mysqli_num_rows($result3);
  if (!$count3){
     $count3='0';
 }
-$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected'";
+$query1="SELECT * FROM deliverytoken WHERE idPrepperToken='Collected' AND idDate='".$date."'";
 $result1=mysqli_query($conn,$query1);
 $count1=mysqli_num_rows($result1);
   if (!$count1){
     $count1='0';
 }
-$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Delivered' ";
+$query2="SELECT * FROM deliverytoken WHERE idPrepperToken='Delivered' AND idDate='".$date."'";
 $result2=mysqli_query($conn,$query2);
 $count2=mysqli_num_rows($result2);
   if (!$count2){
@@ -323,6 +326,4 @@ pay();
 </script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:31:08 GMT -->
 </html>
