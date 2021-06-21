@@ -163,7 +163,7 @@ $result=mysqli_query($conn,$query);
                             ?>
                             <tr>
                                 
-                                <td><?php echo $rows['id']; ?> </td>
+                                <td>00<?php echo $rows['id']; ?> </td>
                                 <td><?php echo $rows['idPrepperToken']; ?></td>
                                 
                                 
