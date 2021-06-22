@@ -57,7 +57,12 @@ th {
   background-color: #04AA6D;
   color: white;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+td {
+  text-align: center;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
 </style>
 </head>
 <body>
