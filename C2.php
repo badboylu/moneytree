@@ -46,7 +46,7 @@ $result=mysqli_query($conn,$query);
 <style>
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 70%;
 }
 th, td {
   padding: 8px;
