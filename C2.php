@@ -50,8 +50,9 @@ width: 50%;
 </style>
 <style>
 table {
-  border-collapse: separate;
-  border-spacing: 20px 0;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100px;
 }
 th, td {
   text-align: left;
