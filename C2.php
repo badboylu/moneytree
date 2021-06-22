@@ -176,7 +176,7 @@ $result=mysqli_query($conn,$query);
                                 
                                 <td>00<?php echo $rows['idOrderNumber']; ?> </td>
                                 <td><?php echo $rows['idOrderStat']; ?></td>
-                                <td>[<a href="L1.php?OD=<?php echo $rows['idLog']; ?>">view</a>]</td>
+                                <td>[<a href="L1.php?OD=<?php echo $rows['idLog']; ?>&username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>">view</a>]</td>
                                 
                                 
 
