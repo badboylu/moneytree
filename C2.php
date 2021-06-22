@@ -46,12 +46,13 @@ $result=mysqli_query($conn,$query);
 <style>
 table {
   border-collapse: collapse;
-  width: 50%;
+  
 }
 th, td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  width: 50%;
 }
 th {
   background-color: #04AA6D;
