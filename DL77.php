@@ -158,7 +158,7 @@ else if($count1>2){
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibu distribution
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
                                     <small>Delivery management</small>
                                 </h3>
                             </div>
