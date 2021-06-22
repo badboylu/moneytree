@@ -56,20 +56,12 @@ table {
 th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
-  
+  margin-right:10px;
+  padding: 10px 0;
 }
 th {
   background-color: #04AA6D;
   color: white;
-}
-td {    
-  display: block;
-  float: left;
-  padding: 10px 0;
-  margin-right:10px;
-}
-td:last-child {
-  margin-right: 0;
 }
 tr:nth-child(even) {
 background-color: #f2f2f2;
