@@ -178,6 +178,7 @@ background-color: #f2f2f2;
                         <h5>Orders to deliver</h5>
                     </div>
                     <div class="card-body vendor-table">
+                        <div class="gap">
                         <table class="display" id="basic-1">
                             <thead>
                             <tr>
@@ -203,6 +204,7 @@ background-color: #f2f2f2;
                             <?php } ?>
                             </tbody>
                         </table>
+                        </div>
                                 <br>
                                 <button onclick='refreshPage();'>
 		                Update
