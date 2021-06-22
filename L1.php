@@ -6,7 +6,7 @@
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 $authtoken = $_GET['auth'];
 $username = $_GET['username'];
-$custi = $_GET['custi'];
+$ordernm = $_GET['OD'];
 
 $sql='SELECT * FROM userauth2 WHERE token=?';
    $stmt=mysqli_stmt_init($conn);
@@ -22,6 +22,14 @@ $sql='SELECT * FROM userauth2 WHERE token=?';
     header("Location:Signin.php?error=notloggedin");
     exit();
 }
+
+$query='SELECT * FROM deliverytoken WHERE id="'.$ordernm.'" ';
+$result=mysqli_query($conn,$query);
+while($row=mysqli_fetch_array($result)){
+ $token[]=$row['idCustomerToken'];
+}
+$custi=Min($token);
+
 $query='SELECT * FROM address WHERE idOrderCustiCode="'.$custi.'" '; 
 $result=mysqli_query($conn,$query);
 $row=mysqli_fetch_array($result);
