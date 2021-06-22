@@ -53,6 +53,10 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+th {
+  background-color: #04AA6D;
+  color: white;
+}
 tr:nth-child(even) {background-color: #f2f2f2;}
 </style>
 </head>
