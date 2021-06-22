@@ -54,7 +54,6 @@ table {
   border-spacing: 20px 0;
 }
 th, td {
-  float:left;
   text-align: left;
   border-bottom: 1px solid #ddd;
   margin-right:10px;
