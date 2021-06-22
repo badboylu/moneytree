@@ -46,7 +46,7 @@ $result=mysqli_query($conn,$query);
 <style>
 table {
   border-collapse: collapse;
-  width: 70%;
+  width: 100px;
 }
 th, td {
   padding: 8px;
@@ -56,9 +56,6 @@ th, td {
 th {
   background-color: #04AA6D;
   color: white;
-}
-td {
-  text-align: center;
 }
 tr:nth-child(even) {
 background-color: #f2f2f2;
