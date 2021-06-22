@@ -43,6 +43,17 @@ $result=mysqli_query($conn,$query);
 
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="admin.css">
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+</style>
 </head>
 <body>
 
