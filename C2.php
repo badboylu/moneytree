@@ -50,8 +50,8 @@ width: 50%;
 </style>
 <style>
 table {
-  border-collapse: collapse;
-  width: 50%;
+  border-collapse: separate;
+  border-spacing: 20px 0;
 }
 th, td {
   padding: 8px;
