@@ -44,6 +44,11 @@ $result=mysqli_query($conn,$query);
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="admin.css">
 <style>
+.gap{
+width: 50%;
+}
+</style>
+<style>
 table {
   border-collapse: collapse;
   width: 50%;
@@ -264,6 +269,4 @@ background-color: #f2f2f2;
 <script src="admin-script.js"></script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
 </html>
