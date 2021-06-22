@@ -193,7 +193,7 @@ else if($count1>2){
                          </form>
                          <span>           </span>
                          <span>
-                         <form action="L1.php" method="get" id="form">
+                         <form action="C2.php" method="get" id="form">
                          <input type="submit" name="Next" value="Start delivery" id="Blanks" ">
                          <input type="hidden" name="auth" value="<?php echo $_GET['auth'] ?>">
                          <input type="hidden" name="username" value="<?php echo $_GET['username'] ?>">
