@@ -177,7 +177,7 @@ else if($count1>2){
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order collected</h5>
+                        <h5>Order <span style="color:seagreen;">collected</span></h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
