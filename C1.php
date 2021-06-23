@@ -124,15 +124,15 @@ $result=mysqli_query($conn,$query);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Collection codes
-                                    <small>Distribution Agent</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Preparation agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
                                 
-                                <li class="breadcrumb-item">collection log</li>
+                                <li class="breadcrumb-item">Collection codes</li>
                                 
                             </ol>
                         </div>
@@ -145,7 +145,7 @@ $result=mysqli_query($conn,$query);
             <div class="container-fluid" width="4000px">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Driver collection log</h5>
+                        <h5>Codes</h5>
                     </div>
                     <div class="card-body vendor-table">
                         <table class="display" id="basic-1">
