@@ -151,14 +151,14 @@ $count5=$count2+$count4;
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Dashboard
-                                    <small>Distribution Agent</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Driver Agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="indexAdmin.html"><i data-feather="home"></i></a></li>
+                                <li class="breadcrumb-item"><i data-feather="home"></i></li>
                                 <li class="breadcrumb-item active">Dashboard</li>
                             </ol>
                         </div>
