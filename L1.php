@@ -46,7 +46,7 @@ $row=mysqli_fetch_array($result);
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
     <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png" type="image/x-icon">
-    <title>Delivery Agent</title>
+    <title>Driver Agent</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -101,7 +101,7 @@ $row=mysqli_fetch_array($result);
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Delivery Agent</p>
+                    <p>Driver Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="DLH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -158,8 +158,8 @@ $row=mysqli_fetch_array($result);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibu delivery
-                                    <small>Delivery management</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Driver Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -264,7 +264,7 @@ $row=mysqli_fetch_array($result);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 Plug Tech Creations.</p>
+                        <p class="mb-0">© 2021 Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></p>
                     </div>
                    
                 </div>
@@ -366,6 +366,4 @@ hideOrder1();
 </script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/list-vendor.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:38:33 GMT -->
 </html>
