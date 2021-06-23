@@ -157,10 +157,7 @@ $count5=$count2+$count4;
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><i data-feather="home"></i></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
-                            </ol>
+                            
                         </div>
                     </div>
                 </div>
