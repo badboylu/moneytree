@@ -105,7 +105,7 @@ $count5=$count2+$count4;
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Distribution Agent</p>
+                    <p>Preparation Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -152,7 +152,7 @@ $count5=$count2+$count4;
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3><span style="color:seagreen;">Canibu</span> distribution
-                                    <small>Driver Agent</small>
+                                    <small>Preparation Agent</small>
                                 </h3>
                             </div>
                         </div>
