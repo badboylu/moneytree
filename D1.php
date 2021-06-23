@@ -91,7 +91,7 @@ $count=mysqli_num_rows($result);
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Distribution Agent</p>
+                    <p>Preparation Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="PH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -136,15 +136,13 @@ $count=mysqli_num_rows($result);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibu distribution
-                                    <small>Distribution management</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Preparation Agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active"><span>Orders pending:</span> <?php print_r($count); ?></li>
-                            </ol>
+                            
                         </div>
                     </div>
                 </div>
@@ -155,7 +153,7 @@ $count=mysqli_num_rows($result);
             <div class="container-fluid" width="100%">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Order prepared</h5>
+                        <h5>Order <span style="color:seagreen;">prepared</span></h5>
                     </div>
                     <div class="card-body vendor-table" >
                          <div id="hideON">
