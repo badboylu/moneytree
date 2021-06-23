@@ -103,7 +103,7 @@ background-color: #f2f2f2;
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Delivery Agent</p>
+                    <p>Driver Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="DLH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -160,8 +160,8 @@ background-color: #f2f2f2;
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Order log
-                                    <small>Delivery Agent</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Driver Agent</small>
                                 </h3>
                             </div>
                         </div>
@@ -227,7 +227,7 @@ background-color: #f2f2f2;
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2021 Kahrent Technology Africa Creations.</p>
+                        <p class="mb-0">© 2021 Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></p>
                     </div>
                    
                 </div>
