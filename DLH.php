@@ -115,7 +115,7 @@ $count2=mysqli_num_rows($result2);
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Delivery Agent</p>
+                    <p>Driver Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -170,16 +170,13 @@ $count2=mysqli_num_rows($result2);
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Dashboard
-                                    <small>Delivery Agent</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Driver Agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="indexAdmin.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
-                            </ol>
+                            
                         </div>
                     </div>
                 </div>
