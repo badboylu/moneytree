@@ -95,7 +95,7 @@ else{
                     <div>
                     </div>
                     <h6 class="mt-3 f-14"><?php echo $_GET['username'];?></h6>
-                    <p>Distribution Agent</p>
+                    <p>Preparation Agent</p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="PH.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
@@ -140,14 +140,14 @@ else{
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Canibu distribution
-                                    <small>Distribution management</small>
+                                <h3><span style="color:seagreen;">Canibu</span> distribution
+                                    <small>Preparation agent</small>
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item active">Pending orders:<span> </span> <?php print_r($count); ?></li>
+                                <li class="breadcrumb-item active"><span style="color:seagreen;">Pending order/s:</span><span> </span> <?php print_r($count); ?></li>
                             </ol>
                         </div>
                     </div>
