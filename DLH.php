@@ -176,7 +176,7 @@ $count2=mysqli_num_rows($result2);
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <span style="color:grey;"><?php echo $date; ?></span>
+                            <span style="color:grey;"><small><?php echo $date; ?></small></span>
                         </div>
                     </div>
                 </div>
