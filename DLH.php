@@ -237,14 +237,7 @@ $count2=mysqli_num_rows($result2);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-
-                        <p class="mb-0">© 2020 Created by 
-
-<span style="color: orange;">
-Plug
-</span>
-	Tech Creations
-</p>
+                        <p class="mb-0">© 2021 Powered by the <a href="https://www.saps.gov.za">SAPS</a> and the <a href="https://www.tia.org.za">TIA</a></p>
                     </div>
                     <div class="col-md-6">
                         <p class="pull-right mb-0">Premium e-commerce solutions</p>
