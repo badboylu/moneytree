@@ -1,12 +1,12 @@
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="profile" 
-href="http://gmpg.org/xfn/11">
-<link rel="pingback" 
-href="Backend/xmlrpc.html">
-<title>Legal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Canibu is a website application that is powered by the South African police service (SAPS) and the Technology innovation agency (TIA) for the purpose of disposing cannabis.">
+    <meta name="keywords" content="Canibu, canibu, canibu.co.za, cannabis disposal agency, cannabis, disposal, powered by SAPS, powered by TIA">
+    <meta name="author" content="Kahrent Technology Africa (Pty) Ltd">
+<title>Canibu-Legal</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
@@ -20,14 +20,6 @@ input[type=submit]{
   margin-top: 20px;
 }
 </style>
-<link rel='dns-prefetch' 
-href='http://fonts.googleapis.com/' />
-<link rel='dns-prefetch' 
-href='http://basel-cec2.kxcdn.com/' />
-<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" 
-href="../../feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Comments Feed" 
-href="../../comments/feed/index.html" />  
  <style id='rs-plugin-settings-inline-css' type='text/css'>.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}</style>
  <style id='woocommerce-inline-inline-css' type='text/css'>.woocommerce form .form-row .required{visibility:visible}
 </style>
@@ -41,18 +33,6 @@ href="../../comments/feed/index.html" />
 	<script type='text/javascript' 
 	src='jquery-1.12.4-wp.js'>
 </script> 
-<script type='text/javascript'>/* <![CDATA[ */ 
-var wc_add_to_cart_params = {"ajax_url":"\/basel\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/basel\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/demo.xtemos.com\/basel\/cart\/","is_cart":"","cart_redirect_after_add":"no"}; /* ]]> */
-</script> <!--[if lt IE 9]> <script type='text/javascript' src='https://basel-cec2.kxcdn.com/basel/wp-content/themes/basel/js/html5.min.js?ver=5.1.0'></script> <![endif]-->
-<link rel='https://api.w.org/' 
-href='../../wp-json/index.html' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" 
-href="../../xmlrpc0db0.html?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" 
-href="../../wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 5.3.2" /><meta name="generator" content="WooCommerce 3.9.2" />
-<link rel="canonical" 
-href="cannacaps.html" />
-<link rel='shortlink' href='../../indexa726.html?p=19922' /><meta name="theme-color" content="">
 <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
 	
