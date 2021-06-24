@@ -21,17 +21,8 @@ input[type=submit]{
 }
 </style>
  <style id='rs-plugin-settings-inline-css' type='text/css'>.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}</style>
- <style id='woocommerce-inline-inline-css' type='text/css'>.woocommerce form .form-row .required{visibility:visible}
-</style>
- <link rel='stylesheet' id='xts-google-fonts-css'  
- href='https://fonts.googleapis.com/css?family=Karla%3A400%2C700%2C400italic%2C700italic%7CLora%3A400%2C700%2C400italic%2C700italic%7CLato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic&amp;subset=latin&amp;ver=5.1.0' type='text/css' media='all' /> <script type="text/template" id="tmpl-variation-template"><div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
-	<div class="woocommerce-variation-price">
-	{{{ data.variation.price_html }}}
-	</div>
-	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div></script> <script type="text/template" id="tmpl-unavailable-variation-template"><p>Sorry, this product is unavailable. Please choose a different combination.</p></script> 
-	<script type='text/javascript'>/* <![CDATA[ */ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/demo.xtemos.com\/basel","hash_tracking":"false"}; /* ]]> */</script> 
-	<script type='text/javascript' 
-	src='jquery-1.12.4-wp.js'>
+ </style>
+<script type='text/javascript' src='jquery-1.12.4-wp.js'>
 </script> 
 <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
