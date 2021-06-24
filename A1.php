@@ -6,7 +6,7 @@
     <meta name="description" content="Canibu is a website application that is powered by the South African police service (SAPS) and the Technology innovation agency (TIA) for the purpose of disposing cannabis.">
     <meta name="keywords" content="Canibu, canibu, canibu.co.za, cannabis disposal agency, cannabis, disposal, powered by SAPS, powered by TIA">
     <meta name="author" content="Kahrent Technology Africa (Pty) Ltd">
-<title>Canibu-Legal</title>
+<title>Canibu - Legal</title>
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
