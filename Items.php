@@ -10,10 +10,11 @@ $authtoken = $_GET['auth'];
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="../xmlrpc.html">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Canibu is a website application that is powered by the South African police service (SAPS) and the Technology innovation agency (TIA) for the purpose of disposing cannabis.">
+    <meta name="keywords" content="Canibu, canibu, canibu.co.za, cannabis disposal agency, cannabis, disposal, powered by SAPS, powered by TIA">
+    <meta name="author" content="Kahrent Technology Africa (Pty) Ltd">
 	<title>
 		Canibu
 	</title>
@@ -22,24 +23,8 @@ $authtoken = $_GET['auth'];
         <link rel="stylesheet" href="Added.css" />
         <link rel="stylesheet" href="Added2.css" />
 	<link rel="stylesheet" href="plugtech.css"/>
-	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-	<link rel='dns-prefetch' href='http://basel-cec2.kxcdn.com/' />
-	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Feed" href="../feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Comments Feed" href="../comments/feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Basel &raquo; Products Feed" href="feed/index.html" />  
 	<style id='rs-plugin-settings-inline-css' type='text/css'>.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}</style>
-	<style id='woocommerce-inline-inline-css' type='text/css'>.woocommerce form .form-row .required{visibility:visible}
-	</style>
-	<link rel='stylesheet' id='xts-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Karla%3A400%2C700%2C400italic%2C700italic%7CLora%3A400%2C700%2C400italic%2C700italic%7CLato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic&amp;subset=latin&amp;ver=5.1.0' type='text/css' media='all' /> 
 	
-
- <!--[if lt IE 9]> <script type='text/javascript' src='https://basel-cec2.kxcdn.com/basel/wp-content/themes/basel/js/html5.min.js?ver=5.1.0'></script> <![endif]-->
- <link rel='https://api.w.org/' href='../wp-json/index.html' />
- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
- <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
- <meta name="generator" content="WordPress 5.3.2" />
- <meta name="generator" content="WooCommerce 3.9.2" />
- <meta name="theme-color" content="">
  <link rel="shortcut icon" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://res.cloudinary.com/ddjrcafre/image/upload/c_scale,w_100/v1621676015/1200px-SAPS_badge.svg_hiit7p.png">
  <style>
