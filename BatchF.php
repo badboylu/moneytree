@@ -15,6 +15,7 @@ $authtoken = $_GET['auth'];
     <meta name="keywords" content="Canibu, canibu, canibu.co.za, cannabis disposal agency, cannabis, disposal, powered by SAPS, powered by TIA">
     <meta name="author" content="Kahrent Technology Africa (Pty) Ltd">
 <title>Canibu - Batch F</title>
+<link rel="stylesheet" href="Added.css" />
 <link rel="stylesheet" 
 href="c7c58cca0fc9c8acb3530bf8cbf53297.css" 
 data-minify="1" />
