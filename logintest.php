@@ -181,7 +181,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 }
 }   
 
-$sql="SELECT * FROM alfauser WHERE emailUser=? OR uidUsers=? ";
+$sql="SELECT * FROM alfauser WHERE idAlfa=? OR idEmail=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=user1");
@@ -196,7 +196,7 @@ if (!$count>0){
     header("Location:Signin.php?error=wrnguid");
     exit();
 }else if ($count>0){
-   $sql='SELECT pwdUsers FROM users WHERE emailUser="'.$uid.'" OR uidUsers="'.$uid.'"';
+   $sql='SELECT idPassword FROM alfauser WHERE idEmail="'.$uid.'" OR idAlfa="'.$uid.'"';
    $stmt=mysqli_stmt_init($conn);
  if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=pwd");
