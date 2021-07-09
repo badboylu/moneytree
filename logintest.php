@@ -181,7 +181,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
 }
 }   
 
-$sql="SELECT * FROM users WHERE emailUser=? OR uidUsers=? ";
+$sql="SELECT * FROM alfauser WHERE emailUser=? OR uidUsers=? ";
 $stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:Signin.php?error=user1");
@@ -220,7 +220,7 @@ if(!mysqli_stmt_prepare($stmt, $sql)){
  mysqli_stmt_bind_param($stmt,"ss",$uid,$token);
  mysqli_stmt_execute($stmt);
  
-    header("Location:Shop.php?login=successful"."&auth=".$token."&username=".$uid);
+    header("Location:Alpha.php?login=successful"."&auth=".$token."&username=".$uid);
     exit();
 
 } else {
