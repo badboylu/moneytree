@@ -169,30 +169,11 @@ $totalearnings=$delivered*60;
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="Distro.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Agents</span></a>
-                        <ul class="sidebar-submenu">
-                            <li>
-                                <a href="#"><i class="fa fa-circle"></i>
-                                    <span>Prepper</span>
-                                </a>
-                            </li>
-                           
-                        </ul>
-                    </li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="user-plus"></i><span>Recruitment</span></a>
-                        <ul class="sidebar-submenu">
-                            <li>
-                                <a href="RP.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>
-                                    <span>Add Prepper</span> 
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </li>
+                   
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Stock management</span></a>
                      <ul class="sidebar-submenu">
                             <li><a href="ST1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Recieve</a></li>
-                            <li><a href="#"><i class="fa fa-circle"></i>Stock log</a></li>
+                            <li><a href="ST2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Distribute</a></li>
                      </ul>  
                     </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
@@ -225,10 +206,7 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <ol class="breadcrumb pull-right">
-                                <li class="breadcrumb-item"><a href="indexAdmin.html"><i data-feather="home"></i></a></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
-                            </ol>
+                           
                         </div>
                     </div>
                 </div>
@@ -259,55 +237,7 @@ $totalearnings=$delivered*60;
                                     <div class="icons-widgets col-4">
                                         <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
                                     </div>
-                                    <div class="media-body col-8"><span class="m-0">Prepared orders</span>
-                                        <h3 class="mb-0"><span><?php echo $prepared; ?></span><small> Today</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden  widget-cards">
-                            <div class="bg-secondary card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Collected orders</span>
-                                        <h3 class="mb-0"><span><?php echo $collected; ?></span><small> Today</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden widget-cards">
-                            <div class="bg-danger card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Preparation Agents</span>
-                                        <h3 class="mb-0"><span><?php echo $resultCheckPrep; ?></span><small> Active</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden widget-cards">
-                            <div class="bg-danger card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="users" class="font-danger"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Driver Agents</span>
-                                        <h3 class="mb-0"><span><?php echo $resultCheck; ?></span><small> Active</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                   
                    
                     <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden widget-cards">
@@ -323,20 +253,7 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden widget-cards">
-                            <div class="bg-warning card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="navigation" class="font-warning"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Distro earnings</span>
-                                        <h3 class="mb-0">R <span><?php echo $totalearnings; ?></span><small> Today</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     
                     <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden widget-cards">
@@ -352,24 +269,11 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden widget-cards">
-                            <div class="bg-primary card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="message-square" class="font-primary"></i></div>
-                                    </div>
-                                    <div class="media-body col-8"><span class="m-0">Late deliveries</span>
-                                    <h3 class="mb-0"><span>893</span><small> Today</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Performance highlight</h5>
+                                <h5>Distro point stock-level overview</h5>
                                 <div class="card-header-right">
                                     <ul class="list-unstyled card-option">
                                         <li><i class="icofont icofont-simple-left"></i></li>
