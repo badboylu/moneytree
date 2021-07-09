@@ -10,8 +10,14 @@
   $prepared = 'Prepared';
   $collected = 'Collected';
   $delivered = 'Delivered';
+  $query='SELECT * FROM distrouser WHERE idDistro="'.$username.'" ';
+  $result=mysqli_query($conn,$query);
+  while($row=mysqli_fetch_array($result)){
+   $location[]=$row['idLocation'];
+  }
+  $locae=Min($location);
   $sql="SELECT idDriver FROM driveruser WHERE idLocation=?";
-  $stmt=mysqli_stmt_init($conn);
+$stmt=mysqli_stmt_init($conn);
   if(!mysqli_stmt_prepare($stmt,$sql)){
        header("Location:RDR2.php?error=SQL1");
        exit();
@@ -106,7 +112,7 @@ $totalearnings=$delivered*60;
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Distribution Agent</title>
+    <title>Alfa agent</title>
 
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -165,15 +171,16 @@ $totalearnings=$delivered*60;
             <div class="sidebar custom-scrollbar">
                 <div class="sidebar-user text-center">
                     <h6 class="mt-3 f-14"><?php echo $username ?></h6>
-                
+                     <p><?php echo $locae ?></p>
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="Distro.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                   
+                  
+                    
                     <li><a class="sidebar-header" href="#"><i data-feather="chrome"></i><span>Stock management</span></a>
                      <ul class="sidebar-submenu">
                             <li><a href="ST1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Recieve</a></li>
-                            <li><a href="ST2.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Distribute</a></li>
+                            <li><a href="ST1.php?username=<?php echo $_GET['username'];?>&auth=<?php echo $_GET['auth'];?>&location=<?php echo $locae ?>"><i class="fa fa-circle"></i>Distribute</a></li>
                      </ul>  
                     </li>
                     <li><a class="sidebar-header" href="#"><i data-feather="clipboard"></i><span>Order log</span></a>
@@ -189,7 +196,80 @@ $totalearnings=$delivered*60;
         </div>
         <!-- Page Sidebar Ends-->
 
-      
+        <!-- Right sidebar Start-->
+        <div class="right-sidebar" id="right_side_bar">
+            <div>
+                <div class="container p-0">
+                    <div class="modal-header p-l-20 p-r-20">
+                        <div class="col-sm-8 p-0">
+                            <h6 class="modal-title font-weight-bold">FRIEND LIST</h6>
+                        </div>
+                        <div class="col-sm-4 text-right p-0"><i class="mr-2" data-feather="settings"></i></div>
+                    </div>
+                </div>
+                <div class="friend-list-search mt-0">
+                    <input type="text" placeholder="search friend"><i class="fa fa-search"></i>
+                </div>
+                <div class="p-l-30 p-r-30">
+                    <div class="chat-box">
+                        <div class="people-list friend-list">
+                            <ul class="list">
+                                <li class="clearfix"><img class="rounded-circle user-image" src="user.png" alt="">
+                                    <div class="status-circle online"></div>
+                                    <div class="about">
+                                        <div class="name">Vincent Porter</div>
+                                        <div class="status"> Online</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="user1.jpg" alt="">
+                                    <div class="status-circle away"></div>
+                                    <div class="about">
+                                        <div class="name">Ain Chavez</div>
+                                        <div class="status"> 28 minutes ago</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="user2.jpg" alt="">
+                                    <div class="status-circle online"></div>
+                                    <div class="about">
+                                        <div class="name">Kori Thomas</div>
+                                        <div class="status"> Online</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="user3.jpg" alt="">
+                                    <div class="status-circle online"></div>
+                                    <div class="about">
+                                        <div class="name">Erica Hughes</div>
+                                        <div class="status"> Online</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="man.png" alt="">
+                                    <div class="status-circle offline"></div>
+                                    <div class="about">
+                                        <div class="name">Ginger Johnston</div>
+                                        <div class="status"> 2 minutes ago</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="user5.jpg" alt="">
+                                    <div class="status-circle away"></div>
+                                    <div class="about">
+                                        <div class="name">Prasanth Anand</div>
+                                        <div class="status"> 2 hour ago</div>
+                                    </div>
+                                </li>
+                                <li class="clearfix"><img class="rounded-circle user-image" src="designer.jpg" alt="">
+                                    <div class="status-circle online"></div>
+                                    <div class="about">
+                                        <div class="name">Hileri Jecno</div>
+                                        <div class="status"> Online</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right sidebar Ends-->
 
         <div class="page-body">
 
@@ -199,7 +279,7 @@ $totalearnings=$delivered*60;
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="page-header-left">
-                                <h3>Dashboard
+                                <h3>Stock management
                                     <small>Alfa panel</small>
                                 <p></p>
                                 </h3>
@@ -230,14 +310,7 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                     </div>
-                   <div class="col-xl-3 col-md-6 xl-50">
-                        <div class="card o-hidden  widget-cards">
-                            <div class="bg-secondary card-body">
-                                <div class="media static-top-widget row">
-                                    <div class="icons-widgets col-4">
-                                        <div class="align-self-center text-center"><i data-feather="box" class="font-secondary"></i></div>
-                                    </div>
-                                   
+                 
                    
                     <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden widget-cards">
@@ -253,8 +326,7 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                     </div>
-                   
-                    
+                
                     <div class="col-xl-3 col-md-6 xl-50">
                         <div class="card o-hidden widget-cards">
                             <div class="bg-primary card-body">
@@ -269,11 +341,11 @@ $totalearnings=$delivered*60;
                             </div>
                         </div>
                     </div>
-                   
+               
                     <div class="col-xl-6 xl-100">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Distro point stock-level overview</h5>
+                                <h5>Performance highlight</h5>
                                 <div class="card-header-right">
                                     <ul class="list-unstyled card-option">
                                         <li><i class="icofont icofont-simple-left"></i></li>
@@ -447,6 +519,4 @@ $totalearnings=$delivered*60;
 <script src="admin-script.js"></script>
 
 </body>
-
-<!-- Mirrored from themes.pixelstrap.com/multikart/back-end/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Oct 2020 12:31:08 GMT -->
 </html>
