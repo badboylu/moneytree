@@ -6,7 +6,7 @@ $token= bin2hex(random_bytes(16));
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Canibu is a website application that is powered by the South African police service (SAPS) and the Technology innovation agency (TIA) for the purpose of disposing cannabis.">
+    <meta name="description" content="Cannabis Disposal Agency powered by the SAPS and the TIA">
     <meta name="keywords" content="Canibu, canibu, canibu.co.za, cannabis disposal agency, cannabis, disposal, powered by SAPS, powered by TIA">
     <meta name="author" content="Kahrent Technology Africa (Pty) Ltd">
     <meta name="google-site-verification" content="GBPu-caHlQbXXit81AZCLNw98tL0XUFABpwSJUSdiUI" />
