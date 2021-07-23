@@ -8,6 +8,15 @@ $authtoken = $_GET['auth'];
 ?>
 <html lang="en-US">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-203117545-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-203117545-1');
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
