@@ -15,6 +15,15 @@ $token= bin2hex(random_bytes(16));
     <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="iofrm-style.css">
     <link rel="stylesheet" type="text/css" href="iofrm-theme17.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-203117545-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-203117545-1');
+</script>
 </head>
 <body>
     <div class="form-body without-side">
